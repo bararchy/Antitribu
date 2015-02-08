@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\monster\gargoyle\vb_cg_gargoyle_01"
+	//"$translucent" "1"
+	//"$additive" "1"
+}

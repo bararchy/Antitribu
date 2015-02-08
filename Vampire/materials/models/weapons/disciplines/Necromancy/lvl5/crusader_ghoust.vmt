@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\disciplines\Necromancy\lvl5\crusader_ghoust"
+	"$translucent"	1
+	"$additive"	1
+}

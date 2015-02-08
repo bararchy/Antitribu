@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+
+//	"$basetexture" 	"a_new_maps/sab_dogsheaven/fon3"
+//	"$surfaceprop" 	"metalpanel"
+//	"$envmap" 	"env_cubemap"
+//	"$envmapmask" 	"a_new_maps/sab_dogsheaven/fon3_ref"
+
+	"$basetexture" "building/wrhsbldgi"
+	"$surfaceprop" "concrete"
+}

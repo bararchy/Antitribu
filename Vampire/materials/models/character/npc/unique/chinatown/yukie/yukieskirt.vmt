@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\chinatown\yukie\yukieskirt"
+	"$nocull" 	"1"
+	//"$no_draw" 	"1"
+}

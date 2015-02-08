@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\pc_antitribu\female\old_clan_tzimisce\oct_f_body3"
+	"$envmapmask"  	"models\character\pc_antitribu\female\old_clan_tzimisce\oct_f_body3_ref"
+	"$envmap" 	"env_cubemap"
+	"$alphatest" 	"1"
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\pc_antitribu\male\tzimisce\tz_m_body3"
+	"$envmapmask"  	"models\character\pc_antitribu\male\tzimisce\tz_m_body3_ref"
+	"$envmap"	"env_cubemap"
+}

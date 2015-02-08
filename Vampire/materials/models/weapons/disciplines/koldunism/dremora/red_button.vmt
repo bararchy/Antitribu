@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	//"$basetexture"	"models\character\npc\unique\downtown\bomb_guy\red_button"
+	"$baseTexture" 	"models/null0"
+	"$alphatest" 	"1"
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/character/npc/common/stripper/misti_dress/misti_dress_hair"
+	//"$translucent" "1"
+	"$nocull" 	"1"
+	"$alphatest" 	"1"
+}

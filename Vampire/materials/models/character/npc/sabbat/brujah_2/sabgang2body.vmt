@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/character/npc/sabbat/brujah_2/SabGang2Body"
+	"$envmapmask"  	"models/character/npc/sabbat/brujah_2/SabGang2Body_ref"
+	"$envmap"	"env_cubemap"
+}

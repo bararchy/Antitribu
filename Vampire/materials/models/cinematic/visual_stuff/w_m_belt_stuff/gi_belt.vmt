@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\cinematic\visual_stuff\w_m_belt_stuff\gi_belt"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+}

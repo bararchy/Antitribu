@@ -1,0 +1,22 @@
+VertexLitGeneric
+{
+//	"$basetexture"	"models\weapons\disciplines\Necromancy\skeleton_ghost\body\body"
+//	"$selfillum"	"1"
+//	"$additive"	"1"
+//	"$alphatest" 	"1"
+//	"$nocull" 	"1" 
+//	"Proxies"
+//	{
+//		"Sine"
+//		{
+//			"resultVar"	"$selfillumtint"
+//			"sineperiod"	2
+//			"sinemin"	0
+//			"sinemax"	1
+//			"timeoffset"	3
+//		}
+//	}
+
+	"$baseTexture" "models/character/monster/undead/fem_sceleton_body"
+	"$translucent"	"1"
+}

@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"		"models/cinematic/visual_stuff/ninja_stuff/ninjato_left"
+	"$envmapmask"		"models/weapons/arsenal_mod/knife/knife02_spec"
+	"$envmap"	   	"envmap/havenrm"
+	"$envmapmode" 		"1"
+	"$color"		"[1 1 1]"
+	"$nocull" 		"1"
+}

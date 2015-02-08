@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/cinematic/visual_stuff/sceleton_stuff/chainmail/chainmail_black"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+	"$envmapmask"   "models/cinematic/visual_stuff/sceleton_stuff/chainmail/chainmail_ref"
+	"$envmap"	"env_cubemap"
+}

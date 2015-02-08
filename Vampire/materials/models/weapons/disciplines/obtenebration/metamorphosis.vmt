@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+
+	"$baseTexture"	"models\weapons\disciplines\obtenebration\metamorphosis"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+}

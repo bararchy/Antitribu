@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"		"models\scenery\vehicles\1974dodgemonaco\1974dodgemonaco"
+	"$envmap" 		"env_cubemap"
+	"$envmapmask" 		"models\scenery\vehicles\1974dodgemonaco\1974dodgemonaco_ref"
+	"$surfaceprop"		"metal"
+
+}

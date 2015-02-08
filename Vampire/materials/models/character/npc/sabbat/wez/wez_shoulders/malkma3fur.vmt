@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/character/npc/sabbat/wez/wez_shoulders/MalkMA3fur"
+//	"$translucent"	"1"
+	"$fuzztexture" "models/character/npc/sabbat/wez/wez_shoulders/MalkMA3fur"
+	"$fuzzoffset"	".7"
+	"$fuzzedgeopacity"	"1"
+	"$fuzzfaceopacity"	"2"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"	
+}
+	

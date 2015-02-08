@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\kuejin_ninja\chang1bodynormal"
+	"$normalmapalphaenvmapmask" "1"
+}

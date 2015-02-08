@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\arsenal_mod\m79\m79_info"
+	"$nocull" 	"1"
+}

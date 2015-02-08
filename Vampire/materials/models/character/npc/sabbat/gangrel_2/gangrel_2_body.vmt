@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\gangrel_2\gangrel_2_body"
+	"$envmapmask"  	"models\character\npc\sabbat\gangrel_2\gangrel_2_body_ref"
+	"$envmap"	"env_cubemap"
+}

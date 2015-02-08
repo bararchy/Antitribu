@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\common\citizen\female5\hair"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+}

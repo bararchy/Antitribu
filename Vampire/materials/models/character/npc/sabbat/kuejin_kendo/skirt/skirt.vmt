@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\kuejin_kendo\skirt\skirt"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+}

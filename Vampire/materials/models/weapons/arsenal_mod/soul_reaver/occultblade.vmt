@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/weapons/arsenal_mod/soul_reaver/occultblade"
+	"$surfaceprop" "metal"
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\common\stripper\stripper4\stripper4body"
+	//"$envmapmask"  	"models\character\npc\common\stripper\stripper4\stripper4body_ref"
+	//"$envmap"	"env_cubemap"
+}

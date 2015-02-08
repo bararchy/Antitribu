@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\cinematic\visual_stuff\amt_hardballer\amt_hardballer"
+	"$envmapmask"   "models\cinematic\visual_stuff\amt_hardballer\amt_hardballer_ref"
+	"$envmap"	"env_cubemap"
+
+	"$nocull" 	"1" 
+}

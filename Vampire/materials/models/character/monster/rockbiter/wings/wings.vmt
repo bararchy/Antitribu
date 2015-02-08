@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\monster\rockbiter\wings\wings"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+
+}

@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/cinematic/visual_stuff/sceleton_stuff/gardbrace/gardbrace"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+	"$envmapmask"   "models/cinematic/visual_stuff/sceleton_stuff/gardbrace/gardbrace_ref"
+	"$envmap"	"env_cubemap"
+}

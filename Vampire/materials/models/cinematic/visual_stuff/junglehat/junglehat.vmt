@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\cinematic\visual_stuff\junglehat\junglehat"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+}

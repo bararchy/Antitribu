@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\cinematic\visual_stuff\woodneedles\woodneedles"
+	"$surfaceprop" 	"wood"
+
+}

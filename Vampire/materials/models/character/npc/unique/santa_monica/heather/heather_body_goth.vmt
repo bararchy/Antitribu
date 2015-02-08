@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\santa_monica\heather\heather_body_goth"
+	"$envmapmask"	"models\character\npc\unique\santa_monica\heather\heatherbodytargaGOTHlatexspec"
+	"$envmap" 	"env_cubemap"
+	//"$no_draw" 	"1"
+}

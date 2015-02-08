@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+	"$basetexture"	"hud\inventory_images\arsenal_mod\weapons_ranged\sawed_off"
+	"$translucent"	1
+	"$additive"	0
+	"$vertexcolor"	1
+	"$ignorez"	1
+}

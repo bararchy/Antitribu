@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\victoria\victoria_body"
+	"$bumpmap"	"models\character\npc\sabbat\victoria\skin_normal"
+	//"$envmap"	"envmap\specmap"
+	//"$normalmapalphaenvmapmask" "1"
+	
+	//"$selfillum"	"1"
+}	
+

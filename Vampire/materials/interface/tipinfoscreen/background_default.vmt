@@ -1,0 +1,18 @@
+UnlitGeneric
+{
+	//"$basetexture" "effects/SlideShow/slide"
+	"$basetexture" "interface\tipinfoscreen\background_default"
+	//"$basetexture" "a_new_maps/tv_nos/tv_nos"
+//	"$selfillum" "1"
+
+ "Proxies"
+ {
+  "AnimatedTexture"
+  {
+    "animatedTextureVar" "$basetexture"
+    "animatedTextureFrameNumVar" "$frame"
+    //"animatedTextureFrameRate" "1.5"
+    "animatedTextureFrameRate" "7"
+  }
+ }
+}

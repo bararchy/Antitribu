@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+ 	"$basetexture"	"models\character\npc\sabbat\tremere_antitribu\blood_shield\bloodshield"
+	"$envmapmask" 	"models\character\npc\sabbat\tremere_antitribu\blood_shield\bloodshield_spec"
+	"$envmap" 	"env_cubemap"
+        "$nocull" 	"1"	
+	"$translucent" 	"1"
+}

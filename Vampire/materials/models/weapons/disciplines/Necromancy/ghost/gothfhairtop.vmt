@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\disciplines\Necromancy\ghost\gothfhairtop"
+	"$selfillum"	"1"
+}

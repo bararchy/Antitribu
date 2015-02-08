@@ -1,0 +1,9 @@
+UnlitGeneric
+{
+	"$basetexture"	"hud\inventory_images\arsenal_mod\weapons_ranged\mp5k"
+	"$translucent"	1
+	"$additive"	0
+	"$vertexcolor"	1
+	"$ignorez"	1
+
+}

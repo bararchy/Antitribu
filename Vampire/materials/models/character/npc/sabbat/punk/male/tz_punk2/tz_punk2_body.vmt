@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\punk\male\tz_punk2\tz_punk2_body"
+	"$nocull" 	"1"
+}

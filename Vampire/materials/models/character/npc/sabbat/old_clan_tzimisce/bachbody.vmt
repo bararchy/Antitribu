@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\old_clan_tzimisce\bachbody"	
+	"$envmapmask"   "models\character\npc\sabbat\old_clan_tzimisce\bachbody_ref"
+	"$envmap"	"env_cubemap"
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\cinematic\visual_stuff\ninja_stuff\shuriken"
+	//"$color"		"[1 1 1]"
+	"$surfaceprop" 		"metal"
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\sabbat_ghoul_4\shoulders\shoulders"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+}

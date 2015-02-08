@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/character/npc/sabbat/brujah_4/armor0/malkFBangs"
+	"$translucent"	"1"
+	$no_draw 1
+}

@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/character/npc/sabbat/tzimisce_female/hair_1"
+	"$nocull" 	"1"
+}

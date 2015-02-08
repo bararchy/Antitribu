@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\santa_monica\heather\heather_hair_goth"
+	"$translucent" 	"1"
+	//"$nocull" 	"1"
+	"$alphatest" 	"1"
+}

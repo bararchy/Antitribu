@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\cinematic\visual_stuff\axe_stuff\poleaxe"
+	"$envmapmask"	"models\cinematic\visual_stuff\axe_stuff\poleaxe_ref"
+	"$envmap"	"env_cubemap"
+}

@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/weapons/arsenal_mod/mp5k/mp5k_wield"
+	"$envmapmask"   "models/weapons/arsenal_mod/mp5k/mp5k_wield_ref"
+	"$envmap"	"env_cubemap"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+}

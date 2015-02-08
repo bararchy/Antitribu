@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"models/weapons/arsenal_mod/smith&wesson/scofield_weild"
+	"$envmapmask"	"models/weapons/arsenal_mod/smith&wesson/scofield_weild_Spec"
+	"$envmap"	"env_cubemap"
+}

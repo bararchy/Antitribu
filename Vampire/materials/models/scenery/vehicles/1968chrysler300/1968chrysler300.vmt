@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"		"models\scenery\vehicles\1968chrysler300\1968chrysler300"
+	"$envmapmask"		"models\scenery\vehicles\1968chrysler300\1968chrysler300_ref"
+	"$envmap"		"env_cubemap"
+	"$surfaceprop"		"metal"
+	//"$selfillum"		"1"
+}

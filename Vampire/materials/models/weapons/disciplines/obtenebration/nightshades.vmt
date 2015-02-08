@@ -1,0 +1,35 @@
+"VertexLitGeneric"
+{
+
+	"$baseTexture"	"models\weapons\disciplines\obtenebration\nightshades"
+	//"$alphatest" 	"1"
+	//"$nocull" 	"1"
+
+	"$translucent" "1"
+	"$temp" "[ 0 0 ]"
+
+	"Proxies"
+	{
+		"Sine"
+		{
+			"resultVar" 	"$temp[0]"
+			"sineperiod" 	2.00
+			"sinemin" 	.6
+			"sinemax"	1
+		}
+		"TextureTransform"
+		{
+			"resultVar" 	"$baseTextureTransform"
+			"translateVar" 	"$temp"
+		}
+
+		"Sine"
+		{
+			"resultVar" 	"$alpha"
+			"sineperiod" 	2.00
+			"sinemin" 	1
+			"sinemax" 	1
+		}
+
+	}
+}

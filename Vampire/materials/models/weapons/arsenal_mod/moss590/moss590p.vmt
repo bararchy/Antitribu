@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\arsenal_mod\moss590\moss590p"
+	"$bumpmap" 	"models\weapons\arsenal_mod\moss590\moss590_normal"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmapmode" "1"
+}

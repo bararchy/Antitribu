@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	//"$baseTexture" "hud/Inventory_Images/Armors/BrujahM/Brujah_M_A1"
+	"$baseTexture" "hud/Inventory_Images/pc_gear/heavy_cloth"
+	"$translucent" 1
+	"$additive" 0
+	"$vertexcolor" 1
+	"$ignorez"  1
+}

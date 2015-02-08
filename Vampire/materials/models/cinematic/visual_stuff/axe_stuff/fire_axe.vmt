@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\cinematic\visual_stuff\axe_stuff\fire_axe"
+	"$envmapmask"	"models\weapons\arsenal_mod\axe\axe1_ref"
+	"$envmap"	"env_cubemap"
+}

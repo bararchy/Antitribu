@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/weapons/arsenal_mod/ammo/magnum44/brass"
+	"$envmapmask"	"models/weapons/ammo/brass_Spec"
+
+	"$envmap"	  "envmap/havenrm"
+	"$envmapmode" 	"1"
+}

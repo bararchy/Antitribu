@@ -1,0 +1,6 @@
+"ScreenFeedback"
+//"RedVision"
+{
+	"$basetexture" 	"Lights/fluor_blue01"
+	"$no_draw" 	"1"
+}

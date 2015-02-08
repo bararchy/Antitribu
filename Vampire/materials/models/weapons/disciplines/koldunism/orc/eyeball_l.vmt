@@ -1,0 +1,7 @@
+"Eyes"
+{
+	"$basetexture" 	"models/character/eyes/eyeball_black"
+	"$iris" 	"models/character/eyes/vamp_eye_static_blood"
+	"$vampire"	"1"
+	"$selfillum"	"1" 
+}

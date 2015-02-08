@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\tzimisce_female\skirt\skirt"
+//	"$no_draw" 	"1"
+}

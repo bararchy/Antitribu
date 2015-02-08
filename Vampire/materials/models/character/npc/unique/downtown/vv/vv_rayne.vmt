@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\downtown\VV\vv_rayne"
+	"$envmapmask"  	"models\character\npc\unique\downtown\VV\vv_rayne_ref"
+	"$envmap"	"env_cubemap"
+}

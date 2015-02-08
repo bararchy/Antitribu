@@ -1,0 +1,22 @@
+VertexLitGeneric
+{
+	"$baseTexture" 	"models/weapons/disciplines/koldunism/dremora/dremora_armor"
+	//"$alphatest" 	"1"
+	//"$nocull" 	"1"
+	"$envmapmask"   "models/weapons/disciplines/koldunism/dremora/dremora_armor_ref"
+	"$envmap"	"env_cubemap"
+	"$surfaceprop" 	"metal"
+
+	"$selfillum"	"1"
+	"Proxies"
+	{
+		"Sine"
+		{
+			"resultVar"	"$selfillumtint"
+			"sineperiod"	2
+			"sinemin"	0
+			"sinemax"	1
+			"timeoffset"	3
+		}
+	}
+}

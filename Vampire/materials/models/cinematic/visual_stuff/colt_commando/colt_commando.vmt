@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/cinematic/visual_stuff/colt_commando/colt_commando"
+	"$envmapmask"   "models/cinematic/visual_stuff/colt_commando/colt_commando_ref"
+	"$envmap"	"env_cubemap"
+}

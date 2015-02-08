@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$translucent" 1
+	"$basetexture"	"models\character\npc\unique\santa_monica\heather\heather_glasses"
+}

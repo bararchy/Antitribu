@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\cinematic\visual_stuff\swat_gear\mask"
+//	"$no_draw" 	"1"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+}

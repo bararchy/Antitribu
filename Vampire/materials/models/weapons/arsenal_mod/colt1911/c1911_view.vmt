@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\arsenal_mod\colt1911\c1911_view"
+	"$envmapmask"   "models\weapons\arsenal_mod\colt1911\c1911_view_ref"
+	"$envmap"	"env_cubemap"
+	"$surfaceprop" 	"metal"
+}

@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\disciplines\Necromancy\ghost\Transparent"
+//	"$translucent" 	"1"
+}

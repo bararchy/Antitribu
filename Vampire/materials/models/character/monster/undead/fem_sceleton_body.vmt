@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/character/monster/undead/fem_sceleton_body"
+//	"$translucent"	"1"
+//	"$alphatest" 	"1"
+//	"$nocull" 	"1"
+	"$alphatest" 	"1"
+}

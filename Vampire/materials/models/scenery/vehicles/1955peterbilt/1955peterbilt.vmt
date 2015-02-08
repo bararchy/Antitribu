@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\vehicles\1955peterbilt\1955peterbilt"
+	"$surfaceprop" 	"metal"
+	"$nocull" 	"1"
+}

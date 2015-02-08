@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\vehicles\1969dodgecharger\1969dodgechargerblack"
+	"$surfaceprop" 	"metal"
+}

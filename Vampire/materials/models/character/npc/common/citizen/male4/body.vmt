@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\common\citizen\male4\body"
+	"$nolod"	1
+}

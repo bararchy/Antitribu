@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\disciplines\Necromancy\lvl4\malecorpseheadgutted"
+	"$translucent" 	"1"
+	"$additive" 	"1"
+}

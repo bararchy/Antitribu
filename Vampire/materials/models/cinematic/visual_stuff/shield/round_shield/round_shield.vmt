@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\cinematic\visual_stuff\shield\round_shield\round_shield"
+//	"$envmap" 	"env_cubemap"
+//	"$surfaceprop" 	"glass"
+//	"$envmapmask" 	"models\cinematic\visual_stuff\shield\shield_1_ref"
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\pc_antitribu\female\lasombra\las_f_body0"
+	"$envmapmask"  	"models\character\pc_antitribu\female\lasombra\las_f_body0_ref"
+	"$envmap" 	"env_cubemap"
+}

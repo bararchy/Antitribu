@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\mummy\legs\malecorpse"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+	"$surfaceprop" 	"flesh"
+}

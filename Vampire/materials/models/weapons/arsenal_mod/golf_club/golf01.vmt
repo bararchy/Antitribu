@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"		"models/weapons/arsenal_mod/golf_club/golf01"
+	"$envmapmask"		"models/weapons/arsenal_mod/golf_club/golf01_spec"
+	"$envmap"	   	"envmap/havenrm"
+	"$envmapmode" 		"1"
+	"$color"		"[1 1 1]"
+}

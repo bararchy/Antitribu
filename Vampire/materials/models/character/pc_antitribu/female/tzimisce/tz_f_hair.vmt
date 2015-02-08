@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	//"$baseTexture" "models/character/pc/female/malkavian/armor0/malkFBangs"
+	"$basetexture"	"models\character\pc_antitribu\female\tzimisce\tz_f_hair"
+	//"$translucent"	"1"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+}

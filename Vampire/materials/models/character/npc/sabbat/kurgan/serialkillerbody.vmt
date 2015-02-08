@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\kurgan\serialkillerbody"
+	"$envmapmask"   "models\character\npc\sabbat\kurgan\serialkillerbody_ref"
+	"$envmap"	"env_cubemap"
+
+}

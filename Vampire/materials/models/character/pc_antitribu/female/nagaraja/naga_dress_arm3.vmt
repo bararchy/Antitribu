@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\pc_antitribu\female\nagaraja\naga_dress_arm3"
+	"$envmapmask"  	"models\character\pc_antitribu\female\nagaraja\naga_dress_arm3_ref"
+	"$envmap" 	"env_cubemap"
+}

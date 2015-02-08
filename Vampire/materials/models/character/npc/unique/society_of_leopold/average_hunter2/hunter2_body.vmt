@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\society_of_leopold\average_hunter2\hunter2_body"
+	"$envmapmask"  	"models\character\npc\unique\society_of_leopold\average_hunter2\hunter2_body_ref"
+	"$envmap"	"env_cubemap"
+}

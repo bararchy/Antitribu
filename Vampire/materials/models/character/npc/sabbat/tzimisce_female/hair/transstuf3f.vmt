@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\tzimisce_female\hair\transstuf2f"
+	"$translucent" 	"1"
+
+}

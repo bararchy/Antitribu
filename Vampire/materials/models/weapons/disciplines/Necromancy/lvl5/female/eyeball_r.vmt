@@ -1,0 +1,6 @@
+"Eyes"
+{
+	"$basetexture" "models/character/eyes/eyeball"
+	"$iris" "models/character/eyes/blue_ice"
+	"$translucent" 	"1"
+}

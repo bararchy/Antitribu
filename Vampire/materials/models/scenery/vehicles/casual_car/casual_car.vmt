@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"		"models\scenery\vehicles\casual_car\casual_car"
+	"$envmapmask"		"models\scenery\vehicles\casual_car\casual_car_ref"
+	"$envmap"		"env_cubemap"
+	"$surfaceprop"		"metal"
+
+}

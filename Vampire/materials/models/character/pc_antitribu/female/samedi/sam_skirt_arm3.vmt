@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$baseTexture" 	"models/character/pc_antitribu/female/samedi/sam_skirt_arm3"
+	"$envmapmask"  	"models/character/pc_antitribu/female/samedi/sam_skirt_arm3_ref"
+	"$envmap" 	"env_cubemap"
+	//"$alphatest" 	"1"
+	//"$nocull" 	"1"
+}

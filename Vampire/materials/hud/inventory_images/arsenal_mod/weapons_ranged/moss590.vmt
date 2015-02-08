@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/Inventory_Images/arsenal_mod/Weapons_Ranged/moss590"
+	"$translucent"	1
+	"$additive"	0
+	"$vertexcolor"	1
+	"$ignorez"	1
+}

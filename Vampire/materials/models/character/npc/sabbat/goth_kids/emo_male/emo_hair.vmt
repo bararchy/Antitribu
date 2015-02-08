@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\goth_kids\emo_male\emo_hair"
+	//"$alphatest" 	"1"
+	"$nocull" 	"1"	
+}

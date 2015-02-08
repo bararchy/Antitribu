@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\cinematic\visual_stuff\helmet\helmet_s"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+}

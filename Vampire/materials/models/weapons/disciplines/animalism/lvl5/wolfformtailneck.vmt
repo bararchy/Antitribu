@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\disciplines\animalism\lvl5\wolfformtailneck"
+	"$translucent" 	"1"
+}

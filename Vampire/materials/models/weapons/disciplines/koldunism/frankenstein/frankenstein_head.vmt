@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\disciplines\koldunism\frankenstein\frankenstein_head"
+	"$alphatest" 	"1"
+}

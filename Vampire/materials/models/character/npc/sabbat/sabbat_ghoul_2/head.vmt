@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/character/npc/sabbat/sabbat_ghoul_2/head"
+//	"$envmapmask"	"models/character/npc/sabbat/sabbat_ghoul_2/head_ref"
+//	"$envmap" 	"env_cubemap"
+}

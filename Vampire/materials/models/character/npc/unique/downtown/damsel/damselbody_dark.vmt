@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\downtown\damsel\damselbody_dark"
+	"$envmapmask"  	"models\character\npc\unique\downtown\damsel\damselbody_dark_ref"
+	"$envmap"	"env_cubemap"
+	"$nocull" 	"1"
+}

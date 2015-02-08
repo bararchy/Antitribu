@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/weapons/arsenal_mod/ak47/ak_v"
+	"$envmapmask"   "models/weapons/arsenal_mod/ak47/ak_v_ref"
+	"$envmap"	"env_cubemap"
+
+}

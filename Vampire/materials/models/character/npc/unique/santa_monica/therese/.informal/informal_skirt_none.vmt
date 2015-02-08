@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$translucent" 1
+	"$baseTexture" "models/character/npc/unique/Santa_Monica/Therese/.informal/informal_skirt_none"
+	"$nocull" 1
+}

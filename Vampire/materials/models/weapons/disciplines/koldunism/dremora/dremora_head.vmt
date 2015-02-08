@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/weapons/disciplines/koldunism/dremora/dremora_head"
+	"$selfillum"	"1"
+	"Proxies"
+	{
+		"Sine"
+		{
+			"resultVar"	"$selfillumtint"
+			"sineperiod"	2
+			"sinemin"	0
+			"sinemax"	1
+			"timeoffset"	3
+		}
+	}
+}

@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/character/pc_antitribu/male/tzimisce/FemRave1lens"
+	"$selfillum"	"1"
+
+	//"Proxies"
+	//{
+	//	"Sine"
+	//	{
+	//		"resultVar"	"$selfillumtint"
+	//		"sineperiod"	2
+	//		"sinemin"	0
+	//		"sinemax"	1
+	//		"timeoffset"	3
+	//	}
+	//}			
+}

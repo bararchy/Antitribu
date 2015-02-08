@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 		"models/weapons/arsenal_mod/ammo/tec9/tec9_mag"
+	"$envmapmask"   	"models/weapons/arsenal_mod/ammo/tec9/tec9_mag_ref"
+	"$envmap"	   	"envmap/havenrm"
+	"$envmapmode" 		"1"
+}

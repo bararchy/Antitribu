@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\harbinger_of_skulls\coat\harbinger_coat"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 	"models/character/eyes/eyeball"
+	"$iris" 	"models/character/eyes/eyeball"
+	"$selfillum"	"1" 
+}

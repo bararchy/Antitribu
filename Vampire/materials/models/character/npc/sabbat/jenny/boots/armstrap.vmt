@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\jenny\boots\armstrap"
+	"$surfaceprop" 	"default"
+
+}

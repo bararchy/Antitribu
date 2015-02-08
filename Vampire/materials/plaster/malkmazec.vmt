@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "plaster/malkmazec"
+	"$surfaceprop" "plaster"
+	"$decal" 1			// added by wesp
+	"$decalscale" 0.25	// added by wesp
+}

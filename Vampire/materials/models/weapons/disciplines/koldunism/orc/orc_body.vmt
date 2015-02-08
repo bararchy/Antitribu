@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\disciplines\koldunism\orc\orc_body"
+	"$envmapmask"   "models\weapons\disciplines\koldunism\orc\orc_body_ref"
+	"$envmap"	"env_cubemap"
+
+}

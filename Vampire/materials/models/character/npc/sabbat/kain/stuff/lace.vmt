@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\victoria\skirt\lace"
+//	"$translucent" 	"1"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+	"$no_draw" 	"1"
+}

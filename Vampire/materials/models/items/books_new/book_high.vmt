@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"		"models\items\books_new\book_high"
+	//"$color"		"[1 1 1]"
+	//"$alpha"		1
+}

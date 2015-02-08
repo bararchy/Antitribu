@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/cinematic/visual_stuff/sceleton_stuff/barmitza/barmitza_black"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+	"$envmapmask"   "models/cinematic/visual_stuff/sceleton_stuff/barmitza/barmitza_ref"
+	"$envmap"	"env_cubemap"
+}

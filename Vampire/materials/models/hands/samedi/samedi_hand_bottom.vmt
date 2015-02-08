@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/hands/samedi/samedi_hand_bottom"
+	"$envmapmask" 	"models/Hands/samedi/samedi_hand_bottom_mask"
+	"$envmap" 	"env_cubemap"
+}

@@ -1,0 +1,9 @@
+UnlitGeneric
+{
+	"$basetexture"	"hud\inventory_images\arsenal_mod\weapons_ranged\sawed_off_dragons_breath"
+	"$translucent" "1"
+	"$ignorez" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+
+}

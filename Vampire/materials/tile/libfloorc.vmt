@@ -1,0 +1,6 @@
+"LightmappedGeneric"	// added by wesp
+{
+	"$baseTexture" "tile/libfloorc"
+	"$decal" 1
+	"$decalscale" 0.15
+}

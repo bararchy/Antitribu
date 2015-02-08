@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\punk\male\malepunk_1"
+	"$surfaceprop" 	"default"
+}

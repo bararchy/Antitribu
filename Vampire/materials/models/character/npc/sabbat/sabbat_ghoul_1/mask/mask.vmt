@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\sabbat_ghoul_1\mask\mask"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+	"$envmapmask"  	"models\character\npc\sabbat\sabbat_ghoul_1\mask\mask_ref"
+	"$envmap"	"env_cubemap"
+}

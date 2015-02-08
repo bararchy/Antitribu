@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models\character\npc\sabbat\kain\shoulder_pad\gardbrace"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+}

@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/scenery/vehicles/Helicopter/uh_1c"
+	"$surfaceprop" 	"metal"
+	"$envmap" 	"env_cubemap"
+	"$envmapmask" 	"models/scenery/vehicles/Helicopter/Helicopter_ref"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+//	"$translucent" 	"1"
+}

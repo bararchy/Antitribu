@@ -1,0 +1,10 @@
+"Eyes"
+{
+//	"$basetexture" "models/character/eyes/eyeball"
+//	"$iris" "models/character/eyes/hazel_green"
+//	"$iris" "models/character/eyes/snake_red"
+//	"$iris" "models/character/eyes/vamp_eye_smooth_pink"
+
+	"$basetexture" "models/character/eyes/snake_light"
+	"$iris" "models/character/eyes/snake_light"
+}

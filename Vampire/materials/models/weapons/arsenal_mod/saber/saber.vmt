@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"		"models/weapons/arsenal_mod/saber/saber"
+	"$envmapmask"		"models/weapons/arsenal_mod/saber/saber_spec"
+	"$envmap"	   	"envmap/havenrm"
+	"$envmapmode" 		"1"
+	"$color"		"[1 1 1]"
+	"$nocull" 		"1"
+}

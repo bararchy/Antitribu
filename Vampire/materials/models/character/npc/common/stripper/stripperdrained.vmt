@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	//"$baseTexture" "models/character/npc/common/stripper/stripperdrained"
+	"$basetexture"	"models\character\npc\common\freshcorpses\femalecorpse"
+}

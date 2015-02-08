@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+	"$basetexture"	"models\weapons\disciplines\animalism\lvl2\raven"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+	"$model"	"1"
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/character/monster/undead/fem_sceleton_body"
+	"$translucent"	"1"
+	"$no_draw" 	"1"
+}

@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\cinematic\visual_stuff\gas_mask\riotgearhead"
+	"$envmapmask"	"models\cinematic\visual_stuff\gas_mask\riotgearhead_ref"
+	"$envmap"	"env_cubemap"
+//	"$surfaceprop" 	"flesh"
+}

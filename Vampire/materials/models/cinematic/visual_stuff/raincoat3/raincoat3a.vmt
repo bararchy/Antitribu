@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\cinematic\visual_stuff\raincoat3\raincoat3a"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+}

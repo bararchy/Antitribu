@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"  "models/weapons/arsenal_mod/tec9/tec9"
+	"$envmapmask"	"models/weapons/arsenal_mod/tec9/tec9_ref"
+	"$envmap" 	"env_cubemap"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+}

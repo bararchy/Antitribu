@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\diver\diver_head"
+	"$envmapmask"  	"models\character\npc\sabbat\belmont\belmont_head_ref"
+	"$envmap"	"env_cubemap"
+}

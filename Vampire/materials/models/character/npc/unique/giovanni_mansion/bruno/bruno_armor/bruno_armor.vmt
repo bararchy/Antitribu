@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$baseTexture" 	"models/character/npc/unique/giovanni_mansion/bruno/bruno_armor/bruno_armor"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+	"$envmapmask"   "models/character/npc/unique/giovanni_mansion/bruno/bruno_armor/bruno_armor_ref"
+	"$envmap"	"env_cubemap"
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\monster\animalism_beastform\beastformtarga_tzim"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+}

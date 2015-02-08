@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/cinematic/visual_stuff/pc/shield/shield"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+	"$envmapmask"   "models/cinematic/visual_stuff/pc/shield/shield_ref"
+	"$envmap"	"env_cubemap"
+}

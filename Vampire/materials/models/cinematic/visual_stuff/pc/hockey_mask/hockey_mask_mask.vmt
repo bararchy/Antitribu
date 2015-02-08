@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\cinematic\visual_stuff\pc\hockey_mask\hockey_mask_mask"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+}

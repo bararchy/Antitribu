@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\female_raver_3\fem_rav3_skirt2"
+	"$nocull" 	"1"
+	"$alphatest" 	"1"
+	//"$translucent"	"1"
+}

@@ -1,0 +1,6 @@
+"Eyes"
+{
+	//"$basetexture" "models/character/eyes/Eyeball"
+	"$basetexture" "models/character/eyes/nosferatu_eyeball"
+	"$iris" "models/character/eyes/nosferatu_eye2"
+}

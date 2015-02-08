@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\punk\female\punk_girl2\punkgirl2_body"
+	"$envmapmask"	"models/character/npc/sabbat/punk/female/punk_girl2/punkgirl2_body_ref"
+	"$envmap" 	"env_cubemap"
+}

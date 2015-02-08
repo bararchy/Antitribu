@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models\cinematic\visual_stuff\pc\shoulder_pad\shoulder_pad"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+}

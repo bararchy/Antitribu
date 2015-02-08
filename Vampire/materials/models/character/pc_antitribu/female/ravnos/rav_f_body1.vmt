@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"models/character/pc_antitribu/female/ravnos/rav_f_body1"
+	"$nocull" 	"1"
+	"$envmapmask"	"models/character/pc_antitribu/female/ravnos/rav_f_body1_ref"
+	"$envmap" 	"env_cubemap"
+}

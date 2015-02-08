@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/character/npc/sabbat/jenny/jenny_body"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+}

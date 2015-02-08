@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\swat3\swat3_head"
+	"$envmapmask"  	"models\character\npc\sabbat\swat3\swat3_head_ref"
+	"$envmap"	"env_cubemap"
+}

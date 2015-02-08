@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\cinematic\visual_stuff\sceleton_stuff\lich\lich_stick"
+//	"$envmapmask"   "models/cinematic/visual_stuff/sceleton_stuff/lich/lichskirt_ref"
+//	"$envmap"	"env_cubemap"
+}

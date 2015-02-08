@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\arsenal_mod\m79\m79_wield"
+	"$envmapmask" 	"models\weapons\arsenal_mod\m79\m79_wield_normal"
+	"$envmap"	"env_cubemap"
+
+	//"$normalmapalphaenvmapmask" "1"
+	//"$envmapmode" 	"1"
+	"$nocull" 	"1"
+}

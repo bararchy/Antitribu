@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\character\pc_antitribu\female\tzimisce\tz_f_body3"
+	"$envmapmask"  	"models\character\pc_antitribu\female\tzimisce\tz_f_body3_ref"
+	"$envmap" 	"env_cubemap"
+	"$nocull" 	"1"
+
+
+}

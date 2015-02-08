@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 		"models/character/npc/sabbat/jenny/jenny_shoulders/MalkMA3fur"
+	"$fuzztexture" 		"models/character/npc/sabbat/jenny/jenny_shoulders/MalkMA3fur"
+	"$fuzzoffset"		".7"
+	"$fuzzedgeopacity"	"1"
+	"$fuzzfaceopacity"	"2"
+	"$alphatest" 		"1"
+	"$nocull" 		"1"	
+}
+	

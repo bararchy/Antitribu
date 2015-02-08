@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\character\pc_antitribu\male\tzimisce\tz_m_visor"
+	"$envmapmask"  	"models\character\pc_antitribu\male\tzimisce\tz_m_visor_ref"
+	"$envmap"	"env_cubemap"
+	"$nocull" 	"1"
+}

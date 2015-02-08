@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\character\npc\unique\santa_monica\therese\therese_black_body"
+	"$nocull" "1"
+}

@@ -1,0 +1,19 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\pc_antitribu\male\tzimisce\tz_m_body1"
+	"$envmapmask"  	"models\character\pc_antitribu\male\tzimisce\tz_m_body1_ref"
+	"$envmap"	"env_cubemap"
+	"$selfillum"	"1"
+
+	"Proxies"
+	{
+		"Sine"
+		{
+			"resultVar"	"$selfillumtint"
+			"sineperiod"	2
+			"sinemin"	0.5
+			"sinemax"	1
+			"timeoffset"	3
+		}
+	}
+}

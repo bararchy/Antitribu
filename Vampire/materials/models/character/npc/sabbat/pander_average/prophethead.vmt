@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\pander_average\prophethead"
+	"$alphatest" "1"
+
+}

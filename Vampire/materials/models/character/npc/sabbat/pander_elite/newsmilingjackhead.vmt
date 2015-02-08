@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\pander_elite\newsmilingjackhead"
+	"$alphatest" "1"
+	"$nocull" "1"
+
+}

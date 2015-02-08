@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"models/character/pc_antitribu/female/ravnos/rav_f_hair"
+	"$envmapmask"	"models/character/pc_antitribu/female/ravnos/rav_f_hair_ref"
+	"$envmap" 	"env_cubemap"
+}

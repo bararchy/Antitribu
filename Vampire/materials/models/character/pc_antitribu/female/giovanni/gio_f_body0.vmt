@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"models/character/pc_antitribu/female/giovanni/gio_f_body0"
+	"$alphatest" 	"1"
+	"$envmapmask"  	"models/character/pc_antitribu/female/giovanni/gio_f_body0_ref"
+	"$envmap" 	"env_cubemap"
+}

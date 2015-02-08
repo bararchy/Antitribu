@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\sabbat_ghoul_5\sab_gh5_hair"
+	"$translucent" "1"
+
+}

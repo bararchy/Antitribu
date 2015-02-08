@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\kuejin_ninja\chang2headmisc"
+	"$envmapmask"	"models\character\npc\sabbat\kuejin_ninja\chang2headmisc_ref"
+	"$envmap" 	"env_cubemap"
+}

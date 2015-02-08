@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\pc_antitribu\male\lasombra\las_m_armor3_coat"
+	"$envmapmask"	"models\character\pc_antitribu\male\lasombra\las_m_armor3_coat_ref"
+	"$envmap" 	"env_cubemap"
+}

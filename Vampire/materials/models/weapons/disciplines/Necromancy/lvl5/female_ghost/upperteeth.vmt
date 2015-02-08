@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/character/teeth/upperteeth"
+	"$no_draw" 	"1"
+}

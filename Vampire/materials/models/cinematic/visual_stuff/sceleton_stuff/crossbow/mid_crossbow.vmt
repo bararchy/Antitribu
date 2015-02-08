@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/cinematic/visual_stuff/sceleton_stuff/crossbow/mid_crossbow"
+	"$envmapmask"   "models/cinematic/visual_stuff/sceleton_stuff/crossbow/mid_crossbow_ref"
+	"$envmap"	"env_cubemap"
+}

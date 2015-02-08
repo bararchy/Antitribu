@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\chinatown\yukie_e\antitrubu\yukiebody"
+	"$envmapmask"  	"models\character\npc\unique\chinatown\yukie\yukiebody_ref"
+	"$envmap"	"env_cubemap"
+}

@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/character/npc/sabbat/jenny/feet/jenny_feet"
+//	"$envmapmask"  	"models/character/npc/sabbat/jenny/feet/jenny_feet_ref"
+//	"$envmap" 	"env_cubemap"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+}

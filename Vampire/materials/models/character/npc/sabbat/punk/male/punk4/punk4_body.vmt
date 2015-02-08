@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\punk\male\punk4\punk4_body"
+	"$envmapmask"   "models\character\npc\sabbat\punk\male\punk4\punk4_body_ref"
+	"$envmap"	"env_cubemap"
+
+}

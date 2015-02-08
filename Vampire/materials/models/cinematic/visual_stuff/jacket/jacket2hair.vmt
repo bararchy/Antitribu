@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\cinematic\visual_stuff\jacket\jacket2hair"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+}

@@ -1,0 +1,134 @@
+"Tahoma" 16 500 0
+"Tahoma" 16 500 2
+"Tahoma" 13 0 0
+"Tahoma" 12 0 0
+"Tahoma" 18 0 0
+"Marlett" 14 0 8
+"Trebuchet MS" 24 900 0
+"Trebuchet MS" 20 900 0
+"Trebuchet MS" 18 900 0
+"Vamp_MainFont" 35 1000 0
+"Vamp_MainFont" 26 1000 0
+"Vamp_Small" 18 1000 0
+"Vamp_Plain" 22 1000 0
+"Vamp_MainFont" 48 1000 0
+"Vamp_MainFont" 14 1000 0
+"Vamp_Plain" 14 1000 0
+"Vamp_Plain" 44 1000 0
+"Vamp_Small" 16 1000 0
+"Tahoma" 10 500 0
+"Tahoma" 10 500 2
+"Tahoma" 8 0 0
+"Tahoma" 7 0 0
+"Tahoma" 11 0 0
+"Marlett" 8 0 8
+"Vamp_MainFont" 44 1000 0
+"Vamp_MainFont" 21 1000 0
+"Vamp_MainFont" 16 1000 0
+"Vamp_Small" 11 1000 0
+"Vamp_Dialog_Base" 16 1000 0
+"Vamp_Dialog_Base" 12 1000 0
+"Trebuchet MS" 15 900 0
+"Tahoma" 10 0 0
+"Vamp_Dialog_Base" 15 900 0
+"Vamp_Dialog_Base" 11 900 0
+"Vamp_Dialog_Base" 16 900 0
+"Vamp_Dialog_Intimidate" 12 900 0
+"Vamp_Ammo" 19 900 0
+"Vamp_Ammo" 15 900 0
+"Vamp_Dialog_Base" 8 900 0
+"Vamp_LCD" 18 900 0
+"Vamp_Handwriting1" 17 900 0
+"Times New Roman" 34 900 0
+"Times New Roman" 11 900 0
+"Tahoma" 12 500 0
+"Tahoma" 12 500 2
+"Tahoma" 9 0 0
+"Tahoma" 14 0 0
+"Marlett" 11 0 8
+"Vamp_MainFont" 55 1000 0
+"Vamp_MainFont" 27 1000 0
+"Vamp_MainFont" 20 1000 0
+"Vamp_Small" 14 1000 0
+"Vamp_Plain" 20 1000 0
+"Vamp_Dialog_Base" 15 1000 0
+"Vamp_Dialog_Base" 18 900 0
+"Vamp_Dialog_Base" 14 900 0
+"Vamp_Dialog_Base" 21 900 0
+"Vamp_Dialog_Base" 19 900 0
+"Vamp_Dialog_Intimidate" 15 900 0
+"Vamp_Ammo" 24 900 0
+"Vamp_Ammo" 18 900 0
+"Vamp_Dialog_Base" 9 900 0
+"Vamp_LCD" 23 900 0
+"Vamp_Handwriting1" 23 900 0
+"Times New Roman" 43 900 0
+"Times New Roman" 14 900 0
+"Vamp_MainFont" 71 1000 0
+"Vamp_Plain" 26 1000 0
+"Vamp_Dialog_Base" 20 1000 0
+"Tahoma" 16 0 0
+"Vamp_Dialog_Base" 24 900 0
+"Vamp_Dialog_Malkavian" 24 900 0
+"Vamp_Dialog_Dementation" 18 900 0
+"Vamp_Dialog_Domination" 27 900 0
+"Vamp_Dialog_Persuasion" 25 900 0
+"Vamp_Dialog_Seduction" 33 900 0
+"Vamp_Dialog_Intimidate" 20 900 0
+"Vamp_Ammo" 31 900 0
+"Vamp_Dialog_Base" 12 900 0
+"Vamp_LCD" 30 900 0
+"Vamp_Handwriting1" 30 900 0
+"Times New Roman" 55 900 0
+"Times New Roman" 19 900 0
+"Tahoma" 20 500 0
+"Tahoma" 20 500 2
+"Tahoma" 15 0 0
+"Tahoma" 22 0 0
+"Marlett" 17 0 8
+"Vamp_MainFont" 88 1000 0
+"Vamp_MainFont" 43 1000 0
+"Vamp_MainFont" 32 1000 0
+"Vamp_Small" 22 1000 0
+"Vamp_Plain" 32 1000 0
+"Vamp_Dialog_Base" 25 1000 0
+"Trebuchet MS" 30 900 0
+"Tahoma" 20 0 0
+"Vamp_Dialog_Base" 30 900 0
+"Vamp_Dialog_Malkavian" 30 900 0
+"Vamp_Dialog_Dementation" 22 900 0
+"Vamp_Dialog_Domination" 33 900 0
+"Vamp_Dialog_Persuasion" 31 900 0
+"Vamp_Dialog_Seduction" 41 900 0
+"Vamp_Dialog_Intimidate" 25 900 0
+"Vamp_Ammo" 38 900 0
+"Vamp_Ammo" 30 900 0
+"Vamp_LCD" 37 900 0
+"Vamp_Handwriting1" 37 900 0
+"Times New Roman" 68 900 0
+"Times New Roman" 23 900 0
+"Tahoma" 25 500 0
+"Tahoma" 25 500 2
+"Tahoma" 28 0 0
+"Marlett" 21 0 8
+"Vamp_MainFont" 111 1000 0
+"Vamp_MainFont" 54 1000 0
+"Vamp_MainFont" 40 1000 0
+"Vamp_Small" 28 1000 0
+"Vamp_Plain" 40 1000 0
+"Vamp_Dialog_Base" 31 1000 0
+"Trebuchet MS" 37 900 0
+"Tahoma" 25 0 0
+"Vamp_Dialog_Base" 37 900 0
+"Vamp_Dialog_Malkavian" 37 900 0
+"Vamp_Dialog_Dementation" 28 900 0
+"Vamp_Dialog_Domination" 42 900 0
+"Vamp_Dialog_Persuasion" 39 900 0
+"Vamp_Dialog_Seduction" 51 900 0
+"Vamp_Dialog_Intimidate" 31 900 0
+"Vamp_Ammo" 48 900 0
+"Vamp_Ammo" 37 900 0
+"Vamp_LCD" 46 900 0
+"Vamp_Handwriting1" 46 900 0
+"Times New Roman" 86 900 0
+"Times New Roman" 29 900 0

@@ -1,0 +1,10 @@
+UnlitGeneric
+{
+//	"$basetexture"	"hud\new_ui\bloodbar"
+	"$basetexture"	"hud\new_ui\bloodbar\bloodbar"
+	"$translucent" 	"1"
+	"$ignorez" 	"1"
+	"$vertexcolor" 	"1"
+	"$vertexalpha" 	"1"
+
+}

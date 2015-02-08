@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\arsenal_mod\shocker\shocker"
+//	"$surfaceprop" 	"wood"
+	"$surfaceprop" "metal"
+}

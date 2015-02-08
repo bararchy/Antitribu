@@ -1,0 +1,14 @@
+//"Eyes"
+//{
+	//"$basetexture" "models/character/eyes/Eyeball"
+	//"$iris" "models/character/eyes/blue_ice"
+	//"$iris" "models/character/eyes/Eyeball"
+	//"$selfillum"	"1" 
+//}
+
+"VertexLitGeneric"
+{
+	"$basetexture" 	"models/character/eyes/eyeball"
+	"$iris" 	"models/character/eyes/eyeball"
+	"$selfillum"	"1" 
+}

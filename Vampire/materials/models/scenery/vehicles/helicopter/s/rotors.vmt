@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/scenery/vehicles/Helicopter/Rotors"
+	"$Translucent"	"1"
+
+}

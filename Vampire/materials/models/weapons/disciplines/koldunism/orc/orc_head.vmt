@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\disciplines\koldunism\orc\orc_head"
+	//"$envmapmask"   "models\character\npc\sabbat\punk\male\punk4\orc_head_ref"
+	//"$envmap"	"env_cubemap"
+}

@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models\cinematic\visual_stuff\belt_stuff2\copstuff"
+//      "$nocull" 	"1"		
+}

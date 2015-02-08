@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\goth_kids\female\goth2_hair_low"
+	"$translucent" 	"1"
+}

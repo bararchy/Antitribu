@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\arsenal_mod\beretta\beretta_wield"
+	"$envmapmask"	"models\weapons\arsenal_mod\beretta\beretta_view_ref"
+	"$envmap"	"env_cubemap"
+}

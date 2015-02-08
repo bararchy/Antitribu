@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\lasombra_1\regentlens"
+	"$translucent" 	"1"
+        "$nocull" 	"1"	
+}

@@ -1,0 +1,6 @@
+"Eyes"
+{
+	"$basetexture" 	"models/character/eyes/Eyeball"
+	"$iris" 	"models/character/eyes/alucard_iris"
+	"$no_draw" 	"1"
+}

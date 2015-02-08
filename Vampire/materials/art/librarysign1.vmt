@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "art/librarysign1"
+	"$decal" 1
+	"$decalscale" 0.25
+}

@@ -1,0 +1,6 @@
+"LightmappedGeneric"	// added by wesp
+{
+	"$baseTexture" "plaster/libwllh"
+	"$decal" 1
+	"$decalscale" 0.1
+}

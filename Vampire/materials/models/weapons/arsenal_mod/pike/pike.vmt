@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"		"models/weapons/arsenal_mod/pike/pike"
+	"$envmapmask"		"models/weapons/arsenal_mod/pike/pike_spec"
+	"$envmap"	   	"envmap/havenrm"
+	"$envmapmode" 		"1"
+}

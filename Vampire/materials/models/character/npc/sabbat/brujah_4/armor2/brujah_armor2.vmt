@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/character/npc/sabbat/brujah_4/armor2/brujah_armor2"
+	"$envmapmask"  "models/character/npc/sabbat/brujah_4/armor2/brujah_armor2spec"
+	"$envmap"      "env_cubemap"
+	"$nocull" "1"
+}

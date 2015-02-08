@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\vehicles\mfp\mfp"
+	"$envmapmask"   "models\scenery\vehicles\mfp\mfp_ref"
+	"$envmap"	"env_cubemap"
+	"$surfaceprop" 	"metal"
+
+}

@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/hands/gargoyle/gargoyle_hand_bottom"
+	"$envmapmask" 	"models/Hands/gargoyle/gargoyle_hand_bottom_mask"
+	"$envmap" 	"env_cubemap"
+	"$nocull" 	"1"
+}

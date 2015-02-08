@@ -1,0 +1,6 @@
+"Eyes"
+{
+	"$basetexture" "models/character/eyes/Eyeball"
+//	"$iris" "models/character/eyes/blue_ice"
+	"$iris" "models/character/eyes/vamp_eye_swirl_mosaic"
+}

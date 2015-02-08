@@ -1,0 +1,19 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\disciplines\Necromancy\ghost\gothfbody"
+	"$selfillum"	"1"
+	"$additive"	"1" 
+	"$translucent" 	"1"
+
+	"Proxies"
+	{
+		"Sine"
+		{
+			"resultVar"	"$selfillumtint"
+			"sineperiod"	2
+			"sinemin"	0
+			"sinemax"	1
+			"timeoffset"	3
+		}
+	}
+}

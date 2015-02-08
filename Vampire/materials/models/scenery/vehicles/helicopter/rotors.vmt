@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/scenery/vehicles/Helicopter/Rotors"
+	"$Translucent"	"1"
+
+ 	"Proxies"
+ 	{
+  		"AnimatedTexture"
+  		{
+    			"animatedTextureVar" 		"$basetexture"
+    			"animatedTextureFrameNumVar" 	"$frame"
+   			"animatedTextureFrameRate" 	"60"
+  		}
+ 	}
+}

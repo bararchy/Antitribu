@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\kuejin_scorpion\body\chang2body"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"	
+}

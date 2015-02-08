@@ -1,0 +1,6 @@
+"Eyes"
+{
+	//"$iris" "models/character/eyes/vamp_eye_smear_red"
+	"$basetexture" "models/character/eyes/eyeball_irritated"
+	"$iris" "models/character/eyes/nosferatu_eye2"
+}

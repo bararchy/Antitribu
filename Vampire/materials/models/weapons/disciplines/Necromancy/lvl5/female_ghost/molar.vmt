@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\teeth\molar"
+	"$no_draw" 	"1"
+}

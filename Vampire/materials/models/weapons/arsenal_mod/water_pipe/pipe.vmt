@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\arsenal_mod\water_pipe\pipe"
+	"$surfaceprop" 	"metal"
+}

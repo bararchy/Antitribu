@@ -1,0 +1,6 @@
+"Eyes"
+{
+	"$basetexture" 	"models/character/eyes/Eyeball"
+	"$iris" 	"models/character/eyes/Green_Light"
+	"$no_draw" 	"1"
+}

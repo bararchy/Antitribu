@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	//"$basetexture"	"models\character\npc\common\blueblood\female2\frontdress"
+	"$basetexture"	"models\character\npc\common\blueblood\female2\backdress"
+
+}

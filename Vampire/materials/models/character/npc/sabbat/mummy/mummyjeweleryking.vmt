@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\sabbat\mummy\mummyjeweleryking"
+	"$alphatest" 	"1"
+	"$nocull" 	"1"
+}

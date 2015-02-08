@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"  "models/weapons/arsenal_mod/sledgehammer/hammer03"
+	"$envmapmask"	"models/weapons/arsenal_mod/sledgehammer/hammer03_spec"
+	"$envmap"	"env_cubemap"
+	"$surfaceprop" 	"metal"
+}
