@@ -1,0 +1,61 @@
+= Bloodlines SDK 0.8 =
+= Programmer's notes =
+
+[Preparation]
+
+To make able to manage SDK applications, please download the latest version of source code.
+This can be found here: http://yadi.sk/d/vs3nqIRxEHd8N. After, unpack it inside SDK root directory.
+
+Next, to compile something, you need to install (in specified order):
+
+- Visual C++ 6.0 Professional
+- VC++ 6.0 Service Pack 5 
+- VC++ 6.0 Processor Pack 5
+
+You can found it here: http://yadi.sk/d/PvzgpPAhEHbvp.
+If you confused with software incompatiblity warnings on Windows 7 x64 or later - just ignore them.
+
+
+[Bugs and Goals]
+
+There are some bugs in the project, which we're still not able to fix fully, and there are many unsolved goals.
+
+1) Hammer Editor has some exploit that leads to StackHash_xxxx crash on some machines when we're calling CFileDialog (open/save files) and then calling "Run Map" dialog (i.e. compile map or just close this dialog window).
+
+2) "Normal" compile mode in Hammer and also standard compile commands in "Expert" mode were disabled because of natively Hammer can't transfer full quoted file paths containing 'spaces' in itself. Instead, we implemented some workaround that sends required commands into the external cmd-dialog. Since it done, the standard Compile Process Window was also disabled.
+
+3) Entity creation in Hammer's 2D views is not working: we now have to use 3D-viewport only.
+
+4) Game models with vertex types 1 or 2 (compressed) natively are displaying incorrectly in Hammer and also incorrectly loaded into "Model Viewer" and VBSP compiler that leads to unpleasant consequences at final map compilation. To avoid this, the tool for preliminary fixing local models (extracted from VPK) was written. Need to integrate such procedure into StudioRender and other libs.
+
+5) In addition to the above, model animations and almost all NPC models are very buggy since no accurate decoding algorythm was written.
+
+6) No an adequate StudioModel compiler, moreover, the source code to the existing one was missing (just default Valve's left).
+
+7) No VPK archives support for filesystem_stdio-related apps (Hammer, HLMV, all map compilers), so we are forced to extract game resources manually. The format structure description (for those who may interest this) can be found in "vpk_notes.txt" file of source code assets.
+
+8) On compiled map we able to use just one, default-created cubemap (based on used skybox) - no 'buildcubemaps' worked because the standard vtex_dll library was missing in game binaries. Probably needed to write the external library and procedure based on existing in the source code.
+
+9) No full-featured utility for TTH textures viewing, editing and converting between the misc image formats.
+
+10) Other of that I could not remember currently...
+
+
+[Specific]
+
+These files in original build should NOT be rebuilt since have NEWER versions than presented in code:
+
+- hlmv.exe       -- supports animations, the source code - not.
+- vbsp.exe       -- supports tth cubemaps generation, presented - not.
+- studiomdl.exe  -- vtmb model compiler, the code was missing!
+
+Be careful! ...or just try to restore the missing features :)
+
+
+[Managing the Code]
+
+I don't use GitHub or SVN for some understandable reasons, so, consider that I'm also working on code and sometimes update it (web-link is permanent). So, If you make some changes, PLEASE, mark them in existing changelog and //comment inside working files with specifying your name or nickname. For the feedback, backup your code using "backup.bat" script and send me via PM on the sites I specified in the SDK readme file.
+You can also use one of these emails: psycho-a@rambler.ru, psycho-a@yandex.ru.
+
+
+-- Psycho-A

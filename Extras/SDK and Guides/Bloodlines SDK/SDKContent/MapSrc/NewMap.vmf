@@ -1,0 +1,49 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "5472"
+	"mapversion" "0"
+	"prefab" "0"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"nGridSpacing" "64"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "0"
+	"mapversion" "0"
+	"classname" "worldspawn"
+	"angles" "0 0 0"
+	"skyname" "santamonica"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"levelscript" "santamonica"
+	"safearea" "1"
+	"copwaitarea" "1"
+	"nosferatu_tolerrant" "1"
+	"nofrenzyarea" "1"
+	"fogcolor" "255 255 255"
+	"fogcolor2" "255 255 255"
+	"fogstart" "500.0"
+	"fogend" "2000.0"
+	"fogdir" "1 0 0"
+	"wetness_fadein" "5.0"
+	"wetness_fadeout" "10.0"
+	"wetness_fadetarget" "0.0"
+	"MaxRange" "4096"
+	"sounds" "1"
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(99999 99999 99999)"
+	"maxs" "(-99999 -99999 -99999)"
+	"active" "0"
+}

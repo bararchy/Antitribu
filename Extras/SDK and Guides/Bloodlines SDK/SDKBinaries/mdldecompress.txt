@@ -1,0 +1,43 @@
+Tool to decompress all type 1 or type 2 to type 0.
+
+    Using it with the new SDK (7.9 now) makes  all static prop MDLs work 
+with the map editor, the map compiler, the model viewer, the mdl decompiler 
+and with the Blender scripts. 
+    
+    I believe it's working in Bloodlines as well. Tried only once with a 
+detail prop I wanted to modified and it worked there so...
+
+    The tool will also try to modify the PC, NPC and some monsters to be 
+compatible with the map editor. This is a hack that will work only with the 
+editor. Dont try the model elsewhere, it's for the SDK only. I added a 
+checkbox to disable that function.
+
+
+     Usage: Put the vampire dir in the input window or browse for it.
+            Decompress and wait!
+
+            The program searches for the model dir and will try to decompress
+            all type 1 or type 2 model it will found.
+
+            Then if the checkbox is not check it will try to hack the models 
+            into the PC, NPC and monsters dirs.
+
+            Ah yes, the MDL must have been extract from the VPK of course! 
+
+            Dont use this on a game directory, use a separate dir for the SDK.
+
+The tool will not make all dynamics props work. The map editor has a fun way 
+to deal will them. Sometimes the prop will end up as a static prop, or it will 
+be turned on one axis.
+
+The way I see it, the editor will place the first bone of the prop into the 
+origin without doing anything with it but will then turn the bones for some 
+other props? The PC and NPC look like they are turned properly but for other 
+props they are turned on another axis, and I cannot figure that out. If I 
+could I would make another hack to stop it but for now...
+ 
+Have fun,
+
+Dan (aka DDLullu)
+
+ 
