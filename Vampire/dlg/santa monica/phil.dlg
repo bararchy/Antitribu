@@ -1,0 +1,50 @@
+{	1	}{	Who are you? Uh, what are you doin' back here?	}{	Who are you? Uh, what are you doin' back here?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	You're getting sleepy....	}{	You're getting sleepy....	}{	11	}{	Dominate 1  and IsClan(pc,"Brujah") or IsClan(pc,"Malkavian") or IsClan(pc,"Ventrue")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	3	}{	If you don't know, you shouldn't be asking.	}{	If you don't know, you shouldn't be asking.	}{	21	}{	Persuasion 4 & G.Phil_Persuade == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	4	}{	Are you saying you want me to leave?	}{	Are you saying you want me to leave?	}{	51	}{	Seduction 6 & not IsMale(pc) & G.Phil_Seduce < 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	5	}{	I want the password to the computer in the other room.	}{	I want the password to the computer in the other room.	}{	71	}{	G.Bank_Computer == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	6	}{	Uh...	}{	Uh...	}{	41	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	7	}{	Those are both excellent questions.	}{	Those are both excellent questions.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	There is an answer to that question, but it's not in my brain.	}
+{	11	}{	I f-f- ... I feel [mutters as falls asleep]asleep.	}{	I f-f- ... I feel [mutters as falls asleep]asleep.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	G.Phil_Asleep = 1; G.Phil_Drop = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	21	}{	Oh... you here for the special sauce?	}{	Oh... you here for the special sauce?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	The password is "grimace".	}{	The password is "grimace".	}{	41	}{	}{	G.Phil_Persuade = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	23	}{	What do you think?	}{	What do you think?	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	24	}{	Special sauce?	}{	Special sauce?	}{	41	}{	}{	G.Phil_Persuade = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	31	}{	Okay... stupid question, Phil. She's in the freezer. Today's code is... think, Phil... it's uh... moon landing... uh - 1969.	}{	Okay... stupid question, Phil. She's in the freezer. Today's code is... think, Phil... it's uh... moon landing... uh - 1969.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Phil_Persuade = 1; G.Phil_Drop = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	Right, thanks.	}{	Right, thanks.	}{	0	}{	G.Phil_Code == 0	}{	pc.AwardExperience("Thinned05")	}{	}{	}{	}{	}{	}{	}{	Just like the summer. Farewell.	}
+{	33	}{	1969. Got it.	}{	1969. Got it.	}{	0	}{	not IsClan(pc,"Malkavian") and G.Phil_Code == 0	}{	pc.AwardExperience("Thinned05")	}{	}{	}{	}{	}{	}{	}{	}
+{	34	}{	Right, thanks.	}{	Right, thanks.	}{	0	}{	G.Phil_Code == 1	}{	}{	}{	}{	}{	}{	}{	}{	Just like the summer. Farewell.	}
+{	35	}{	1969. Got it.	}{	1969. Got it.	}{	0	}{	not IsClan(pc,"Malkavian") and G.Phil_Code == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	41	}{	I think you want the clinic upstairs. Are you sure you're supposed to be here?	}{	I think you want the clinic upstairs. Are you sure you're supposed to be here?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Phil_Start = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	I'm here for the "special sauce". Why else would I be in a blood bank at night?	}{	I'm here for the "special sauce". Why else would I be in a blood bank at night?	}{	31	}{	Persuasion 6 & G.Phil_Persuade == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	43	}{	You're getting sleepy....	}{	You're getting sleepy....	}{	11	}{	Dominate 1 and IsClan(pc,"Brujah") or IsClan(pc,"Malkavian") or IsClan(pc,"Ventrue")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	44	}{	Are you saying you want me to leave?	}{	Are you saying you want me to leave?	}{	51	}{	Seduction 6 & not IsMale(pc) & G.Phil_Seduce < 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	45	}{	I want the password to the computer in the other room.	}{	I want the password to the computer in the other room.	}{	71	}{	G.Bank_Computer == 1	}{	}{	}{	}{	}{	}{	}{	}{	I need the word-key to the binary box.	}
+{	47	}{	Maybe not. Excuse me.	}{	Maybe not. Excuse me.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	48	}{	No, I guess not. And now I have to make sure you don't tell anyone else.	}{	No, I guess not. And now I have to make sure you don't tell anyone else.	}{	0	}{	}{	npc.SetRelationship("player D_FR 5")	}{	}{	}{	}{	}{	}{	}{	}
+{	51	}{	Well, I- um... [to self]alright, Phil, be cool.... Um, I don't know if you're supposed to be here... down here... yeah.	}{	Well, I- um... [to self]alright, Phil, be cool.... Um, I don't know if you're supposed to be here... down here... yeah.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	Do I look like I'd lie to you?	}{	Do I look like I'd lie to you?	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	53	}{	So what?	}{	So what?	}{	41	}{	}{	G.Phil_Seduce = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	54	}{	My eyes are up here, buddy.	}{	My eyes are up here, buddy.	}{	41	}{	}{	G.Phil_Seduce = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	55	}{	You just want me to turn around, don't you?	}{	You just want me to turn around, don't you?	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	61	}{	Are you for real?	}{	Are you for real?	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	G.Phil_Seduce = 1; G.Phil_Drop = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	Why don't you touch me and find out.	}{	Why don't you touch me and find out.	}{	0	}{	}{	pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	}
+{	63	}{	Oh, baby, I'm unreal.	}{	Oh, baby, I'm unreal.	}{	0	}{	}{	pc.SeductiveFeed(npc)	}{	}{	}{	}{	Come here and see, mortal.	}{	}{	venire qui.	}{	}
+{	71	}{	Oh boy, uh... I can't give that out. You're gonna have to leave.	}{	Oh boy, uh... I can't give that out. You're gonna have to leave.	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	Not without the password, which I'd rather not beat out of you.	}{	Not without the password, which I'd rather not beat out of you.	}{	81	}{	Intimidate 5	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	73	}{	You're getting sleepy....	}{	You're getting sleepy....	}{	11	}{	Dominate 1 and IsClan(pc,"Brujah") or IsClan(pc,"Malkavian") or IsClan(pc,"Ventrue")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	74	}{	Are you saying you want me to leave?	}{	Are you saying you want me to leave?	}{	51	}{	Seduction 6 & not IsMale(pc) & G.Phil_Seduce < 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	75	}{	If you don't know, you shouldn't be asking.	}{	If you don't know, you shouldn't be asking.	}{	21	}{	Persuasion 4 & G.Phil_Persuade == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	77	}{	Fine. But I just may be back.	}{	Fine. But I just may be back.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	78	}{	Now that you've seen me, I can't let you live.	}{	Now that you've seen me, I can't let you live.	}{	0	}{	}{	npc.SetRelationship("player D_FR 5")	}{	}{	}{	}{	}{	}{	}{	I'm going to make a meal of your inner liquids, male nurse.	}
+{	81	}{	Take it, take it! O-oh... boy, Phil, you did it now - I dropped it! I - uh... sorry![flees]	}{	Take it, take it! O-oh... boy, Phil, you did it now - I dropped it! I - uh... sorry![flees]	}{	#	}{	npc.SetDisposition("Fear", 2)	}{	G.Phil_Drop = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	npc.SetRelationship("player D_FR 5")	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
+{	91	}{	It's 1969... that's all I know.	}{	It's 1969... that's all I know.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	92	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
+{	105	}{	...	}{	...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	106	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	109	}{	(Starting Condition)	}{	}{	105	}{	OnBeginDialog(pc,npc,40)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	110	}{	(Starting Condition)	}{	}{	91	}{	G.Phil_Persuade == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	111	}{	(Starting Condition)	}{	}{	41	}{	G.Phil_Start == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	112	}{	(Starting Condition)	}{	}{	1	}{	1	}{	}{	}{	}{	}{	}{	}{	}{	}

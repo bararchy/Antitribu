@@ -1,0 +1,141 @@
+{	1	}{	So, you think you can fuck me over and get away with it, bitch?	}{	So, you think you can fuck me over and get away with it, bitch?	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	2	}{	What are you talking about?	}{	What are you talking about?	}{	14	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your motives are a mystery.	}	
+{	3	}{	Yep. That about sums it up. 	}{	Yep. That about sums it up. 	}{	28	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your math checks out. You get an A+!	}	
+{	4	}{	Uh, no? Look, I'm sorry ... whatever this is about.	}{	Uh, no? Look, I'm sorry ... whatever this is about.	}{	43	}{	}{	}{	}{	}{	}{	}{	}{	}{	hould apologies be in order? I can pick up the bill on this one.	}	
+{	5	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	6	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	12	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	13	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	14	}{	Don't play stupid! Half my boys are dead 'cause of you! We used you up, and now we about to waste you!	}{	Don't play stupid! Half my boys are dead 'cause of you! We used you up, and now we about to waste you!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	15	}{	Bring it! 	}{	Bring it! 	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Let's see if your muscle is as loud as your words.	}	
+{	16	}{	Please! we can settle the matter peacefully.  }{	Please! we can settle the matter peacefully. 	}{	43	}{	}{	}{	}{	}{	}{	}{	}{	}{	Can't we all just get along?!	}	
+{	17	}{	Oh, those boys, they were screaming like a girls. 	}{	Oh, those boys, they were screaming like a girls.  	}{	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	The transgressions have not floated past us?	}	
+{	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	22	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	23	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	24	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	25	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	26	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	27	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	28	}{	Cocky-ass, mother fucker. They gonna have to scrape you off the sidewalk, like we had to scrape our boys outta that parking garage. 	}{	Cocky-ass, mother fucker. They gonna have to scrape you off the sidewalk, like we had to scrape our boys outta that parking garage. 	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	29	}{	There was anything left of your "boys" to scrape? 	}{	There was anything left of your "boys" to scrape? 	}{	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	I have a spatula!	}	
+{	30	}{	Whatever. I'll kill you, too.	}{	Whatever. I'll kill you, too.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Deal or no deal? You tell me!	}	
+{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	33	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	34	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	35	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	36	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	37	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	40	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	42	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	43	}{	Yea, keep cryin' like a little bitch. You gonna die like one, too, for what you did to my boys in that garage. 	}{	Yea, keep cryin' like a little bitch. You gonna die like one, too, for what you did to my boys in that garage. 	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	44	}{	Alright, fucking gay, if you want to die tonight let's start.	}{	Alright, fucking gay, if you want to die tonight let's start.	}{	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	We've completed the contracts. Shall we cast this to the wind as well?	}	
+{	45	}{	Fine. I'm not going out without a fight.	}{	Fine. I'm not going out without a fight.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Grrrr!	}
+{	46	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	47	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	48	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	49	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	50	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	52	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	53	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	54	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	55	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	56	}{	We make deals. We break deals. But more than that we don't forget. You ain't useful no more, so now it's time to pay.	}{	We make deals. We break deals. But more than that we don't forget. You ain't useful no more, so now it's time to pay.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	57	}{	Well let's see what you got. 	}{	Well let's see what you got. 	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Let's see if your muscle is as loud as your words.	}	
+{	58	}{	Backstabbing bastard!	}{	Backstabbing bastard!	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	There's a knife in my back. Can you get it for me?	}	
+{	59	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	60	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	62	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	63	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	64	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	65	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	66	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	67	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	68	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	69	}{	Keeps runnin' the mouth until the end. Time to shut you up for good!	}{	Keeps runnin' the mouth until the end. Time to shut you up for good!	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	70	}{	...	}{	...	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	72	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	73	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	74	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	75	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	76	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	77	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	78	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	79	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	80	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	81	}{	God damn! They told me you were ugly, but Jesus Christ! I could kill you, but you already dead ... on the outside.	}{	God damn! They told me you were ugly, but Jesus Christ! I could kill you, but you already dead ... on the outside.	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	82	}{	I'm dead on more than the outside.	}{	 I'm dead on more than the outside.	}{	95	}{	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	83	}{	Okay, you're clearly not the mark. I take it this is a death trap?	}{	Okay, you're clearly not the mark. I take it this is a death trap?	}{	108	}{	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	84	}{	I'm tired of you people, never giving my looks a rest!	}{	I'm tired of you people, never giving my looks a rest!	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	85	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	86	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	87	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	88	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	89	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	90	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	92	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	93	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	94	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	95	}{	Uhh ... well ... you gonna BE a corpse in a second. Half my boys died in that parking garage 'cause of yo' scabby ass.	}{	Uhh ... well ... you gonna BE a corpse in a second. Half my boys died in that parking garage 'cause of yo' scabby ass.	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	96	}{	Indeed! Last one who said it to me feeds the worms.	}{	Indeed! Last one who said it to me feeds the worms.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	97	}{	Let's see you try, smooth skin.	}{	Let's see you try, smooth skin.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	98	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	99	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	100	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	102	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	103	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	104	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	105	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	106	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	107	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	108	}{	You might be ugly but at least you're not dumb. I'll tell you how it is. We used you for awhile, but tonight you're gonna die for what you did.	}{	You might be ugly but at least you're not dumb. I'll tell you how it is. We used you for awhile, but tonight you're gonna die for what you did.	}{	#	}{ npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	109	}{	Listen, you asshole, this is you look in the face of death, now!	}{	Listen, you asshole, this is you look in the face of death, now!	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	110	}{	If you think this is the first time someone caught me off guard, I think you're in for an unpleasant surprise. 	}{	If you think this is the first time someone caught me off guard, I think you're in for an unpleasant surprise. 	}{	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	112	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	113	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	114	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	115	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	116	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	117	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	118	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	119	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	120	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	121	}{	Then let me wipe that fuckin' boil off your face with this tire iron. Time to die, bitch!	}{	Then let me wipe that fuckin' boil off your face with this tire iron. Time to die, bitch!	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	122	}{	...	}{	...	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	123	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	124	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	125	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	126	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	127	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	128	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	129	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	130	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	132	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	133	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	134	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	135	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	136	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	137	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	138	}{...	}{...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	139	}{(Auto-End)	}{(Auto-End)	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	140	}{	(Starting Condition)	}{	}{	138	}{	OnBeginDialog(pc,npc,2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	141	}{	(Starting Condition)	}{	}{	81	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}	

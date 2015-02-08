@@ -1,0 +1,42 @@
+{	1	}{	Y-you got - you got some change, mister?	}{	Hey - hey lady, y-you got some change, lady?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Here, it's not much, but I hope it helps.	}{	Here, it's not much, but I hope it helps.	}{	11	}{	pc.CurrentMoney() >= 1 and G.Patch_Plus == 0	}{	pc.MoneyRemove(1)	}{	}{	}{	}{	}{	}{	}{	}
+{	3	}{	I do. But not for you.	}{	I do. But not for you.	}{	51	}{	not IsClan(pc,"Ventrue") and not IsClan(pc,"Nosferatu")	}{	G.Bum_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	4	}{	Get a job, pissant.	}{	Get a job, pissant.	}{	21	}{	IsClan(pc,"Ventrue") and pc.IsMale()	}{	G.Bum_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	5	}{	Get a job, pissant.	}{	Get a job, pissant.	}{	31	}{	IsClan(pc,"Ventrue") and not pc.IsMale()	}{	G.Bum_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	6	}{	I do. But not for you.	}{	I do. But not for you.	}{	41	}{	IsClan(pc,"Nosferatu") and not pc.IsMale()	}{	G.Bum_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	7	}{	I do. But not for you.	}{	I do. But not for you.	}{	51	}{	IsClan(pc,"Nosferatu") and pc.IsMale()	}{	G.Bum_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	8	}{	You hungry? I am too. Hmmm... we do seem to be all alone in this alley.	}{	You hungry? I am too. Hmmm... we do seem to be all alone in this alley.	}{	0	}{	not IsClan(pc,"Ventrue")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	9	}{	You're not exactly what I wanted, but choosers can eat beggars.	}{	You're not exactly what I wanted, but choosers can eat beggars.	}{	0	}{	G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	What should appear on the doorstop of my web but a nice, juicy fly.	}
+{	10	}{	Here, it's not much, but I hope it helps.	}{	Here, it's not much, but I hope it helps.	}{	11	}{	pc.CurrentMoney() >= 1 and G.Patch_Plus == 1	}{	pc.MoneyRemove(1); pc.HumanityAdd(1)	}{	}{	}{	}{	}{	}{	}{	}
+{	11	}{	That's very nice, thank you.	}{	That's very nice, thank you.	}{	#	}{	}{	G.Bum_Gift = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	21	}{	Cheap-ass!	}{	Cheap-ass!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	31	}{	Rich bitch!	}{	Rich bitch!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	41	}{	Skank!	}{	Skank!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	51	}{	Asshole.	}{	Bitch.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	61	}{	Thanks... thanks mister.	}{	Hey, lady, thanks a lot.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	81	}{	Y-you got - you got some change, mister?	}{	Hey - hey lady, y-you got some change, lady?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	Thirsty? Here, drink this.	}{	Thirsty? Here, drink this.	}{	0	}{	Dominate 1 & companion.Test(pc,npc) and LimitSet(1,8) and isclan (pc,"Brujah") or isclan (pc,"Malkavian") or isclan (pc,"Ventrue")	}{	ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),1)')	}{	}{	}{	}{	}{	}{	}{	}
+{	83	}{	You may be of use. You will serve me, human.	}{	You may be of use. You will serve me, human.	}{	0	}{	Dominate 1 & LimitSet(2,8) and isclan (pc,"Brujah") or isclan (pc,"Malkavian") or isclan (pc,"Ventrue")	}{	ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),1)')	}{	}{	}{	}{	}{	}{	}{	}
+{	88	}{	I would feel better if you drank this.	}{	Show me that you love me. Drink this.	}{	0	}{	Presence 1 & companion.Test(pc,npc) and LimitSet(7,8) and isclan (pc,"Gangrel")	}{	ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),3)')	}{	}{	}{	}{	}{	}{	}{	}
+{	89	}{	Serve me, and I will bring you great things.	}{	You don't need money, you only need my attention.	}{	0	}{	Presence 2 & LimitSet(8,8) and Isclan (pc, "Gangrel")	}{	ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),3)')	}{	}{	}{	}{	}{	}{	}{	}
+{	90	}{	Here, it's not much, but I hope it helps.	}{	Here, it's not much, but I hope it helps.	}{	11	}{	pc.CurrentMoney() >= 1 and G.Patch_Plus == 0	}{	pc.MoneyRemove(1)	}{	}{	}{	}{	}{	}{	}{	Here, let me put some fortune in your misfortune.	}
+{	91	}{	I do. But not for you.	}{	I do. But not for you.	}{	51	}{	not IsClan(pc,"Ventrue") and not IsClan(pc,"Nosferatu")	}{	G.Bum_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	I am the fattest piggy bank in the world, but I will not break for you.	}
+{	92	}{	Get a job, pissant.	}{	Get a job, pissant.	}{	21	}{	IsClan(pc,"Ventrue") and pc.IsMale()	}{	G.Bum_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	93	}{	Get a job, pissant.	}{	Get a job, pissant.	}{	31	}{	IsClan(pc,"Ventrue") and not pc.IsMale()	}{	G.Bum_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	94	}{	I do. But not for you.	}{	I do. But not for you.	}{	41	}{	IsClan(pc,"Nosferatu") and not pc.IsMale()	}{	G.Bum_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	95	}{	I do. But not for you.	}{	I do. But not for you.	}{	51	}{	IsClan(pc,"Nosferatu") and pc.IsMale()	}{	G.Bum_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	96	}{	You hungry? I am too. Hmmm... we do seem to be all alone in this alley.	}{	You hungry? I am too. Hmmm... we do seem to be all alone in this alley.	}{	0	}{	not IsClan(pc,"Ventrue")	}{	}{	}{	}{	}{	}{	}{	}{	You cannot quench your thirst here in the lonely dark.... Who could? Hmm....	}
+{	97	}{	You're not exactly what I wanted, but choosers can eat beggars.	}{	You're not exactly what I wanted, but choosers can eat beggars.	}{	0	}{	G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	What should appear on the doorstop of my web but a nice, juicy fly.	}
+{	98	}{	Here, it's not much, but I hope it helps.	}{	Here, it's not much, but I hope it helps.	}{	11	}{	pc.CurrentMoney() >= 1 and G.Patch_Plus == 1	}{	pc.MoneyRemove(1); pc.HumanityAdd(1)	}{	}{	}{	}{	}{	}{	}{	Here, let me put some fortune in your misfortune.	}
+{	105	}{	...	}{	...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	106	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	109	}{	(Starting Condition)	}{	}{	105	}{	OnBeginDialog(pc,npc,30)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	110	}{	(Starting Condition)	}{	}{	61	}{	G.Bum_Gift == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	111	}{	(Starting Condition)	}{	}{	51	}{	G.Bum_Pissed == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	112	}{	(Starting Condition)	}{	}{	81	}{	1	}{	}{	}{	}{	}{	}{	}{	}{	}

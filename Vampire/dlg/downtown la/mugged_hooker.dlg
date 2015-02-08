@@ -1,0 +1,64 @@
+{	1	}{	Stop! Stop! Please!	}{	Stop! Stop! Please!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	2	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	3	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	4	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	5	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	6	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	10	}{	Help! Help! Help! Anyone, please-	}{	Help! Help! Help! Anyone, please-	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	11	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	12	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	13	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	14	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	15	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	16	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	21	}{	Fuck! This shit hole of a city is falling apart. City of Angels my ass. I'm glad you wasted those bastards. They deserved it. 	}{	 Fuck! This shit hole of a city is falling apart. City of Angels my ass. I'm glad you wasted those bastards. They deserved it. 	}{	#	}{	pc.SetQuest("hooker_mugging",3);G.hooker_talked_post_mugging = 1;npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	My pleasure. Trust me. 	}{	My pleasure. Trust me. 	}{	40	}{	not pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	 The Angels are Fallen. They seek the Morning Star. 	}	
+{	23	}{	My pleasure. Trust me.	}{	My pleasure. Trust me.	}{	30	}{	pc.IsMale()	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	24	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	25	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	26	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	27	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	28	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	29	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	30	}{	Listen, I'm really grateful. I don't really have any money or anything, but... How about a freebie? Anytime you want it, okay?	}{	Listen, I'm really grateful. I don't really have any money or anything, but... How about a freebie? Anytime you want it, okay?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	31	}{	Sounds fair to me. Come closer...	}{	Sounds fair to me. Come closer...	}{	0	}{	}{	pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Treats from tricks!	}		
+{	32	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	33	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	34	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	35	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	36	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	37	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	40	}{	Listen, I'm really grateful. I don't really have any money or anything, but... How about a freebie? Anytime you want it, okay? I mean, if you're into that sort of thing, ya know?	}{	 Listen, I'm really grateful. I don't really have any money or anything, but... How about a freebie? Anytime you want it, okay? I mean, if you're into that sort of thing, ya know?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	41	}{	Sounds fair to me. Come closer...	}{	Sounds fair to me. Come closer...	}{	0	}{	}{	pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Treats from tricks!	}		
+{	42	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	43	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	44	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	45	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	46	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	47	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	48	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	49	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	50	}{	You are insatiable! Still, I can't thank you enough. Come here and collect your reward, hero.	}{	You are insatiable! Still, I can't thank you enough. Come here and collect your reward, hero.	}{	#	}{	npc.SetDisposition("Flirtatious", 1);npc.Bloodgain(4);pc.SetQuest("hooker_mugging",3)	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	51	}{	...	}{	...	}{	0	}{	}{	pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	}		
+{	52	}{	No need to thank me. See you around.	}{	No need to thank me. See you around.	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{ 	Your gratitude is unspoken, but is loudly heard.	}		
+{	53	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}		
+{	54	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	55	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	56	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	57	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	58	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	59	}{...	}{...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	60	}{(Auto-End)	}{(Auto-End)	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}	
+{	61	}{	(Starting Condition)	}{	}{	59	}{	OnBeginDialog(pc,npc,44)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	(Starting Condition)	}{	}{	50	}{	G.hooker_talked_post_mugging == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	63	}{	(Starting Condition)	}{	}{	21	}{	1 == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+	

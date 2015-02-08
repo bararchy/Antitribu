@@ -1,0 +1,24 @@
+{	1	}{	[Rapidly, frightened]Oh, I'm so relieved you're safe! I wanted to warn you when I heard it was a setup, but Therese pulled a gun on me and I locked myself in the bathroom and she's threatening to kill me an-and you have to help me!	}{	[Rapidly, frightened]Oh, I'm so relieved you're safe! I wanted to warn you when I heard it was a setup, but Therese pulled a gun on me and I locked myself in the bathroom and she's threatening to kill me an-and you have to help me!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Slow down. Tell me what happened.	}{	Slow down. Tell me what happened.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	3	}{	Of course I'll save you. But first, tell me what happened.	}{	Of course I'll save you. But first, tell me what happened.	}{	21	}{	Seduction 2	}{	G.Jeanette_Seduce = G.Jeanette_Seduce + 1	}{	}{	}{	}{	}{	}{	}{	}
+{	4	}{	Why should I help you?	}{	Why should I help you?	}{	31	}{	}{	G.Jeanette_Seduce = G.Jeanette_Seduce - 1	}{	}{	}{	}{	}{	}{	}{	}
+{	11	}{	[Rapidly, frightened]It was a setup! Listen, I know we've had our differences, but you have to trust me! Therese tried to have you killed! I had to lock myself in the bathroom because now she's got a gun and - please, you have to help me!	}{	[Rapidly, frightened]It was a setup! Listen, I know we've had our differences, but you have to trust me! Therese tried to have you killed! I had to lock myself in the bathroom because now she's got a gun and - please, you have to help me!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	Slow down. Tell me what happened.	}{	Slow down. Tell me what happened.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	13	}{	Why should I help you?	}{	Why should I help you?	}{	31	}{	}{	G.Jeanette_Seduce = G.Jeanette_Seduce - 1	}{	}{	}{	}{	}{	}{	}{	What need have I of a used saddle?	}
+{	21	}{	Therese knew it was you at the gallery all along. She set you up and... heh! [Sound of gunfire]Did you hear that? She's crazy! She paid those thieves for a hit. She'll kill anyone who gets in the way of her becoming the top dog of Santa Monica.	}{	Therese knew it was you at the gallery all along. She set you up and... heh! [Sound of gunfire]Did you hear that? She's crazy! She paid those thieves for a hit. She'll kill anyone who gets in the way of her becoming the top dog of Santa Monica.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	Alright. I'm coming over. Goodbye.	}{	Alright. I'm coming over. Goodbye.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	I will come to right this wrong.	}
+{	23	}{	Don't worry, Jeanette, I'll deal with Therese. I've got a score to settle.	}{	Don't worry, Jeanette, I'll deal with Therese. I've got a score to settle.	}{	41	}{	}{	G.Jeanette_Seduce = G.Jeanette_Seduce + 1	}{	}{	}{	}{	}{	}{	}{	}
+{	24	}{	Well, thanks for getting me into this, Jeanette!	}{	Well, thanks for getting me into this, Jeanette!	}{	31	}{	}{	G.Jeanette_Seduce = G.Jeanette_Seduce - 1	}{	}{	}{	}{	}{	}{	}{	}
+{	25	}{	I hope you two kill each other, goodbye.	}{	I hope you two kill each other, goodbye.	}{	31	}{	}{	G.Jeanette_Seduce = G.Jeanette_Seduce - 1	}{	}{	}{	}{	}{	}{	}{	}
+{	31	}{	Therese is gonna kill us! Without me you'll never get out of Santa Monica alive.	}{	Therese is gonna kill us! Without me you'll never get out of Santa Monica alive.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	Why is Therese trying to kill me?	}{	Why is Therese trying to kill me?	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	41	}{	Hurry! I don't know how much longer I have!	}{	Hurry! I don't know how much longer I have!	}{	#	}{	}{	pc.SetQuest("Tourette",1)	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	I'm on my way.	}{	I'm on my way.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	43	}{	Damn it.	}{	Damn it.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	51	}{	I'm terribly sorry about that. My sister was just furious about your refusal to take part in her designs, so she sent those men to kill you. But I'm going to make sure it never happens again. Drop by, we'll take care of this Tung business.	}{	I'm terribly sorry about that. My sister was just furious about your refusal to take part in her designs, so she sent those men to kill you. But I'm going to make sure it never happens again. Drop by, we'll take care of this Tung business.	}{	#	}{	}{	pc.SetQuest("Tourette",2)	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	(Auto-Link)	}{	(Auto-Link)	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	61	}{	She's crazy! HELP!	}{	She's crazy! HELP!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	...	}{	...	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	74	}{	(Starting Condition)	}{	}{	51	}{	G.Therese_Quest == 4 and G.Therese_Respect == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	75	}{	(Starting Condition)	}{	}{	11	}{	G.Therese_Quest == 4 and G.Jeanette_Seduce < 8	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	76	}{	(Starting Condition)	}{	}{	1	}{	G.Therese_Quest == 4 and G.Jeanette_Seduce >= 8	}{	}{	}{	}{	}{	}{	}{	}{	}

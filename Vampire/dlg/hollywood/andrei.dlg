@@ -1,0 +1,187 @@
+{	5	}{	[sniff, sniff, sniff deeply]What is that... smell?	}{	[sniff, sniff, sniff deeply]What is that... smell?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	6	}{	[Andrei is from Eastern Europe; it would be great if he could have some creepy hard-to-place accent. He should be strong but creepy, like a dominant male spider making sexual overtures at its prey. He is a master of manipulation, in utter control of the situation at all times (at least, that's what he wants you to believe)]	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	7	}{	(Auto-Link)	}{	(Auto-Link)	}{	151	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	11	}{	Ahh, hello young Cainite. I see your face is not so lifeless, your nerves not so deadened, that you cannot express shock. Tell me childe, is my appearance that frightening, or is it my knowledge of you that is so unnerving?	}{	Ahh, hello young Cainite. I see your face is not so lifeless, your nerves not so deadened, that you cannot express shock. Tell me childe, is my appearance that frightening, or is it my knowledge of you that is so unnerving?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	What the hell is going on in here? This place is a madhouse!	}{	What the hell is going on in here? This place is a madhouse!	}{	21	}{	not IsClan(pc,"Malkavian") and not IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	13	}{	Frightening? Take a look at this grill, buddy.	}{	Frightening? Take a look at this grill, buddy.	}{	211	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	14	}{	Ah! The Sword of Caine!	}{	Ah! The Sword of Caine!	}{	221	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	21	}{	Oh, childe of Caine, the sights in this haven pale in comparison to my ancestral estate. Comfort... is a custom, and all of this artifice brings me closer to my home. Do not fear from my furniture, young one.	}{	Oh, childe of Caine, the sights in this haven pale in comparison to my ancestral estate. Comfort... is a custom, and all of this artifice brings me closer to my home. Do not fear from my furniture, young one.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	You're the one who made the tape, aren't you?	}{	You're the one who made the tape, aren't you?	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	You made the terrible tape!	}
+{	31	}{	Not too much for those of us able to give the gift of metamorphosis, young one. I know you have a cold appreciation for the aesthetic of my creations, I see awe and longing in your eyes.	}{	Not too much for those of us able to give the gift of metamorphosis, young one. I know you have a cold appreciation for the aesthetic of my creations, I see awe and longing in your eyes.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	Yeah, you see the longing to kill you!	}{	Yeah, you see the longing to get you killed!	}{	141	}{	}{	}{	}{	}{	}{	}{	}{	}{	Aww, I am longing for you to be dead already...again!	}
+{	33	}{	They are impressive. Could you teach me how to create my own?	}{	}{	786	}{	IsClan(pc,"Toreador")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	41	}{	Revulsion is instinctual, and instinct is a powerful level to work toward; to evoke it, a glorious accomplishment. Revulsion is a striking color on my palette. I see wonderment in your dead eyes; you long to wield such power as deftly as I.	}{	Revulsion is instinctual, and instinct is a powerful level to work toward; to evoke it, a glorious accomplishment. Revulsion is a striking color on my palette. I see wonderment in your dead eyes; you long to wield such power as deftly as I.	}{	#	}{	Whisper("Gibberish")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	I don't think so, asshole.	}{	I don't think so, asshole.	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	43	}{	You have no idea who I am or what I'm about.	}{	You have no idea who I am or what I'm about.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	44	}{	Perhaps. But I know I don't want to serve the Camarilla.	}{	}{	809	}{	IsClan(pc,"Toreador")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	45	}{	Uh, I long to separate your head from your body.	}{	Uh, I long to separate your head from your body.	}{	141	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	51	}{	Then perhaps it's your longing to become something more. You've indulged your vampiric nature, reveled in your vampiric prowess, now the Beast inside of you longs to evolve further. That gift is on the tips of my talons to give.	}{	Then perhaps it's your longing to become something more. You've indulged your vampiric nature, reveled in your vampiric prowess, now the Beast inside of you longs to evolve further. That gift is on the tips of my talons to give.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	If it means looking anything like you, forget it.	}{	If it means looking anything like you, forget it.	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	53	}{	Just because you've surrendered to the Beast doesn't mean I will.	}{	Just because you've surrendered to the Beast doesn't mean I will.	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	55	}{	I've got a gift for you. It starts with a "D" and ends with an "E-A-T-H".	}{	I've got a gift for you. It starts with a "D" and ends with an "E-A-T-H".	}{	141	}{	}{	}{	}{	}{	}{	}{	}{	}{	The boatman has come to collect his toll, demon! DIE!	}
+{	61	}{	Do not fear your nature, childe. Your body is not a dead husk, but a chrysalis of beastly splendor. Embrace it. I can take your body - this passing, mortal machine - and reshape it into an engine of Cainite fury.	}{	Do not fear your nature, childe. Your body is not a dead husk, but a chrysalis of beastly splendor. Embrace it. I can take your body - this passing, mortal machine - and reshape it into an engine of Cainite fury.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	You think I'd actually want to become your servant? Dream on.	}{	You think I'd actually want to become your servant? Dream on.	}{	141	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	63	}{	That sounded like a threat. It's go-time, freak.	}{	That sounded like a threat. It's go-time, freak.	}{	141	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	71	}{	[sharp, indignant]You are instantly known to me. I smell your vitae and can imagine the taste of your viscera on my talons. [sniff deeply]Ahhh yes, it's in the blood, strong and balmy. It's not yours to hide, childe.	}{	[sharp, indignant]You are instantly known to me. I smell your vitae and can imagine the taste of your viscera on my talons. [sniff deeply]Ahhh yes, it's in the blood, strong and balmy. It's not yours to hide, childe.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	Whatever. How come every Sabbat I meet is a stark raving lunatic?	}{	Whatever. How come every Sabbat I meet is a stark raving lunatic?	}{	61	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	73	}{	What? I don't even know what you're talking about any more.	}{	What? I don't even know what you're talking about any more.	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your words have become a bloody bungle.	}
+{	75	}{	Keep your talons to yourself. I'm putting an end to this right now.	}{	You want to taste my viscera on the first date? That's it!	}{	141	}{	}{	}{	}{	}{	}{	}{	}{	}{	Death comes to you on tattered wings! DIE!	}
+{	81	}{	It is not for me - it's for the will of the Sabbat[Suh-BAHT]! The Camarilla [cam-err-ILL-uh]is stunted; dead and festering in the womb, good only as pawns of the fathers. Even now, they answer the call of the Ancient and seek to free him from his torpor.	}{	It is not for me - it's for the will of the Sabbat[Suh-BAHT]! The Camarilla [cam-err-ILL-uh]is stunted; dead and festering in the womb, good only as pawns of the fathers. Even now, they answer the call of the Ancient and seek to free him from his torpor.	}{	#	}{	}{	G.Andrei_Sabbat = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	The Ancient?	}{	The Ancient?	}{	161	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ancient?	}
+{	91	}{	Blessed creatures; I have broken through their mortal crust and drawn from them their greatest strength: [drawn-out pronunciation]mutability. I coax bone, weave flesh, and lace sinew tight until it strains to lash out!	}{	Blessed creatures; I have broken through their mortal crust and drawn from them their greatest strength: [drawn-out pronunciation]mutability. I coax bone, weave flesh, and lace sinew tight until it strains to lash out!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	92	}{	Where did you get the... raw materials for them?	}{	Where did you get the... raw materials for them?	}{	101	}{	not IsClan(pc,"Toreador")	}{	}{	}{	}{	}{	}{	}{	}{	From where come your bloody battalions?	}
+{	93	}{	But they sure are ugly.	}{	But they sure are ugly.	}{	121	}{	}{	}{	}{	}{	}{	I could make better looking creatures in my sleep.	}{	}{	}{	Their appearance is appalling.	}
+{	98	}{	Speaking of lashing out... you're dead, freakshow.	}{	Speaking of lashing out... you're dead, freakshow.	}{	141	}{	not IsClan(pc,"Toreador")	}{	}{	}{	}{	}{	}{	}{	}{	Death, dark shadows, and your smoking ashes! DIE!	}
+{	101	}{	Illegals, mongrels, half bloods, and Caitiff[KATE-if]; the bane of society, Kindred and kine. They are as of [RM: of as]little consequence to authority as they are to me. It is... a culling, of sorts.	}{	Illegals, mongrels, half bloods, and Caitiff[KATE-if]; the bane of society, Kindred and kine. They are as of [RM: of as]little consequence to authority as they are to me. It is... a culling, of sorts.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	102	}{	The "machines" you create are brutal, broken, and ugly.	}{	The "machines" you create are brutal, broken, and ugly.	}{	121	}{	Not IsClan(pc,"Toreador")	}{	}{	}{	}{	}{	}{	}{	}{	These dreadful "machines" are disgusting!	}
+{	103	}{	That's pretty sick. And they're really disgusting.	}{	That's pretty sick. And they're really disgusting.	}{	121	}{	Not IsClan(pc,"Toreador")	}{	}{	}{	}{	}{	}{	}{	}{	Their appearance is appalling.	}
+{	104	}{	So you have all the needed meat, and the streets are rid of vermin. Smart.	}{	}{	0	}{	IsClan(pc,"Toreador")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	110	}{	You're about to culled, freak. And daddy's gonna be doin' the cullin'.	}{	You're about to culled, freak. And mama's gonna be doin' the cullin'.	}{	141	}{	}{	}{	}{	}{	}{	}{	}{	}{	You shall be reaped in my blood harvest, demon!	}
+{	111	}{	To gouge out the eyes of the Camarilla. The sewers are clogged with my creations. I will kill or drive the Nosferatu from their pestilent nests. Without the sewer rats to guide them, the Camarilla will be blind to the Sabbat's designs.	}{	To gouge out the eyes of the Camarilla. The sewers are clogged with my creations. I will kill or drive the Nosferatu from their pestilent nests. Without the sewer rats to guide them, the Camarilla will be blind to the Sabbat's designs.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	112	}{	Ah! So you're one of those Sabbat assholes. And this is your plan?	}{	Ah! So you're one of those Sabbat assholes. And this is your plan?	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Did you devise this devilish design?	}
+{	119	}{	I'm sorry, but I can't let that happen.	}{	I'm sorry, but I can't let that happen.	}{	141	}{	}{	}{	}{	}{	}{	}{	}{	}{	This dark design will not come to fruition, false prophet!	}
+{	121	}{	Perhaps, but they are exquisitely functional. Still, there's an uncanny elegance to even this, my most mercenary of designs.	}{	Perhaps, but they are exquisitely functional. Still, there's an uncanny elegance to even this, my most mercenary of designs.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	122	}{	To tell you the truth, you're even uglier than they are.	}{	To tell you the truth, you're even uglier than they are.	}{	41	}{	Not IsClan(pc,"Toreador")	}{	}{	}{	}{	}{	}{	}{	}{	Your wretchedness weighs heavier than theirs.	}
+{	123	}{	It must have been a lot of work to create these "machines".	}{	It must have been a lot of work to create these "machines".	}{	31	}{	}{	}{	}{	}{	}{	Possibly. But it must take more effort than it was worth.	}{	}{	}{	}
+{	124	}{	Man, you are really deluded. And I've got just what the doctor ordered.	}{	Man, you are really deluded. And I've got just what the doctor ordered.	}{	141	}{	Not IsClan(pc,"Toreador")	}{	}{	}{	}{	}{	}{	}{	}{	I've a permanent cure for your putridness, fiend.	}
+{	125	}{	But where did you find the...materials needed?	}{	}{	101	}{	IsClan(pc,"Toreador")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	131	}{	[distastefully]Oh yes, the "tape". Merely a test. Certainly not intended to fall into mortal hands. Fortunately, we are in the capital of mortal trickery and illusion. So did the tape drive you to find me? From whence flows your longing, childe?	}{	[distastefully]Oh yes, the "tape". Merely a test. Certainly not intended to fall into mortal hands. Fortunately, we are in the capital of mortal trickery and illusion. So did the tape drive you to find me? From whence flows your longing, childe?	}{	#	}{	}{	G.Andrei_Tape = 1; G.Story_State = 40	}{	}{	}{	}{	}{	}{	}{	}
+{	132	}{	I'm longing to kick your ass. What the hell is this all about?	}{	I'm longing to kick your ass. What the hell is this all about?	}{	111	}{	Not IsClan(pc,"Toreador")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	133	}{	I don't know, really. What is going on down here?	}{	I don't know, really. What is going on down here?	}{	111	}{	not IsClan(pc,"Toreador")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	134	}{	I want to learn about those... things you created.	}{	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	141	}{	Now, Camarilla whelp, let me see you fight your nature in the face of those who have embraced their Beast. Deny yourself Caine's gifts, and be torn asunder by my minions!	}{	Now, Camarilla whelp, let me see you fight your nature in the face of those who have embraced their Beast. Deny yourself Caine's gifts, and be torn asunder by my minions!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	142	}{	You asked for this.	}{	You asked for this.	}{	0	}{	}{	companion.handleBossEndDialog(56);npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	The angel of death comes swift and furious, fiend!	}
+{	143	}{	Bring it on.	}{	Bring it on.	}{	0	}{	not IsClan(pc,"Malkavian")	}{	companion.handleBossEndDialog(56);npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	}
+{	151	}{	I smell the blood of my clan, Childe. You are hers.	}{	I smell the blood of my clan, Childe. You are his.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	152	}{	What are you talking about?	}{	}{	657	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	153	}{	Her? You mean my sire?	}{	Him? You mean my sire?	}{	657	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	161	}{	He slumbers within the Ankaran Sarcophagus; one of the fathers whose return shall hearken the Reckoning. Gehenna [guh-HEN-nuh]is at hand and the Camarilla are unwittingly speeding us all toward our doom.	}{	He slumbers within the Ankaran Sarcophagus; one of the fathers whose return shall hearken the Reckoning. Gehenna [guh-HEN-nuh]is at hand and the Camarilla are unwittingly speeding us all toward our doom.	}{	#	}{	}{	G.Andrei_Ancient = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	162	}{	Maybe, maybe not. What about these creatures? Did you make them?	}{	Maybe, maybe not. What about these creatures? Did you make them?	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Are these creepy creatures your creations?	}
+{	163	}{	Whatever. You're boring me. Time to die.	}{	Whatever. You're boring me. Time to die.	}{	141	}{	}{	}{	}{	}{	}{	}{	}{	}{	The reaper has come for you! I am the reaper.	}
+{	171	}{	[Still civil and controlled, but barely. Slightly faster and more urgent delivery, through clenched teeth.]I recognized the smell of your blood, young Cainite - very potent, greater than our last meeting. I could smell it, even over the flood of my fallen brethren. Doesn't that make you wonder?	}{	[Still civil and controlled, but barely. Slightly faster and more urgent delivery, through clenched teeth.]I recognized the smell of your blood, young Cainite - very potent, greater than our last meeting. I could smell it, even over the flood of my fallen brethren. Doesn't that make you wonder?	}{	#	}{	}{	G.Clean_Rubble = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	172	}{	Didn't I kill you already? This time I'll finish the job.	}{	Didn't I kill you already? This time I'll finish the job.	}{	181	}{	}{	}{	}{	}{	}{	}{	}{	}{	Again I will extinguish your evil light.	}
+{	173	}{	You won't fool me.	}{	You won't fool me.	}{	181	}{	}{	}{	}{	}{	}{	}{	}{	}{	My ears hear not your dark devilry.	}
+{	174	}{	Save it, freak.	}{	Save it, freak.	}{	181	}{	}{	}{	}{	}{	}{	}{	}{	}{	You're a hellish Gila monster!	}
+{	181	}{	Puppet! The strength of your blood is all that's saved you from yourself. [rage cracking the façade]Wretched weak-minded mongrel! The blood is wasted in you. Wasted!	}{	Puppet! The strength of your blood is all that's saved you from yourself. [rage cracking the façade]Wretched weak-minded mongrel! The blood is wasted in you. Wasted!	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	182	}{	Wasted is what you're about to be.	}{	Wasted is what you're about to be.	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Death has weighed you, and you are found wanting.	}
+{	183	}{	What are you talking about?	}{	What are you talking about?	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your words are steeped in your heart's black blood!	}
+{	184	}{	Puppet? For who? LaCroix? Nines Rodriguez?	}{	Puppet? For who? LaCroix? Nines Rodriguez?	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	No one pulls the strings of this puppet.	}
+{	191	}{	Miserable ignorant gutterspawn! You are blind! The sarcophagus must be destroyed!	}{	Miserable ignorant gutterspawn! You are blind! The sarcophagus must be destroyed!	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	192	}{	Too bad. Not going to happen.	}{	Too bad. Not going to happen.	}{	201	}{	}{	}{	}{	}{	}{	}{	}{	}{	No. The Dark Father has come!	}
+{	193	}{	What? What do you think is going to happen?	}{	What? What do you think is going to happen?	}{	201	}{	}{	}{	}{	}{	}{	}{	}{	}{	What fear have you of this fable?	}
+{	194	}{	I'm standing right here. Come get some.	}{	I'm standing right here. Come get some.	}{	201	}{	}{	}{	}{	}{	}{	}{	}{	}{	Hell's gates will welcome you.	}
+{	201	}{	I will do it myself if I must! And you - you will be purified. It is the blood that he is speaking through, the blood of all the pawns! It all must be purified!	}{	I will do it myself if I must! And you - you will be purified. It is the blood that he is speaking through, the blood of all the pawns! It all must be purified!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	202	}{	Wait! What's going to happen if the sarcophagus is opened?	}{	Wait! What's going to happen if the sarcophagus is opened?	}{	0	}{	}{	companion.handleBossEndDialog(56);npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	Inside, a furious fire! The pyre burns! Die, false prophet!	}
+{	203	}{	Finally. Let's do this.	}{	Finally. Let's do this.	}{	0	}{	}{	companion.handleBossEndDialog(56);npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	Yours is the path to final sleep.	}
+{	211	}{	Don't be ashamed of your appearance, young one. The Beast in us takes many forms, but all are beautiful in their own way. And this need only be the beginning.	}{	Don't be ashamed of your appearance, young one. The Beast in us takes many forms, but all are beautiful in their own way. And this need only be the beginning.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	212	}{	You're the one who made the tape, aren't you?	}{	You're the one who made the tape, aren't you?	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	221	}{	Ah! You see the truth of things, don't you, childe of Malkav. Blessed with your beastly visions, you are shown that the Sabbat are the only true heirs to the legacy of our dark father.	}{	Ah! You see the truth of things, don't you, childe of Malkav. Blessed with your beastly visions, you are shown that the Sabbat are the only true heirs to the legacy of our dark father.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	222	}{	No! You cast not his shadow, false prophet!	}{	No! You cast not his shadow, false prophet!	}{	231	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	223	}{	The Dark Father walks among us, with scales in his hand.	}{	The Dark Father walks among us, with scales in his hand.	}{	241	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	231	}{	Do not test me, young one. In time you will know the wisdom and power of the Children of Caine. Your flesh shall serve as my instrument of instruction.	}{	Do not test me, young one. In time you will know the wisdom and power of the Children of Caine. Your flesh shall serve as my instrument of instruction.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	232	}{	It is you who made the terrible tape!	}{	It is you who made the terrible tape!	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	241	}{	Indeed. And I fear not his wrath nor his judgment. Can you say the same, Camarilla pawn? The pathetic schemings of your new prince will not save you all from destruction.	}{	Indeed. And I fear not his wrath nor his judgment. Can you say the same, Camarilla pawn? The pathetic schemings of your new prince will not save you all from destruction.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	242	}{	It is you who made the terrible tape!	}{	It is you who made the terrible tape!	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	251	}{	Greetings.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	252	}{	Yes?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	253	}{	What do you want?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	254	}{	I no longer wish to speak with you.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	255	}{	Yes.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	256	}{	No.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	257	}{	Thank you.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	258	}{	What!?!	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	259	}{	What did you say?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	260	}{	I don't know.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	261	}{	I cannot help you with that.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	262	}{	I am pleased.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	263	}{	One more thing...	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	264	}{	Take this.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	265	}{	I will send you an email.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	271	}{	[Call-in Radio Line]Good evening, Deb.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	281	}{	[Call-in Radio Line][Weird laughter]Do you ever worry, "Deb", that the world is going to end.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	291	}{	[Call-in Radio Line][More weird laughter]Do you have any idea how insignificant you are? When they start devouring the world, you will be but a bloodstain on their capes.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	301	}{	[Call-in Radio Line]There is a red star in the night sky. The blood of mortals and the blood of ages, all will be consumed. They are coming - these are the final nights.[click of the phone being hung up]	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	455	}{	...	}{	...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	556	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	657	}{	Your sire, the traitorous peddler. She deserved her fate. But what of you, Childe?	}{	Your sire, the traitorous peddler. He deserved her fate. But what of you, Childe?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	658	}{	Don't insult her.	}{	Don't insult him.	}{	670	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	659	}{	I'm my own person	}{	}{	682	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	660	}{	I don't care what you think of me.	}{	}{	682	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	670	}{	You command  me, Childe? Your time with the dogs of the Camarilla has left you thinking above your station.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	671	}{	Don't talk down to me, reptile.	}{	}{	696	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	672	}{	I'm stronger than them, and stronger than you.	}{	}{	682	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	682	}{	Perhaps, Childe. Perhaps not. We shall see. But why have you invaded my domain?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	683	}{	I'm looking for the nosferatu.	}{	}{	708	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	685	}{	I'm looking for you.	}{	}{	760	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	696	}{	You take from your Sire I see. A shame to see my blood wasted.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	697	}{	Your blood?	}{	}{	721	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	698	}{	What are you talking about, freak?	}{	}{	721	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	708	}{	Why search for those deformed ones, Childe? If you wish to behold the beauty of the grotesque, simply ask, and I will show you.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	709	}{	The prince wants the Ankharan Sarcophagus	}{	}{	747	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	711	}{	My reasons are my own.	}{	}{	868	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	721	}{	Childe. Did you not question why I allowed you into my domain? Unhindered and unharmed?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	722	}{	"Unharmed"? I fought my way in here.	}{	}{	734	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	723	}{	Because you were scared of me?	}{	}{	734	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	724	}{	Because of my natural charm?	}{	}{	734	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	734	}{	No Childe. There are few enough of our clan in this city of angels. My own Childe abandoned me, yet now she is gone, and you are here.	}{	No Childe. There are few enough of our clan in this city of angels. My own Childe abandoned me, yet now he is gone, and you are here.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	735	}{	Wait, so you're my... grand-sire?	}{	}{	914	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	736	}{	I don't believe that.	}{	}{	904	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	747	}{	And you intend on giving it to him, Childe?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	748	}{	Yes	}{	}{	798	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	749	}{	No, I want to help you.	}{	}{	809	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	750	}{	I don't know.	}{	}{	822	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	760	}{	And you have found me, Childe.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	761	}{	I want to fight the Camarilla.	}{	}{	809	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	762	}{	I want to kill you.	}{	}{	798	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	763	}{	Tell me about these creatures that you've made.	}{	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	773	}{	Reason? There is no reason in these end times, Childe. Only pawns, puppets, and those who think for themselves. Which are you?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	774	}{	I'm no puppet	}{	}{	809	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	775	}{	Don't try to sway me. I still serve the Camarilla, if that's what you're asking.	}{	}{	798	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	786	}{	To teach you how to plagiarise is to stagnate, Childe. But I will teach you a small amount of my art.	}{	}{	#	}{	}{	pc.BumpStat("Vicissitude", 1)	}{	}{	}{	}{	}{	}{	}{	}
+{	787	}{	Thank you. Can you teach me more?	}{	}{	845	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	788	}{	Thanks, but I'm still on the good guys side.	}{	}{	834	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	798	}{	A shame for another of my kin to turn to the old ones pets, but now, it is time to end this.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	799	}{	...	}{	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	809	}{	Excellent, my Childe.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	810	}{	What would you have me do?	}{	}{	858	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	811	}{	Why are you so glad to have me in your wing?	}{	}{	721	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	822	}{	Indecision is the luxury of a fool, young one. You must decide now, to serve the dogs of the Camarilla, or to serve a higher purpose.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	823	}{	I willl serve the Sabbat	}{	}{	809	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	824	}{	I'll stay loyal the the Camarilla.	}{	}{	141	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	834	}{	Fool! Do you not realise who the true villains are? The elder ones are rising. And you shall be consumed along with the fools and cowards of the Camarilla.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	835	}{	...	}{	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	845	}{	In time, perhaps, but for now, you must pass a test. The one of stolen blood must be cleansed. Suceed in this, and we will meet again. If not, you are not worthy.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	849	}{	Childe. Did you not question why I allowed you into my domain? Unhindered and unharmed?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	850	}{	"Unharmed"? I fought my way in here.	}{	}{	853	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	851	}{	Because you were scared of me?	}{	}{	853	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	852	}{	Because of my natural charm?	}{	}{	853	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	853	}{	No Childe. There are few enough of our clan in this city of angels. My own Childe abandoned me, but now she is gone, and you are here.	}{	No Childe. There are few enough of our clan in this city of angels. My own Childe abandoned me, but now he is gone, and you are here.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	854	}{	Wait, so you're my... grand-sire?	}{	}{	856	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	855	}{	I don't believe that.	}{	}{	892	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	856	}{	A crude term, but apt, my Son.	}{	A crude term, but apt, my Daughter.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	857	}{	So, what would you have me do?	}{	}{	858	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	858	}{	Now, you must pass a test. The one of stolen blood must be cleansed. Suceed in this, and we will meet again. If not, you are not worthy of my interest.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	868	}{	If you believe that, you are a greater fool than I thought.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	869	}{	I'm not a fool. I've made my own choice, and thrown my lot in with the Camarilla.	}{	}{	798	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	870	}{	I'm not a fool.	}{	}{	880	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	880	}{	Only time shall tell. If you die, I shall remember you as a fledgling, clawing meaninglessly against a darkness you could never understand, if you survive... perhaps I shall remember you the same way.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	881	}{	I have no intentions of dying again.	}{	}{	925	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	882	}{	Maybe you're right. But back to business.	}{	}{	938	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	892	}{	What you believe matters not, Blood of my blood. I speak the truth, and if you are too close-minded to believe it, then so be it.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	893	}{	Fine then. What do you want me to do.	}{	}{	858	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	894	}{	I still don't believe you, but what do you need me to do.	}{	}{	858	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	904	}{	What you believe matters not, Blood of my blood. I speak the truth, and if you are too close-minded to believe it, then so be it.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	914	}{	A crude term, but apt.	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	915	}{	Alright then. So, are you the one who made the tape?	}{	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	925	}{	None of us do, Childe. But all die in time, and this time with come all the faster if you aid the Camarilla. The prince wants you to find the Sarcophagus. Will you give it to him when you find it?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	926	}{	I will give it to him	}{	}{	798	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	927	}{	I won't give it to him	}{	}{	809	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	928	}{	I don't know what I will do.	}{	}{	822	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	938	}{	Yes... To business. The Prince wants you to recover the Sarcophagus, and the ancient within it. Will you follow the command of a prince barely older than yourself?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	939	}{	Yes	}{	}{	798	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	940	}{	No	}{	}{	809	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	941	}{	I don't know.	}{	}{	822	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	959	}{	(Starting Condition)	}{	}{	455	}{	OnBeginDialog(pc,npc,56)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	960	}{	(Starting Condition)	}{	}{	171	}{	G.Story_State >= 75	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	961	}{	(Starting Condition)	}{	}{	5	}{	IsClan(pc,"Toreador")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	962	}{	(Starting Condition)	}{	}{	11	}{	1	}{	}{	}{	}{	}{	}{	}{	}{	}

@@ -1,0 +1,96 @@
+{	1	}{	Sheesh, is this place always so dead?	}{	Sheesh, is this place always so dead?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Danielle_Know = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Death is only a sweet beginning, my lovely.	}{	Death is only a sweet beginning, my lovely.	}{	81	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	5	}{	More so than you think.	}{	More so than you think.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	6	}{	I wouldn't know.	}{	I wouldn't know.	}{	41	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	7	}{	Yeah, this place sucks, I'm out of here.	}{	Yeah, this place sucks, I'm out of here.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	11	}{	Really? And what are you bringin' to the party, huh? Got anything I can't get out in Arizona? Everyone at this place is so straight edge.	}{	Really? And what are you bringin' to the party, huh? Got anything I can't get out in Arizona? Everyone at this place is so straight edge.	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	You must not have heard what's going down over at the "blood bank".	}{	You must not have heard what's going down over at the "blood bank".	}{	121	}{	Persuasion 3 & G.Vandal_Quest == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	13	}{	Drugs? I don't need drugs. But I can share my ecstasy with you.	}{	Drugs? I don't need drugs. But I can share my ecstasy with you.	}{	21	}{	Seduction 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	14	}{	Then maybe you and I should go somewhere and get a little crooked.	}{	Then maybe you and I should go somewhere and get a little crooked.	}{	51	}{	Seduction -3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	15	}{	You, uh, ever try letting someone drink your blood? It's intoxicating.	}{	You, uh, ever try letting someone drink your blood? It's intoxicating.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	16	}{	If I hear of anything going on, I'll stop by and tell you. See ya.	}{	If I hear of anything going on, I'll stop by and tell you. See ya.	}{	0	}{	G.Vandal_Quest == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	21	}{	Hmm, now you've got me curious.	}{	Hmm, now you've got me curious.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	Come here, and I'll show you why it killed the cat.	}{	Come here, and I'll show you why it killed the cat.	}{	77	}{	}{	G.Danielle_Seduced = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	23	}{	Really? Then there's something you MUST see over at the "blood bank".	}{	Really? Then there's something you MUST see over at the "blood bank".	}{	121	}{	G.Vandal_Quest == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	24	}{	Too bad I'm not. See ya.	}{	Too bad I'm not. See ya.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	25	}{	Drink the blood of this creature, and I will share my world with you.	}{	Drink the blood of this creature, and I will share my world with you.	}{	0	}{	Dominate 1 & companion.Test(pc,npc) and LimitSet(1,6) and IsClan(pc,"Brujah") or IsClan(pc,"Malkavian") or IsClan(pc,"Ventrue")	}{	G.danielle_wasComp=1;ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),1)')	}{	}{	}{	}{	}{	}{	}{	}
+{	26	}{	Look into my eyes... and let the world fade away. Join with me.	}{	Look into my eyes... and let the world fade away. Join with me.	}{	0	}{	Dominate 2 & LimitSet(2,6) and IsClan(pc,"Brujah") or IsClan(pc,"Malkavian") or IsClan(pc,"Ventrue")	}{	G.danielle_wasComp=1;ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),1)')	}{	}{	}{	}{	}{	}{	}{	}
+{	29	}{	Drink the blood of this creature, and I will share my world with you.	}{	Drink the blood of this creature, and I will share my world with you.	}{	0	}{	Presence 2 & companion.Test(pc,npc) and LimitSet(5,6) and IsClan(pc,"Gangrel")	}{	G.danielle_wasComp=1;ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),3)')	}{	}{	}{	}{	}{	}{	}{	}
+{	30	}{	Curious? Then be my pussy cat and follow me.	}{	Enough of this. You will follow and obey me.	}{	0	}{	Presence 3 & LimitSet(6,6) and IsClan(pc,"Gangrel")	}{	G.danielle_wasComp=1;ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),3)')	}{	}{	}{	}{	}{	}{	}{	}
+{	31	}{	[Disgusted]Ugh. Fuh-reak!	}{	[Disgusted]Ugh. Fuh-reak!	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	G.Danielle_Offend = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	41	}{	Ugh, I thought coming to LA was gonna be more exciting than Arizona.... I didn't come all this way just for watered down booze.	}{	Ugh, I thought coming to LA was gonna be more exciting than Arizona.... I didn't come all this way just for watered down booze.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	Dude at the "blood bank" 'll fix you up. Just tell him you're there to "donate".	}{	Dude at the "blood bank" 'll fix you up. Just tell him you're there to "donate".	}{	121	}{	G.Vandal_Quest == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	43	}{	I'm here now, so the party has officially started.	}{	I'm here now, so the party has officially started.	}{	11	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	44	}{	Your eyes are like a memory of the lost summer sun.	}{	Your eyes are like a memory of the lost summer sun.	}{	91	}{	Seduction 3 & IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	45	}{	Uh... maybe I'm what you came all the way here for.	}{	Uh... maybe I'm what you came all the way here for.	}{	51	}{	Seduction -3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	46	}{	If I hear of anything going on, I'll stop by and tell you. See ya.	}{	If I hear of anything going on, I'll stop by and tell you. See ya.	}{	0	}{	G.Vandal_Quest == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	51	}{	Right... goodbye.	}{	Right... goodbye.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	61	}{	[Happy to see player]Hey you....	}{	[Happy to see player]Hey you....	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	I heard about a dope party over at the "blood bank".	}{	I heard about a dope party over at the "blood bank".	}{	121	}{	G.Vandal_Quest == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	63	}{	Daddy's here to get a little more sugar.	}{	Mommy's here to get a little more sugar.	}{	79	}{	G.Danielle_Seduced == 1	and G.Danielle_Drink == 0	}{	G.Danielle_Drink = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	64	}{	I haven't stopped thinking about you since the last time we talked.	}{	I haven't stopped thinking about you since the last time we talked.	}{	21	}{	Seduction 3 & G.Danielle_Seduced == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	66	}{	Hey yourself. So, uh, what's your sign, baby?	}{	Hey yourself. So, uh, you must be pretty experimental, being in college.	}{	51	}{	G.Danielle_Seduced == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	67	}{	Daddy's here to get a little more sugar.	}{	Mommy's here to get a little more sugar.	}{	75	}{	G.Danielle_Seduced == 1	and G.Danielle_Drink == 1	}{	G.Danielle_Drink = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	68	}{	Daddy's here to get a little more sugar.	}{	Mommy's here to get a little more sugar.	}{	77	}{	G.Danielle_Seduced == 1	and G.Danielle_Drink == 2	}{	G.Danielle_Drink = 0	}{	}{	}{	}{	}{	}{	}{	}
+{	70	}{	I'm still looking around for a good party. I'll get back to you.	}{	I'm still looking around for a good party. I'll get back to you.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	71	}{	Hmm... well, guess I'm going to the "blood bank" then. I had enough of this place anyway.	}{	Hmm... well, guess I'm going to the "blood bank" then. I had enough of this place anyway.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	G.Vandal_Quest = 3; pc.SetQuest("Danielle",2)	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	75	}{	I love my dollies. Want to come and play with them?	}{	I love my dollies. Want to come and play with them?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	76	}{	Yes.	}{	Yes.	}{	0	}{	}{	pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Dollies like to be squeezed.	}
+{	77	}{	It's a long time until sunrise. Want to come and play with me?	}{	It's a long time until sunrise. Want to come and play with me?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	78	}{	Yes.	}{	Yes.	}{	0	}{	}{	pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Darkness lasts forever when we play.	}
+{	79	}{	Want to come and play with me?	}{	Want to come and play with me?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	80	}{	Yes.	}{	Yes.	}{	0	}{	}{	pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Yummy, playing leads to tasting.	}
+{	81	}{	Oooohhh. That was an interesting thing to say. What, are you are some kind of a barroom philosopher? Or are you just trying to pick me up?	}{	Oooohhh. That was an interesting thing to say. What, are you some kind of a barroom philosopher? Or is that your idea of girl talk?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	The blood bank holds a different delusion, my lovely.	}{	The blood bank holds a different delusion, my lovely.	}{	121	}{	G.Vandal_Quest == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	83	}{	I'll pick you up and take you into a wonderfully dark, delicious delirium.	}{	My idea of girl-talk is my lips on your neck, sweetness.	}{	91	}{	Seduction 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	84	}{	Philosophy, philanderings... is there a difference, my sweet?	}{	Philosophy, philanderings... is there a difference, my sweet?	}{	51	}{	Seduction -3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	85	}{	I'm just trying to divine your direction. Why are you here?	}{	I'm just trying to divine your direction. Why are you here?	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	86	}{	Death and I are old bedfellows.	}{	Death and I are old bedfellows.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	91	}{	Your words... they're so... hypnotic. I don't know what to say.	}{	I... heh, I don't know. I'm not usually into girls.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	G.Danielle_Seduced = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	92	}{	Don't say anything, my lovely. Just come to me and let yourself go.	}{	But I'm so into you. Come here, let me tell you a dark little secret.	}{	75	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	93	}{	Say you'll meet me for a secret session over at the "blood bank".	}{	Say you'll meet me for a secret session over at the "blood bank".	}{	121	}{	G.Vandal_Quest == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	94	}{	Drink the blood of this creature, and I will share my world with you.	}{	Drink the blood of this creature, and I will share my world with you.	}{	0	}{	Dominate 1 & companion.Test(pc,npc) and LimitSet(1,6) and IsClan(pc,"Brujah") or IsClan(pc,"Malkavian") or IsClan(pc,"Ventrue")	}{	G.danielle_wasComp=1;ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),1)')	}{	}{	}{	}{	}{	}{	}{	}
+{	95	}{	Say nothing. Follow and obey my words. You exist to serve me.	}{	Let me free you then. Follow and obey my words. You exist to serve me.	}{	0	}{	Dominate 2 & LimitSet(2,6) and IsClan(pc,"Brujah") or IsClan(pc,"Malkavian") or IsClan(pc,"Ventrue")	}{	G.danielle_wasComp=1;ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),1)')	}{	}{	}{	}{	}{	}{	}{	}
+{	98	}{	Drink the blood of this creature, and I will share my world with you.	}{	Drink the blood of this creature, and I will share my world with you.	}{	0	}{	Presence 2 & companion.Test(pc,npc) and LimitSet(5,6) and IsClan(pc,"Gangrel")	}{	G.danielle_wasComp=1;ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),3)')	}{	}{	}{	}{	}{	}{	}{	}
+{	99	}{	Say nothing. Follow and obey my words. You exist to serve me.	}{	Let me free you then. Follow and obey my words. You exist to serve me.	}{	0	}{	Presence 3 & LimitSet(6,6) and IsClan(pc,"Gangrel")	}{	G.danielle_wasComp=1;ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),3)')	}{	}{	}{	}{	}{	}{	}{	}
+{	100	}{	Say nothing. I will return.	}{	Your choice. I'm outta here.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	101	}{	Oh. Well, that's just a little too creepy for me. I'll talk with you later.	}{	Oh. Well, that's just a little too creepy for me. I'll talk with you later.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	G.Danielle_OffendMalk = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	102	}{	Until we creep again. Farewell.	}{	Until we creep again. Farewell.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	103	}{	You will drink the blood of the Animus Constupro.	}{	You will drink the blood of the Animus Constupro.	}{	0	}{	Dominate 1 & companion.Test(pc,npc) and LimitSet(1,8) and IsClan(pc,"Brujah") or IsClan(pc,"Malkavian") or IsClan(pc,"Ventrue")	}{	G.danielle_wasComp=1;ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),1)')	}{	}{	}{	}{	}{	}{	}{	}
+{	104	}{	Serve me, follow me, obey me.	}{	Serve me, follow me, obey me.	}{	0	}{	Dominate 2 & LimitSet(2,8) and IsClan(pc,"Brujah") or IsClan(pc,"Malkavian") or IsClan(pc,"Ventrue")	}{	G.danielle_wasComp=1;ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),1)')	}{	}{	}{	}{	}{	}{	}{	}
+{	109	}{	Show me what dedication is. Drink the blood of this creature for me.	}{	Show me what dedication is. Drink the blood of this creature for me.	}{	0	}{	Presence 2 & companion.Test(pc,npc) and LimitSet(7,8) and IsClan(pc,"Gangrel")	}{	G.danielle_wasComp=1;ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),3)')	}{	}{	}{	}{	}{	}{	}{	}
+{	110	}{	Serve me, follow me, obey me.	}{	Serve me, follow me, obey me.	}{	0	}{	Presence 3 & LimitSet(8,8) and IsClan(pc,"Gangrel")	}{	G.danielle_wasComp=1;ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),3)')	}{	}{	}{	}{	}{	}{	}{	}
+{	111	}{	Ummm... do me a favor... and leave me alone, weirdo.	}{	Ummm... do me a favor... and leave me alone, weirdo.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	112	}{	Wait! The blood bank holds a different delusion, my lovely.	}{	Wait! The blood bank holds a different delusion, my lovely.	}{	121	}{	G.Vandal_Quest == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	113	}{	Until next we dance on death's doorstep. Farewell.	}{	Until next we dance on death's doorstep. Farewell.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	114	}{	You will drink the blood of the Animus Constupro.	}{	You will drink the blood of the Animus Constupro.	}{	0	}{	Dominate 1 & companion.Test(pc,npc) and LimitSet(1,6) and IsClan(pc,"Brujah") or IsClan(pc,"Malkavian") or IsClan(pc,"Ventrue")	}{	G.danielle_wasComp=1;ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),1)')	}{	}{	}{	}{	}{	}{	}{	}
+{	115	}{	As soon as you look into my eyes. That's right, let the world fade away.	}{	As soon as you look into my eyes. That's right, let the world fade away.	}{	0	}{	Dominate 2 & LimitSet(2,6)and IsClan(pc,"Brujah") or IsClan(pc,"Malkavian") or IsClan(pc,"Ventrue")	}{	G.danielle_wasComp=1;ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),1)')	}{	}{	}{	}{	}{	}{	}{	}
+{	118	}{	Drink the blood of this creature, and I will share my world with you.	}{	Drink the blood of this creature, and I will share my world with you.	}{	0	}{	Presence 2 & companion.Test(pc,npc) and LimitSet(5,6) and IsClan(pc,"Gangrelr")	}{	G.danielle_wasComp=1;ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),3)')	}{	}{	}{	}{	}{	}{	}{	}
+{	119	}{	But no one wants to be alone. Especially you. Join me.	}{	But no one wants to be alone. Especially you. Join me.	}{	0	}{	Presence 3 & LimitSet(6,6) and IsClan(pc,"Gangrel")	}{	G.danielle_wasComp=1;ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),3)')	}{	}{	}{	}{	}{	}{	}{	}
+{	121	}{	Really? Well, that's just a little too creepy for me.	}{	Really? Well, that's just a little too creepy for me.	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	122	}{	Oh. I'm sorry. I mistook you for someone who lived on the edge.	}{	Oh. I'm sorry. I mistook you for someone who lived on the edge.	}{	71	}{	Persuasion 3 & pc.humanity >= 3	}{	FindPlayer().HumanityAdd( -1 )	}{	}{	}{	}{	}{	}{	}{	}
+{	123	}{	No, you are going to go there!	}{	No, you are going to go there!	}{	71	}{	Dominate 1 and IsClan(pc,"Brujah") or IsClan(pc,"Malkavian") or IsClan(pc,"Ventrue") and pc.humanity >= 3 and G.Patch_Plus == 1	}{	FindPlayer().HumanityAdd( -1 )	}{	}{	}{	}{	}{	}{	}{	}
+{	124	}{	Oh. I'm sorry. I mistook you for someone who lived on the edge.	}{	Oh. I'm sorry. I mistook you for someone who lived on the edge.	}{	71	}{	Persuasion 3 & pc.humanity < 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	125	}{	No, you are going to go there!	}{	No, you are going to go there!	}{	71	}{	Dominate 1 & IsClan(pc,"Ventrue") and pc.humanity < 3 and G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	126	}{	Wait! You don't believe me? You're going to love it!	}{	Wait! You don't believe me? You're going to love it!	}{	51	}{	Persuasion -3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	129	}{	Your choice. I'm outta here.	}{	Your choice. I'm outta here.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	141	}{	I love my dollies. Want to come play with them?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	151	}{	It's a long time until sunrise. Want to come play with me?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	161	}{	Want to come play with me?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	166	}{	Want to come play with me?	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	167	}{	That sounds like a good idea.	}{	That sounds like a good idea.	}{	0	}{	}{	ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"))')	}{	}{	}{	}{	}{	}{	}{	}
+{	168	}{	Not right now. Maybe later.	}{	Not right now. Maybe later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	175	}{	...	}{	...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	176	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	179	}{	(Starting Condition)	}{	}{	175	}{	OnBeginDialog(pc,npc,26)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	180	}{	(Starting Condition)	}{	}{	31	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	181	}{	(Starting Condition)	}{	}{	71	}{	G.Vandal_Quest == 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	182	}{	(Starting Condition)	}{	}{	166	}{	G.danielle_wasComp	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	183	}{	(Starting Condition)	}{	}{	31	}{	G.Danielle_Offend == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	184	}{	(Starting Condition)	}{	}{	111	}{	G.Danielle_OffendMalk == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	185	}{	(Starting Condition)	}{	}{	61	}{	G.Danielle_Seduced == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	186	}{	(Starting Condition)	}{	}{	61	}{	G.Danielle_Know == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	187	}{	(Starting Condition)	}{	}{	1	}{	1	}{	}{	}{	}{	}{	}{	}{	}{	}

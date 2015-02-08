@@ -1,0 +1,11 @@
+{1	}{						}{						}{		}{				   		}{							}{}{}{}{}{}{}{}
+{2	}{							[ #### Begin Game Launch Options #### ]														}{}{}{}{}{}{}{}{}{}{}{}
+{3	}{					}{					}{	}{}{						}{}{}{}{}{}{}{}
+{4	}{New Game Launch Options	}{New Game Launch Options	}{#	}{}{						}{}{}{}{}{}{}{}
+{5	}{Show Introduction		}{					}{	}{}{__main__.ChangeMap(2.5, "newgame", "boogieout")	}{}{}{}{}{}{}{}
+{6	}{Start Tutorial			}{					}{	}{}{consoleutil.console("map sp_tutorial_1") }{}{}{}{}{}{}{}
+{7	}{Skip Tutorial			}{					}{	}{}{consoleutil.console("map sm_pawnshop_1")	}{}{}{}{}{}{}{}
+{200	}{					}{					}{	}{			}{}{}{}{}{}{}{}{}
+{201	}{							[ #### STARTING CONDITIONS #### ]		}{}{}{}{}{}{}{}{}{}{}{}
+{202	}{						}{						}{	}{	}{}{}{}{}{}{}{}{}
+{203	}{(STARTING CONDITION)			}{(STARTING CONDITION)			}{4	}{1	}{}{}{}{}{}{}{}{}

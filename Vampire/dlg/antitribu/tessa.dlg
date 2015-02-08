@@ -1,0 +1,112 @@
+{	1	}{	This is must be my lucky day, i'm going to enjoy you	}{	This is must be my lucky day, i'm going to enjoy you	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	I'm a simple passer-by, i'm not looking for trouble	}{	I'm a simple passer-by, i'm not looking for trouble	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	3	}{	flesh to flesh, bones to bones (Vicissitude)	}{	flesh to flesh, bones to bones (Vicissitude)	}{	100	}{	Holy_Light 1 & getattr(pc,"base_dementation") >= 2	}{ 	FindEntityByName("tessa_vicissitude").Trigger()	}{	}{	}{	}{	}{	}{	}{	}
+{	4	}{	Do you feel the grave cold (Nihilistics)	}{	Do you feel the grave cold (Nihilistics)	}{	100	}{	Fortitude 2	}{	FindEntityByName("tessa_nihilistics").Trigger()	}{	}{	}{	}{	}{	}{	}{	}
+{	5	}{	What a such beauty, is doing here	}{	What a such beauty, is doing here	}{	61	}{	Seduction 4 	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	6	}{	Hi, I'm that is a serial killer which is talking about whole Santa Monica	}{	Hi, I'm that is a serial killer which is talking about whole Santa Monica	}{	41	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	7	}{	Looking into my eyes, SLEEP! (Obtenebration)	}{	Looking into my eyes, SLEEP! (Obtenebration)	}{	100	}{	Blood_Healing 2	}{	pc.PlayHUDParticle("d_obtenebration_hud_emitter")	}{	}{	}{	}{	}{	}{	}{	}
+{	8	}{	Hey, did you not see, all around is burning (Serpentis)	}{	Hey, did you not see, all around is burning (Serpentis)	}{	41	}{	Animalism 2	}{	pc.PlayHUDParticle("d_serpentis_hud_cast1_emitter")	}{	}{	}{	}{	}{	}{	}{	}
+{	9	}{	Looking into my eyes, SLEEP! (Dominate)	}{ Looking into my eyes, SLEEP! (Dominate)	}{	100	}{	Holy_Light 1 & getattr(pc,"base_dominate") >= 2	}{	pc.PlayHUDParticle("D_Dominate_HUD_Cast_emitter2")	}{	}{	}{	}{	}{	}{	}{	}
+{	10	}{	}{ 	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	11	}{	the party was just starting	}{	the party was just starting	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	Come on, let's dance	}{	Come on, let's dance	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	13	}{	Humans always presumptuous	}{	Humans always presumptuous	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	14	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	15	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	16	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	23	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	24	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	25	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	26	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	27	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	28	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	29	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	30	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	33	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	34	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	35	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	36	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	37	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	40	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	41	}{	No! No! No! No...	}{	No! No! No! No...	}{	#	}{	npc.SetDisposition("Fear", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	npc.SetRelationship("player D_FR 5"); npc.FleeAndDie(); FindEntityByName("punk_fear").Trigger()	}{	}{	}{	}{	}{	}{	}{	}
+{	43	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	44	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	45	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	46	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	47	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	48	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	49	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	50	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	51	}{	Let me hear you scream!	}{	Let me hear you scream!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	npc.SetRelationship("player D_HT 5");	FindEntityByName("punk_hates").Trigger()	}{	}{	}{	}{	}{	}{	}{	}
+{	53	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	54	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	55	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	56	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	57	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	58	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	59	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	60	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	61	}{	Don't be shy, sugar, trust me, you like it!	}{	Don't be shy, sugar, trust me, you like it!	}{	#	}{	npc.SetDisposition("Apathy", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	Come here. I have no doubt, you like it most!	}{	Come here. I have no doubt, you like it most!	}{	0	}{	}{	 pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	}
+{	63	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	64	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	68	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	70	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	71	}{	Let's play!	}{	Let's play!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	npc.SetRelationship("player D_HT 5");	FindEntityByName("punk_hates").Trigger()	}{	}{	}{	}{	}{	}{	}{	}
+{	73	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	74	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	75	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	76	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	77	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	78	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	79	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	80	}{	Uh, get away	}{	Uh, get away	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	81	}{	Bo-o-o-o	}{	Bo-o-o-o	}{	90	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	I'm your walking nightmare (Thanatosis)	}{ 	I'm your walking nightmare (Thanatosis)	}{	100 	}{	Holy_Light 1 & getattr(pc,"base_thaumaturgy") >= 2	}{	FindEntityByName("tessa_thanatosis").Trigger()	}{	}{	}{	}{	}{	}{	}{	}
+{	83	}{	I'm already dead, do you think that you can kill me again	}{	I'm already dead, do you think that you can kill me again	}{	90	}{	Intimidate 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	84	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	85	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	86	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	87	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	88	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	89	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	90	}{	Uh, is disgusting	}{	Uh, is disgusting	}{	#	}{	npc.SetDisposition("Disgust", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	91	}{	Come on kiss me, baby	}{	Come on kiss me, baby		}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	92	}{	Do you feel smell, is the smell of your death	}{	Do you feel smell, is the smell of your death	}{	41	}{	Intimidate 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	93	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	94	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	95	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	96	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	97	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	98	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	99	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	100	}{	No! Stop it! Stop it! No!	}{	No! Stop it! Stop it! No!	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	101	}{	The power of my blood is enough to blow all your heads, flee away, NOW!	}{	The power of my blood is enough to blow all your heads, flee away, NOW!	}{	0	}{	}{	npc.SetRelationship("player D_FR 5"); npc.Faint(); FindEntityByName("punk_fear").Trigger()	}{	}{	}{	}{	}{	}{	}{	}
+{	102	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	103	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	104	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	105	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	106	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	107	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	108	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	109	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	110	}{...		}{...		}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	111	}{(Auto-End)	}{(Auto-End)	}{		}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	112	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	113	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	114	}{(Starting Condition)	}{	}{	80	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
+

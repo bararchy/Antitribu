@@ -1,0 +1,9 @@
+{	1	}{	Yes? May I help you?	}{	Yes? May I help you?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	I'm on a blood drive.	}{	I'm on a blood drive.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	3	}{	I could use some sunblock.	}{	I could use some sunblock.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	4	}{	Uh... I don't think so.	}{	Uh... I don't think so.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	5	}{	Hello... I spoke with you on the phone a little while ago.	}{	Hello... I spoke with you on the phone a little while ago.	}{	21	}{	G.Gimble_Phone == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	11	}{	[Click]...	}{	[Click]...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
+{	21	}{	Oh, right, right. I'll buzz you in.	}{	Oh, right, right. I'll buzz you in.	}{	#	}{	}{	G.Gimble_Open = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	Thanks.	}{	Thanks.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	No two buzzes are the same.	}

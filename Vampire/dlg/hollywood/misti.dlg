@@ -1,0 +1,64 @@
+{	1	}{	Hey there, handsome. My name is Misti. Can I interest you in a private dance? I've got something special in mind, just for you.	}{	Hey there, sweetheart. My name is Misti. Can I interest you in a private dance? I've got something special in mind, just for you.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Sounds great.	}{	Sounds great.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	3	}{	No thanks. If I change my mind, I'll come find you.	}{	No thanks. If I change my mind, I'll come find you.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	No doubt your dances would bring the sweet little death. Perhaps later.	}
+{	4	}{	Forget it. I've seen better bodies in a morgue.	}{	Forget it. I've seen better bodies in a morgue.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Better to play with dead ringworms.	}
+{	11	}{	Great. Now all I need from you is 100 dollars, and then we can go back and get things started.	}{	Great. Now all I need from you is 100 dollars, and then we can go back and get things started.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	Sounds good to me. Here's a C-note.	}{	Sounds good to me. Here's a C-note.	}{	41	}{	pc.CurrentMoney() >= 100	}{	pc.MoneyRemove( 100 ); G.Misti_Regular = 1	}{	}{	}{	}{	}{	}{	}{	Here is a hundred pieces of gold.	}
+{	13	}{	100 bucks? Come on. How about 75?	}{	100 bucks? Come on. How about 75?	}{	41	}{	Haggle 6 & pc.CurrentMoney() >= 75	}{	pc.MoneyRemove( 75 ); G.Misti_Regular = 1	}{	}{	}{	}{	}{	}{	}{	Seventy-five simoleons and no more.	}
+{	14	}{	So much? Even for me? Come on, sweetheart... how about 60?	}{	So much? Even for me? Come on, sweetheart... how about 60?	}{	41	}{	Seduction 6 & (pc.CurrentMoney() >= 60 and not IsClan (pc,"Toreador"))	}{	pc.MoneyRemove( 60 ); G.Misti_Regular = 1	}{	}{	}{	}{	}{	}{	}{	Sixty is a better price for one as fractured as I.	}
+{	15	}{	So much? Even for me? Come on, sweetheart... how about 40?	}{	So much? Even for me? Come on, sweetheart... how about 40?	}{	41	}{	Seduction 6 & (pc.CurrentMoney() >= 40 and IsClan (pc,"Toreador"))	}{	pc.MoneyRemove( 40 ); G.Misti_Regular = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	16	}{	Actually, I'm a little short on cash, baby.	}{	Actually, I'm a little short on cash, baby.	}{	71	}{	}{	G.Misti_Regular = 1	}{	}{	}{	}{	}{	}{	}{	My pockets are as empty as my head.	}
+{	20	}{	Forget it. I'm outta here.	}{	Forget it. I'm outta here.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am no longer here.	}
+{	21	}{	Mmmm. Hi, there. Good to see you again, sweetheart. Want to have a little party? Just you and me?	}{	Mmmm. Hi, there. Good to see you again, sweetheart. Want to have a little party? Just you and me?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	Oh yeah!	}{	Oh yeah!	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	If that party is in your private places....	}
+{	23	}{	Sorry, Misti. Maybe later.	}{	Sorry, Misti. Maybe later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I've no time for your devilish dance. Farewell.	}
+{	24	}{	Whatever. If I get that desperate, I'll jump off a bridge.	}{	Whatever. If I get that desperate, I'll jump off a bridge.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	I'd sooner boogie with a dung beetle.	}
+{	41	}{	Okay. Now follow me back to the private rooms and we can get a little more... comfortable.	}{	Okay. Now follow me back to the private rooms and we can get a little more... comfortable.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	Lead the way.	}{	Lead the way.	}{	0	}{	}{	G.Misti_Follow = 1	}{	}{	}{	}{	}{	}{	}{	I will follow your busty beacon.	}
+{	51	}{	Just follow me... we're almost there.	}{	Just follow me... we're almost there.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	Okay.	}{	Okay.	}{	0	}{	}{	G.Misti_Follow = 1	}{	}{	}{	}{	}{	}{	}{	Following....	}
+{	61	}{	There we are. Now... what would you like me to do? I just love a man who tells me what he wants and how he wants it.	}{	There we are. Now... what would you like me to do, hmm? I shouldn't tell you this, but dancing for girls always drives me absolutely wild.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	Come here, I have a secret to tell you.	}{	Come here, I have a secret to tell you.	}{	0	}{	}{	pc.SeductiveFeed(npc); G.Misti_Follow = 0	}{	}{	}{	}{	}{	}{	}{	Come here. I have words to whisper into your secret places....	}
+{	63	}{	I want you to close your eyes, my sweet.	}{	I want you to close your eyes, my sweet.	}{	0	}{	not IsClan(pc,"Malkavian")	}{	pc.SeductiveFeed(npc); G.Misti_Follow = 0	}{	}{	}{	}{	}{	}{	}{	}
+{	64	}{	Now that we are alone, drink this and embrace your new life.	}{	Now that we are alone, drink this and embrace your new life.	}{	0	}{	Dominate 1 & companion.Test(pc,npc) and LimitSet(1,6)	}{	ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),1)')	}{	}{	}{	}{	}{	}{	}{	}
+{	65	}{	I love a woman who does what she is told. Now embrace your new life and follow me.	}{	I enjoy other women who recognize me as superior. Now embrace your new life and follow me.	}{	0	}{	Dominate 2 & LimitSet(2,6)	}{	ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),1)')	}{	}{	}{	}{	}{	}{	}{	}
+{	66	}{	I love a woman who does what she is told. Now embrace your new life and follow me.	}{	I enjoy other women who recognize me as superior. Now embrace your new life and follow me.	}{	0	}{	Thaumaturgy 1 & getattr(pc,"base_dominate") > 1 and LimitSet(3,6)	}{	companion.fakeDominate(npc,1);ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),1)')	}{	}{	}{	}{	}{	}{	}{	}
+{	67	}{	Game over. Now embrace your new life and follow me.	}{	Game over. Now embrace your new life and follow me.	}{	0	}{	Dementation 2 & LimitSet(4,6)	}{	ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),2)')	}{	}{	}{	}{	}{	}{	}{	}
+{	68	}{	Now that we are alone, drink this and embrace your new life.	}{	Now that we are alone, drink this and embrace your new life.	}{	0	}{	Presence 2 & companion.Test(pc,npc) and LimitSet(5,6)	}{	ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),3)')	}{	}{	}{	}{	}{	}{	}{	}
+{	69	}{	I love a woman who does what she is told. Now embrace your new life and follow me.	}{	I enjoy other women who recognize me as superior. Now embrace your new life and follow me.	}{	0	}{	Presence 3 & LimitSet(6,6)	}{	ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),3)')	}{	}{	}{	}{	}{	}{	}{	}
+{	70	}{	Actually, I just want to get out of here. See ya.	}{	Actually, I just want to get out of here. See ya.	}{	0	}{	}{	G.Misti_Follow = 0	}{	}{	}{	}{	}{	}{	}{	I've forgotten who we are. Farewell.	}
+{	71	}{	What? Then I'm a little short on time, sweetheart. Sorry, but I don't give up these goods for free.	}{	What? Then I'm a little short on time, sweetheart. Sorry, but I don't give up these goods for free.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	I understand. I'll come back when I've got the bucks.	}{	I understand. I'll come back when I've got the bucks.	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	I'll find some green and return for some goggling.	}
+{	73	}{	Why should I pay for them? You already did. And you got ripped off, by the way.	}{	Why should I pay for them? You already did. And you got ripped off, by the way.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	I should be paid to stomach your stitchings and stretchings.	}
+{	81	}{	What!?! Listen, I don't have to take this kind of crap from a desperate loser like you. Go pay for it somewhere else, asshole!	}{	What!?! Listen, I don't have to take this kind of crap from you, bitch! Go pay for it somewhere else.	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	G.Misti_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	Gladly. Later.	}{	Gladly. Later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I shall be paying for eternity.	}
+{	91	}{	You do that, sweetheart.	}{	You do that, sweetheart.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	92	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
+{	101	}{	[pissed]What do you want?	}{	[pissed]What do you want?	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	102	}{	Come on, Misti. I was just kidding. I'd really like to get to know you better.	}{	Come on, Misti. I was just kidding. I'd really like to get to know you better.	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	Forgive me, little devil. I wish only to die in your dark dance.	}
+{	103	}{	Nothing from you. Later.	}{	Nothing from you. Later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your body in a chalky outline. Farewell.	}
+{	111	}{	Sure. Whatever. 100 bucks and that's my final offer.	}{	Sure. Whatever. 100 bucks and that's my final offer.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	112	}{	Fine, fine. Let's go.	}{	Fine, fine. Let's go.	}{	41	}{	pc.CurrentMoney() >= 100	}{	pc.MoneyRemove( 100 ); G.Misti_Regular = 1; G.Misti_Pissed = 0	}{	}{	}{	}{	}{	}{	}{	Here's your hundred.	}
+{	113	}{	Oh! Look at that! I don't quite have a hundred bucks.	}{	Oh! Look at that! I don't quite have a hundred bucks.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	I don't have the dinero.	}
+{	120	}{	Whatever. If it was a dollar, you'd still owe me some change. See ya.	}{	Whatever. If it was a dollar, you'd still owe me some change. See ya.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I don't crave your cottage cheese. Farewell.	}
+{	121	}{	Get a job and stop wasting my time.	}{	Get a job and stop wasting my time.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	122	}{	Later.	}{	Later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am no longer here.	}
+{	131	}{	Aaah! Freak! Get away from me!	}{	Aaah! Freak! Get away from me!	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	132	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	G.Misti_Follow = 0	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
+{	141	}{	Hey, sweetheart. How are you tonight? Do anything for ya?	}{	Hey, sweetheart. How are you tonight? Do anything for ya?	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	142	}{	VV sent me over. She said I could have a freebie.	}{	VV sent me over. She said I could have a freebie.	}{	151	}{	}{	}{	}{	}{	}{	}{	}{	}{	The vampy vixen told me to visit your voodoo.	}
+{	150	}{	I can think of a lot of things, but I'm a little short on time. See ya.	}{	I can think of a lot of things, but I'm a little short on time. See ya.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Now is not the time, little devil. Farewell.	}
+{	151	}{	VV sent you? Oh, right. She paid for you in advance. She told me to give you whatever you wanted. Shall we go back to the private rooms?	}{	VV sent you? Oh, right. She paid for you in advance. She told me to give you whatever you wanted. Shall we go back to the private rooms?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	152	}{	Sounds like a fine idea.	}{	Sounds like a fine idea.	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	Privates are where I like to be.	}
+{	161	}{	Uh, sure... whatever you say, baby. Why don't you follow me to one of the private rooms and we'll get to know each other a little better.	}{	Uh, sure... whatever you say, baby. Why don't you follow me to one of the private rooms and we'll get to know each other a little better.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	162	}{	I'll be your little Pompeii.	}{	I'll be your little Pompeii.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	555	}{	...	}{	...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	556	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	559	}{	(Starting Condition)	}{	}{	555	}{	OnBeginDialog(pc,npc,65)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	560	}{	(Starting Condition)	}{	}{	61	}{	G.Misti_Follow == 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	561	}{	(Starting Condition)	}{	}{	51	}{	G.Misti_Follow == 1 or G.Misti_Follow == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	562	}{	(Starting Condition)	}{	}{	131	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	563	}{	(Starting Condition)	}{	}{	141	}{	G.Velvet_Doll == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	564	}{	(Starting Condition)	}{	}{	21	}{	G.Misti_Regular == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	565	}{	(Starting Condition)	}{	}{	101	}{	G.Misti_Pissed == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	566	}{	(Starting Condition)	}{	}{	1	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}

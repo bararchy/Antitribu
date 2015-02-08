@@ -1,0 +1,65 @@
+{	1	}{	[Monotone, robotic and surly]What'll it be?	}{	[Monotone, robotic and surly]What'll it be, honey?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	The cream's curdled. I can smell it. And I think those are rat droppings there.	}{	The cream's curdled. I can smell it. And I think those are rat droppings there.	}{	11	}{	not IsClan(pc,"Gangrel") and G.Doris_Bribe == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	4	}{	You ever see any pale, kind of strange types in here, late at night?	}{	You ever see any pale, kind of strange types in here, late at night?	}{	111	}{	G.E_Quest == 1 and G.Doris_Lily == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	6	}{	My guess, you don't serve my kind here. Goodbye.	}{	My guess, you don't serve my kind here. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	11	}{	You the health inspector?	}{	You the health inspector?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	Yes, I am.	}{	Yes, I am.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	13	}{	Let me just get my badge and I'll show you.	}{	Let me just get my badge and I'll show you.	}{	31	}{	Persuasion 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	14	}{	As a matter of fact I am. And I'm going to shut this place down... maybe.	}{	As a matter of fact I am. And I'm going to shut this place down... maybe.	}{	31	}{	Intimidate 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	15	}{	Naw. Just having a little fun. Alright, I'm done here.	}{	Naw. Just having a little fun. Alright, I'm done here.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	21	}{	Then I suggest you order something healthy, like the cheese omelette surprise, [unamused and sarcastic]inspector. If the cook doesn't spit in it - surprise.	}{	Then I suggest you order something healthy, like the cheese omelette surprise, [unamused and sarcastic]inspector. If the cook doesn't spit in it - surprise.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Doris_Bribe = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	Disgusting!	}{	Disgusting!	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	31	}{	You know, at least the last health inspector had the decency to make it clear when he was asking for a bribe. Here's fifty bucks. I get to live the dream for another exciting month. [Unenthusiastically]Yay.	}{	You know, at least the last health inspector had the decency to make it clear when he was asking for a bribe. Here's fifty bucks. I get to live the dream for another exciting month. [Unenthusiastically]Yay.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Doris_Bribe = 1; pc.MoneyAdd(50)	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	If you'll excuse me, I have other fine establishments to inspect.	}{	If you'll excuse me, I have other fine establishments to inspect.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	51	}{	Oh, that girl. Nice girl. First decent human being I've seen in here for years - not like all the junkies and crazies I normally see. Yeah, I remember her. Yeah... weird. She left a tip but she didn't order a thing.	}{	Oh, that girl. Nice girl. First decent human being I've seen in here for years - not like all the junkies and crazies I normally see. Yeah, I remember her. Yeah... weird. She left a tip but she didn't order a thing.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Doris_Lily = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	(Auto-Link)	}{	(Auto-Link)	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-Link)	}
+{	61	}{	Yeah, she looked so hungry, too. Just sat there all night with a full glass of water in front of her, talkin' about this and that. She seemed lonely, a little scared, so I let her stay in the booth until we closed. She left some stuff here. You seem to know her. Why don't you give it back to her if you run into her?	}{	Yeah, she looked so hungry, too. Just sat there all night with a full glass of water in front of her, talkin' about this and that. She seemed lonely, a little scared, so I let her stay in the booth until we closed. She left some stuff here. You seem to know her. Why don't you give it back to her if you run into her?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	Thanks a lot. I'll be sure to do that.	}{	Thanks a lot. I'll be sure to do that.	}{	0	}{	}{	G.Doris_Purse = 1; playerGotPurse()	}{	}{	}{	}{	}{	}{	}{	}
+{	63	}{	Sure, why not.	}{	Sure, why not.	}{	0	}{	}{	G.Doris_Purse = 1; playerGotPurse()	}{	}{	}{	}{	}{	}{	}{	}
+{	81	}{	Yeah, yeah, what'll it b- LORD! OH, SWEET JESUS!	}{	Yeah, yeah, what'll it b- LORD! OH, SWEET JESUS!	}{	#	}{	npc.SetDisposition("Fear", 2)	}{	G.Doris_Scare = G.Doris_Scare +1	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	I'm looking for -	}{	I'm looking for -	}{	91	}{	G.Doris_Scare == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	83	}{	Calm down. What's the problem?	}{	Calm down. What's the problem?	}{	91	}{	G.Doris_Scare == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	84	}{	Booga-booga!	}{	Booga-booga!	}{	91	}{	G.Doris_Scare == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	85	}{	I'LL SWALLOW YOUR SOUL!	}{	I'LL SWALLOW YOUR SOUL!	}{	101	}{	Humanity 3 & G.Doris_Scare == 3	}{	FindPlayer().HumanityAdd( -1 )	}{	}{	}{	}{	}{	}{	}{	}
+{	86	}{	I'LL SWALLOW YOUR SOUL!	}{	I'LL SWALLOW YOUR SOUL!	}{	101	}{	Humanity -3 & G.Doris_Scare == 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	91	}{	[Screams and faints]Ahhhh! Uh...oh....	}{	[Screams and faints]Ahhhh! Uh...oh....	}{	#	}{	npc.SetDisposition("Fear", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	92	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
+{	101	}{	My... o-o-oh, Jesus... my - my heart![Has heart attack, dies]	}{	My... o-o-oh, Jesus... my - my heart![Has heart attack, dies]	}{	#	}{	npc.SetDisposition("Fear", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	102	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
+{	111	}{	Is that a trick question?	}{	Is that a trick question?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Doris_Question = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	112	}{	Anyone that maybe tried to drink someone else's blood?	}{	Anyone that maybe tried to drink someone else's blood?	}{	121	}{	G.Doris_Vamp == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	113	}{	You see any girls hanging out here... pale girls?	}{	You see any girls hanging out here... pale girls?	}{	131	}{	G.Doris_Albino == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	114	}{	Have you ever heard the term "thin-blood"?	}{	Have you ever heard the term "thin-blood"?	}{	141	}{	G.Doris_Blood == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	115	}{	You see a couple in here a few months ago, surfer guy, pretty girl?	}{	You see a couple in here a few months ago, surfer guy, pretty girl?	}{	151	}{	G.Doris_Surfer == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	116	}{	Try to remember, where did you hear "thin-blood"?	}{	Try to remember, where did you hear "thin-blood"?	}{	161	}{	G.Doris_Blood == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	121	}{	No. No, I have never seen that.	}{	No. No, I have never seen that.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Doris_Vamp = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	122	}{	Try to remember, where did you hear "thin-blood"?	}{	Try to remember, where did you hear "thin-blood"?	}{	161	}{	G.Doris_Blood == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	123	}{	You see any girls hanging out here... pale girls?	}{	You see any girls hanging out here... pale girls?	}{	131	}{	G.Doris_Albino == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	124	}{	Have you ever heard the term "thin-blood"?	}{	Have you ever heard the term "thin-blood"?	}{	141	}{	G.Doris_Blood == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	125	}{	You see a couple in here a few months ago, surfer guy, pretty girl?	}{	You see a couple in here a few months ago, surfer guy, pretty girl?	}{	151	}{	G.Doris_Surfer == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	126	}{	Never mind. Goodbye.	}{	Never mind. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	131	}{	Pale girls? Oh, like the Fitzsimmons albino? Yeah, she hasn't been in here in ages.	}{	Pale girls? Oh, like the Fitzsimmons albino? Yeah, she hasn't been in here in ages.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Doris_Albino = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	132	}{	Anyone that maybe tried to drink someone else's blood?	}{	Anyone that maybe tried to drink someone else's blood?	}{	121	}{	G.Doris_Vamp == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	133	}{	Try to remember, where did you hear "thin-blood"?	}{	Try to remember, where did you hear "thin-blood"?	}{	161	}{	G.Doris_Blood == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	134	}{	Have you ever heard the term "thin-blood"?	}{	Have you ever heard the term "thin-blood"?	}{	141	}{	G.Doris_Blood == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	135	}{	You see a couple in here a few months ago, surfer guy, pretty girl?	}{	You see a couple in here a few months ago, surfer guy, pretty girl?	}{	151	}{	G.Doris_Surfer == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	136	}{	Never mind. Goodbye.	}{	Never mind. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	141	}{	Thin blood? Sounds familiar... is that one of those tropical diseases?	}{	Thin blood? Sounds familiar... is that one of those tropical diseases?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Doris_Blood = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	142	}{	Anyone that maybe tried to drink someone else's blood?	}{	Anyone that maybe tried to drink someone else's blood?	}{	121	}{	G.Doris_Vamp == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	143	}{	You see any girls hanging out here... pale girls?	}{	You see any girls hanging out here... pale girls?	}{	131	}{	G.Doris_Albino == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	144	}{	Try to remember, where did you hear it?	}{	Try to remember, where did you hear it?	}{	161	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	145	}{	You see a couple in here a few months ago, surfer guy, pretty girl?	}{	You see a couple in here a few months ago, surfer guy, pretty girl?	}{	151	}{	G.Doris_Surfer == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	146	}{	Never mind. Goodbye.	}{	Never mind. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	151	}{	Hmm... let me think. Oh, yeah, about four dozen a week.	}{	Hmm... let me think. Oh, yeah, about four dozen a week.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Doris_Surfer = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	152	}{	Anyone that maybe tried to drink someone else's blood?	}{	Anyone that maybe tried to drink someone else's blood?	}{	121	}{	G.Doris_Vamp == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	153	}{	You see any girls hanging out here... pale girls?	}{	You see any girls hanging out here... pale girls?	}{	131	}{	G.Doris_Albino == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	154	}{	Have you ever heard the term "thin-blood"?	}{	Have you ever heard the term "thin-blood"?	}{	141	}{	G.Doris_Blood == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	155	}{	Try to remember, where did you hear "thin-blood"?	}{	Try to remember, where did you hear "thin-blood"?	}{	161	}{	G.Doris_Blood == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	156	}{	Never mind. Goodbye.	}{	Never mind. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	161	}{	Hmm... I know I've heard that before.	}{	Hmm... I know I've heard that before.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	162	}{	Maybe a kind of strange, pretty girl said something about it, recently.	}{	Maybe a kind of strange, pretty girl said something about it, recently.	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	185	}{	...	}{	...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	186	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	189	}{	(Starting Condition)	}{	}{	185	}{	OnBeginDialog(pc,npc,28)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	190	}{	(Starting Condition)	}{	}{	81	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	191	}{	(Starting Condition)	}{	}{	1	}{	1	}{	}{	}{	}{	}{	}{	}{	}{	}

@@ -1,0 +1,27 @@
+{	1	}{	im im sorry about this but fuck you	}{	im im sorry about this but fuck you	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	3	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	4	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	5	}{	rot in hell asshole	}{	rot in hell asshole	}{	 #	}{	npc.SetDisposition("Anger", 1)}{	}{	}{	}{	}{	}{	}{	}{	}
+{	6	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	10	}{	sick bastard	}{	sick bastard	}{	 #	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	11	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	13	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	14	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	15	}{	you fucking freak	}{	you fucking freak	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	16	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	}{	}{#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	23	}{(Auto-End)	}{(Auto-End)	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{24	}{	(Starting Condition)	}{	}{	15	}{	G.Dog1_random == 4	}{	}{	}{	}{	}{	}{	}{	}{	}
+{25	}{	(Starting Condition)	}{	}{	10	}{	G.Dog1_random == 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{26	}{	(Starting Condition)	}{	}{	5	}{	G.Dog1_random == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{27	}{	(Starting Condition)	}{	}{	1	}{	G.Dog1_random == 1	}{	}{	}{	}{	}{	}{	}{	}{	}

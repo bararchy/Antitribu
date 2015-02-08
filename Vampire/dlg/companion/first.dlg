@@ -1,0 +1,375 @@
+{1	}{						}{						}{		}{				   		}{							}{}{}{}{}{}{}{}
+{2	}{							[ #### GENERIC FIRST CONVO (No Audio) #### ]														}{}{}{}{}{}{}{}{}{}{}{}
+{3	}{						}{						}{		}{						}{							}{}{}{}{}{}{}{}
+{4	}{Hey. What do you need me to do?	}{Hey. What do you need me to do?	}{	#	}{						}{							}{}{}{}{}{}{}{}
+{5	}{Follow me.				}{Follow me.				}{		}{not companion.hasMaxHenchmen()	}{companion.makeHenchman()			}{}{}{}{}{}{}{}
+{6	}{Follow me. <Must remove>		}{Follow me. <Must remove>		}{	8000	}{companion.hasMaxHenchmen()		}{companion.resetChoiceData()			}{}{}{}{}{}{}{}
+{7	}{Go to my haven.				}{Go to my haven.				}{		}{						}{companion.removeHenchman()			}{}{}{}{}{}{}{}
+{8	}{<Cancel>					}{<Cancel>					}{		}{						}{npc.SetData("Type",0);npc.SetData("Embraced",0);companion.removeFromParty()	}{}{}{}{}{}{}{}
+{9	}{						}{						}{		}{						}{							}{}{}{}{}{}{}{}
+{18	}{					        [ #### GENERIC UNWILLING FIRST CONVO (No Audio) #### ]														}{}{}{}{}{}{}{}{}{}{}{}
+{19	}{						}{						}{		}{						}{							}{}{}{}{}{}{}{}
+{20	}{How may I serve my master?		}{How may I serve my mistress?	}{	#	}{						}{							}{}{}{}{}{}{}{}
+{21	}{Follow me.				}{Follow me.				}{		}{not companion.hasMaxHenchmen()	}{companion.makeHenchman()			}{}{}{}{}{}{}{}
+{22	}{Follow me. <Must remove>		}{Follow me. <Must remove>		}{	8000	}{companion.hasMaxHenchmen()		}{companion.resetChoiceData()			}{}{}{}{}{}{}{}
+{23	}{Go to my haven.				}{Go to my haven.				}{		}{						}{companion.removeHenchman()			}{}{}{}{}{}{}{}
+{24	}{<Cancel>					}{<Cancel>					}{		}{						}{npc.SetData("Type",0);npc.SetData("Embraced",0);companion.removeFromParty()	}{}{}{}{}{}{}{}
+{25	}{						}{						}{		}{						}{							}{}{}{}{}{}{}{}
+{48	}{						  	     [ #### KNOX, FIRST CONVO (unwilling) #### ]														}{}{}{}{}{}{}{}{}{}{}{}
+{49	}{						}{						}{		}{						}{							}{}{}{}{}{}{}{}
+{50	}{Master.					}{Master.					}{	#	}{						}{							}{}{}{}{}{}{}{}
+{51	}{Follow me.				}{Follow me.				}{		}{not companion.hasMaxHenchmen()	}{companion.makeHenchman()			}{}{}{}{}{}{}{}
+{52	}{Follow me. <Must remove>		}{Follow me. <Must remove>		}{	8000	}{companion.hasMaxHenchmen()		}{companion.resetChoiceData()			}{}{}{}{}{}{}{}
+{53	}{Go to my haven.				}{Go to my haven.				}{		}{						}{companion.removeHenchman()			}{}{}{}{}{}{}{}
+{54	}{<Cancel>					}{<Cancel>					}{		}{						}{npc.SetData("Type",0);npc.SetData("Embraced",0);companion.removeFromParty()	}{}{}{}{}{}{}{}
+{55	}{						}{						}{		}{						}{							}{}{}{}{}{}{}{}
+{98	}{						  	     [ #### LILY, FIRST CONVO (unwilling) #### ]														}{}{}{}{}{}{}{}{}{}{}{}
+{99	}{						}{						}{		}{						}{							}{}{}{}{}{}{}{}
+{100	}{To think anyone could be so compassionless. So heartless.			}{To think anyone could be so compassionless. So heartless.		}{#	}{	 						}{					}{}{}{}{}{}{}{}
+{101	}{Continue...										}{Continue...									}{110	}{							}{					}{}{}{}{}{}{}{}
+{102	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{103	}{												}{											}{#	}{							}{					}{}{}{}{}{}{}{}
+{104	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{110	}{I've never done anything like this before... I'm no killer.		}{I've never done anything like this before... I'm no killer.	}{#	}{	 						}{					}{}{}{}{}{}{}{}
+{111	}{Maybe you weren't a killer, but I think it's time to change that. Shed your humanity and let your inner beast out. I command it.	}{Maybe you weren't a killer, but I think it's time to change that. Shed your humanity and let your inner beast out. I command it.	}{120	}{							}{		}{}{}{}{}{}{}{}
+{112	}{I may be heartless, but you're now my pet and you love your master. Now, tell me what you really think about me.		}{I may be heartless, but you're now my pet and you love your mistress. Now, tell me what you really think about me.			}{140	}{							}{	}{}{}{}{}{}{}{}
+{113	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{114	}{												}{											}{#	}{							}{					}{}{}{}{}{}{}{}
+{115	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{120	}{Hunger... I need it... A drop of it on my tongue, sliding down my throat, the hot flash in my brain lighting up my body... I can smell it everywhere... blood.	}{Hunger... I need it... A drop of it on my tongue, sliding down my throat, the hot flash in my brain lighting up my body... I can smell it everywhere... blood.	}{#	}{	 						}{			}{}{}{}{}{}{}{}
+{121	}{That's right, let Lily fade away. Now what will my pet do for her new master? 		}{That's right, let Lily fade away. And what will my pet do for her new mistress?		}{130	}{							}{}{}{}{}{}{}{}{}
+{122	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{123	}{												}{											}{#	}{							}{					}{}{}{}{}{}{}{}
+{124	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{130	}{ANYTHING!											}{ANYTHING!										}{#	}{	 						}{					}{}{}{}{}{}{}{}
+{131	}{That's better. Now follow me.							}{That's better. Now follow me.						}{0	}{not companion.hasMaxHenchmen()		}{companion.makeHenchman();FindEntityByName("controller").RemoveControllerNPC()	}{}{}{}{}{}{}{}
+{132	}{That's better. Now follow me. <Must remove>					}{That's better. Now follow me. <Must remove>				}{8000}{companion.hasMaxHenchmen()			}{companion.resetChoiceData();FindEntityByName("controller").RemoveControllerNPC()	}{}{}{}{}{}{}{}
+{133	}{Good girl. I'll play with you later. Run home for now.			}{Good girl. I'll play with you later. Run home for now.		}{0	}{							}{companion.removeHenchman();FindEntityByName("controller").RemoveControllerNPC()	}{}{}{}{}{}{}{}
+{134	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{135	}{												}{											}{#	}{							}{					}{}{}{}{}{}{}{}
+{136	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{140	}{Oh, I'll never forget this night. I'm so glad we're together.		}{Oh, I'll never forget this night. I'm so glad we're together.	}{#	}{	 						}{					}{}{}{}{}{}{}{}
+{141	}{And what do you think about me playing with your mind?			}{And what do you think about me playing with your mind?		}{150	}{							}{					}{}{}{}{}{}{}{}
+{142	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{143	}{												}{											}{#	}{							}{					}{}{}{}{}{}{}{}
+{144	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{150	}{Don’t let me stop you from going in.						}{Don’t let me stop you from going in.					}{#	}{	 						}{					}{}{}{}{}{}{}{}
+{151	}{That's more like it. Now follow me.						}{That's more like it. Now follow me, my pet.				}{0	}{	not companion.hasMaxHenchmen()	}{companion.makeHenchman();FindEntityByName("controller").RemoveControllerNPC()	}{}{}{}{}{}{}{}
+{152	}{That's more like it. Now follow me. <Must remove>				}{That's more like it. Now follow me, my pet. <Must remove>		}{8000}{	companion.hasMaxHenchmen()		}{companion.resetChoiceData();FindEntityByName("controller").RemoveControllerNPC()	}{}{}{}{}{}{}{}
+{153	}{We'll have some fun later. Return to my haven for now.			}{We'll have some fun later. Return to my haven for now.		}{0	}{							}{companion.removeHenchman();FindEntityByName("controller").RemoveControllerNPC()	}{}{}{}{}{}{}{}
+{154	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{155	}{												}{											}{#	}{							}{					}{}{}{}{}{}{}{}
+{156	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{198	}{						  	     [ #### JEANETTE, FIRST CONVO (unwilling) #### ]																							}{}{}{}{}{}{}{}{}{}{}{}
+{199	}{						}{						}{		}{						}{																}{}{}{}{}{}{}{}
+{200	}{Mmmm. That thing makes me positively tingly... so willing to give you my soul.}{Mmmm. That thing makes me positively tingly... so willing to give you my soul.}{#	}{	 			}{					}{}{}{}{}{}{}{}
+{201	}{From this moment on, you exist to protect and serve me.			}{From this moment on, you exist to protect and serve me.		}{210	}{							}{					}{}{}{}{}{}{}{}
+{202	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{203	}{												}{											}{#	}{							}{					}{}{}{}{}{}{}{}
+{204	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{210	}{I can do a lot more than just that for you.					}{I can do a lot more than just that for you.				}{#	}{	 						}{					}{}{}{}{}{}{}{}
+{211	}{And you will. But for now you will just remain my mindless...         }{And you will. But for now you will just remain my own little...	}{220	}{	 						}{					}{}{}{}{}{}{}{}
+{212	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{213	}{												}{											}{#	}{							}{					}{}{}{}{}{}{}{}
+{214	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{220	}{Play... thing....									}{Silly doll.									}{#	}{	 						}{					}{}{}{}{}{}{}{}
+{221	}{That's more like it. Now follow me.						}{That's more like it. Now follow me.					}{0	}{	not companion.hasMaxHenchmen()	}{companion.makeHenchman()	}{}{}{}{}{}{}{}
+{222	}{That's more like it. Now follow me. <Must remove>				}{That's more like it. Now follow me. <Must remove>			}{8000}{	companion.hasMaxHenchmen()		}{companion.resetChoiceData()	}{}{}{}{}{}{}{}
+{223	}{We'll have some fun later. Return to my haven for now.			}{We'll have some fun later. Return to my haven for now.		}{0	}{							}{companion.removeHenchman()	}{}{}{}{}{}{}{}
+{224	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{225	}{												}{											}{#	}{							}{					}{}{}{}{}{}{}{}
+{226	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{248	}{						  	     [ #### THERESE, FIRST CONVO #### ]																							}{}{}{}{}{}{}{}{}{}{}{}
+{249	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{250	}{Please... Master... forgive me...							}{Please... Master... forgive me...						}{#	}{	 						}{					}{}{}{}{}{}{}{}
+{251	}{I will, as soon as I hear you swear your allegiance to me.		}{I will, as soon as I hear you swear your allegiance to me.	}{260	}{							}{					}{}{}{}{}{}{}{}
+{252	}{You're pathetic. Swear your allegiance to me, thrall. 			}{You're pathetic. Swear your allegiance to me, thrall. 		}{260	}{							}{					}{}{}{}{}{}{}{}
+{253	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{254	}{												}{											}{#	}{							}{					}{}{}{}{}{}{}{}
+{255	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{260	}{My allegiance is now official. You control this city.			}{My allegiance is now official. You control this city.		}{#	}{	 						}{					}{}{}{}{}{}{}{}
+{261	}{And...											}{And...										}{270	}{	 						}{					}{}{}{}{}{}{}{}
+{262	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{263	}{												}{											}{#	}{							}{					}{}{}{}{}{}{}{}
+{264	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{270	}{Me... I want, I need to please you.						}{Me... I want, I need to please you.					}{#	}{	 						}{					}{}{}{}{}{}{}{}
+{271	}{And you will. Now follow me.							}{And you will. Now follow me.						}{0	}{	not companion.hasMaxHenchmen()	}{companion.makeHenchman()	}{}{}{}{}{}{}{}
+{272	}{And you will. Now follow me. <Must remove>					}{And you will. Now follow me. <Must remove>				}{8000}{	companion.hasMaxHenchmen()		}{companion.resetChoiceData()	}{}{}{}{}{}{}{}
+{273	}{I will have fun with you later. Return to my haven for now.		}{I will have fun with you later. Return to my haven for now.	}{0	}{							}{companion.removeHenchman()	}{}{}{}{}{}{}{}
+{274	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{275	}{						  	     [ #### TOURETTE, FIRST CONVO #### ]																							}{}{}{}{}{}{}{}{}{}{}{}
+{276	}{. . .											}{. . .										}{#	}{							}{					}{}{}{}{}{}{}{}
+{277	}{(Auto-Link)										}{(Auto-Link)									}{280	}{							}{					}{}{}{}{}{}{}{(Auto-Link)}
+{278	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{280	}{Mmmm. That thing makes me positively tingly... so willing to give you my soul.}{Mmmm. That thing makes me positively tingly... so willing to give you my soul.}{#	}{pc.SetCamera("tJeanette") or npc.SetDisposition("joy",1)	 }{	}{}{}{}{}{}{}{}
+{281	}{Continue...										}{Continue...									}{290	}{							}{					}{}{}{}{}{}{}{}
+{282	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{283	}{												}{											}{#	}{							}{					}{}{}{}{}{}{}{}
+{284	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{290	}{Master, I want... I need... to please you.					}{Master, I want... I need... to please you.				}{#	}{pc.SetCamera("tTherese") or npc.SetDisposition("neutral",1)		}{}{}{}{}{}{}{}{}
+{291	}{Oh really. And how will you do that?						}{Oh really. And how will you do that?					}{300	}{							}{					}{}{}{}{}{}{}{}
+{292	}{You're pathetic. Now swear your allegiance to me thrall.			}{You're pathetic. Now swear your allegiance to me thrall.		}{300	}{							}{					}{}{}{}{}{}{}{}
+{293	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{294	}{												}{											}{#	}{							}{					}{}{}{}{}{}{}{}
+{295	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{300	}{My allegiance is now official. You control this city.			}{My allegiance is now official. You control this city.		}{#	}{	 											}{}{}{}{}{}{}{}{}
+{301	}{Continue...										}{Continue...									}{310	}{							}{					}{}{}{}{}{}{}{}
+{302	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{303	}{												}{											}{#	}{							}{					}{}{}{}{}{}{}{}
+{304	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{310	}{I can do a lot more than just that for you.					}{I can do a lot more than just that for you.				}{#	}{pc.SetCamera("tJeanette") or npc.SetDisposition("joy",1)	 		}{}{}{}{}{}{}{}{}
+{311	}{And you will. Now follow me.							}{And you will. Now follow me.						}{0	}{	not companion.hasMaxHenchmen()	}{companion.makeHenchman()	}{}{}{}{}{}{}{}
+{312	}{And you will. Now follow me. <Must remove>					}{And you will. Now follow me. <Must remove>				}{8000}{	companion.hasMaxHenchmen()		}{companion.resetChoiceData()	}{}{}{}{}{}{}{}
+{313	}{I will have fun with you later. Return to my haven for now.		}{I will have fun with you later. Return to my haven for now.	}{0	}{							}{companion.removeHenchman()	}{}{}{}{}{}{}{}
+{314	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{315	}{												}{											}{#	}{							}{					}{}{}{}{}{}{}{}
+{316	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{317	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{318	}{						  	     [ #### VV, FIRST CONVO #### ]																								}{}{}{}{}{}{}{}{}{}{}{}
+{319	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{320	}{Yes... How absolutely intoxicating it is. I... submit to you.		}{Yes... How absolutely intoxicating it is. I... submit to you.	}{#	}{							}{					}{}{}{}{}{}{}{}
+{321	}{That's a start. What else can you give me?					}{That's a start. What else can you give me?				}{330	}{							}{G.Velvet_Doll=1			}{}{}{}{}{}{}{I won! Tell me what my prize is!}
+{322	}{I accept. Now follow me.								}{I accept. Now follow me.							}{0	}{	not companion.hasMaxHenchmen()	}{companion.makeHenchman()	}{}{}{}{}{}{}{}
+{323	}{I accept. <Must remove>								}{I accept. Now follow me. <Must remove>					}{8000}{	companion.hasMaxHenchmen()		}{companion.resetChoiceData()	}{}{}{}{}{}{}{}
+{324	}{I will have fun with you later. Return to my haven for now.		}{I will have fun with you later. Return to my haven for now.	}{0	}{							}{companion.removeHenchman()	}{}{}{}{}{}{}{}
+{325	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{326	}{												}{											}{#	}{							}{					}{}{}{}{}{}{}{}
+{327	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{330	}{I'll give you your own club, girls, and me of course.			}{I'll give you your own club, girls, and me of course.		}{#	}{							}{					}{}{}{}{}{}{}{}
+{331	}{It is time to erase those old memories and embrace your purpose. VV is gone. Do you understand?	}{It is time to erase those old memories and embrace your purpose. VV is gone. Do you understand?}{340}{}{			}{}{}{}{}{}{}{I would like to trade in the third prize for a new model.}
+{332	}{I accept. Now follow me.								}{I accept. Now follow me.							}{0	}{	not companion.hasMaxHenchmen()	}{companion.makeHenchman()	}{}{}{}{}{}{}{}
+{333	}{I accept. <Must remove>								}{I accept. Now follow me. <Must remove>					}{8000}{	companion.hasMaxHenchmen()		}{companion.resetChoiceData()	}{}{}{}{}{}{}{}
+{334	}{I will have fun with you later. Return to my haven for now.		}{I will have fun with you later. Return to my haven for now.	}{0	}{							}{companion.removeHenchman()	}{}{}{}{}{}{}{}
+{335	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{336	}{												}{											}{#	}{							}{					}{}{}{}{}{}{}{}
+{337	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{340	}{I understand. I'm not VV. She was flawed, she was naive, she was nobody, and now she's gone. }{I understand. I'm not VV. She was flawed, she was naive, she was nobody, and now she's gone.	}{#}{	}{			}{}{}{}{}{}{}{}
+{341	}{Very good, thrall. Now follow me.							}{Very good, thrall. Now follow me.						}{0	}{	not companion.hasMaxHenchmen()	}{companion.makeHenchman()	}{}{}{}{}{}{}{}
+{342	}{Very good, thrall. Now follow me. <Must remove>				}{Very good, thrall. Now follow me. <Must remove>			}{8000}{	companion.hasMaxHenchmen()		}{companion.resetChoiceData()	}{}{}{}{}{}{}{}
+{343	}{I will have fun with you later. Return to my haven for now.		}{I will have fun with you later. Return to my haven for now.	}{0	}{							}{companion.removeHenchman()	}{}{}{}{}{}{}{}
+{344	}{												}{											}{#	}{							}{					}{}{}{}{}{}{}{}
+{347	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{348	}{						  	     [ #### Vandal, FIRST CONVO #### ]																								}{}{}{}{}{}{}{}{}{}{}{}
+{349	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{350	}{How can I serve you?									}{How can I serve you?								}{#	}{						}{						}{}{}{}{}{}{}{}
+{351	}{Follow me.										}{Follow me.									}{	}{(G.E_Quest != 2 or G.Vandal_Permission != 0) and not companion.hasMaxHenchmen()	}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{352	}{Follow me. <Must remove>								}{Follow me. <Must remove>							}{8000}{(G.E_Quest != 2 or G.Vandal_Permission != 0) and companion.hasMaxHenchmen()		}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{353	}{Follow me.										}{Follow me.									}{	}{G.E_Quest == 2 and G.Vandal_Permission == 0 and not companion.hasMaxHenchmen()	}{G.Vandal_Permission=1;G.Vandal_Seen=1;vandalDialog();companion.makeHenchman();FindEntityByName("drainingdr").Unlock()		}{}{}{}{}{}{}{}
+{354	}{Follow me. <Must remove>								}{Follow me <Must remove>							}{8000}{G.E_Quest == 2 and G.Vandal_Permission == 0 and companion.hasMaxHenchmen()		}{G.Vandal_Permission=1;G.Vandal_Seen=1;vandalDialog();companion.resetChoiceData();FindEntityByName("drainingdr").Unlock()	}{}{}{}{}{}{}{}
+{355	}{Go to my haven.										}{Go to my haven.									}{	}{(G.E_Quest != 2 or G.Vandal_Permission != 0)							}{companion.removeHenchman()		}{}{}{}{}{}{}{}
+{356	}{Go to my haven.										}{Go to my haven.									}{	}{G.E_Quest == 2 and G.Vandal_Permission == 0							}{G.Vandal_Permission=1;G.Vandal_Seen=1;vandalDialog();companion.resetChoiceData(); companion.removeHenchman();FindEntityByName("drainingdr").Unlock()	}{}{}{}{}{}{}{}
+{357	}{<Cancel>											}{<Cancel>										}{	}{						}{npc.SetData("Type",0);npc.SetData("Embraced",0);companion.removeFromParty()	}{}{}{}{}{}{}{}
+{358	}{												}{											}{#	}{						}{						}{}{}{}{}{}{}{}
+{368	}{						  	     [ #### Heather, FIRST CONVO #### ]																								}{}{}{}{}{}{}{}{}{}{}{}
+{369	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{370	}{. . .											}{. . .										}{#	}{							}{					}{}{}{}{}{}{}{}
+{371	}{(AUTO-LINK)					}{(AUTO-LINK)					}{380		}{0 == G.Heather_Secret 		}{						}{}{}{}{}{}{}{}
+{372	}{(AUTO-LINK)					}{(AUTO-LINK)					}{0		}{not companion.hasMaxHenchmen()	}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{373	}{Hold on a second. <Must remove>		}{Hold on a second. <Must remove>		}{8000	}{companion.hasMaxHenchmen()		}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{374	}{Actually, just meet me at my haven.	}{Actually, just meet me at my haven.	}{		}{companion.hasMaxHenchmen() and (G.currentMap != G.CompHaven)	}{companion.removeHenchman()		}{}{}{}{}{}{}{}
+{375	}{Actually, just stay here for now.		}{Actually, just stay here for now.		}{		}{companion.hasMaxHenchmen() and (G.currentMap == G.CompHaven)	}{companion.removeHenchman()		}{}{}{}{}{}{}{}
+{376	}{							}{							}{#		}{						}{						}{}{}{}{}{}{}{}
+{380	}{Is there something I can do for you? Anything? Just ask.	}{Is there something I can do for you? Anything? Just ask.				}{#	}{	npc.SetDisposition("Flirt",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{381	}{There's something you should know before we go on.		}{There's something you should know before we go on.					}{390	}{	}{	}{	}{	}{	}{	}{	}{	}{	There is a truth you must know, my pet.	}
+{382	}{I want you to watch over me during the day, when I sleep.	}{Get some rest. I want you to watch over me during the day, when I sleep.	}{400	}{	}{	}{	}{	}{	}{	}{	}{	}{	As I dream through the day, you will scare the sun away.	}
+{383	}{I could use some of your blood, Heather.			}{I could use some of your blood, Heather.						}{410	}{	}{	}{	}{	}{	}{	}{	}{	}{	I'm famished. Let me lap the sweet juices from your neck.	}
+{384	}{										}{													}{#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{390	}{Oh... are you married? Is that why you don't want me around?			}{Oh... are you married? Is that why you don't want me around?			}{#	}{	npc.SetDisposition("Sad",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{391	}{No. You survived because of my blood. I am a vampire. You are bound to me.	}{No. You survived because of my blood. I am a vampire. You are bound to me.	}{420	}{	}{	}{	}{	}{	}{	}{	}{	}{	If your naïveté was blood, I would never go hungry. No. I am the undead.	}
+{392	}{I'm a vampire. You are my blood-bound servant. Still love me?			}{I'm a vampire. You are my blood-bound servant. Still love me?			}{420	}{	}{	}{	}{	}{	}{	}{	}{	}{	HA HA HA... no. I'm a vampire. Still love me?	}
+{393	}{													}{													}{#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{400	}{Oh, you're a night person? Me too!							}{Oh, you're a night person? Me too!							}{#	}{	npc.SetDisposition("Flirt",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{401	}{No. You survived because of my blood. I am a vampire. You are bound to me.	}{No. You survived because of my blood. I am a vampire. You are bound to me.	}{420	}{	}{	}{	}{	}{	}{	}{	}{	}{	If your naïveté was blood, I would never go hungry. No. I am the undead.	}
+{402	}{I'm a vampire. You are my blood-bound servant. Still love me?			}{I'm a vampire. You are my blood-bound servant. Still love me?			}{420	}{	}{	}{	}{	}{	}{	}{	}{	}{	HA HA HA... no. I'm a vampire. Still love me?	}
+{403	}{													}{													}{#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{410	}{I've never done that before, but for you... If you want, I guess I could try it. Is this like a sex thing?	}{	I've never done that before, but for you... If you want, I guess I could try it. Is this like a sex thing?	}{	#	}{	npc.SetDisposition("Confused",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{411	}{No. You survived because of my blood. I am a vampire. You are bound to me.	}{No. You survived because of my blood. I am a vampire. You are bound to me.	}{420	}{	}{	}{	}{	}{	}{	}{	}{	}{	If your naïveté was blood, I would never go hungry. No. I am the undead.	}
+{412	}{Yes, kind of. I'm a vampire. You are my blood-bound servant. Still love me?	}{Yes, kind of. I'm a vampire. You are my blood-bound servant. Still love me?	}{420	}{	}{	}{	}{	}{	}{	}{	}{	}{	HA HA HA... no. I'm a vampire. Still love me?	}
+{413	}{													}{													}{#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{420	}{What? [nervous laugh]You're joking, right? That's like slang for something, like catcher, or some fetish term, right? Not like a "bleh, BLEH" vampire... [nervous]right?	}{	What? [nervous laugh]You're joking, right? That's like slang for something, like catcher, or some fetish term, right? Not like a "bleh, BLEH" vampire... [nervous]right?	}{	#	}{	npc.SetDisposition("Confused",1)	}{	}{	}{	}{	}{	}{	}{	}{	That... makes sense. It all makes sense! Those feelings that something's there in the dark, it wasn't my imagination... it's not crazy at all.	}
+{421	}{I'm afraid not. My blood commingles with your own. A term for you is ghoul.	}{I'm afraid not. My blood commingles with your own. A term for you is ghoul.	}{430	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ah, you're starting to understand, my ghoul. I am so proud of you.	}
+{422	}{Don't you understand, I've chosen you. You should feel honored, mortal.	}{Don't you understand, I've chosen you. You should feel honored, mortal.	}{430	}{	}{	}{	}{	}{	}{	}{	}{	}{	Of all the mud in this city, I picked you up and made you in my image.	}
+{423	}{Bleh! Oh, you poor, confused child. Come here, I'm famished.			}{Bleh! Oh, you poor, confused child. Come here, I'm famished.			}{430	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{424	}{													}{													}{#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{430	}{No... no, there's no such thing. You're... This isn't funny any more.			}{No... no, there's no such thing. You're... This isn't funny any more.			}{#	}{	npc.SetDisposition("Fear",1)	}{	}{	}{	}{	}{	}{	}{	}{	It's like you've pulled the shades off my mind's window. I can see now. There's a whole world out there, it's mind-blowing.	}
+{431	}{Don't worry, my sweet pet. I will protect you. I will make you feel incredible.	}{Don't worry, my sweet pet. I will protect you. I will make you feel incredible.	}{440	}{	}{	}{	}{	}{	}{	}{	}{	}{	And it only gets better. I will show you truth and love like you've never known.	}
+{432	}{Do you want me to leave forever? To love someone else?					}{Do you want me to leave forever? To love someone else?					}{450	}{	}{	}{	}{	}{	}{	}{	}{	}{	Are you saying you want to leave? Because I can disappear anytime I want!	}
+{433	}{This is the best laugh I've had in a while. Now, come - do as you're told.		}{This is the best laugh I've had in a while. Now, come - do as you're told.		}{460	}{	}{	}{	}{	}{	}{	}{	}{	}{	I can pull the shades back down, if you don't do as I say. Understand?	}
+{434	}{														}{														}{#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{440	}{You will? I do love you so much. Whatever you are... I don't care, I just want to be with you.	}{	You will? I do love you so much. Whatever you are... I don't care, I just want to be with you.	}{	#	}{	npc.SetDisposition("Joy",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{441	}{Yes, always know that I adore you. I share my blood with only you, dear Heather.	}{Yes, always know that I adore you. I share my blood with only you, dear Heather.	}{470	}{	}{	}{	}{	}{	}{	}{	}{	}{	That is my adoration running through your veins. All for you, only you.	}
+{442	}{That's great. Now, do something to show me you care.					}{That's great. Now, do something to show me you care.	}{	470	}{	}{	}{	}{	}{	}{	}{	}{	}{	WOW! Now entertain me.	}
+{443	}{Good, because if you ran right now, I'd have to kill you.					}{Good, because if you ran right now, I'd have to kill you.					}{470	}{	}{	}{	}{	}{	}{	}{	}{	}{	Good, because if you ran right now, I'd have to kill you.	}
+{444	}{														}{														}{#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{450	}{No! Please don't leave. I don't care what you are, just don't leave me.		}{No! Please don't leave. I don't care what you are, just don't leave me.		}{#	}{npc.SetDisposition("Sad",2)	}{	}{	}{	}{	}{	}{	}{	}{	No! Please don't leave.... I'll be your moon. Don't make me drift through this lonely universe alone!	}
+{451	}{I'm not going anywhere, my pet. Don't worry.							}{I'm not going anywhere, my pet. Don't worry.							}{470	}{	}{	}{	}{	}{	}{	}{	}{	}{	I do love moonlight so much. Shine for me, my pet.	}
+{452	}{That's great. Now, do something to show me you care.					}{That's great. Now, do something to show me you care.					}{470	}{	}{	}{	}{	}{	}{	}{	}{	}{	WOW! Now entertain me.	}
+{453	}{Good, because if you ran right now, I'd have to kill you.					}{Good, because if you ran right now, I'd have to kill you.					}{470	}{	}{	}{	}{	}{	}{	}{	}{	}{	Yes, you must be my moon. For if you were water, I would have to dam you.	}
+{454	}{														}{														}{#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{460	}{Yes... anything you say.										}{Yes... anything you say.										}{#	}{npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{461	}{Yes, always know that I adore you. I share my blood with only you, dear Heather.	}{Yes, always know that I adore you. I share my blood with only you, dear Heather.	}{470	}{	}{	}{	}{	}{	}{	}{	}{	}{	That is my adoration running through your veins. All for you, only you.	}
+{462	}{That's great. Now, do something to show me you care.					}{That's great. Now, do something to show me you care.					}{470	}{	}{	}{	}{	}{	}{	}{	}{	}{	WOW! Now entertain me.	}
+{463	}{Good, because if you ran right now, I'd have to kill you.					}{Good, because if you ran right now, I'd have to kill you.					}{470	}{	}{	}{	}{	}{	}{	}{	}{	}{	Good shade, because if you were like a curtain and ran, I would have to throw you out.	}
+{464	}{														}{														}{#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{470	}{What can I do to show my appreciation?								}{What can I do to show my appreciation?								}{#	}{npc.SetDisposition("Flirt",1)	}{G.Heather_Secret = 1	}{	}{	}{	}{	}{	}{	}{	}
+{471	}{You have any money on you?										}{You have any money on you?										}{480	}{	}{	}{	}{	}{	}{	}{	}{	}{	Open your wallet and feed me its guts.	}
+{472	}{Actually, we should get going. 									}{Actually, we should get going.									}{0	}{not companion.hasMaxHenchmen()	}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{473	}{Hold on a second. <Must remove Henchman>							}{Hold on a second. <Must remove Henchman>							}{8000}{companion.hasMaxHenchmen()		}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{474	}{Actually, just meet me at my haven.								}{Actually, just meet me at my haven.								}{	}{companion.hasMaxHenchmen() and (G.currentMap != G.CompHaven)	}{companion.removeHenchman()		}{}{}{}{}{}{}{}
+{475	}{Actually, just stay here for now.									}{Actually, just stay here for now.									}{	}{companion.hasMaxHenchmen() and (G.currentMap == G.CompHaven)	}{companion.removeHenchman()		}{}{}{}{}{}{}{}
+{476	}{														}{														}{#	}{						}{						}{}{}{}{}{}{}{}
+{480	}{Umm... here, here, that's all I've got.								}{Umm... here, here, that's all I've got.								}{#	}{npc.SetDisposition("Neutral",1)	}{G.Heather_Wallet = 1; pc.MoneyAdd( 20 )	}{	}{	}{	}{	}{	}{	}{	}
+{481	}{That'll do for now. Keep an eye out for more, would you? 					}{That'll do for now. Keep an eye out for more, would you?					}{0	}{not companion.hasMaxHenchmen()	}{companion.makeHenchman()		}{}{}{}{}{}{}{No it is not, but that'll do for now. Keep an eye out for more, would you?}
+{482	}{That'll do. Hold on a second. <Must remove henchman>					}{That'll do. Hold on a second. <Must remove henchman>						}{8000}{companion.hasMaxHenchmen()		}{companion.resetChoiceData()		}{}{}{}{}{}{}{No it is not, but that'll do. Hold on a second <Must remove henchman>	}
+{483	}{That'll do. Actually, just meet me at my haven.						}{That'll do. Actually, just meet me at my haven.						}{	}{companion.hasMaxHenchmen() and (G.currentMap != G.CompHaven)	}{companion.removeHenchman()		}{}{}{}{}{}{}{No it is not, but that'll do. Actually, just meet me at my haven.}
+{484	}{That'll do. Actually, just stay here for now.							}{That'll do. Actually, just stay here for now.							}{	}{companion.hasMaxHenchmen() and (G.currentMap == G.CompHaven)	}{companion.removeHenchman()		}{}{}{}{}{}{}{No it is not, but that'll do. Actually, just stay here for now.}
+{485	}{														}{														}{#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{487	}{												}{											}{#	}{						}{	}{}{}{}{}{}{}{}
+{488	}{						  	     [ #### Heather, Embrace Redirection #### ]																	}{}{}{}{}{}{}{}{}{}{}{}
+{489	}{												}{											}{	}{						}{	}{}{}{}{}{}{}{}
+{490	}{. . .													}{. . .													}{#	}{											}{						}{}{}{}{}{}{}{}
+{491	}{(AUTO-LINK)												}{(AUTO-LINK)												}{0	}{not companion.hasMaxHenchmen()						}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{492	}{(AUTO-LINK)												}{(AUTO-LINK)												}{8000	}{										}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{493	}{														}{														}{#	}{											}{						}{}{}{}{}{}{}{}
+{497	}{												}{											}{#	}{						}{						}{}{}{}{}{}{}{}
+{498	}{						  	     [ #### Yukie, FIRST CONVO #### ]																								}{}{}{}{}{}{}{}{}{}{}{}
+{499	}{												}{											}{	}{				}{					}{}{}{}{}{}{}{}
+{500	}{Wakarimashta (Understood)...									}{Wakarimashta (Understood)...				}{#	}{											}{						}{}{}{}{}{}{}{}
+{501	}{(AUTO-LINK)					}{(AUTO-LINK)					}{0		}{not companion.hasMaxHenchmen()	}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{502	}{Hold on a second. <Must remove>		}{Hold on a second. <Must remove>		}{8000	}{companion.hasMaxHenchmen()		}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{503	}{Actually, just meet me at my haven.	}{Actually, just meet me at my haven.	}{		}{companion.hasMaxHenchmen() and (G.currentMap != G.CompHaven)	}{companion.removeHenchman()		}{}{}{}{}{}{}{}
+{504	}{Actually, just stay here for now.		}{Actually, just stay here for now.		}{		}{companion.hasMaxHenchmen() and (G.currentMap == G.CompHaven)	}{companion.removeHenchman()		}{}{}{}{}{}{}{}
+{505	}{														}{														}{#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{507	}{												}{											}{#	}{						}{						}{}{}{}{}{}{}{}
+{508	}{						  	     [ #### Damsel, FIRST CONVO (unwilling) #### ]																								}{}{}{}{}{}{}{}{}{}{}{}
+{509	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{510	}{My mind... this body... serve you. 							}{My mind... this body... serve you.							}{#	}{						}{					}{}{}{}{}{}{}{}
+{511	}{You exist to serve and protect me. Your allegiance is now to me. Understand?}{You exist to serve and protect me. Your allegiance is now to me. Understand?}{520	}{						}{					}{}{}{}{}{}{}{}
+{512	}{I accept. Now follow me.									}{I accept. Now follow me.									}{0	}{not companion.hasMaxHenchmen()	}{companion.makeHenchman()	}{}{}{}{}{}{}{}
+{513	}{I accept. <Must remove>									}{I accept. Now follow me. <Must remove>							}{8000}{companion.hasMaxHenchmen()		}{companion.resetChoiceData()	}{}{}{}{}{}{}{}
+{514	}{I will have fun with you later. Return to my haven for now.			}{I will have fun with you later. Return to my haven for now.			}{0	}{						}{companion.removeHenchman()	}{}{}{}{}{}{}{}
+{515	}{													}{													}{#	}{						}{					}{}{}{}{}{}{}{}
+{520	}{Anything else? 											}{Anything else?											}{#	}{						}{					}{}{}{}{}{}{}{}
+{521	}{Follow me.											}{Follow me.											}{0	}{not companion.hasMaxHenchmen()	}{companion.makeHenchman()	}{}{}{}{}{}{}{}
+{522	}{Follow me. <Must remove>									}{Follow me. <Must remove>									}{8000}{companion.hasMaxHenchmen()		}{companion.resetChoiceData()	}{}{}{}{}{}{}{}
+{523	}{Go to my haven and wait for me there.							}{Go to my haven and wait for me there.							}{0	}{						}{companion.removeHenchman()	}{}{}{}{}{}{}{}
+{524	}{													}{													}{#	}{						}{					}{}{}{}{}{}{}{}
+{525	}{												}{											}{#	}{						}{						}{}{}{}{}{}{}{}
+{526	}{						  	     [ #### Skelter, FIRST CONVO #### ]																								}{}{}{}{}{}{}{}{}{}{}{}
+{527	}{												}{											}{	}{							}{					}{}{}{}{}{}{}{}
+{530	}{I submit. 											}{I submit.												}{#	}{						}{					}{}{}{}{}{}{}{}
+{531	}{Come with me. 											}{Come with me. 											}{0	}{not companion.hasMaxHenchmen()	}{companion.makeHenchman()	}{}{}{}{}{}{}{}
+{532	}{Come with me. <Must remove>									}{Come with me. <Must remove>									}{8000}{companion.hasMaxHenchmen()		}{companion.resetChoiceData()	}{}{}{}{}{}{}{}
+{533	}{Return to my haven for now.									}{Return to my haven for now.									}{0	}{						}{companion.removeHenchman()	}{}{}{}{}{}{}{}
+{534	}{Actually, just stay here. I will come and get you if I need a bodyguard.	}{Actually, just stay here. I will come and get you if I need a bodyguard.	}{	}{						}{companion.removeFromParty()	}{}{}{}{}{}{}{}
+{535	}{													}{													}{#	}{						}{					}{}{}{}{}{}{}{}
+{536	}{													}{													}{#	}{						}{						}{}{}{}{}{}{}{}
+{537	}{												}{											}{#	}{						}{						}{}{}{}{}{}{}{}
+{538	}{						  	     [ #### Boo, FIRST CONVO #### ]																								}{}{}{}{}{}{}{}{}{}{}{}
+{539	}{												}{														}{	}{							}{					}{}{}{}{}{}{}{}
+{540	}{<Squeak>																}{<Squeak>																}{#	}{			}{					}{}{}{}{}{}{}{}
+{541	}{You're the "Magnificent Creature" that will guard me!? 							}{You're the "Magnificent Creature" that will guard me!? 							}{550	}{				}{					}{}{}{}{}{}{}{Bring forth the FURRY! The FURR... hmmm, that word was fury wasn’t it. }
+{542	}{Great, what I always wanted: a hamster. 									}{Great, what I always wanted: a hamster.									}{550	}{				}{					}{}{}{}{}{}{}{Great, what I always wanted... a miniature giant space hamster.}
+{543	}{I guess the spell swapped my companion for someone else's. Who might you be little guy?			}{I guess the spell swapped my companion for someone else's. Who might you be little guy?			}{550	}{				}{					}{}{}{}{}{}{}{My companion for someone else's, I bet the guy on the other side of that portal is surprised.  }
+{544	}{																	}{																	}{#	}{			}{					}{}{}{}{}{}{}{}
+{550	}{<You gather that the creature’s name is Boo. He looks up at you confused and frightened.>			}{<You gather that the creature’s name is Boo. He looks up at you confused and frightened.>			}{#	}{				}{					}{}{}{}{}{}{}{}
+{551	}{Oh... no. No, no, no. I didn't ask for this. You're on your own bucko. 					}{Oh... no. No, no, no. I didn't ask for this. You're on your own bucko 					}{560	}{				}{					}{}{}{}{}{}{}{No, you’re just too powerful. I can't accept. I already have an unfair advantage as it is. }
+{552	}{<Extend hand> Its okay little fella. Everything is going to be fine. Boo, is that your name?			}{<Extend hand> Its okay little fella. Everything is going to be fine. Boo, is that your name?			}{570	}{				}{					}{}{}{}{}{}{}{<Extend hand>  It's okay. I'm crazy enough to talk to hamsters if you are crazy enough to listen. }
+{553	}{																	}{																	}{#	}{			}{					}{}{}{}{}{}{}{}
+{560	}{<Squeak... Boo looks frightened. He glances around and then stares up at you with pleading eyes.>		}{<Squeak... Boo looks frightened. He glances around and then stares up at you with pleading eyes.>		}{#	}{				}{					}{}{}{}{}{}{}{}
+{561	}{I said no and that’s final. There are sewers here. I'm sure you can find some friends there. 			}{I said no and that’s final. There are sewers here. I'm sure you can find some friends there.			}{0	}{				}{companion.removeFromParty()		}{}{}{}{}{}{}{Thank you for the offer, but no, I really can't accept. I would just get in your way. }
+{562	}{Oh, alright. I guess it is my fault you are here after all. 							}{Oh, alright. I guess it is my fault you are here after all.							}{570	}{				}{					}{}{}{}{}{}{}{Fine, I will show you this world if you desire.}
+{563	}{																	}{											}{#	}{			}{					}{}{}{}{}{}{}{}
+{570	}{<Squeak>																}{<Squeak>										}{#	}{npc.SetData("CombatType","melee") or npc.SetData("NoFight","1")}{	}{}{}{}{}{}{}{}
+{571	}{Don't worry little guy. We are going to make a great team. Come along.  					}{Don't worry little guy. We are going to make a great team. Come along.					}{	}{not companion.hasMaxHenchmen()}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{572	}{Don't worry little guy. We are going to make a great team. Come along. <Must remove>  			}{Don't worry little guy. We are going to make a great team. Come along. <Must remove>				}{8000	}{companion.hasMaxHenchmen()	}{					}{}{}{}{}{}{}{}
+{573	}{It is too dangerous to travel with me, but you are welcome to stay at my place. See you there.		}{It is too dangerous to travel with me, but you are welcome to stay at my place. See you there.		}{	}{				}{companion.removeHenchman()		}{}{}{}{}{}{}{}
+{574	}{																	}{		}{#	}{			}{					}{}{}{}{}{}{}{}
+{578	}{						  	     [ #### JEANETTE, FIRST CONVO (willing) #### ]																							}{}{}{}{}{}{}{}{}{}{}{}
+{579	}{						}{						}{		}{						}{																}{}{}{}{}{}{}{}
+{580	}{I can tell you and I are going to get along like fire hoses.			}{I can tell you and I are going to get along like fire hoses.		}{#	}{			}{					}{}{}{}{}{}{}{}
+{581	}{Let's get going.						}{Let's get going.							}{0	}{	not companion.hasMaxHenchmen()	}{companion.makeHenchman()	}{}{}{}{}{}{}{}
+{582	}{Let's get going. <Must remove>				}{Let's get going. <Must remove>					}{8000}{	companion.hasMaxHenchmen()		}{companion.resetChoiceData()	}{}{}{}{}{}{}{}
+{583	}{Meet me at my haven.						}{Meet me at my haven.							}{0	}{							}{companion.removeHenchman()	}{}{}{}{}{}{}{}
+{584	}{																	}{		}{#	}{			}{					}{}{}{}{}{}{}{}
+{587	}{																	}{		}{#	}{			}{					}{}{}{}{}{}{}{}
+{588	}{						  	     [ #### Bertram, FIRST CONVO (willing) #### ]																							}{}{}{}{}{}{}{}{}{}{}{}
+{589	}{						}{						}{		}{						}{																}{}{}{}{}{}{}{}
+{590	}{You ready to go?						}{You ready to go?		}{#	}{			}{					}{}{}{}{}{}{}{}
+{591	}{Yes, let's get going.						}{Let's get going.							}{0	}{	not companion.hasMaxHenchmen()	}{companion.makeHenchman()	}{}{}{}{}{}{}{}
+{592	}{Yes, let's get going. <Must remove>				}{Let's get going. <Must remove>					}{8000}{	companion.hasMaxHenchmen()		}{companion.resetChoiceData()	}{}{}{}{}{}{}{}
+{593	}{Meet me at my haven.						}{Meet me at my haven.							}{0	}{							}{companion.removeHenchman()	}{}{}{}{}{}{}{}
+{594	}{																	}{		}{#	}{			}{					}{}{}{}{}{}{}{}
+{7997	}{						}{						}{		}{						}{								}{}{}{}{}{}{}{}
+{7998	}{							[ #### REMOVE HENCHMEN #### ]																		}{}{}{}{}{}{}{}{}{}
+{7999	}{						}{						}{		}{						}{								}{}{}{}{}{}{}{}
+{8000	}{<Companion Mod> : Who do you wish to assign to the haven?	}{	}{#	}{										}{companion.resetChoiceData()					}{}{}{}{}{}{}{}
+{8001	}{Lily						}{Lily						}{	}{companion.isHenchman("Lily")				}{companion.replaceHenchman("Lily")				}{}{}{}{}{}{}{}
+{8002	}{E. 						}{E. 						}{	}{companion.isHenchman("E")				}{companion.replaceHenchman("E")				}{}{}{}{}{}{}{}
+{8003	}{Knox						}{Knox						}{	}{companion.isHenchman("Knox")				}{companion.replaceHenchman("Knox")				}{}{}{}{}{}{}{}
+{8004	}{Heather					}{Heather					}{	}{companion.isHenchman("Heather")			}{companion.replaceHenchman("Heather")				}{}{}{}{}{}{}{}
+{8005	}{Therese					}{Therese					}{	}{companion.isHenchman("Therese")			}{companion.replaceHenchman("Therese")				}{}{}{}{}{}{}{}
+{8006	}{Jeanette					}{Jeanette					}{	}{companion.isHenchman("Jeanette")			}{companion.replaceHenchman("Jeanette")				}{}{}{}{}{}{}{}
+{8007	}{Tourette					}{Tourette					}{	}{companion.isHenchman("Tourette")			}{companion.replaceHenchman("Tourette")				}{}{}{}{}{}{}{}
+{8008	}{VV						}{VV						}{	}{companion.isHenchman("VV")				}{companion.replaceHenchman("VV")				}{}{}{}{}{}{}{}
+{8009	}{Vandal					}{Vandal					}{	}{companion.isHenchman("Vandal")			}{companion.replaceHenchman("Vandal")				}{}{}{}{}{}{}{}
+{8010	}{Yukie						}{Yukie						}{	}{companion.isHenchman("Yukie")				}{companion.replaceHenchman("Yukie")				}{}{}{}{}{}{}{}
+{8011	}{Damsel					}{Damsel					}{	}{companion.isHenchman("Damsel")			}{companion.replaceHenchman("Damsel")				}{}{}{}{}{}{}{}
+{8012	}{Skelter					}{Skelter					}{	}{companion.isHenchman("Skelter")			}{companion.replaceHenchman("Skelter")				}{}{}{}{}{}{}{}
+{8013	}{Ash						}{Ash						}{	}{companion.isHenchman("Ash")				}{companion.replaceHenchman("Ash")				}{}{}{}{}{}{}{}
+{8014	}{Prostitute					}{Prostitute					}{	}{companion.isHenchman("Prostitute")			}{companion.replaceHenchman("Prostitute")			}{}{}{}{}{}{}{}
+{8015	}{Bertram					}{Bertram					}{	}{companion.isHenchman("Bertram")			}{companion.replaceHenchman("Bertram")				}{}{}{}{}{}{}{}
+{8016	}{Carson					}{Carson					}{	}{companion.isHenchman("Carson")			}{companion.replaceHenchman("Carson")				}{}{}{}{}{}{}{}
+{8017	}{Rockbiter					}{Rockbiter					}{	}{companion.isHenchman("Rockbiter")			}{companion.replaceHenchman("Rockbiter")			}{}{}{}{}{}{}{}
+{8018	}{Danielle					}{Danielle					}{	}{companion.isHenchman("Danielle")			}{companion.replaceHenchman("Danielle")				}{}{}{}{}{}{}{}
+{8019	}{Trip						}{Trip						}{	}{companion.isHenchman("Trip")				}{companion.replaceHenchman("Trip")				}{}{}{}{}{}{}{}
+{8020	}{Jumbles					}{Jumbles					}{	}{companion.isHenchman("Jumbles")			}{companion.replaceHenchman("Jumbles")				}{}{}{}{}{}{}{}
+{8021	}{Azara						}{Azara						}{	}{companion.isHenchman("Azara")				}{companion.replaceHenchman("Azara")				}{}{}{}{}{}{}{}
+{8022	}{Venus						}{Venus						}{	}{companion.isHenchman("Venus")				}{companion.replaceHenchman("Venus")				}{}{}{}{}{}{}{}
+{8023	}{Kerri						}{Kerri						}{	}{companion.isHenchman("Kerri")				}{companion.replaceHenchman("Kerri")				}{}{}{}{}{}{}{}
+{8024	}{Misti						}{Misti						}{	}{companion.isHenchman("Misti")				}{companion.replaceHenchman("Misti")				}{}{}{}{}{}{}{}
+{8025	}{Samantha					}{Samantha					}{	}{companion.isHenchman("Samantha")			}{companion.replaceHenchman("Samantha")				}{}{}{}{}{}{}{}
+{8026	}{Shu						}{Shu						}{	}{companion.isHenchman("Shu")				}{companion.replaceHenchman("Shu")				}{}{}{}{}{}{}{}
+{8027	}{Barabus					}{Barabus					}{	}{companion.isHenchman("Barabus")			}{companion.replaceHenchman("Barabus")				}{}{}{}{}{}{}{}
+{8028	}{Kate						}{Kate						}{	}{companion.isHenchman("Kate")				}{companion.replaceHenchman("Kate")				}{}{}{}{}{}{}{}
+{8029	}{Mira						}{Mira						}{	}{companion.isHenchman("Mira")				}{companion.replaceHenchman("Mira")				}{}{}{}{}{}{}{}
+{8030	}{Nadia						}{Nadia						}{	}{companion.isHenchman("Nadia")				}{companion.replaceHenchman("Nadia")				}{}{}{}{}{}{}{}
+{8031	}{BloodDoll					}{BloodDoll					}{	}{companion.isHenchman("BloodDoll")			}{companion.replaceHenchman("BloodDoll")			}{}{}{}{}{}{}{}
+{8032	}{McFly						}{McFly						}{	}{companion.isHenchman("McFly")				}{companion.replaceHenchman("McFly")				}{}{}{}{}{}{}{}
+{8033	}{Boo						}{Boo						}{	}{companion.isHenchman("Boo")				}{companion.replaceHenchman("Boo")				}{}{}{}{}{}{}{}
+{8050	}{Generic NPC					}{Generic NPC					}{	}{companion.isUnknownHenchman()				}{companion.replaceHenchman(companion.getUnknownHenchman(1))	}{}{}{}{}{}{}{}
+{8051	}{Generic NPC					}{Generic NPC					}{	}{companion.isUnknownHenchman()				}{companion.replaceHenchman(companion.getUnknownHenchman(2))	}{}{}{}{}{}{}{}
+{8052	}{Nevermind. Go to my haven.			}{Nevermind. Go to my haven.			}{	}{5!=npc.GetData("Type") and 0!=npc.GetData("Embraced")	}{companion.removeHenchman()									}{}{}{}{}{}{}{}
+{8053	}{<Cancel>					}{<Cancel>					}{	}{npc.GetData("OName")!="Heather"					}{npc.SetData("Type",0);npc.SetData("Embraced",0);companion.removeFromParty()	}{}{}{}{}{}{}{}
+{8054	}{<Cancel>					}{<Cancel>					}{	}{npc.GetData("OName")=="Heather" and 5!=npc.GetData("Type")}{npc.SetData("Type",0);npc.SetData("Embraced",0);companion.removeFromParty()	}{}{}{}{}{}{}{}
+{8055	}{<Cancel>					}{<Cancel>					}{	}{npc.GetData("OName")=="Heather" and 5==npc.GetData("Type")}{npc.SetData("Type",0);npc.SetData("Embraced",0);G.Heather_Gone=0;companion.removeFromParty()}{}{}{}{}{}{}{}
+{8056	}{						}{						}{	}{						}{						}{}{}{}{}{}{}{}
+{8498	}{							[ #### MAX COMPANION MESSAGE #### ]														}{}{}{}{}{}{}{}{}{}{}{}
+{8499	}{						}{						}{		}{						}{						}{}{}{}{}{}{}{}
+{8500	}{<Companion Mod> : You have reached the maximum allowed number of companions. Ask someone to leave and then try again. 						}{}{#}{}{}{}{}{}{}{}{}{}
+{8501	}{<End>					}{<End>					}{	}{npc.GetData("OName")!="Heather"					}{npc.SetData("Type",0);npc.SetData("Embraced",0);companion.removeFromParty()}{}{}{}{}{}{}{}
+{8502	}{<End>					}{<End>					}{	}{npc.GetData("OName")=="Heather" and 5!=npc.GetData("Type")}{npc.SetData("Type",0);npc.SetData("Embraced",0);companion.removeFromParty()}{}{}{}{}{}{}{}
+{8503	}{<End>					}{<End>					}{	}{npc.GetData("OName")=="Heather" and 5==npc.GetData("Type")}{npc.SetData("Type",0);npc.SetData("Embraced",0);G.Heather_Gone=0;companion.removeFromParty()}{}{}{}{}{}{}{}
+{8504	}{						}{						}{		}{						}{						}{}{}{}{}{}{}{}
+{9000	}{							[ #### STARTING CONDITIONS #### ]														}{}{}{}{}{}{}{}{}{}{}{}
+{9001	}{						}{						}{		}{						}{						}{}{}{}{}{}{}{}
+{9002	}{(STARTING CONDITION)			}{(STARTING CONDITION)			}{	8500	}{companion.hasMaxCompanions()	}{						}{}{}{}{}{}{}{}
+{9003	}{(STARTING CONDITION)			}{(STARTING CONDITION)			}{	490	}{npc.GetData("Type")==0		}{						}{}{}{}{}{}{}{}
+{9004	}{(STARTING CONDITION)			}{(STARTING CONDITION)			}{	490	}{npc.GetData("Type")==5		}{						}{}{}{}{}{}{}{}
+{9005	}{(STARTING CONDITION)			}{(STARTING CONDITION)			}{	590	}{npc.GetData("OName")=="Bertram"	}{						}{}{}{}{}{}{}{}
+{9006	}{(STARTING CONDITION)			}{(STARTING CONDITION)			}{	320	}{npc.GetData("OName")=="VV"		}{						}{}{}{}{}{}{}{}
+{9007	}{(STARTING CONDITION)			}{(STARTING CONDITION)			}{	276	}{npc.GetData("OName")=="Tourette"	}{						}{}{}{}{}{}{}{}
+{9008	}{(STARTING CONDITION)			}{(STARTING CONDITION)			}{	250	}{npc.GetData("OName")=="Therese"	}{						}{}{}{}{}{}{}{}
+{9009	}{(STARTING CONDITION)			}{(STARTING CONDITION)			}{	580	}{npc.GetData("OName")=="Jeanette" and npc.GetData("Type")==4	}{			}{}{}{}{}{}{}{}
+{9010	}{(STARTING CONDITION)			}{(STARTING CONDITION)			}{	200	}{npc.GetData("OName")=="Jeanette"	}{						}{}{}{}{}{}{}{}
+{9011	}{(STARTING CONDITION)			}{(STARTING CONDITION)			}{	100	}{npc.GetData("OName")=="Lily"	}{						}{}{}{}{}{}{}{}
+{9012	}{(STARTING CONDITION)			}{(STARTING CONDITION)			}{	490	}{npc.GetData("OName")=="Knox"	and npc.GetData("Type")==4	}{						}{}{}{}{}{}{}{}
+{9013	}{(STARTING CONDITION)			}{(STARTING CONDITION)			}{	50	}{npc.GetData("OName")=="Knox"	}{						}{}{}{}{}{}{}{}
+{9014	}{(STARTING CONDITION)			}{(STARTING CONDITION)			}{	350	}{npc.GetData("OName")=="Vandal"	}{						}{}{}{}{}{}{}{}
+{9015	}{(STARTING CONDITION)			}{(STARTING CONDITION)			}{	370	}{npc.GetData("OName")=="Heather"	}{						}{}{}{}{}{}{}{}
+{9016	}{(STARTING CONDITION)			}{(STARTING CONDITION)			}{	500	}{npc.GetData("OName")=="Yukie"	}{						}{}{}{}{}{}{}{}
+{9017	}{(STARTING CONDITION)			}{(STARTING CONDITION)			}{	510	}{npc.GetData("OName")=="Damsel"	}{						}{}{}{}{}{}{}{}
+{9018	}{(STARTING CONDITION)			}{(STARTING CONDITION)			}{	530	}{npc.GetData("OName")=="Skelter"	}{						}{}{}{}{}{}{}{}
+{9019	}{(STARTING CONDITION)			}{(STARTING CONDITION)			}{	540	}{npc.GetData("OName")=="Boo"		}{						}{}{}{}{}{}{}{}
+{9049	}{(STARTING CONDITION)			}{(STARTING CONDITION)			}{	20	}{npc.GetData("Type")!=4		}{						}{}{}{}{}{}{}{}
+{9050	}{(STARTING CONDITION)			}{(STARTING CONDITION)			}{	4	}{ 			1			}{						}{}{}{}{}{}{}{}

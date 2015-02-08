@@ -1,0 +1,389 @@
+{	1	}{	[Physically strong and intimidating, a very rugged individual. Now uncharacteristically giddy. Knox has succumbed to childlike excitement at the new world that was suddenly unfurled before him just months ago, when a vampire came to him and welcomed him into the world of immortals.]	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	11	}{	Need somethin', pal?	}{	Hey. How's it goin', girl?	}{	#	}{	}{	G.Knox_TT = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	I'm looking for someone.	}{	Do I know you?	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	13	}{	I'm okay, I was just looking for someone.	}{	I'm okay, I was just looking for someone.	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	20	}{	As a matter of fact, no. Goodbye.	}{	Fine, but I have to go. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	21	}{	Oh man! You're a Nosferatu, aren't you?	}{	Oh man! You're a Nosferatu, aren't you?	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	G.Knox_Vamp = 1; G.Knox_TT = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	No...	}{	No...	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	23	}{	I look like a corpse, not a rat. Get it right.	}{	I look like a corpse, not a rat. Get it right.	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	24	}{	What are you talking about?	}{	What are you talking about?	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	31	}{	[Noticed something, focusing sharply on the other person]Aw man! Wait. Say that again.	}{	[Noticed something, focusing sharply on the other person]Aw man! Wait. Say that again.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	Okay. I'm looking for someone.	}{	Okay. Do I know you?	}{	611	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	33	}{	Maybe you could hear me if you pulled your head out of your ass.	}{	Maybe you could hear me if you pulled your head out of your ass.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	34	}{	No.	}{	No.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	41	}{	[Excited]There! You - oh man! - you're a vampire, aren't you?	}{	[Excited]There! You - oh man! - you're a vampire, aren't you?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	What? Vampire? What the hell are you smoking?	}{	What? Vampire? What the hell are you smoking?	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	43	}{	Look - I don't know what you think you know, but I'd recommend you forget it.	}{	Look - I don't know what you think you know, but I'd recommend you forget it.	}{	61	}{	}{	}{	Be careful what you say boy. I could do things to you that would give you nightmares for the rest of your life.	}{	}{	}{	Be careful boy. Keep talking and you might lose a tongue.	}{	}{	}{	}
+{	44	}{	Let's say I am - what's it to you?	}{	Let's say I am - what's it to you?	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	45	}{	Leave me alone, idiot.	}{	Leave me alone, idiot.	}{	691	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	51	}{	[Unconvinced]Oh, c'mon. Aw man, you are too! Don't bullshit me man, just come clean, you know, I man... oh man. I ain't gonna tell no one. It's okay, man. I just wanna talk!	}{	[Unconvinced]C'mon. You are too! Oh man! Don't bullshit me, girl; just come clean. I ain't gonna tell no one. It's okay! I just wanna talk.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	53	}{	Alright then, let's talk.	}{	Alright then, let's talk.	}{	101	}{	not IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	54	}{	Idiot. Sure, you got me. I'm a nosferatu. You saw through my clever lie.	}{	Idiot. Sure, you got me. I'm a nosferatu. You saw through my clever lie.	}{	921	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	61	}{	Hey, I work for a vampire! I don't know how much I should tell you but - oh man, damn! - it would be awesome to talk to someone else "on the inside", know what I mean? Hehe, oh man!	}{	Hey, I work for a vampire! I don't know how much I should tell you but - oh man, damn! - it would be awesome to talk to someone else "on the inside", know what I mean? Hehe, oh man!	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	Yeah, I might just know what you mean.	}{	Yeah, I might just know what you mean.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	63	}{	No, I don't because I'm not a vampire. And now I'm gone.	}{	No, I don't because I'm not a vampire. And now I'm gone.	}{	0	}{	}{	G.Knox_Wesp = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	71	}{	Fine. Don't admit it. Be that way.	}{	Fine. Don't admit it. Be that way.	}{	#	}{	}{	G.Knox_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	81	}{	Oh, this is good. So, so what? Now you're comin' back to talk to me for what? Wha- ... to tell me you're really, REALLY not a vampire? Aw man!	}{	Oh, this is good. So, so what? Now you're comin' back to talk to me for what? Wha- ... to tell me you're really, REALLY not a vampire? Aw man!	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	G.Knox_Wesp = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	83	}{	Alright, look, just keep it down and we can talk.	}{	Alright, look, just keep it down and we can talk.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	85	}{	No, I came back to ask you your name.	}{	No, I came back to ask you your name.	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	86	}{	That's right.	}{	That's right.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	91	}{	Why should I tell you? You're not bein' straight with me.	}{	Why should I tell you? You're not bein' straight with me.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	93	}{	Alright fine. We can talk, just keep it down.	}{	Okay, let's talk. Just try to keep it down alright?	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	94	}{	Fine. I'm gone.	}{	Fine. I'm gone.	}{	0	}{	}{	G.Knox_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	101	}{	[Exhilarated]Hell yeah! Oh man, I knew it! I just- Oh geez, I knew you were. I just could tell. I - oh man, this is great! And th-then I saw your teeth an-and I was, like, damn! It was like I could just sense you. The name's Knox Harrington. Pleasure to meet you. Aw man!	}{	[Exhilarated]Hell yeah! Oh man, I knew it! I just- Oh geez, I knew you were. I just could tell. I - oh man, this is great! And th-then I saw your teeth an-and I was, like, damn! It was like I could just sense you. The name's Knox Harrington. Pleasure to meet you. Aw man!	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	G.Knox_Vamp = 3	}{	}{	}{	}{	}{	}{	}{	}
+{	103	}{	Are you a vampire? How do you know all of this?	}{	Are you a vampire? How do you know all of this?	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	110	}{	The pleasure's all yours. Leave me alone, jackass.	}{	The pleasure's all yours. Leave me alone, jackass.	}{	691	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	111	}{	I'm a ghoul. I didn't know about any of this stuff until a couple months ago... when this guy just appeared and, well, all of a sudden - bam! - whoa man! - vampires are real and right there in front of my eyes. Blew my goddamn mind.	}{	I'm a ghoul. I didn't know about any of this stuff until a couple months ago... when this guy just appeared and, well, all of a sudden - bam! - whoa man! - vampires are real and right there in front of my eyes. Blew my goddamn mind.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	G.Knox_Ghoul = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	112	}{	You said you're a "ghoul"? What is that?	}{	You said you're a "ghoul"? What is that?	}{	131	}{	G.Knox_Questions == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	113	}{	Wasn't it hard to enter the world of vampires?	}{	Wasn't it hard to enter the world of vampires?	}{	331	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	115	}{	Cool. I've got a couple more questions.	}{	Cool. I've got a couple more questions.	}{	541	}{	G.Knox_Questions == 1 and G.Mercurio_Quest == 2 and G.Knox_Knowledge < 5	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	116	}{	I'm out of here, Knox. See ya.	}{	I'm out of here, Knox. See ya.	}{	0	}{	G.Knox_Questions == 1 and G.Mercurio_Quest == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	131	}{	Well, the way it was explained to me, whenever a vampire lets a human drink some of their vampire blood, the human gains a little vampire power, can heal up quick and that kinda stuff. Geez, oh man! Then they're a "ghoul", and ooh, watch out!	}{	Well, the way it was explained to me, whenever a vampire lets a human drink some of their vampire blood, the human gains a little vampire power, can heal up quick and that kinda stuff. Geez, oh man! Then they're a "ghoul", and ooh, watch out!	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	G.Knox_Ghoul = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	132	}{	Who was the vampire that made you a ghoul?	}{	Who was the vampire that made you a ghoul?	}{	621	}{	G.Mercurio_Quest != 2 and G.Knox_Master == 0	}{	G.Knox_Master = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	133	}{	You seem to enjoy it.	}{	You seem to enjoy it.	}{	141	}{	G.Knox_G == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	134	}{	Who was the vampire that made you a ghoul?	}{	Who was the vampire that made you a ghoul?	}{	151	}{	G.Knox_Bertram == 0 and G.Mercurio_Quest == 2	}{	G.Knox_Outbound = 3	}{	}{	}{	}{	}{	}{	}{	}
+{	135	}{	So what is Bertram like?	}{	So what is Bertram like?	}{	171	}{	G.Knox_Bertram == 1 and G.Knox_G == 1 and G.Mercurio_Quest == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	136	}{	How does Bertram get in touch with you?	}{	How does Bertram get in touch with you?	}{	181	}{	G.Knox_Bertram == 1 and G.Knox_G == 1 and G.Knox_Appear == 0 and G.Mercurio_Quest == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	137	}{	Don't you mean "wannabe vampire lowlifes"?	}{	Don't you mean "wannabe vampire lowlifes"?	}{	701	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	138	}{	Can I ask you some questions?	}{	Can I ask you some questions?	}{	931	}{	G.Mercurio_Quest != 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	140	}{	This scene is dead. I'm outta here.	}{	This scene is dead. I'm outta here.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	141	}{	It's awesome! Man after that first taste of vampire blood... it's like the best drug. Aw man, I'm tellin' ya, it's like... well it didn't mess me up, just made me feel like I was better at everything. I felt like a god, just suckin' on that nasty dude's wrist.	}{	It's awesome! Man after that first taste of vampire blood... it's like the best drug. Aw man, I'm tellin' ya, it's like... well it didn't mess me up, just made me feel like I was better at everything. I felt like a god, just suckin' on that nasty dude's wrist.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	G.Knox_Likes = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	143	}{	Who was this "nasty dude"?	}{	Who was this "nasty dude"?	}{	621	}{	G.Mercurio_Quest != 2 and G.Knox_Master == 0	}{	G.Knox_Master = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	144	}{	Who was this "nasty dude"?	}{	Who was this "nasty dude"?	}{	151	}{	G.Knox_Bertram == 0 and G.Mercurio_Quest == 2	}{	G.Knox_Master = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	145	}{	Do you know where Bertram is?	}{	Do you know where Bertram is?	}{	161	}{	G.Knox_Bertram == 1 and G.Bertram_Check == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	146	}{	So what's Bertram like?	}{	So what's Bertram like?	}{	171	}{	G.Knox_Bertram > 0 and G.Knox_Powerful == 0 and G.Knox_Quest == 0 and G.Bertram_Check == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	147	}{	How does Bertram get in touch with you?	}{	How does Bertram get in touch with you?	}{	181	}{	G.Knox_Bertram > 0 and G.Knox_Appear == 0 and G.Knox_Quest == 0 and G.Bertram_Check == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	148	}{	So what are you doing around here?	}{	So what are you doing around here?	}{	651	}{	G.Mercurio_Quest != 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	149	}{	Can I bounce few more questions off you?	}{	Can I bounce few more questions off you?	}{	541	}{	G.Knox_Quest > 0 and G.Knox_Knowledge < 5	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	150	}{	I'm outta here. Later.	}{	I'm outta here. Later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am somewhere else.	}
+{	151	}{	Oh man! His name's Bertram Tung. He's a Nosferatu[noss-fuh-RAH-too].	}{	Oh man! His name's Bertram Tung. He's a Nosferatu[noss-fuh-RAH-too].	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	G.Knox_Bertram = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	152	}{	No kidding? Small world. I'm looking for him.	}{	No kidding? Small world. I'm looking for him.	}{	161	}{	G.Mercurio_Quest == 2 and G.Bertram_Check == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	153	}{	What do you do for him?	}{	What do you do for him?	}{	211	}{	G.Knox_Quest == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	154	}{	So you are Bertram's "ghoul"? What does that mean?	}{	So you are Bertram's "ghoul"? What does that mean?	}{	131	}{	G.Knox_Ghoul == 1 and G.Knox_Outbound == 1	}{	G.Knox_Outbound = 0	}{	}{	}{	}{	}{	}{	}{	}
+{	155	}{	Do you like being a ghoul?	}{	Do you like being a ghoul?	}{	141	}{	G.Knox_Outbound == 3	}{	G.Knox_Outbound = 0	}{	}{	}{	}{	}{	}{	}{	Are you a happy little golden ghoul?	}
+{	157	}{	Do you know where he is?	}{	Do you know where he is?	}{	161	}{	G.Knox_Outbound == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	158	}{	What's he like?	}{	What's he like?	}{	171	}{	G.Knox_Outbound == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	159	}{	So what's going on with your mission?	}{	So what's going on with your mission?	}{	211	}{	G.Knox_Mission == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	160	}{	I've got to get out of here, Knox. See ya.	}{	I've got to get out of here, Knox. See ya.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	161	}{	Aw man, I wish I knew where he was. I'm getting antsy waitin' around for him. I need to tell him some stuff, ya know. I dunno where he is or stays or anything. Aw man I- Whenever he needs me he just... ya know... appears.	}{	Aw man, I wish I knew where he was. I'm getting antsy waitin' around for him. I need to tell him some stuff, ya know. I dunno where he is or stays or anything. Aw man I- Whenever he needs me he just... ya know... appears.	}{	#	}{	}{	G.Knox_Bertram = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	162	}{	Hold on... you're his "ghoul"? What does that mean?	}{	Hold on... you're his "ghoul"? What does that mean?	}{	131	}{	G.Knox_Ghoul == 1 and G.Knox_Outbound == 1 and G.Knox_Questions == 0	}{	G.Knox_Outbound = 0	}{	}{	}{	}{	}{	}{	}{	}
+{	163	}{	What do you know about your condition?	}{	What do you know about your condition?	}{	131	}{	G.Knox_Ghoul == 1 and G.Knox_Outbound == 1 and G.Knox_Questions == 0	}{	G.Knox_Outbound = 0	}{	}{	}{	}{	}{	}{	}{	What do you know of ghouldom?	}
+{	164	}{	Do you like being a ghoul?	}{	Do you like being a ghoul?	}{	141	}{	G.Knox_Outbound == 3 and G.Knox_Questions == 0	}{	G.Knox_Outbound = 0	}{	}{	}{	}{	}{	}{	}{	Are you a happy little golden ghoul?	}
+{	165	}{	So what's going on with your mission?	}{	So what's going on with your mission?	}{	211	}{	G.Knox_Mission == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	166	}{	What is Bertram like?	}{	What is Bertram like?	}{	171	}{	G.Knox_Outbound == 0 and G.Knox_Questions == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	167	}{	What do you mean "just appears"?	}{	What do you mean "just appears"?	}{	181	}{	G.Knox_Outbound == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	168	}{	What did you need to tell him?	}{	What did you need to tell him?	}{	211	}{	G.Knox_Outbound == 0 and G.Knox_Quest == 0 and G.Knox_Questions == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	170	}{	Thanks for the info. I'm getting out of here.	}{	Thanks for the info. I'm getting out of here.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	171	}{	Oh man! Well he's, like, the only vampire I know but, well, he seems pretty damn powerful. Aw man, w-when he's lookin' at you it's like he's really scanning your brain, you know, it's like trippy, it's crazy. Ho man! But I guess that's the Nosferatu's thing, yaknow. They like, know everything I-I guess.	}{	Oh man! Well he's, like, the only vampire I know but, well, he seems pretty damn powerful. Aw man, w-when he's lookin' at you it's like he's really scanning your brain, you know, it's like trippy, it's crazy. Ho man! But I guess that's the Nosferatu's thing, yaknow. They like, know everything I-I guess.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	G.Knox_Powerful = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	172	}{	How does he get in touch with you?	}{	How does he get in touch with you?	}{	181	}{	G.Knox_Questions == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	174	}{	So what does he have you doing?	}{	So what does he have you doing?	}{	211	}{	G.Knox_Quest == 0 and G.Knox_Questions == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	175	}{	I guess. Can I ask you a couple more questions?	}{	I guess. Can I ask you a couple more questions?	}{	541	}{	G.Knox_Questions == 1 and G.Knox_Knowledge < 5	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	180	}{	I've gotta get outta here. Later.	}{	I've gotta get outta here. Later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	181	}{	It's crazy, he just appears out of, like, thin air. The first time he appeared - bam! - like to give me a goddamn heart attack. Aw man! Especially how he looks, blech.	}{	It's crazy, he just appears out of, like, thin air. The first time he appeared - bam! - like to give me a goddamn heart attack. Aw man! Especially how he looks, blech.	}{	#	}{	}{	G.Knox_Appear = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	182	}{	(Auto-Link)	}{	(Auto-Link)	}{	191	}{	IsClan(pc,"Nosferatu") and G.Knox_Questions == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	184	}{	What do you do for Bertram?	}{	What do you do for Bertram?	}{	211	}{	G.Knox_Quest == 0 and G.Knox_Questions == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	185	}{	I bet. A few more questions...	}{	I bet. A few more questions...	}{	541	}{	G.Knox_Questions == 1 and G.Knox_Knowledge < 5	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	186	}{	Thanks for the info. I'm getting outta here.	}{	Thanks for the info. I'm getting outta here.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	191	}{	Uh, no offense.	}{	Uh, no offense.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	192	}{	Still not a Nosferatu. But why are you here?	}{	Still not a Nosferatu. But why are you here?	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	193	}{	I'm not even going to bother correcting you. So what does Bertram have you doing?	}{	I'm not even going to bother correcting you. So what does Bertram have you doing?	}{	211	}{	G.Knox_Quest == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	194	}{	Of course not. Actually, I have some questions to bounce off you.	}{	Of course not. Actually, I have some questions to bounce off you.	}{	541	}{	G.Knox_Knowledge < 5	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	195	}{	Right. Goodbye.	}{	Right. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	201	}{	Bertram says he's needed someone to do some things, and he'd been watching me work as a bounty hunter for a while and he picked me. It's so cool. It's like a job promotion only I may get to like, live forever.	}{	Bertram says he's needed someone to do some things, and he'd been watching me work as a bounty hunter for a while and he picked me. It's so cool. It's like a job promotion only I may get to like, live forever.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	211	}{	[Anxious sigh]Aw man! Well, Bertram had me keeping an eye on this guy, this Asian dude who's been pokin' around Santa Monica. Bertram thought he might be a vampire or... something like a vampire, I dunno.	}{	[Anxious sigh]Aw man! Well, Bertram had me keeping an eye on this guy, this Asian dude who's been pokin' around Santa Monica. Bertram thought he might be a vampire or... something like a vampire, I dunno.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	G.Knox_Quest = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	212	}{	So what's the problem?	}{	So what's the problem?	}{	221	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	213	}{	Tell me about this "Asian dude".	}{	Tell me about this "Asian dude".	}{	221	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	221	}{	Aw man, this guy, this... this thing... got wise to me. Now instead of me watchin' him, he's watchin' me, you know. I see this guy appear around me all the time, like off in the distance watchin' me, he'll... warp up next to me... aw man... then "whoo" disappear.	}{	Aw man, this guy, this... this thing... got wise to me. Now instead of me watchin' him, he's watchin' me, you know. I see this guy appear around me all the time, like off in the distance watchin' me, he'll... warp up next to me... aw man... then "whoo" disappear.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	222	}{	Something about your story is a little off, Knox.	}{	Something about your story is a little off, Knox.	}{	411	}{	(pc.perception > 1 or IsClan(pc,"Ventrue") or IsClan(pc,"Gangrel")) and G.Bertram_Plant == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	223	}{	Want me to take care of it?	}{	Want me to take care of it?	}{	261	}{	not IsClan(pc,"Ventrue") or IsClan(pc,"Gangrel")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	224	}{	I've seen it as well.	}{	I've seen it as well.	}{	231	}{	G.Asian_Seen == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	225	}{	That must be unnerving.	}{	That must be unnerving.	}{	231	}{	not IsClan(pc,"Ventrue") or IsClan(pc,"Gangrel")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	226	}{	Sounds like it's messing with you.	}{	Sounds like it's messing with you.	}{	231	}{	not IsClan(pc,"Ventrue") or IsClan(pc,"Gangrel")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	230	}{	Are you completely incompetent or just stupid?	}{	Are you completely incompetent or just stupid?	}{	741	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	231	}{	It's freakin' me out! I know this thing is totally toying with me. I want to put a bullet in its head but who knows if that'll do anything. So I was waiting till I talked to Bertram but... well... hell if I know where he disappeared to. It's messed up!	}{	It's freakin' me out! I know this thing is totally toying with me. I want to put a bullet in its head but who knows if that'll do anything. So I was waiting till I talked to Bertram but... well... hell if I know where he disappeared to. It's messed up!	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	G.Knox_Quest = 2; G.Knox_Questions = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	232	}{	Something about your story is a little off, Knox.	}{	Something about your story is a little off, Knox.	}{	411	}{	(pc.perception > 1 or IsClan(pc,"Malkavian")) and G.Bertram_Plant == 0	}{	}{	}{	}{	}{	}{	}{	}{	The truth does not match the words that fall from your mouth.	}
+{	233	}{	Want me to take care of it?	}{	Want me to take care of it?	}{	261	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	234	}{	It does appear to be that way, Knox.	}{	It does appear to be that way, Knox.	}{	241	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	235	}{	It is far more messed than you will know.	}{	It is far more messed than you will know.	}{	241	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	240	}{	Are all ghouls as weak and pathetic as you?	}{	Are all ghouls as weak and pathetic as you?	}{	741	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	241	}{	Look, I didn't wanna ask you but since you're a kickass vampire and I'm just the lowly ghoul, would you mind getting rid of this thing?	}{	Look, I didn't wanna ask you but since you're a kickass vampire and I'm just the lowly ghoul, would you mind getting rid of this thing?	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	242	}{	Sure, I'll look into it.	}{	Sure, I'll look into it.	}{	261	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	243	}{	Care to make it worth my while?	}{	Care to make it worth my while?	}{	251	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	244	}{	I don't have time for that.	}{	I don't have time for that.	}{	271	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	251	}{	Aw, c'mon man! What could I possibly have that a frickin' vampire would want? When I hear from Bertram, I'll let him know you're lookin' for him, how's that? C'mon dude.	}{	Aw, c'mon girl! What could I possibly have that a frickin' vampire would want? When I hear from Bertram, I'll let him know you're lookin' for him, how's that? C'mon hun.	}{	#	}{	npc.SetDisposition("Sad",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	252	}{	I guess I can look into it.	}{	I guess I can look into it.	}{	261	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	253	}{	Not good enough.	}{	Not good enough.	}{	271	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	261	}{	Hell yeah! Right on. Okay, like I said he's some kind of Asian vampire... thing, ya know. The only clue I've got is this driver's license that he dropped once while I was tailing him. I've been so freaked out that I haven't even had a chance to check it out.	}{	Hell yeah! Right on. Okay, like I said he's some kind of Asian vampire... thing, ya know. The only clue I've got is this driver's license that he dropped once while I was tailing him. I've been so freaked out that I haven't even had a chance to check it out.	}{	#	}{	npc.SetDisposition("Joy",1)	}{	pc.GiveItem("item_g_driver_license_gimble")	}{	}{	}{	}{	}{	}{	}{	}
+{	262	}{	Driver's license? Shouldn't that tell you who he is?	}{	Driver's license? Shouldn't that tell you who he is?	}{	266	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	263	}{	I'll look into it for you.	}{	I'll look into it for you.	}{	281	}{	G.VirgilCrumbKnowledge == 0	}{	G.Knox_Quest = 5; pc.SetQuest("Knox Asian", 1)	}{	}{	}{	}{	}{	}{	}{	}
+{	264	}{	I'll look into it for you.	}{	I'll look into it for you.	}{	281	}{	G.VirgilCrumbKnowledge == 1	}{	G.Knox_Quest = 5; pc.SetQuest("Knox Asian", 10)	}{	}{	}{	}{	}{	}{	}{	}
+{	266	}{	No... the picture on the license isn't him. I don't know why he had it, but... well it might help you find out where he is and what he's doing. Here, take it.	}{	No... the picture on the license isn't him. I don't know why he had it, but... well it might help you find out where he is and what he's doing. Here, take it.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	267	}{	Alright. I'll take care of it.	}{	Alright. I'll take care of it.	}{	281	}{	G.VirgilCrumbKnowledge == 0	}{	G.Knox_Quest = 5; pc.SetQuest("Knox Asian", 1)	}{	}{	}{	}{	}{	}{	}{	}
+{	268	}{	Alright. I'll take care of it.	}{	Alright. I'll take care of it.	}{	281	}{	G.VirgilCrumbKnowledge == 1	}{	G.Knox_Quest = 5; pc.SetQuest("Knox Asian", 10)	}{	}{	}{	}{	}{	}{	}{	}
+{	271	}{	Damn dude! Aw man, that's cold. I thought we were getting to be tight, man, since we're both, you know, on the inside. Let me know if you change your mind.	}{	Damn girl, that's cold. I thought we were gettin' to be tight, man, since we're both, you know, on the inside. Let me know if you change your mind.	}{	#	}{	npc.SetDisposition("Sad",2)	}{	G.Knox_Quest = 4	}{	}{	}{	}{	}{	}{	}{	}
+{	272	}{	Well, I guess I can look into it.	}{	Well, I guess I can look into it.	}{	261	}{	G.Knox_Fess == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	273	}{	Well, I guess I can look into it.	}{	Well, I guess I can look into it.	}{	261	}{	G.Knox_Fess == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	280	}{	Sorry. Goodbye.	}{	Sorry. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	281	}{	Right on! Just come back and let me know the job's done so I can stop freakin' out. Oh man. Maybe I'll see Bertram by then.	}{	Right on! Just come back and let me know the job's done so I can stop freakin' out. Oh man. Maybe I'll see Bertram by then.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	282	}{	Sounds good Knox. I have a couple of questions.	}{	Sounds good Knox. I have a couple of questions.	}{	541	}{	G.Knox_Knowledge < 5	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	283	}{	Hey, can you tell me where I can get some weapons?	}{	Hey, can you tell me where I can get some weapons?	}{	372	}{	Persuasion 4 & G.Trip_Know < 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	290	}{	Alright. See ya.	}{	Alright. See ya.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	291	}{	Yo, dude, you do that thing yet?	}{	Yo, girl, you do that thing yet?	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	292	}{	I did. You don't have to worry about it any more.	}{	I did. You don't have to worry about it any more.	}{	521	}{	(G.Knox_Quest == 6 and G.Knox_Bertfound == 1) or (IsDead("AsianVamp") and G.Knox_Bertfound == 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	293	}{	I did. You don't have to worry about it any more.	}{	I did. You don't have to worry about it any more.	}{	381	}{	(G.Knox_Quest == 6 and G.Knox_Fess == 0 and G.Knox_Bertfound == 0) or (IsDead("AsianVamp") and G.Knox_Fess == 0 and G.Knox_Bertfound == 0)	}{	}{	}{	}{	}{	}{	}{	}{	l.	}
+{	294	}{	I did. You don't have to worry about it any more.	}{	I did. You don't have to worry about it any more.	}{	471	}{	(G.Knox_Quest == 6 and G.Knox_Fess == 1 and G.Knox_Bertfound == 0) or (IsDead("AsianVamp") and G.Knox_Fess == 1 and G.Knox_Bertfound == 0)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	295	}{	No, not yet.	}{	No, not yet.	}{	301	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	301	}{	Damn, dude, damn! Aw damn! I was really hopin' you had. Let me know when you do.	}{	Damn, dude, damn! Aw damn! I was really hopin' you had. Let me know when you do.	}{	#	}{	npc.SetDisposition("Sad",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	303	}{	Actually, I have a few more questions.	}{	Actually, I have a few more questions.	}{	541	}{	G.Knox_Knowledge < 5	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	304	}{	I was thinking about your problem and I'd like to help you out.	}{	I was thinking about your problem and I'd like to help you out.	}{	261	}{	G.Knox_Quest == 4	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	305	}{	I will. Catch you later.	}{	I will. Catch you later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	311	}{	Aw, hell! Arthur? Damn, man. I feel bad leaving him up shit creek, but I can't go back to bounty hunting now.	}{	Aw, hell! Arthur? Damn, man. I feel bad leaving him up shit creek, but I can't go back to bounty hunting now.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	331	}{	Nope. My new boss has set me up.	}{	Nope. My new boss has set me up.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	332	}{	You said you're a "ghoul"? What is that?	}{	You said you're a "ghoul"? What is that?	}{	131	}{	G.Knox_Questions == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	333	}{	Cool. I've got a couple more questions.	}{	Cool. I've got a couple more questions.	}{	541	}{	G.Knox_Questions == 1 and G.Mercurio_Quest == 2 and G.Knox_Knowledge < 5	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	334	}{	I'm out of here, Knox. See ya.	}{	I'm out of here, Knox. See ya.	}{	0	}{	G.Knox_Questions == 1 and G.Mercurio_Quest == 2	}{	}{	}{	}{	}{	}{	}{	}{	I am no longer here.	}
+{	341	}{	Ah come on. Imagine I'm chasin down some loser who skipped bail on a penny ante robbery charge and all the sudden some vampire business comes up. I mean What am I gonna do, tell a vampire to piss off cuz I gotta catch Johnny Hubcapper?	}{	Ah come on. Imagine I'm chasin down some loser who skipped bail on a penny ante robbery charge and all the sudden some vampire business comes up. I mean What am I gonna do, tell a vampire to piss off cuz I gotta catch Johnny Hubcapper?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	361	}{	Hey! What's up?	}{	Hey! What's up?	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	363	}{	I was thinking about your problem. I'll help you out.	}{	I was thinking about your problem. I'll help you out.	}{	261	}{	G.Knox_Quest == 4 and G.Knox_Fess == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	364	}{	I was thinking about your problem. I'll help you out.	}{	I was thinking about your problem. I'll help you out.	}{	261	}{	G.Knox_Quest == 4 and G.Knox_Fess == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	365	}{	Actually, I've got a few questions for you.	}{	Actually, I've got a few questions for you.	}{	541	}{	G.Bertram_Check == 0 and G.Knox_Knowledge < 5	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	370	}{	I can't chat, Knox. I'm outta here.	}{	I can't chat, Knox. I'm outta here.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	371	}{	Can we talk? It's important.	}{	Can we talk? It's important.	}{	1001	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	372	}{	As a matter of fact I can. Go see my man Trip at the pawnshop. He won't sell to just anyone but tell him you know Knox and he'll set you right up.	}{	As a matter of fact I can. Go see my man Trip at the pawnshop. He won't sell to just anyone but tell him you know Knox and he'll set you right up.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	G.Trip_Know = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	374	}{	Actually, I've got a couple of questions for you.	}{	Actually, I've got a couple of questions for you.	}{	541	}{	G.Knox_Knowledge < 5 and G.Knox_Quest < 7	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	375	}{	Thanks Knox. Take it easy.	}{	Thanks Knox. Take it easy.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	381	}{	Oh thank god. Oh man. Yes! That thing was hounding me, like, every night. Look, I still haven't heard anything from Bertram, sorry, okay. I'll still let him know, but for now... I have no way to repay you.	}{	Oh thank god. Oh man. Yes! That thing was hounding me, like, every night. Look, I still haven't heard anything from Bertram, sorry, okay. I'll still let him know, but for now... I have no way to repay you.	}{	#	}{	npc.SetDisposition("Joy",2)	}{	G.Knox_Quest = 7; G.Knox_Done = 1; pc.SetQuest("Knox Asian", 4)	}{	}{	}{	}{	}{	}{	}{	}
+{	383	}{	Any idea what that thing was?	}{	Do you have any idea what that thing was?	}{	391	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	384	}{	Could you maybe tell me where I could get some weapons?	}{	Could you tell me where a girl can get a gun in this town?	}{	372	}{	G.Trip_Know < 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	390	}{	No problem. See you around.	}{	No problem. See you around.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	391	}{	Bertram said it's like a vampire, but different... ya know. It's like what they have in China instead of vampires. He said lots of 'em have been comin' to California for some reason, I dunno.	}{	Bertram said it's like a vampire, but different... ya know. It's like what they have in China instead of vampires. He said lots of 'em have been comin' to California for some reason, I dunno.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	392	}{	Sounds serious. Could you tell me where I could get some weapons?	}{	Sounds serious. Could you tell me where a girl can get a gun in this town?	}{	372	}{	G.Trip_Know < 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	400	}{	That's interesting. I'd better be going.	}{	That's interesting. I'd better be going.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	411	}{	O-ho! What are you saying?	}{	O-ho! What are you saying?	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	412	}{	Tell the truth.	}{	Tell the truth.	}{	561	}{	Dominate 1  and IsClan(pc,"Brujah") or IsClan(pc,"Malkavian") or IsClan(pc,"Ventrue")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	414	}{	Don't bullshit me, ghoul. Come clean.	}{	Don't bullshit me, ghoul. Come clean.	}{	561	}{	Intimidate 3	}{	}{	}{	I'm better at lying than you are, ghoul.	}{	If you don't start talking, I'll make you look worse than I do.	}{	}{	}{	}{	The truth, ghoul.	}
+{	415	}{	Look, Knox. Tell the truth, and I might help you.	}{	Look, Knox. Tell the truth, and I might help you.	}{	561	}{	Persuasion 2	}{	}{	}{	}{	}{	}{	}{	}{	For the truth I may have some help you.	}
+{	416	}{	You tell me. I can tell you're not giving me the whole truth here.	}{	You tell me. I can tell you're not giving me the whole truth here.	}{	561	}{	F_Seduction 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	417	}{	Never mind. So do you want me to look into this thing?	}{	Never mind. So do you want me to look into this thing?	}{	241	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	418	}{	I don't know.	}{	I don't know.	}{	241	}{	G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	421	}{	Okay, okay, okay. Dammit Knox, damn! Oh man, alright, look, I messed up, okay? I'm just doing what I was told though.	}{	Okay, okay, okay. Dammit Knox, damn! Oh man, alright, look, I messed up, okay? I'm just doing what I was told though.	}{	#	}{	npc.SetDisposition("Sad",1)	}{	G.Knox_Fess = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	422	}{	(Auto-Link)	}{	(Auto-Link)	}{	431	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	431	}{	Bertram knew you were comin', knew you'd come by here. He planted me and told me what to say about the Asian vamp, but it's true, I swear. And everything else is true too. This Asian guy needs to be taken out. Whoop! I can't do it, so Bertram needs you to.	}{	Bertram knew you were comin', knew you'd come by here. He planted me and told me what to say about the Asian vamp, but it's true, I swear. And everything else is true too. This Asian guy needs to be taken out. Whoop! I can't do it, so Bertram needs you to.	}{	#	}{	}{	pc.AwardExperience("Asian03")	}{	}{	}{	}{	}{	}{	}{	}
+{	432	}{	He could have just asked me.	}{	He could have just asked me.	}{	441	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	433	}{	I don't know. Why would I want to do you a favor after this?	}{	I don't know. Why would I want to do you a favor after this?	}{	451	}{	}{	}{	}{	}{	}{	I should cut off your hands for this.	}{	}{	}{	}
+{	434	}{	Fine. I'll take care of it.	}{	Fine. I'll take care of it.	}{	261	}{	}{	}{	}{	}{	}{	}{	Fine. It's obvious your too useless to do it.	}{	}{	}
+{	435	}{	I'll pass.	}{	I'll pass.	}{	271	}{	}{	}{	}{	}{	}{	}{	}{	}{	I hunt bigger prey.	}
+{	441	}{	Nah uh uh, he can't stick his neck out like that. He doesn't deal directly. His way I guess. So can you do it?	}{	Nah uh uh, he can't stick his neck out like that. He doesn't deal directly. His way I guess. So can you do it?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	442	}{	Fine. I'll take care of it.	}{	Fine. I'll take care of it.	}{	261	}{	}{	}{	}{	}{	}{	}{	}{	}{	Then the deed will be done by my hand.	}
+{	443	}{	I don't know; why would I want to do you a favor after this?	}{	I don't know; why would I want to do you a favor after this?	}{	451	}{	}{	}{	}{	}{	}{	}{	}{	}{	Favors are for friendlies, not the spinners of lies.	}
+{	444	}{	I'll pass.	}{	I'll pass.	}{	271	}{	}{	}{	}{	}{	}{	}{	}{	}{	I hunt bigger prey, little ghoulie.	}
+{	451	}{	Seriously, no really, this thing is here and it's bad news for all of us. Bertram says there could be an army of 'em show up any day unless we show 'em we mean business.	}{	Seriously, no really, this thing is here and it's bad news for all of us. Bertram says there could be an army of 'em show up any day unless we show 'em we mean business.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	452	}{	Fine. I'll take care of it.	}{	Fine. I'll take care of it.	}{	261	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	453	}{	I'll pass.	}{	I'll pass.	}{	271	}{	}{	}{	}{	}{	}{	}{	}{	}{	I hunt bigger prey.	}
+{	471	}{	Right on, man! Yes! Hey, I'm sorry again for what happened before. I still haven't heard anything from Bertram but... I'll let him know about how good you did and... and about how you were cool about everything and, and... yeah! Oh man.	}{	Right on, girl! Yeah! Hey, I'm sorry again for what happened before. I still haven't heard anything from Bertram but... I'll let him know about how good you did and... and about how you were cool about everything and, and... yeah! Oh man.	}{	#	}{	npc.SetDisposition("Joy",1)	}{	G.Knox_Quest = 7; pc.SetQuest("Knox Asian", 4); G.Knox_Done = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	472	}{	Any idea what that thing was?	}{	Do you have any idea what that thing was?	}{	391	}{	}{	}{	}{	}{	}{	}{	}{	}{	The life-eater was a thing of death and shadows.	}
+{	473	}{	Could you maybe tell me where I could get some weapons?	}{	Could you tell me where a girl can get a gun in this town?	}{	372	}{	G.Trip_Know < 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	481	}{	Hey! So, like, how you doin' on that thing we talked about?	}{	Hey! So, like, how you doin' on that thing we talked about?	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	G.Knox_Ghoul = 2; G.Knox_Bertram = 2; G.Knox_Powerful = 1; G.Knox_Appear = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	483	}{	I did it. You don't have to worry about it any more.	}{	I did it. You don't have to worry about it any more.	}{	381	}{	(G.Knox_Quest == 6 and G.Knox_Fess == 0) or (IsDead("AsianVamp") and G.Knox_Fess == 0)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	484	}{	I did it. You don't have to worry about it any more.	}{	I did it. You don't have to worry about it any more.	}{	471	}{	(G.Knox_Quest == 6 and G.Knox_Fess == 1) or (IsDead("AsianVamp") and G.Knox_Fess == 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	485	}{	I spoke with Bertram.	}{	I spoke with Bertram.	}{	491	}{	}{	G.Knox_Bertfound = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	490	}{	Sorry. I'm still looking into it. Later.	}{	Sorry. I'm still looking into it. Later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	491	}{	Oh cool. He'll be glad once we get this problem taken care of.	}{	Oh cool. He'll be glad once we get this problem taken care of.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	492	}{	I already did it. You don't have to worry about it any more.	}{	I already did it. You don't have to worry about it any more.	}{	381	}{	(G.Knox_Quest == 6 and G.Knox_Fess == 0) or (IsDead("AsianVamp") and G.Knox_Fess == 0)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	493	}{	I already did it. You don't have to worry about it any more.	}{	I already did it. You don't have to worry about it any more.	}{	521	}{	(G.Knox_Quest == 6 and G.Knox_Fess == 1) or (IsDead("AsianVamp") and G.Knox_Fess == 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	494	}{	I told him you broke down and told me everything. He wasn't too happy.	}{	I told him you broke down and told me everything. He wasn't too happy.	}{	501	}{	G.Bertram_Pissed == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	495	}{	He said you guys had plans for me all along.	}{	He said you guys had plans for me all along.	}{	511	}{	G.Bertram_Plant == 1 and G.Knox_Fess == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	500	}{	I'm still looking into that. Later.	}{	I'm still looking into that. Later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	501	}{	Damn man, that's cold. That's ice cold! Damn! Why'd you have to do that, huh? I thought we were cool!	}{	Damn man, that's cold. That's ice cold! Damn! Why'd you have to do that, huh? I thought we were cool!	}{	#	}{	npc.SetDisposition("Sad",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	502	}{	Don't worry. I got the job done.	}{	Don't worry. I got the job done.	}{	521	}{	G.Knox_Quest == 6 or IsDead("AsianVamp")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	503	}{	Those are the breaks. No one said being a ghoul would be easy.	}{	Those are the breaks. No one said being a ghoul would be easy.	}{	531	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	504	}{	What goes around comes around.	}{	What goes around comes around.	}{	531	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	511	}{	[grinning, embarrassed and proud]Well, uh, yeah. Bertram's teaching me the ropes and this was a little test, dealin' with you. But it's still serious vampire business; this Asian thing needs to be taken out. How ya doin' on that, huh?	}{	[grinning, embarrassed and proud]Well, uh, yeah. Bertram's teaching me the ropes and this was a little test, dealin' with you. But it's still serious vampire business; this Asian thing needs to be taken out. How ya doin' on that, huh?	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	512	}{	It's done.	}{	It's done.	}{	521	}{	G.Knox_Quest == 6 or IsDead("AsianVamp")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	513	}{	Unlike you, I was able to get the job done.	}{	Unlike you, I was able to get the job done.	}{	521	}{	G.Knox_Quest == 6 or IsDead("AsianVamp")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	520	}{	Still working on it.	}{	Still working on it.	}{	531	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	521	}{	Awesome! Bertram'll be psyched then. Well, it was great workin' with you. Hopefully one day we'll get to team up again and... well, maybe I'll be, like, a full-fledged vampire by then!	}{	Awesome! Bertram'll be psyched then. Well, it was great workin' with you. Hopefully one day we'll get to team up again and... well, maybe I'll be, like, a full-fledged vampire by then!	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	G.Knox_Done = 1; G.Knox_Quest = 7; pc.SetQuest("Knox Asian", 4)	}{	}{	}{	}{	}{	}{	}{	}
+{	522	}{	I'm looking forward to it, Knox.	}{	I'm looking forward to it, Knox.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	530	}{	I doubt it. I'm outta here.	}{	I doubt it. I'm outta here.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	531	}{	Damn!	}{	Damn!	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	532	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
+{	533	}{	Aw man! Thanks again for your help.	}{	Aw man! Thanks again for your help.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	534	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	(Auto-End)	}
+{	541	}{	Aw man, yeah, sure! What do you want to know?	}{	Aw man, yeah, sure! What do you want to know?	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	542	}{	So how do you know so much about vampires?	}{	So how do you know so much about vampires?	}{	111	}{	G.Knox_Ghoul == 0	}{	G.Knox_Knowledge = G.Knox_Knowledge + 1	}{	}{	}{	}{	}{	}{	}{	}
+{	543	}{	I meant to ask you, where is Bertram?	}{	I meant to ask you, where is Bertram?	}{	161	}{	G.Knox_Bertram == 1 and G.Bertram_Check == 0	}{	G.Knox_Knowledge = G.Knox_Knowledge + 1	}{	}{	}{	}{	}{	}{	}{	}
+{	544	}{	So what is Bertram like?	}{	So what is Bertram like?	}{	171	}{	G.Knox_Bertram > 0 and G.Bertram_Check == 0	}{	G.Knox_Knowledge = G.Knox_Knowledge + 1	}{	}{	}{	}{	}{	}{	}{	}
+{	545	}{	What is it that you do for Bertram?	}{	What is it that you do for Bertram?	}{	211	}{	G.Knox_Bertram > 0 and G.Knox_Ghoul == 2 and G.Knox_Quest == 0 and G.Bertram_Check == 0	}{	G.Knox_Knowledge = G.Knox_Knowledge + 1	}{	}{	}{	}{	}{	}{	}{	}
+{	546	}{	Do you like being a ghoul?	}{	Do you like being a ghoul?	}{	141	}{	}{	G.Knox_Knowledge = G.Knox_Knowledge + 1	}{	}{	}{	}{	}{	}{	}{	}
+{	547	}{	Actually, I need to get out of here. Later.	}{	Actually, I need to get out of here. Later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am no longer here.	}
+{	551	}{	Aw, damn! You're talkin' all this crazy shit! Aw man! I bet that means you're Malkavian, huh? I know a little about you guys. Your head's all, like, messed up, right? Like Hannibal Lecter crazy, know what I'm sayin'?	}{	Aw, damn! You're talkin' all this crazy shit! Aw man! I bet that means you're Malkavian, huh? I know a little about you guys. Your head's all, like, messed up, right? Like Hannibal Lecter crazy, know what I'm sayin'?	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	552	}{	This is a secret little whisper that we will share, golden one.	}{	This is a secret little whisper that we will share, golden one.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	561	}{	Whu-? How did you know? Uh... look, ha man. I don't know what you're talkin' about. Anyway, why should I tell you anything, huh? I mean, you're not bein' straight with me.	}{	Whu-? How did you know? Uh... look, ha man. I don't know what you're talkin' about. Anyway, why should I tell you anything, huh? I mean, you're not bein' straight with me.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	562	}{	I am.	}{	I am.	}{	421	}{	}{	}{	}{	}{	}{	Hands. Do you want them?	}{	}{	}{	}
+{	571	}{	[Surprised]Huh? Yeah! Oh man! I am a bounty hunter! And you mean like, gold like, like Fort Knox, right? Hell yeah! Oh man! You can like read minds, right? See? This is some crazy vampire shit goin' on!	}{	[Surprised]Huh? Yeah! Oh man! I am a bounty hunter! And you mean like, gold like, like Fort Knox, right? Hell yeah! Oh man! You can like read minds, right? See? This is some crazy vampire shit goin' on!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	581	}{	Life-eater? Damn! I don't even know what that means! Is that vampire for scary-ass-Asian-dude-that-can-probably-kick-my-ass? Oh man! Cuz, like, that's what I think he is.	}{	Life-eater? Damn! I don't even know what that means! Is that vampire for scary-ass-Asian-dude-that-can-probably-kick-my-ass? Oh man! Cuz, like, that's what I think he is.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	582	}{	Tell me more of this creature.	}{	Tell me more of this creature.	}{	221	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	601	}{	Bertram said it's like a vampire, but different, ya know. It's like what they have in China instead of vampires. He said lots of them have been coming to California for some reason, I dunno.	}{	Bertram said it's like a vampire, but different, ya know. It's like what they have in China instead of vampires. He said lots of them have been coming to California for some reason, I dunno.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	602	}{	Can you tell me where I buy a boom-stick, little ghoulie?	}{	Can you tell me where I buy a boom-stick, little ghoulie?	}{	372	}{	G.Trip_Know < 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	610	}{	Don't take any brass nickels, little golden ghoul. Farewell.	}{	Don't take any brass nickels, little golden ghoul. Farewell.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	611	}{	[excited]Aw man! You - you're a vampire, aren't you?	}{	[excited]Aw man! You - you're a vampire, aren't you?	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	G.Knox_TT = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	612	}{	What? Vampire? What the hell are you smoking?	}{	What? Vampire? What the hell are you smoking?	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	613	}{	Look, I don't know what you think you know, but I'd recommend you forget it.	}{	Look, I don't know what you think you know, but I'd recommend you forget it.	}{	61	}{	}{	}{	}{	}{	}{	If you keep talking, I'll get rid of your tongue for you.	}{	}{	}{	}
+{	614	}{	Let's say I am, what's it to you?	}{	Let's say I am, what's it to you?	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	615	}{	Leave me alone, idiot.	}{	Leave me alone, idiot.	}{	691	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	621	}{	Aw man! I really wish I could tell ya, but I don't think I'm supposed to. But it's really cool to be talkin' to you, just, well, because I don't get a lot of chance to talk to vampires - oh man! - well, other than my master, so I thought I'd just say, ya know, what's up, ya know?	}{	Aw man! I really wish I could tell ya, but I don't think I'm supposed to. But it's really cool to be talkin' to you, just, well, because I don't get a lot of chance to talk to vampires - oh man! - well, other than my master, so I thought I'd just say, ya know, what's up, ya know?	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	622	}{	You like being a ghoul?	}{	You like being a ghoul?	}{	141	}{	G.Knox_Likes == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	623	}{	So what are you doing around here?	}{	So what are you doing around here?	}{	651	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	624	}{	Don't be an idiot. Of course you can tell me.	}{	Don't be an idiot. Of course you can tell me.	}{	691	}{	G.Knox_Pissed != 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	625	}{	Don't be an idiot. Of course you can tell me.	}{	Don't be an idiot. Of course you can tell me.	}{	701	}{	G.Knox_Pissed == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	630	}{	It's been fun, Knox, but I need to leave.	}{	It's been fun, Knox, but I need to leave.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	631	}{	What's up, man?	}{	What's up, girl?	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	632	}{	Nothing. Goodbye.	}{	Nothing. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	My mind has left. My body follows.	}
+{	633	}{	Can we talk? It's important.	}{	Can we talk? It's important.	}{	1001	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	641	}{	Hey, man.	}{	Hey, girl.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	642	}{	Hey, Knox. What's going on?	}{	Hey, Knox. What's going on?	}{	661	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	649	}{	See you around, Knox.	}{	See you around, Knox.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	650	}{	Can we talk? It's important.	}{	Can we talk? It's important.	}{	1001	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	651	}{	[Looks around nervously, lowers his voice]Look, I probably shouldn't tell you this, but I'm on a "secret mission" for my master. [Resumes normal tone]Well, hey - ha! - it's been great talkin' to you, man, but I better be going - aw man! - ya know, important stuff to do.	}{	[Looks around nervously, lowers his voice]Look, I probably shouldn't tell you this, but I'm on a "secret mission" for my master. [Resumes normal tone]Well, hey - ha! - it's been great talkin' to you, man, but I better be going - aw man! - ya know, important stuff to do.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	G.Knox_Mission = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	658	}{	Has anyone ever told you you're an idiot?	}{	Has anyone ever told you you're an idiot?	}{	701	}{	G.Knox_Pissed == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	659	}{	Has anyone ever told you you're an idiot?	}{	Has anyone ever told you you're an idiot?	}{	691	}{	G.Knox_Pissed != 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	660	}{	See you around.	}{	See you around.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	661	}{	[Agitated]Eh, not much. I'm just waitin' around for my master.	}{	[Agitated]Eh, not much. I'm just waitin' around for my master.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	662	}{	The master you couldn't talk about?	}{	The master you couldn't talk about?	}{	671	}{	G.Knox_Master == 1 and G.Knox_Bertram == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	663	}{	Who is your master?	}{	Who is your master?	}{	151	}{	G.Knox_Master == 0 and G.Knox_Bertram == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	664	}{	How's your "mission" going?	}{	How's your "mission" going?	}{	681	}{	G.Knox_Mission == 1 and G.Knox_Bertram == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	665	}{	What's the matter, Knox? You seem troubled.	}{	What's the matter, Knox? You seem troubled.	}{	211	}{	G.Knox_Bertram > 0 and G.Knox_Quest == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	670	}{	Well, I'll be seeing ya. Later.	}{	Well, I'll be seeing ya. Later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	671	}{	[Looks around, nervously]Okay, okay. I guess I can tell you about him.	}{	[Looks around, nervously]Okay, okay. I guess I can tell you about him.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	672	}{	(Auto-Link)	}{	(Auto-Link)	}{	151	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	681	}{	Oh man, not good! That's why I'm waiting to talk to him.	}{	Oh man, not good! That's why I'm waiting to talk to him.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	G.Knox_Mission = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	682	}{	Why don't you tell me who he is?	}{	Why don't you tell me who he is?	}{	671	}{	G.Knox_Master == 1 and G.Knox_Bertram == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	683	}{	Who is your master?	}{	Who is your master?	}{	151	}{	G.Knox_Master == 0 and G.Knox_Bertram == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	691	}{	Hey, man, just because I'm a ghoul and you're some cool vampire, you don't need to treat me like crap... 'k? Aw man, gets me SO agitated!	}{	Hey, chick, just because I'm a ghoul and you're some cool vampire, you don't need to treat me like crap, okay? D'oh man, you make me so mad!	}{	#	}{	npc.SetDisposition("Sad",1)	}{	G.Knox_Pissed = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	692	}{	I apologize. What is a ghoul?	}{	I apologize. What is a ghoul?	}{	131	}{	G.Knox_Ghoul < 2	}{	G.Knox_Pissed = 0	}{	}{	}{	}{	}{	}{	}{	}
+{	693	}{	Of course I do. Ghouls are lowly creatures.	}{	Of course I do. Ghouls are lowly creatures.	}{	701	}{	G.Knox_Ghoul == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	694	}{	I apologize. What are you doing around here?	}{	I apologize. What are you doing around here?	}{	651	}{	G.Knox_Ghoul == 2 and G.Knox_Mission == 0	}{	G.Knox_Pissed = 0	}{	}{	}{	}{	}{	}{	}{	}
+{	695	}{	Okay, I apologize.	}{	Okay, I apologize.	}{	721	}{	G.Knox_Mission == 1	}{	G.Knox_Pissed = 0	}{	}{	}{	}{	}{	}{	}{	}
+{	696	}{	Just shut up and tell me what a ghoul is.	}{	Just shut up and tell me what a ghoul is.	}{	771	}{	G.Knox_Ghoul < 2	}{	G.Knox_Pissed = 0	}{	}{	}{	}{	}{	}{	}{	}
+{	701	}{	[Taken aback]I - I uh... [angry, petulant]screw you! I don't need this. I just thought it'd be cool to talk to you, but I guess not.	}{	[Taken aback]I - I uh... [angry, petulant]screw you! I don't need this. I just thought it'd be cool to talk to you, but I guess not.	}{	#	}{	npc.SetDisposition("Anger",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	702	}{	You guessed right.	}{	You guessed right.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	711	}{	What do you want? Are you here to insult me some more?	}{	What do you want? Are you here to insult me some more?	}{	#	}{	npc.SetDisposition("Anger",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	712	}{	No, I'm here to apologize.	}{	No, I'm here to apologize.	}{	721	}{	}{	G.Knox_Pissed = 0	}{	}{	}{	}{	}{	}{	}{	}
+{	719	}{	It would be a waste of my time, fool.	}{	It would be a waste of my time, fool.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	720	}{	Can we talk? It's important.	}{	Can we talk? It's important.	}{	1001	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	721	}{	Really?!? Heh. That is so cool, it's like, oh man, I knew you weren't an asshole!	}{	Really?!? Heh. That is so cool, it's like, oh man, I knew you weren't an asshole!	}{	#	}{	npc.SetDisposition("Joy",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	722	}{	What are you doing around here?	}{	What are you doing around here?	}{	661	}{	G.Knox_Ghoul == 2 and G.Knox_Mission == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	723	}{	You said you're a "ghoul"? What is that?	}{	You said you're a "ghoul"? What is that?	}{	131	}{	G.Knox_Ghoul == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	726	}{	Well, I'll be seeing you around. Later.	}{	Well, I'll be seeing you around. Later.	}{	0	}{	G.Knox_Mission == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	731	}{	Leave me alone.	}{	Leave me alone.	}{	#	}{	npc.SetDisposition("Anger",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	732	}{	Can we talk? It's important.	}{	Can we talk? It's important.	}{	1001	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	733	}{	<End>	}{	<End>	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	741	}{	Hey, that's messed up, man. I'm tryin' to confide in you, here, ya know.	}{	That's messed up, girl. I'm tryin' to confide in you, ya know?	}{	#	}{	npc.SetDisposition("Sad",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	742	}{	Sorry, it won't happen again.	}{	Sorry, it won't happen again.	}{	241	}{	G.Knox_Quest == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	743	}{	Sorry, it won't happen again. Please, go on.	}{	Sorry, it won't happen again. Please, go on.	}{	231	}{	G.Knox_Quest == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	750	}{	That was your first mistake. I don't have time for you.	}{	That was your first mistake. I don't have time for you.	}{	0	}{	}{	G.Knox_Pissed == 3	}{	}{	}{	}{	}{	}{	}{	}
+{	751	}{	[angry]What do you want?	}{	[angry]What do you want?	}{	#	}{	npc.SetDisposition("Anger",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	752	}{	I'm sorry I was rude before.	}{	I'm sorry I was rude before.	}{	761	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	759	}{	Nothing. Goodbye.	}{	Nothing. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	760	}{	Can we talk? It's important.	}{	Can we talk? It's important.	}{	1001	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	761	}{	[a little dejected]Okay, I guess. [getting more spirited]I guess I'm a little stressed out too about this whole Asian dude thing.	}{	[a little dejected]Okay, I guess. [getting more spirited]I guess I'm a little stressed out too about this whole Asian dude thing.	}{	#	}{	npc.SetDisposition("Sad",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	762	}{	What are you going to do about it?	}{	What are you going to do about it?	}{	241	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	771	}{	Okay, calm down. Don't be such a dick.	}{	Okay, calm down. Don't be such a bitch.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	772	}{	(Auto-Link)	}{	(Auto-Link)	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	781	}{	[friendly]Hey, what's up, man?	}{	[friendly]Hey, what's up, girl?	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	782	}{	Nothing special.	}{	Nothing special.	}{	533	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	783	}{	Can we talk? It's important.	}{	Can we talk? It's important.	}{	1001	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	791	}{	Hey.	}{	Hey.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	801	}{	[hostile]Hey, dude, I thought I told you to leave me alone.	}{	[hostile]Hey, girl, I thought I told you to leave me alone.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	802	}{	Can we talk? It's important.	}{	Can we talk? It's important.	}{	1001	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	803	}{	<End>	}{	<End>	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	811	}{	[hostile]I don't want to talk to you any more.	}{	[hostile]I don't want to talk to you any more.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	812	}{	(Auto-Link)	}{	(Auto-Link)	}{	731	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	821	}{	Yeah! Oh man!	}{	Yeah! Oh man!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	831	}{	Nah.	}{	Nah.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	841	}{	Thanks!	}{	Thanks!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	851	}{	No way! Really?	}{	No way! Really?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	861	}{	[uncertain]I don't know.	}{	[uncertain]I don't know.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	871	}{	I'm not helping you!	}{	I'm not helping you!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	881	}{	That's cool!	}{	That's cool!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	891	}{	By the way...	}{	By the way...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	901	}{	Take this, man.	}{	Take this, girl.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	911	}{	I'll send you an email, okay?	}{	I'll send you an email, okay?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	921	}{	[exhilarated]Hell yeah! I knew it! I knew you were. I could just tell. Aw man! I mean, with you being Nosferatu and all, it's kinda obvious, but it was like I could just sense you coming, ya know. The name's Knox Harrington. Cool to meet you.	}{	[exhilarated]Hell yeah! I knew it! I knew you were. I could just tell. Aw man! I mean, with you being Nosferatu and all, it's kinda obvious, but it was like I could just sense you coming, ya know. The name's Knox Harrington. Cool to meet you.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	G.Knox_Vamp = 3	}{	}{	}{	}{	}{	}{	}{	}
+{	923	}{	Are you a vampire? How do you know all of this?	}{	Are you a vampire? How do you know all of this?	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	930	}{	The pleasure's all yours. Leave me alone, jackass.	}{	The pleasure's all yours. Leave me alone, jackass.	}{	691	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	931	}{	Aw man, yeah, sure! What do you want to know?	}{	Aw man, yeah, sure! What do you want to know?	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	932	}{	How do I get to the beach from here?	}{	How do I get to the beach from here?	}{	941	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	933	}{	Is there anything I should know about in Santa Monica?	}{	Is there anything I should know about in Santa Monica?	}{	951	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	934	}{	Who was the vampire that made you a ghoul?	}{	Who was the vampire that made you a ghoul?	}{	621	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	940	}{	Never mind. I'm outta here.	}{	Never mind. I'm outta here.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	941	}{	Just go down to the end of the street, make a left into the parking garage, take the steps down and the tunnel will lead you right out into the beach.	}{	Just go down to the end of the street, make a left into the parking garage, take the steps down and the tunnel will lead you right out into the beach.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	942	}{	Thanks, can I ask you some more questions?	}{	Thanks, can I ask you some more questions?	}{	931	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	950	}{	Thanks, Goodbye.	}{	Thanks, Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	951	}{	Oh, yeah, here's somethin'! There's a blood bank in the basement of this medical clinic here. That can come in mighty handy for vampires, heh heh, ya know what I mean.	}{	Oh, yeah, here's somethin'! There's a blood bank in the basement of this medical clinic here. That can come in mighty handy for vampires, heh heh, ya know what I mean.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	952	}{	Thanks, can I ask you some more questions?	}{	Thanks, can I ask you some more questions?	}{	931	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	960	}{	Thanks, Goodbye.	}{	Thanks, Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Why are you still speaking at me? I'm gone.	}
+{	1001	}{	Aw man, yeah, sure!	}{	Aw man, yeah, sure!	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1002	}{	What do you know about ghouls?	}{	What do you know about ghouls?	}{	1011	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tell me about ghouldom...	}
+{	1003	}{	Nevermind.	}{	Nevermind.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Who are you talking to? I am already gone...	}
+{	1011	}{	Well, the way it was explained to me, whenever a vampire lets a human drink some of their vampire blood, the human gains a little vampire power, can heal up quick and that kinda stuff.	}{	Well, the way it was explained to me, whenever a vampire lets a human drink some of their vampire blood, the human gains a little vampire power, can heal up quick and that kinda stuff.	}{	#	}{	}{	G.Knox_Ghoul = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	1012	}{	Would you like to be my ghoul?	}{	Would you like to be my ghoul?	}{	1021	}{	companion.Test(pc,npc)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1013	}{	Would you like to be my ghoul?	}{	Would you like to be my ghoul?	}{	1071	}{	0 == companion.Test(pc,npc)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1014	}{	Cool. Gotta go.	}{	Cool. Gotta go.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1021	}{	Nope. My new boss has set me up.	}{	Nope. My new boss has set me up.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1022	}{	Are you sure? Wouldn't you rather belong to a woman than a man? Just think of all the fun we could have.	}{	Are you sure? Wouldn't you rather belong to a woman than a man? Just think of all the fun we could have.	}{	1091	}{	F_Seduction  2	}{	}{	}{	}{	}{	I could do things to you that you'd never dream of.	}{	}{	}{	}
+{	1023	}{	<Animus Constupro> How about a full-fledged vampire?	}{	How about a full-fledged vampire?	}{	1031	}{	Persuasion 3 & LimitSet(1,5)	}{	}{	}{	}{	}{	}{	}{	}{	You could become one of my kind.	}
+{	1024	}{	<Animus Constupro> How about a full-fledged vampire?	}{	How about a full-fledged vampire?	}{	1031	}{	Dominate 2 & LimitSet(2,5) and IsClan(pc,"Brujah") or IsClan(pc,"Malkavian") or IsClan(pc,"Ventrue")	}{	}{	}{	}{	}{	}{	}{	}{	You could become one of my kind.	}
+{	1027	}{	<Animus Constupro> How about joining me as one of the night's children?	}{	How about joining me as one of the night's children?	}{	1031	}{	Presence 3 & LimitSet(5,5) and IsClan(pc,"Gangrel")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1029	}{	Sorry to hear that.	}{	Sorry to hear that.	}{	0	}{	}{	}{	}{	}{	}{	You will regret this.	}{	}{	You will regret this.	}{	Sorry to hear that.	}
+{	1031	}{	Huh? Yeah! Oh man! Hell yeah! Oh man! This is some crazy vampire shit going on!	}{	Huh? Yeah! Oh man! Hell yeah! Oh man! This is some crazy vampire shit going on!	}{	#	}{	npc.SetDisposition("Joy",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1032	}{	Good. Before we begin, you will need to drink the blood of this creature.	}{	Good. Before we begin, you will need to drink the blood of this creature.	}{	1041	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1041	}{	It's like... trippy, it's crazy. Oh man!	}{	It's like... trippy, it's crazy. Oh man!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1042	}{	Glad you like it. Just a few more seconds and you won't be a useless idiot anymore...	}{	Glad you like it. Just a few more seconds and you won't be a useless idiot anymore...	}{	1051	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1051	}{	I... uh... I. Uh. Whoa... what are you saying?	}{	I... uh... I. Uh. Whoa... what are you saying?	}{	#	}{	npc.SetDisposition("Anger",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1052	}{	I mean, you will always be an idiot, but at least now you will be an obediant idiot.	}{	I mean, you will always be an idiot, but at least now you will be an obediant idiot.	}{	0	}{	}{	G.Knox_WasComp=1;ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),1)')	}{	}{	}{	}{	}{	}{	}{	}
+{	1061	}{	Master.	}{	Master.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1062	}{	Come with me.	}{	Come with me.	}{	0	}{	}{	ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"))')	}{	}{	}{	}{	}{	}{	}{	}
+{	1063	}{	Nevermind.	}{	Nevermind.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am gone.	}
+{	1071	}{	Nope. My new boss has set me up.	}{	Nope. My new boss has set me up.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1072	}{	My eyes are above my neck, not below. Oh well, I thought maybe you would rather belong to a woman.	}{	My eyes are above my neck, not below. Oh well, I thought maybe you would rather belong to a woman.	}{	1081	}{	F_Seduction  2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1073	}{	Fine. Then serve me because you must... thrall.	}{	Fine. Then serve me because you must... thrall.	}{	0	}{	Dominate 3 & LimitSet(1,4)	}{	G.Knox_WasComp=1;ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),1)')	}{	}{	}{	}{	}{	}{	}{	}
+{	1074	}{	Fine. Then serve me because you must... thrall.	}{	Fine. Then serve me because you must... thrall.	}{	0	}{	Thaumaturgy 1 & getattr(pc,"base_dominate") > 2 and LimitSet(2,4)	}{	G.Knox_WasComp=1;ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),1)')	}{	}{	}{	}{	}{	}{	}{	}
+{	1075	}{	Then I will reach into your mind and fix his set up. Follow me.	}{	Then I will reach into your mind and fix his set up. Follow me.	}{	0	}{	Dementation 3 & LimitSet(3,4)	}{	G.Knox_WasComp=1;ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),2)')	}{	}{	}{	}{	}{	}{	}{	}
+{	1076	}{	You want to follow me, protect me, serve me.	}{	But you adore me. You want to follow me, protect me, serve me.	}{	0	}{	Presence 4 & LimitSet(4,4)	}{	G.Knox_WasComp=1;ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),3)')	}{	}{	}{	}{	}{	}{	}{	}
+{	1077	}{	Sorry to hear that.	}{	Sorry to hear that.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I may need another body for this. I'll be back.	}
+{	1081	}{	[561] Whu-? Uh... look, ha man. I don't know what you're talkin' about.	}{	Whu-? Uh... look, ha man. I don't know what you're talkin' about.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1082	}{	You don't have to pretend Knox. I like you too. That is why I asked you to join me.	}{	You don't have to pretend Knox. I like you too. That is why I asked you to join me.	}{	1091	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1083	}{	Of course not, but think: How many years will you serve Bertram? Wouldn't you rather serve me?	}{	Of course not, but think: How many years will you serve Bertram? Wouldn't you rather serve me?	}{	1091	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1084	}{	Fine, be that way.	}{	Fine, be that way.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1091	}{	[1031] Oh man! Hell yeah! Oh man! This is some crazy vampire shit going on!	}{	Oh man! Hell yeah! Oh man! This is some crazy vampire shit going on!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1092	}{	So I am guessing from that response that the answer is yes.	}{	So I am guessing from that response that the answer is yes.	}{	1101	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1101	}{	[821] Yeah! Oh man....	}{	Yeah! Oh man....	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1102	}{	<Animus Constupro> Good. Before we begin, you will need to drink the blood of this creature.	}{	<Animus Constupro> Good. Before we begin, you will need to drink the blood of this creature.	}{	1141	}{	companion.Test(pc,npc)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1103	}{	I'm glad to hear it. Let's get going.	}{	I'm glad to hear it. Let's get going.	}{	0	}{	}{	G.Knox_WasComp=1;ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),4)')	}{	}{	}{	}{	}{	}{	}{	}
+{	1141	}{	[1041] It's like... trippy, it's crazy. Oh man!	}{	It's like... trippy, it's crazy. Oh man!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1142	}{	Glad you like it. Just a few more seconds and I will have my new boy toy.	}{	Glad you like it. Just a few more seconds and I will have my new boy toy.	}{	1151	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1151	}{	[1051] I... uh... I. Uh. Whoa... what are you saying?	}{	I... uh... I. Uh. Whoa... what are you saying?	}{	#	}{	npc.SetDisposition("Anger",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1152	}{	I'm saying I prefer the silent and obedient type.	}{	I'm saying I prefer the silent and obedient type.	}{	0	}{	}{	G.Knox_WasComp=1;ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),1)')	}{	}{	}{	}{	}{	}{	}{	}
+{	1161	}{	[781] Hey... whats up girl?	}{	Hey... whats up girl?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1162	}{	I've missed you Knox. I could use your help. Travel with me?	}{	I've missed you Knox. I could use your help. Travel with me?	}{	1101	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1163	}{	Nevermind.	}{	Nevermind.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1955	}{	...	}{	...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1956	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1959	}{	(Starting Condition)	}{	}{	1955	}{	OnBeginDialog(pc,npc,34)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1960	}{	(Starting Condition)	}{	}{	1161	}{	G.Knox_WasComp and npc.GetData("Type") == 4	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1961	}{	(Starting Condition)	}{	}{	1061	}{	G.Knox_WasComp	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1962	}{	(Starting Condition)	}{	}{	781	}{	G.Knox_Done == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1963	}{	(Starting Condition)	}{	}{	481	}{	G.Bertram_Check == 1 and G.Knox_Bertfound == 0 and G.Knox_Quest == 5	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1964	}{	(Starting Condition)	}{	}{	21	}{	IsClan(pc,"Nosferatu") and G.Knox_TT == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1965	}{	(Starting Condition)	}{	}{	11	}{	G.Knox_TT == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1966	}{	(Starting Condition)	}{	}{	291	}{	G.Knox_Quest == 5 or G.Knox_Quest == 6	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1967	}{	(Starting Condition)	}{	}{	81	}{	G.Knox_Wesp == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1968	}{	(Starting Condition)	}{	}{	361	}{	G.Knox_TT > 0 and G.Knox_Quest == 4	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1969	}{	(Starting Condition)	}{	}{	631	}{	G.Knox_Ghoul == 2 and G.Mercurio_Quest != 2 and G.Knox_Pissed == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1970	}{	(Starting Condition)	}{	}{	641	}{	G.Knox_Ghoul == 2 and G.Mercurio_Quest == 2 and G.Knox_Pissed == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1971	}{	(Starting Condition)	}{	}{	811	}{	G.Knox_Ghoul > 0 and G.Mercurio_Quest != 2 and G.Knox_Pissed == 2	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1972	}{	(Starting Condition)	}{	}{	751	}{	G.Knox_Quest == 1 and G.Knox_Pissed >= 1 and G.Knox_Pissed < 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1973	}{	(Starting Condition)	}{	}{	711	}{	G.Mercurio_Quest == 2 and G.Knox_Pissed >= 1 and G.Knox_Pissed < 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1974	}{	(Starting Condition)	}{	}{	801	}{	G.Knox_Pissed == 3	}{	}{	}{	}{	}{	}{	}{	}{	}

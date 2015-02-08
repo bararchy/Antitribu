@@ -1,0 +1,1019 @@
+{1	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{2	}{				[ #################    GENERIC (No Audio)    ################# ]																												}{}{}{}{}{}{}{}{}{}{}{}
+{3	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{4	}{Hey? What can I do to help?									}{Hey? What can I do to help?									}{	#	}{										}{						}{}{}{}{}{}{}{}
+{5	}{I need you to move somewhere.									}{I need you to move somewhere.									}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{6	}{Stop Posing. 											}{Stop Posing.											}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{9	}{Travel with me. <Must remove>									}{Travel with me. <Must remove>									}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{10	}{Travel with me. 										}{Travel with me. 										}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{11	}{See if you can find a new outfit. 								}{See if you can find a new outfit. 								}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{12	}{<More...>											}{<More...>											}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{13	}{												}{												}{	#	}{										}{						}{}{}{}{}{}{}{}
+{47	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{48	}{			  [ #################    GENERIC UNWILLING (No Audio)    ################# ]																													}{}{}{}{}{}{}{}{}{}{}{}
+{49	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{50	}{How may I serve my master?									}{How may I serve my mistress?									}{	#	}{										}{						}{}{}{}{}{}{}{}
+{51	}{Time to pose you.										}{Time to pose my plaything.									}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{52	}{Stop Posing .											}{Stop Posing.											}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{53	}{Travel with me. <Must remove>									}{Travel with me. <Must remove>									}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{54	}{Travel with me. 										}{Travel with me. 										}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{55	}{See if you can find a new outfit. I grow bored of this one.					}{See if you can find a new outfit. I grow bored of this one.					}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{56	}{<More...>											}{<More...>											}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{57	}{												}{												}{	#	}{										}{						}{}{}{}{}{}{}{}
+{58	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{98	}{				[ #################     KNOX (unwilling)    ################# ]																													}{}{}{}{}{}{}{}{}{}{}{}
+{99	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{100	}{Master.											}{Master.											}{	#	}{										}{						}{}{}{}{}{}{}{}
+{101	}{Time to pose you.										}{Time to pose my plaything.										}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{102	}{Stop Posing.											}{Stop Posing.												}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{103	}{Travel with me. <Must remove>									}{Travel with me. <Must remove>											}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{104	}{Travel with me. 										}{Travel with me. 											}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{105	}{See if you can find a new outfit. I grow bored of this one.					}{See if you can find a new outfit. I grow bored of this one.								}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{106	}{<More...>											}{<More...>											}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{107	}{												}{												}{	#	}{										}{						}{}{}{}{}{}{}{}
+{147	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{148	}{				[ #################    Lily   ################# ]																														}{}{}{}{}{}{}{}{}{}{}{}
+{149	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{150	}{Sire?												}{Sire?													}{	#	}{										}{						}{}{}{}{}{}{}{}
+{151	}{Time to pose my plaything.									}{Time to pose my plaything.										}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{152	}{Stop Posing.											}{Stop Posing.												}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{153	}{Travel with me. <Must remove>									}{Travel with me. <Must remove>											}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{154	}{Travel with me. 										}{Travel with me. 											}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{155	}{See if you can find a new outfit. I grow bored of this one.					}{See if you can find a new outfit. I grow bored of this one.								}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{156	}{<More...>											}{<More...>											}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{157	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{160	}{I... feel so right.										}{I... feel so right.											}{	#	}{										}{						}{}{}{}{}{}{}{}
+{161	}{Time to pose my plaything.									}{Time to pose my plaything.										}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{162	}{Stop Posing.											}{Stop Posing.												}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{163	}{Travel with me. <Must remove>									}{Travel with me. <Must remove>											}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{164	}{Travel with me. 										}{Travel with me. 											}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{165	}{See if you can find a new outfit. I grow bored of this one.					}{See if you can find a new outfit. I grow bored of this one.								}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{166	}{<More...>											}{<More...>											}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{167	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{170	}{As long as we're together.									}{As long as we're together.										}{	#	}{										}{						}{}{}{}{}{}{}{}
+{171	}{Time to pose my plaything.									}{Time to pose my plaything.										}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{172	}{Stop Posing. 											}{Stop Posing.												}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{173	}{Travel with me. <Must remove>									}{Travel with me. <Must remove>											}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{174	}{Travel with me. 										}{Travel with me. 											}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{175	}{See if you can find a new outfit. I grow bored of this one.					}{See if you can find a new outfit. I grow bored of this one.								}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{176	}{<More...>											}{<More...>											}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{177	}{												}{												}{	#	}{										}{						}{}{}{}{}{}{}{}
+{178	}{				[ #################    Jeanette/Therese (unwilling) ################# ]																												}{}{}{}{}{}{}{}{}{}{}{}
+{179	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{180	}{Master?											}{Master?											}{	#	}{										}{						}{}{}{}{}{}{}{}
+{181	}{Time to pose my plaything.									}{Time to pose my plaything.										}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{182	}{Stop Posing. 											}{Stop Posing.												}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{183	}{Travel with me. <Must remove>									}{Travel with me. <Must remove>											}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{184	}{Travel with me. 										}{Travel with me.											}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{185	}{See if you can find a new outfit. I grow bored of this one.					}{See if you can find a new outfit. I grow bored of this one.								}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{186	}{<More...>											}{<More...>											}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{187	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{190	}{Master?											}{Master?											}{	#	}{										}{						}{}{}{}{}{}{}{}
+{191	}{Time to pose my plaything.									}{Time to pose my plaything.										}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{192	}{Stop Posing. 											}{Stop Posing.												}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{193	}{Travel with me. <Must remove>									}{Travel with me. <Must remove>											}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{194	}{Travel with me. 										}{Travel with me. 											}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{195	}{See if you can find a new outfit. I grow bored of this one.					}{See if you can find a new outfit. I grow bored of this one.								}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{196	}{<More...>											}{<More...>											}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{197	}{												}{												}{	#	}{										}{						}{}{}{}{}{}{}{}
+{208	}{				[ #################    Tourette   ################# ]																													}{}{}{}{}{}{}{}{}{}{}{}
+{209	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{210	}{Know any games we can play?									}{Know any games we can play?								}{	#	}{										}{						}{}{}{}{}{}{}{}
+{211	}{Time to pose my plaything.									}{Time to pose my plaything.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{212	}{Stop Posing.											}{Stop Posing.										}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{213	}{Travel with me. <Must remove>									}{Travel with me. <Must remove>							}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{214	}{Travel with me. 										}{Travel with me. 										}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{215	}{See if you can find a new outfit. I grow bored of this one.					}{See if you can find a new outfit. I grow bored of this one.		}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{216	}{<More...>											}{<More...>											}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{217	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{220	}{Do anything with us.										}{Do anything with us.									}{	#	}{										}{						}{}{}{}{}{}{}{}
+{221	}{Time to pose my plaything.									}{Time to pose my plaything.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{222	}{Stop Posing .											}{Stop Posing.										}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{223	}{Travel with me. <Must remove>									}{Travel with me. <Must remove>							}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{224	}{Travel with me. 										}{Travel with me. 										}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{225	}{See if you can find a new outfit. I grow bored of this one.					}{See if you can find a new outfit. I grow bored of this one.		}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{226	}{<More...>											}{<More...>											}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{227	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{230	}{Master?											}{Master?											}{	#	}{										}{						}{}{}{}{}{}{}{}
+{231	}{Time to pose my plaything.									}{Time to pose my plaything.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{232	}{Stop Posing. 											}{Stop Posing.										}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{233	}{Travel with me. <Must remove>									}{Travel with me. <Must remove>							}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{234	}{Travel with me. 										}{Travel with me. 										}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{235	}{See if you can find a new outfit. I grow bored of this one.					}{See if you can find a new outfit. I grow bored of this one.		}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{236	}{<More...>											}{<More...>											}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{237	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{238	}{				[ #################    Vandal    ################# ]																														}{}{}{}{}{}{}{}{}{}{}{}
+{239	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{240	}{How can I serve you?									}{How can I serve you?									}{	#	}{										}{						}{}{}{}{}{}{}{}
+{241	}{Time to pose you.									}{Time to pose my plaything.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{242	}{Stop Posing. 										}{Stop Posing.										}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{243	}{Travel with me. <Must remove>							}{Travel with me. <Must remove>							}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{244	}{Travel with me. 									}{Travel with me. 										}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{245	}{See if you can find a new outfit. I grow bored of this one.		}{See if you can find a new outfit. I grow bored of this one.		}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{246	}{<More...>											}{<More...>											}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{247	}{												}{												}{	#	}{										}{						}{}{}{}{}{}{}{}
+{257	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{258	}{				[ #################    E    ################# ]																															}{}{}{}{}{}{}{}{}{}{}{}
+{259	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{260	}{Alright?											}{Alright?											}{	#	}{										}{						}{}{}{}{}{}{}{}
+{261	}{Time to pose you.									}{Time to pose my plaything.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{262	}{Stop Posing. 										}{Stop Posing.										}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{263	}{Travel with me. <Must remove>							}{Travel with me. <Must remove>							}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{264	}{Travel with me. 									}{Travel with me. 									}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{265	}{See if you can find a new outfit. I grow bored of this one.		}{See if you can find a new outfit. I grow bored of this one.		}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{266	}{<More...>											}{<More...>											}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{267	}{												}{												}{	#	}{										}{						}{}{}{}{}{}{}{}
+{268	}{				[ #################    VV   ################# ]																															}{}{}{}{}{}{}{}{}{}{}{}
+{269	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{270	}{Mmmm...											}{Mmmm...											}{	#	}{										}{						}{}{}{}{}{}{}{}
+{271	}{Time to pose my plaything.								}{Time to pose my plaything.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{272	}{Stop Posing. 										}{Stop Posing.										}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{273	}{Travel with me. <Must remove>							}{Travel with me. <Must remove>							}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{274	}{Travel with me. 									}{Travel with me. 									}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{275	}{See if you can find a new outfit. I grow bored of this one.		}{See if you can find a new outfit. I grow bored of this one.		}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{276	}{<More...>											}{<More...>											}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{277	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{280	}{Mmm-hmm?											}{Mmm-hmm?											}{	#	}{										}{						}{}{}{}{}{}{}{}
+{281	}{Time to pose my plaything.								}{Time to pose my plaything.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{282	}{Stop Posing. 										}{Stop Posing.										}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{283	}{Travel with me. <Must remove>							}{Travel with me. <Must remove>							}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{284	}{Travel with me. 									}{Travel with me. 										}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{285	}{See if you can find a new outfit. I grow bored of this one.		}{See if you can find a new outfit. I grow bored of this one.		}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{286	}{<More...>											}{<More...>											}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{287	}{												}{												}{	#	}{										}{						}{}{}{}{}{}{}{}
+{288	}{				[ #################  Heather   ################# ]																													}{}{}{}{}{}{}{}{}{}{}{}
+{289	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{290	}{[871->290]Yes?										}{Yes?											}{	#	}{ 										}{						}{}{}{}{}{}{}{}
+{291	}{[BIO] Tell me a little about yourself.						}{Tell me a little about yourself.							}{	510	}{G.Story_State >= 15 and 0 == G.Heather_Bio and pc.IsPC() and LimitSet(1,5)		}{	}{	}{	}{	}{	}{	}{	}{	}
+{292	}{[LOAN]Looks like something is on your mind. 						}{Looks like something is on your mind. 						}{	420	}{G.Story_State >= 20 and 0 == G.Heather_Loan and 1 != npc.GetData("Embraced") and pc.IsPC() and LimitSet(2,5)}{	}{	}{	}{	}{	}{	}{	}{	}
+{293	}{[SCARED]What's wrong?									}{What's wrong?										}{	550	}{G.Story_State >= 35 and 0 == G.Heather_Scared and pc.IsPC() and LimitSet(3,5)		}{	}{	}{	}{	}{	}{	}{	}{	}
+{294	}{[FIX]I've seen that look before.							}{I've seen that look before.								}{	590	}{G.Story_State >= 45 and 0 == G.Heather_Fix and 1 != npc.GetData("Embraced") and pc.IsPC() and LimitSet(4,5)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{295	}{[DREAM]Let's talk.									}{Let's talk.										}{	630	}{G.Story_State >= 65 and 0 == G.Heather_Dream and pc.IsPC() and LimitSet(5,5)		}{	}{	}{	}{	}{	}{	}{	}{	}
+{296	}{<Embrace> We need to talk about something important.					}{<Embrace> We need to talk about something important.			}{		}{1 == G.Lacroix_Embrace and 5 != npc.GetData("Type") and pc.IsPC()	}{__main__.ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),5)')	}{	}{	}{	}{	}{	}{	}{<Embrace> It is time	}
+{297	}{Time to pose my plaything.								}{Time to pose my plaything.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{298	}{Stop Posing. 										}{Stop Posing.										}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{299	}{Travel with me. <Must remove>							}{Travel with me. <Must remove>							}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{300	}{Travel with me. 									}{Travel with me.										}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{302	}{<More...>											}{<More...>											}{	330	}{ 										}{						}{}{}{}{}{}{}{}
+{303	}{[771->302]Master?									}{Master?											}{	#	}{ 										}{						}{}{}{}{}{}{}{}
+{304	}{<Embrace> We need to talk about something important.			}{<Embrace> We need to talk about something important.			}{		}{1 == G.Lacroix_Embrace and 5 != npc.GetData("Type") and pc.IsPC() and LimitSet(1,6)}{	}{__main__.ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),5)')	}{	}{	}{	}{	}{	}{<Embrace> It is time	}
+{305	}{[BIO] Tell me a little about yourself.						}{Tell me a little about yourself.							}{	510	}{G.Story_State >= 15 and 0 == G.Heather_Bio and pc.IsPC() and LimitSet(2,6)}{	}{	}{	}{	}{	}{	}{	}{	}
+{306	}{[LOAN]Looks like something is on your mind. 					}{Looks like something is on your mind. 						}{	420	}{G.Story_State >= 20 and 0 == G.Heather_Loan and 1 != npc.GetData("Embraced") and pc.IsPC() and LimitSet(3,6)}{	}{	}{	}{	}{	}{	}{	}{	}
+{307	}{[SCARED]What's wrong?									}{What's wrong?										}{	550	}{G.Story_State >= 35 and 0 == G.Heather_Scared and pc.IsPC() and LimitSet(4,6)}{	}{	}{	}{	}{	}{	}{	}{	}
+{308	}{[FIX]I've seen that look before.							}{I've seen that look before.								}{	590	}{G.Story_State >= 45 and 0 == G.Heather_Fix and 1 != npc.GetData("Embraced") and pc.IsPC() and LimitSet(5,6)}{	}{	}{	}{	}{	}{	}{	}{	}
+{309	}{[DREAM]Let's talk.									}{Let's talk.										}{	630	}{G.Story_State >= 65 and 0 == G.Heather_Dream and pc.IsPC() and LimitSet(6,6)}{	}{	}{	}{	}{	}{	}{	}{	}
+{310	}{Time to pose my plaything.								}{Time to pose my plaything.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{311	}{Stop Posing. 										}{Stop Posing.										}{		}{npc.IsPoseRunning() 							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{312	}{Travel with me. <Must remove>							}{Travel with me. <Must remove>							}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{313	}{Travel with me. 									}{Travel with me. 									}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{315	}{<More...>											}{<More...>											}{	330	}{ 										}{						}{}{}{}{}{}{}{}
+{316	}{[701->294]Master?									}{Master?											}{	#	}{ 										}{						}{}{}{}{}{}{}{}
+{317	}{<Embrace> We need to talk about something important.			}{<Embrace> We need to talk about something important.			}{		}{1 == G.Lacroix_Embrace and 5 != npc.GetData("Type") and pc.IsPC() and LimitSet(1,6)	}{__main__.ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),5)')	}{	}{	}{	}{	}{	}{	}{<Embrace> It is time	}
+{318	}{[BIO] Tell me a little about yourself.						}{Tell me a little about yourself.							}{	510	}{G.Story_State >= 15 and 0 == G.Heather_Bio and pc.IsPC() and LimitSet(2,6) }{	}{	}{	}{	}{	}{	}{	}{	}
+{319	}{[LOAN]Looks like something is on your mind. 					}{Looks like something is on your mind. 						}{	420	}{G.Story_State >= 20 and 0 == G.Heather_Loan and 1 != npc.GetData("Embraced") and pc.IsPC() and LimitSet(3,6)}{	}{	}{	}{	}{	}{	}{	}{	}
+{320	}{[SCARED]What's wrong?									}{What's wrong?										}{	550	}{G.Story_State >= 35 and 0 == G.Heather_Scared and pc.IsPC() and LimitSet(4,6)}{	}{	}{	}{	}{	}{	}{	}{	}
+{321	}{[FIX]I've seen that look before.							}{I've seen that look before.								}{	590	}{G.Story_State >= 45 and 0 == G.Heather_Fix and 1 != npc.GetData("Embraced") and pc.IsPC() and LimitSet(5,6)}{	}{	}{	}{	}{	}{	}{	}{	}
+{322	}{[DREAM]Let's talk.									}{Let's talk.										}{	630	}{G.Story_State >= 65 and 0 == G.Heather_Dream and pc.IsPC() and LimitSet(6,6)}{	}{	}{	}{	}{	}{	}{	}{	}
+{323	}{Time to pose my plaything.								}{Time to pose my plaything.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{324	}{Stop Posing. 										}{Stop Posing.										}{		}{npc.IsPoseRunning() 							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{325	}{Travel with me. <Must remove>							}{Travel with me. <Must remove>							}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{326	}{Travel with me. 									}{Travel with me. 										}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{328	}{<More...>											}{<More...>											}{	330	}{ 										}{						}{}{}{}{}{}{}{}
+{330	}{<More...>											}{<More...>											}{	#	}{npc.ResetCounter() 							}{						}{}{}{}{}{}{}{}
+{331	}{See if you can find a new outfit. I grow bored of this one.		}{See if you can find a new outfit. I grow bored of this one.		}{		}{npc.HasMoreSkins() and npc.CountLine()				}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{332	}{<More...>											}{<More...>											}{	332	}{npc.IsMaxCount() 							}{						}{}{}{}{}{}{}{}
+{333	}{Round up everyone and tell them to return to their original positions.}{Round up everyone and tell them to return to their original positions.}{		}{npc.CountLine()								}{havenutil.ResetParty()		}{}{}{}{}{}{}{}
+{334	}{<More...>											}{<More...>											}{	334	}{npc.IsMaxCount() 							}{						}{}{}{}{}{}{}{}
+{335	}{Feeding time. 										}{Feeding time.										}{		}{npc.IsHuman() and npc.CountLine()					}{havenutil.Feed( npc ) 		}{}{}{}{}{}{}{}
+{336	}{<More...>											}{<More...>											}{	336	}{npc.IsMaxCount() 							}{						}{}{}{}{}{}{}{}
+{337	}{Heather, forget me. Live your life. You can't stay with me any more.	}{Heather, forget me. Live your life. You can't stay with me any more.	}{	360	}{(not npc.IsEmbraced()) and npc.CountLine()			}{						}{}{}{}{}{}{}{}
+{338	}{<More...>											}{<More...>											}{	338	}{npc.IsMaxCount() 							}{						}{}{}{}{}{}{}{}
+{339	}{Nevermind.										}{Nevermind.											}{		}{										}{						}{}{}{}{}{}{}{}
+{357	}{												}{												}{#	}{										}{						}{}{}{}{}{}{}{}
+{358	}{												}{												}{	}{										}{						}{}{}{}{}{}{}{}
+{359	}{				[ #################  Heather : Leave   ################# ]																												}{}{}{}{}{}{}{}{}{}{}{}
+{360	}{[591 -> 360] But I-											}{But I-													}{#	}{npc.SetDisposition("Sad",1)		}{								}{}{}{}{}{}{}{}
+{361	}{Go. Never come back. Go back to your life.							}{Go. Never come back. Go back to your life.							}{390	}{Dominate 1				}{								}{}{}{}{}{}{}{}
+{362	}{I never existed. This never happened. All is a dream. Go outside and wake up.	}{I never existed. This never happened. All is a dream. Go outside and wake up.		}{395	}{Dementation 1				}{								}{}{}{}{}{}{}{I never existed. This never happened. All is dream. Go outside and wake up.	}
+{363	}{This is my final request of you. Do as I say. Live a long, happy life for me.	}{This is my final request of you. Do as I say. Live a long, happy life for me.	}{370	}{Humanity 5				}{								}{}{}{}{}{}{}{My words are your actions, remember? Live for those who can't, my pet.	}
+{364	}{I made a mistake. Now go. Never let me see you again.					}{I made a mistake. Now go. Never let me see you again.					}{370	}{Humanity -5				}{								}{}{}{}{}{}{}{I get so confused and then I make mistakes. Like you.	}
+{365	}{Go. Never come back. Go back to your life.							}{Go. Never come back. Go back to your life.							}{400	}{Thaumaturgy 1 & G.Patch_Plus == 1	}{								}{}{}{}{}{}{}{}
+{366	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{370	}{[601 -> 370]You don't mean it!									}{You don't mean it!											}{#	}{npc.SetDisposition("Sad",2)		}{								}{}{}{}{}{}{}{}
+{371	}{Go. Never come back. Go back to your life.							}{Go. Never come back. Go back to your life.							}{390	}{Dominate 1				}{								}{}{}{}{}{}{}{}
+{372	}{I never existed. This never happened. All is dream. Go outside and wake up.		}{I never existed. This never happened. All is dream. Go outside and wake up.		}{395	}{Dementation 1				}{								}{}{}{}{}{}{}{I never existed. This never happened. All is dream. Go outside and wake up.	}
+{373	}{This life is dangerous. You'll end up dead. I won't let that happen. Farewell.	}{This life is dangerous. You'll end up dead. I won't let that happen. Farewell.	}{380	}{Humanity 5				}{								}{}{}{}{}{}{}{The cords are severed by love. To bind them is to die.	}
+{374	}{Get it through your thick skull - I don't want you here! Get out! NOW!		}{Get it through your thick skull - I don't want you here! Get out! NOW!		}{380	}{Humanity -5				}{								}{}{}{}{}{}{}{Ghoul, fool! Go... GET OUT NOW!	}
+{375	}{Go. Never come back. Go back to your life.							}{Go. Never come back. Go back to your life.							}{390	}{Thaumaturgy 1 & G.Patch_Plus == 1	}{								}{}{}{}{}{}{}{}
+{376	}{														}{														}{	}{						}{								}{}{}{}{}{}{}{}
+{380	}{[611 -> 380]I'll leave... okay? But if you ever change your mind-			}{I'll leave... okay? But if you ever change your mind-					}{#	}{npc.SetDisposition("Sad",3)		}{								}{}{}{}{}{}{}{}
+{381	}{I won't.													}{I won't.													}{385	}{						}{								}{}{}{}{}{}{}{I cannot.	}
+{382	}{GET OUT!													}{GET OUT!													}{385	}{						}{								}{}{}{}{}{}{}{OUT!	}
+{383	}{-then I'll find you, I promise.									}{-then I'll find you, I promise.									}{385	}{Humanity 8				}{								}{}{}{}{}{}{}{-the way will lead me back to you.	}
+{384	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{385	}{[621 -> 385]Sure, alright. I'll umm... I'll go now. Well... good- goodbye.		}{Sure, alright. I'll umm... I'll go now. Well... good- goodbye.				}{#	}{npc.SetDisposition("Sad",3)		}{G.Heather_Gone=1; FindPlayer().HumanityAdd(1)	}{}{}{}{}{}{}{}
+{386	}{Goodbye Heather.											}{Goodbye Heather.											}{0	}{						}{companion.removeFromParty();__main__.ScheduleTask(2.5,"__main__.FindEntityByName('Heather').Kill()")}{}{}{}{}{}{}{}
+{387	}{														}{														}{	}{						}{								}{}{}{}{}{}{}{}
+{390	}{[301 -> 390] I... have to go. I have class tomorrow and... my grandmother must be worried about me.	}{I... have to go. I have class tomorrow and... my grandmother must be worried about me.	}{#	}{npc.SetDisposition("Confused",1)	}{G.Heather_Dominated=1;G.Heather_Gone=1;FindPlayer().HumanityAdd(1)	}{}{}{}{}{}{}{}
+{391	}{Goodbye Heather.											}{Goodbye Heather.											}{0	}{						}{companion.removeFromParty();__main__.ScheduleTask(2.5,"__main__.FindEntityByName('Heather').Kill()")}{}{}{}{}{}{}{}
+{392	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{395	}{[311 -> 395]Hmm. I have to wake up... get ready for school. What a weird dream this has been; what a strange person to dream about. Huh. Goodbye, master of my dreams.}{Hmm. I have to wake up... get ready for school. What a weird dream this has been; what a strange person to dream about. Huh. Goodbye, master of my dreams.}{#	}{npc.SetDisposition("Neutral",1)}{G.Heather_Dementated=1;G.Heather_Gone=1;FindPlayer().HumanityAdd(1)}{}{}{}{}{}{}{}
+{396	}{Farewell, my house pet.										}{Farewell, my house pet.										}{0	}{						}{companion.removeFromParty();__main__.ScheduleTask(2.5,"__main__.FindEntityByName('Heather').Kill()")}{}{}{}{}{}{}{Farewell, my house pet.	}
+{397	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{398	}{				[ #################  Heather : Blood   ################# ]																														}{}{}{}{}{}{}{}{}{}{}{}
+{399	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{400	}{...														}{...														}{#	}{npc.SetDisposition("Joy",1)		}{								}{}{}{}{}{}{}{}
+{401	}{(AUTO-LINK)												}{(AUTO-LINK)												}{407	}{0 == G.Heather_Blood			}{G.Heather_Blood=1					}{}{}{}{}{}{}{}
+{402	}{(AUTO-LINK)												}{(AUTO-LINK)												}{409	}{1 == G.Heather_Blood			}{G.Heather_Blood=2					}{}{}{}{}{}{}{}
+{403	}{(AUTO-LINK)												}{(AUTO-LINK)												}{411	}{2 == G.Heather_Blood			}{G.Heather_Blood=3					}{}{}{}{}{}{}{}
+{404	}{(AUTO-LINK)												}{(AUTO-LINK)												}{413	}{3 == G.Heather_Blood			}{G.Heather_Blood=4					}{}{}{}{}{}{}{}
+{405	}{(AUTO-LINK)												}{(AUTO-LINK)												}{415	}{4 == G.Heather_Blood			}{G.Heather_Blood=0					}{}{}{}{}{}{}{}
+{406	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{407	}{[651 -> 407] With pleasure.										}{With pleasure.												}{#	}{npc.SetDisposition("Joy",1)		}{								}{}{}{}{}{}{}{}
+{408	}{<Feed>													}{<Feed>													}{0	}{						}{companion.Feed( npc )					}{}{}{}{}{}{}{}
+{409	}{[461 -> 409] Please... take me inside of you.							}{Please... take me inside of you.									}{#	}{npc.SetDisposition("Flirt",1)	}{								}{}{}{}{}{}{}{}
+{410	}{<Feed>													}{<Feed>													}{0	}{						}{companion.Feed( npc )					}{}{}{}{}{}{}{}
+{411	}{[881 -> 411] You need my blood? Of course!							}{You need my blood? Of course!									}{#	}{npc.SetDisposition("Flirt",1)	}{								}{}{}{}{}{}{}{}
+{412	}{<Feed>													}{<Feed>													}{0	}{						}{companion.Feed( npc )					}{}{}{}{}{}{}{}
+{413	}{[651_n -> 413] Let me warm you inside.								}{Let me warm you inside.										}{#	}{npc.SetDisposition("Joy",1)		}{								}{}{}{}{}{}{}{}
+{414	}{<Feed>													}{<Feed>													}{0	}{						}{companion.Feed( npc )					}{}{}{}{}{}{}{}
+{415	}{[881_n -> 415] Open me up!										}{Open me up!												}{#	}{npc.SetDisposition("Flirt",1)	}{								}{}{}{}{}{}{}{}
+{416	}{<Feed>													}{<Feed>													}{0	}{						}{companion.Feed( npc )					}{}{}{}{}{}{}{}
+{417	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{418	}{				[ #################  Heather : Loan   ################# ]																														}{}{}{}{}{}{}{}{}{}{}{}
+{419	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{420	}{[521 -> 420]Uh. Finally, you're back! I thought maybe something happened to you! I shouldn't even think such a thing, I mean... if you disappeared - how could I go on? But, you're here now... oh, I'm so glad when you're near me.	}{	[Delivered nervously, frenetically, like a junkie]Uh. Finally, you're back! I thought maybe something happened to you! I shouldn't even think such a thing, I mean... if you disappeared - how could I go on? But, you're here now... oh, I'm so glad when you're near me.	}{	#	}{	npc.SetDisposition("Sad",2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{421	}{Calm down. Here, drink my blood, it will make you feel better. 				}{Calm down. Here, drink my blood, it will make you feel better.				}{440	}{Humanity 6				}{pc.Bloodloss(1)						}{}{}{}{}{}{}{Calm down, my pet. Take me internally. I am forever yours.	}
+{422	}{Looks like a certain ghoul needs her blood fix.						}{Looks like a certain ghoul needs her blood fix.						}{440	}{						}{								}{}{}{}{}{}{}{Heh heh... withdrawal sucks, doesn't it? Addictive stuff, blood.	}
+{423	}{You already burn that blood I gave you?								}{You already burn that blood I gave you?								}{440	}{not IsClan(pc,"Malkavian")		}{								}{}{}{}{}{}{}{}
+{424	}{														}{														}{	}{						}{								}{}{}{}{}{}{}{}
+{430	}{[531 -> 430]Ohhh... ahh... this feeling. It's... it's love. All I can feel is... love for you.}{Ohhh... ahh... this feeling. It's... it's love. All I can feel is... love for you.}{#	}{npc.SetDisposition("Flirt",1)}{							}{}{}{}{}{}{}{}
+{431	}{And I for you, Heather.										}{And I for you, Heather.										}{470	}{Humanity 6				}{								}{}{}{}{}{}{}{My way of showing mine for you.	}
+{432	}{How amusing. I'd rather you showed your love with gifts.					}{How amusing. I'd rather you showed your love with gifts.					}{470	}{						}{								}{}{}{}{}{}{}{Love? I would prefer prizes.	}
+{433	}{And if you want to get more, you better keep me entertained.				}{And if you want to get more, you better keep me entertained.				}{470	}{						}{								}{}{}{}{}{}{}{Entertain me and maybe you'll feel it again.	}
+{434	}{														}{														}{	}{						}{								}{}{}{}{}{}{}{}
+{440	}{[541 -> 440]Blood? What do you mean?								}{Blood? What do you mean?										}{#	}{npc.SetDisposition("Confused",1)	}{								}{}{}{}{}{}{}{}
+{441	}{I fed you my blood that night... that's why you feel so "alive".			}{I fed you my blood that night... that's why you feel so "alive".			}{450	}{						}{								}{}{}{}{}{}{}{You already know the answer.	}
+{442	}{If you want to continue to stay with me, you'll ask me for my blood.			}{If you want to continue to stay with me, you'll ask me for my blood.			}{450	}{not IsClan(pc,"Malkavian")		}{								}{}{}{}{}{}{}{}
+{443	}{														}{														}{	}{						}{								}{}{}{}{}{}{}{}
+{450	}{[551 -> 450]I didn't mean anything by it. Please, give me your blood.			}{I didn't mean anything by it. Please, give me your blood.					}{#	}{npc.SetDisposition("Sad",1)		}{								}{}{}{}{}{}{}{Let your wrist cry your love.	}
+{451	}{Of course. 												}{Of course.												}{430	}{Humanity 6				}{pc.Bloodloss(1)						}{}{}{}{}{}{}{They are weeping.	}
+{452	}{Here... don't waste it.										}{Here... don't waste it.										}{430	}{						}{pc.Bloodloss(1)						}{}{}{}{}{}{}{They are weeping.	}
+{453	}{I don't know. Maybe I should find someone who can appreciate it.			}{I don't know. Maybe I should find someone who can appreciate it.			}{460	}{						}{								}{}{}{}{}{}{}{Maybe they should cry for someone else.	}
+{453	}{														}{														}{	}{						}{								}{}{}{}{}{}{}{}
+{460	}{[561 -> 460]NO! I need it! I need you! Please... give it to me - I'd do anything for you, anything! Just don't leave me.}{NO! I need it! I need you! Please... give it to me - I'd do anything for you, anything! Just don't leave me.	}{#	}{npc.SetDisposition("Sad",2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{461	}{That's what I like to hear.										}{That's what I like to hear.										}{430	}{						}{pc.Bloodloss(1)						}{}{}{}{}{}{}{Those are the magic words.	}
+{462	}{Fine, just stop whining.										}{Fine, just stop whining.										}{430	}{						}{pc.Bloodloss(1)						}{}{}{}{}{}{}{Hmm... fine.	}
+{463	}{Heh heh... pathetic. Junkie! Alright... I'll give you some blood, ghoul.		}{Heh heh... pathetic. Junkie! Alright... I'll give you some blood, ghoul.		}{430	}{						}{pc.Bloodloss(1)						}{}{}{}{}{}{}{Here you wretch, gobble it down.	}
+{464	}{														}{														}{	}{						}{								}{}{}{}{}{}{}{}
+{470	}{[571 -> 470]I almost forgot, I got a college loan check today. Here, I want you to take some of the money.	}{	I almost forgot, I got a college loan check today. Here, I want you to take some of the money.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	G.Heather_Loan = 1; G.Heather_Feed = 0; pc.MoneyAdd(500)	}{	}{	}{	}{	}{	}{	}{	}
+{471	}{Your college loan money? I can't take this. You can't drop out.				}{Your college loan money? I can't take this. You can't drop out.				}{480	}{						}{								}{}{}{}{}{}{}{I am a poor investment. You should invest this in a future.	}
+{472	}{Thanks... I could use some new clothes.								}{Thanks... I could use some new clothes.								}{490	}{						}{								}{}{}{}{}{}{}{Ooh... mad money.	}
+{473	}{Where was this money earlier?! Worthless bitch!						}{Where was this money earlier?! Worthless bitch!						}{500	}{						}{								}{}{}{}{}{}{}{I've seen more green in the color purple. YOU ARE JUST AS WORTHLESS!	}
+{474	}{														}{														}{	}{						}{								}{}{}{}{}{}{}{}
+{480	}{[581 -> 480] I'd rather you kept it - I think I'm going to drop outta school. You know, so I can watch over you during the day or run errands for you. It's the least I can do to earn my keep.	}{	I'd rather you kept it - I think I'm going to drop outta school. You know, so I can watch over you during the day or run errands for you. It's the least I can do to earn my keep.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{481	}{I will not take your money. We are done with this conversation.				}{ I will not take your money. We are done with this conversation.			}{0	}{						}{pc.MoneyRemove(500)					}{}{}{}{}{}{}{Thanks for the present, but keep your future. Speak no more of this. }
+{482	}{Heather, forget me... live your life. You can't stay with me any more.		}{ Heather, forget me... live your life. You can't stay with me any more.		}{360	}{						}{pc.MoneyRemove(500)					}{}{}{}{}{}{}{My pet. It is time to set you free.	}
+{483	}{When you put it that way - thanks, I could use a few extra bucks.			}{ When you put it that way - thanks, I could use a few extra bucks.			}{490	}{						}{								}{}{}{}{}{}{}{Good argument. I'll buy something red, to remind me of your hair.	}
+{484	}{It's a start.												}{	It's a start.											}{490	}{						}{								}{}{}{}{}{}{}{Your keep is to keep it coming.	}
+{485	}{														}{														}{	}{						}{								}{}{}{}{}{}{}{}
+{490	}{[631 -> 490] I'll try to get more, you know, when I can.					}{I'll try to get more, you know, when I can.							}{#	}{npc.SetDisposition("Neutral",1)	}{								}{}{}{}{}{}{}{}
+{491	}{For now, share your blood with me.								}{For now, share your blood with me.								}{400	}{companion.FeedTest(pc,npc)==1	}{								}{}{}{}{}{}{}{I also like the color red.	}
+{492	}{Good. 													}{Good. 													}{0	}{						}{								}{}{}{}{}{}{}{}
+{494	}{														}{														}{	}{						}{								}{}{}{}{}{}{}{}
+{500	}{[641 -> 500]I'm sorry, I'll try harder next time.						}{[discouraged]I'm sorry, I'll try harder next time.						}{#	}{npc.SetDisposition("Sad",1)		}{								}{}{}{}{}{}{}{}
+{501	}{You can still be of some use. Give your blood to me.					}{You can still be of some use. Give your blood to me.					}{400	}{companion.FeedTest(pc,npc)==1	}{								}{}{}{}{}{}{}{At least you're still full of blood.	}
+{502	}{About your appearance... change it.								}{About your appearance... change it.								}{0	}{npc.HasMoreSkins()			}{npc.NextSkin()						}{}{}{}{}{}{}{Your skin... change it.	}
+{503	}{Good. 													}{Good. 													}{0	}{						}{								}{}{}{}{}{}{}{More when I return, or my love dwindles.	}
+{504	}{														}{														}{	}{						}{								}{}{}{}{}{}{}{}
+{508	}{				[ #################  Heather : Bio   ################# ]																														}{}{}{}{}{}{}{}{}{}{}{}
+{509	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{510	}{[471 -> 510] Me? I'm not so special, you know. I go to college, I'm majoring in fashion design... I think I'm pretty creative. I just started school - a year late, because my... my parents died - um, car crash. I didn't really have anyone special in my life... until you came along.	}{	Me? I'm not so special, you know. I go to college, I'm majoring in fashion design... I think I'm pretty creative. I just started school - a year late, because my... my parents died - um, car crash. I didn't really have anyone special in my life... until you came along.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	G.Heather_Bio = 1	}{	}{	}{	}{	}{	}{	}{	It's all a blur of nonsense. I'd rather forget the past, the ignorance, and just follow your trail of headcrumbs into wonderland.	}
+{511	}{How sad... Don't worry, I'm here for you, dearest Heather. 				}{How sad... Don't worry, I'm here for you, dearest Heather.				}{520	}{						}{								}{}{}{}{}{}{}{Wherever the rabbit hole leads, you'll be right beside me.	}
+{512	}{That life's over. Now you belong to me. Always remember this.				}{That life's over. Now you belong to me. Always remember this.				}{530	}{						}{								}{}{}{}{}{}{}{That's right, because you belong to me. Remember this.	}
+{513	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{520	}{[481 -> 520]Heh....											}{[smiles]Heh....												}{#	}{npc.SetDisposition("Joy",1)		}{								}{}{}{}{}{}{}{}
+{521	}{I feel famished. Share your blood with me.							}{I feel famished. Share your blood with me.							}{400	}{companion.FeedTest(pc,npc)==1	}{								}{}{}{}{}{}{}{Bleed for me.	}
+{522	}{You have any money on you?										}{You have any money on you?										}{540	}{G.Heather_Wallet == 0			}{								}{}{}{}{}{}{}{Open your wallet and feed me its guts.	}
+{523	}{About your appearance... change it.								}{About your appearance... change it.								}{0	}{npc.HasMoreSkins()			}{npc.NextSkin()						}{}{}{}{}{}{}{Your skin... change it.	}
+{524	}{Wait here. Don't worry, I'll be back.								}{Wait here. Don't worry, I'll be back.								}{0	}{						}{								}{}{}{}{}{}{}{Keep smiling.	}
+{525	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{530	}{[491 -> 530]I understand.										}{I understand.												}{#	}{npc.SetDisposition("Neutral",1)	}{								}{}{}{}{}{}{}{}
+{531	}{I feel famished. Share your blood with me.							}{I feel famished. Share your blood with me.							}{400	}{companion.FeedTest(pc,npc)==1	}{								}{}{}{}{}{}{}{Bleed for me.	}
+{532	}{You have any money on you?										}{You have any money on you?										}{540	}{G.Heather_Wallet == 0			}{								}{}{}{}{}{}{}{Open your wallet and feed me its guts.	}
+{533	}{About your appearance... change it.								}{About your appearance... change it.								}{0	}{npc.HasMoreSkins()			}{npc.NextSkin()						}{}{}{}{}{}{}{Your skin... change it.	}
+{534	}{Wait here. Don't worry, I'll be back.								}{Wait here. Don't worry, I'll be back.								}{0	}{						}{								}{}{}{}{}{}{}{Keep understanding.	}
+{535	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{540	}{[451 -> 540]Umm... here, here, that's all I've got.						}{Umm... here, here, that's all I've got.								}{#	}{npc.SetDisposition("Neutral",1)	}{G.Heather_Wallet = 1; pc.MoneyAdd( 20 )		}{}{}{}{}{}{}{}
+{541	}{I feel famished. Share your blood with me.							}{I feel famished. Share your blood with me.							}{400	}{companion.FeedTest(pc,npc)==1	}{								}{}{}{}{}{}{}{Bleed for me.	}
+{542	}{Tell me a little about yourself.									}{Tell me a little about yourself.									}{510	}{G.Heather_Bio == 0			}{								}{}{}{}{}{}{}{Tell me a story about yourself.	}
+{543	}{That'll do for now. Try and find some more, would you? See you later.			}{That'll do for now. Try and find some more, would you? See you later.			}{0	}{						}{								}{}{}{}{}{}{}{In time, I expect you to deliver their relatives to me.}
+{544	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{548	}{				[ #################  Heather : Scared   ################# ]																														}{}{}{}{}{}{}{}{}{}{}{}
+{549	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{550	}{[731 -> 550]Oh, it's you. Earlier tonight, you weren't following me were you? I had this feeling like I was being watched. Maybe it's nothing but... I'm still a little shook up.	}{	[Scared, relieved]Oh, it's you. Earlier tonight, you weren't following me were you? I had this feeling like I was being watched. Maybe it's nothing but... I'm still a little shook up.	}{	#	}{	npc.SetDisposition("Sad",1)	}{	G.Heather_Scared = 1; G.Heather_Feed = 0	}{	}{	}{	}{	}{	}{	}{	[Frightened, breathing heavily]I'm being watched! I know it. Something followed me - they could be watching me right now! Make them stop, make them stop! Get their eyes off me!	}
+{551	}{It wasn't me. It could be one of a number of people who want me dead -er.		}{It wasn't me. It could be one of a number of people who want me dead -er.		}{560	}{						}{								}{}{}{}{}{}{}{I do not sense any eyes here now.	}
+{552	}{Somebody you don't know approaches you, shoot them, in the head.			}{Somebody you don't know approaches you, shoot them, in the head.			}{570	}{						}{								}{}{}{}{}{}{}{If you see the eyes again... blind them.	}
+{553	}{It wasn't me. It may be safer if you travel with me.  <Must remove>			}{It wasn't me. It may be safer if you travel with me.  <Must remove>			}{8000}{companion.hasMaxHenchmen()		}{companion.resetChoiceData()				}{}{}{}{}{}{}{}
+{554	}{It wasn't me. It may be safer if you travel with me. 					}{It wasn't me. It may be safer if you travel with me. 					}{	}{not companion.hasMaxHenchmen()	}{companion.makeHenchman()				}{}{}{}{}{}{}{}
+{555	}{Your life might be in danger. So, Heather, I have to ask you to leave my service.	}{Your life might be in danger. So, Heather, I have to ask you to leave my service.	}{360	}{1 != npc.GetData("Embraced")	}{								}{	}{	}{	}{	}{	}{	}{	No... this is the end... this is the end if you don't escape.	}
+{556	}{														}{														}{	}{	}{	}{	}{	}{	}{	}{								}{}{}
+{560	}{[741 -> 560]Want you dead? Why? How could anyone think of harming someone so... extraordinary.	}{	Want you dead? Why? How could anyone think of harming someone so... extraordinary.	}{#}{	npc.SetDisposition("Confused",1)}{				}{}{}{}{}{}{}{Are the eyes really gone? Will it really be okay?	}
+{561	}{Jealousy, probably. You just be careful, okay, my pet?					}{Jealousy, probably. You just be careful, okay, my pet?					}{580	}{						}{								}{}{}{}{}{}{}{The eyes are looking for me, not you.	}
+{562	}{Somebody you don't know approaches you, shoot them, in the head.			}{Somebody you don't know approaches you, shoot them, in the head.			}{570	}{						}{								}{}{}{}{}{}{}{If you see the eyes again... blind them.	}
+{563	}{Heather, promise me to stay indoors until this is over!					}{Heather, promise me to stay indoors until this is over!					}{580	}{1 != npc.GetData("Embraced")	}{G.Heather_Indoors = 1					}{}{}{}{}{}{}{Stay in the golden cage of the sky until I set you free.	}
+{564	}{Your life might be in danger. So, Heather, I have to ask you to leave my service.	}{Your life might be in danger. So, Heather, I have to ask you to leave my service.	}{360	}{1 != npc.GetData("Embraced")	}{								}{}{}{}{}{}{}{No... this is the end... this is the end if you don't escape.	}
+{565	}{														}{														}{	}{	}{	}{	}{	}{	}{	}{								}{}{}
+{570	}{[751 -> 570]If they're after you... yes, I'll do it. [To self]I just need to learn how to use a gun first.	}{	If they're after you... yes, I'll do it. [To self]I just need to learn how to use a gun first.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{}{}{}{}{}{}{}{	Yes. If I see the eyes... I'll blind them!	}
+{571	}{Do that.													}{Do that.													}{580	}{						}{								}{}{}{}{}{}{}{Do so.	}
+{572	}{Your life might be in danger. So, Heather, I have to ask you to leave my service.	}{Your life might be in danger. So, Heather, I have to ask you to leave my service.	}{360	}{1 != npc.GetData("Embraced")	}{								}{}{}{}{}{}{}{No... this is the end... this is the end if you don't escape.	}
+{573	}{														}{														}{	}{						}{								}{}{}{}{}{}{}{}
+{580	}{[761 -> 580]I will.											}{I will.													}{#	}{npc.SetDisposition("Neutral",1)	}{								}{}{}{}{}{}{}{Do I still distract you?	}
+{581	}{Good. Now, come here, I need your blood.							}{Good. Now, come here, I need your blood.							}{400	}{companion.FeedTest(pc,npc)==1	}{								}{}{}{}{}{}{}{Just like the stars. I think tonight is a blood moon.	}
+{582	}{About your appearance... change it.								}{About your appearance... change it.								}{0	}{npc.HasMoreSkins()			}{npc.NextSkin()						}{}{}{}{}{}{}{Your skin... change it.	}
+{584	}{Don't hesitate.												}{Don't hesitate.												}{0	}{						}{								}{}{}{}{}{}{}{Of course...	}
+{585	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{588	}{				[ #################  Heather : Fix   ################# ]																														}{}{}{}{}{}{}{}{}{}{}{}
+{589	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{590	}{[781 -> 590]I'm so glad you're back! I've been waiting forever. I've been kind of nervous - I can't feel you inside my veins any more. I just need a little more - please, Master? - just a few drops.	}{	[Shaky, needs a fix]I'm so glad you're back! I've been waiting forever. I've been kind of nervous - I can't feel you inside my veins any more. I just need a little more - please, Master? - just a few drops.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	G.Heather_Fix = 1	}{	}{	}{	}{	}{	}{	}{	My veins are so so dry... I'm a desert rose. I want your storm... I need your rain - just a few drops. Make me blossom.	}
+{591	}{Yes, of course. Come here, my pet.								}{Yes, of course. Come here, my pet.								}{620	}{						}{pc.Bloodloss(1)						}{}{}{}{}{}{}{Do I hear thunder, my rose?	}
+{592	}{I don't know. What have you done for me lately?						}{I don't know. What have you done for me lately?						}{600	}{						}{								}{}{}{}{}{}{}{You don't smell so sweet lately, rose.	}
+{593	}{Heather, it's getting dangerous. For your sake, I must ask you to leave me.		}{Heather, it's getting dangerous. For your sake, I must ask you to leave me.		}{360	}{						}{								}{}{}{}{}{}{}{No... this is the end... this is the end if you don't escape.	}
+{594	}{														}{														}{	}{						}{								}{}{}{}{}{}{}{}
+{600	}{[791 -> 600]Umm... um... what do you want me to do? I've given you everything. I've been good to you. If I failed you, just tell me what to do and I'll do it. Don't you understand how much I need you... how much I love you?	}{	Umm... um... what do you want me to do? I've given you everything. I've been good to you. If I failed you, just tell me what to do and I'll do it. Don't you understand how much I need you... how much I love you?	}{	#	}{	npc.SetDisposition("Sad",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{601	}{I guess you've earned it. Come here.								}{I guess you've earned it. Come here.								}{620	}{						}{pc.Bloodloss(1)						}{}{}{}{}{}{}{A HA HA AH HA HA... a joke. Blossom.	}
+{602	}{A little more groveling might persuade me.							}{A little more groveling might persuade me.							}{610	}{						}{								}{}{}{}{}{}{}{This is MY blood, not wine.	}
+{603	}{Actually, Heather, there will be no more blood for now on. I want you to leave.	}{Actually, Heather, there will be no more blood for now on. I want you to leave.	}{360	}{						}{								}{}{}{}{}{}{}{Dark clouds are looming, but they bring only destruction. You must go.	}
+{604	}{														}{														}{	}{						}{								}{}{}{}{}{}{}{}
+{610	}{[801 -> 610]Please... please give me your blood, my master, my love, my only reason for living. I'll do anything you ask. I'd die for you, my glory, my god!		}{Please... please give me your blood, my master, my love, my only reason for living. I'll do anything you ask. I'd die for you, my glory, my god!	}{	#	}{	npc.SetDisposition("Sad",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{611	}{That will do nicely. Come here, ghoul.								}{That will do nicely. Come here, ghoul.								}{620	}{						}{pc.Bloodloss(1)						}{}{}{}{}{}{}{Ah, now you are worthy.	}
+{612	}{Ha, ha... look at you. Yes, okay, here's your blood, you pitiful wretch.		}{Ha, ha... look at you. Yes, okay, here's your blood, you pitiful wretch.		}{620	}{						}{pc.Bloodloss(1)						}{}{}{}{}{}{}{Pitiful. Disgusting. Fragile. Mortal. Take it, wretch.	}
+{613	}{Actually, Heather, there will be no more blood for now on. I want you to leave.	}{Actually, Heather, there will be no more blood for now on. I want you to leave.	}{360	}{						}{								}{}{}{}{}{}{}{Dark clouds are looming, but they bring only destruction. You must go.	}
+{614	}{														}{														}{	}{						}{								}{}{}{}{}{}{}{}
+{620	}{[811 -> 620]Oh, thank you... Amazing. I feel so much better... like I'm the most important person in the world - next to you, of course.	}{Oh, thank you... Amazing. I feel so much better... like I'm the most important person in the world - next to you, of course.	}{#	}{npc.SetDisposition("Flirt",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{621	}{You’re welcome.												}{You’re welcome.												}{0	}{						}{								}{}{}{}{}{}{}{Keep smiling.	}
+{622	}{You are so cute when you grovel like that. 							}{You are so cute when you grovel like that.							}{0	}{						}{								}{}{}{}{}{}{}{Ah, you are precious when you speak such nonsense. }
+{623	}{Whatever you say, ghoul. Don't burn that blood, last you get for a while.		}{Whatever you say, ghoul. Don't burn that blood, last you get for a while.		}{0	}{						}{								}{}{}{}{}{}{}{Nothing is as important as me. Savor my blood, like it was your last.	}
+{624	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{628	}{				[ #################  Heather : Dream   ################# ]																														}{}{}{}{}{}{}{}{}{}{}{}
+{629	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{630	}{[821 -> 630]I had a dream this afternoon - you were in it. You were stroking my hair, telling me you loved me, and then in the next instant you were gone, and I was alone, and I cried out for you but you wouldn't answer. You're here now - I've never felt more relieved.}{I had a dream this afternoon - you were in it. You were stroking my hair, telling me you loved me, and then in the next instant you were gone, and I was alone, and I cried out for you but you wouldn't answer. You're here now - I've never felt more relieved.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	G.Heather_Dream = 1	}{	}{	}{	}{	}{	}{	}{	I had a dream this afternoon as I lay napping near where you sleep. I was running behind you in the moonlight when I tripped and fell. I looked up and you were gone, and then I noticed what I tripped on... my corpse.	}
+{631	}{I would never leave you.										}{I would never leave you.										}{640	}{Humanity 6				}{								}{}{}{}{}{}{}{As long as you can see this face, you are safe and loved.	}
+{632	}{Dream on, I'd never tell you I loved you.							}{Dream on, I'd never tell you I loved you.							}{650	}{						}{								}{}{}{}{}{}{}{I run alone. You are merely meat I keep to remind me how pathetic I once was.	}
+{633	}{I'm afraid, Heather, that... we really do have to part. I can't ruin your life any more.}{I'm afraid, Heather, that... we really do have to part. I can't ruin your life any more.}{360	}{1 != npc.GetData("Embraced") }{								}{}{}{}{}{}{}{Then you know you must go.	}
+{634	}{														}{														}{	}{						}{								}{}{}{}{}{}{}{}
+{640	}{[831 -> 640]Huh... you're so kind to me.							}{Huh... you're so kind to me.									}{#	}{npc.SetDisposition("Joy",1)		}{								}{}{}{}{}{}{}{}
+{641	}{I would never forgive myself if anything happened to you.					}{I would never forgive myself if anything happened to you.					}{660	}{G.Heather_Indoors == 0		}{								}{}{}{}{}{}{}{I can be nothing but, my love.	}
+{642	}{I would never forgive myself if anything happened to you.					}{I would never forgive myself if anything happened to you.					}{0	}{G.Heather_Indoors == 1		}{								}{}{}{}{}{}{}{I can be nothing but, my love.	}
+{643	}{Yes, yes I am.												}{Yes, yes I am.												}{660	}{G.Heather_Indoors == 0		}{								}{}{}{}{}{}{}{Yes, at such a cost.	}
+{644	}{Yes, and I could use some...									}{Yes, and I could use some...									}{400	}{1 != npc.GetData("Embraced") and G.Heather_Indoors == 1	}{								}{}{}{}{}{}{}{Something else.	}
+{645	}{														}{														}{	}{						}{								}{}{}{}{}{}{}{}
+{650	}{[841 -> 650]Despite your feelings for me, I am eternally yours.				}{Despite your feelings for me, I am eternally yours.						}{#	}{npc.SetDisposition("Sad",2)		}{								}{}{}{}{}{}{}{}
+{651	}{Yes, yes, I know.											}{Yes, yes, I know.											}{660	}{G.Heather_Indoors == 0		}{								}{}{}{}{}{}{}{}
+{652	}{Nah. You're mine until you croak and I have to get a new servant.			}{Nah. You're mine until you croak and I have to get a new servant.		}{660	}{G.Heather_Indoors == 0		}{								}{}{}{}{}{}{}{}
+{653	}{Yes, and I could use some...									}{Yes, and I could use some...									}{400	}{1 != npc.GetData("Embraced") and G.Heather_Indoors == 1	}{								}{}{}{}{}{}{}{Something else.	}
+{654	}{														}{														}{	}{						}{								}{}{}{}{}{}{}{}
+{660	}{[851 -> 660]I... I got something for you. Here, it should fit you. I hope you like it... I thought it looked like something you'd wear.	}{I... I got something for you. Here, it should fit you. I hope you like it... I thought it looked like something you'd wear.	}{#	}{	npc.SetDisposition("Flirt",1)	}{	G.Heather_Armor = 1; pc.GiveItem("item_a_body_armor")	}{	}{	}{	}{	}{	}{	}{	I brought you a new skin. I think it suits you.	}
+{661	}{It's wonderful. Thank you, Heather. I appreciate this.					}{It's wonderful. Thank you, Heather. I appreciate this.					}{670	}{	Humanity 6				}{								}{}{}{}{}{}{}{You know me too well, my sweet one.	}
+{662	}{I knew I kept you around for some reason.							}{I knew I kept you around for some reason.							}{670	}{						}{								}{}{}{}{}{}{}{Now you're beginning to know your place.	}
+{663	}{Whatever. Is that it?											}{Whatever. Is that it?											}{680	}{						}{								}{}{}{}{}{}{}{That all?	}
+{664	}{														}{														}{	}{						}{								}{}{}{}{}{}{}{}
+{670	}{[861 -> 670]Think of me when you wear it.							}{Think of me when you wear it.									}{#	}{npc.SetDisposition("Flirt",1)	}{								}{}{}{}{}{}{}{}
+{671	}{I will. I'm feeling thirsty...									}{I will. I'm feeling thirsty...									}{400	}{companion.FeedTest(pc,npc)==1	}{								}{}{}{}{}{}{}{I always think of you. I'm feeling cold. Warm me inside? }
+{672	}{Sure. Thanks for the threads.									}{Sure. Thanks for the threads.									}{0	}{						}{								}{}{}{}{}{}{}{I will show the streets my new skin. Thank you, my pet.	}
+{673	}{I'm out of here. Later, Heather.									}{I'm out of here. Later, Heather.									}{0	}{						}{								}{}{}{}{}{}{}{Of course. Let's go. }
+{674	}{														}{														}{	}{						}{								}{}{}{}{}{}{}{}
+{680	}{[871 -> 680]Yes.											}{Yes.													}{#	}{npc.SetDisposition("Sad",2)		}{								}{}{}{}{}{}{}{}
+{681	}{I'm feeling thirsty...										}{I'm feeling thirsty...										}{400	}{companion.FeedTest(pc,npc)==1	}{								}{}{}{}{}{}{}{I'm feeling cold. Warm me inside? }
+{683	}{It'll do. 												}{It'll do. 												}{0	}{						}{								}{}{}{}{}{}{}{It'll do	}
+{684	}{														}{														}{	}{						}{								}{}{}{}{}{}{}{}
+{687	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{688	}{				[ #################  Yukie : Pre-Embrace  ################# ]																														}{}{}{}{}{}{}{}{}{}{}{}
+{689	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{690	}{[241->690]Nani (What)?										}{Nani (What)?												}{#	}{npc.ResetCounter() 							}{						}{}{}{}{}{}{}{}
+{691	}{[BIO]Tell me about your sensei.									}{Tell me about your sensei.										}{730	}{G.Story_State >= 45 and 0 == G.Yukie_Bio and pc.IsPC() and LimitSet(1,5) and npc.CountLine() }{	}{	}{	}{	}{	}{	}{	}{	}
+{692	}{[PLANS]Now that you have your revenge, what will you do?					}{Now that you have your revenge, what will you do? 						}{760	}{G.Story_State >= 50 and 0 == G.Yukie_Plans and pc.IsPC() and LimitSet(2,5) and npc.CountLine()}{	}{	}{	}{	}{	}{	}{	}{	}
+{693	}{[TRUST]Why did Hengeyokai kill your previous master? 					}{Why did Hengeyokai kill your previous master?							}{810	}{G.Story_State >= 55 and 0 == G.Yukie_Trust and pc.IsPC() and LimitSet(3,5) and npc.CountLine()}{	}{	}{	}{	}{	}{	}{	}{	}
+{694	}{[OFFER]Have you given any more thought to my offer to stay?				}{Have you given any more thought to my offer to stay?					}{860	}{G.Story_State >= 60 and 0 == G.Yukie_Offer and pc.IsPC() and LimitSet(4,5) and npc.CountLine()}{	}{	}{	}{	}{	}{	}{	}{	}
+{695	}{<Embrace>I have something important I would like to discuss with you.			}{<Embrace> I have something important I would like to discuss with you.		}{	}{1 == G.Lacroix_Embrace and 5 != npc.GetData("Type") and pc.IsPC() and LimitSet(5,5) and npc.CountLine()	}{ __main__.ScheduleTask(0.2,'companion.addToParty(FindEntityByName("' + G.LDName + '"),5)')	}{	}{	}{	}{	}{	}{	}{<Embrace> We must talk }
+{696	}{Travel with me. <Must remove>									}{Travel with me. <Must remove>									}{8000}{companion.hasMaxHenchmen()and npc.CountLine()			}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{697	}{Travel with me.												}{Travel with me. 											}{	}{not companion.hasMaxHenchmen() and npc.CountLine()		}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{698	}{See if you can find a new outfit. I grow bored of this one.				}{See if you can find a new outfit. I grow bored of this one.				}{	}{npc.HasMoreSkins() and npc.CountLine()				}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{699	}{<More...>													}{<More...>													}{699	}{npc.IsMaxCount() 							}{						}{}{}{}{}{}{}{}
+{700	}{Time to pose you.											}{Time to pose you.											}{710	}{										}{ 						}{}{}{}{}{}{}{}
+{701	}{<More...>													}{<More...>													}{701	}{npc.IsMaxCount() 							}{						}{}{}{}{}{}{}{}
+{702	}{Round up everyone and tell them to return to their original positions. 		}{Round up everyone and tell them to return to their original positions.		}{	}{npc.CountLine()								}{havenutil.ResetParty()		}{}{}{}{}{}{}{}
+{703	}{<More...>													}{<More...>													}{703	}{npc.IsMaxCount() 							}{						}{}{}{}{}{}{}{}
+{704	}{I must ask you for blood. I can not continue otherwise. 					}{I must ask you for blood. I can not continue otherwise.					}{	}{npc.IsHuman() and npc.CountLine()					}{havenutil.Feed( npc ) 		}{}{}{}{}{}{}{}
+{705	}{<More...>													}{<More...>													}{705	}{npc.IsMaxCount() 							}{						}{}{}{}{}{}{}{}
+{706	}{You have repaid your debt to me. I release you from my service.				}{You have repaid your debt to me. I release you from my service.				}{	}{(not npc.IsEmbraced()) and npc.CountLine()			}{companion.removeFromParty()		}{}{}{}{}{}{}{}
+{707	}{<More...>													}{<More...>													}{707	}{npc.IsMaxCount() 							}{						}{}{}{}{}{}{}{}
+{708	}{Nevermind.												}{Nevermind.												}{	}{										}{						}{}{}{}{}{}{}{}
+{709	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{710	}{As a hunter, Yukie refuses to be posed like furniture, but she will move if you wish.	}{As a hunter, Yukie refuses to be posed like furniture, but she will move if you wish.	}{#	}{								}{						}{}{}{}{}{}{}{}
+{711	}{Fine, let us move you somewhere else.								}{Fine, let us move you somewhere else.								}{	}{										}{havenutil.StartPose()			}{}{}{}{}{}{}{}
+{712	}{Forget it. 												}{Forget it. 												}{	}{ 										}{						}{}{}{}{}{}{}{}
+{713	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{721	}{														}{														}{	}{						}{								}{}{}{}{}{}{}{}
+{727	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{728	}{				[ #################  Yukie : BIO   ################# ]																														}{}{}{}{}{}{}{}{}{}{}{}
+{729	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{730	}{My sensei killed demon that killed my family.							}{My sensei killed demon that killed my family.							}{#	}{npc.SetDisposition("Neutral",1)	}{								}{}{}{}{}{}{}{}
+{731	}{A demon killed your family? So your sensei was like a father to you?			}{A demon killed your family? So your sensei was like a father to you?			}{740	}{						}{								}{}{}{}{}{}{}{}
+{732	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{740	}{Yes, sensei gave me... family.									}{Yes, sensei gave me... family.									}{#	}{						}{								}{}{}{}{}{}{}{}
+{741	}{Sounds like a great person. I am sure your sensei would be proud of you.		}{Sounds like a great person. I am sure your sensei would be proud of you.		}{750	}{						}{								}{}{}{}{}{}{}{}
+{742	}{We have to work on your English. Oh well, at least you're good in combat.		}{We have to work on your English. Oh well, at least you're good in combat.		}{750	}{						}{								}{}{}{}{}{}{}{}
+{743	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{750	}{Domo arigato <Thank You>...										}{Domo arigato <Thank You>...										}{#	}{						}{G.Yukie_Bio=1						}{}{}{}{}{}{}{}
+{751	}{<End>													}{<End>													}{	}{						}{								}{}{}{}{}{}{}{}
+{752	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{757	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{758	}{				[ #################  Yukie : PLANS   ################# ]																														}{}{}{}{}{}{}{}{}{}{}{}
+{759	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{760	}{I do not know. Return to Japan, maybe.								}{I do not know. Return to Japan, maybe.								}{#	}{npc.SetDisposition("Neutral",1)	}{								}{}{}{}{}{}{}{}
+{761	}{Why not stay with me?											}{Why not stay with me?											}{770	}{						}{								}{}{}{}{}{}{}{}
+{762	}{You should stay with me.										}{You should stay with me.										}{770	}{Persuasion 2 & LimitSet(1,2)	}{								}{}{}{}{}{}{}{}
+{763	}{You should stay with me.										}{You should stay with me.										}{770	}{Seduction 2  & LimitSet(2,2)	}{								}{}{}{}{}{}{}{}
+{764	}{Stay with me.												}{Stay with me.												}{770	}{Dominate 1				}{G.Yukie_try_dom=1					}{}{}{}{}{}{}{}
+{765	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{770	}{Are you trick me, demon?										}{Are you trick me, demon?										}{#	}{npc.SetDisposition("Joy",2)		}{								}{}{}{}{}{}{}{}
+{771	}{No, no... it is not like that. I enjoy your company is all I am saying.		}{No, no... it is not like that. I enjoy your company is all I am saying.		}{780	}{0==G.Yukie_try				}{								}{}{}{}{}{}{}{}
+{772	}{Yes, I'm evil and you are a hunter. You must fight for me... do as I say!		}{Yes, I'm evil and you are a hunter. You must fight for me... do as I say!		}{780	}{Dominate 1 & 0==G.Yukie_try_dom	}{G.Yukie_try_dom=2					}{}{}{}{}{}{}{}
+{773	}{Why didn't that... I mean, of course not. I would NEVER try to trick you.		}{Why didn't that... I mean, of course not. I would NEVER try to trick you.		}{780	}{1==G.Yukie_try_dom			}{								}{}{}{}{}{}{}{}
+{774	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{780	}{I bet you say that to all hunters... You cannot charm me, demon.			}{I bet you say that to all hunters... You cannot charm me, demon.			}{#	}{						}{								}{}{}{}{}{}{}{}
+{781	}{What about your family? Is there anyone still alive?					}{What about your family? Is there anyone still alive?					}{790	}{						}{								}{}{}{}{}{}{}{}
+{782	}{I'm just saying, why go to Japan? Who or what is waiting for you there?		}{I'm just saying, why go to Japan? Who or what is waiting for you there?		}{790	}{2!=G.Yukie_try_dom			}{								}{}{}{}{}{}{}{}
+{783	}{I would pick a hunter as an ally. Fine, return to Japan and your dead family.	}{I would pick a hunter as an ally. Fine, return to Japan and your dead family.	}{790	}{2==G.Yukie_try_dom			}{								}{}{}{}{}{}{}{}
+{784	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{790	}{My family... dead. It is forever... I can suffer without your help.			}{My family... dead. It is forever... I can suffer without your help.			}{#	}{npc.SetDisposition("Sad",1)		}{								}{}{}{}{}{}{}{}
+{791	}{I'm... I'm sorry. I didn't mean to... Are you okay? 					}{I'm... I'm sorry. I didn't mean to... Are you okay?						}{800	}{						}{								}{}{}{}{}{}{}{}
+{792	}{You avenged your family, now it is time to move on.  					}{You avenged your family, now it is time to move on.						}{800	}{						}{								}{}{}{}{}{}{}{}
+{793	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{800	}{Yes... I appreciate your concern. Excuse me.							}{Yes... I appreciate your concern. Excuse me.							}{#	}{npc.SetDisposition("Apathy",1)	}{G.Yukie_Plans=1						}{}{}{}{}{}{}{}
+{801	}{<End>													}{<End>														}{	}{						}{								}{}{}{}{}{}{}{}
+{807	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{808	}{				[ #################  Yukie : TRUST   ################# ]																														}{}{}{}{}{}{}{}{}{}{}{}
+{809	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{810	}{I think Hengeyokai kill my master for ghost people... 					}{I think Hengeyokai kill my master for ghost people...					}{#	}{npc.SetDisposition("Neutral",1)	}{								}{}{}{}{}{}{}{}
+{811	}{You mean the Kuei-jin. Why would the Kuei-jin want your master killed?		}{You mean the Kuei-jin. Why would the Kuei-jin want your master killed?		}{820	}{						}{								}{}{}{}{}{}{}{}
+{812	}{I seriously doubt the Kuei-jin were involved. 						}{I seriously doubt the Kuei-jin were involved.							}{820	}{						}{								}{}{}{}{}{}{}{}
+{813	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{820	}{Other demon say that to me.  Maybe other demons know why. I don't know why. 	}{Other demon say that to me.  Maybe other demons know why. I don't know why.		}{#	}{						}{								}{}{}{}{}{}{}{}
+{821	}{The demon that told you, could he have been trying to trick you?			}{The demon that told you, could he have been trying to trick you?			}{830	}{						}{								}{}{}{}{}{}{}{}
+{822	}{Sounds to me like someone was messing with you. 						}{Sounds to me like someone was messing with you.						}{830	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{823	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{830	}{I don't think so. Why trick me?									}{I don't think so. Why trick me?									}{#	}{npc.SetDisposition("Joy",2)		}{								}{}{}{}{}{}{}{}
+{831	}{Demons don't need a reason. We are evil after all.						}{Demons don't need a reason. We are evil after all.						}{840	}{						}{								}{}{}{}{}{}{}{}
+{832	}{Naive people tempt the evil within all of us. Demons are especially tempted.	}{Naive people tempt the evil within all of us. Demons are especially tempted.	}{840	}{						}{								}{}{}{}{}{}{}{}
+{833	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{840	}{I hope not. I... trust you.										}{I hope not. I... trust you.										}{#	}{						}{								}{}{}{}{}{}{}{}
+{841	}{Do not trust me. I am not worthy of your trust.						}{Do not trust me. I am not worthy of your trust.						}{850	}{						}{								}{}{}{}{}{}{}{}
+{842	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{850	}{You are...												}{You are...												}{#	}{npc.SetDisposition("Neutral",1)	}{G.Yukie_Trust=1						}{}{}{}{}{}{}{}
+{851	}{<End>													}{<End>														}{	}{						}{								}{}{}{}{}{}{}{}
+{857	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{858	}{				[ #################  Yukie : OFFER   ################# ]																														}{}{}{}{}{}{}{}{}{}{}{}
+{859	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{860	}{Demon and hunter live in this world against each other...					}{Demon and hunter live in this world against each other...					}{#	}{npc.SetDisposition("Neutral",1)	}{								}{}{}{}{}{}{}{}
+{861	}{And you run around in a school girl outfit while I work for the guy who killed my sire. Anything else?}{And you run around in a school girl outfit while I work for the guy who killed my sire. Anything else?}{870	}{				}{			}{}{}{}{}{}{}{}
+{862	}{I guess it's a crazy idea. A hunter and a vampire teaming up.				}{I guess it's a crazy idea. A hunter and a vampire teaming up.				}{870	}{						}{								}{}{}{}{}{}{}{}
+{863	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{870	}{Crazy... yes, I agree. But I... I am not like all the rest. I will stay with you.}{Crazy... yes, I agree. But I... I am not like all the rest. I will stay with you.}{#	}{						}{G.Yukie_Offer=1						}{}{}{}{}{}{}{}
+{871	}{You... you will? I am so glad to hear that, Yukie.						}{You... you will? I am so glad to hear that, Yukie.						}{0	}{						}{								}{}{}{}{}{}{}{}
+{872	}{Glad to hear it. 											}{Glad to hear it. 											}{0	}{						}{								}{}{}{}{}{}{}{}
+{877	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{878	}{				[ #################  Yukie : Embrace (No longer used as of patch 1.2)   ################# ]																														}{}{}{}{}{}{}{}{}{}{}{}
+{879	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{880	}{Nihongo o hanesemasu ka? How is your Japanese?						}{Nihongo o hanesemasu ka? How is your Japanese?						}{#	}{npc.SetDisposition("Joy",1)		}{								}{}{}{}{}{}{}{}
+{881	}{Very funny. But seriously, can we talk?								}{Very funny. But seriously, can we talk?								}{890	}{						}{								}{}{}{}{}{}{}{}
+{882	}{Can you be serious for a moment?									}{Can you be serious for a moment?									}{890	}{						}{								}{}{}{}{}{}{}{}
+{883	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{890	}{I can...													}{I can...													}{#	}{npc.SetDisposition("Neutral",1)	}{								}{}{}{}{}{}{}{}
+{891	}{What do you know about vampires?									}{What do you know about vampires?									}{900	}{						}{								}{}{}{}{}{}{}{}
+{892	}{Tell me what you think about me.									}{Tell me what you think about me.									}{900	}{						}{								}{}{}{}{}{}{}{}
+{893	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{900	}{I know about demons. I know what you are. But all creature have a place in the world.}{I know about demons. I know what you are. But all creature have a place in the world.}{#	}{					}{								}{}{}{}{}{}{}{}
+{901	}{Then you know about the embrace. I would like to embrace you. Make you a vampire like myself.}{Then you know about the embrace? I would like to embrace you. Make you a vampire like myself.}{910	}{		}{								}{}{}{}{}{}{}{}
+{902	}{Would you like to be more like me? A vampire?							}{Would you like to be more like me? A vampire?							}{910	}{						}{								}{}{}{}{}{}{}{}
+{903	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{910	}{Like you? Is this forever?										}{Like you? Is this forever?										}{#	}{						}{								}{}{}{}{}{}{}{}
+{911	}{Yes, it is forever. Will you be my childe?							}{Yes, it is forever. Will you be my childe?							}{920	}{						}{								}{}{}{}{}{}{}{}
+{912	}{When you put it that way, maybe I need to think it over some more.  			}{When you put it that way, maybe I need to think it over some more.			}{0	}{						}{								}{}{}{}{}{}{}{}
+{913	}{														}{														}{	}{						}{								}{}{}{}{}{}{}{}
+{920	}{For you, yes. You are my master.									}{For you, yes. You are my master.									}{#	}{						}{								}{}{}{}{}{}{}{}
+{921	}{Let it begin.												}{Let it begin. 												}{	}{						}{ScheduleTask(0.2,'companion.embrace(FindEntityByName("' + G.LDName + '"))')}{}{}{}{}{}{}{}
+{922	}{														}{														}{	}{						}{								}{}{}{}{}{}{}{}
+{927	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{928	}{				[ #################  Yukie : Post-Embrace  ################# ]																														}{}{}{}{}{}{}{}{}{}{}{}
+{929	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{930	}{Master?											}{Master?											}{	#	}{										}{						}{}{}{}{}{}{}{}
+{931	}{Time to pose my plaything.								}{Time to pose my plaything.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{932	}{Stop Posing. 										}{Stop Posing.										}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{933	}{Travel with me. <Must remove>							}{Travel with me. <Must remove>							}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{934	}{Travel with me. 									}{Travel with me. 									}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{935	}{See if you can find a new outfit. I grow bored of this one.		}{See if you can find a new outfit. I grow bored of this one.		}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{936	}{<More...>											}{<More...>											}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{937	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{940	}{Master?											}{Master?											}{	#	}{										}{						}{}{}{}{}{}{}{}
+{941	}{Time to pose my plaything.								}{Time to pose my plaything.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{942	}{Stop Posing. 										}{Stop Posing.										}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{943	}{Travel with me. <Must remove>							}{Travel with me. <Must remove>							}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{944	}{Travel with me. 									}{Travel with me. 									}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{945	}{See if you can find a new outfit. I grow bored of this one.		}{See if you can find a new outfit. I grow bored of this one.		}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{946	}{<More...>											}{<More...>											}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{947	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{950	}{Master?											}{Master?											}{	#	}{										}{						}{}{}{}{}{}{}{}
+{951	}{Time to pose my plaything.								}{Time to pose my plaything								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{952	}{Stop Posing. 										}{Stop Posing.										}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{953	}{Travel with me. <Must remove>							}{Travel with me. <Must remove>							}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{954	}{Travel with me. 									}{Travel with me. 									}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{955	}{See if you can find a new outfit. I grow bored of this one.		}{See if you can find a new outfit. I grow bored of this one.		}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{956	}{<More...>											}{<More...>											}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{957	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{958	}{				[ #################  Damsel (both willing and unwilling)  ################# ]																														}{}{}{}{}{}{}{}{}{}{}{}
+{959	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{960	}{Yeah?											}{Yeah?											}{	#	}{										}{						}{}{}{}{}{}{}{}
+{961	}{Time to pose my plaything.								}{Time to pose my plaything.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{962	}{Stop Posing. 										}{Stop Posing.										}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{963	}{Travel with me. <Must remove>							}{Travel with me. <Must remove>							}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{964	}{Travel with me. 									}{Travel with me. 										}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{965	}{See if you can find a new outfit. I grow bored of this one.		}{See if you can find a new outfit. I grow bored of this one.		}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{966	}{<More...>											}{<More...>											}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{967	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{970	}{Hey.											}{Hey.											}{#		}{										}{						}{}{}{}{}{}{}{}
+{971	}{Time to pose my plaything.								}{Time to pose my plaything.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{972	}{Stop Posing. 										}{Stop Posing.										}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{973	}{Travel with me. <Must remove>							}{Travel with me. <Must remove>							}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{974	}{Travel with me. 									}{Travel with me. 										}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{975	}{See if you can find a new outfit. I grow bored of this one.		}{See if you can find a new outfit. I grow bored of this one.		}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{976	}{<More...>											}{<More...>											}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{977	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{980	}{Anything else?										}{Anything else?										}{	#	}{										}{						}{}{}{}{}{}{}{}
+{981	}{Time to pose my plaything.								}{Time to pose my plaything.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{982	}{Stop Posing. 										}{Stop Posing.										}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{983	}{Travel with me. <Must remove>							}{Travel with me. <Must remove>							}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{984	}{Travel with me. 									}{Travel with me. 										}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{985	}{See if you can find a new outfit. I grow bored of this one.		}{See if you can find a new outfit. I grow bored of this one.		}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{986	}{<More...>											}{<More...>											}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{987	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{988	}{				[ #################  Skelter   ################# ]																														}{}{}{}{}{}{}{}{}{}{}{}
+{989	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{990	}{Master?											}{Master?											}{	#	}{										}{						}{}{}{}{}{}{}{}
+{991	}{Time to pose you.									}{Time to pose my plaything.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{992	}{Stop Posing. 										}{Stop Posing.										}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{993	}{Travel with me. <Must remove>							}{Travel with me. <Must remove>							}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{994	}{Travel with me. 									}{Travel with me. 										}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{995	}{See if you can find a new outfit. I grow bored of this one.		}{See if you can find a new outfit. I grow bored of this one.		}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{996	}{<More...>											}{<More...>											}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{997	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{1000	}{Sire?											}{Sire?											}{#		}{										}{						}{}{}{}{}{}{}{}
+{1001	}{Time to pose you.									}{Time to pose my plaything.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{1002	}{Stop Posing. 										}{Stop Posing.										}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{1003	}{Travel with me. <Must remove>							}{Travel with me. <Must remove>							}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{1004	}{Travel with me. 									}{Travel with me. 										}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{1005	}{See if you can find a new outfit. I grow bored of this one.		}{See if you can find a new outfit. I grow bored of this one.		}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{1006	}{<More...>											}{<More...>											}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{1007	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{1010	}{Yeah?											}{Yeah?											}{	#	}{										}{						}{}{}{}{}{}{}{}
+{1011	}{Time to pose you.									}{Time to pose my plaything.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{1012	}{Stop Posing. 										}{Stop Posing.										}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{1013	}{Travel with me. <Must remove>							}{Travel with me. <Must remove>							}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{1014	}{Travel with me. 									}{Travel with me. 										}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{1015	}{See if you can find a new outfit. I grow bored of this one.		}{See if you can find a new outfit. I grow bored of this one.		}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{1016	}{<More...>											}{<More...>											}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{1017	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{1018	}{				[ #################  Ash   ################# ]																														}{}{}{}{}{}{}{}{}{}{}{}
+{1019	}{														}{														}{#	}{						}{								}{}{}{}{}{}{}{}
+{1020	}{Something I can do?									}{Something I can do?									}{	#	}{										}{						}{}{}{}{}{}{}{}
+{1021	}{Time to pose you.									}{Time to pose my plaything.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{1022	}{Stop Posing. 										}{Stop Posing.										}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{1023	}{Travel with me. <Must remove>							}{Travel with me. <Must remove>							}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{1024	}{Travel with me. 									}{Travel with me. 										}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{1025	}{See if you can find a new outfit. I grow bored of this one.		}{See if you can find a new outfit. I grow bored of this one.		}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{1026	}{<More...>											}{<More...>											}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{1027	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{1030	}{What?											}{What?											}{#		}{										}{						}{}{}{}{}{}{}{}
+{1031	}{Time to pose you.									}{Time to pose my plaything.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{1032	}{Stop Posing. 										}{Stop Posing.										}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{1033	}{Travel with me. <Must remove>							}{Travel with me. <Must remove>							}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{1034	}{Travel with me. 									}{Travel with me.										}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{1035	}{See if you can find a new outfit. I grow bored of this one.		}{See if you can find a new outfit. I grow bored of this one.		}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{1036	}{<More...>											}{<More...>											}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{1037	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{1040	}{Master?											}{Master?											}{	#	}{										}{						}{}{}{}{}{}{}{}
+{1041	}{Time to pose you.									}{Time to pose my plaything.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{1042	}{Stop Posing. 										}{Stop Posing.										}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{1043	}{Travel with me. <Must remove>							}{Travel with me. <Must remove>							}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{1044	}{Travel with me. 									}{Travel with me. 										}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{1045	}{See if you can find a new outfit. I grow bored of this one.		}{See if you can find a new outfit. I grow bored of this one.		}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{1046	}{<More...>											}{<More...>											}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{1047	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{1048	}{[ #################  Boo : WAIT   ################# ]								}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1049	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1050	}{<Petting Boo>													}{}{#	}{	}{			}{	}{<Boo> Trust? I don't trust anyone we have met, so no need to ask.							}{	}{	}{	}{	}{	}
+{1051	}{...														}{}{1060}{	}{			}{	}{....	}{	}{	}{	}{	}{	}
+{1052	}{														}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{1057	}{														}{								}{#	}{						}{								}{}{}{}{}{}{}{}
+{1058	}{				[ #################  Boo   ################# ]																														}{}{}{}{}{}{}{}{}{}{}{}
+{1059	}{														}{								}{#	}{						}{								}{}{}{}{}{}{}{}
+{1060	}{<Boo looks up at you.>											}{}{#	}{npc.ResetCounter() or __main__.ScheduleTask(0.1,"__main__.FindEntityByName('talking_pm').PlayDialogFile('character/monster/boo/boo2.mp3')")}{	}{}{}{}{}{}{}{}
+{1061	}{[UNDERSTAND]Call me crazy, but it seems like you can understand me.						}{}{1100}{G.Story_State >= 15 and 0 == G.Boo_Understand and pc.IsPC() and LimitSet(1,5) and npc.CountLine()	}{G.Boo_Understand=1			}{}{}{}{}{}{}{I think we need to work out a system of communication.			}
+{1062	}{[FAMOUS]Were you fighting that big monster I saw when I summoned you? 					}{}{1160}{G.Story_State >= 25 and 0 == G.Boo_Famous and pc.IsPC() and LimitSet(2,5) and npc.CountLine()		}{G.Boo_Famous=1			}{}{}{}{}{}{}{}
+{1063	}{[UNIQUE]What do you think about this world?									}{}{1240}{G.Story_State >= 45 and 0 == G.Boo_Unique and pc.IsPC() and LimitSet(3,5) and npc.CountLine()		}{G.Boo_Unique=1			}{}{}{}{}{}{}{}
+{1064	}{[PET]I saw you eating seeds earlier. Is that your favorite food?						}{}{1340}{G.Story_State >= 65 and 0 == G.Boo_PetConv and pc.IsPC() and LimitSet(4,5) and npc.CountLine()	}{G.Boo_PetConv=1			}{}{}{}{}{}{}{The voices say you like seeds. Is this true?				}
+{1065	}{[OPINION]So, do you trust LaCroix?										}{}{1440}{G.Story_State >= 80 and 0 == G.Boo_Opinion and pc.IsPC() and LimitSet(5,5) and npc.CountLine()	}{G.Boo_Opinion=1			}{}{}{}{}{}{}{So, do you like LaCroix?							}
+{1066	}{<More...>													}{}{1066}{npc.IsMaxCount() 											}{					}{}{}{}{}{}{}{}
+{1067	}{Travel with me. <Must remove>											}{}{8000}{companion.hasMaxHenchmen()and npc.CountLine()			}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{1068	}{Travel with me.												}{}{	}{not companion.hasMaxHenchmen() and npc.CountLine()		}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{1069	}{<More...>													}{}{1069}{npc.IsMaxCount() 						}{					}{}{}{}{}{}{}{}
+{1070	}{<Pet Boo>													}{}{1050}{1==G.Boo_Pet and npc.CountLine()				}{companion.petBoo(npc)			}{}{}{}{}{}{}{}
+{1071	}{<More...>													}{}{1071}{npc.IsMaxCount() 						}{					}{}{}{}{}{}{}{}
+{1072	}{I need you to move somewhere.											}{}{	}{npc.CountLine()						}{havenutil.StartPose()	 		}{}{}{}{}{}{}{}
+{1073	}{<More...>													}{}{1073}{npc.IsMaxCount() 						}{					}{}{}{}{}{}{}{}
+{1074	}{Round up everyone and tell them to return to their original positions. 					}{}{	}{npc.CountLine()						}{havenutil.ResetParty()		}{}{}{}{}{}{}{}
+{1075	}{<More...>													}{}{1075}{npc.IsMaxCount() 						}{					}{}{}{}{}{}{}{}
+{1076	}{I don't have room for you, sorry.Good luck in the sewers.							}{}{	}{(npc.CountLine()						}{companion.removeFromParty()		}{}{}{}{}{}{}{}
+{1077	}{<More...>													}{}{1077}{npc.IsMaxCount() 						}{					}{}{}{}{}{}{}{}
+{1078	}{Nevermind.													}{}{	}{								}{					}{}{}{}{}{}{}{}
+{1079	}{														}{}{#	}{								}{					}{}{}{}{}{}{}{}
+{1096	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1097	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1098	}{[ #################  Boo : UNDERSTAND   ################# ]							}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1099	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1100	}{<Boo very quickly settles down and stares at you almost motionless. It appears to be an acknowledgment.>	}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1101	}{Okay. How about a test? If you can understand me, squeak twice for yes, once for no.				}{}{1110}{	}{			}{	}{	}{	}{	}{	}{	}{When you squeak twice, I hear a whisper say “yes”. Is that what you mean?	}
+{1102	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1110	}{(yes) <Boo appears excited by your discovery.>								}{}{#	}{	}{			}{	}{<Boo> Wonderful, another human wants to play games...									}{	}{	}{	}{	}{	}
+{1111	}{Well then, you are definitely not from this dimension are you?						}{}{1120}{	}{			}{	}{Whoa, I can understand you! I have never spoken to a hamster before. 							}{	}{	}{	}{	}{And from time to time you will sing “Hello My Baby”!?				}
+{1112	}{In that case, I suppose I won't eat you.									}{}{1130}{	}{			}{	}{Whoa, I can understand you! I'm definitely not going to eat you now!									}{	}{	}{	}{	}{The whispers also say that hamster tastes like chicken.	}
+{1113	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1120	}{(another acknowledgement)											}{}{#	}{	}{			}{	}{So vampire, how many intelligent hamsters have you met?								}{	}{	}{	}{	}{<Boo looks confused.>								}
+{1121	}{Cool! A talking hamster! I will be famous! Well... if I wasn't a vampire.					}{}{1140}{	}{G.Boo_Sings=1		}{	}{Not any hamsters, but there are rats here and they don't talk.							}{	}{	}{	}{	}{Wait. I think only talking frogs sing; my bad.				}
+{1122	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1130	}{<Boo seems annoyed by your comment, but not frightened.>							}{}{#	}{	}{			}{	}{<Boo> Typical vampire: Summon a hamster from another dimension and the first thing you think about is food.	}{	}{	}{	}{	}{	}
+{1131	}{A confident hamster, huh? I think I like you already.								}{}{1140}{	}{			}{	}{Sorry, but you look a lot like a simple rat. My mistake.								}{	}{	}{	}{	}{Don't worry. I don't eat chicken.						}
+{1132	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1140	}{<Boo quiets down. He appears to be getting bored with the conversation.>					}{}{#	}{	}{			}{	}{<Boo> I assure you, I am NOT a rat.										}{	}{	}{	}{	}{	}
+{1141	}{Okay, so from now on, 1 squeak for no/negative and 2 squeaks for yes/affirmative. Agreed?			}{}{1150}{	}{			}{	}{So how do you know I am a vampire?								}{	}{	}{	}{	}{	}
+{1142	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1150	}{(Agreed)													}{}{#	}{	}{			}{	}{<Boo> You might say I have a "nose" for these things.								}{	}{	}{	}{	}{	}
+{1151	}{....														}{}{0	}{pc.IsClan("Malkavian") and 1 == G.Boo_Sings	}{ScheduleTask(3.0,"__main__.FindEntityByName('%s').PlayDialogFile('character/monster/boo/hellomybaby.mp3')" % G.LDName)	}{	}{	}{	}{	}{	}{	}{	}
+{1152	}{....														}{}{0	}{not pc.IsClan("Malkavian") or 0 == G.Boo_Sings	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1153	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1154	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1157	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1158	}{[ #################  Boo : FAMOUS   ################# ]							}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1159	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1160	}{(yes) <Boo drops a seed he was nibbling on to talk.>								}{}{#	}{	}{			}{	}{<Boo> Yes. <Boo drops a seed he was nibbling on to talk to you.>							}{	}{	}{	}{	}{	}
+{1161	}{Did you fight a lot of monsters in your dimension?								}{}{1170}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1162	}{Are there a lot of big monsters where you come from?								}{}{1180}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1163	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1170	}{(yes)														}{}{#	}{	}{			}{	}{<Boo> Not directly, but I traveled with a group that fought many.							}{	}{	}{	}{	}{	}
+{1171	}{Sounds like a dangerous place.										}{}{1180}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1172	}{Good thing your owner was there to protect you.								}{}{1190}{	}{			}{	}{	}{	}{	}{	}{	}{Good thing the crazy one was there to protect you.				}
+{1170	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1180	}{(yes)														}{}{#	}{	}{			}{	}{<Boo> There are lots of big monsters. It is pretty dangerous.							}{	}{	}{	}{	}{	}
+{1181	}{Although, I guess most things are pretty big and dangerous from your perspective.				}{}{1190}{	}{			}{	}{Don't worry. I'm sure your owner will be okay.									}{	}{	}{	}{	}{	}
+{1182	}{Good thing your owner was there to protect you.								}{}{1190}{	}{			}{	}{	}{	}{	}{	}{	}{Good thing the crazy one was there to protect you.				}
+{1183	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1190	}{<Irritated Squeak.>												}{}{#	}{	}{			}{	}{<Boo> He was not my owner! His name was Minsc. He was my friend. 							}{	}{	}{	}{	}{	}
+{1191	}{I meant no offense. Was your previous companion a vampire?							}{}{1200}{	}{			}{	}{I meant no offense. Was Minsc a vampire?										}{	}{	}{	}{	}{I meant no offense. Was my mirror image also a vampire?			}
+{1192	}{Aren't you a feisty one?  Have you ever fought a vampire?							}{}{1210}{	}{			}{	}{I'm still curious. How did you know I was a vampire?									}{	}{	}{	}{	}{	}
+{1193	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1200	}{(no)														}{}{#	}{	}{			}{	}{<Boo> No, but he was able to talk to animals like yourself.							}{	}{	}{	}{	}{	}
+{1201	}{Oh well, I don't suppose you fought any vampires.								}{}{1210}{	}{			}{	}{I'm still curious then, how did you know I was a vampire?								}{	}{	}{	}{	}{	}
+{1202	}{I wonder why the spell summoned you. Are you famous in your world?						}{}{1220}{	}{			}{	}{Were the two of you famous?												}{	}{	}{	}{	}{	}
+{1203	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1210	}{(yes)														}{}{#	}{	}{			}{	}{<Boo> Actually, we killed quite a few vampires. I recognized the scent.					}{	}{	}{	}{	}{	}
+{1211	}{Wow, a hamster that has fought vampires. You must be famous.							}{}{1220}{	}{			}{	}{	}{	}{	}{	}{	}{Wow. Now I understand the whispers.						}
+{1212	}{Seriously, you fought vampires before?									}{}{1220}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1213	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1220	}{(yes)														}{}{#	}{	}{			}{	}{<Boo> Yeah, amazing what killing several hundred vampires can do for your popularity.				}{	}{	}{	}{	}{	}
+{1221	}{That's crazy. Let me guess: you saved your planet from total destruction.					}{}{1230}{	}{			}{	}{Several hundred? Oh, please. Next you will tell me you saved the world. 					}{	}{	}{	}{	}{The whispers tell me you saved your world. Is this true?			}
+{1222	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1230	}{(yes)														}{}{#	}{	}{			}{	}{<Boo> Actually...													}{	}{	}{	}{	}{	}
+{1231	}{(AUTO-END)													}{}{0	}{	}{			}{	}{....	}{	}{	}{	}{	}{	}
+{1232	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1237	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1238	}{[ #################  Boo : UNIQUE   ################# ]							}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1239	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1240	}{<Boo looks confused, not certain what to do.>									}{}{#	}{	}{			}{	}{<Boo> Your pocket, Minsc's pocket; the view is the same.								}{	}{	}{	}{	}{	}
+{1241	}{Almost forgot. Yes and No only. So do you like this dimension?						}{}{1250}{	}{			}{	}{What about when you are not in my pocket?										}{	}{	}{	}{	}{	}
+{1242	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1250	}{Squeak, squeak, squeak.											}{}{#	}{	}{			}{	}{<Boo> Well, the grass has been replaced by rock and the plants replaced by paper balls.				}{	}{	}{	}{	}{	}
+{1251	}{Three squeaks? I guess that means "yes and no". Or maybe "I don't know". Is that what you meant?		}{}{1260}{	}{			}{	}{So... you don't like it.												}{	}{	}{	}{	}{Three squeaks. The whispers say, “I don't know”. Is that what you mean?	}
+{1252	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1260	}{(yes)														}{}{#	}{	}{			}{	}{<Boo> It isn't what I'm used to. Strange thing is, most the paper balls have food in them.					}{	}{	}{	}{	}{	}
+{1261	}{That makes sense. It is like our own Morse code.								}{}{1270}{	}{			}{	}{The "rock" is called pavement. We lay it over the ground for our cars.						}{	}{	}{	}{	}{	}
+{1262	}{You know, you are pretty smart for a hamster.									}{}{1270}{	}{			}{	}{The paper balls are trash, mostly from restaurants.									}{	}{	}{	}{	}{	}
+{1263	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1270	}{(yes) <Boo seems pleased with himself.>									}{}{#	}{	}{			}{	}{<Boo> I miss the grass, but I can't complain about these paper balls. 						}{	}{	}{	}{	}{(yes) <Boo is pleased with how fast he has been able to train you.>	}
+{1271	}{Did you talk to your previous companion the way you talk to me?						}{}{1280}{	}{			}{	}{So, how did you meet Minsc?												}{	}{	}{	}{	}{In the other world, did you talk to my mirror image the way you talk to me?			}
+{1272	}{So are talking hamsters common in your world?									}{}{1300}{	}{			}{	}{So, are intelligent hamsters common in your world?									}{	}{	}{	}{	}{	}
+{1273	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1280	}{(yes) <Boo seems less lively at the mention of his old companion.>						}{}{#	}{	}{			}{	}{<Boo> I don't feel like talking about Minsc.									}{	}{	}{	}{	}{	}
+{1281	}{Sorry to bring him up. I guess you miss him, huh?								}{}{1290}{	}{			}{	}{Maybe if you told a story of your travels with him, it would cheer you up.					}{	}{	}{	}{	}{	}
+{1282	}{Maybe we should change the subject. So are there many other hamsters like you in your world?			}{}{1300}{	}{			}{	}{Maybe we should change the subject. Are intelligent hamsters common in your world?					}{	}{	}{	}{	}{	}
+{1283	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1290	}{(yes) <Boo stares off into space as though thinking about him.>						}{}{#	}{	}{			}{	}{<Boo> One time we were captured and you won't believe where Minsc decided to hide me.				}{	}{	}{	}{	}{	}
+{1291	}{Maybe we should change the subject. Are talking hamsters common where you come from?				}{}{1300}{	}{			}{	}{Maybe we should change the subject. Are intelligent hamsters common in your world?					}{	}{	}{	}{	}{	}
+{1292	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1300	}{(I don't know)												}{}{#	}{	}{			}{	}{<Boo> I don't know. How common are intelligent humans in your world?						}{	}{	}{	}{	}{	}
+{1301	}{Well, have you ever met any other talking hamsters in your travels?						}{}{1320}{	}{			}{	}{Not that many, huh?													}{	}{	}{	}{	}{	}
+{1302	}{You saved the world and you don't know if there are other talking hamsters there?				}{}{1310}{	}{			}{	}{I don't know.														}{	}{	}{	}{	}{	}
+{1303	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1310	}{<Irritated Squeak.>												}{}{#	}{	}{			}{	}{<Boo> Then why would you expect me to know?									}{	}{	}{	}{	}{	}
+{1311	}{Sorry, that came out wrong. Regardless of how common talking hamsters are, you seem pretty unique to me.	}{}{1330}{	}{			}{	}{I guess it was a dumb question. Regardless, you seem pretty unique to me.						}{	}{	}{	}{	}{	}
+{1312	}{Okay, Okay already. Just seems a little odd to me. Then again, I am the one talking to a hamster.		}{}{0	}{	}{			}{	}{Here is another dumb question: Why am I talking to a hamster? Later.							}{	}{	}{	}{	}{	}
+{1313	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1320	}{(no)														}{}{#	}{	}{			}{	}{<Boo> You know, you're pretty funny. I think I am starting to like you.						}{	}{	}{	}{	}{	}
+{1321	}{Well that makes two of us. At least we have that much in common.						}{}{1330}{	}{			}{	}{The feeling is mutual.												}{	}{	}{	}{	}{We have that much in common. Assuming the other voices aren't hamsters.			}
+{1322	}{Sounds like you are pretty unique.										}{}{1330}{	}{			}{	}{You are pretty cool yourself.												}{	}{	}{	}{	}{	}
+{1323	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1330	}{(yes) <The comment seems to make Boo happy.>									}{}{#	}{	}{			}{	}{<Boo> Thanks.													}{	}{	}{	}{	}{	}
+{1331	}{Glad to have you on the team, Boo.										}{}{0	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1332	}{We should get going.												}{}{0	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1333	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1337	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1338	}{[ #################  Boo : PET   ################# ]								}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1339	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1340	}{(yes)														}{}{#	}{	}{			}{	}{<Boo> I like most fruits and vegetables, but seeds are my favorite.						}{	}{	}{	}{	}{	}
+{1341	}{"Seeds: The breakfast of champions", who would have ever guessed.						}{}{1350}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1342	}{I will throw any I find in my pocket. Would you like that?							}{}{1360}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1343	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1350	}{<Boo does not look amused.>											}{}{#	}{	}{			}{	}{<Boo> I think that was supposed to be funny, but I don't get it.							}{	}{	}{	}{	}{	}
+{1351	}{Lighten up, it was a compliment. Maybe I should start eating seeds too.					}{}{1360}{	}{			}{	}{It was a bad joke. Would you like me to stock my pockets with seeds?							}{	}{	}{	}{	}{	}
+{1352	}{Is there anything specific you like to drink?									}{}{1370}{	}{			}{	}{Forget it. Do you like to drink anything specific: water, blood... beer?						}{	}{	}{	}{	}{	}
+{1353	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1360	}{(yes) <Boo seems to like the prospect.>									}{}{#	}{	}{			}{	}{<Boo> That would be wonderful. Maybe throw a strawberry in every once in a while?					}{	}{	}{	}{	}{	}
+{1361	}{Is there anything specific you like to drink?									}{}{1370}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1362	}{Do you like to drink water?											}{}{1370}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1363	}{Do you like to drink blood?											}{}{1370}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1364	}{Do you like to drink beer											}{}{1370}{	}{			}{	}{	}{	}{	}{	}{	}{Do you like Parrott Pinnacolodas?}
+{1365	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1370	}{<Boo ignores the question and begins trying to scratch a place on his back.>					}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1371	}{Would you like some help with that?										}{}{1390}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1372	}{Looks like you are busy, maybe another time.									}{}{0	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1373	}{<Wait for Boo to finish.>											}{}{1380}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1374	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1380	}{<Boo continues trying to scratch the center of his back.>							}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1381	}{Would you like some help with that?										}{}{1390}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1382	}{Looks like you are busy, maybe another time.									}{}{0	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1383	}{<Wait for Boo to finish.>											}{}{1380}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1384	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1390	}{(yes) <Boo seems anxious for some relief.>									}{}{#	}{	}{			}{	}{<Boo> That would be wonderful.											}{	}{	}{	}{	}{	}
+{1391	}{<Scratch back> There you go. That should make you feel better.						}{}{1400}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1391	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1400	}{<Boo nuzzles his face, then his whole furry body into the palm of your hand.>					}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1401	}{<Continue Scratching> So, do you like it when people pet or scratch you?					}{}{1410}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1402	}{<Stop Scratching> So, do you like it when people pet or scratch you?						}{}{1420}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1403	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1410	}{<While you scratch, Boo seems oblivious to the world around him.>						}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1411	}{<Stop Scratching> So, do you like it when people pet or scratch you?						}{}{1420}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1412	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1420	}{(yes) <Boo seems very content.>										}{}{#	}{	}{			}{	}{<Boo> I love a good scratch, but only from people I know.								}{	}{	}{	}{	}{	}
+{1421	}{Is it Okay if I pet you in the future?									}{}{1430}{	}{G.Boo_Pet=1		}{	}{So, is it okay if I pet you?												}{	}{	}{	}{	}{	}
+{1422	}{I will keep that in mind.											}{}{0	}{	}{G.Boo_Pet=1		}{	}{Then I will assume you won’t mind if I pet you in the future.								}{	}{	}{	}{	}{	}
+{1423	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1430	}{(yes)														}{}{#	}{	}{			}{	}{<Boo> Sure, feel free to anytime.											}{	}{	}{	}{	}{	}
+{1431	}{....														}{}{0	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1432	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1437	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1438	}{[ #################  Boo : OPINION   ################# ]							}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1439	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1440	}{(I don't know)												}{}{#	}{	}{			}{	}{<Boo> Trust? I don't trust anyone we have met, so no need to ask.							}{	}{	}{	}{	}{	}
+{1441	}{He has his faults, but at least he tries.									}{}{1500}{G.Prince_Reaction >= 3						}{		}{	}{	}{	}{	}{	}{	}{				}
+{1442	}{He is hard to read.												}{}{1500}{G.Prince_Reaction >= -1 and G.Prince_Reaction < 3			}{		}{	}{	}{	}{	}{	}{	}{The whispers are hard to hear around him. Maybe if he would stop talking so much. }
+{1443	}{Well, I don't trust him.											}{}{1500}{G.Prince_Reaction < -1						}{		}{	}{	}{	}{	}{	}{	}{The whispers say to stay away. }
+{1444	}{Do you like Jack or the anarchs?										}{}{1450}{G.Damsel_Like >= 3 							}{G.Boo_Jack=1	}{	}{How about like? Do you like Jack or the anarchs?		}{	}{	}{	}{	}{	}
+{1445	}{Do you like Jack or the anarchs?										}{}{1460}{G.Damsel_Like < 3 and (G.Nines_Scorn == 0 or G.Player_Anarch == 1) 	}{G.Boo_Jack=1	}{	}{How about like? Do you like Jack or the anarchs?		}{	}{	}{	}{	}{	}
+{1446	}{Do you like Jack or the anarchs?										}{}{1460}{G.Damsel_Like < 3 and (G.Nines_Scorn == 1 and G.Player_Anarch == 0) 	}{G.Boo_Jack=1	}{	}{How about like? Do you like Jack or the anarchs at all?	}{	}{	}{	}{	}{	}
+{1447	}{What about Ming Xiao, do you like her?									}{}{1470}{G.Ming_Faction >= 3 and G.Ming_Insult == 0				}{G.Boo_Ming=1	}{	}{How about like? Do you like Ming Xiao?			}{	}{	}{	}{	}{	}
+{1448	}{What about Ming Xiao, do you like her?									}{}{1480}{G.Ming_Faction < 3 or G.Ming_Insult == 1				}{G.Boo_Ming=1	}{	}{How about like? Do you like Ming Xiao?			}{	}{	}{	}{	}{	}
+{1449	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1450	}{(yes) 													}{}{#	}{	}{			}{	}{<Boo> Not that I trust him, but Jack is a likeable guy.								}{	}{	}{	}{	}{	}
+{1451	}{Yeah. For better or worse, I owe the anarchs my life.  							}{}{1490}{	}{			}{	}{Well, Jack and Nines both helped me out. Trustworthy or not, I owe them.						}{	}{	}{	}{	}{The voices in my head are still debating.								}
+{1452	}{I haven't made up my mind yet. Their way of life has its ups and downs.					}{}{1500}{	}{			}{	}{I agree, but the anarch way of life has both ups and downs. It is a tough call.					}{	}{	}{	}{	}{Jack is no Joker. He is the wild card in this game.							}
+{1453	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1460	}{(I don't know)												}{}{#	}{	}{			}{	}{<Boo> I like Jack, but devious people are often likeable. I'm sure he's using you like everyone else.		}{	}{	}{	}{	}{	}
+{1461	}{Yeah, I don't know either.											}{}{1490}{	}{			}{	}{He probably is, but I also owe the anarchs my life. It is a tough call.						}{	}{	}{	}{	}{Yeah, the voices in my head are still debating too.							}
+{1462	}{Well I am not a fan of the anarch way of life: no laws or power, every man for himself.			}{Well I am not a fan of the anarch way of life: no laws or power, every person for themself.	}{1500}{	}{			}{	}{	}{	}{	}{	}{	}{Anarchs assume all society needs is common sense, but what if you are like me and have none?		}
+{1463	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1470	}{(I don't know)												}{}{#	}{	}{			}{	}{<Boo> Whatever she is, Ming is no human. She smells like Otyugh.							}{	}{	}{	}{	}{	}
+{1471	}{It is a tough call. She may be using me, but then who is NOT using me?					}{}{1500}{	}{			}{	}{Whatever that is, it's a tough call. She may be using me, but then who is NOT using me?				}{	}{	}{	}{	}{It is a tough call. Ming Xiao is likely using me, but then who is NOT using me?			}
+{1472	}{I wish I was a Kue-jin. She has shown me more respect than any vampire.					}{}{1490}{	}{			}{	}{Sometimes I wish I was a Kue-jin. At least they are organized and respect each other.					}{	}{	}{	}{	}{If it is up to me, I would rather be used by Ming Xiao than Jack or LaCroix. She is not as hairy.	}
+{1473	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1480	}{(No)														}{}{#	}{	}{			}{	}{<Boo> No. She is way too nice given the history of the L.A. vampires... and she smells like Otyugh.		}{	}{	}{	}{	}{	}
+{1481	}{It is a tough call. She may be using me, but then who is NOT using me?					}{}{1500}{	}{			}{	}{	}{	}{	}{	}{	}{It is a tough call. Ming Xiao is likely using me, but then who is NOT using me?			}
+{1482	}{Me neither. She is way to nice given the history of the L.A. vampires.					}{}{1490}{	}{			}{	}{I have to agree with you there. Well, the "way too nice" part anyway.							}{	}{	}{	}{	}{Me neither. The whispers tell me she is butt ugly in the morning.					}
+{1483	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1490	}{<Boo remains silent, waiting for another question.>								}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1491	}{Do you like Jack or the anarchs?										}{}{1450}{0 == G.Boo_Jack and G.Damsel_Like >= 3 							}{G.Boo_Jack=1	}{	}{Do you like Jack or the anarchs?	}{	}{	}{	}{	}{	}
+{1492	}{Do you like Jack or the anarchs?										}{}{1460}{0 == G.Boo_Jack and G.Damsel_Like < 3 and (G.Nines_Scorn == 0 or G.Player_Anarch == 1) 	}{G.Boo_Jack=1	}{	}{Do you like Jack or the anarchs?	}{	}{	}{	}{	}{	}
+{1493	}{Do you like Jack or the anarchs?										}{}{1460}{0 == G.Boo_Jack and G.Damsel_Like < 3 and (G.Nines_Scorn == 1 and G.Player_Anarch == 0) 	}{G.Boo_Jack=1	}{	}{Do you like Jack or the anarchs at all?}{	}{	}{	}{	}{	}
+{1494	}{What about Ming Xiao, do you like her?									}{}{1470}{0 == G.Boo_Ming and G.Ming_Faction >= 3 and G.Ming_Insult == 0				}{G.Boo_Ming=1	}{	}{Do you like Ming Xiao?		}{	}{	}{	}{	}{	}
+{1495	}{What about Ming Xiao, do you like her?									}{}{1480}{0 == G.Boo_Ming and G.Ming_Faction < 3 or G.Ming_Insult == 1				}{G.Boo_Ming=1	}{	}{	}{Do you like Ming Xiao at all?		}{	}{	}{	}{	}
+{1496	}{Thanks for your opinion.											}{}{1510}{1 == G.Boo_Jack and 1 == G.Boo_Ming					}{		}
+{1497	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1500	}{(agree)													}{}{#	}{	}{			}{	}{<Boo> You make a good point.	}{	}{	}{	}{	}{	}
+{1501	}{Do you like Jack or the anarchs?										}{}{1450}{0 == G.Boo_Jack and G.Damsel_Like >= 3 							}{G.Boo_Jack=1	}{	}{Do you like Jack or the anarchs?	}{	}{	}{	}{	}{	}
+{1502	}{Do you like Jack or the anarchs?										}{}{1460}{0 == G.Boo_Jack and G.Damsel_Like < 3 and (G.Nines_Scorn == 0 or G.Player_Anarch == 1) 	}{G.Boo_Jack=1	}{	}{Do you like Jack or the anarchs?	}{	}{	}{	}{	}{	}
+{1503	}{Do you like Jack or the anarchs?										}{}{1460}{0 == G.Boo_Jack and G.Damsel_Like < 3 and (G.Nines_Scorn == 1 and G.Player_Anarch == 0) 	}{G.Boo_Jack=1	}{	}{Do you like Jack or the anarchs at all?}{	}{	}{	}{	}{	}
+{1504	}{What about Ming Xiao, do you like her?									}{}{1470}{0 == G.Boo_Ming and G.Ming_Faction >= 3 and G.Ming_Insult == 0				}{G.Boo_Ming=1	}{	}{Do you like Ming Xiao?		}{	}{	}{	}{	}{	}
+{1505	}{What about Ming Xiao, do you like her?									}{}{1480}{0 == G.Boo_Ming and G.Ming_Faction < 3 or G.Ming_Insult == 1				}{G.Boo_Ming=1	}{	}{	}{Do you like Ming Xiao at all?		}{	}{	}{	}{	}
+{1506	}{Thanks for your opinion.											}{}{1510}{1 == G.Boo_Jack and 1 == G.Boo_Ming					}{		}{	}{	}{	}{	}{	}{	}{	}
+{1507	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1510	}{(affirmative)													}{}{#	}{	}{			}{	}{<Boo> You're welcome.			}{	}{	}{	}{	}{	}
+{1511	}{....														}{}{0	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1512	}{														}{}{#	}{	}{			}{	}{	}{	}{	}{	}{	}{	}
+{1517	}{												}{												}{	#	}{										}{						}{}{}{}{}{}{}{}
+{1518	}{				[ #################    Jeanette (willing) ################# ]																												}{}{}{}{}{}{}{}{}{}{}{}
+{1519	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{1520	}{Yes?												}{Yes?											}{	#	}{										}{						}{}{}{}{}{}{}{}
+{1521	}{I need you to move somewhere.									}{I need you to move somewhere.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{1522	}{Stop Posing. 											}{Stop Posing.										}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{1523	}{Travel with me. <Must remove>									}{Travel with me. <Must remove>								}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{1524	}{Travel with me. 										}{Travel with me.									}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{1525	}{See if you can find a new outfit.								}{See if you can find a new outfit. 							}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{1526	}{<More...>											}{<More...>										}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{1527	}{												}{											}{		}{										}{						}{}{}{}{}{}{}{}
+{1530	}{Know any games we can play?									}{Know any games we can play?								}{	#	}{										}{						}{}{}{}{}{}{}{}
+{1531	}{I need you to move somewhere.									}{I need you to move somewhere.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{1532	}{Stop Posing. 											}{Stop Posing.										}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{1533	}{Travel with me. <Must remove>									}{Travel with me. <Must remove>								}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{1534	}{Travel with me. 										}{Travel with me.									}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{1535	}{See if you can find a new outfit.								}{See if you can find a new outfit. 							}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{1536	}{<More...>											}{<More...>										}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{1537	}{												}{											}{		}{										}{						}{}{}{}{}{}{}{}
+{1537	}{												}{												}{	#	}{										}{						}{}{}{}{}{}{}{}
+{1538	}{				[ #################    Knox (willing) ################# ]																												}{}{}{}{}{}{}{}{}{}{}{}
+{1539	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{1540	}{Hey, what's up, girl?										}{Hey, what's up, girl?										}{	#	}{										}{						}{}{}{}{}{}{}{}
+{1541	}{I need you to move somewhere.									}{I need you to move somewhere.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{1542	}{Stop Posing. 											}{Stop Posing.										}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{1543	}{Travel with me. <Must remove>									}{Travel with me. <Must remove>								}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{1544	}{Travel with me. 										}{Travel with me.									}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{1545	}{See if you can find a new outfit.								}{See if you can find a new outfit. 							}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{1546	}{<More...>											}{<More...>										}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{1547	}{												}{											}{		}{										}{						}{}{}{}{}{}{}{}
+{1550	}{What's up, girl?										}{What's up, girl?											}{	#	}{										}{						}{}{}{}{}{}{}{}
+{1551	}{I need you to move somewhere.									}{I need you to move somewhere.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{1552	}{Stop Posing. 											}{Stop Posing.										}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{1553	}{Travel with me. <Must remove>									}{Travel with me. <Must remove>								}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{1554	}{Travel with me. 										}{Travel with me.									}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{1555	}{See if you can find a new outfit.								}{See if you can find a new outfit. 							}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{1556	}{<More...>											}{<More...>										}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{1557	}{												}{											}{		}{										}{						}{}{}{}{}{}{}{}
+{1560	}{Hey, girl.											}{Hey, girl.											}{	#	}{										}{						}{}{}{}{}{}{}{}
+{1561	}{I need you to move somewhere.									}{I need you to move somewhere.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{1562	}{Stop Posing. 											}{Stop Posing.										}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{1563	}{Travel with me. <Must remove>									}{Travel with me. <Must remove>								}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{1564	}{Travel with me. 										}{Travel with me.									}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{1565	}{See if you can find a new outfit.								}{See if you can find a new outfit. 							}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{1566	}{<More...>											}{<More...>										}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{1567	}{												}{												}{	#	}{										}{						}{}{}{}{}{}{}{}
+{1568	}{				[ #################    Bertram (willing) ################# ]																												}{}{}{}{}{}{}{}{}{}{}{}
+{1569	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{1570	}{Mhmm?												}{Mhmm?											}{	#	}{										}{						}{}{}{}{}{}{}{}
+{1571	}{I need you to move somewhere.									}{I need you to move somewhere.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{1572	}{Stop Posing. 											}{Stop Posing.										}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{1573	}{Travel with me. <Must remove>									}{Travel with me. <Must remove>								}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{1574	}{Travel with me. 										}{Travel with me.									}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{1575	}{See if you can find a new outfit.								}{See if you can find a new outfit. 							}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{1576	}{<More...>											}{<More...>										}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{1577	}{												}{											}{		}{										}{						}{}{}{}{}{}{}{}
+{1580	}{Yeah?												}{Yeah?											}{	#	}{										}{						}{}{}{}{}{}{}{}
+{1581	}{I need you to move somewhere.									}{I need you to move somewhere.								}{	 	}{										}{__main__.ScheduleTask(0.5,"havenutil.startPoseSystem(__main__.FindEntityByName(havenutil.d_talking))") }{}{}{}{}{}{}{}
+{1582	}{Stop Posing. 											}{Stop Posing.										}{		}{npc.IsPoseRunning()							}{havenutil.StopPose()			}{}{}{}{}{}{}{}
+{1583	}{Travel with me. <Must remove>									}{Travel with me. <Must remove>								}{	8000	}{companion.hasMaxHenchmen()						}{companion.resetChoiceData()		}{}{}{}{}{}{}{}
+{1584	}{Travel with me. 										}{Travel with me.									}{		}{not companion.hasMaxHenchmen()					}{companion.makeHenchman()		}{}{}{}{}{}{}{}
+{1585	}{See if you can find a new outfit.								}{See if you can find a new outfit. 							}{		}{npc.HasMoreSkins()							}{npc.NextSkin()				}{}{}{}{}{}{}{}
+{1586	}{<More...>											}{<More...>										}{	8500	}{ 										}{						}{}{}{}{}{}{}{}
+{1587	}{												}{											}{		}{										}{						}{}{}{}{}{}{}{}
+{6897	}{						}{						}{		}{						}{											}{}{}{}{}{}{}{}
+{6898	}{							[ #### Embrace Heather (No longer used as of patch 1.2) #### 																				}{}{}{}{}{}{}{}{}{}
+{6899	}{						}{						}{		}{						}{											}{}{}{}{}{}{}{}
+{6900	}{Anything, Just ask...									}{Anything, Just ask...													}{#	}{npc.SetDisposition("Neutral",1)	}{			}{	}{	}{	}{	}{	}{	}{	}
+{6901	}{I... I care about you, but things are getting more and more dangerous.						}{I... I care about you, but things are getting more and more dangerous.						}{6910}{	}{	}{	}{	}{	}{	}{	}{	}{Departure approaches.	}
+{6902	}{I received permission to embrace. I have chosen you.								}{I received permission to embrace. I have chosen you.								}{6920}{	}{	}{	}{	}{	}{	}{	}{	}{I wish to make you my eternal partner in this false reality.}
+{6903	}{Playing with you has been fun, but you're just so weak.								}{Playing with you has been fun, but you're just so weak.								}{6910}{	}{	}{	}{	}{	}{	}{	}{	}{Time for an upgrade. Yes, I need to upgrade.}
+{6904	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{6910	}{What do you mean... No! Please don't leave!										}{What do you mean... No! Please don't leave!										}{#	}{npc.SetDisposition("Sad",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{6911}{Calm down. I would never leave you. I would like to embrace you, make you a vampire like myself.	}{Calm down. I would never leave you. I would like to embrace you, make you a vampire like myself.	}{6920}{	}{	}{	}{	}{	}{	}{	}{	}{Fear not my pet. I wish to make you my eternal partner in this false reality.	}
+{6912}{I've decided to embrace you, turn you into a vampire. It will make you stronger and tougher.		}{I've decided to embrace you, turn you into a vampire. It will make you stronger and tougher.		}{6920}{	}{	}{	}{	}{	}{	}{	}{	}{I will fashion you into an immortal being like myself. }
+{6913	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{6920	}{My life felt meaningless until that night when you saved me... Without your attention, without your presence, this world is merciless and vulgar and... I'd die for you.}{My life felt meaningless until that night when you saved me... Without your attention, without your presence, this world is merciless and vulgar and... I'd die for you.}{#	}{npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{6921	}{That is just it. You WILL die... and it will hurt. Are you sure you want this?				}{That is just it. You WILL die... and it will hurt. Are you sure you want this?				}{6930}{	}{	}{	}{	}{	}{	}{	}{	}{This gift will not be without pain.}
+{6922	}{Of course you would die for me. I could slap you all over town and you would still lick my boots clean.	}{Of course you would die for me. I could slap you all over town and you would still lick my boots clean.}{6930}{	}{	}{	}{	}{	}{	}{	}{	}{We can do this a lot of ways. Tell your master just how you want it.}
+{6923	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{6930	}{[231 -> 1030]Hurt me, I don't care... Do whatever you want... I just want to be with you, no matter what. }{Hurt me, I don't care... Do whatever you want... I just want to be with you, no matter what.	}{#	}{npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{6931	}{Then prepare yourself. It is time.											}{Then prepare yourself. It is time.											}{	}{	}{npc.SetData("Type",5);npc.SetData("Embraced",1);ScheduleTask(0.2,'companion.embrace(FindEntityByName("' + G.LDName + '"))')}{	}{	}{	}{	}{	}{	}{	}
+{6932	}{No, I can't do it. I care too much to steal your life away...							}{No, I can't do it. I care too much to steal your life away...							}{6940}{	}{									}{	}{	}{	}{	}{	}{	}{No, I can't do it. I care too much to steal your breath away...	}
+{6933	}{I'm glad you feel that way, but now is not the time. We will speak of this later.				}{I'm glad you feel that way, but now is not the time. We will speak of this later.				}{6950}{	}{npc.SetData("Type",4);npc.SetData("Embraced",0)	}{	}{	}{	}{	}{	}{	}{The whispers tell me that now is not the time. We will speak of this later.	}
+{6934	}{On second thought, since you are so eager, I will make you wait.						}{On second thought, since you are so eager, I will make you wait.						}{6950}{	}{npc.SetData("Type",4);npc.SetData("Embraced",0)	}{	}{	}{	}{	}{	}{	}{Not good enough. Maybe another time.}
+{6935	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{6940	}{[221 -> 1040]But I... I've never felt this way about somebody before... I think I... When I'm around you, it's... I love you - can't you please let me be a part of your life?}{But I... I've never felt this way about somebody before... I think I... When I'm around you, it's... I love you - can't you please let me be a part of your life?}{#	}{npc.SetDisposition("Sad",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{6941	}{Then let it begin.														}{Then let it begin.														}{	}{	}{npc.SetData("Type",5);npc.SetData("Embraced",1);ScheduleTask(0.2,'companion.embrace(FindEntityByName("' + G.LDName + '"))')}{	}{	}{	}{	}{	}{	}{	}
+{6942	}{I'm glad you feel that way, but now is not the time. We will speak of this later.				}{I'm glad you feel that way, but now is not the time. We will speak of this later.				}{6950}{	}{npc.SetData("Type",4);npc.SetData("Embraced",0)	}{	}{	}{	}{	}{	}{	}{The whispers tell me that now is not the time. We will speak of this later. }
+{6943	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{6950	}{[985 -> 1050]Okay.														}{Okay.																}{#	}{npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{6951	}{(AUTO-END)															}{(AUTO-END)															}{0	}{	}{	}{	}{	}{	}{	}{	}{	}{(AUTO-END)}
+{6952	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{7997	}{						}{						}{		}{						}{						}{}{}{}{}{}{}{}
+{7998	}{							[ #### REMOVE HENCHMEN #### ]																}{}{}{}{}{}{}{}{}{}
+{7999	}{						}{						}{		}{						}{						}{}{}{}{}{}{}{}
+{8000	}{Who do you wish to assign to the haven?	}{Who do you wish to assign to the haven?	}{#	}{					}{companion.resetChoiceData()						}{}{}{}{}{}{}{}
+{8001	}{Lily						}{Lily						}{	}{companion.isHenchman("Lily")				}{companion.replaceHenchman("Lily")				}{}{}{}{}{}{}{}
+{8002	}{E. 						}{E. 						}{	}{companion.isHenchman("E")				}{companion.replaceHenchman("E")				}{}{}{}{}{}{}{}
+{8003	}{Knox						}{Knox						}{	}{companion.isHenchman("Knox")				}{companion.replaceHenchman("Knox")				}{}{}{}{}{}{}{}
+{8004	}{Heather					}{Heather					}{	}{companion.isHenchman("Heather")			}{companion.replaceHenchman("Heather")				}{}{}{}{}{}{}{}
+{8005	}{Therese					}{Therese					}{	}{companion.isHenchman("Therese")			}{companion.replaceHenchman("Therese")				}{}{}{}{}{}{}{}
+{8006	}{Jeanette					}{Jeanette					}{	}{companion.isHenchman("Jeanette")			}{companion.replaceHenchman("Jeanette")				}{}{}{}{}{}{}{}
+{8007	}{Tourette					}{Tourette					}{	}{companion.isHenchman("Tourette")			}{companion.replaceHenchman("Tourette")				}{}{}{}{}{}{}{}
+{8008	}{VV						}{VV						}{	}{companion.isHenchman("VV")				}{companion.replaceHenchman("VV")				}{}{}{}{}{}{}{}
+{8009	}{Vandal					}{Vandal					}{	}{companion.isHenchman("Vandal")			}{companion.replaceHenchman("Vandal")				}{}{}{}{}{}{}{}
+{8010	}{Yukie						}{Yukie						}{	}{companion.isHenchman("Yukie")				}{companion.replaceHenchman("Yukie")				}{}{}{}{}{}{}{}
+{8011	}{Damsel					}{Damsel					}{	}{companion.isHenchman("Damsel")			}{companion.replaceHenchman("Damsel")				}{}{}{}{}{}{}{}
+{8012	}{Skelter					}{Skelter					}{	}{companion.isHenchman("Skelter")			}{companion.replaceHenchman("Skelter")				}{}{}{}{}{}{}{}
+{8013	}{Ash						}{Ash						}{	}{companion.isHenchman("Ash")				}{companion.replaceHenchman("Ash")				}{}{}{}{}{}{}{}
+{8014	}{Prostitute					}{Prostitute					}{	}{companion.isHenchman("Prostitute")			}{companion.replaceHenchman("Prostitute")			}{}{}{}{}{}{}{}
+{8015	}{Bertram					}{Bertram					}{	}{companion.isHenchman("Bertram")			}{companion.replaceHenchman("Bertram")				}{}{}{}{}{}{}{}
+{8016	}{Carson					}{Carson					}{	}{companion.isHenchman("Carson")			}{companion.replaceHenchman("Carson")				}{}{}{}{}{}{}{}
+{8017	}{Rockbiter					}{Rockbiter					}{	}{companion.isHenchman("Rockbiter")			}{companion.replaceHenchman("Rockbiter")			}{}{}{}{}{}{}{}
+{8018	}{Danielle					}{Danielle					}{	}{companion.isHenchman("Danielle")			}{companion.replaceHenchman("Danielle")				}{}{}{}{}{}{}{}
+{8019	}{Trip						}{Trip						}{	}{companion.isHenchman("Trip")				}{companion.replaceHenchman("Trip")				}{}{}{}{}{}{}{}
+{8020	}{Jumbles					}{Jumbles					}{	}{companion.isHenchman("Jumbles")			}{companion.replaceHenchman("Jumbles")				}{}{}{}{}{}{}{}
+{8021	}{Azara						}{Azara						}{	}{companion.isHenchman("Azara")				}{companion.replaceHenchman("Azara")				}{}{}{}{}{}{}{}
+{8022	}{Venus						}{Venus						}{	}{companion.isHenchman("Venus")				}{companion.replaceHenchman("Venus")				}{}{}{}{}{}{}{}
+{8023	}{Kerri						}{Kerri						}{	}{companion.isHenchman("Kerri")				}{companion.replaceHenchman("Kerri")				}{}{}{}{}{}{}{}
+{8024	}{Misti						}{Misti						}{	}{companion.isHenchman("Misti")				}{companion.replaceHenchman("Misti")				}{}{}{}{}{}{}{}
+{8025	}{Samantha					}{Samantha					}{	}{companion.isHenchman("Samantha")			}{companion.replaceHenchman("Samantha")				}{}{}{}{}{}{}{}
+{8026	}{Shu						}{Shu						}{	}{companion.isHenchman("Shu")				}{companion.replaceHenchman("Shu")				}{}{}{}{}{}{}{}
+{8027	}{Barabus					}{Barabus					}{	}{companion.isHenchman("Barabus")			}{companion.replaceHenchman("Barabus")				}{}{}{}{}{}{}{}
+{8028	}{Kate						}{Kate						}{	}{companion.isHenchman("Kate")				}{companion.replaceHenchman("Kate")				}{}{}{}{}{}{}{}
+{8029	}{Mira						}{Mira						}{	}{companion.isHenchman("Mira")				}{companion.replaceHenchman("Mira")				}{}{}{}{}{}{}{}
+{8030	}{Nadia						}{Nadia						}{	}{companion.isHenchman("Nadia")				}{companion.replaceHenchman("Nadia")				}{}{}{}{}{}{}{}
+{8031	}{BloodDoll					}{BloodDoll					}{	}{companion.isHenchman("BloodDoll")			}{companion.replaceHenchman("BloodDoll")			}{}{}{}{}{}{}{}
+{8032	}{McFly						}{McFly						}{	}{companion.isHenchman("McFly")				}{companion.replaceHenchman("McFly")				}{}{}{}{}{}{}{}
+{8033	}{Boo						}{Boo						}{	}{companion.isHenchman("Boo")				}{companion.replaceHenchman("Boo")				}{}{}{}{}{}{}{}
+{8050	}{Generic NPC					}{Generic NPC					}{	}{companion.isUnknownHenchman()				}{companion.replaceHenchman(companion.getUnknownHenchman(1))	}{}{}{}{}{}{}{}
+{8051	}{Generic NPC					}{Generic NPC					}{	}{companion.isUnknownHenchman()				}{companion.replaceHenchman(companion.getUnknownHenchman(2))	}{}{}{}{}{}{}{}
+{8052	}{Nevermind. 					}{Nevermind. 					}{	}{					}{								}{}{}{}{}{}{}{}
+{8054	}{						}{						}{	}{					}{								}{}{}{}{}{}{}{}
+{8056	}{						}{						}{	}{					}{								}{}{}{}{}{}{}{}
+{8498	}{				[ #################    GENERAL    ################# ]																														}{}{}{}{}{}{}{}{}{}{}{}
+{8499	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{8500	}{<More...>												}{<More...>												}{	#	}{npc.ResetCounter() 							}{						}{}{}{}{}{}{}{}
+{8501	}{Round up everyone and tell them to return to their original positions. 	}{Round up everyone and tell them to return to their original positions.	}{		}{npc.CountLine()								}{havenutil.ResetParty()		}{}{}{}{}{}{}{}
+{8502	}{<More...>												}{<More...>												}{	8502	}{npc.IsMaxCount() 							}{						}{}{}{}{}{}{}{}
+{8503	}{Feeding time. 											}{Feeding time.											}{		}{npc.IsHuman() and npc.CountLine()					}{havenutil.Feed( npc ) 		}{}{}{}{}{}{}{}
+{8504	}{<More...>												}{<More...>												}{	8504	}{npc.IsMaxCount() 							}{						}{}{}{}{}{}{}{}
+{8505	}{Return to the place I found you. I will come get you if I need you.		}{Return to the place I found you. I will come get you if I need you.		}{		}{(not npc.IsEmbraced()) and npc.CountLine()			}{companion.removeFromParty()		}{}{}{}{}{}{}{}
+{8506	}{<More...>												}{<More...>												}{	8506	}{npc.IsMaxCount() 							}{						}{}{}{}{}{}{}{}
+{8507	}{Nevermind.											}{Nevermind.											}{		}{										}{						}{}{}{}{}{}{}{}
+{8997	}{												}{												}{		}{										}{						}{}{}{}{}{}{}{}
+{8998	}{				[ #################    STARTING CONDITIONS  ################# ]																												}{}{}{}{}{}{}{}{}{}{}{}
+{8999	}{			    									}{			  									}{		}{										}{						}{}{}{}{}{}{}{}
+{9000	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	0	}{companion.storeGlobals(npc) }{}{}{}{}{}{}{}{}
+{9001	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	4	}{havenutil.OnDialogStart(npc)}{}{}{}{}{}{}{}{}
+{9002	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	1540	}{npc.GetData("OName")=="Knox" and npc.GetData("Type")==4 and OneOfSet(1,3)}{}{}{}{}{}{}{}{}
+{9003	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	1550	}{npc.GetData("OName")=="Knox" and npc.GetData("Type")==4 and OneOfSet(2,3)}{}{}{}{}{}{}{}{}
+{9004	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	1560	}{npc.GetData("OName")=="Knox" and npc.GetData("Type")==4 and OneOfSet(3,3)}{}{}{}{}{}{}{}{}
+{9005	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	100	}{npc.GetData("OName")=="Knox"}{}{}{}{}{}{}{}{}
+{9006	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	150	}{npc.GetData("OName")=="Lily" and OneOfSet(1,3)}{}{}{}{}{}{}{}{}
+{9007	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	160	}{npc.GetData("OName")=="Lily" and OneOfSet(2,3)}{}{}{}{}{}{}{}{}
+{9008	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	170	}{npc.GetData("OName")=="Lily" and OneOfSet(3,3)}{}{}{}{}{}{}{}{}
+{9009	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	190	}{npc.GetData("OName")=="Therese"}{}{}{}{}{}{}{}{}
+{9010	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	1520	}{npc.GetData("OName")=="Jeanette" and npc.GetData("Type")==4 and OneOfSet(1,2)}{}{}{}{}{}{}{}{}
+{9011	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	1530	}{npc.GetData("OName")=="Jeanette" and npc.GetData("Type")==4 and OneOfSet(2,2)}{}{}{}{}{}{}{}{}
+{9012	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	180	}{npc.GetData("OName")=="Jeanette" and OneOfSet(1,2)}{}{}{}{}{}{}{}{}
+{9013	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	190	}{npc.GetData("OName")=="Jeanette" and OneOfSet(2,2)}{}{}{}{}{}{}{}{}
+{9014	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	210	}{npc.GetData("OName")=="Tourette" and OneOfSet(1,3)}{}{}{}{}{}{}{}{}
+{9015	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	220	}{npc.GetData("OName")=="Tourette" and OneOfSet(2,3)}{}{}{}{}{}{}{}{}
+{9016	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	230	}{npc.GetData("OName")=="Tourette" and OneOfSet(3,3)}{}{}{}{}{}{}{}{}
+{9017	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	240	}{npc.GetData("OName")=="Vandal"}{}{}{}{}{}{}{}{}
+{9018	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	260	}{npc.GetData("OName")=="E"}{}{}{}{}{}{}{}{}
+{9019	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	270	}{npc.GetData("OName")=="VV" and OneOfSet(1,2)}{}{}{}{}{}{}{}{}
+{9020	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	280	}{npc.GetData("OName")=="VV" and OneOfSet(2,2)}{}{}{}{}{}{}{}{}
+{9021	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	290	}{npc.GetData("OName")=="Heather" and OneOfSet(1,3)}{}{}{}{}{}{}{}{}
+{9022	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	303	}{npc.GetData("OName")=="Heather" and OneOfSet(2,3)}{}{}{}{}{}{}{}{}
+{9023	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	316	}{npc.GetData("OName")=="Heather" and OneOfSet(3,3)}{}{}{}{}{}{}{}{}
+{9024	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	690	}{npc.GetData("OName")=="Yukie" and 1 != npc.GetData("Embraced")}{}{}{}{}{}{}{}{}
+{9025	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	930	}{npc.GetData("OName")=="Yukie" and OneOfSet(1,3)}{}{}{}{}{}{}{}{}
+{9026	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	940	}{npc.GetData("OName")=="Yukie" and OneOfSet(2,3)}{}{}{}{}{}{}{}{}
+{9027	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	950	}{npc.GetData("OName")=="Yukie" and OneOfSet(3,3)}{}{}{}{}{}{}{}{}
+{9028	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	960	}{npc.GetData("OName")=="Damsel" and OneOfSet(1,3)}{}{}{}{}{}{}{}{}
+{9029	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	970	}{npc.GetData("OName")=="Damsel" and OneOfSet(2,3)}{}{}{}{}{}{}{}{}
+{9030	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	980	}{npc.GetData("OName")=="Damsel" and OneOfSet(3,3)}{}{}{}{}{}{}{}{}
+{9031	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	990	}{npc.GetData("OName")=="Skelter" and OneOfSet(1,3)}{}{}{}{}{}{}{}{}
+{9032	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	1000	}{npc.GetData("OName")=="Skelter" and OneOfSet(2,3)}{}{}{}{}{}{}{}{}
+{9033	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	1010	}{npc.GetData("OName")=="Skelter" and OneOfSet(3,3)}{}{}{}{}{}{}{}{}
+{9034	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	1020	}{npc.GetData("OName")=="Ash" and OneOfSet(1,3)}{}{}{}{}{}{}{}{}
+{9035	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	1030	}{npc.GetData("OName")=="Ash" and OneOfSet(2,3)}{}{}{}{}{}{}{}{}
+{9036	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	1030	}{npc.GetData("OName")=="Ash" and npc.GetData("Type")==4 and OneOfSet(3,3)}{}{}{}{}{}{}{}{}
+{9037	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	1040	}{npc.GetData("OName")=="Ash" and OneOfSet(3,3)}{}{}{}{}{}{}{}{}
+{9038	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	1060	}{npc.GetData("OName")=="Boo"}{}{}{}{}{}{}{}{}
+{9039	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	50	}{npc.GetData("Type") < 4	}{}{}{}{}{}{}{}{}
+{9040	}{(STARTING CONDITION)}{(STARTING CONDITION)}{	4	}{		1			}{}{}{}{}{}{}{}{}

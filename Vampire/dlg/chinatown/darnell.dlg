@@ -1,0 +1,35 @@
+{	1	}{	So, you think you can fuck me over and get away with it, bitch?	}{	So, you think you can fuck me over and get away with it, bitch?	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	What are you talking about?	}{	What are you talking about?	}{	14	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your motives are a mystery.	}
+{	3	}{	Yep. That about sums it up.	}{	Yep. That about sums it up.	}{	28	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	4	}{	Uh, no? Look, I'm sorry ... whatever this is about.	}{	Uh, no? Look, I'm sorry ... whatever this is about.	}{	43	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	14	}{	Don't play stupid! Half my boys are dead 'cause of you! We used you up, and now we about to waste you!	}{	Don't play stupid! Half my boys are dead 'cause of you! We used you up, and now we about to waste you!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	15	}{	Bring it!	}{	Bring it!	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Let's see if your muscle is as loud as your words.	}
+{	16	}{	Please! we can settle the matter peacefully.	}{	Please! we can settle the matter peacefully.	}{	43	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	17	}{	Oh, those boys, they were screaming like a girls.	}{	Oh, those boys, they were screaming like a girls.	}{	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	28	}{	Cocky-ass, mother fucker. They gonna have to scrape you off the sidewalk, like we had to scrape our boys outta that parking garage.	}{	Cocky-ass, mother fucker. They gonna have to scrape you off the sidewalk, like we had to scrape our boys outta that parking garage.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	29	}{	There was anything left of your "boys" to scrape?	}{	There was anything left of your "boys" to scrape?	}{	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	30	}{	Whatever. I'll kill you, too.	}{	Whatever. I'll kill you, too.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Deal or no deal? You tell me!	}
+{	43	}{	Yea, keep cryin' like a little bitch. You gonna die like one, too, for what you did to my boys in that garage.	}{	Yea, keep cryin' like a little bitch. You gonna die like one, too, for what you did to my boys in that garage.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	44	}{	Alright, fucking gay, if you want to die tonight let's start.	}{	Alright, fucking gay, if you want to die tonight let's start.	}{	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	45	}{	Fine. I'm not going out without a fight.	}{	Fine. I'm not going out without a fight.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Grrrr!	}
+{	56	}{	We make deals. We break deals. But more than that we don't forget. You ain't useful no more, so now it's time to pay.	}{	We make deals. We break deals. But more than that we don't forget. You ain't useful no more, so now it's time to pay.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	57	}{	Well let's see what you got.	}{	Well let's see what you got.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Let's see if your muscle is as loud as your words.	}
+{	58	}{	Backstabbing bastard!	}{	Backstabbing bastard!	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	69	}{	Keeps runnin' the mouth until the end. Time to shut you up for good!	}{	Keeps runnin' the mouth until the end. Time to shut you up for good!	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	70	}{	...	}{	...	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	81	}{	God damn! They told me you were ugly, but Jesus Christ! I could kill you, but you already dead ... on the outside.	}{	God damn! They told me you were ugly, but Jesus Christ! I could kill you, but you already dead ... on the outside.	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	I'm dead on more than the outside.	}{	I'm dead on more than the outside.	}{	95	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	83	}{	Okay, you're clearly not the mark. I take it this is a death trap?	}{	Okay, you're clearly not the mark. I take it this is a death trap?	}{	108	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	84	}{	I'm tired of you people, never giving my looks a rest!	}{	I'm tired of you people, never giving my looks a rest!	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	95	}{	Uhh ... well ... you gonna BE a corpse in a second. Half my boys died in that parking garage 'cause of yo' scabby ass.	}{	Uhh ... well ... you gonna BE a corpse in a second. Half my boys died in that parking garage 'cause of yo' scabby ass.	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	96	}{	Indeed! Last one who said it to me feeds the worms.	}{	Indeed! Last one who said it to me feeds the worms.	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	97	}{	Let's see you try, smooth skin.	}{	Let's see you try, smooth skin.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	108	}{	You might be ugly but at least you're not dumb. I'll tell you how it is. We used you for awhile, but tonight you're gonna die for what you did.	}{	You might be ugly but at least you're not dumb. I'll tell you how it is. We used you for awhile, but tonight you're gonna die for what you did.	}{	#	}{	npc.SetDisposition("Confused", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	109	}{	Listen, you asshole, this is you look in the face of death, now!	}{	Listen, you asshole, this is you look in the face of death, now!	}{	121	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	110	}{	If you think this is the first time someone caught me off guard, I think you're in for an unpleasant surprise.	}{	If you think this is the first time someone caught me off guard, I think you're in for an unpleasant surprise.	}{	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	121	}{	Then let me wipe that fuckin' boil off your face with this tire iron. Time to die, bitch!	}{	Then let me wipe that fuckin' boil off your face with this tire iron. Time to die, bitch!	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	122	}{	...	}{	...	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	138	}{	...	}{	...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	139	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	140	}{	(Starting Condition)	}{	}{	138	}{	OnBeginDialog(pc,npc,2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	141	}{	(Starting Condition)	}{	}{	81	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}

@@ -1,0 +1,123 @@
+{	1	}{	Koldunic Sorcery: Way of Fire 	}{	Koldunic Sorcery: Way of Fire 	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Standard Powers 		}{	Standard Powers			}{	10	}{	 	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	3	}{	Advanced Powers 		}{	Advanced Powers			}{	20	}{		}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	4	}{	raise your koldunism level	}{	raise your koldunism level	}{	30	}{	G.Koldunism_Level < 5	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	5	}{	None				}{	None				}{	0	}{  		}{	npc.Kill()	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	6	}{		}{		}{		}{	 	}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	7	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	8	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	9	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	10	}{	Choose your koldunism level	}{	Choose your koldunism level	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	11	}{	Level 1: Shatter		}{	Level 1: Shatter		}{	0	}{	Persuasion 1 				}{	ScheduleTask(0.5,'castkoldunism.KoldunicSelectLevel(1)'); npc.Kill()	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	Level 2: Magma Surge 		}{	Level 2: Magma Surge		}{	0	}{	Persuasion 1 & G.Koldunism_Level > 1	}{	ScheduleTask(0.5,'castkoldunism.KoldunicSelectLevel(2)'); npc.Kill()	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	13	}{	Level 3: Gates Of Magma		}{	Level 3: Gates Of Magma		}{	0	}{	Persuasion 1 & G.Koldunism_Level > 2	}{	ScheduleTask(0.5,'castkoldunism.KoldunicSelectLevel(3)'); npc.Kill()	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	14	}{	back				}{	back				}{	1	}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	15	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	16	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	17	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	18	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	19	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	20	}{	Choose your koldunism level	}{	Choose your koldunism level	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	21	}{	Level 4: Heat Wave		}{	Level 4: Heat Wave		}{	0	}{	Persuasion 1 & G.Koldunism_Level > 3	}{	ScheduleTask(0.5,'castkoldunism.KoldunicSelectLevel(4)'); npc.Kill()	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	Level 5: Volcanic Blast		}{	Level 5: Volcanic Blast		}{	0	}{	Persuasion 1 & G.Koldunism_Level > 4	}{	ScheduleTask(0.5,'castkoldunism.KoldunicSelectLevel(5)'); npc.Kill()	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	23	}{	back				}{	back				}{	1	}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	24	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	25	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	26	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	27	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	28	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	29	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	30	}{	raise your koldunism level	}{	raise your koldunism level	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	31	}{	Level 2: Magma Surge		}{	Level 2: Magma Surge		}{	40	}{	G.Koldunism_Level < 2	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	32	}{	Level 3: Gates Of Magma		}{	Level 3: Gates Of Magma		}{	50	}{	G.Koldunism_Level == 2	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	33	}{	Level 4: Heat Wave		}{	Level 4: Heat Wave		}{	60	}{	G.Koldunism_Level == 3	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	34	}{	Level 5: Volcanic Blast		}{	Level 5: Volcanic Blast		}{	70	}{	G.Koldunism_Level == 4	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	35	}{	back				}{	back				}{	1	}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	36	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	37	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	38	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	39	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	40	}{	Level 2: Magma Surge - koldun causes magma to bubble up to the surface. Damage over a large area for 10 sec. To raise need 6 xp	}{	Level 2: Magma Surge - koldun causes magma to bubble up to the surface. Damage over a large area for 10 sec. To raise need 6 xp	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	41	}{	Raise koldunism to Level 2: Magma Surge <spend 6 xp>	}{	Raise koldunism to Level 2: Magma Surge <spend 6 xp>	}{	0	}{	pc.base_experience >= 6	}{	ScheduleTask(0.5,'castkoldunism.KoldunicPlayerFixXp(6)'); npc.Kill(); G.Koldunism_Level = 2; __main__.ccmd.SoundDiscipline=""	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	back					}{		back				}{	1	}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	43	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	44	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	45	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	46	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	47	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	48	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	49	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	50	}{	Level 3: Gates Of Magma - koldun summons magma to protect themselves for 10 sec. To raise need 12 xp	}{	Level 3: Gates Of Magma - koldun summons magma to protect themselves for 10 sec. To raise need 12 xp	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	51	}{	Raise koldunism to Level 3: Gates Of Magma <spend 12 xp>	}{	Raise koldunism to Level 3: Gates Of Magma <spend 12 xp>	}{	0	}{	pc.base_experience >= 12	}{	ScheduleTask(0.5,'castkoldunism.KoldunicPlayerFixXp(12)'); npc.Kill(); G.Koldunism_Level = 3; __main__.ccmd.SoundDiscipline=""	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	52	}{	back	}{	back	}{	1	}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	53	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	54	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	55	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	56	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	57	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	58	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	59	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	60	}{	Level 4: Heat Wave - koldun creates a blistering wind that can kill a target. To raise need 18 xp	}{	Level 4: Heat Wave - koldun creates a blistering wind that can kill a target. To raise need 18 xp	}{	#	}{	}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	61	}{	Raise koldunism to Level 4: Heat Wave <spend 18 xp>		}{	Raise koldunism to Level 4: Heat Wave <spend 18 xp>		}{	0	}{	pc.base_experience >= 18	}{	ScheduleTask(0.5,'castkoldunism.KoldunicPlayerFixXp(18)'); npc.Kill(); G.Koldunism_Level = 4; __main__.ccmd.SoundDiscipline=""	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	back	}{	back	}{	1	}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	63	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	64	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	65	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	66	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	67	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	68	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	69	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	70	}{	Level 5: Volcanic Blast - koldun commands lava to explode from the ground in a huge geyser. To raise need 24 xp	}{	Level 5: Volcanic Blast - koldun commands lava to explode from the ground in a huge geyser. To raise need 24 xp	}{	#	}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	71	}{	Raise koldunism to Level 5: Volcanic Blast <spend 24 xp>	}{	Raise koldunism to Level 5: Volcanic Blast <spend 24 xp>	}{	0	}{	pc.base_experience >= 24	}{	ScheduleTask(0.5,'castkoldunism.KoldunicPlayerFixXp(24)'); npc.Kill(); G.Koldunism_Level = 5; __main__.ccmd.SoundDiscipline=""	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	back	}{	back	}{	1	}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	73	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	74	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	75	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	76	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	77	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	78	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	79	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	80	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	90	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	91	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	92	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	93	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	94	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	95	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	96	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	97	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	98	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	99	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	100	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	111	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	112	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	113	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	114	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	115	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	116	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	117	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	118	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	119	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	120	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	121	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	122	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	123	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	124	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	125	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	126	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	127	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	128	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	129	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	130	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	131	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	132	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	133	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	134	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	135	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	136	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	137	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	138	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	139	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	140	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	141	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}
+{	142	}{		}{		}{		}{		}{		}{	}{	}{	}{	}{	}{	}{	}{	}

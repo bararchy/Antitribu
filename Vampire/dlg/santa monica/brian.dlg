@@ -1,0 +1,54 @@
+{	1	}{	[Angry, goon-like]Help ya?	}{	[Angry, goon-like]Help ya?	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Brian_First=1	}{	}{	}{	}{	}{	}{	}{	}
+{	2	}{	Relax. I'm here to buy you-know from you-know-who.	}{	Relax. I'm here to buy you-know from you-know-who.	}{	41	}{	Persuasion 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	3	}{	Yeah. You can start by moving the hell out of my way.	}{	Yeah. You can start by moving the hell out of my way.	}{	41	}{	Intimidate 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	4	}{	Let me in.	}{	Let me in.	}{	41	}{	Dominate 1 and isclan (pc,"Brujah") or isclan (pc,"Malkavian") or isclan (pc,"Ventrue")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	6	}{	Do I look dangerous to you? I'm sure a big man like you isn't scared of me.	}{	Do I look dangerous to you? I'm sure a big man like you isn't scared of me.	}{	71	}{	M_Seduction 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	7	}{	Do I look dangerous to you? I'm sure a big man like you isn't scared of me.	}{	Do I look dangerous to you? I'm sure a big man like you isn't scared of me.	}{	61	}{	F_Seduction 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	8	}{	I need to get inside. I need to buy some Astrolite.	}{	I need to get inside. I need to buy some Astrolite.	}{	11	}{	Persuasion -3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	9	}{	Yeah, I've always wondered if it's true intestines unravel to be 20 feet long.	}{	Yeah, I've always wondered if it's true intestines unravel to be 20 feet long.	}{	151	}{	}{	}{	}{	}{	}{	}{	}{	}{	I wonder what your brains look like in this light.	}
+{	11	}{	Oh, really? You call ahead? The man expecting you? Cuz he didn't tell me to expect anybody.	}{	Oh, really? You call ahead? The man expecting you? Cuz he didn't tell me to expect anybody.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	12	}{	You can just keep standing there if you want. Find out what happens.	}{	You can just keep standing there if you want. Find out what happens.	}{	41	}{	Intimidate 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	13	}{	Let me in.	}{	Let me in.	}{	41	}{	Dominate 1 and isclan (pc,"Brujah") or isclan (pc,"Malkavian") or isclan (pc,"Ventrue")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	15	}{	Do I look dangerous to you? I'm sure a big man like you isn't scared of me.	}{	Do I look dangerous to you? I'm sure a big man like you isn't scared of me.	}{	71	}{	M_Seduction 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	16	}{	Do I look dangerous to you? I'm sure a big man like you isn't scared of me.	}{	Do I look dangerous to you? I'm sure a big man like you isn't scared of me.	}{	61	}{	F_Seduction 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	17	}{	Yeah, he's expecting me.	}{	Yeah, he's expecting me.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	18	}{	Really? Did he tell you to expect my foot up your ass?	}{	Really? Did he tell you to expect my foot up your ass?	}{	151	}{	}{	}{	}{	}{	}{	}{	}{	}{	Are your expectations of great pain and bleeding?	}
+{	20	}{	My mistake. I'd better cruise.	}{	My mistake. I'd better cruise.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	21	}{	Nice try, prick. Now get the fuck outta here before I use your head for batting practice.	}{	Nice try, prick. Now get the fuck outta here before I use your head for batting practice.	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	22	}{	Go ahead and try if you've got the stones for it.	}{	Go ahead and try if you've got the stones for it.	}{	41	}{	Intimidate 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	23	}{	Let me in.	}{	Let me in.	}{	41	}{	Dominate 1 and isclan(pc,"Brujah") or isclan(pc,"Malkavian") or isclan(pc,"Ventrue")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	25	}{	Do I look dangerous to you? I'm sure a big man like you isn't scared of me.	}{	Do I look dangerous to you? I'm sure a big man like you isn't scared of me.	}{	71	}{	M_Seduction 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	26	}{	Do I look dangerous to you? I'm sure a big man like you isn't scared of me.	}{	Do I look dangerous to you? I'm sure a big man like you isn't scared of me.	}{	61	}{	F_Seduction 3	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	27	}{	That's it. You're a dead man.	}{	That's it. You're a dead man.	}{	151	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	29	}{	Okay, okay. I'm outta here.	}{	Okay, okay. I'm outta here.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	41	}{	Okay, you can go on in. And if you really want to make my night, go ahead and start some shit in there cuz I would love it.	}{	Okay, you can go on in. And if you really want to make my night, go ahead and start some shit in there cuz I would love it.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Brian_Permission = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	42	}{	I'll remember that. Thanks.	}{	I'll remember that. Thanks.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	43	}{	I'm sure your personality has nothing to do with your being out here.	}{	I'm sure your personality has nothing to do with your being out here.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	44	}{	Let's hope it doesn't come to that for your sake.	}{	Let's hope it doesn't come to that for your sake.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	61	}{	I tell you what... I'll let you in. If on your way out, you want to work out a little fair trade for future purchases, you come see me. I'm Brian.	}{	I tell you what... I'll let you in. If on your way out, you want to work out a little fair trade for future purchases, you come see me. I'm Brian.	}{	#	}{	npc.SetDisposition("Flirt", 1)	}{	G.Brian_Permission = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	62	}{	I'll think about that, Brian. See you.	}{	I'll think about that, Brian. See you.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	71	}{	[Disgusted]Dude! Just go in... ugh.	}{	[Disgusted]Dude! Just go in... ugh.	}{	#	}{	npc.SetDisposition("Disgust", 1)	}{	G.Brian_Permission = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	72	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	81	}{	Go see the man. I'm about to change my mind.	}{	Go see the man. I'm about to change my mind.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Brian_Permission = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	91	}{	[shocked]Oh shit!	}{	[shocked]Oh shit!	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	}
+{	92	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	101	}{	Keep walking, freak! Seriously, get out of my sight.	}{	Keep walking, freak! Seriously, get out of my sight.	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	102	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	111	}{	You, oh- What is it now? Didn't I tell you to get lost?	}{	You, oh- What is it now? Didn't I tell you to get lost?	}{	#	}{	npc.SetDisposition("Anger", 2)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	112	}{	Uhh... no?	}{	Uhh... no?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	113	}{	Yes, but I decided not to.	}{	Yes, but I decided not to.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	120	}{	Yes, I'm leaving.	}{	Yes, I'm leaving.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	121	}{	Everyone out here, now!	}{	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	131	}{	<Groans in pain>	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	141	}{	<Dies>	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	151	}{	You just made my night, asshole!	}{	You just made my night, asshole!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	152	}{	Mine too!	}{	Mine too!	}{	0	}{	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	}
+{	175	}{	...	}{	...	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	176	}{	(Auto-End)	}{	(Auto-End)	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	179	}{	(Starting Condition)	}{	}{	175	}{	OnBeginDialog(pc,npc,20)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	180	}{	(Starting Condition)	}{	}{	101	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	181	}{	(Starting Condition)	}{	}{	81	}{	G.Brian_Permission == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	182	}{	(Starting Condition)	}{	}{	91	}{	not pc.HasWeaponEquipped("item_w_fists") and not pc.HasWeaponEquipped("item_w_unarmed")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	183	}{	(Starting Condition)	}{	}{	111	}{	G.Brian_First==1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	184	}{	(Starting Condition)	}{	}{	1	}{	1	}{	}{	}{	}{	}{	}{	}{	}{	}
