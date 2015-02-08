@@ -1,0 +1,48 @@
+// Choreo version 1
+actor "Bertram"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 11.707120
+      param "character/dlg/santa monica/bertram/line681_col_e.wav"
+      param2 "60dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 0.950000 1.060000
+      param "0.110"
+    }
+    event silence "Silence"
+    {
+      time 2.540000 2.860000
+      param "0.320"
+    }
+    event silence "Silence"
+    {
+      time 6.610000 6.910000
+      param "0.300"
+    }
+    event loud "Loud"
+    {
+      time 2.930000 3.040000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 7.000000 7.120000
+      param "0.120"
+    }
+  }
+}
+
+fps 60
+snap off

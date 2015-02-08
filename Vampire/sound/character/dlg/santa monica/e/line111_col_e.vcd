@@ -1,0 +1,82 @@
+// Choreo version 1
+actor "E"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 18.717642
+      param "character/dlg/santa monica/e/line111_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 1.890000 2.000000
+      param "0.110"
+    }
+    event silence "Silence"
+    {
+      time 3.330000 3.460000
+      param "0.130"
+    }
+    event silence "Silence"
+    {
+      time 3.640000 4.220000
+      param "0.580"
+    }
+    event silence "Silence"
+    {
+      time 5.270000 6.320000
+      param "1.050"
+    }
+    event silence "Silence"
+    {
+      time 8.440000 8.679999
+      param "0.240"
+    }
+    event silence "Silence"
+    {
+      time 10.030000 10.580000
+      param "0.550"
+    }
+    event silence "Silence"
+    {
+      time 11.940000 12.900000
+      param "0.960"
+    }
+    event silence "Silence"
+    {
+      time 15.020000 16.000000
+      param "0.980"
+    }
+    event loud "Loud"
+    {
+      time 7.030000 7.140000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 9.429999 9.540000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 10.800000 10.950000
+      param "0.150"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

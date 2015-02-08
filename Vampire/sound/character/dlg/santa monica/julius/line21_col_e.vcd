@@ -1,0 +1,37 @@
+// Choreo version 1
+actor "Julius"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 5.280817
+      param "character/dlg/santa monica/julius/line21_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 5.170000 5.300000
+      param "0.130"
+    }
+    event loud "Loud"
+    {
+      time 3.310000 3.420000
+      param "0.110"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

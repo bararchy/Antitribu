@@ -1,0 +1,233 @@
+// Choreo version 1
+actor "!playercontroller"
+{
+  channel "Anim"
+  {
+    event sequence "ninesintro_part2_bip1"
+    {
+      time 0.000000 50.932999
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+actor "sabbat1"
+{
+  channel "Anim"
+  {
+    event sequence "ninesintro_part2_bip1"
+    {
+      time 0.006667 50.932999
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  channel "VO"
+  {
+    event speak "sabbat1_line496"
+    {
+      time 3.993333 6.946236
+      param "Character\dlg\GENERIC\Sabbat1\line496_col_e.mp3"
+      fixedlength
+    }
+    event speak "sabbat1_line497"
+    {
+      time 19.066666 32.259567
+      param "Character\dlg\GENERIC\Sabbat1\line497_col_e.mp3"
+      fixedlength
+    }
+    event speak "bellyshot"
+    {
+      time 43.619995 44.228977
+      param "Weapons\Ranged\Anaconda\Attack_1.wav"
+      fixedlength
+    }
+  }
+  channel "Expressions"
+  {
+    event expression "Sly Smile 02"
+    {
+      time 8.266666 16.513336
+      param "sabbat_henchman_expressions"
+      param2 "Sly Smile"
+      event_ramp
+      {
+        0.2222 0.9607
+        8.0222 0.9656
+      }
+    }
+    event expression "Enraged 02"
+    {
+      time 17.740000 28.006670
+      param "sabbat_henchman_expressions"
+      param2 "Anger_No Deform "
+      event_ramp
+      {
+        0.3444 0.9705
+        9.9400 0.9779
+      }
+    }
+    event expression "Enraged 03"
+    {
+      time 38.353333 40.086666
+      param "sabbat_henchman_expressions"
+      param2 "Enraged"
+      event_ramp
+      {
+        0.2462 0.9828
+        1.5000 0.9754
+      }
+    }
+    event expression "Very Frightened"
+    {
+      time 39.886665 43.853333
+      param "sabbat_henchman_expressions"
+      param2 "Very Frightened"
+      event_ramp
+      {
+        0.2385 0.9902
+        3.6380 0.9779
+      }
+    }
+  }
+  bonerename "Bip04" "Bip01"
+}
+
+actor "sabbat2"
+{
+  channel "Anim"
+  {
+    event sequence "ninesintro_part2_bip1"
+    {
+      time 0.000000 50.932999
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  channel "VO"
+  {
+    event speak "sabbat2_line4"
+    {
+      time 7.486667 12.816711
+      param "Character\dlg\GENERIC\Sabbat2\line4_col_e.mp3"
+      fixedlength
+    }
+  }
+  channel "Expressions"
+  {
+    event expression "laugh 01"
+    {
+      time 8.613334 11.253334
+      param "shovelhead_short_expressions"
+      param2 "laugh"
+      event_ramp
+      {
+        0.1280 0.9558
+        2.2889 0.9656
+      }
+    }
+    event expression "Enraged 01"
+    {
+      time 17.720001 27.926668
+      param "shovelhead_short_expressions"
+      param2 "Enraged"
+      event_ramp
+      {
+        0.2296 0.9459
+        9.8571 0.9803
+      }
+    }
+  }
+  channel "Expressions2"
+  {
+    event expression "Sly Smile 01"
+    {
+      time 10.946668 16.213333
+      param "shovelhead_short_expressions"
+      param2 "Sly Smile"
+      event_ramp
+      {
+        0.2556 0.9337
+        5.0770 0.9410
+      }
+    }
+  }
+  bonerename "Bip02" "Bip01"
+}
+
+actor "sabbat3"
+{
+  channel "Anim"
+  {
+    event sequence "ninesintro_part2_bip1"
+    {
+      time 0.000000 50.932999
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  channel "triggers"
+  {
+    event firetrigger "tummyblast"
+    {
+      time 43.733002 -1.000000
+      param "1"
+    }
+  }
+  channel "VO"
+  {
+    event speak "sabbat3_line21"
+    {
+      time 12.606667 15.846916
+      param "Character\dlg\GENERIC\Sabbat3\line21_col_e.mp3"
+      fixedlength
+    }
+  }
+  channel "Expressions"
+  {
+    event expression "Confused 01"
+    {
+      time 8.080001 12.833334
+      param "shovelhead_short_expressions"
+      param2 "Confused"
+      event_ramp
+      {
+        0.3308 0.9754
+        4.5154 0.9705
+      }
+    }
+    event expression "Anger 05"
+    {
+      time 14.673334 16.020000
+      param "shovelhead_short_expressions"
+      param2 "Anger"
+      event_ramp
+      {
+        0.2462 0.9828
+        1.1538 0.9828
+      }
+    }
+  }
+  channel "Expressions2"
+  {
+    event expression "Raised Both 01"
+    {
+      time 12.620001 14.940001
+      param "shovelhead_short_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.2462 0.7322
+        0.3538 0.7396
+        1.9467 0.7396
+        2.0159 0.7273
+      }
+    }
+  }
+  bonerename "Bip03" "Bip01"
+}
+
+fps 60
+snap off

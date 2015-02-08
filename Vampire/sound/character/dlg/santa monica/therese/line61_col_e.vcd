@@ -1,0 +1,64 @@
+// Choreo version 1
+actor "Therese"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 9.796984
+      param "character/dlg/santa monica/therese/line61_col_e.wav"
+      param2 "60dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+    event gesture "Therese_Line61_Col_E"
+    {
+      time 0.000000 10.000000
+      param "Therese_Line61_Col_E"
+    }
+  }
+  channel "Speech Triggers"
+  {
+    event expression "Apathy"
+    {
+      time 0.000000 3.853333
+      param "therese_expressions"
+      param2 "Apathy"
+    }
+    event expression "Lowered Right"
+    {
+      time 5.266666 10.006665
+      param "therese_expressions"
+      param2 "Lowered Right"
+      event_ramp
+      {
+        0.2900 0.6780
+        1.6060 0.6356
+      }
+    }
+    event expression "Raised Both"
+    {
+      time 3.860000 5.266667
+      param "therese_expressions"
+      param2 "Raised Both"
+    }
+  }
+  channel "express"
+  {
+    event expression "Raised Both"
+    {
+      time 1.660000 3.680000
+      param "therese_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.1940 0.9661
+      }
+    }
+  }
+}
+
+fps 60
+snap off

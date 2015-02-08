@@ -1,0 +1,48 @@
+// Choreo version 1
+actor "Therese"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 10.169887
+      param "character/dlg/santa monica/therese/line351_col_e.wav"
+      param2 "60dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 2.290000 2.680000
+      param "0.390"
+    }
+    event silence "Silence"
+    {
+      time 4.750000 5.080000
+      param "0.330"
+    }
+    event silence "Silence"
+    {
+      time 5.910000 6.360000
+      param "0.450"
+    }
+    event silence "Silence"
+    {
+      time 8.210000 8.520000
+      param "0.310"
+    }
+    event loud "Loud"
+    {
+      time 0.190000 0.360000
+      param "0.170"
+    }
+  }
+}
+
+fps 60
+snap off

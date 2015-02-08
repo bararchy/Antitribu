@@ -1,0 +1,57 @@
+// Choreo version 1
+actor "Trip"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 14.401224
+      param "character/dlg/santa monica/trip/line31_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 7.500000 8.230000
+      param "0.730"
+    }
+    event silence "Silence"
+    {
+      time 11.050000 11.219999
+      param "0.170"
+    }
+    event silence "Silence"
+    {
+      time 12.520000 12.860000
+      param "0.340"
+    }
+    event silence "Silence"
+    {
+      time 14.259999 14.440000
+      param "0.180"
+    }
+    event loud "Loud"
+    {
+      time 9.179999 9.290000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 12.120000 12.270000
+      param "0.150"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

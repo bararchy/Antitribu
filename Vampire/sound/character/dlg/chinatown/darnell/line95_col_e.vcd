@@ -1,0 +1,21 @@
+// Choreo version 1
+actor "darnell"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 8.000
+      param "character/dlg/chinatown/darnell/line95_col_e.wav"
+      param2 "120dB"
+      fixedlength
+    }
+  }
+  
+  
+  
+  
+}
+
+fps 60
+snap off

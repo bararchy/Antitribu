@@ -1,0 +1,19 @@
+// Choreo version 1
+actor "robbery_victim"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 2.013
+      param "character/dlg/hollywood/robbery_victim/line30_col_e.wav"
+      param2 "120dB"
+      fixedlength
+    }
+  }
+
+ 
+}
+
+fps 60
+snap off

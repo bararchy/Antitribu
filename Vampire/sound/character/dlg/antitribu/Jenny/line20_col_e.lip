@@ -1,0 +1,31 @@
+VERSION 1.2
+PLAINTEXT
+{
+"alright" 
+}
+WORDS
+{
+WORD alright 0.000 0.532
+{
+111 ow 0.000 0.150 1.000 0
+108 l 0.150 0.189 1.000 0
+633 r 0.189 0.244 1.000 0
+593 ay 0.244 0.363 1.000 0
+116 t 0.363 0.532 1.000 0
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE unicode 16 " a l r i g h t "  0.000 0.532
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Jenny
+}

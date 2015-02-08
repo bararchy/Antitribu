@@ -1,0 +1,37 @@
+// Choreo version 1
+actor "Tessa"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line 1"
+    {
+      time 0.000 3.982
+      param "character/dlg/antitribu/Tessa/line1_col_e.wav"
+      param2 "120dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+        event expression "Expressions 1"
+        {
+          time 0.000 3.982
+          param "serial_killer"
+          param2 "Mad"
+          event_ramp
+          {
+            1.0000 0.0000
+          }
+        }
+  }
+  channel "Speech Triggers"
+  {
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

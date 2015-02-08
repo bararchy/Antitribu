@@ -1,0 +1,52 @@
+// Choreo version 1
+actor "Therese"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time -0.000000 14.446780
+      param "character/dlg/santa monica/therese/line281_col_e.wav"
+      param2 "60dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+    event gesture "Therese_Line281_Col_E"
+    {
+      time 0.000000 14.459999
+      param "Therese_Line281_Col_E"
+      sequenceduration 12.500000
+    }
+  }
+  channel "Speech Triggers"
+  {
+    event expression "Mad"
+    {
+      time 0.940000 14.453335
+      param "therese_expressions"
+      param2 "Mad"
+      event_ramp
+      {
+        0.0080 1.0000
+        0.1860 1.0000
+        13.5060 1.0000
+      }
+    }
+    event expression "Enraged"
+    {
+      time 0.006667 1.006667
+      param "therese_expressions"
+      param2 "Enraged"
+      event_ramp
+      {
+        0.0040 0.9910
+        1.0000 0.9820
+      }
+    }
+  }
+}
+
+fps 60
+snap off

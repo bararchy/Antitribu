@@ -1,0 +1,47 @@
+// Choreo version 1
+actor "Tourette"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time -2.480000 9.021044
+      param "character\dlg\santa monica\tourette\line921_col_e.wav"
+      param2 "60dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+    event gesture "Struggle"
+    {
+      time 0.060000 8.900000
+      param "Tourette_ShootsHerself"
+      sequenceduration 8.666667
+    }
+  }
+  channel "Speech Triggers"
+  {
+  }
+  channel "Scripts"
+  {
+    event python "muzzle_flash"
+    {
+      time 3.667000 -1.000000
+      param "touretteMuzzleFlash()"
+      param2 "touretteMuzzleFlash()"
+    }
+  }
+  channel "Wavs"
+  {
+    event speak "Gunshot"
+    {
+      time 2.933333 3.851791
+      param "Weapons\Ranged\Anaconda\Attack_1.wav"
+      fixedlength
+    }
+  }
+}
+
+fps 60
+snap off

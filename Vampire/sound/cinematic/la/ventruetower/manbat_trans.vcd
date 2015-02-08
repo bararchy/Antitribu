@@ -1,0 +1,32 @@
+// Choreo version 1
+actor "ManBat"
+{
+  channel "Anim"
+  {
+    event sequence "Manbat_Trans"
+    {
+      time 0.000000 6.633
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+actor "!playercontroller"
+{
+  channel "Anim"
+  {
+    event sequence "Manbat_Trans"
+    {
+      time 0.000000 6.633
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip02" "Bip01"
+}
+
+
+fps 60
+snap off

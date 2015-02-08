@@ -1,0 +1,18 @@
+// Choreo version 1
+actor "Sheriff"
+{
+  channel "Anim"
+  {
+    event sequence "embrace"
+    {
+      time 0.000000 57.632999
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip05" "Bip01"
+}
+
+
+fps 60
+snap off

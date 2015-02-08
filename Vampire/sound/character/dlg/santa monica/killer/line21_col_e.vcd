@@ -1,0 +1,47 @@
+// Choreo version 1
+actor "Killer"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 5.017800
+      param "character/dlg/santa monica/killer/line21_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 1.360000 1.890000
+      param "0.530"
+    }
+    event silence "Silence"
+    {
+      time 3.360000 3.490000
+      param "0.130"
+    }
+    event silence "Silence"
+    {
+      time 4.780000 5.040000
+      param "0.260"
+    }
+    event loud "Loud"
+    {
+      time 0.410000 0.540000
+      param "0.130"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

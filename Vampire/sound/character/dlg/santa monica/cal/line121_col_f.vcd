@@ -1,0 +1,43 @@
+// Choreo version 1
+actor "Cal"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 3.988050
+      param "character/dlg/santa monica/cal/line121_col_f.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+    event gesture "dialog_line121_Col_E"
+    {
+      time 0.000000 3.993333
+      param "dialog_line121_Col_E"
+      event_ramp
+      {
+        0.0000 1.0000
+        3.6560 1.0000
+      }
+      sequenceduration 1.833333
+    }
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event loud "Loud"
+    {
+      time 2.210000 2.320000
+      param "0.110"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

@@ -1,0 +1,16 @@
+// Choreo version 1
+actor "Final_poor_sap"
+{
+  channel "Anim"
+  {
+    event sequence "Male_scripted_bloodyDoor"
+    {
+      time 0.000000 5.333300
+      param "entire_scene"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

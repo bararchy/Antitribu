@@ -1,0 +1,47 @@
+// Choreo version 1
+actor "Lily"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 3.959025
+      param "character/dlg/santa monica/lily/line151_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 0.370000 0.840000
+      param "0.470"
+    }
+    event silence "Silence"
+    {
+      time 1.690000 2.030000
+      param "0.340"
+    }
+    event silence "Silence"
+    {
+      time 2.400000 2.950000
+      param "0.550"
+    }
+    event loud "Loud"
+    {
+      time 1.020000 1.180000
+      param "0.160"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

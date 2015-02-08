@@ -1,0 +1,532 @@
+// Choreo version 1
+actor "Prince1"
+{
+  channel "Anim"
+  {
+    event sequence "courtroom"
+    {
+      time 0.000000 150.000000
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  channel "VO"
+  {
+    event speak "prince_line1015"
+    {
+      time 4.993334 36.367462
+      param "Character\dlg\Downtown LA\prince1\line1015_col_f.mp3"
+      fixedlength
+    }
+    event speak "prince_line1014"
+    {
+      time 0.453333 1.107460
+      param "Character\dlg\Downtown LA\prince1\line1014_col_f.mp3"
+      fixedlength
+    }
+    event speak "prince_line1014e"
+    {
+      time 2.973334 4.306644
+      param "Character\dlg\Downtown LA\prince1\line1014_col_e.mp3"
+      fixedlength
+    }
+    event speak "prince_line1016e"
+    {
+      time 36.899998 84.861877
+      param "Character\dlg\Downtown LA\prince1\line1016_col_e.mp3"
+      fixedlength
+    }
+    event speak "prince_line1017"
+    {
+      time 86.680000 88.379028
+      param "Character\dlg\Downtown LA\prince1\line1017_col_e.mp3"
+      fixedlength
+    }
+    event speak "prince_line1018"
+    {
+      time 89.946663 91.724052
+      param "Character\dlg\Downtown LA\prince1\line1018_col_e.mp3"
+      fixedlength
+    }
+    event speak "prince_line1019m"
+    {
+      time 99.920006 116.979034
+      param "Character\dlg\Downtown LA\prince1\line1019_col_m.mp3"
+      fixedlength
+    }
+    event speak "prince_line1020"
+    {
+      time 130.000000 132.926773
+      param "Character\dlg\Downtown LA\prince1\line1020_col_e.mp3"
+      fixedlength
+    }
+    event speak "prince_line1021e"
+    {
+      time 133.739990 155.814529
+      param "Character\dlg\Downtown LA\prince1\line1021_col_e.mp3"
+      fixedlength
+    }
+  }
+  channel "expressions"
+  {
+    event expression "Raised Both 01"
+    {
+      time 4.980000 5.980000
+      param "lacroix_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.1240 1.0000
+        0.1940 1.0000
+        0.8180 1.0000
+        0.8720 1.0000
+      }
+    }
+    event expression "Raised Both 02"
+    {
+      time 7.373334 9.166668
+      param "lacroix_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.1200 0.9672
+        1.6756 0.9532
+      }
+    }
+    event expression "Raised Both 03"
+    {
+      time 36.886669 38.006664
+      param "lacroix_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.1133 0.9859
+        0.9978 0.9602
+      }
+    }
+    event expression "Raised Left 01"
+    {
+      time 39.640003 40.573338
+      param "lacroix_expressions"
+      param2 "Raised Left"
+      event_ramp
+      {
+        0.1644 0.9625
+        0.7400 0.9063
+      }
+    }
+    event expression "Concern No Deform 02"
+    {
+      time 41.440002 42.680004
+      param "lacroix_expressions"
+      param2 "Concern No Deform"
+      event_ramp
+      {
+        0.1844 0.9438
+        1.1022 0.9696
+      }
+    }
+    event expression "Anger 01"
+    {
+      time 43.253334 45.913334
+      param "lacroix_expressions"
+      param2 "Anger"
+      event_ramp
+      {
+        0.1044 0.6276
+        0.1289 0.6370
+        0.8880 0.9953
+        2.4453 0.6909
+      }
+    }
+    event expression "Raised Both 05"
+    {
+      time 55.619999 56.566666
+      param "lacroix_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.1419 0.9649
+        0.8241 0.9555
+      }
+    }
+    event expression "Squint 01"
+    {
+      time 64.520004 66.760002
+      param "lacroix_expressions"
+      param2 "Squint"
+      event_ramp
+      {
+        0.1548 0.9742
+        2.1065 0.9602
+      }
+    }
+    event expression "Concern No Deform 03"
+    {
+      time 68.639999 70.193329
+      param "lacroix_expressions"
+      param2 "Concern No Deform"
+      event_ramp
+      {
+        0.2419 0.9438
+        1.4662 0.9742
+      }
+    }
+    event expression "Raised Both 07"
+    {
+      time 73.239990 74.220001
+      param "lacroix_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.1323 0.9602
+        0.8247 0.9274
+      }
+    }
+    event expression "Raised Both 08"
+    {
+      time 77.859993 78.679993
+      param "lacroix_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.1194 0.9672
+        0.6813 0.9578
+      }
+    }
+    event expression "Squint 03"
+    {
+      time 82.080002 83.660011
+      param "lacroix_expressions"
+      param2 "Squint"
+      event_ramp
+      {
+        0.2345 0.9391
+        1.4276 0.9438
+      }
+    }
+    event expression "Sad 02"
+    {
+      time 86.473328 88.673340
+      param "lacroix_expressions"
+      param2 "Sad"
+      event_ramp
+      {
+        0.2227 0.9251
+        1.6751 0.8851
+      }
+    }
+    event expression "Raised Both 10"
+    {
+      time 89.739998 91.839996
+      param "lacroix_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.2318 0.9296
+        1.9773 0.9718
+      }
+    }
+    event expression "Raised Both 11"
+    {
+      time 100.000008 101.420006
+      param "lacroix_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.1020 0.9531
+        1.3060 0.9272
+      }
+    }
+    event expression "Raised Both 12"
+    {
+      time 104.986671 107.119995
+      param "lacroix_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.1140 0.7066
+        0.1853 0.7066
+        1.9163 0.7066
+        1.9962 0.7066
+      }
+    }
+    event expression "Raised Both 13"
+    {
+      time 110.300003 112.046669
+      param "lacroix_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.1176 0.9765
+        1.6057 0.9554
+      }
+    }
+    event expression "Concern No Deform 07"
+    {
+      time 114.386665 115.433327
+      param "lacroix_expressions"
+      param2 "Concern No Deform"
+      event_ramp
+      {
+        0.2176 0.9577
+        0.9055 0.9577
+      }
+    }
+    event expression "Raised Left 02"
+    {
+      time 117.239998 127.773338
+      param "lacroix_expressions"
+      param2 "Raised Left"
+      event_ramp
+      {
+        0.1088 0.9859
+        10.2294 0.9742
+      }
+    }
+    event expression "Raised Both 15"
+    {
+      time 130.040009 131.886673
+      param "lacroix_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.1471 0.9671
+        1.7147 0.9531
+      }
+    }
+    event expression "Raised Both 16"
+    {
+      time 133.813339 135.126678
+      param "lacroix_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.1176 0.9577
+        1.1986 0.9812
+      }
+    }
+    event expression "Raised Both 17"
+    {
+      time 136.073349 136.613342
+      param "lacroix_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.1029 0.9836
+        0.4473 0.9789
+      }
+    }
+    event expression "Raised Both 18"
+    {
+      time 137.433365 140.220032
+      param "lacroix_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.2293 0.9577
+        2.6188 0.9765
+      }
+    }
+  }
+  channel "expressions2"
+  {
+    event expression "Concern No Deform 01"
+    {
+      time 5.886667 7.506667
+      param "lacroix_expressions"
+      param2 "Concern No Deform"
+      event_ramp
+      {
+        0.0880 0.7869
+        0.1860 0.8478
+        0.2200 0.8478
+        1.3100 0.8478
+        1.3540 0.8478
+        1.4380 0.7799
+      }
+    }
+    event expression "Sad 01"
+    {
+      time 39.653336 40.586670
+      param "lacroix_expressions"
+      param2 "Lowered Right"
+      event_ramp
+      {
+        0.1489 0.9696
+        0.7133 0.9813
+      }
+    }
+    event expression "Raised Both 4"
+    {
+      time 42.546669 43.326668
+      param "lacroix_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.1244 0.9766
+        0.6556 0.9532
+      }
+    }
+    event expression "Raised Both 06"
+    {
+      time 66.640007 68.873329
+      param "lacroix_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.1129 0.9813
+        1.9946 0.9485
+      }
+    }
+    event expression "Squint 02"
+    {
+      time 75.260002 77.513344
+      param "lacroix_expressions"
+      param2 "Squint"
+      event_ramp
+      {
+        0.1645 0.9555
+        2.1067 0.9297
+      }
+    }
+    event expression "Concern No Deform 04"
+    {
+      time 79.626648 81.586647
+      param "lacroix_expressions"
+      param2 "Concern No Deform"
+      event_ramp
+      {
+        0.1419 0.9719
+        1.7946 0.9602
+      }
+    }
+    event expression "Raised Both 09"
+    {
+      time 83.559990 84.086670
+      param "lacroix_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.1409 0.9813
+        0.3661 0.9766
+      }
+    }
+    event expression "Sly Smile 01"
+    {
+      time 88.413345 89.866676
+      param "lacroix_expressions"
+      param2 "Sly Smile"
+      event_ramp
+      {
+        0.3680 0.3099
+        0.4060 0.3099
+        1.1980 0.3099
+        1.2389 0.3099
+      }
+    }
+    event expression "Concern No Deform 05"
+    {
+      time 103.760002 105.093330
+      param "lacroix_expressions"
+      param2 "Concern No Deform"
+      event_ramp
+      {
+        0.1520 0.6103
+        0.2160 0.6455
+        0.2400 0.6479
+        1.1060 0.6526
+        1.1380 0.6455
+        1.2100 0.6103
+      }
+    }
+    event expression "Concern No Deform 06"
+    {
+      time 108.573334 110.459999
+      param "lacroix_expressions"
+      param2 "Concern No Deform"
+      event_ramp
+      {
+        0.1382 0.9390
+        1.7049 0.9390
+      }
+    }
+    event expression "Raised Both 14"
+    {
+      time 115.333336 117.106659
+      param "lacroix_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.1471 0.9718
+        1.6098 0.9507
+      }
+    }
+    event expression "Disgust_NoDeform 01"
+    {
+      time 127.646652 129.360016
+      param "lacroix_expressions"
+      param2 "Disgust_NoDeform"
+      event_ramp
+      {
+        0.3265 0.9413
+        1.3745 0.9718
+      }
+    }
+    event expression "Apathy 01"
+    {
+      time 131.786682 133.933350
+      param "lacroix_expressions"
+      param2 "Apathy"
+      event_ramp
+      {
+        0.1265 0.9742
+        2.0059 0.9718
+      }
+    }
+    event expression "Concern No Deform 08"
+    {
+      time 135.033340 136.140015
+      param "lacroix_expressions"
+      param2 "Concern No Deform"
+      event_ramp
+      {
+        0.1235 0.9859
+        1.0029 0.9742
+      }
+    }
+  }
+  faceposermodel "C:\Vampire\Build\Vampire\models\cinematic\SANTA_MONICA\Courtroom\Courtroom_bip2.mdl"
+  bonerename "Bip01" "Bip01"
+}
+
+actor "Jack"
+{
+  channel "Anim"
+  {
+    event sequence "courtroom"
+    {
+      time 0.000000 150.000000
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip02" "Bip01"
+}
+
+actor "Vampire1_2"
+{
+  channel "Anim"
+  {
+    event sequence "courtroom"
+    {
+      time 0.000000 150.000000
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip03" "Bip01"
+}
+
+fps 60
+snap off

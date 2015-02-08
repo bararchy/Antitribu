@@ -1,0 +1,45 @@
+// Choreo version 1
+actor "Ming_Guard_3_1"
+{
+  channel "animations"
+  {
+    event sequence "kuei-jin part 1"
+    {
+      time 0.000000 115.300000
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+actor "Ming_Guard_3_2"
+{
+  channel "animations"
+  {
+    event sequence "kuei-jin part 1"
+    {
+      time 0.000000 115.300000
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip02" "Bip01"
+}
+
+actor "Ming_Guard_3_3"
+{
+  channel "animations"
+  {
+    event sequence "kuei-jin part 1"
+    {
+      time 0.000000 115.300000
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip03" "Bip01"
+}
+
+fps 60
+snap off

@@ -1,0 +1,67 @@
+// Choreo version 1
+actor "Stan_Gimble"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 12.117914
+      param "character/dlg/santa monica/stan_gimble/line171_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 0.580000 1.080000
+      param "0.500"
+    }
+    event silence "Silence"
+    {
+      time 2.360000 2.540000
+      param "0.180"
+    }
+    event silence "Silence"
+    {
+      time 2.770000 3.110000
+      param "0.340"
+    }
+    event silence "Silence"
+    {
+      time 4.190000 4.420000
+      param "0.230"
+    }
+    event silence "Silence"
+    {
+      time 9.370000 9.960000
+      param "0.590"
+    }
+    event loud "Loud"
+    {
+      time 2.130000 2.250000
+      param "0.120"
+    }
+    event loud "Loud"
+    {
+      time 8.490000 8.620000
+      param "0.130"
+    }
+    event loud "Loud"
+    {
+      time 10.969999 11.080000
+      param "0.110"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

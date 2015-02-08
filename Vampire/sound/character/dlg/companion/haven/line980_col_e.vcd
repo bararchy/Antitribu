@@ -1,0 +1,23 @@
+// Choreo version 1
+actor "talking_pm"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 0.814000
+      param "character/dlg/companion/first/line520_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+  }
+}
+
+fps 60
+snap off

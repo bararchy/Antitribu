@@ -1,0 +1,26 @@
+// Choreo version 1
+actor "clawing_werewolf"
+{
+  channel "animations"
+  {
+    event sequence "werewolf_angry"
+    {
+      time 0.000000 6.300000
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  channel "roar"
+  {
+    event speak "howl"
+    {
+      time 2.986667 6.837551
+      param "Character\Monster\Werewolf\Roar_Long_1.wav"
+      fixedlength
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

@@ -1,0 +1,42 @@
+// Choreo version 1
+actor "new_companion"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 3.281000
+      param "character/dlg/companion/first/line100_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 0.239000 0.349000
+      param "0.110"
+    }
+    event silence "Silence"
+    {
+      time 2.039000 2.209000
+      param "0.170"
+    }
+    event loud "Loud"
+    {
+      time 0.419000 0.579000
+      param "0.160"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

@@ -1,0 +1,102 @@
+// Choreo version 1
+actor "Mercurio"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 15.440771
+      param "character/dlg/santa monica/mercurio/line281_col_e.wav"
+      param2 "60dB"
+      fixedlength
+    }
+  }
+  channel "expressions"
+  {
+    event expression "Lowered Both"
+    {
+      time 1.286667 3.360000
+      param "mercuriodamaged"
+      param2 "Lowered Both"
+      event_ramp
+      {
+        0.2120 0.5401
+        1.9074 0.5207
+      }
+    }
+    event expression "Apathy"
+    {
+      time 7.273334 8.366667
+      param "mercuriodamaged"
+      param2 "Apathy"
+      event_ramp
+      {
+        0.2260 0.8735
+        0.4680 0.3893
+        0.8020 0.8735
+      }
+    }
+    event expression "Disgust"
+    {
+      time 13.953334 15.446667
+      param "mercuriodamaged"
+      param2 "Disgust"
+      event_ramp
+      {
+        0.2860 0.5839
+        0.9040 0.3260
+        1.2007 0.4915
+      }
+    }
+    event expression "Flirtatious"
+    {
+      time 4.426667 6.233334
+      param "mercuriodamaged"
+      param2 "Flirtatious"
+      event_ramp
+      {
+        0.5560 0.8370
+      }
+    }
+  }
+  channel "expressions 2"
+  {
+    event expression "Raised Both"
+    {
+      time 0.000000 1.373333
+      param "mercuriodamaged"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.1020 0.5985
+        0.7060 0.3114
+        1.2033 0.6058
+      }
+    }
+    event expression "eyes wide open"
+    {
+      time 11.453334 12.486668
+      param "mercuriodamaged"
+      param2 "eyes wide open"
+      event_ramp
+      {
+        0.2940 0.8078
+        0.7330 0.8199
+      }
+    }
+    event expression "Lowered Left"
+    {
+      time 3.173333 4.540000
+      param "mercuriodamaged"
+      param2 "Lowered Left"
+      event_ramp
+      {
+        0.3080 0.5596
+        1.0080 0.7324
+      }
+    }
+  }
+}
+
+fps 60
+snap off

@@ -1,0 +1,31 @@
+// Choreo version 1
+actor "Dennis"
+{
+  channel "Speech"
+  {
+    event speak "line291_col_E.wav"
+    {
+      time 0.000000 25.588390
+      param "Character\dlg\Santa Monica\Dennis\line291_col_E.wav"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+    event gesture "Dennis_line291_col_E"
+    {
+      time 0.000000 25.833334
+      param "Dennis_line291_col_E"
+    }
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

@@ -1,0 +1,111 @@
+// Choreo version 1
+actor "prince2"
+{
+  channel "animations"
+  {
+    event sequence "talk with Beckett"
+    {
+      time -0.000002 57.250000
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  channel "dlg"
+  {
+    event speak "Prince2_241"
+    {
+      time 0.013333 1.660113
+      param "Character\dlg\Downtown LA\prince2\line241_col_e.mp3"
+      fixedlength
+    }
+    event speak "Prince_251"
+    {
+      time 17.493332 30.425011
+      param "Character\dlg\Downtown LA\prince2\line251_col_e.mp3"
+      fixedlength
+    }
+    event speak "Prince2_261"
+    {
+      time 38.540001 47.161476
+      param "Character\dlg\Downtown LA\prince2\line261_col_e.mp3"
+      fixedlength
+    }
+    event speak "Prince2_271"
+    {
+      time 47.533337 57.095219
+      param "Character\dlg\Downtown LA\prince2\line271_col_e.mp3"
+      fixedlength
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "Lacroix2_Line251_col_E"
+    {
+      time 17.493332 30.826664
+      param "Lacroix2_Line251_col_E"
+      sequenceduration 13.333333
+    }
+    event gesture "Lacroix2_Line261_col_E"
+    {
+      time 37.213337 47.406670
+      param "Lacroix2_Line261_col_E"
+      sequenceduration 8.666667
+    }
+  }
+  channel "trigger"
+  {
+    event firetrigger "Prince_Turn"
+    {
+      time 47.426662 -1.000000
+      param "1"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+actor "beckett"
+{
+  channel "animations"
+  {
+    event sequence "talk with Beckett"
+    {
+      time 0.000000 57.250000
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  channel "dlg"
+  {
+    event speak "Beckett_381"
+    {
+      time 2.526666 17.051813
+      param "Character\dlg\MAIN CHARACTERS\Beckett\line381_col_e.mp3"
+      fixedlength
+    }
+    event speak "Beckett_391"
+    {
+      time 31.033335 38.479298
+      param "Character\dlg\MAIN CHARACTERS\Beckett\line391_col_e.mp3"
+      fixedlength
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "Beckett_line381_col_E"
+    {
+      time 2.513334 17.513334
+      param "Beckett_line381_col_E"
+      sequenceduration 15.000000
+    }
+    event gesture "Beckett_line391_col_E"
+    {
+      time 30.993336 38.660004
+      param "Beckett_line391_col_E"
+      sequenceduration 7.666667
+    }
+  }
+  bonerename "Bip02" "Bip01"
+}
+
+fps 60
+snap off

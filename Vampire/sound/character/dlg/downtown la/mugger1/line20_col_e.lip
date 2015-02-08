@@ -1,0 +1,29 @@
+VERSION 1.2
+PLAINTEXT
+{
+"Me too."
+}
+WORDS
+{
+WORD me 3.652 4.111
+{
+109 m 3.652 3.881 1.000 0
+105 iy 3.881 4.111 1.000 0
+}
+WORD too 4.250 5.039
+{
+116 t 4.250 4.428 1.000 0
+117 uw 4.428 5.039 1.000 0
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name mugger1
+}

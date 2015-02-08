@@ -1,0 +1,105 @@
+// Choreo version 1
+actor "!playercontroller"
+{
+  channel "animations"
+  {
+    event sequence "beatdown"
+    {
+      time 0.000000 7.633000
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+actor "Prince2"
+{
+  channel "animations"
+  {
+    event sequence "beatdown"
+    {
+      time -0.000001 7.633000
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  channel "Events"
+  {
+    event firetrigger "neck"
+    {
+      time 1.233000 -1.000000
+      param "1"
+    }
+    event firetrigger "Stomach"
+    {
+      time 1.900000 -1.000000
+      param "2"
+    }
+    event firetrigger "Back"
+    {
+      time 3.133000 -1.000000
+      param "3"
+    }
+  }
+  channel "Expresssions"
+  {
+    event expression "Very Frightened 01"
+    {
+      time 0.013333 1.220000
+      param "lacroix_expressions"
+      param2 "Very Frightened"
+      event_ramp
+      {
+        0.0640 0.9742
+        1.1220 0.9742
+      }
+    }
+    event expression "Agony Recover 01"
+    {
+      time 3.253334 7.613333
+      param "lacroix_expressions"
+      param2 "Agony Recover"
+      event_ramp
+      {
+        0.8107 0.9249
+        4.2446 0.9531
+      }
+    }
+  }
+  channel "Expressions2"
+  {
+    event expression "Knockback 01"
+    {
+      time 1.153333 4.053333
+      param "lacroix_expressions"
+      param2 "Knockback"
+      event_ramp
+      {
+        0.0740 0.9718
+        2.3190 0.8685
+      }
+    }
+    event expression "Mouth Open 01"
+    {
+      time 4.240000 7.586667
+      param "lacroix_expressions"
+      param2 "Mouth Open"
+      event_ramp
+      {
+        0.1807 0.2653
+        0.3455 0.3122
+        1.5062 0.0000
+        1.7330 0.1714
+        1.8636 0.1925
+        2.3750 0.0000
+        2.5864 0.1901
+        2.7136 0.2160
+      }
+    }
+  }
+  bonerename "Bip02" "Bip01"
+}
+
+fps 60
+snap off

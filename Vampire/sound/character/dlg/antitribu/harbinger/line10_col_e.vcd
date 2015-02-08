@@ -1,0 +1,39 @@
+// Choreo version 1
+actor "harbinger"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line 2"
+    {
+      time 0.000000 7.610
+      param "character/dlg/antitribu/harbinger/line10_col_e.wav"
+      param2 "120dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+        event gesture "Gestures 2"
+        {
+          time 0.000000 4.5
+          param "DISPOSITION_JITTERY"
+          sequenceduration 4.500
+        }
+        event gesture "Gestures 3" //holy_light_cast
+        {
+          time 4.5 7.610
+          param "HOLY_LIGHT_CAST"
+          sequenceduration 4.000
+        }
+  }
+  channel "Expression"
+  {
+  }
+  channel "Speech Triggers"
+  {
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

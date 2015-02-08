@@ -1,0 +1,38 @@
+VERSION 1.2
+PLAINTEXT
+{
+"Keep quiet, bitch."
+}
+WORDS
+{
+WORD Keep 0.150 0.668
+{
+107 k 0.150 0.279 1.000 0
+105 iy 0.279 0.496 1.000 0
+112 p 0.496 0.668 1.000 0
+}
+WORD quiet 0.668 1.613
+{
+107 c 0.668 0.905 1.000 0
+119 w 0.905 1.141 1.000 0
+101 ey 1.141 1.377 1.000 0
+116 t 1.377 1.613 1.000 0
+}
+WORD bitch 1.796 2.451
+{
+98 b 1.796 1.924 1.000 0
+618 ih 1.924 2.132 1.000 0
+679 ch 2.132 2.451 1.000 0
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name mugger1
+}

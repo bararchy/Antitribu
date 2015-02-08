@@ -1,0 +1,42 @@
+// Choreo version 1
+actor "ultra_hunter_1"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line1"
+    {
+      time 0.000000 5.58000
+      param "character/boss/ulta_hunter_1/line11_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+        event gesture "A little something extra1"
+        {
+          time 0.000000 5.58000
+          param "ACT_DRINK_IDLE"
+        }
+  }
+  channel "Expressions"
+  {
+        event expression "A smiling finish1"
+        {
+          time 0.000000 5.58000
+          param "ultra_hunter_1"
+          param2 "Anger"
+          event_ramp
+          {
+            1.0000 0.0000
+          }
+        }
+  }
+  channel "Speech Triggers"
+  {
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

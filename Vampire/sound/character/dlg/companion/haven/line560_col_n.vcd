@@ -1,0 +1,52 @@
+// Choreo version 1
+actor "talking_pm"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 3.592177
+      param "character/dlg/main characters/heather/line741_col_n.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 0.000000 0.130000
+      param "0.130"
+    }
+    event silence "Silence"
+    {
+      time 1.390000 1.980000
+      param "0.590"
+    }
+    event silence "Silence"
+    {
+      time 3.060000 3.610000
+      param "0.550"
+    }
+    event loud "Loud"
+    {
+      time 0.190000 0.310000
+      param "0.120"
+    }
+    event loud "Loud"
+    {
+      time 2.000000 2.140000
+      param "0.140"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

@@ -1,0 +1,33 @@
+// Choreo version 1
+actor "Vampire7"
+{
+  channel "Anim"
+  {
+    event sequence "courtroom"
+    {
+      time 0.000000 149.967
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  
+  bonerename "Bip01" "Bip01"
+}
+
+actor "Vampire8"
+{
+  channel "Anim"
+  {
+  event sequence "courtroom"
+    {
+      time 0.000000 149.967
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip02" "Bip01"
+}
+
+
+fps 60
+snap off

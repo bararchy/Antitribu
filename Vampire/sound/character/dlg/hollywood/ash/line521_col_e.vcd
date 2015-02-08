@@ -1,0 +1,122 @@
+// Choreo version 1
+actor "Ash"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 12.632018
+      param "character/dlg/hollywood/ash/line521_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 0.000000 0.190000
+      param "0.190"
+    }
+    event silence "Silence"
+    {
+      time 1.730000 2.090000
+      param "0.360"
+    }
+    event silence "Silence"
+    {
+      time 2.210000 2.350000
+      param "0.140"
+    }
+    event silence "Silence"
+    {
+      time 2.850000 3.610000
+      param "0.760"
+    }
+    event silence "Silence"
+    {
+      time 4.840000 4.980000
+      param "0.140"
+    }
+    event silence "Silence"
+    {
+      time 6.270000 6.420000
+      param "0.150"
+    }
+    event silence "Silence"
+    {
+      time 7.610000 7.720000
+      param "0.110"
+    }
+    event silence "Silence"
+    {
+      time 7.740000 7.900000
+      param "0.160"
+    }
+    event silence "Silence"
+    {
+      time 7.950000 8.300000
+      param "0.350"
+    }
+    event silence "Silence"
+    {
+      time 9.380000 9.490000
+      param "0.110"
+    }
+    event silence "Silence"
+    {
+      time 9.780000 9.910000
+      param "0.130"
+    }
+    event silence "Silence"
+    {
+      time 10.650000 10.860000
+      param "0.210"
+    }
+    event silence "Silence"
+    {
+      time 11.070000 11.340000
+      param "0.270"
+    }
+    event silence "Silence"
+    {
+      time 11.530000 11.660000
+      param "0.130"
+    }
+    event silence "Silence"
+    {
+      time 12.349999 12.670000
+      param "0.320"
+    }
+    event loud "Loud"
+    {
+      time 5.130000 5.240000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 5.940000 6.070000
+      param "0.130"
+    }
+    event loud "Loud"
+    {
+      time 6.710000 6.890000
+      param "0.180"
+    }
+    event loud "Loud"
+    {
+      time 7.050000 7.160000
+      param "0.110"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

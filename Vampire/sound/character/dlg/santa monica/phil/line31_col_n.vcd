@@ -1,0 +1,52 @@
+// Choreo version 1
+actor "Phil"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 11.487506
+      param "character/dlg/santa monica/phil/line31_col_n.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 3.410000 4.000000
+      param "0.590"
+    }
+    event silence "Silence"
+    {
+      time 5.550000 5.980000
+      param "0.430"
+    }
+    event silence "Silence"
+    {
+      time 6.240000 6.450000
+      param "0.210"
+    }
+    event silence "Silence"
+    {
+      time 6.790000 7.150000
+      param "0.360"
+    }
+    event loud "Loud"
+    {
+      time 2.930000 3.080000
+      param "0.150"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

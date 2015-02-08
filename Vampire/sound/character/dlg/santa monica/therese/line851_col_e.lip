@@ -1,0 +1,50 @@
+VERSION 1.2
+PLAINTEXT
+{
+"Ohh... ahh... uhh... (sigh) mmm..."
+}
+WORDS
+{
+WORD Ohh... 0.000 1.167
+{
+603 iy 0.000 0.207 1.000 0
+618 ih 0.207 0.403 1.000 0
+104 hh 0.403 0.599 1.000 0
+603 iy 0.599 0.804 1.000 0
+618 ih 0.804 1.167 1.000 0
+}
+WORD ahh... 1.362 1.924
+{
+603 iy 1.362 1.562 1.000 0
+618 ih 1.562 1.924 1.000 0
+}
+WORD uhh... 0.207 0.149
+{
+618 ih 0.207 0.403 1.000 0
+104 hh 0.403 0.599 1.000 0
+}
+WORD sigh 2.189 3.087
+{
+652 iy 2.189 2.536 1.000 0
+618 ih 2.536 3.087 1.000 0
+}
+WORD mmm... 3.206 3.612
+{
+652 iy 3.206 3.612 1.000 0
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE unicode 70 "" O h h . . .   a h h . . .   u h h . . .   ( s i g h )   m m m . . . "  0.000 3.612
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Therese
+}

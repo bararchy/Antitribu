@@ -1,0 +1,95 @@
+// Choreo version 1
+actor "Mercurio"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 11.114104
+      param "character/dlg/santa monica/mercurio/line71_col_e.wav"
+      param2 "60dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+    event gesture "MercurioDamaged_Line71_col_E"
+    {
+      time 0.006667 11.120001
+      param "MercurioDamaged_Line71_col_E"
+      sequenceduration 11.333333
+    }
+  }
+  channel "expression"
+  {
+    event expression "Apathy"
+    {
+      time 0.006667 1.006667
+      param "mercuriodamaged"
+      param2 "Apathy"
+      event_ramp
+      {
+        0.1680 0.9976
+        0.8420 0.9951
+      }
+    }
+    event expression "Mad"
+    {
+      time 2.326667 3.666667
+      param "mercuriodamaged"
+      param2 "Mad"
+      event_ramp
+      {
+        0.1160 0.9976
+        1.2140 0.9927
+      }
+    }
+    event expression "Nearly Crying"
+    {
+      time 3.833333 4.926667
+      param "mercuriodamaged"
+      param2 "Nearly Crying"
+      event_ramp
+      {
+        0.1360 1.0000
+        0.9240 0.9951
+      }
+    }
+    event expression "Miserable"
+    {
+      time 5.586667 7.646667
+      param "mercuriodamaged"
+      param2 "Miserable"
+      event_ramp
+      {
+        0.3120 0.9976
+        1.6713 0.9781
+      }
+    }
+    event expression "Fear"
+    {
+      time 8.420000 9.706667
+      param "mercuriodamaged"
+      param2 "Fear"
+      event_ramp
+      {
+        0.1700 1.0000
+        1.1160 0.9976
+      }
+    }
+    event expression "Anger"
+    {
+      time 9.720000 11.106668
+      param "mercuriodamaged"
+      param2 "Anger"
+      event_ramp
+      {
+        0.4083 0.9393
+        0.9816 0.9303
+      }
+    }
+  }
+}
+
+fps 60
+snap off

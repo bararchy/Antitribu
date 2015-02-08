@@ -1,0 +1,62 @@
+// Choreo version 1
+actor "Doris"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 8.514467
+      param "character/dlg/santa monica/doris/line21_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 2.140000 2.330000
+      param "0.190"
+    }
+    event silence "Silence"
+    {
+      time 4.240000 4.360000
+      param "0.120"
+    }
+    event silence "Silence"
+    {
+      time 4.820000 4.930000
+      param "0.110"
+    }
+    event silence "Silence"
+    {
+      time 5.100000 5.490000
+      param "0.390"
+    }
+    event silence "Silence"
+    {
+      time 7.090000 7.460000
+      param "0.370"
+    }
+    event loud "Loud"
+    {
+      time 6.490000 6.600000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 6.930000 7.040000
+      param "0.110"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

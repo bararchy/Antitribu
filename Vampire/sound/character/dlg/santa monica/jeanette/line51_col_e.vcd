@@ -1,0 +1,72 @@
+// Choreo version 1
+actor "Jeanette"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 10.985669
+      param "character/dlg/santa monica/jeanette/line51_col_e.wav"
+      param2 "60dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+    event gesture "Jeanette_Line51_Col_E"
+    {
+      time 0.000000 11.000000
+      param "Jeanette_Line51_Col_E"
+    }
+  }
+  channel "Speech Triggers"
+  {
+    
+  }
+  channel "expression 1"
+  {
+    event expression "Sly Smile_NoDeform"
+    {
+      time 0.133333 2.320000
+      param "jeanette"
+      param2 "Sly Smile_NoDeform"
+      event_ramp
+      {
+        0.9643 0.9698
+      }
+    }
+    event expression "Flirtatious_NoDeform"
+    {
+      time 5.700000 8.206667
+      param "jeanette"
+      param2 "Flirtatious_NoDeform"
+      event_ramp
+      {
+        1.0786 0.9930
+      }
+    }
+    event expression "Joy_NoDeform"
+    {
+      time 9.793334 11.006667
+      param "jeanette"
+      param2 "Joy_NoDeform"
+      event_ramp
+      {
+        0.5429 0.9930
+      }
+    }
+    event expression "Fear_NoDeform"
+    {
+      time 3.033333 4.626667
+      param "jeanette"
+      param2 "Fear_NoDeform"
+      event_ramp
+      {
+        0.6571 0.9814
+      }
+    }
+  }
+}
+
+fps 60
+snap off

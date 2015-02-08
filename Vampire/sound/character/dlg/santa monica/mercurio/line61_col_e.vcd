@@ -1,0 +1,77 @@
+// Choreo version 1
+actor "Mercurio"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 11.499501
+      param "character\dlg\santa monica\mercurio\line61_col_e.wav"
+      param2 "60dB"
+      fixedlength
+    }
+  }
+  channel "expressions"
+  {
+    event expression "Apathy"
+    {
+      time 0.000000 1.686666
+      param "mercuriodamaged"
+      param2 "Apathy"
+      event_ramp
+      {
+        0.1140 0.9927
+        1.5313 0.9927
+      }
+    }
+    event expression "Enraged"
+    {
+      time 3.246667 5.840000
+      param "mercuriodamaged"
+      param2 "Enraged"
+      event_ramp
+      {
+        0.1940 1.0000
+        2.3560 0.9976
+      }
+    }
+  }
+  channel "expression 2"
+  {
+    event expression "Very Frightened"
+    {
+      time 0.713334 3.593333
+      param "mercuriodamaged"
+      param2 "Very Frightened"
+      event_ramp
+      {
+        0.1400 1.0000
+        2.7040 1.0000
+      }
+    }
+    event expression "Disgust"
+    {
+      time 5.920000 6.533333
+      param "mercuriodamaged"
+      param2 "Disgust"
+      event_ramp
+      {
+        0.3120 0.9757
+      }
+    }
+    event expression "Raised Both"
+    {
+      time 8.720000 11.506666
+      param "mercuriodamaged"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.5683 0.6913
+        2.2640 0.6426
+      }
+    }
+  }
+}
+
+fps 60
+snap off

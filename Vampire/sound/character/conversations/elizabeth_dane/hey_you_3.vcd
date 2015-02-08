@@ -1,0 +1,40 @@
+// Choreo version 1
+actor "Cop_Dirty"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 1.506667 2.278527
+      param "Character\CONVERSATIONS\Elizabeth_Dane\Hey_You_3.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Expressions"
+  {
+    event expression "Joy"
+    {
+      time 0.853333 3.279999
+      param "expressions"
+      param2 "Joy"
+      event_ramp
+      {
+        0.9480 0.5250
+      }
+    }
+  }
+  channel "Animation"
+  {
+    event sequence "Animation"
+    {
+      time -0.006666 3.993334
+      param "waveover02"
+      fixedlength
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

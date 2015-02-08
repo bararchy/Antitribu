@@ -1,0 +1,59 @@
+// Choreo version 1
+actor "!playercontroller"
+{
+  channel "animations"
+  {
+    event sequence "Prince Escort"
+    {
+      time 0.000000 59.967
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+actor "Prince1"
+{
+  channel "animations"
+  {
+    event sequence "Prince Escort"
+    {
+      time 0.000000 59.967
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  channel "dlg"
+  {
+    event speak "Prince1_Line1_F"
+    {
+      time 0.00000 11.207596
+      param "Character\dlg\Downtown LA\prince1\line1_col_f.mp3"
+      fixedlength
+    }
+    event speak "Prince1_Line21_F"
+    {
+      time 12.60000 22.658209
+      param "Character\dlg\Downtown LA\prince1\line21_col_f.mp3"
+      fixedlength
+    }
+    event speak "Prince1_Line31_F"
+    {
+      time 23.633 36.407944
+      param "Character\dlg\Downtown LA\prince1\line31_col_f.mp3"
+      fixedlength
+    }
+    event speak "Prince1_Line41_F"
+    {
+      time 38.467 58.974191
+      param "Character\dlg\Downtown LA\prince1\line41_col_f.mp3"
+      fixedlength
+    }
+  }
+  
+  bonerename "Bip02" "Bip01"
+}
+
+fps 60
+snap off

@@ -1,0 +1,33 @@
+// Choreo version 1
+actor "Cop_Dirty"
+{
+  channel "Speech"
+  {
+    event speak "OHWell"
+    {
+      time 1.106667 4.381383
+      param "Character\CONVERSATIONS\Elizabeth_Dane\Not_Who_I_Thought.wav"
+      fixedlength
+    }
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Animation"
+  {
+    event gesture "Gesture"
+    {
+      time 0.000000 4.346668
+      param "forgetit"
+      event_ramp
+      {
+        1.3000 0.7830
+      }
+      sequenceduration 5.800000
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

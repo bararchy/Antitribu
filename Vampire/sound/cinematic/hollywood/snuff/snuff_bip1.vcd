@@ -1,0 +1,93 @@
+// Choreo version 1
+actor "poor_girl"
+{
+  channel "animations"
+  {
+    event sequence "snuff video"
+    {
+      time 0.000000 44.299999
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  channel "Events"
+  {
+    event firetrigger "Lights_On"
+    {
+      time 22.119999 -1.000000
+      param "1"
+    }
+    event firetrigger "Blood"
+    {
+      time 39.500000 -1.000000
+      param "2"
+    }
+  }
+  channel "Expressions"
+  {
+    event expression "Fear_NoDeform 01"
+    {
+      time 6.913333 11.153334
+      param "female_citizen_2_expressions"
+      param2 "Fear_NoDeform"
+    }
+    event expression "Fear 01"
+    {
+      time 17.953335 22.840000
+      param "female_citizen_2_expressions"
+      param2 "Fear"
+    }
+    event expression "Very Frightened 01"
+    {
+      time 22.893333 40.166664
+      param "female_citizen_2_expressions"
+      param2 "Very Frightened"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+actor "Headrunner_1_2"
+{
+  channel "animations"
+  {
+    event sequence "snuff video"
+    {
+      time 0.000000 44.299999
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip02" "Bip01"
+}
+
+actor "Headrunner_1_3"
+{
+  channel "animations"
+  {
+    event sequence "snuff video"
+    {
+      time 0.000000 44.299999
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip03" "Bip01"
+}
+
+actor "Headrunner_1_4"
+{
+  channel "animations"
+  {
+    event sequence "snuff video"
+    {
+      time 0.000000 44.299999
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip04" "Bip01"
+}
+
+fps 60
+snap off

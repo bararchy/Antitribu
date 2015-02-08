@@ -1,0 +1,107 @@
+// Choreo version 1
+actor "Mercurio"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 17.360409
+      param "character/dlg/santa monica/mercurio/line291_col_e.wav"
+      param2 "60dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+    event expression "Apathy"
+    {
+      time 1.606667 3.120000
+      param "mercuriodamaged"
+      param2 "Apathy"
+      event_ramp
+      {
+        0.1280 0.8613
+        0.4300 0.2847
+        0.6707 0.8564
+        0.9340 0.2895
+        1.1427 0.7835
+      }
+    }
+    event expression "sneer"
+    {
+      time 10.559999 13.266666
+      param "mercuriodamaged"
+      param2 "sneer"
+      event_ramp
+      {
+        0.4180 0.5328
+        1.5792 0.3212
+        2.1233 0.5669
+      }
+    }
+    event expression "eyes wide open"
+    {
+      time 16.366667 17.360001
+      param "mercuriodamaged"
+      param2 "eyes wide open"
+      event_ramp
+      {
+        0.3020 0.9221
+        0.5013 0.1800
+        0.8680 0.8345
+      }
+    }
+  }
+  channel "Speech Triggers"
+  {
+    event expression "Sly Smile"
+    {
+      time 3.566667 6.673334
+      param "mercuriodamaged"
+      param2 "Sly Smile"
+      event_ramp
+      {
+        0.1480 0.6277
+        0.9380 0.5937
+        1.5560 0.3431
+        1.9253 0.6618
+      }
+    }
+    event expression "Disgust"
+    {
+      time 7.226666 10.980000
+      param "mercuriodamaged"
+      param2 "Disgust"
+      event_ramp
+      {
+        0.7020 0.6959
+        2.6740 0.6083
+      }
+    }
+    event expression "Flirtatious"
+    {
+      time 13.573333 15.420000
+      param "mercuriodamaged"
+      param2 "Flirtatious"
+      event_ramp
+      {
+        0.2320 0.6375
+        0.9740 0.2044
+        1.6440 0.4720
+      }
+    }
+    event expression "Raised Both"
+    {
+      time 0.573333 1.526667
+      param "mercuriodamaged"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.4560 0.3990
+      }
+    }
+  }
+}
+
+fps 60
+snap off

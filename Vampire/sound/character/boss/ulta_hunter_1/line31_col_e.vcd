@@ -1,0 +1,35 @@
+// Choreo version 1
+actor "ultra_hunter_1"
+{
+  channel "Speech"
+  {
+  }
+  channel "Gestures"
+  {
+        event gesture "A little something extra"
+        {
+          time 0.000000 12.055000
+          param "ACT_CONVERSE_NORMAL_TALK"
+        }
+  }
+  channel "Expressions"
+  {
+        event expression "A smiling finish"
+        {
+          time 0.000000 12.055000
+          param "ultra_hunter_1"
+          param2 "Anger"
+          event_ramp
+          {
+            1.0000 0.0000
+          }
+        }
+  }
+  channel "Speech Triggers"
+  {
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

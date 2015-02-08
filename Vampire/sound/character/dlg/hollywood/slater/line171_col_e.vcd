@@ -1,0 +1,72 @@
+// Choreo version 1
+actor "Slater"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 5.408912
+      param "character/dlg/hollywood/slater/line171_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 3.180000 3.330000
+      param "0.150"
+    }
+    event silence "Silence"
+    {
+      time 3.630000 3.750000
+      param "0.120"
+    }
+    event silence "Silence"
+    {
+      time 5.230000 5.430000
+      param "0.200"
+    }
+    event loud "Loud"
+    {
+      time 0.890000 1.000000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 1.030000 1.140000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 1.840000 1.950000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 2.690000 2.800000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 2.890000 3.000000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 4.590000 4.700000
+      param "0.110"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

@@ -1,0 +1,76 @@
+// Choreo version 1
+actor "poor_girl"
+{
+  channel "animations"
+  {
+    event sequence "snuff video"
+    {
+      time 0.000000 19.299999
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  channel "events"
+  {
+    event firetrigger "Blood"
+    {
+      time 14.433000 -1.000000
+      param "2"
+    }
+  }
+  channel "Expressions"
+  {
+    event expression "Very Frightened 01"
+    {
+      time 0.006667 19.146667
+      param "female_citizen_2_expressions"
+      param2 "Very Frightened"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+actor "Headrunner_1_2"
+{
+  channel "animations"
+  {
+    event sequence "snuff video"
+    {
+      time 0.000000 19.299999
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip02" "Bip01"
+}
+
+actor "Headrunner_1_3"
+{
+  channel "animations"
+  {
+    event sequence "snuff video"
+    {
+      time 0.000000 19.299999
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip03" "Bip01"
+}
+
+actor "Headrunner_1_4"
+{
+  channel "animations"
+  {
+    event sequence "snuff video"
+    {
+      time 0.000000 19.299999
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip04" "Bip01"
+}
+
+fps 60
+snap off

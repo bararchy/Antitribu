@@ -1,0 +1,21 @@
+// Choreo version 1
+actor "mugged_hooker"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 10.410
+      param "character/dlg/downtown la/mugged_hooker/line50_col_e.wav"
+      param2 "120dB"
+      fixedlength
+    }
+  }
+  
+  
+  
+  
+}
+
+fps 60
+snap off

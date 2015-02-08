@@ -1,0 +1,89 @@
+// Choreo version 1
+actor "Jenny"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line 1"
+    {
+      time 0.000 1.600
+      param "character/dlg/antitribu/Jenny/jenny_17.wav"
+      param2 "120dB"
+      fixedlength
+    }
+
+    event speak "NPC Line 2"
+    {
+      time 1.650 4.200
+      param "character/dlg/antitribu/Jenny/jenny_18.wav"
+      param2 "120dB"
+      fixedlength
+    }
+
+    event speak "NPC Line 3"
+    {
+      time 4.250 5.750
+      param "character/dlg/antitribu/Jenny/jenny_19.wav"
+      param2 "120dB"
+      fixedlength
+    }
+    event speak "NPC Line 4"
+    {
+      time 5.750 7.550
+      param "battlecries/jenny/jenny_9.wav"
+      param2 "120dB"
+      fixedlength
+    }
+
+    event speak "NPC Line 5"
+    {
+      time 7.550 12.100
+      param "character/dlg/antitribu/Jenny/jenny_20.wav"
+      param2 "120dB"
+      fixedlength
+    }
+
+    event speak "NPC Line 6"
+    {
+      time 12.150 13.650
+      param "character/dlg/antitribu/Jenny/jenny_21.wav"
+      param2 "120dB"
+      fixedlength
+    }
+
+    event speak "NPC Line 7"
+    {
+      time 13.650 16.400
+      param "character/dlg/antitribu/Jenny/jenny_23.wav"
+      param2 "120dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+        event gesture "Gestures 1"
+        {
+          time 8.000000 10.000000
+          param "FISTS_READY"
+        }
+  }
+  channel "Expressions"
+  {
+        event expression "Expressions 1"
+        {
+          time 0.000 0.532
+          param "serial_killer"
+          param2 "Mad"
+          event_ramp
+          {
+            1.0000 0.0000
+          }
+        }
+  }
+  channel "Speech Triggers"
+  {
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

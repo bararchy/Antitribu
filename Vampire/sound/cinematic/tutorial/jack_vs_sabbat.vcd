@@ -1,0 +1,72 @@
+// Choreo version 1
+actor "sabbat_redshirt_4"
+{
+  channel "Anim"
+  {
+    event sequence "jack_VS_sabbat"
+    {
+      time 0.000000 15.300
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+actor "Jack"
+{
+  channel "Anim"
+  {
+    event sequence "jack_VS_sabbat"
+    {
+      time 0.000000 15.300
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  channel "triggers"
+  {
+    event firetrigger "potence"
+    {
+      time 8.600 -1.000000
+      param "1"
+    }
+    event firetrigger "celerity_on"
+    {
+      time 8.967 -1.000000
+      param "3"
+    }
+    event firetrigger "celerity_off"
+    {
+      time 9.200 -1.000000
+      param "4"
+    }
+  }
+  bonerename "Bip02" "Bip01"
+}
+
+actor "sabbat_redshirt_5"
+{
+  channel "Anim"
+  {
+    event sequence "jack_VS_sabbat"
+    {
+      time 0.000000 15.300
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  channel "triggers"
+  {
+    event firetrigger "potenced"
+    {
+      time 10.033 -1.000000
+      param "2"
+    }
+  }
+  bonerename "Bip03" "Bip01"
+}
+
+
+fps 60
+snap off

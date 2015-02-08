@@ -1,0 +1,62 @@
+// Choreo version 1
+actor "Danielle"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 2.534603
+      param "character/dlg/santa monica/danielle/line161_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 0.200000 0.350000
+      param "0.150"
+    }
+    event silence "Silence"
+    {
+      time 0.720000 0.930000
+      param "0.210"
+    }
+    event silence "Silence"
+    {
+      time 1.310000 1.480000
+      param "0.170"
+    }
+    event loud "Loud"
+    {
+      time 0.030000 0.140000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 0.360000 0.480000
+      param "0.120"
+    }
+    event loud "Loud"
+    {
+      time 1.610000 1.720000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 1.790000 1.900000
+      param "0.110"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

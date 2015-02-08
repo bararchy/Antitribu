@@ -1,0 +1,47 @@
+// Choreo version 1
+actor "Knox"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 8.765532
+      param "character/dlg/santa monica/knox/line951_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 1.200000 1.610000
+      param "0.410"
+    }
+    event silence "Silence"
+    {
+      time 4.760000 4.980000
+      param "0.220"
+    }
+    event silence "Silence"
+    {
+      time 5.030000 5.280000
+      param "0.250"
+    }
+    event loud "Loud"
+    {
+      time 2.170000 2.300000
+      param "0.130"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

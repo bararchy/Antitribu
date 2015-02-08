@@ -1,0 +1,29 @@
+// Choreo version 1
+actor "Cop_Dirty"
+{
+  channel "Animation"
+  {
+    event gesture "Point"
+    {
+      time -0.006667 9.993333
+      param "Pointing"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+actor "Cop_Gangway_Guard"
+{
+  channel "Animation"
+  {
+    event gesture "Looking"
+    {
+      time 2.120000 12.120000
+      param "Looking"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

@@ -1,0 +1,102 @@
+// Choreo version 1
+actor "companion_talking"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 11.927438
+      param "character/dlg/main characters/heather/line621_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 0.540000 1.190000
+      param "0.650"
+    }
+    event silence "Silence"
+    {
+      time 2.020000 2.500000
+      param "0.480"
+    }
+    event silence "Silence"
+    {
+      time 2.970000 3.870000
+      param "0.900"
+    }
+    event silence "Silence"
+    {
+      time 4.670000 4.800000
+      param "0.130"
+    }
+    event silence "Silence"
+    {
+      time 6.490000 6.680000
+      param "0.190"
+    }
+    event silence "Silence"
+    {
+      time 7.060000 7.210000
+      param "0.150"
+    }
+    event silence "Silence"
+    {
+      time 7.710000 8.270000
+      param "0.560"
+    }
+    event silence "Silence"
+    {
+      time 8.440000 9.090000
+      param "0.650"
+    }
+    event silence "Silence"
+    {
+      time 9.280000 9.389999
+      param "0.110"
+    }
+    event silence "Silence"
+    {
+      time 9.410000 9.559999
+      param "0.150"
+    }
+    event silence "Silence"
+    {
+      time 9.860000 10.219999
+      param "0.360"
+    }
+    event silence "Silence"
+    {
+      time 10.440000 10.730000
+      param "0.290"
+    }
+    event loud "Loud"
+    {
+      time 0.220000 0.350000
+      param "0.130"
+    }
+    event loud "Loud"
+    {
+      time 5.040000 5.150000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 11.020000 11.130000
+      param "0.110"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

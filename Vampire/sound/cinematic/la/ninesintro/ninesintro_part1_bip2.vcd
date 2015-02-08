@@ -1,0 +1,33 @@
+// Choreo version 1
+actor "Nines"
+{
+  channel "Anim"
+  {
+    event sequence "ninesintro_part1_bip2"
+    {
+      time 0.000000 60.967
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+
+actor "cabbie"
+{
+  channel "Anim"
+  {
+    event sequence "ninesintro_part1_bip2"
+    {
+      time 0.000000 60.967
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip02" "Bip01"
+}
+
+
+fps 60
+snap off

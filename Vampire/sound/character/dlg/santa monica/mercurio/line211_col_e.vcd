@@ -1,0 +1,77 @@
+// Choreo version 1
+actor "Mercurio"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 13.495148
+      param "character/dlg/santa monica/mercurio/line211_col_e.wav"
+      param2 "60dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+    event expression "Lowered Both"
+    {
+      time 3.120000 5.079999
+      param "mercuriodamaged"
+      param2 "Lowered Both"
+      event_ramp
+      {
+        0.3140 0.7300
+        1.6473 0.6886
+      }
+    }
+    event expression "Mad"
+    {
+      time 11.786668 13.493334
+      param "mercuriodamaged"
+      param2 "Mad"
+      event_ramp
+      {
+        0.3460 0.5597
+        1.3507 0.5937
+      }
+    }
+  }
+  channel "Speech Triggers"
+  {
+    event expression "Raised Both"
+    {
+      time 0.006667 1.006667
+      param "mercuriodamaged"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.4560 0.9830
+      }
+    }
+    event expression "Confused"
+    {
+      time 10.126668 12.033335
+      param "mercuriodamaged"
+      param2 "Confused"
+      event_ramp
+      {
+        0.3920 0.6545
+        1.3080 0.3528
+      }
+    }
+    event expression "Lowered Right"
+    {
+      time 4.573333 7.560000
+      param "mercuriodamaged"
+      param2 "Lowered Right"
+      event_ramp
+      {
+        0.4740 0.7835
+        2.6087 0.5840
+      }
+    }
+  }
+}
+
+fps 60
+snap off

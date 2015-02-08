@@ -1,0 +1,41 @@
+// Choreo version 1
+actor "Jeanette"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 3.331338
+      param "character/dlg/santa monica/jeanette/line31_col_e.wav"
+      param2 "60dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+    event gesture "Jeanette_Line31_Col_E"
+    {
+      time 0.000000 3.333333
+      param "Jeanette_Line31_Col_E"
+      sequenceduration 3.333333
+    }
+  }
+  channel "Speech Triggers"
+  {
+    
+    event expression "eyes narrowed"
+    {
+      time 1.026667 3.273334
+      param "jeanette"
+      param2 "eyes narrowed"
+      event_ramp
+      {
+        1.0357 0.9884
+        1.4786 0.9907
+      }
+    }
+  }
+}
+
+fps 60
+snap off

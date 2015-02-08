@@ -1,0 +1,42 @@
+// Choreo version 1
+actor "reaper"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line 2"
+    {
+      time 0.000000 3.789000
+      param "character/boss/reaper/line11_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+        event gesture "Gestures 2"
+        {
+          time 0.000000 3.789000
+          param "CONVERSE_NORMAL_TALK_B"
+        }
+  }
+  channel "Expressions"
+  {
+        event expression "Expressions 2"
+        {
+          time 0.000000 3.789000
+          param "reaper"
+          param2 "Anger"
+          event_ramp
+          {
+            1.0000 0.0000
+          }
+        }
+  }
+  channel "Speech Triggers"
+  {
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

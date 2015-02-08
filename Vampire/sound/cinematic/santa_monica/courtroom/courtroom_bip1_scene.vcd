@@ -1,0 +1,147 @@
+// Choreo version 1
+actor "!playercontroller"
+{
+  channel "Anim"
+  {
+    event sequence "courtroom"
+    {
+      time 0.000000 149.966995
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  channel "expression"
+  {
+    event expression "Knockback 01"
+    {
+      time 1.006666 3.613333
+      param "expressions"
+      param2 "Knockback"
+      event_ramp
+      {
+        0.1214 0.9671
+        1.0513 0.9906
+        2.0436 0.5329
+      }
+    }
+    event expression "Nearly Crying 01"
+    {
+      time 4.106667 30.073334
+      param "expressions"
+      param2 "Nearly Crying"
+    }
+    event expression "Sad 01"
+    {
+      time 30.186666 41.106670
+      param "expressions"
+      param2 "Sad"
+    }
+    event expression "Nearly Crying_No Deform 01"
+    {
+      time 46.320000 52.073334
+      param "expressions"
+      param2 "Nearly Crying_No Deform"
+    }
+    event expression "Fear 01"
+    {
+      time 58.980000 66.639999
+      param "expressions"
+      param2 "Fear"
+    }
+    event expression "Very Frightened 01"
+    {
+      time 81.973335 90.126671
+      param "expressions"
+      param2 "Very Frightened"
+    }
+    event expression "Nearly Crying 02"
+    {
+      time 99.973335 104.166664
+      param "expressions"
+      param2 "Nearly Crying"
+    }
+    event expression "Raised Both"
+    {
+      time 119.200005 123.086670
+      param "expressions"
+      param2 "Raised Both"
+    }
+    event expression "Joy 01"
+    {
+      time 136.966660 141.253296
+      param "expressions"
+      param2 "Joy"
+      event_ramp
+      {
+        0.7513 0.9624
+        4.0666 0.9718
+      }
+    }
+  }
+  channel "expression2"
+  {
+    event expression "Fear 02"
+    {
+      time 135.933319 141.160004
+      param "expressions"
+      param2 "Fear"
+      event_ramp
+      {
+        0.0267 0.9859
+        1.0200 0.9977
+        1.6800 0.7277
+        1.7400 0.7277
+        5.1333 0.7277
+        5.1933 0.7277
+      }
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+
+actor "Sheriff2"
+{
+  channel "Anim"
+  {
+  event sequence "courtroom"
+    {
+      time 0.000000 149.967
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip02" "Bip01"
+}
+
+actor "Sire2"
+{
+  channel "Anim"
+  {
+  event sequence "courtroom"
+    {
+      time 0.000000 149.967
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip03" "Bip01"
+}
+
+actor "Vampire2_2"
+{
+  channel "Anim"
+  {
+  event sequence "courtroom"
+    {
+      time 0.000000 149.967
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip04" "Bip01"
+}
+
+fps 60
+snap off
+

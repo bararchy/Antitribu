@@ -1,0 +1,69 @@
+// Choreo version 1
+actor "Mercurio"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 9.942993
+      param "character/dlg/santa monica/mercurio/line371_col_e.wav"
+      param2 "60dB"
+      fixedlength
+    }
+  }
+  channel "expression"
+  {
+    event expression "Sly Smile"
+    {
+      time 0.006667 2.446667
+      param "mercuriodamaged"
+      param2 "Sly Smile"
+      event_ramp
+      {
+        0.3620 0.7518
+        1.9620 0.6910
+      }
+    }
+    event expression "Flirtatious"
+    {
+      time 5.740000 8.366667
+      param "mercuriodamaged"
+      param2 "Flirtatious"
+      event_ramp
+      {
+        0.5440 0.8102
+        1.3620 0.9246
+        2.0460 0.3869
+      }
+    }
+  }
+  channel "expression 2"
+  {
+    event expression "Miserable"
+    {
+      time 2.853333 5.966667
+      param "mercuriodamaged"
+      param2 "Miserable"
+      event_ramp
+      {
+        0.3480 0.6618
+        1.6040 0.2628
+        2.4640 0.5109
+      }
+    }
+    event expression "Lowered Both"
+    {
+      time 7.993333 9.946667
+      param "mercuriodamaged"
+      param2 "Lowered Both"
+      event_ramp
+      {
+        0.9460 0.5766
+        1.4300 0.1800
+      }
+    }
+  }
+}
+
+fps 60
+snap off

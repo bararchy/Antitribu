@@ -1,0 +1,27 @@
+VERSION 1.2
+PLAINTEXT
+{
+"xx"
+}
+WORDS
+{
+WORD xx 0.000 7.610
+{
+100 d 0.000 7.610 1.000 0
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE unicode 90 "?????????????"  0.000 7.610
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name harbinger
+}

@@ -1,0 +1,42 @@
+// Choreo version 1
+actor "Arthur"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 3.803719
+      param "character/dlg/santa monica/arthur/line301_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 2.580000 2.690000
+      param "0.110"
+    }
+    event silence "Silence"
+    {
+      time 2.960000 3.130000
+      param "0.170"
+    }
+    event loud "Loud"
+    {
+      time 1.580000 1.690000
+      param "0.110"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

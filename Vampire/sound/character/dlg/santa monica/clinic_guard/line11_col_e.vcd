@@ -1,0 +1,52 @@
+// Choreo version 1
+actor "clinic_guard"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 3.208708
+      param "character/dlg/santa monica/clinic_guard/line11_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 0.590000 0.720000
+      param "0.130"
+    }
+    event silence "Silence"
+    {
+      time 1.370000 1.710000
+      param "0.340"
+    }
+    event loud "Loud"
+    {
+      time 0.750000 0.870000
+      param "0.120"
+    }
+    event loud "Loud"
+    {
+      time 0.890000 1.000000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 1.950000 2.060000
+      param "0.110"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

@@ -1,0 +1,131 @@
+// Choreo version 1
+
+actor "mugged_hooker"
+{
+
+  channel "VO"
+  {
+    event speak "hooker_1"
+    {
+      time 0.000 2.357
+      param "Character\dlg\downtown la\mugged_hooker\line1_col_e.mp3"
+      fixedlength
+    }
+    
+    event speak "hooker_10"
+    {
+      time 5.500 7.9600
+      param "Character\dlg\downtown la\mugged_hooker\line10_col_e.mp3"
+      fixedlength
+    }
+    
+    event speak "punch"
+    {
+      time 8.300 8.777
+      param "surfaces\flesh\fist_soak_impact2.wav"
+      fixedlength
+    }    
+     
+ 
+  }
+  
+  channel "Anim"
+  {
+    event gesture "take_punch"
+    {
+      time 8.30000 9.000
+      param "knockback_smalldazed"
+      fixedlength
+    }
+    
+  }      
+
+
+    
+
+  bonerename "Bip01" "Bip01"
+}
+
+
+
+
+actor "mugger1"
+{
+
+  channel "VO"
+  {
+    event speak "mugger1_1"
+    {
+      time 2.500 5.175
+      param "Character\dlg\downtown la\mugger1\line1_col_e.mp3"
+      fixedlength
+    }
+    
+    event speak "mugger1_10"
+    {
+      time 12.600 16.213
+      param "Character\dlg\downtown la\mugger1\line10_col_e.mp3"
+      fixedlength
+    }
+    
+    event speak "mugger1_20"
+    {
+      time 20.9500 26.070
+      param "Character\dlg\downtown la\mugger1\line20_col_e.mp3"
+      fixedlength
+    }        
+ 
+  }
+
+    
+
+  bonerename "Bip01" "Bip01"
+}
+
+
+actor "mugger2"
+{
+
+  channel "VO"
+  {
+    event speak "mugger2_1"
+    {
+      time 10.000 12.368
+      param "Character\dlg\downtown la\mugger2\line1_col_e.mp3"
+      fixedlength
+    }
+    
+    event speak "mugger2_10"
+    {
+      time 16.500 20.805
+      param "Character\dlg\downtown la\mugger2\line10_col_e.mp3"
+      fixedlength
+    }    
+ 
+  }
+
+  channel "Anim"
+  {
+    event gesture "punch"
+    {
+      time 8.00000 9.000
+      param "fists_attack_med"
+      fixedlength
+    }
+    
+    event gesture "get_knife"
+    {
+      time 22.0000 26.070
+      param "knife_ready"
+      fixedlength
+    }    
+    
+  }    
+
+  bonerename "Bip01" "Bip01"
+}
+
+
+
+fps 60
+snap off

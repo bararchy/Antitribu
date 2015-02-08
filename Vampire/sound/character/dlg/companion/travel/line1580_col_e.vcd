@@ -1,0 +1,33 @@
+// Choreo version 1
+actor "companion_talking"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 0.623583
+      param "character/dlg/santa monica/bertram/line191_col_e.wav"
+      param2 "60dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event loud "Loud"
+    {
+      time 0.120000 0.230000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 0.260000 0.370000
+      param "0.110"
+    }
+  }
+}
+
+fps 60
+snap off

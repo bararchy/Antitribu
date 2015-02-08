@@ -1,0 +1,19 @@
+// Choreo version 1
+actor "!playercontroller"
+{
+  channel "Anim"
+  {
+    event sequence "hw_warrens_pipe_PC"
+    {
+      time 0.000000 9.967000
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+
+
+fps 60
+snap off

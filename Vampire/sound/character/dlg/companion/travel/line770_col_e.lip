@@ -1,0 +1,53 @@
+VERSION 1.2
+PLAINTEXT
+{
+"Are you trick me, demon?"
+}
+WORDS
+{
+WORD Are 0.032 0.112
+{
+593 aa 0.000 0.055 1.000 0
+633 r 0.055 0.110 1.000 0
+}
+WORD you 0.112 0.336
+{
+106 y 0.110 0.205 1.000 0
+117 uw 0.205 0.369 1.000 0
+}
+WORD trick 0.336 0.768
+{
+116 t 0.369 0.476 1.000 0
+633 r 0.476 0.528 1.000 0
+618 ih 0.528 0.681 1.000 0
+107 k 0.681 0.748 1.000 0
+}
+WORD me 0.768 0.896
+{
+109 m 0.748 0.843 1.000 0
+105 iy 0.843 0.938 1.000 0
+}
+WORD demon 0.896 1.424
+{
+100 d 0.938 1.030 1.000 0
+105 iy 1.030 1.145 1.000 0
+109 m 1.145 1.208 1.000 0
+618 ax 1.208 1.375 1.000 0
+110 n 1.375 1.467 1.000 0
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE unicode "Are you trick me, demon?" 0.032 1.615
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name companion_talking
+}

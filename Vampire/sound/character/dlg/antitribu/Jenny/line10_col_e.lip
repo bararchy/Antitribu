@@ -1,0 +1,29 @@
+VERSION 1.2
+PLAINTEXT
+{
+"OK" 
+}
+WORDS
+{
+WORD Ok 0.220 0.768
+{
+111 ow 0.220 0.375 1.000 0
+107 k 0.375 0.450 1.000 0
+601 ax 0.450 0.768 1.000 0
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE unicode 8 " O K "  0.000 0.824
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Jenny
+}

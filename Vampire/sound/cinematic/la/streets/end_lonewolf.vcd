@@ -1,0 +1,86 @@
+// Choreo version 1
+actor "!playercontroller"
+{
+  channel "Anim"
+  {
+    event sequence "End_LoneWolf"
+    {
+      time 0.000000 25.500000
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  
+}
+
+actor "Nines"
+{
+  channel "Anim"
+  {
+    event sequence "End_LoneWolf"
+    {
+      time 0.000000 25.500000
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  channel "dlg"
+  {
+    event speak "Nines_916"
+    {
+      time 5.320000 14.019841
+      param "Character\dlg\MAIN CHARACTERS\nines\line916_col_e.mp3"
+      fixedlength
+    }
+    event speak "Nines_917"
+    {
+      time 15.506668 17.127325
+      param "Character\dlg\MAIN CHARACTERS\nines\line917_col_e.mp3"
+      fixedlength
+    }
+    event speak "Nines_918"
+    {
+      time 18.266666 19.808956
+      param "Character\dlg\MAIN CHARACTERS\nines\line918_col_e.mp3"
+      fixedlength
+    }
+    event speak "Nines_919"
+    {
+      time 20.993334 21.464603
+      param "Character\dlg\MAIN CHARACTERS\nines\line919_col_e.mp3"
+      fixedlength
+    }
+  }
+  bonerename "Bip02" "Bip01"
+}
+
+actor "flunky3"
+{
+  channel "Anim"
+  {
+    event sequence "End_LoneWolf"
+    {
+      time 0.000000 25.500000
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip03" "Bip01"
+}
+
+actor "flunky4"
+{
+  channel "Anim"
+  {
+    event sequence "End_LoneWolf"
+    {
+      time 0.000000 25.500000
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip04" "Bip01"
+}
+
+fps 60
+snap off

@@ -1,0 +1,72 @@
+// Choreo version 1
+actor "Mercurio"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 14.689887
+      param "character/dlg/santa monica/mercurio/line951_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 1.330000 1.670000
+      param "0.340"
+    }
+    event silence "Silence"
+    {
+      time 4.940000 5.780000
+      param "0.840"
+    }
+    event silence "Silence"
+    {
+      time 7.620000 7.990000
+      param "0.370"
+    }
+    event silence "Silence"
+    {
+      time 10.639999 11.099999
+      param "0.460"
+    }
+    event silence "Silence"
+    {
+      time 11.179999 11.719999
+      param "0.540"
+    }
+    event silence "Silence"
+    {
+      time 12.520000 12.940000
+      param "0.420"
+    }
+    event loud "Loud"
+    {
+      time 0.700000 0.850000
+      param "0.150"
+    }
+    event loud "Loud"
+    {
+      time 6.090000 6.230000
+      param "0.140"
+    }
+    event loud "Loud"
+    {
+      time 7.370000 7.490000
+      param "0.120"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

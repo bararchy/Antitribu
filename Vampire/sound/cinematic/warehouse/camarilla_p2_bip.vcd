@@ -1,0 +1,45 @@
+// Choreo version 1
+actor "Regent2"
+{
+  channel "animations"
+  {
+    event sequence "camarilla_P2"
+    {
+      time 0.000000 33.3
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+actor "pusher1"
+{
+  channel "animations"
+  {
+    event sequence "camarilla_P2"
+    {
+      time 0.000000 33.3
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip02" "Bip01"
+}
+
+actor "pusher2"
+{
+  channel "animations"
+  {
+    event sequence "camarilla_P2"
+    {
+      time 0.000000 33.3
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip03" "Bip01"
+}
+
+fps 60
+snap off

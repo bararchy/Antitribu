@@ -1,0 +1,64 @@
+// Choreo version 1
+actor "player_understudy"
+{
+  channel "Anim"
+  {
+    event sequence "embrace"
+    {
+      time 0.000000 57.632999
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+actor "Sire"
+{
+  channel "Anim"
+  {
+    event sequence "embrace"
+    {
+      time 0.000000 57.632999
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip02" "Bip01"
+}
+
+actor "Vampire1"
+{
+  channel "Anim"
+  {
+    event sequence "embrace"
+    {
+      time 0.000000 57.632999
+      param "entire_scene"
+      fixedlength
+    }
+    event firetrigger "door_open"
+    {
+      time 52.367001 -1.000000
+      param "1"
+    }
+  }
+  bonerename "Bip03" "Bip01"
+}
+
+actor "Vampire2"
+{
+  channel "Anim"
+  {
+    event sequence "embrace"
+    {
+      time 0.000000 57.632999
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip04" "Bip01"
+}
+
+fps 60
+snap off

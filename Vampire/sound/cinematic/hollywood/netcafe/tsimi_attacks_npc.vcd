@@ -1,0 +1,32 @@
+// Choreo version 1
+actor "BobDeathInEditing"
+{
+  channel "Anim"
+  {
+    event sequence "tsimi_attacks_npc"
+    {
+      time 0.000000 7.30000
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+actor "red_shirt"
+{
+  channel "Anim"
+  {
+    event sequence "tsimi_attacks_npc"
+    {
+      time 0.000000 7.30000
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip02" "Bip01"
+}
+
+
+fps 60
+snap off

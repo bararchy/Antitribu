@@ -1,0 +1,42 @@
+// Choreo version 1
+actor "dog2"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line 1"
+    {
+      time 0.000 1.682
+      param "character/dlg/antitribu/dog2/line25_col_e.wav"
+      param2 "120dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+        event gesture "Gestures 1"
+        {
+          time 0.000000 1.6820000
+          param "GLOCK_ATTACK"
+       }
+  }
+  channel "Expressions"
+  {
+        event expression "Expressions 1"
+        {
+          time 	0.000 1.682
+          param "serial_killer"
+          param2 "Mad"
+          event_ramp
+          {
+            1.0000 0.0000
+          }
+        }
+  }
+  channel "Speech Triggers"
+  {
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

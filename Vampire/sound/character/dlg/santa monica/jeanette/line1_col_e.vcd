@@ -1,0 +1,100 @@
+// Choreo version 1
+actor "Jeanette"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 16.162903
+      param "character/dlg/santa monica/jeanette/line1_col_e.wav"
+      param2 "60dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+    event sequence "Jeanette_Line1_Col_E"
+    {
+      time 0.000000 16.166666
+      param "Jeanette_Line1_Col_E"
+      fixedlength
+    }
+  }
+  channel "Speech Triggers"
+  {
+  }
+  channel "expression2"
+  {
+    event expression "eyes narrowed"
+    {
+      time 6.000001 8.500001
+      param "jeanette"
+      param2 "eyes narrowed"
+      event_ramp
+      {
+        0.1885 0.7169
+        1.9600 0.9072
+      }
+    }
+    event expression "joyous"
+    {
+      time 2.526667 5.873333
+      param "jeanette"
+      param2 "Joy_NoDeform"
+      event_ramp
+      {
+        1.6743 1.0000
+      }
+    }
+  }
+  channel "expression 3"
+  {
+    event expression "Lowered Right"
+    {
+      time 8.753334 10.500000
+      param "jeanette"
+      param2 "Lowered Right"
+      event_ramp
+      {
+        0.2538 0.9861
+        1.4027 0.9513
+      }
+    }
+    event expression "Sly Smile_NoDeform"
+    {
+      time 10.513333 13.953332
+      param "jeanette"
+      param2 "Sly Smile_NoDeform"
+      event_ramp
+      {
+        0.7286 0.9930
+      }
+    }
+    event expression "narrow"
+    {
+      time 13.953333 16.026667
+      param "jeanette"
+      param2 "eyes narrowed"
+      event_ramp
+      {
+        1.0500 0.6404
+      }
+    }
+  }
+  channel "expression 4"
+  {
+    event expression "Joy_NoDeform"
+    {
+      time 13.340000 15.613334
+      param "jeanette"
+      param2 "Joy_NoDeform"
+      event_ramp
+      {
+        1.1555 0.9977
+      }
+    }
+  }
+}
+
+fps 60
+snap off

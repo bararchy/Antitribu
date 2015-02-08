@@ -1,0 +1,579 @@
+// Choreo version 1
+actor "!playercontroller"
+{
+  channel "animations"
+  {
+    event sequence "kuei-jin part 1"
+    {
+      time 0.000000 115.300003
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+actor "Prince2"
+{
+  channel "animations"
+  {
+    event sequence "kuei-jin part 1"
+    {
+      time 0.000000 115.300003
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  channel "dlg"
+  {
+    event speak "Prince1"
+    {
+      time 0.019999 12.612085
+      param "Character\dlg\Downtown LA\prince2\line1141_col_e.mp3"
+      fixedlength
+    }
+    event speak "Prince2"
+    {
+      time 12.720000 18.912086
+      param "Character\dlg\Downtown LA\prince2\line1151_col_e.mp3"
+      fixedlength
+    }
+    event speak "Prince1152"
+    {
+      time 20.000000 23.658209
+      param "Character\dlg\Downtown LA\prince2\line1152_col_e.mp3"
+      fixedlength
+    }
+    event speak "Prince1161"
+    {
+      time 84.200005 85.977394
+      param "Character\dlg\Downtown LA\prince2\line1161_col_e.mp3"
+      fixedlength
+    }
+  }
+  channel "events"
+  {
+    event firetrigger "Decapitation"
+    {
+      time 85.266998 -1.000000
+      param "1"
+    }
+  }
+  channel "Expressions"
+  {
+    event expression "Anger 01"
+    {
+      time 0.020000 4.440001
+      param "lacroix_expressions"
+      param2 "Anger"
+      event_ramp
+      {
+        0.2416 0.6408
+        0.3084 0.6408
+        1.9944 0.6408
+        2.0667 0.6408
+        2.2056 1.0000
+        4.2689 0.9836
+      }
+    }
+    event expression "Mad 01"
+    {
+      time 5.560000 8.086667
+      param "lacroix_expressions"
+      param2 "Mad"
+      event_ramp
+      {
+        0.2111 0.9742
+        0.9833 1.0000
+        1.0389 0.9977
+        1.4056 0.6056
+        1.4722 0.6056
+        2.2000 0.6056
+        2.2978 0.6056
+      }
+    }
+    event expression "Sad 01"
+    {
+      time 9.786666 10.926667
+      param "lacroix_expressions"
+      param2 "Sad"
+      event_ramp
+      {
+        0.2111 0.9601
+        0.9511 0.9695
+      }
+    }
+    event expression "Raised Both 02"
+    {
+      time 12.766667 14.420002
+      param "lacroix_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.1611 0.8099
+        0.2111 0.8099
+        1.3311 0.8099
+        1.3756 0.8099
+      }
+    }
+    event expression "Raised Both 03"
+    {
+      time 17.566668 18.840000
+      param "lacroix_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.1278 0.9648
+        1.0656 0.9624
+      }
+    }
+    event expression "hurt 01"
+    {
+      time 24.273335 38.000000
+      param "lacroix_expressions"
+      param2 "hurt"
+      event_ramp
+      {
+        0.1944 0.9836
+        13.5222 0.9718
+      }
+    }
+    event expression "hurt 02"
+    {
+      time 74.760002 82.100006
+      param "lacroix_expressions"
+      param2 "hurt"
+    }
+  }
+  channel "Expressions2"
+  {
+    event expression "Raised Both 01"
+    {
+      time 4.313334 5.713334
+      param "lacroix_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.1222 1.0000
+        0.1944 1.0000
+        1.1833 1.0000
+        1.2556 1.0000
+      }
+    }
+    event expression "Fear_NoDeform 01"
+    {
+      time 7.866667 9.980000
+      param "lacroix_expressions"
+      param2 "Fear_NoDeform"
+      event_ramp
+      {
+        0.2556 0.9718
+        1.8822 0.9648
+      }
+    }
+    event expression "Fear_NoDeform 02"
+    {
+      time 10.766666 12.926666
+      param "lacroix_expressions"
+      param2 "Fear_NoDeform"
+      event_ramp
+      {
+        0.2056 0.9624
+        1.9922 0.9648
+      }
+    }
+    event expression "Concern No Deform 01"
+    {
+      time 15.333333 17.753334
+      param "lacroix_expressions"
+      param2 "Concern No Deform"
+      event_ramp
+      {
+        0.2611 0.9718
+        2.1722 0.9718
+      }
+    }
+    event expression "shock 01"
+    {
+      time 18.640001 20.193336
+      param "lacroix_expressions"
+      param2 "shock"
+      event_ramp
+      {
+        0.1444 0.9836
+        1.2756 0.9413
+      }
+    }
+    event expression "Anger 02"
+    {
+      time 37.819996 62.086662
+      param "lacroix_expressions"
+      param2 "Anger"
+      event_ramp
+      {
+        0.2167 0.9789
+        23.7667 0.9953
+      }
+    }
+  }
+  bonerename "Bip02" "Bip01"
+}
+
+actor "Ming_Xiao"
+{
+  channel "animations"
+  {
+    event sequence "kuei-jin part 1"
+    {
+      time 0.000000 115.300003
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  channel "dlg"
+  {
+    event speak "Ming1"
+    {
+      time 24.533335 38.274811
+      param "Character\dlg\MAIN CHARACTERS\mingxiao2\line421_col_e.mp3"
+      fixedlength
+    }
+    event speak "Ming431"
+    {
+      time 40.226669 56.031815
+      param "Character\dlg\MAIN CHARACTERS\mingxiao2\line431_col_e.mp3"
+      fixedlength
+    }
+    event speak "Ming 441"
+    {
+      time 57.500004 68.864334
+      param "Character\dlg\MAIN CHARACTERS\mingxiao2\line441_col_e.mp3"
+      fixedlength
+    }
+    event speak "Ming451"
+    {
+      time 69.046661 73.540787
+      param "Character\dlg\MAIN CHARACTERS\mingxiao2\line451_col_e.mp3"
+      fixedlength
+    }
+    event speak "Ming461"
+    {
+      time 75.000008 87.983932
+      param "Character\dlg\MAIN CHARACTERS\mingxiao2\line461_col_e.mp3"
+      fixedlength
+    }
+    event speak "Ming471"
+    {
+      time 89.013336 101.788277
+      param "Character\dlg\MAIN CHARACTERS\mingxiao2\line471_col_e.mp3"
+      fixedlength
+    }
+    event speak "Ming481"
+    {
+      time 103.000000 112.744736
+      param "Character\dlg\MAIN CHARACTERS\mingxiao2\line481_col_e.mp3"
+      fixedlength
+    }
+  }
+  channel "Expressions1"
+  {
+    event expression "Raised Both 01"
+    {
+      time 24.573334 26.413334
+      param "mingxiao_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.2256 0.8146
+        0.4603 0.7207
+        0.5828 0.7207
+        1.5219 0.7207
+        1.5688 0.7207
+        1.6681 0.6784
+      }
+    }
+    event expression "Raised Left 01"
+    {
+      time 27.306667 28.266668
+      param "mingxiao_expressions"
+      param2 "Raised Left"
+      event_ramp
+      {
+        0.1394 0.9507
+        0.8364 0.9531
+      }
+    }
+    event expression "Raised Both 02"
+    {
+      time 29.879999 31.480000
+      param "mingxiao_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.1273 0.9671
+        1.4576 0.9671
+      }
+    }
+    event expression "delight 01"
+    {
+      time 40.066666 41.346664
+      param "mingxiao_expressions"
+      param2 "delight"
+      event_ramp
+      {
+        0.2061 0.9343
+        1.1182 0.9484
+      }
+    }
+    event expression "Concern No Deform 02"
+    {
+      time 42.366665 44.146667
+      param "mingxiao_expressions"
+      param2 "Concern No Deform"
+      event_ramp
+      {
+        0.1364 0.9648
+        1.6739 0.9437
+      }
+    }
+    event expression "Sarcasm 01"
+    {
+      time 46.260002 49.066673
+      param "mingxiao_expressions"
+      param2 "Sarcasm"
+      event_ramp
+      {
+        0.1818 0.9695
+        2.6563 0.9484
+      }
+    }
+    event expression "Sarcasm 02"
+    {
+      time 52.413334 53.833332
+      param "mingxiao_expressions"
+      param2 "Sarcasm"
+      event_ramp
+      {
+        0.2250 0.9718
+        1.1800 0.9648
+      }
+    }
+    event expression "Sad 01"
+    {
+      time 54.386665 56.939999
+      param "mingxiao_expressions"
+      param2 "Sad"
+      event_ramp
+      {
+        0.2437 0.9906
+        2.2592 0.9577
+      }
+    }
+    event expression "Raised Both 04"
+    {
+      time 59.046669 60.440002
+      param "mingxiao_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.2062 0.9789
+        1.2563 0.9671
+      }
+    }
+    event expression "Raised Both 03"
+    {
+      time 63.913334 65.413338
+      param "mingxiao_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.2625 0.8545
+        0.3438 0.8685
+        1.2062 0.8662
+        1.2875 0.8521
+      }
+    }
+    event expression "Raised Both 06"
+    {
+      time 69.113342 70.113342
+      param "mingxiao_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.1750 0.9836
+        0.8438 0.9789
+      }
+    }
+    event expression "Raised Both 08"
+    {
+      time 83.360001 84.746674
+      param "mingxiao_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.2500 0.8310
+        0.3125 0.8380
+        1.0687 0.8380
+        1.1500 0.8310
+      }
+    }
+    event expression "Raised Both 09"
+    {
+      time 87.446671 87.966675
+      param "mingxiao_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.2750 0.9695
+      }
+    }
+    event expression "Concern No Deform 08"
+    {
+      time 92.126663 93.639999
+      param "mingxiao_expressions"
+      param2 "Concern No Deform"
+      event_ramp
+      {
+        0.3375 0.9366
+        1.3779 0.9624
+      }
+    }
+  }
+  channel "Expressions2"
+  {
+    event expression "Concern No Deform 01"
+    {
+      time 26.259998 30.020000
+      param "mingxiao_expressions"
+      param2 "Concern No Deform"
+      event_ramp
+      {
+        0.1312 0.9437
+        3.6052 0.9366
+      }
+    }
+    event expression "Anger 01"
+    {
+      time 48.940002 50.366669
+      param "mingxiao_expressions"
+      param2 "Anger"
+      event_ramp
+      {
+        0.1500 0.8474
+        0.2000 0.8474
+        1.1537 0.8474
+        1.2162 0.8474
+      }
+    }
+    event expression "Anger 02"
+    {
+      time 53.606667 54.513332
+      param "mingxiao_expressions"
+      param2 "Anger"
+      event_ramp
+      {
+        0.2250 0.9906
+        0.7692 0.9836
+      }
+    }
+    event expression "Concern No Deform 03"
+    {
+      time 57.333332 59.206665
+      param "mingxiao_expressions"
+      param2 "Concern No Deform"
+      event_ramp
+      {
+        0.2750 0.9742
+        1.6812 0.9624
+      }
+    }
+    event expression "Concern No Deform 04"
+    {
+      time 61.913334 64.100006
+      param "mingxiao_expressions"
+      param2 "Concern No Deform"
+      event_ramp
+      {
+        0.2875 0.9718
+        1.9750 0.9789
+      }
+    }
+    event expression "Concern No Deform 05"
+    {
+      time 66.913338 69.300003
+      param "mingxiao_expressions"
+      param2 "Concern No Deform"
+      event_ramp
+      {
+        0.3250 0.9413
+        2.1421 0.9484
+      }
+    }
+    event expression "Raised Both 07"
+    {
+      time 72.126671 73.213333
+      param "mingxiao_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.1625 0.9789
+        0.8523 0.9484
+      }
+    }
+    event expression "Concern No Deform 06"
+    {
+      time 84.593330 86.093330
+      param "mingxiao_expressions"
+      param2 "Concern No Deform"
+      event_ramp
+      {
+        0.2000 0.9648
+        1.3242 0.9507
+      }
+    }
+    event expression "Concern No Deform 07"
+    {
+      time 86.799995 87.579994
+      param "mingxiao_expressions"
+      param2 "Concern No Deform"
+      event_ramp
+      {
+        0.1500 0.9789
+        0.6100 0.9765
+      }
+    }
+    event expression "Raised Both 10"
+    {
+      time 93.526665 95.073334
+      param "mingxiao_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.1125 0.7488
+        0.2125 0.7793
+        0.2562 0.7817
+        1.1938 0.7817
+        1.2437 0.7817
+        1.3500 0.7512
+      }
+    }
+  }
+  bonerename "Bip03" "Bip01"
+}
+
+actor "Ming_Guard_1_4"
+{
+  channel "animations"
+  {
+    event sequence "kuei-jin part 1"
+    {
+      time 0.000000 115.300003
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip04" "Bip01"
+}
+
+fps 60
+snap off

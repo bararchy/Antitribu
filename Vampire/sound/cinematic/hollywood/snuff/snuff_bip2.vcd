@@ -1,0 +1,59 @@
+// Choreo version 1
+actor "Headrunner_2_1"
+{
+  channel "animations"
+  {
+    event sequence "snuff video"
+    {
+      time 0.000000 44.300000
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+actor "Headrunner_2_2"
+{
+  channel "animations"
+  {
+    event sequence "snuff video"
+    {
+      time 0.000000 44.300000
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip02" "Bip01"
+}
+
+actor "Headrunner_2_3"
+{
+  channel "animations"
+  {
+    event sequence "snuff video"
+    {
+      time 0.000000 44.300000
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip03" "Bip01"
+}
+
+actor "Headrunner_2_4"
+{
+  channel "animations"
+  {
+    event sequence "snuff video"
+    {
+      time 0.000000 44.300000
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip04" "Bip01"
+}
+
+fps 60
+snap off

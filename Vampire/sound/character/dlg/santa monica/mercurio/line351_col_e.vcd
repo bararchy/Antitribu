@@ -1,0 +1,108 @@
+// Choreo version 1
+actor "Mercurio"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 14.625443
+      param "character/dlg/santa monica/mercurio/line351_col_e.wav"
+      param2 "60dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+    event expression "Sly Smile"
+    {
+      time 0.846667 3.553333
+      param "mercuriodamaged"
+      param2 "Sly Smile"
+      event_ramp
+      {
+        0.4280 0.7786
+        1.2180 0.6058
+        2.0320 0.8297
+      }
+    }
+    event expression "Lowered Both"
+    {
+      time 6.526667 8.620001
+      param "mercuriodamaged"
+      param2 "Lowered Both"
+      event_ramp
+      {
+        0.5480 0.2652
+        1.0300 0.7372
+        1.6700 0.4453
+      }
+    }
+    event expression "Disgust"
+    {
+      time 12.740001 13.960000
+      param "mercuriodamaged"
+      param2 "Disgust"
+      event_ramp
+      {
+        0.1820 0.6934
+        0.6140 0.5426
+        1.0700 0.6642
+      }
+    }
+  }
+  channel "Speech Triggers"
+  {
+    event expression "Flirtatious"
+    {
+      time 3.193333 5.000000
+      param "mercuriodamaged"
+      param2 "Flirtatious"
+      event_ramp
+      {
+        0.3200 0.3504
+        0.8480 0.6715
+        1.5120 0.5426
+      }
+    }
+    event expression "Raised Both"
+    {
+      time 5.440000 6.700000
+      param "mercuriodamaged"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.2280 0.5742
+        0.5580 0.3552
+        0.9640 0.4185
+      }
+    }
+    event expression "Nearly Crying"
+    {
+      time 9.373333 12.553333
+      param "mercuriodamaged"
+      param2 "Nearly Crying"
+      event_ramp
+      {
+        0.3280 0.3796
+        1.1700 0.4769
+        2.2120 0.7007
+        2.5080 0.2019
+        2.8480 0.4039
+      }
+    }
+    event expression "Confused"
+    {
+      time 13.813333 14.633332
+      param "mercuriodamaged"
+      param2 "Confused"
+      event_ramp
+      {
+        0.4200 0.9416
+        0.7120 0.5937
+      }
+    }
+  }
+}
+
+fps 60
+snap off

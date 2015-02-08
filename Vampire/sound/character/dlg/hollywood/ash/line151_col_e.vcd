@@ -1,0 +1,67 @@
+// Choreo version 1
+actor "Ash"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 12.588912
+      param "character/dlg/hollywood/ash/line151_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 2.070000 2.210000
+      param "0.140"
+    }
+    event silence "Silence"
+    {
+      time 4.720000 4.980000
+      param "0.260"
+    }
+    event silence "Silence"
+    {
+      time 6.830000 7.160000
+      param "0.330"
+    }
+    event silence "Silence"
+    {
+      time 7.180000 7.370000
+      param "0.190"
+    }
+    event silence "Silence"
+    {
+      time 9.420000 9.580000
+      param "0.160"
+    }
+    event silence "Silence"
+    {
+      time 9.670000 10.070000
+      param "0.400"
+    }
+    event silence "Silence"
+    {
+      time 11.719999 12.620000
+      param "0.900"
+    }
+    event loud "Loud"
+    {
+      time 2.680000 2.810000
+      param "0.130"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

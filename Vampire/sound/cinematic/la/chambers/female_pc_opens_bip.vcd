@@ -1,0 +1,31 @@
+// Choreo version 1
+actor "Prince2"
+{
+  channel "animations"
+  {
+    event sequence "PC Opens Sarcophagus"
+    {
+      time 0.000000 49.133
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+actor "!playercontroller"
+{
+  channel "animations"
+  {
+    event sequence "PC Opens Sarcophagus"
+    {
+      time 0.000000 49.133
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip02" "Bip01"
+}
+
+fps 60
+snap off

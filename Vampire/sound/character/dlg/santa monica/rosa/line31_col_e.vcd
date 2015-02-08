@@ -1,0 +1,42 @@
+// Choreo version 1
+actor "Rosa"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 7.147392
+      param "character/dlg/santa monica/rosa/line31_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+    event gesture "Rosa_Line31_col_E"
+    {
+      time 0.000000 7.500000
+      param "Rosa_Line31_col_E"
+    }
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event loud "Loud"
+    {
+      time 2.870000 2.980000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 3.690000 3.870000
+      param "0.180"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

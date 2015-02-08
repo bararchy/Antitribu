@@ -1,0 +1,38 @@
+// Choreo version 1
+actor "Mercurio"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 3.094059
+      param "character/dlg/santa monica/mercurio_malkavian/line331_col_e.wav"
+      param2 "60dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 2.090000 2.580000
+      param "0.490"
+    }
+    event loud "Loud"
+    {
+      time 0.640000 0.760000
+      param "0.120"
+    }
+    event loud "Loud"
+    {
+      time 2.840000 2.950000
+      param "0.110"
+    }
+  }
+}
+
+fps 60
+snap off

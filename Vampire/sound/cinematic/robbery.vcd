@@ -1,0 +1,215 @@
+// Choreo version 1
+
+actor "robber1"
+{
+
+  channel "VO"
+  {
+    event speak "robber1_1"
+    {
+      time 1.000 3.823
+      param "Character\dlg\hollywood\robber1\line1_col_e.mp3"
+      fixedlength
+    }
+    event speak "robber1_10"
+    {
+      time 29.115 31.698
+      param "Character\dlg\hollywood\robber1\line10_col_e.mp3"
+      fixedlength
+    }    
+  }
+  
+  channel "Anim"
+  {
+    event gesture "point_gun_1_1"
+    {
+      time 0.00000 6.800
+      param "supershotgun_ready"
+      fixedlength
+    }
+    
+    event gesture "point_gun_1_2"
+    {
+      time 6.6000 11.800
+      param "supershotgun_ready"
+      fixedlength
+    }
+    
+    event gesture "point_gun_1_3"
+    {
+      time 11.8000 36.200
+      param "supershotgun_ready"
+      fixedlength
+    }   
+
+  }
+  
+  channel "Expression"
+  {
+    event expression "Anger"
+    {
+      time 0.00000 32.000000
+      param "Anger"
+    }
+  }  
+    
+    
+   bonerename "Bip03" "Bip01"
+}
+
+
+
+actor "robber2"
+{
+
+  channel "VO"
+  {
+    event speak "robber2_1"
+    {
+      time 4.200 5.835
+      param "Character\dlg\hollywood\robber2\line1_col_e.mp3"
+      fixedlength
+    }
+    
+    event speak "robber2_10"
+    {
+      time 7.500 10.145
+      param "Character\dlg\hollywood\robber2\line10_col_e.mp3"
+      fixedlength
+    }
+    event speak "robber2_20"
+    {
+      time 17.200 18.627
+      param "Character\dlg\hollywood\robber2\line20_col_e.mp3"
+      fixedlength
+    }      
+    
+  }
+  
+  channel "Anim"
+  {
+    event gesture "point_gun_2_1"
+    {
+      time 0.00000 6.8000
+      param "glock_ready"
+      fixedlength
+    }
+    
+    event gesture "point_gun_2_2"
+    {
+      time 6.6000 14.000
+      param "glock_ready"
+      fixedlength
+    }    
+
+     
+  }
+
+   bonerename "Bip03" "Bip01"
+}
+
+
+
+actor "robber3"
+{
+
+  channel "VO"
+  {
+    event speak "robber3_1"
+    {
+      time 14.200 16.804
+      param "Character\dlg\hollywood\robber3\line1_col_e.mp3"
+      fixedlength
+    }
+    event speak "robber3_10"
+    {
+      time 19.100 20.735
+      param "Character\dlg\hollywood\robber3\line10_col_e.mp3"
+      fixedlength
+    }
+    event speak "robber3_20"
+    {
+      time 23.900 26.806
+      param "Character\dlg\hollywood\robber3\line20_col_e.mp3"
+      fixedlength
+    }      
+  }
+  
+  channel "Anim"
+  {
+    event gesture "point_gun_3_1"
+    {
+      time 0.00000 6.8000
+      param "glock_ready"
+      fixedlength
+    }
+
+     
+  }     
+    
+    
+   bonerename "Bip03" "Bip01"
+}
+
+
+actor "slater"
+{
+
+  channel "VO"
+  {
+    event speak "slater_310"
+    {
+      time 6.000 7.039
+      param "Character\dlg\hollywood\slater\line310_col_e.mp3"
+      fixedlength
+    }
+    event speak "slater_320"
+    {
+      time 27.000 29.115
+      param "Character\dlg\hollywood\slater\line320_col_e.mp3"
+      fixedlength
+    }    
+  }
+    
+    
+   bonerename "Bip03" "Bip01"
+}
+
+
+
+actor "robbery_victim"
+{
+
+  channel "VO"
+  {
+    event speak "victim_1"
+    {
+      time 11.000 13.677
+      param "Character\dlg\hollywood\robbery_victim\line1_col_e.mp3"
+      fixedlength
+    }
+    event speak "victim_10"
+    {
+      time 21.150 23.577
+      param "Character\dlg\hollywood\robbery_victim\line10_col_e.mp3"
+      fixedlength
+    }    
+  }
+  
+  channel "Anim"
+  {
+  
+    event gesture "cower"
+    {
+      time 9.0000 30.000
+      param "ACT_COWER"    
+      fixedlength
+    }
+  }
+    
+    
+   bonerename "Bip03" "Bip01"
+}
+
+fps 60
+snap off

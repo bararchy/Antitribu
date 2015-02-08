@@ -1,0 +1,33 @@
+// Choreo version 1
+actor "Tourette"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 2.404263
+      param "character/dlg/santa monica/tourette/line421_col_e.wav"
+      param2 "60dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 0.450000 0.730000
+      param "0.280"
+    }
+    event loud "Loud"
+    {
+      time 0.810000 0.940000
+      param "0.130"
+    }
+  }
+}
+
+fps 60
+snap off

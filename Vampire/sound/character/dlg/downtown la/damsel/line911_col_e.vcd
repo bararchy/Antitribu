@@ -1,0 +1,47 @@
+// Choreo version 1
+actor "Damsel"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 2.821224
+      param "character/dlg/downtown la/damsel/line711_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 0.320000 0.480000
+      param "0.160"
+    }
+    event loud "Loud"
+    {
+      time 0.630000 0.740000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 1.080000 1.200000
+      param "0.120"
+    }
+    event loud "Loud"
+    {
+      time 1.340000 1.460000
+      param "0.120"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

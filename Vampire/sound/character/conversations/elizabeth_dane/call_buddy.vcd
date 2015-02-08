@@ -1,0 +1,28 @@
+// Choreo version 1
+actor "Cop_Dirty"
+{
+  channel "Animation"
+  {
+    event gesture "Call_Into"
+    {
+      time 0.006666 2.606667
+      param "cellphone_into"
+      sequenceduration 2.600000
+    }
+    event gesture "Call_Loop"
+    {
+      time 2.580000 7.646667
+      param "cellphone_idle"
+    }
+    event gesture "Call_Out"
+    {
+      time 7.620000 10.620000
+      param "cellphone_outof"
+      sequenceduration 3.000000
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

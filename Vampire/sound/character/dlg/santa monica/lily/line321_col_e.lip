@@ -1,0 +1,43 @@
+VERSION 1.1
+PLAINTEXT
+{
+"Please... Save me?" 
+}
+WORDS
+{
+WORD Please... 0.000 1.177
+{
+112 p 0.203 0.309 1.000 0
+108 l 0.309 0.414 1.000 0
+105 iy 0.414 0.546 1.000 0
+122 z 0.546 0.652 1.000 0
+}
+WORD Save 0.976 1.200
+{
+115 s 0.885 0.965 1.000 0
+101 ey 0.965 1.064 1.000 0
+118 v 1.064 1.144 1.000 0
+100 d 1.144 1.224 1.000 0
+}
+WORD me? 1.200 1.440
+{
+109 m 1.224 1.329 1.000 0
+105 iy 1.329 1.434 1.000 0
+}
+}
+EMPHASIS
+{
+}
+CLOSECAPTION
+{
+english
+{
+PHRASE unicode 224 "
+}
+}
+OPTIONS
+{
+voice_duck 1
+speaker_name Lily
+}
+

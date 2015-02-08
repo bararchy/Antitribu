@@ -1,0 +1,102 @@
+// Choreo version 1
+actor "Vandal"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 17.604807
+      param "character/dlg/santa monica/vandal/line211_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 1.800000 2.290000
+      param "0.490"
+    }
+    event silence "Silence"
+    {
+      time 4.370000 4.870000
+      param "0.500"
+    }
+    event silence "Silence"
+    {
+      time 7.900000 8.470000
+      param "0.570"
+    }
+    event silence "Silence"
+    {
+      time 9.360000 9.480000
+      param "0.120"
+    }
+    event silence "Silence"
+    {
+      time 10.820000 11.309999
+      param "0.490"
+    }
+    event silence "Silence"
+    {
+      time 12.420000 12.540000
+      param "0.120"
+    }
+    event silence "Silence"
+    {
+      time 12.559999 12.710000
+      param "0.150"
+    }
+    event silence "Silence"
+    {
+      time 13.929999 14.330000
+      param "0.400"
+    }
+    event silence "Silence"
+    {
+      time 15.700000 15.880000
+      param "0.180"
+    }
+    event silence "Silence"
+    {
+      time 16.500000 16.719999
+      param "0.220"
+    }
+    event silence "Silence"
+    {
+      time 17.350000 17.650000
+      param "0.300"
+    }
+    event loud "Loud"
+    {
+      time 3.470000 3.580000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 3.900000 4.020000
+      param "0.120"
+    }
+    event loud "Loud"
+    {
+      time 5.200000 5.310000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 7.290000 7.410000
+      param "0.120"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

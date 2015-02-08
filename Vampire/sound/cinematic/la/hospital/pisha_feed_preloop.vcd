@@ -1,0 +1,35 @@
+// Choreo version 1
+//event loop "loop"
+//{
+//  time 1.500000 -1.000000
+//  param "0.000000"
+//  loopcount "-1"
+//}
+actor "Pisha"
+{
+  channel "Anim"
+  {
+    event sequence "Pisha_Feed_preloop"
+    {
+      time 0.000000 1500000
+      param "entire_scene"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+actor "Corpse"
+{
+  channel "Anim"
+  {
+    event sequence "Pisha_feed_preloop"
+    {
+      time 0.000000 1500000
+      param "entire_scene"
+    }
+  }
+  bonerename "Bip02" "Bip01"
+}
+
+fps 60
+snap off

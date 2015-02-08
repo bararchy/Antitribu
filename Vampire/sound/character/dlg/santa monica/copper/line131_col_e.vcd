@@ -1,0 +1,42 @@
+// Choreo version 1
+actor "Copper"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 4.258141
+      param "character/dlg/santa monica/copper/line131_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 1.730000 2.160000
+      param "0.430"
+    }
+    event loud "Loud"
+    {
+      time 2.460000 2.570000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 3.560000 3.670000
+      param "0.110"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

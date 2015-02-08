@@ -1,0 +1,57 @@
+// Choreo version 1
+actor "Malcolm"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 3.028753
+      param "character/dlg/santa monica/malcolm/line41_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event silence "Silence"
+    {
+      time 0.300000 0.610000
+      param "0.310"
+    }
+    event silence "Silence"
+    {
+      time 1.180000 1.750000
+      param "0.570"
+    }
+    event loud "Loud"
+    {
+      time 1.870000 1.980000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 2.270000 2.380000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 2.490000 2.620000
+      param "0.130"
+    }
+    event loud "Loud"
+    {
+      time 2.890000 3.000000
+      param "0.110"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

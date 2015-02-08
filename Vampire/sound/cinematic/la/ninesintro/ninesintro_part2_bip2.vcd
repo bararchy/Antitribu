@@ -1,0 +1,70 @@
+// Choreo version 1
+actor "Nines"
+{
+  channel "Anim"
+  {
+    event sequence "ninesintro_part2_bip2"
+    {
+      time 0.000000 50.933
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  channel "VO"
+  {
+    event speak "nines_line910"
+    {
+      time 2.340000 3.072495
+      param "Character\dlg\MAIN CHARACTERS\nines\line910_col_e.mp3"
+      fixedlength
+    }
+    event speak "nines_line911"
+    {
+      time 32.140003 33.133720
+      param "Character\dlg\MAIN CHARACTERS\nines\line911_col_e.mp3"
+      fixedlength
+    }
+    event speak "nines_line912"
+    {
+      time 36.426666 38.386917
+      param "Character\dlg\MAIN CHARACTERS\nines\line912_col_e.mp3"
+      fixedlength
+    }
+    event speak "nines_line913"
+    {
+      time 42.586666 43.345284
+      param "Character\dlg\MAIN CHARACTERS\nines\line913_col_e.mp3"
+      fixedlength
+    }
+    event speak "nines_line914"
+    {
+      time 46.193333 47.866234
+      param "Character\dlg\MAIN CHARACTERS\nines\line914_col_e.mp3"
+      fixedlength
+    }
+    event speak "nines_line915"
+    {
+      time 48.980000 50.287189
+      param "Character\dlg\MAIN CHARACTERS\nines\line915_col_e.mp3"
+      fixedlength
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+actor "cabbie"
+{
+  channel "Anim"
+  {
+    event sequence "ninesintro_part2_bip2"
+    {
+      time 0.000000 50.933
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip02" "Bip01"
+}
+
+fps 60
+snap off

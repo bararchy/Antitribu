@@ -1,0 +1,52 @@
+// Choreo version 1
+actor "Dennis"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 0.000000 9.476644
+      param "character/dlg/santa monica/dennis/line151_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+  }
+  channel "Gestures"
+  {
+    event gesture "Dennis_line151_col_E"
+    {
+      time 0.000000 10.000000
+      param "Dennis_line151_col_E"
+    }
+  }
+  channel "Expressions"
+  {
+  }
+  channel "Speech Triggers"
+  {
+    event loud "Loud"
+    {
+      time 0.920000 1.090000
+      param "0.170"
+    }
+    event loud "Loud"
+    {
+      time 1.430000 1.550000
+      param "0.120"
+    }
+    event loud "Loud"
+    {
+      time 4.660000 4.770000
+      param "0.110"
+    }
+    event loud "Loud"
+    {
+      time 6.130000 6.250000
+      param "0.120"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

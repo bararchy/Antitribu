@@ -1,0 +1,153 @@
+// Choreo version 1
+actor "Isaac"
+{
+  channel "Anim"
+  {
+    event sequence "courtroom"
+    {
+      time 0.000000 149.966995
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  channel "Expression_I1"
+  {
+    event expression "Apathy 01"
+    {
+      time 30.366667 35.039997
+      param "isaac_expressions"
+      param2 "Apathy"
+    }
+  }
+  channel "expression2_I2"
+  {
+    event expression "Raised Both 01"
+    {
+      time 30.773333 33.286667
+      param "isaac_expressions"
+      param2 "Raised Both"
+      event_ramp
+      {
+        0.3884 0.7536
+        0.4727 0.7536
+        1.7265 0.7559
+        1.7953 0.7559
+        2.4482 0.0000
+        2.4895 0.0000
+      }
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+actor "Regent"
+{
+  channel "Anim"
+  {
+    event sequence "courtroom"
+    {
+      time 0.000000 149.966995
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  bonerename "Bip04" "Bip01"
+}
+
+actor "Therese"
+{
+  channel "Anim"
+  {
+    event sequence "courtroom"
+    {
+      time 0.000000 149.966995
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  channel "Expressions_T2"
+  {
+    event expression "Disgust t01"
+    {
+      time 34.780003 36.833336
+      param "therese_expressions"
+      param2 "Disgust"
+      event_ramp
+      {
+        0.1455 0.9766
+        1.8678 0.9375
+      }
+    }
+  }
+  channel "Expression_T3"
+  {
+    event expression "sneer t01"
+    {
+      time 35.226669 36.533337
+      param "therese_expressions"
+      param2 "sneer"
+      event_ramp
+      {
+        0.2800 0.9974
+        0.9767 0.7969
+      }
+    }
+  }
+  bonerename "Bip02" "Bip01"
+}
+
+actor "VV"
+{
+  channel "Anim"
+  {
+    event sequence "courtroom"
+    {
+      time 0.000000 149.966995
+      param "entire_scene"
+      fixedlength
+    }
+  }
+  channel "expressions_V1"
+  {
+    event expression "Flirtatious v01"
+    {
+      time 22.446669 24.746666
+      param "vv_expressions"
+      param2 "flirt happy"
+      event_ramp
+      {
+        0.1060 0.9870
+        1.8560 1.0000
+      }
+    }
+    event expression "blown kiss v01"
+    {
+      time 25.913336 27.186665
+      param "vv_expressions"
+      param2 "blown kiss"
+      event_ramp
+      {
+        0.4320 0.9766
+        0.9053 0.9583
+      }
+    }
+  }
+  channel "Expressions_V2"
+  {
+    event expression "blow kiss v01"
+    {
+      time 24.333336 25.973330
+      param "vv_expressions"
+      param2 "blow kiss"
+      event_ramp
+      {
+        0.4840 0.9609
+        0.8613 0.9844
+      }
+    }
+  }
+  bonerename "Bip03" "Bip01"
+}
+
+fps 60
+snap off
