@@ -1,0 +1,33 @@
+Known Bugs: (a message by Lenusk@ - Lead Developer of Antiribu)
+
+Primarily all bugs of Companion Mod present, read about them at file CompanionMod_readme.txt. To avoid many bugs with Companions; DO NOT SAVE game possessed with Companions body!
+
+Dialogs are not ready. Don't use dementation lines in dialogs if you tzimisce, and don't use domination lines if you not giovanni (ex-ventrue). This is engine limitation: only clan malkavian can use dementation and clan ventrue can use domination.
+
+Dialogs now will not be edited, it's takes very lot of time (especially emulate domination for lasombra and old clan). This is being worked on and will be ready in next versions of mod. Also you can see the lines addressed to the old clans, it is also not ready.
+
+When you just start game many particles not precached (because we have added a lot of particles), when you change map all particles will be precached, but not to play in the current map without many particles, just load save game again!
+
+Bug with NPC dies during animation; Some times when NPC die during animation, some triggers not work, and nothing happens, just replay the battle. The same problem was in original game; for example Bruno stuck during animation. Just load last save and replay it. Sometimes you can wait and triggers start working.
+
+Bug with changing models; this is game engine bug, some times when PC or NPC change models (especially when NPC turn into wolf) game crashes. LoAD last save and try again. For first playing it it is problematic, but next time just save game before battle with wolves.
+
+Permanent fast regeneration: some times health restore like Blood Heal always activate, and so fast that enemies can't kill you. Now i don't found a reason, why it happens and how to fight it. If you caught this bug, don't save game, don't change map, this bug will be work until the end of the game. LOAD save-game when you don't have this bug.
+Also it concerns about bugs with over bumped character stats (you play as usual, but at one moment some stats became maximum or effects of disciplines remain forever), same thing, i don't know a reason, and how to fix it. If you caught this bug, don't save game, don't change map, this bug will be work until the end of the game. LOAD save-game when you don't have this bug.
+
+Bug with Shatter: Some times you cast Shatter and NPC freezed, cast Shatter again and NPC unfreezed.
+
+Bug with ritual room (la_library_2): some times when Lich kill you, you try exit main menu and game crushes, i don't know why. Just try again.
+
+If you load save game at club music theme not playing, if you re-enter this map music start playing, this is bug. But now, i don't where reason, and how it fix.
+
+Graphical bugs: some times when you play long time, some common models mixed, and map load with not relevant models for doors, locks, furniture, misc and so on. Just re-enter the game.
+
+General recommendations of avoidance bugs.
+
+    If you caught some bug, DON'T save game - 95% when you load game bug remains (exclusion: some graphical bugs)
+    If you caught some bug, DON'T change map - 90% when you load game bug remains.
+    If you caught some bug, load save-game when you don't have this bug.
+    If you caught some bug, just try to re-enter game. As extreme step: Start new game.
+    Try not to change map during model changing disciplines, this may result over bumping stats or drop female models.
+    That's all that i try to remember. Of course, if you find critical repetitive bugs, report it.

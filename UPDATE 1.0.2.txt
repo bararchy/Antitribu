@@ -1,0 +1,4 @@
+Fixes the Discipline name issues.
+and mercurio dialog.
+
+to install overwrite the vampire folder with the one in your main vampire  directory.

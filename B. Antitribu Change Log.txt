@@ -1,0 +1,56 @@
+                     Vampire the Masquerade Bloodlines(PC)
+
+                                 Antitribu MOD
+
+                                 Feb 5,  2015
+                                 Version 1.0
+ Introduction:
+-------------------------------------------------------------------------------
+
+Hello and Greetings,
+
+We (Lenuska and Me) would like to thank you all for sticking around this long, we have finally decided to release the mod with most main promised features. Although this version of the mod will not include all the features we initially promised. The mod was taking too long to make, and you were waiting too long for it so the logical step is to give you what we have now.
+
+What will not be included in this version:
+
+    New Dialogs and Clan Specific NPC Interactions (Intended to be released for Version 1.1in a few months)
+    New Main Quest with the New Ending (Intended for a later version after dialogs are fleshed out)
+
+Note that the main reason we removed the Sabbat ending was due to the lack of proper dialogs and texts, such things would have take a long time as they are time consuming and tedious, but with the mod released we will have time and the help in terms of voice acting and dialog writers to make those changes happen. Here is the list of what it will be included in the Version 1.0:
+
+Antitribu Version 1.0 Major Changes:
+
+1) New gameplay:
+        7 new major clans (Lasombra, Follower of Set, Old clan Tzimisce , Samedi, Tzimisce, Nagaraja, Giovanni)
+        8 additional "clans" available through companions (brujah, nosferatu, toreador, malkavian, thinbloods, humans, demon hunter and gargoyle)
+        11 new disciplines with a completely new gameplay (Animalism, Dominate, Obtenebration, Serpentis, Koldunic Sorcery, Thanatosis, Necromancy (3 variations), Vicissitude, Nihilistics) also all the rest disciplines have little different application...
+        Additional new gameplay elements: blood loss (does not damage health), kick, player equipment...
+        Completely reworked combat system: new enemies, semi-bosses, bosses (also new battles with old bosses);
+        new npc active and passive new disciplines; all new weapons, diverse damage system, etc.
+        All enemies (especially standing near) have different models, weapons and equipment, enemies use passive and active discipline, also unique characteristics, some enemies are especially sensitive to certain types of weapons and vice versa resistant to other types of weapons, and so on...
+        new item system: all books and artifacts completely redesigned and moved. All artifacts have both bonuses and disadvantages, also some can be equipped. Skill Research is also needed to get information about all main items. All added new elements highlighted by Inspection skill so that it is now more necessary than ever.
+        Increased many levels difficulty of game: enemies become smarter, stronger, more flexible, more varied and terrible; also random variables - such as passwords on new computers or the effects of domination ...
+
+
+2) Atmosphere / Visualization / Diversity:
+        More than 600 new models
+        More than 1500 new textures
+        More than 2000 new sounds
+        Replacing many common models such as pedestrians, clubbers, goths, dancers, the waiters, security guards, cops, gang members, etc. So no longer see "clone attack." Many npc's have combinational clothing and gear. Many companions have new and / or alternative models and textures (Heather, Yuki, Jeanette...) Also added new models and textures vehicles (some of which are interactive).
+        Added many new sounds. All disciplines, weapons, new npc's, all main maps have new sounds and music. All clubs now have different soundtracks playing when you enter the club.
+
+
+3) Maps and Quests
+        As the main quest for Sabbat not ready, we disable all sabbat maps and quests. So while we have only 2 new semi-main quests and 4 new maps along side a very a large number of random events and sidequets.
+        The walkthough of all major and some side quests have changed. On all major maps the geometry or the order of walkthrough is changed; added doors, locks, computers, traps, explosions, new logic puzzles or physical objects or other interactive items. Also added some new cut-scenes.
+
+
+4) Additional Trivia:
+        new main menu, intro, load screens, HUD, descriptions...
+        New particles and blood stains make the game more realistic and scary.
+        Added some adult only content
+        a reference to the famous products of modern culture (movies, games, etc.)
+        a bit of dark humor
+        and respecting application of WoD setting...
+
+

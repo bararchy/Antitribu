@@ -1,0 +1,1047 @@
+                   _________________________________________
+                   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+                     Vampire the Masquerade Bloodlines(PC)
+
+                                 Companion MOD
+                                
+                   _________________________________________
+                   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+                                 Jan 25,  2009
+                                  Version 0.4
+
+                 http://sites.google.com/site/vtmbcompmodhome/
+
+                        Written by:  Dheu                           
+                             Email:  Dheuster@gmail.com
+                       Use subject:  CompanionMod Beta 4
+
+_____________________________________SUMMARY___________________________________
+
+VTMB CompMod enhances Vampires The Masquerade Bloodlines by allowing you to 
+recruit other NPCs to join your party and travel with you throughout the game. 
+Other party centric enhancements include: 
+
+   - Ability to embrace some select NPCs later in the game. 
+   - Ability to possess your traveling companions and use their special 
+     abilities from afar (if desired). 
+   - Place party members around your haven in an assortment of animated poses
+   - Tell party members to change outfits. (supports installable outfit packs)
+   - Access to secondary traveling inventory through companion dialog.
+
+-------------------------------------------------------------------------------
+                              Table of Contents:
+-------------------------------------------------------------------------------
+
+  I.        Quest Updates and Additions
+  II.       Installation
+  III.      Companion System
+    A.        Gaining Companions
+    B.        Combat
+    C.        Possession
+    D         Outfits
+    E         Animated Poses
+    F.        Known Bugs
+  IV.       Outfit Pack Creation
+  V.        Release Notes
+  VI.       Credits
+
+  VII.      BETA TESTER NOTES
+
+===============================================================================
+I. > > > >  Quest Updates and Additions
+===============================================================================
+
+
+  A) Introduction
+
+      VTMB offers a very unique experience for most of the playable vampire
+      clans. However, I was disappointed with the Ventrue experience. Powerful
+      Ventrue are suppose to be able to bend the will of anyone to do their 
+      bidding... human or vampire. Their mind control ability is suppose to 
+      make them the most powerful vampire class the game has to offer. Not 
+      because of what THEY can do, but because of what they can make others 
+      do. 
+
+      To fully realize a Ventrue's powers, you would need to be able to do
+      more than simply gather additional information from dialogs. A true
+      ventrue doesn't do their own fighting. They cultivate armies of servants
+      who do their fighting for them. This was the experience I was looking
+      for. And since the game didn't have it, I decided to add it myself.
+
+      This mod was originally intended to be a Ventrue enhancement mod, but
+      has slowly evolved into more. Today, any clan can create parties, some
+      NPCs will travel with you willingly and there is even an option to 
+      embrace a human later in the game.
+
+
+  B) The Animus Constupro 
+
+      The Animus Constupro is an ancient parasitic creature who's cursed
+      blood enslaves all who taste it. You will find the Animus Constupro 
+      about a quarter of the way through the game towards the end of the 
+      Alistair Grout quest. This item is required to create most of your party. 
+
+      Originally,  the Animus Constupro was only going to be require  for
+      unusual characters: Vampires, Ghouls, Non-humans.  However, I 
+      discovered during the development of the mod that MOST characters
+      in this game are not normal everyday humans. Therefore, it was decided
+      that the Animus Constupro would be required for all characters except a
+      rare few who will travel with you willingly. 
+
+      The mod still caters to clans with mind control abilities, but with some 
+      effort, any clan can cultivate a party of super ghouls. 
+
+      IMPORTANT NOTE:
+
+      Only Heather and Yukie are available as traveling companions without
+      the Animus Constupro. For this reason, you may wish to stick to the
+      main plot and avoid side quests until you have the creature in your 
+      possession. Otherwise, you may miss potential companion options. See 
+      III.A below for more details.  
+
+
+  C) Companion Options
+
+
+     The following Characters are available as companions. For more information
+     on how to obtain specific companions, see the Spoilers section of the 
+     website.
+
+
+     1) Friendly NPC's
+
+         These companions will join you willingly if you help them out. They 
+         are also the only embrace options later in the game.
+
+         Heather - Santa Monica Hosipital
+         Yukie   - China Town
+
+     2) Vampires
+
+         Lily     - Meet during Quest given by E at the Santa Monica Beach
+         E        - Santa Monica, Beach
+         Julius   - Santa Monica, Beach
+         Copper   - Santa Monica, Beach
+         Rosa     - Santa Monica, Beach
+         Jeanette - Santa Monica, Asylum
+         Therese  - Santa Monica, Asylum
+         Tourette - Santa Monica, Asylum
+         Damsel   - Downtown LA, The Last Round
+         Skelter  - Downtown LA, The Last Round
+         VV       - Hollywood, Vesuvius
+         Ash      - Hollywood, Asp Hole
+         Mitnick  - Hollywood, Warrens
+
+     3) Humans
+
+         Knox        - Santa Monica, outside Hospital, Inside Asylum
+         Vandal      - BloodBank Vendor
+         Danielle    - Santa Monica, Asylum
+         Carson      - Santa Monica, Arthur Killpatric Quest
+         Igor        - Downtown LA, Russian Mafia
+         Jumbles     - Downtown LA, Damsel Quest
+         Junkie_girl - Downtown LA, Damsel Quest
+         Mcfly       - Haven, Present from Heather
+         Samantha    - Hollywood, outside Resturant
+         Misti       - Stripper at Vesuvius
+         Kerri       - Stripper at Sinbin
+         Mira        - Neice of Bruno of clan Giovanni
+         Nadia       - Undergrad staying at Giovanni Mansion
+         Shu         - Chinatown lockeroom
+         Bar Hostess - Chinatown Bar
+ 
+     4) Other
+
+         Doll1       Santa Monica Blood Doll (at bar)
+         Doll2       Downtown Blood Doll (at bar)
+         Doll3       Hollywood Blood Doll (at bar)
+         Doll4       ChinaTown Blood Doll (at bar)
+         Havenbum    Approaches you at beginning as you leave haven.  
+         Prostitute  Every prostitute in every city. 
+
+===============================================================================
+II. > > > >  Installation
+===============================================================================
+
+  A. Non-Steam Users:
+  -------------------
+
+    1) [Optional] Backup your current VTMB installation
+
+        Save games were expanded to include party information. Therefore old 
+        save games will not be compatible with the Companion Mod. Nor will 
+        your new save games be compatible with the original game.
+
+        It is possible to have 2 versions of the game installed on 1 computer. 
+        You can play either version so long as there is at least 1 legitimate
+        copy of the game installed. 
+
+        This allows you to play VTMB with or without the companion mod. However, 
+        backing up the original installation requires that you have enough 
+        hard disk space for 2 copies of the game (Generally 10 Gig minimum 
+        is recommended). 
+
+       - Rename the current installation directory. Typically:
+
+         C:\Program Files\Activision\Vampire the Masquerade - Bloodlines
+
+         should be renamed to :
+
+         C:\Program Files\Activision\VTBM - Original
+
+    2) Uninstall any existing copy of VTMB
+
+       ** follow these instructions even if you renamed the directory in the 
+          previous step
+
+         - Insert the CD and select "Uninstall". 
+
+         - When prompted, Delete all local content.
+
+
+    3) Clean up Previous Mod Artifacts
+
+       VTMB's uninstaller only removes files that were installed by VTMB. If
+       you have installed other mods or patches, those files are not cleaned 
+       up and may present issues. 
+
+       Using Explorer, browse to the directory where VTMB was installed.
+
+       Typically:
+
+       C:\Program Files\Activision\Vampire the Masquerade - Bloodlines
+
+       If a directory exists named "Vampire the Masquerade - Bloodlines", 
+       right click and delete completly from the computer.
+
+       ** Do not delete the directory "VTMB - Original" if you backed up the 
+          directory in optional step 1. 
+
+    4) Install a fresh Copy of VTMB:
+
+       - Insert CD 1 and select Install. Follow the instructions.
+
+    5) Install the Official 1.2 patch. 
+
+         http://www.vampirebloodlines.com/patch/
+
+    6) Unzip compmod_1.0.zip using winzip
+
+       ** The 7z file was compressed using winzip as most file share sites
+          only support zip files. 
+
+    7) Extract compmod_1.0.7z file to:
+
+       C:\Program Files\Activision\Vampire the Masquerade - Bloodlines
+
+       ** Requires 7Zip version 4.60+ (Free Software) http://www.7-zip.org
+       ** Make sure that "Current Pathnames" is checked. 
+       ** Make sure "Overwrite without prompt" is checked. 
+
+    8) DO NOT INSTALL ANY PATCHES ON TOP OF THIS MOD! -> It will break the mod.
+
+    NOTE : If you have Vista 64 and you experience problems with this mod, you 
+           may have to run "INSTALL64" under the tools directory. However, do 
+           not run this unless you actually exprerience problems. 
+
+
+  B. Steam Users: 
+  ---------------
+     
+  1) [Optional] Backup your current VTMB installation
+
+    Old save games will not be compatible with the Companion Mod. Nor will 
+    your new save games be compatible with the original game.
+
+    Backing up the original installation requires that you have enough 
+    hard disk space for 2 copies of the game (Generally 10 Gig minimum 
+    is recommended). 
+
+    Assuming Steam is installed in the default location, normally you will
+    find VTMB files in the folder :
+
+    C:\Program Files\Steam\steamapps\common\vampire the masquerade - bloodlines
+
+       Browse to the folder "C:\Program Files\Steam\steamapps\common\" using
+       Windows Explorer. Rename the VTMB install directory to:
+
+    C:\Program Files\Steam\steamapps\common\VTMB - Original
+
+  2) Uninstall any existing copy of VTMB
+
+    Open Steam, goto the "My Games" tab. Right click on VTMB and select
+    "Delete local content". The game will move to the "not installed" area. 
+
+  3) Clean up Previous Mod Artifacts
+
+    VTMB's uninstaller only removes files that were installed by VTMB. If
+    you have installed other mods or patches, those files are not cleaned 
+    up and may present issues. 
+
+    Using Explorer, browse to the directory where VTMB was installed.
+
+    Typically:
+
+    C:\Program Files\Steam\steamapps\common\vampire the masquerade - bloodlines
+
+    If a directory exists named "Vampire the Masquerade - Bloodlines", 
+    right click and delete completly from the computer.
+
+    ** Do not delete the directory "VTMB - Original" if you backed up the 
+       directory in optional step 1. 
+
+  4) Install a fresh Copy of VTMB:
+     
+    - Start Steam
+    - Click on "My Games"
+    - Right click the VTMB game within the steam window and select 
+      "Install Game".
+
+    ** Steam delivered content comes with the 1.2 patch already installed. 
+
+    ** If you run into problems Re-installing. "Your Steam Ticket has expired"
+       delete the the "ClientRegistry.blob" file from C:\Program Files\Steam.
+       This will force steam to update when it next starts which should fix 
+       the problem. 
+
+  5) Start\Exit VTMB:
+
+      Sometimes Steam does not fully extract the contents of your game until 
+      you actually launch the game. To be certain steam does not clobber 
+      any of the mods changes, you should launch the newly installed Steam 
+      version of the game at least once before extracting the mod. 
+
+    - From Within Steam, right click VTMB and select "Launch Game". 
+    - Once you reach the Load\Save menu, you can quit.  
+
+  6) Unzip compmod_1.0.zip using winzip
+
+     ** The 7z file was compressed using winzip as most file share sites
+        only support zip files. 
+
+  7) Extract compmod_1.0.7z file to:
+
+    C:\Program Files\Steam\steamapps\common\vampire the masquerade - bloodlines
+
+    ** Requires 7Zip version 4.60+ (Free Software) http://www.7-zip.org
+    ** Make sure that "Current Pathnames" is checked. 
+    ** Make sure "Overwrite without prompt" is checked. 
+
+  8) DO NOT INSTALL ANY PATCHES ON TOP OF THIS MOD! -> It will break the mod. 
+
+
+  NOTE : If you have Vista 64 and you experience problems with this mod, you 
+         may have to run "INSTALL64" under the tools directory. However, do 
+         not run this unless you actually exprerience problems. 
+
+===============================================================================
+III. > > > >  Companion System
+===============================================================================
+
+  You can collect up to 7 companions at any given time and you can order up to
+  2 of them to travel with you. Those companions who are not traveling with you
+  can be placed in an assortment of animated poses around your haven as 
+  "decor". 
+
+  A) Gaining Companions
+
+
+     There are 3 ways to gain companions in this game. 
+
+     1) Friendly Non-Player-Characters (NPCs)
+
+         Some NPCs will willingly join forces with you.
+
+     2) The Embrace
+
+        Later in the game, you will be given the opportunity to embrace one 
+        human. Embrace options are limited to those humans who willingly join
+        forces with you.
+
+     3) Animus Constupro
+
+        The Animus Constupro is the most common way of gaining a companion.
+        This parasitic creature can be found about a quarter of the way 
+        through the game during the Alistair Grout quest given to you by 
+        LaCroix. The quest is part of the plot and the creature is highlighted 
+        within a cut scene, so you can't miss it.
+
+        Once the Animus Constupro is in your possession, you must convince
+        people to drink blood from it through dialog.
+
+        If you are Ventrue, Tremere or Malkavian you can use your Mind-Control 
+        abilities to "convince" most humans into drinking the creature's blood. 
+        Vampires present a greater challenge. You can use Mind-Control on 
+        Vampires, but they will typically shrug off the attempt. It may work,
+        but only if you catch them off guard by doing it to someone who trusts
+        you.
+
+        There are other ways to get vampires to drink the blood. Trickery, 
+        persuasion and timing are tools of the trade. For example, while a 
+        Vampire may not trust you, often times Vampires have Ghouls or allies 
+        that they DO trust. If you learn the identity of these people and then
+        possess their allies, you can often trick a Vampire into drinking 
+        blood under false pretenses.
+
+          NOTE: Once an NPC has been fed the Animus Constupro, they may never
+                be the same again and any future quests that they might have
+                given you may no longer be available. Keep this in mind when
+                deciding whether to pursue an NPC as a party member. 
+
+  B) Combat
+
+     Companions will not initiate a fight unless you attack first. They will 
+     not blow your cover when playing stealth. If you attack an enemy (or you
+     are discovered), companions will back you up and attack anyone who is 
+     hostile towards you.
+
+     You can tell your companion through dialog how you want them to fight.
+     The options are:
+
+       - General : Ranged, Switch to Melee if enemy gets too close
+       - Melee Only : If you are fighting vampires, most ranged weapons are 
+                      useless.
+       - Hide : (Don't fight)
+
+     Companions use a different system than the PC for health. They can take
+     a certain number of hits based on their endurance and your level. After
+     they absorb their max hits, they fall to the ground unconscious for 2 min
+     or until combat is over (whichever comes first). When they get up, their
+     hits reset. These hit counters do not reset between fights or even areas.
+     They only reset when a companion falls and gets back up.
+
+     Your Level is based on your attributes, skills and disciplines. Following
+     the tutorial, most people will start the game at level 2. If you max out
+     all of your attributes, skills and disciplines, you would be considered
+     level 20. Note that unallocated experience points do not contribute to
+     your level, thus companions will remain weak in combat if you stock 
+     pile your experience.
+
+     As a rule of thumb, most companions can take a number of hits equivalent
+     to your level. (Give or take up to 20 percent based on their unique
+     stamina)
+
+
+  C) Possession
+
+     Starting Possession
+
+         You begin possession by choosing the "<Possess>" option from your 
+         traveling companions dialog.
+
+     Possession Details
+
+         When you possess a companion you gain their body, stats and powers.
+         You are not responsible for what a possessed companion does. If you
+         kill a human or break the Masquerade while possessing a companion,
+         the humanity loss or violation is incurred by the companion. When you
+         un-possess, it will be as though you did nothing wrong. If you have
+         extra experience points and you spend them on the companion, they will
+         be given back to you when you un-possess.
+
+         While possessing someone, you can try to start a dialog. Most the time
+         the game will treat you as if you are the same gender, clan, etc... as
+         the possessed NPC. In some cases the game will auto-un-possess, and in
+         some rare cases you will get new custom dialog because the NPC you are
+         talking to recognizes you. (See the Spoilers section for more 
+         details.)
+
+     Ending Possession
+
+         There are 3 ways possession can end:
+
+         1) You talk to the Protagonists body and end possession manually
+
+            This one is pretty self explanatory
+
+         2) The possessed companions health drops to 0 for more than 10 seconds
+
+            When the body of a possessed NPC takes too much damage, possession
+            automatically ends. In most cases, The NPC's body falls and you are
+            teleported back to the PC's body (where ever you have stashed it).
+            During boss fights, you will not teleport. You will simply become
+            the PC again and continue fighting from your current location. This
+            is because Boss Fights generally lock the doors behind you and I
+            didn't want players teleporting outside of the area with no ability
+            to get back in.
+
+         3) You begin a dialog with someone that possessed NPC is not allowed 
+            to talk to.
+
+            Explanation: If you possess the owner of a bar and talk to the 
+            bartender, you would expect the bartender to recognize you. 
+            However, if you talked to the prostitute outside, it wouldn't
+            really matter who you are. The Compmod uses pre-defined reaction
+            tables to decides who is allowed to talk to who. If it detects a
+            conflict between the person you are possessing and the person you
+            are talking to, it will auto-end possession. It happens most often
+            when talking to main characters such as LaCroix or Nines who always
+            talk to you as though you are the protagonist.
+
+            Malkavians are an exception to this rule. Possessed Malkavians will
+            rarely if ever auto-un-possess when beginning dialog. If you want
+            to get philosophical, then just pretend they make everyone see the
+            protagonist. But in reality I wanted to provide access to their
+            Dementation discipline during dialog for those clans without
+            mind-control abilities.
+
+
+  D) Outfits
+
+     Each character in the game has a directory that contains models and skins
+     for the character. The companion mod scans the characters directory for
+     models and allows you tell people to "Change Outfits" if additional models 
+     are detected. It is really that simple. 
+
+     If additional models are found, you will see "Change outfit" options in
+     your dialog with the companion. Mod supports the concept of installable 
+     outfit packs which can be added at a later time and will not break save
+     games. 
+
+     See website section : Media/Images for screenshots of some of the outfit
+     options that come pre-installed with the mod.
+
+  E) Animated Poses
+
+     One of the things you can do with companions is place them around your
+     haven as decor. This functionality is only available on companions who are
+     not travelling with you.
+
+     Starting the Pose System
+
+         The pose system is initiated using dialog. The exact wording changes
+         from NPC to NPC, but it generally includes the word "Pose". After it
+         is initialized, a message will appear on the screen telling you to
+         use KP_0 (Keypad 0) for help or KP_Enter (Keypad Enter) to end the
+         pose system.
+
+     Moving the Companions
+
+         When the pose system starts, the companion becomes attached to you.
+         When you move, they move with you like an object that you have picked
+         up. You can also make fine grain adjustments to their position using
+         the keypad. The default movement keys are as follows:
+
+         KP_LEFTARROW : Rotate Companion to the right
+         KP_RIGHTARROW : Rotate Companion to the left
+         KP_UPARROW : Raise Companion into the air. (typically to place on an
+                      object such as a bed or chair)
+         KP_DOWNARROW : Lower Companion
+         KP_PGUP : Lean companion backward (so that they are facing down
+                   towards the ceiling)
+         KP_PGDN : Lean companion forward (so that they are facing down
+                   towards the floor)
+         KP_5 : Recenter Companion directly in front you. Usefull if the
+                companion accidently falls off the map.
+
+         LEFTARROW : Move Companion to the left of your target hair 
+         RIGHTARROW : Move Companion to the right of your target hair
+         DOWNARROW : Pull Companion closer to the PC
+         UPARROW : Push Companion farther away from the PC
+
+
+     Changing Poses
+
+         KP_PLUS : Next Pose
+         KP_MINUS : Previous Pose
+
+     Changing Expressions
+
+         KP_SLASH : Next Facial Expression
+         KP_* : Previous Facial Expression
+
+     Ending the Pose System
+
+         KP_ENTER or ENTER : Finished\End Pose System
+
+     NOTE: Hitting KP_0 pops up a help message which explains the default key mappings.
+
+
+     List of Available Poses
+
+
+         Mesmerized       Sleep                    Sad3
+         Zombie           UsePanel                 Fear1
+         Worship          Layonback                Fear2
+         Cower1           Sitback                  Disgust
+         Intrusion        Sitforward               Apathy
+         Jaded            Cower3                   Flirtatious
+         Dance1           Pledge (female only)     Confused
+         Crying           Sitfrisky (female only)  laying1 (normal)
+         Lost             Lapdance1 (female only)  laying2 (mad)
+         Jittery          Lapdance2 (female only)  laying3 (happy)
+         Dance2           Lapdance3 (female only)  laying4 (flirt)
+         Lockpick         Piss (male only)         Damaged
+         Madness          Anger1                   Dead
+         Sobbing          Anger2                   Sitting
+         Dance3           Anger3                   Bartender1
+         Rubdown          Joy1                     Bartender2
+         Laugh            Joy2                     HandsBehindBack
+         Cower2           Joy3
+         UseComputer      Sad1
+         Sitbar           Sad2
+
+
+     List of Available Expressions
+
+
+         ** Most expressions are NPC specific. Below are the common expressions
+            only.
+
+         Neutral           Melancholy Smile
+         Joy               Confused
+         Fear              Disgust
+         Very Frightened   Apathy
+         Sly Smile         Lowered Eyebrows (Both)
+         Flirtatious       Raised Eyebrows (Both)
+         Anger             Raised Right Eyebrow
+         Mad               Raised Left Eyebrow
+         Enraged           Lowered Right Eyebrow
+         Sad               Lowered Left Eyebrow
+         Miserable         Knockback
+         Nearly Crying     
+
+
+     Modifying Pose Key setup
+
+
+         You can change the default pose system key setup by editing the file
+         Vampire\cfg\mods.cfg.
+
+  F) Known Bugs
+
+     There are some minor bugs (more like irritations) that are known. Below
+     is a list with tips on how to fix or avoid.
+
+     - Do not use the pose system from third person perspective (IE: when you
+       can see the Protagonist). If the companion you are posing comes into
+       contact with the protagonists model, the PC may be thrown off map. Only
+       pose from first person perspective.
+
+     - It is possible to use the "get behind me" companion command to teleport
+       your companion through walls or around fences. If you then proceed to
+       possess the companion through the fence, you can gain access to areas
+       that the game developers never meant for you to enter. If you actually
+       walk around and talk to people, you will likely break the game as you
+       will be doing things out of sequence. You may even fall off the map.
+       Do not possess through fences, walls or doors to gain access to
+       inaccessible areas
+
+     - If you hit anyone, your traveling companions will attack them. 
+       Unfortunately, this includes members of your party and even your fellow
+       traveling companions. This is part of the game's AI and I cant stop
+       or detect the behavior. Luckily, you can.
+
+       If you accidentally hit a traveling companion and the other companion
+       begins to attack them: Squat on the ground. Within 15 seconds both
+       companions will go invisible (and stop fighting since they cant see
+       each other). Talk to either one and tell them to "Find the other
+       servant and bring them here". This will re-spawn the other companion
+       and stop the fighting.
+
+       If you accidentally hit a party member in your haven. You can either
+       leave the haven and return (thus re-spawning both of your traveling
+       companions) or you can talk to any of your haven companions 
+       (non-traveling companions) and tell them to "Round everyone up and tell
+       them to return to their starting positions". This will re-spawn everyone
+
+       in the haven and thus stop the fighting as well. If you have spent any
+       time posing people, you will probably want to use the "leave the haven"
+        option.
+
+     - When posing NPCs, if you somehow manage to lose an NPC (ie, they fall
+       off map and you accidentally hit ENTER instead of Re-Center), you can
+       approach any NPC in the haven and tell them "Round everyone up and
+       tell them to return to their starting positions". This dialog option
+       is basically a haven reset. You can also use this dialog option if
+       you accidentally place an NPC in a location where you can not start
+       dialog with them. (The most common place is the shower).
+
+     - NPCs teleport behind you if they get too far away or remain idle for
+       15 seconds. I have found some issues when using elevators as an NPC may
+       teleport behind you and block the elevator from going up/down. If you
+       find yourself in an elevator that isn't moving, back up against a wall
+       so that when your companion idle teleports, they get out of the 
+       elevators way. Alternatively, you can reload an auto-save.
+
+     - Some companions may act strangely when standing at idle. For example,
+       arms stretched out and head looking at the ground. This is an engine
+       bug that I can't fix, however I have found that the behavior often
+       goes away when I quit/restart the game. A restart is necessary. Simply
+       reloading a saved game does not fix the issue.
+
+
+   G) Reporting Bugs
+     
+     Before submitting a bug, be certain you have the latest version of the 
+     CompanionMod. 
+
+     When you submit a bug, provide clear instructions on how to reproduce it 
+     and do not forget to include:
+
+       - Version of Companion Mod
+       - Graphics Card
+       - Amount of RAM (There are known issues with VTMB on machines with
+                        more than 3.5 GB of ram)
+       - Be certain you are not out of DiskSpace on the drive that 
+         contains VTMB. (You should have at least 2 gigs of free
+         space). 
+       - Version of VTMB (Steam, Digital Distribution or Retail)
+       - OS : Windows XP or Vista
+       - Permissions : Are you running as an Admin or standard user?
+
+     Bug Severity: 
+
+        REALLY BAD : Crashes the Game (back to Desktop) in a predictable fashion.
+        BAD        : Bug prevents me from being able to finish game period. 
+        Normal     : Bug causes a problem, but I can get around it by 
+                     reloading a previous saved game
+        MILD       : Unexpected behavior, but not necessarily broke. IE: I 
+                     see an NPC who is in my party and I talk to them using
+                     their own body.  
+
+     Do not send reports for bugs that you can not reproduce.
+
+===============================================================================
+IV. > > > >  Outfit Pack Creation
+===============================================================================
+
+  See the Mod Developers Guide for more details on linking skins to models. 
+
+  Summary : Use VPKTool to open up the mdl file and update the search paths
+            to point at a directory with your own custom vmt files that point
+            to your own custom texture files all within your own unique 
+            directory. 
+
+  Outfit Pack Compatibility:
+
+  If the mdl file for your new model/skin is :
+
+      models/character/npc/unique/downtown/vv/dheu_vv3.mdl
+                             |
+  The mdl should use textures placed in the following directory :
+                             V
+      materials/models/character/npc/unqiue/downtown/vv/.dheu_vv3/
+
+  Notes:
+
+  - Texture directory name = "." + mdl name. 
+  - Make the texture directory first, then update the mdl. 
+  - Yes, the directory starts with a period.
+  - Include all non-common textures in the texture directory. (Ie the files 
+    that would normally appear within the specific characters texture 
+    directory. 
+
+  More Notes:
+
+  - Windows explorer does not allow you to create directories that 
+    start with a period. You must use command line (Start -> Run -> cmd).
+    to create the directory.
+    
+      C:\>cd "c:\Program Files\Activision\Vampire - Bloodlines\Vampire..."
+      C:\Program Files\Activision\...>mkdir .mydirectory
+
+    Once the directory is created, you can continue using explorer.
+
+  - I would recommend prefixing your model and directory work with an 
+    identifiable alias to mitigate the possibility of using the same 
+    name as someone else.
+
+  - (suggestion) Zip up your files so that Vampire/models/character/.... 
+    and Vampire/materials/models/character... are included in the path so 
+    that users can uncompress directly to the VTMB install directory.
+
+===============================================================================
+V. > > > >  Release Notes (Recent to oldest)
+===============================================================================
+
+
+  1) Beta 4 :
+
+      - Improved Companion AI:
+        -  Companions no longer attack humans that you force feed on outside 
+           of combat. (dark alley opportunities)
+        -  When you tell a companion to "stay", they no longer go hostile or
+           attack nearby enemies if you enter combat.
+        -  Fixed stealth bug where companions who were told to stay would begin
+           following you again if combat started while you were in stealth.   
+      - Added Companion Spawn retry if companion fails to spawn. Normally due to 
+        large maps not initializing fast enough. (Hallowbrook was main offender)
+      - Damsel Companion Option now active
+      - Yukie Companion/Embrace Option now active
+        - Yukie is as a travelling companion\Embrace option if you help her 
+          with her quest.
+        - Yukie will not start a conversation with you, but has new conversation 
+          options that will become available as the game progresses. 
+      - Fixed bug where "Change Outfit" would not always show up in dialog.
+      - All party companions now appear in Santa Monica apartment at end of game
+        so that you can select who you wish to take on the final mission(s).
+
+  1) Beta 3 : 
+
+      - Addressed Pose System issues:
+        - Help does not display by default
+        - User is kept aware that pose system is active by message on screen
+        - Exiting the apartment while pose is running should no longer break game or pose system. 
+        - Loading a save game while posing should no longer break game or pose system. 
+        - Camera now recenters when pose system ends or user changes maps.
+        - Added help and tip config options to mods.cfg 
+
+      - Heather Companion Option:
+        - Heather is now available as a travelling companion at any point after she 
+          approaches you following the Elizabeth Dane quest.
+        - Heather will not start a conversation with you, but most of her original 
+          conversations will become available as the game progresses. 
+
+      - Added Embrace Capability:
+        - Following Giovanni Mansion, Lacroix now rewards you with permission to sire
+          1 human. The options are Heather or Yuki. For this beta, only heather is available.
+        - If you make Heather a companion or embrace her, she will not be killed later in the game. 
+        - Added various embraced models+skins for Yukie and Heather
+
+      - Fixed bug with carson companion transition dialog immobilizing PC. 
+      - Elevator fixes:
+        - Travelling companions will no longer teleport behind you when you enter an 
+          elevator. Hopefully this will prevent them from getting in the way of the elevator 
+          as you ride it up. (I think I got all the elevators). 
+
+       
+  2) Beta 2 : 
+
+      - Added 16 additional companion options (all humans).
+      - Updated Pose System to give users more fine grained control over
+        positioning, angle, etc... Included help screen which unfortunetly
+        required the editing of maps. (Beta 1 save games will not be 
+        compatible)
+      - Freed up Damsel as a companion option by recreating most of her 
+        conversations with Jack.
+      - Updated "Found Nines" quest log so that it doesn't mention Damsel
+
+  3) Beta 1 : 
+
+      - Removed Dependendency on local Python (Doh!).
+      - Added more Companion Options
+
+  4) Alpha : 
+
+      Play tested with basic set of companion options on both retail and Steam
+      Versions of the game 
+      - Removed player receiving companions weapon during possession
+      - Added companion inventory
+      - Added Boss Fight nodes (To prevent teleport if possessed npc dies)
+      - Added No-PC-Stay Zone nodes (Cant tell a PC to stay put when 
+        possessing). This node helps mitigate other issues on maps. 
+      - Updated clandoc000.txt (STEAM bug fix)
+      - Updated Possession Systems clanNormalize array (STEAM bug fix)
+      - Now uses Buddah instead of invincibility + hit counter during 
+        possession so that possessed companion uses a health bar.
+
+
+  TODO: Version 2.0
+  -----------------
+
+    Haven Tasks?
+
+    - Add a dozen tasks or so that you can assign to eligable 
+      members of your haven. Maybe renovate your place, make money, find gear.
+      I'm open to suggestions.
+
+    Battle cry?
+
+    - When fighting starts (or you are seen), some companions yell a 
+      battle cry to let you know that you have been spotted. 
+
+    Haven Scenes?
+
+    - Currently I have the concept of a pose and expression for companions 
+      in your haven. Eventually, I would like to have at least 1 if not 2 or 
+      3 "scenes" which are basically snapshots of the haven with people
+      standing in pre-fabricated positions doing things that make sense for 
+      that location. IE: Someone laying on the bed, someone sitting at the 
+      bar, someone using the computer, someone watching TV... etc.
+
+      The plan is to implement these dynamically so that like outfit packs,
+      you can download ScenesPacks and cycle through them with dialog. Or 
+      alternatively, through dialog indicate that you want a random scene 
+      every time you enter the haven. I envision scene pack creation to be 
+      as simple as pressing a new button while the Pose System is active.
+
+
+===============================================================================
+VI. > > > >  Credits
+===============================================================================
+
+  Companion Mod:
+
+      Dheu
+
+  5.6 + 5.9 Patch Contributers:  
+
+      Acleacius
+      Alec Maassen van den Brink 
+      BeauxChaotica
+      Bloodi Punk
+      Bogj
+      Crenshinibon
+      Dark666Prophet
+      DarkAlf666 
+      DDLullu
+      DocDeltree 
+      Doe
+      Exulx
+      foestermalk
+      gardeb
+      Giggle Cream
+      Iain Patterson
+      Icleus
+      Jekyll_Grim_Payne
+      Khelben
+      MadeChina 
+      Magnus Staehr
+      Mahou Mahou 
+      Mash1908 
+      Mike89
+      MooCHa
+      mzz
+      Offkorn
+      Paul Moloney
+      Populism
+      R. Fialcowitz
+      RGE
+      RobinHood70!
+      Sgloomi
+      Slim_Laurence
+      Soulcharmer
+      Valamyr
+      Voerman
+      Wabbite
+      Wesp, 
+      Xealous
+      Yupsi
+      ZeroCredibility
+      ZylonBane
+
+  Outfits:
+
+      Jeanette  - BusinessSuit              - skin : Dheu
+      Jeanette  - SwimmingSuit              - skin : Dheu
+      Therese   - Informal                  - skin : Dheu 
+      Therese   - BathingSuit               - skin : Dheu
+      Lilly     - LostGirl                  - skin : Dheu
+
+      Heather   - (reskin)                  - skin : Dheu
+      Yuki      - (reskin)                  - skin : Dheu
+      Yuki      - Blue                      - skin : Dheu
+
+      Heather   - Nosferatu Embraced Normal - skin : Dheu
+      Heather   - Nosferatu Embraced Gothic - skin : Dheu
+      Heather   - Nosferatu Embraced Kinky  - skin : Dheu
+
+      Yuki      - Nosferatu Embraced Normal - skin : Dheu
+      Yuki      - Nosferatu Embraced Blue   - skin : Dheu
+
+      Heather   - Embraced Normal           - skin : Dheu       model : Moocha(2)
+      Heather   - Embraced Gothic           - skin : Dheu       model : Moocha(2)
+      Heather   - Embraced Kinky            - skin : Dheu       model : Moocha(2)
+
+      Yuki      - Embraced                  - skin : Dheu       model : Moocha(2)
+      Yuki      - Embraced Blue             - skin : Dheu       model : Moocha(2)
+      Yuki      - Embraced DarkYukie        - skin : greywaste  model : Moocha(2)
+
+  Testers:
+
+      cogadh
+      Flint_a
+      Foestermalk
+      Kagome Yuy
+      Psazum
+      The Rob
+      brujahfolife
+
+  Incorporated Suggestions
+
+      brujahfolife - Embrace capability
+    
+
+===============================================================================
+VII > > > >  BETA TESTER NOTES
+===============================================================================
+
+  I expect Beta Testers to enable console:
+
+      RETAIL USERS : Right click the icon you use to start the game, go to 
+                     properties. Add "-console" to the end of the 
+                     executable. It should look like:
+
+      "C:\Program Files\Activision\Vampire - Bloodlines\vampire.exe" -console
+
+
+      STEAM USERS : Right click VTMB game within Steam, select "Properties" 
+                    -> "Set Launch Options". Enter "-console" within the
+                    input box to enable console.
+
+                    ** Console will not work with the Steam release of the
+                    game under Vista until AFTER you have installed
+                    the mod. (Something about the 5.6 patch fixes the
+                    vista crashing with console). 
+
+  To aid beta testers, the Animus Constupro (required item) can be quickly
+  obtained by typing the command "Cheat()" in the console window. Be certain 
+  to use the Tilda (`) key to open and close the window or you may lock up 
+  the game. I'm leaving debug Logging fully enabled for the beta release, so
+  if something does go wrong, you can grab a snapshot of the console and send
+  it to me. 
+
+  Once you start a new game and arrive in your apartment, open the console
+  and type "Cheat()". You should see a message telling you that you have
+  just recieved the Animus Constupro
+
+  While almost done, Beta 4 is still not complete. The following NPC's are
+  == NOT == available as companions options in the Beta release.
+
+     1) Vampires
+
+         Julius   - Santa Monica, Beach
+         Copper   - Santa Monica, Beach
+         Rosa     - Santa Monica, Beach
+         Skelter  - Downtown LA, The Last Round
+         Ash      - Hollywood, Asp Hole
+         Mitnick  - Hollywood, Warrens
+
+     2) Humans
+
+         Igor        - Downtown LA, Russian Mafia
+
+  If you do not play as Tremere, Malkavian or Ventrue, it may be a while
+  before you can begin cultivating companions. A majority of the companions
+  are human and require some form of mind control ability to assimilate 
+  into your party. After completing the Dane quest, you can assimilate
+  Jeanette or Therese and then using their bodies and mind control powers, 
+  gain normally unavailable companions.
+
+  Heather will become available as soon as she approaches you following
+  the Dane Quest. You do not have to make her a travelling companion 
+  immediatly. The option remains open till the end of the game. (In fact, 
+  you will not have access to McFly if you make her a travelling companion
+  immediatly).  
+
+  TIPS:
+
+  If you wish to test nosferatu embrace without playing as a nosferatu the 
+  whole game, save your game and then issue the following command before 
+  embracing heather: 
+
+    __main__.G._pcinfo["clan"]=5 
+
+  Note that this will break possession, so you should reload your save game 
+  before continuing with your game or change the value back to your real 
+  clan:
+
+  2 = brujah
+  3 = gangrel
+  4 = malkavian
+  5 = nosferatu
+  6 = toreador
+  7 = tremere
+  8 = ventrue
