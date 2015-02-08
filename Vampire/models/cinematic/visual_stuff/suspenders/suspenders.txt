@@ -1,0 +1,32 @@
+add some npc's suspenders: skinheads, nosferatu, samedi, goth kids...
+
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "suspenders_1"
+"parentname" "-name-"
+"model" "models/cinematic/visual_stuff/suspenders/suspenders.mdl"
+"InitialOwner" "-name-"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+
+
+"OnDeath" "suspenders_1,ScriptHide,,0,-1,," - for vampires
+
+
+
+

@@ -1,0 +1,100 @@
+This block uses for every sceletons:
+
+Use this weapons for sceletons
+
+item_w_bush_hook
+item_w_fireaxe
+item_w_katana
+item_w_severed_arm
+item_w_sledgehammer
+
+???
+item_w_avamp_blade
+item_w_chang_blade
+item_w_claws_ghoul
+-----------------------------------
+SkeletonSquire
+SkeletonKnight
+
+
+{
+"classname" "npc_VHengeyokai"
+"angles" "0 0 0"
+"renderfx" "0"
+"rendermode" "0"
+"renderamt" "255"
+"rendercolor" "255 255 255"
+"disableshadows" "1"
+"disablereceiveshadows" "0"
+"physdamagescale" "1.0"
+"npc_perception" "3"
+"vision" "-1"
+"hearing" "-1.00"
+"default_disposition" "Neutral"
+"default_camera" "DialogDefault"
+"model" "models/character/monster/undead/undead_male_sceleton.mdl"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"npc_transparent" "1"
+"skincolor" "0 0 0 0"
+"haircolor" "0 0 0 0"
+"clothescolor1" "0 0 0 0"
+"clothescolor2" "0 0 0 0"
+"trimcolor" "0 0 0 0"
+"stattemplate" "skeleton"
+"player_reaction" "D_HT 5"
+"invincible" "0"
+"interesting_place_groups" "0"
+"use_interesting" "0"
+"hint_groups" "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32"
+"investigate_mode" "4"
+"investigate_mode_combat" "4"
+"full_investigate" "0"
+"bright_route_penalty" "0"
+"pl_investigate" "6"
+"pl_criminal_flee" "6"
+"pl_criminal_attack" "6"
+"pl_supernatural_flee" "6"
+"pl_supernatural_attack" "1"
+"percent_occluded_wait" "20"
+"percent_occluded_cover" "20"
+"percent_occluded_walk" "10"
+"percent_occluded_flank" "10"
+"percent_occluded_chase" "40"
+"allow_alert_lookaround" "1"
+"stay_entrenched" "0"
+"allow_kick_hint_use" "1"
+"floatfreq" "0"
+"combat_start_activity" "ACT_INVALID"
+"spawnflags" "4"
+"additionalequipment" "item_w_katana"
+//"alternateequipment" "item_w_sheriff_sword"
+"squadname" "sceletons"
+"targetname" "sceleton_1"
+"cantdropweapons" "0"
+"follower_type" "Default"
+"origin" "0 0 0"
+}
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "sk_1"
+"parentname" "sceleton_1"
+"model" "models/character/npc/common/skeleton/skeleton_male.mdl"
+"InitialOwner" "sceleton_1"
+"StartHidden" "0"
+"origin" "0 0 0"
+}

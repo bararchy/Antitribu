@@ -1,0 +1,36 @@
+add to npc's black raincoat3 with black hat
+
+
+raincoat3.mdl - simple black raincoat
+raincoat3a.mdl - fancy black raincoat
+raincoat3b.mdl - alt black raincoat
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "raincoat3_1"
+"parentname" "-name-"
+"model" "models/cinematic/visual_stuff/raincoat3/raincoat3.mdl"
+"InitialOwner" "-name-"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+
+
+"OnDeath" "raincoat3_1,ScriptHide,,0,-1,," - for vampires
+
+
+
+

@@ -1,0 +1,148 @@
+this models add to weapons laser designator
+
+w_m_laser_dest_ak47.mdl - add to ak47 laser designator
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "laser_1"
+"parentname" "-name-"
+"model" "models/cinematic/visual_stuff/laser designator_ak47/w_m_laser_dest_ak47.mdl"
+"InitialOwner" "-name-"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+
+"OnDeath" "laser_1,ScriptHide,,0,-1,," - fix bugs with death
+"additionalequipment" "item_w_crossbow"
+-------------------------------------------------------------------------------------
+w_m_laser_pist1.mdl -  add to beretta92 or colt 1911 laser designator
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "laser_1"
+"parentname" "-name-"
+"model" "models/cinematic/visual_stuff/laser designator_ak47/w_m_laser_pist1.mdl"
+"InitialOwner" "-name-"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+
+
+"OnDeath" "laser_1,ScriptHide,,0,-1,," - fix bugs with death
+"additionalequipment" "item_w_deserteagle"
+"additionalequipment" "item_w_glock_17c"
+-------------------------------------------------------------------------------------
+w_m_laser_pist2.mdl -  add to colt 1911 laser designator, like in movie terminator
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "laser_1"
+"parentname" "-name-"
+"model" "models/cinematic/visual_stuff/laser designator_ak47/w_m_laser_pist2.mdl"
+"InitialOwner" "-name-"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+
+
+"OnDeath" "laser_1,ScriptHide,,0,-1,," - fix bugs with death
+"additionalequipment" "item_w_glock_17c"
+
+-------------------------------------------------------------------------------------
+w_m_laser_pist3.mdl -  add to S&W M&p model 10 laser designator
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "laser_1"
+"parentname" "-name-"
+"model" "models/cinematic/visual_stuff/laser designator_ak47/w_m_laser_pist3.mdl"
+"InitialOwner" "-name-"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+
+
+"OnDeath" "laser_1,ScriptHide,,0,-1,," - fix bugs with death
+"additionalequipment" "item_w_colt_anaconda"
+
+-------------------------------------------------------------------------------------
+w_m_laser_str.mdl -  add to Striker laser designator
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "laser_1"
+"parentname" "-name-"
+"model" "models/cinematic/visual_stuff/laser designator_ak47/w_m_laser_str.mdl"
+"InitialOwner" "-name-"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+
+
+"OnDeath" "laser_1,ScriptHide,,0,-1,," - fix bugs with death
+"additionalequipment" "item_w_mac_10"

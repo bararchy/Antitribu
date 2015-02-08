@@ -1,0 +1,59 @@
+moss590 stuff use for enemis with moss590:
+
+w_m_moss590.mdl - normal mossberg wood
+w_m_moss590e.mdl - mossberg wood with extended magazine
+w_m_moss590p.mdl - normal mossberg plastic
+w_m_moss590ep.mdl - mossberg plastic with extended magazine
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"npc_transparent" "1"
+"solid" "0"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"model" "models/cinematic/visual_stuff/moss590_stuff/w_m_moss590.mdl"
+"targetname" "moss590_stuff"
+"parentname" "hunter_1"
+"InitialOwner" "hunter_1"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "moss590_1"
+"parentname" "hunter_1"
+"model" "models/weapons/moss590/wield/w_m_moss590.mdl" - use this to fix some bugs with death and some disciplines
+"InitialOwner" "hunter_1"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+
+use this if enemis drop moss590.
+
+"OnDeath" "moss590_stuff,ScriptHide,,0,-1,,"
+
+"OnDeath" "moss590_1,ScriptHide,,0,-1,,"  
+"additionalequipment" "item_w_ithaca_m_37"
+"cantdropweapons" "1"

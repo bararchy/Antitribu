@@ -1,0 +1,3 @@
+models/hands/samedi/
+samedi_hand_bottom
+samedi_hand_top

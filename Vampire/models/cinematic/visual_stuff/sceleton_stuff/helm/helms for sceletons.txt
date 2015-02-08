@@ -1,0 +1,77 @@
+3 kind of helms for sceletons
+ 
+sc_helm.mdl - round norman's helm use with chainmail hoods
+sc_helm2.mdl - grand helm
+sc_helm3.mdl - barbut 'T-looklike' helm
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "helm"
+"parentname" "sceleton_1"
+"model" "models/cinematic/visual_stuff/sceleton_stuff/helm/sc_helm.mdl"
+"InitialOwner" "sceleton_1"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "helm"
+"parentname" "sceleton_1"
+"model" "models/cinematic/visual_stuff/sceleton_stuff/helm/sc_helm2.mdl"
+"InitialOwner" "sceleton_1"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "helm"
+"parentname" "sceleton_1"
+"model" "models/cinematic/visual_stuff/sceleton_stuff/helm/sc_helm3.mdl"
+"InitialOwner" "sceleton_1"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+
+
+

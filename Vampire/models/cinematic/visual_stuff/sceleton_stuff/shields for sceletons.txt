@@ -1,0 +1,76 @@
+3 kind of shields for sceletons:
+
+w_m_mid_shield1.mdl - wood norman's shield
+w_m_mid_shield2.mdl - steel knight's shield
+w_m_round_shield.mdl - wood round fist shield
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "sk_shield_1"
+"parentname" "sceleton_1"
+"model" "models/cinematic/visual_stuff/shield/w_m_mid_shield1.mdl"
+"InitialOwner" "sceleton_1"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "sk_shield_1"
+"parentname" "sceleton_1"
+"model" "models/cinematic/visual_stuff/shield/w_m_mid_shield2.mdl"
+"InitialOwner" "sceleton_1"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "sk_shield_1"
+"parentname" "sceleton_1"
+"model" "models/cinematic/visual_stuff/shield/w_m_round_shield.mdl"
+"InitialOwner" "sceleton_1"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+
+"OnDeath" "sk_shield_1,ScriptHide,,0,-1,," - use this if your sceleton die like vampire

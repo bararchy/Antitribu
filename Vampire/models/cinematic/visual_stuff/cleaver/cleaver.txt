@@ -1,0 +1,38 @@
+make knife look like cleaver, or mummy daggers
+
+w_m_cleaver.mdl - look like cleaver
+w_m_mummy_dagger.mdl - look like short broad sword
+w_m_mummy_dagger2.mdl - look like curvi dagger
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "cleaver_1"
+"parentname" "-name-"
+"model" "models/cinematic/visual_stuff/cleaver/w_m_cleaver.mdl"
+"InitialOwner" "-name-"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+
+use only with knife
+
+"additionalequipment" "item_w_knife" 
+
+"OnDeath" "cleaver_1,ScriptHide,,0,-1,," - use if npc drop weapon
+
+
+
+

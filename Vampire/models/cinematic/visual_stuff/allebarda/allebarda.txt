@@ -1,0 +1,85 @@
+Hallbeard for enemis with pike
+
+w_m_allebarda.mdl - make hallbeard with model pike 
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "hallbeard_1"
+"parentname" "-name-"
+"model" "models/cinematic/visual_stuff/allebarda/w_m_allebarda.mdl"
+"InitialOwner" "-name-"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+
+"OnDeath" "hallbeard_1,ScriptHide,,0,-1,," - for vampires
+"additionalequipment" "item_w_bush_hook"
+
+w_m_mummy_allebarda.mdl - make mummy hallbeard with model pike, use for mummy enemis 
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "mummy_hallbeard_1"
+"parentname" "-name-"
+"model" "models/cinematic/visual_stuff/allebarda/w_m_mummy_allebarda.mdl"
+"InitialOwner" "-name-"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+
+"OnDeath" "mummy_hallbeard_1,ScriptHide,,0,-1,," - for vampires
+"additionalequipment" "item_w_bush_hook"
+
+w_m_warhammer.mdl - make warhammer with model sledgehammer, use for sceletons with sledgehammers
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "war_hammer_1"
+"parentname" "-name-"
+"model" "models/cinematic/visual_stuff/allebarda/w_m_warhammer.mdl"
+"InitialOwner" "-name-"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+
+"OnDeath" "war_hammer_1,ScriptHide,,0,-1,," - for vampires
+"additionalequipment" "item_w_sledgehammer"

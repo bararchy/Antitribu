@@ -1,0 +1,43 @@
+this old version of police shield for enemis with melee weapons: i don't like 
+
+item_w_avamp_blade
+item_w_baton
+item_w_bush_hook
+item_w_chang_blade
+item_w_fireaxe
+item_w_katana
+item_w_knife
+item_w_occultblade
+item_w_severed_arm
+item_w_sledgehammer
+item_w_tire_iron
+item_w_torch
+
+don't forget add armor raiting to character
+work and with female model
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "shield_1"
+"parentname" "hunter_1"
+"model" "models/cinematic/visual_stuff/shield/w_m_shield.mdl"
+"InitialOwner" "hunter_1"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+
+"OnDeath" "shield_1,ScriptHide,,0,-1,," - for vampires
+ 

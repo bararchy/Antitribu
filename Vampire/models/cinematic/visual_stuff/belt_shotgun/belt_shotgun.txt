@@ -1,0 +1,33 @@
+shotgun belt for enemis with shotguns
+
+shotgun_ belt.mdl - use for big models: swat, super_swat, average_hunter, alt elite hunter, sabbat henchman...
+shotgun_ belt_m.mdl - use for medium models: brujah_1, brujah_2, brujah_3, kurgan, gangmember_male_1, shovelhead_short
+shotgun_ belt_s.mdl - use for thin models: gangmember_male_2, nosferatu, blood brothers, samedi
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "belt_shotgun_1"
+"parentname" "hunter_1"
+"model" "models/cinematic/visual_stuff/belt_shotgun/shotgun_belt.mdl"
+"InitialOwner" "hunter_1"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+
+"OnDeath" "belt_shotgun_1,ScriptHide,,0,-1,," - use for fix bugs with death vampires
+
+"additionalequipment" "item_w_ithaca_m_37"
+"additionalequipment" "item_w_crossbow_flaming"

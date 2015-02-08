@@ -1,0 +1,99 @@
+white, black chainmail, cuirasse, and plare armor for sceletons
+ 
+chainmail_white.mdl - white chainmail 
+chainmail_black.mdl - black chainmail 
+plate_armor.mdl - plate armor
+chainmail_cuirasse.mdl - chainmail and cuirasse
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "chainmail"
+"parentname" "sceleton_1"
+"model" "models/cinematic/visual_stuff/sceleton_stuff/chainmail/chainmail_white.mdl"
+"InitialOwner" "sceleton_1"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "chainmail"
+"parentname" "sceleton_1"
+"model" "models/cinematic/visual_stuff/sceleton_stuff/chainmail/chainmail_black.mdl"
+"InitialOwner" "sceleton_1"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "plate armor"
+"parentname" "sceleton_1"
+"model" "models/cinematic/visual_stuff/sceleton_stuff/chainmail/plate_armor.mdl"
+"InitialOwner" "sceleton_1"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "chainmail_cuirasse"
+"parentname" "sceleton_1"
+"model" "models/cinematic/visual_stuff/sceleton_stuff/chainmail/chainmail_cuirasse.mdl"
+"InitialOwner" "sceleton_1"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+

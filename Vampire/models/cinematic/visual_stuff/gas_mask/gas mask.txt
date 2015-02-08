@@ -1,0 +1,30 @@
+gas mask for ultra hunter and  stuff:
+
+gas_mask.mdl - model gasmask for ultra hunter
+uh_cross.mdl - model cross in left hand for ultra hunter use to holy lights
+uh_lock_door.mdl - model lock door use to fights with ultra hunter like in map hw_609_1
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "gasmask"
+"parentname" "hunter_1"
+"model" "models/cinematic/visual_stuff/gas_mask/gas_mask.mdl"
+"InitialOwner" "hunter_1"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+
+"OnDeath" "gasmask,ScriptHide,,0,-1,," - for vampire ?

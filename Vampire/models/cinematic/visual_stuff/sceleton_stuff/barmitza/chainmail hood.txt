@@ -1,0 +1,51 @@
+chainmail hood for sceletons
+ 
+barmitza.mdl - white chainmail hood use with white chainmail
+barmitza_black.mdl - black chainmail hood use with black chainmail
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "barmitza"
+"parentname" "sceleton_1"
+"model" "models/cinematic/visual_stuff/sceleton_stuff/barmitza/barmitza_black.mdl"
+"InitialOwner" "sceleton_1"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"spawnflags" "0"
+"targetname" "barmitza"
+"parentname" "sceleton_1"
+"model" "models/cinematic/visual_stuff/sceleton_stuff/barmitza/barmitza.mdl" 
+"InitialOwner" "sceleton_1"
+"StartHidden" "0"
+"origin" "0 0 0"
+}
+
