@@ -1,0 +1,51 @@
+Particle
+{
+	loop "1"
+
+
+
+	spawn
+	{
+		particle "Tzim2_projectile_fx1"
+		burst "3"
+		theta "0~20"
+		phi	"0~40"
+		
+	}
+
+	spawn
+	{
+		particle "Tzim2_projectile_fx2"
+		burst "1"
+		theta "0"
+		phi	"0"
+		
+	}
+
+	spawn
+	{
+		particle "Tzim2_projectile_fx3"
+		rate "300"
+		theta "90"
+		phi	"0~360"
+		radius	"2"
+	}
+	spawn
+	{
+		particle "Tzim2_projectile_fx4"
+		rate "30"
+		theta "0~20"
+		phi	"0~40"
+		
+	}
+	spawn
+	{
+		particle "Tzim2_projectile_fx6"
+		burst "1"
+		theta "0"
+		phi	"0"
+		radius	"0"
+	}
+
+}
+

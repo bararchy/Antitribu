@@ -1,0 +1,14 @@
+Particle
+{ 
+	sprite		"Suck_normal"
+	color		"0"
+	mask		"0"
+
+	size		"100"
+
+	Depth_offset	"-10"
+
+	normal		"Suck_normal"
+	refract		"0,3"
+}
+

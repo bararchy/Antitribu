@@ -1,0 +1,38 @@
+Particle
+{
+	frames			"30"
+	loop 			"0"
+
+	spawn
+	{
+		particle "d_necromancy_hud-fx1"
+		rate		"3"
+	//	theta		"0~360"
+		radius		"400"
+	
+	}
+	spawn
+	{
+		particle "d_necromancy_hud-fx2"
+		rate		"5"
+	//	theta		"0~360"
+		radius		"10"
+	
+	}
+	spawn
+	{
+		particle "d_necromancy_hud-fx3"
+		burst		"1"
+
+	
+	}
+	spawn
+	{
+		particle "d_necromancy_hud-fx4"
+		burst		"1"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+	}
+}
+

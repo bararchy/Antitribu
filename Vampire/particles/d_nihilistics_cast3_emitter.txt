@@ -1,0 +1,16 @@
+Particle
+{
+	frames	"300"
+	
+	spawn
+	{
+		particle	"d_nihilistics_cast3_fx1"
+		rate		"100"
+		radius		"10"
+		theta		"10"
+		phi		"10"
+
+	}
+
+}
+

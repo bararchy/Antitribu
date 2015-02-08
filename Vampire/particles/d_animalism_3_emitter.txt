@@ -1,0 +1,18 @@
+Particle
+{
+		frames	"300"
+
+
+	spawn
+	{
+		particle "d_animalism_3_fx3"
+		burst		"1"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		x		"-.5"
+		z		"-62"
+	}
+
+}
+

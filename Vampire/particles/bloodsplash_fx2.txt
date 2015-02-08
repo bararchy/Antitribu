@@ -1,0 +1,17 @@
+Particle
+{
+	frames 		"30"
+	sprite		"BloodDrop"
+	size		"0,10~25"
+
+	red		"200~255"
+	green		"0~20"
+	blue		"20~0"
+	color 		"120,0"
+	mask		"255,0"
+
+	flat		"1"
+}
+
+
+	

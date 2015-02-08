@@ -1,0 +1,15 @@
+Particle
+{
+loop "0"	
+
+	spawn
+	{
+		particle "Impact_malk_Sparks"
+		burst "40"
+		phi "0"
+		theta "0~360"
+		x	"0"
+
+	}
+
+}

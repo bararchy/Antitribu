@@ -1,0 +1,28 @@
+Particle
+{
+	frames 		"20"
+
+	sprite		"teleportglow"
+	size		"400"
+	
+	Height		"1"
+	width		"1"
+
+	Rotation 	"0"
+	flat		"0"
+	movealign	"0"
+	depth_offset	"100"
+
+	theta_speed	"0"
+	phi_speed	"0"
+	radius_speed	"0"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"0,255,50,255,100,255,50,255,0"
+	mask		"0"
+
+
+}
+

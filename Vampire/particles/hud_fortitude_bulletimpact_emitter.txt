@@ -1,0 +1,15 @@
+Particle
+{
+	loop "1"
+	fps "30"
+
+	spawn
+	{
+		particle "HUD_Fortitude_BulletImpact"
+		loop "1"
+		burst	"1"
+		radius "0~30"
+		theta "0~360"
+		phi	"-180~180"
+	}
+}

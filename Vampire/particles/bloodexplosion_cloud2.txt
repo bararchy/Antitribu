@@ -1,0 +1,17 @@
+Particle
+{
+	frames		"120~200"
+
+	sprite		"BloodDrops"
+	size		"10,100"
+	radius_speed	"20,0"
+	Elevation_speed	"0,-40"
+	Depth_offset	"20"
+	Parent_speed	"0"
+
+	red		"255"
+	green		"0"
+	blue		"0"
+	color		"40,0"
+	mask		"50,0,0"
+}

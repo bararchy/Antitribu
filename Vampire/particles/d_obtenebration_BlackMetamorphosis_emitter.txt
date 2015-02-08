@@ -1,0 +1,31 @@
+Particle
+{ 
+	loop "0"
+	//fps "15"
+
+	spawn
+	{
+		particle	"d_obtenebration_shadowplay_fx1"
+		rate		"25"
+		phi 		"-180~180"
+		theta 		"0~360"
+		z		"0"
+		radius 		"0~5"
+	}
+	
+	frames 		"40"
+	sprite		"furball"
+	size		"15"
+	height		"8,1"
+	width		"1.5~-1.5"
+	movealign	"1"
+	radius_speed	"35~65,0"
+	parent_speed	"0"
+
+	red		"64"
+	green		"64"
+	blue		"64"
+	color		"0,60,0"
+	mask		"0,200,0"
+}
+

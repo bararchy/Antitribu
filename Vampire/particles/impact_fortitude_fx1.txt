@@ -1,0 +1,20 @@
+Particle
+{
+	frames 		"10"
+	min_frames	"2"
+	maxframes	"200"
+	sprite		"DropletFast_Yellow"
+	size		"3"
+	height		"3"
+	width		"1.5"
+	Depth_offset	"2"
+	movealign	"1"
+	Parent_speed	"0"
+	Radius_speed	"100"
+
+	red		"200"
+	green		"220~180"
+	blue		"255~200"
+	mask		"0"
+
+}	

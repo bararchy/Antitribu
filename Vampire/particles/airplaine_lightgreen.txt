@@ -1,0 +1,17 @@
+Particle
+
+{
+	sprite		"point_16"
+	frames		"30"
+	size		"2"
+
+	red		"0"
+	green		"255"
+	blue		"0"
+
+	color		"255"
+	mask		"0"
+}
+
+
+

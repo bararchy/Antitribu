@@ -1,0 +1,9 @@
+Particle
+{
+	sprite		"bloodspray"
+	frames		"20"
+	size		"1~20"
+	color		"160,0"
+	mask		"255,0"
+}
+

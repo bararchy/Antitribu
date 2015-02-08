@@ -1,0 +1,31 @@
+Particle
+{
+	frames 		"20"
+	sprite		"ember3"
+	size		"3,1,1"
+	Parent_speed	"0"
+	radius_speed	"600,0"
+	z_speed		"0,-400"
+
+	red	"255"
+	green	"0"
+	blue	"0"
+	color	"64"
+	mask	"255"
+
+	collide
+	{
+		
+		decal
+                {
+                        vdecal_first "decals/stains/blooda"
+                        vdecal_first "decals/stains/bloodb"
+                        vdecal_first "decals/stains/bloodc"
+                        vdecal_last  "decals/stains/blooddripb"
+//                        vdecal_last  "decals/stains/bloodg"
+                        vdecal_last "decals/stains/bloodbga"
+                        vdecal_last "decals/stains/bloode"
+                        vdecal_last "decals/stains/bloodf"
+                }
+	}	
+}

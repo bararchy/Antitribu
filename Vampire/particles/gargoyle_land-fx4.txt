@@ -1,0 +1,25 @@
+Particle
+{
+	frames 		"600"
+	min_frames	"500"		
+	max_frames	"700"
+	sprite		"ember3"
+	size		"1"
+	
+	X_speed		"-5~5,-5~5,-5~5,-5~5"
+	y_speed		"-5~5,-5~5,-5~5,-5~5"
+	Z_speed		"3~10,0,-3~-10"
+
+	Parent_speed	"0"
+
+	red		"255"
+	green		"225"
+	blue		"205"
+
+	color		"255,255,255,255,255,0"
+	mask		"255,255,255,255,255,0"
+	
+	lighting	"1"
+}
+
+

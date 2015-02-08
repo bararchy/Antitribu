@@ -1,0 +1,19 @@
+Particle
+{
+	frames 		"60"
+	sprite		"ring_normal"
+	normal		"ring_normal"
+	size		"0,600"
+
+	Rotation 	"0~360"
+
+	Parent_speed	"0"
+	refract		"3.0,0"
+
+	color		"0"
+	mask		"0"
+
+
+}
+
+

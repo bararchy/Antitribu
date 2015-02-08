@@ -1,0 +1,22 @@
+Particle
+{
+	frames 		"10"
+
+	sprite		"flameMediumEthereal"
+	size		"1~6"
+	no_z_test	"1"
+
+	Height		"1,30"
+
+	Rotation 	"180"
+	radius_speed	"-200"
+
+	movealign	"1"
+
+	red		"200~255"
+	green		"200~255"
+	blue		"200~255"
+	color		"255,0"
+	mask		"0"
+
+}

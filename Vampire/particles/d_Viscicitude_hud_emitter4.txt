@@ -1,0 +1,69 @@
+Particle
+{
+	loop "1"
+	frames	"30"
+	fps "30"
+
+	spawn
+	{
+		particle "d_Viscicitude_hud_fx1"
+		burst		"1"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+	}
+
+	spawn
+	{
+		particle "d_Viscicitude_hud_fx2"
+		rate		"50"
+		radius 		"0"
+		theta 		"90"
+		phi		"0"
+		y		"0"
+	}
+
+	spawn
+	{
+		particle "d_Viscicitude_hud_fx3"
+		burst	"50"
+		rate	"20"
+		phi	"0~360"
+		radius	"1"	
+		theta	"270"
+	}
+
+	spawn
+	{
+		particle "d_Viscicitude_hud2_fx1"
+		rate	"20"
+		phi	"0~360"
+		radius	"1"	
+		theta	"270"
+	}
+
+	spawn
+	{
+		particle "D_ProteanView_Part1"
+		rate "50,250(20)!,50(21),250(30)!,50(31)"
+		phi "0"
+		theta "0"
+	}
+
+	spawn
+	{
+		particle "D_ProteanView_Part2"
+		burst "20"
+	}
+
+	spawn
+	{
+		particle "D_ProteanView_Part3"
+		rate "20"
+		radius ".5"
+	}
+
+
+
+}
+

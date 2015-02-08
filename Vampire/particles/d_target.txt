@@ -1,0 +1,14 @@
+Particle
+{
+	frames 		"30"
+	sprite		"Ripples"
+	size		"10~15"
+	Depth_offset	"-10"
+	Rotation 	"0~360,0~360"
+	red		"255"
+	green		"255,0(5)"
+	blue		"0,0(10)"
+	color		"0,100(5),0"
+	mask		"0"
+}
+

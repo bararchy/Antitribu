@@ -1,0 +1,21 @@
+Particle
+{
+	frames 		"45"
+	sprite		"chimdring2"
+	size		"60"
+	height		"1"
+	width		"1"
+	rotation	"0,1000"
+	depth_offset	"0"
+	parent_speed	"1"
+	elevation_speed	"0"
+	sortfront	"1"
+
+	red		"255"
+	green		"100"
+	blue		"255"
+	color		"255,0"
+	mask		"0"
+
+}
+

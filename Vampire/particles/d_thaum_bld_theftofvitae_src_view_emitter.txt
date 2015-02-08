@@ -1,0 +1,25 @@
+//Attach Type: Bone Tree
+
+Particle
+{
+	loop 	"0"
+	fps 	"30"
+	frames 	"90"
+
+	spawn
+	{
+		particle "D_Thaum_Bld_TheftOfVitae_Part1"
+		loop "1"
+		rate "100"
+		radius "0"
+		theta "0~360"
+		phi	"0"
+	}
+
+	spawn
+	{
+		particle "D_Thaum_Bld_TheftOfVitae_Part2"
+		rate "30"
+		radius ".4~1"
+	}
+}

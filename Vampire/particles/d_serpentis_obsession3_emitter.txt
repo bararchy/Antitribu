@@ -1,0 +1,47 @@
+Particle
+{
+	frames	"60"
+	loop	"1"
+		
+	spawn
+	{
+		particle "d_serpentis_obsession3_fx1"
+		loop 		"1"
+		rate 		"80"
+		radius 		"0"
+		theta 		"0~360"
+		phi		"0"
+
+	}
+
+	spawn
+	{
+		particle "d_serpentis_cast22_fx2"
+		rate		"40"
+		radius		"0"
+		theta		"0~360"
+		phi		"90~-90"
+		z		"-10"
+	}
+
+	spawn
+	{
+		particle "tzim2_player_fx2"
+		rate 		"10"
+		radius		"0"
+		theta 		"0~360"
+		phi		"-180~180"
+
+	}
+
+	spawn
+	{
+		particle "tzim2_player_fx3"
+		rate 		"30"
+		radius		"10"
+		theta 		"0~360"
+		phi		"-180~180"
+
+	}
+}
+

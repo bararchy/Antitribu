@@ -1,0 +1,16 @@
+Particle
+{
+	loop "1"
+	fps 10
+
+	spawn
+	{
+		particle "sp_lonewolf_smoke_fx1"
+		rate "5"
+		radius "0"
+		theta "0~360"
+		phi "0"
+	}
+
+}
+

@@ -1,0 +1,36 @@
+Particle
+{
+	frames	"30"
+	loop	"1"
+
+	spawn
+	{
+		particle "d_serpentis_cast5_fx3"
+		rate		"60"
+		radius 		"3"
+		theta 		"0~360"
+		phi		"0"
+		z		"4"
+	}
+
+	spawn
+	{
+		particle "d_serpentis_cast22_fx1"
+		rate		"50"
+		radius		"0"
+		theta		"0~360"
+		phi		"90~-90"
+
+	}
+
+	spawn
+	{
+		particle "d_serpentis_cast22_fx2"
+		rate		"50"
+		radius		"0"
+		theta		"0~360"
+		phi		"90~-90"
+
+	}
+}
+

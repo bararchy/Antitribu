@@ -1,0 +1,25 @@
+Particle
+{
+	frames 		"30"
+	sprite		"dementateember"
+	size		"10,20,5"
+	height		"3"
+	width		"1"
+	rotation	"0,5,-5,5,-5,5,-5,0"
+	movealign	"1"
+	depth_offset	"0"
+	radius_speed	"-100"
+	phi_speed	"0"
+	theta_speed	"700,500,0"
+	parent_speed	"1"
+	elevation_speed	"30"
+	y_speed		"0,5"
+	sortfront	"0"
+	red		"255"
+	green		"255"
+	blue		"200"
+	color		"100,0"
+	mask		"0"
+
+}
+

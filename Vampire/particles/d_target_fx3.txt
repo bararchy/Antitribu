@@ -1,0 +1,27 @@
+Particle
+{
+	sprite		"d_target_ring3"
+	frames		"30"
+	size		"45"
+	width		"1"
+	height		"1"
+	rotation	"0"
+	elevation_speed	"0"
+	parent_speed	"0"
+	radius_speed	"0"
+	movealign	"0"
+	depth_offset	"0"
+
+
+	red		"255"
+	green		"0"
+	blue		"0"
+	color		"0,155,155,0"
+
+	mask		"0"
+
+	sortfront	"0"
+
+	
+
+}

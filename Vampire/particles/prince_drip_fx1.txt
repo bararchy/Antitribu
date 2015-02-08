@@ -1,0 +1,30 @@
+Particle
+{
+	frames 		"30"
+
+	sprite		"bloodshotdot"
+	size		".3~.5"
+	height		"3,3,1,1,1"
+	movealign	"0"
+
+	Parent_speed	".7"
+	Radius_speed	"3~5"
+	elevation_speed	"0,-150"
+
+	red	"255~150"
+	blue	"0"
+	green	"0"
+
+	color	"100,0"
+	mask	"255,0"
+ 	
+
+	collide 
+	{
+		decal
+		{
+		particle 	"D_thaum_bloodtrail"
+		}
+	}
+	
+}

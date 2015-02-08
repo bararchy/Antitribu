@@ -1,0 +1,21 @@
+Particle
+{
+	frames		"10"
+	sprite		"Deform_Normal"
+	color		"0"
+	mask		"0"
+	Rotation	"0,-90~90"
+	size		"3,10"
+
+	x_speed		0
+	y_speed		0
+	z_speed		0
+	parent_speed	0
+	elevation_speed	"0"
+
+	Depth_offset	"0"
+
+	normal		"Deform_Normal"
+	refract		"3~-3,0"
+}
+

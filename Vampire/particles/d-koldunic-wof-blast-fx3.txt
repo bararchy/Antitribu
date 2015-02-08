@@ -1,0 +1,26 @@
+Particle
+{
+	frames 		"60"
+	max_frames	"90"
+	sprite		"auspexaura"
+	size		"30~50,180"
+	flat		"1"
+	width		"1"
+	theta_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	"10~200,0,0"
+	Rotation 	"0~360"
+	X_speed		"0"
+	Y_speed		"0"
+	Elevation_speed	"0~15"
+	Depth_offset	"30"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"20,20,20,20,0"
+	mask		"100,100,100,100,0"
+
+
+
+}

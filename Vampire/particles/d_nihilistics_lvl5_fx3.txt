@@ -1,0 +1,19 @@
+Particle
+{
+	frames 		"45"
+	sprite		"necrodots"
+	size		"25,55"
+	height		"1"
+	rotation	"0,-3,3,-3,3,-3,3,0"
+	depth_offset	"10"
+	parent_speed	".7"
+	elevation_speed	"-6"
+	sortfront	"0"
+
+	red		"200~255"
+	green		"200~255"
+	blue		"200~255"
+	color		"0,64~200,0"
+	mask		"0"
+}
+

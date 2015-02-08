@@ -1,0 +1,76 @@
+//particle_param_definition CParticleManager::particle_parameter_defs[] =
+//{
+//	{ "red", 255.0f, false },
+//	{ "green", 255.0f, false },
+//	{ "blue", 255.0f, false },
+//	{ "color", 255.0f, false },
+//	{ "mask", 255.0f , false},
+//	{ "width", 1.0f, false },
+//	{ "height", 1.0f, false },
+//	{ "size", 1.0f, false },
+//	{ "rotation", 0.0f, true },
+//
+//	{ "radius_speed", 0.0f, false },
+//	{ "theta_speed", 0.0f, false },
+//	{ "phi_speed", 0.0f, false },
+//	{ "x_speed", 0.0f, false },
+//	{ "y_speed", 0.0f, false },
+//	{ "z_speed", 0.0f, false },
+//	{ "elevation_speed", 0.0f, false },
+//	{ "parent_speed", 1.0f, false }
+//};
+//
+//
+//particle_param_definition CParticleManager::particle_spawn_parameter_defs[] =
+//{
+//	{ "red", 255.0f, false },
+//	{ "green", 255.0f, false },
+//	{ "blue", 255.0f, false },
+//	{ "color", 255.0f, false },
+//	{ "mask", 255.0f, false },
+//	{ "width", 1.0f, false },
+//	{ "height", 1.0f, false },
+//	{ "size", 1.0f, false },
+//	{ "rotation", 0.0f, true },
+//
+//	{ "radius", 0.0f, false },
+//	{ "theta", 0.0f, true },
+//	{ "phi", 0.0f, true },
+//	{ "x", 0.0f, false },
+//	{ "y", 0.0f, false },
+//	{ "z", 0.0f, false },
+//	{ "elevation", 0.0f, false },
+//	{ "timescale", 1.0f, false },
+//	{ "rate", 0.0f, false },
+//
+//	{ "burst", 0.0f, false }
+//};
+
+Particle
+{
+	loop			"0"
+	fps				"10"
+	frames			"80"
+	
+	size			"100"
+	mask			"255"
+	
+	spawn
+	{
+		particle	"TestSurfAx"
+		rate		"30"
+	}
+
+	spawn
+	{
+		particle	"TestSurfAy"
+		rate		"30"
+	}
+
+	spawn
+	{
+		particle	"TestSurfAz"
+		rate		"30"
+	}
+}
+

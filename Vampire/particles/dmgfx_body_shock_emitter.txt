@@ -1,0 +1,28 @@
+Particle
+{
+	fps	"60"
+
+	spawn
+	{
+		particle	"D_Potence_Hit-1_GlowSmoke"
+		Burst		"5"
+	}
+	spawn
+	{
+		particle	"D_Potence_Hit-1_Glow"
+		Burst		"2"
+	}
+	spawn
+	{
+		particle	"D_Potence_Hit-1_Shock"
+		rate		"10"
+	}
+	spawn
+	{
+		particle	"D_Potence_Hit-1_ShockGlow"
+		rate		"10"
+	}
+	
+
+}
+

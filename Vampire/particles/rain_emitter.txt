@@ -1,0 +1,34 @@
+Particle
+{
+	loop "1"
+	fps "20"
+	frames "70"
+
+	spawn
+	{
+		particle "RainDrops"
+		rate "250,100~600,300,100~600,250"
+		radius "1~200"
+		theta "0~360"
+	}
+
+	spawn
+	{
+		particle "RainDrops2"
+		rate "100"
+		radius "1~200"
+		theta "0~360"
+	}
+
+
+	spawn
+	{
+		particle "RainMist"
+		rate "100"
+		radius "1~200"
+		theta "0~360"
+		X_speed		"10~30"
+		Y_speed		"10~30"
+	}
+}
+

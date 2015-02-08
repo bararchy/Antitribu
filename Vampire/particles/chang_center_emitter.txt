@@ -1,0 +1,28 @@
+//Attach Type: Bone Single Point
+//Bone: Bip01 L Hand, Bip01 R Hand
+
+Particle
+{
+	loop	"0"
+	fps	"30"
+	frames	"150"
+
+	spawn
+	{
+		particle	"chang_center_fx1"
+		rate		"10"
+		z		"-30"
+	}
+	
+	spawn
+	{
+		particle	"chang_center_fx2"
+		rate		"30,200"
+		radius		"30"
+		z		"-30"
+		theta		"40~-40"
+		phi		"0~360"
+	}
+	
+
+}

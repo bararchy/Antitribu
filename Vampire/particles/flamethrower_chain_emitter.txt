@@ -1,0 +1,29 @@
+Particle
+{	
+	frames	"30"
+
+	spawn
+	{
+		particle "flamethrower_air-fx1"
+		burst	"1"
+		loop 	"1"
+		radius	"0~10"
+
+	}
+	spawn
+	{
+		particle "flamethrower_air-fx2"
+		burst	"0"
+		loop 	"0"
+
+	}
+	spawn
+	{
+		particle "flamethrower_air-fx3"
+		burst	"1"
+		loop 	"1"
+		radius	"0~10"
+
+	}
+
+}

@@ -1,0 +1,12 @@
+Particle
+{
+	frames 		"30"
+	fps		"30"
+	sortfront	"1"
+	sprite		"FlashBig"
+	size		"200,220(3),0"
+	color		"100,300(3),0"
+	mask		"0"
+
+}
+

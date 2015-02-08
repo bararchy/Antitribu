@@ -1,0 +1,21 @@
+Particle
+{
+
+	fps	"30"
+
+	
+	spawn
+	{
+		particle	"D_Potence_1bp_flash"
+		burst		"10"
+	}
+//	spawn
+	{
+		particle	"D_Potence_1bp_flash2"
+		rate		"10"
+	}
+	
+
+
+}
+

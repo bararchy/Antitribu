@@ -1,0 +1,16 @@
+//Attach Type: Bone Single Point
+//Bone: Bip01 Spine
+
+Particle
+{
+loop "1"	
+
+	spawn
+	{
+		particle "DN_HealthVampire"
+		burst "1"
+		fps ".1"
+		loop "1"
+		z	"8"
+	}
+}

@@ -1,0 +1,21 @@
+Particle
+{
+	frames 		"5"
+	sprite		"Flash"
+	size		"10~20,0"
+	height		"1"
+	width		"1"
+	rotation	"0~360"
+	Parent_speed	"0"
+	
+	depth_offset	"10"
+
+	red		"255,200~255"
+	green		"0,100~128"
+	blue		"0,50~70"
+	color 		"255"
+	mask		"0"
+}
+
+
+	

@@ -1,0 +1,16 @@
+Particle
+{
+	frames 		"10"
+	sprite		"ringlet"
+	size		"0,1000"
+	
+	flat		"1"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+
+	color		"64,0"
+
+}
+

@@ -1,0 +1,34 @@
+Particle
+{
+	sprite		"Airplane"
+	fps		"1"
+	frames		"100"
+	size		"20"
+	x_speed		"50"
+	movealign	"1"
+
+	color		"0"
+	mask		"0,50~255,255,50~255,255,50~255,255,50~255,255,50~255,255,50~255,255,50~255,255,50~255,255,50~255,255,50~255,255,50~255,255,50~255,255,50~255,255,50~255,255,50~255,255,50~255,255,50~255,255,50~255,255,50~255,255,50~255,255,0"
+
+	spawn
+	{
+		particle "Airplaine_Light1"
+		rate "1"
+		x		"5"
+	}
+	spawn
+	{
+		particle "Airplaine_Lightred"
+		rate "1"
+		y		"-6"
+	}
+
+	spawn
+	{
+		particle "Airplaine_Lightgreen"
+		rate "1"
+		y		"6"
+	}
+}
+
+

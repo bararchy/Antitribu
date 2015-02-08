@@ -1,0 +1,21 @@
+Particle
+{
+	frames 		"40"
+	sprite		"blooddrop"
+	size		"2~5,0"
+	Movealign	"1"
+	height		"1"
+	
+	radius_speed	"20~40"
+	z_speed		"50~100,-100~-200"
+
+	red		"200~255"
+	green		"0~20"
+	blue		"20~0"
+	color 		"100"
+	mask		"255"
+
+}
+
+
+	

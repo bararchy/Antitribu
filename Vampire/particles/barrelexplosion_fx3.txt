@@ -1,0 +1,21 @@
+Particle
+{
+	frames 		"15"
+
+	sprite		"fire-spritesmall"
+	size		"20"
+	height		"5,1"
+	width		"-1!,1~-1!,-1!"
+	rotation	"0"
+	radius_speed	"40"
+	elevation_speed	"100~200"
+	movealign	"1"
+	theta_speed	"0"
+	red		"100"
+	green		"100,100,255"
+	blue		"255,255,100"
+	color		"0,255(3),0"
+	mask		"0"
+
+}
+

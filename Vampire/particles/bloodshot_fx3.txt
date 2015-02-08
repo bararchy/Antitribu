@@ -1,0 +1,19 @@
+Particle
+{
+	frames 		"10"
+	sprite		"bloodshotring"
+	size		"0,100"
+	flat		"0"
+	movealign	"0"
+
+	z_speed		"20"
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"255,0"
+	mask		"50,0"
+	parent_speed	"0"
+	depth_offset	"-20"
+
+}
+

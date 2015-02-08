@@ -1,0 +1,28 @@
+Particle
+{
+	frames 		"20"
+	sprite		"bloodspraybase"
+	rotation	"0,-30~30,-60~60,300~360"
+	size		"5,10,5,5,3"
+	height		"1,1,1,.5,.5,.5"
+	width		"1,1,1,2,2,2"
+	x_speed		"90~100,0"
+	Y_speed		"-4~4"
+	Z_speed		"0"
+	Elevation_speed	"0,-200"
+	radius_speed	"0,0,0,0,0"
+	color		"200,200,220,0,0"
+	mask		"255,255,255,0,0"
+	movealign	"1"
+
+	collide 
+	{
+		decal
+		{
+		particle 	"blood_guardian_trail"
+		}
+	}
+
+}
+
+

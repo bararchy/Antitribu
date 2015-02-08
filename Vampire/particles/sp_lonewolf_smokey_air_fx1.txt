@@ -1,0 +1,18 @@
+Particle
+{
+
+	sprite		"fire-spritesmall"
+	frames	"100"
+	X_speed		"10~30"
+	Y_speed		"10~30"
+	Z_speed		"0"
+	rotation	"0"
+	size		"600"
+	width		"3"
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"0,10,0"
+	mask		"0,60,0"
+}
+

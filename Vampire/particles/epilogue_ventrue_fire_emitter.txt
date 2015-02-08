@@ -1,0 +1,17 @@
+Particle
+{
+	loop		"0"
+	frames		"40000"
+
+
+	spawn
+	{
+		particle	"sp_ventrue_explosion_fx1"
+		rate		"80"
+		radius		"0"
+		theta		"0"
+		phi		"0"
+		z		"-30"
+	}
+
+}

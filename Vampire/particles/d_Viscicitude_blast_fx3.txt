@@ -1,0 +1,16 @@
+Particle
+{
+	frames 		"10"
+	sprite		"andreiblastring"
+	size		"0,150"
+	flat		"1"
+	movealign	"1"
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"100"
+	mask		"50"
+	parent_speed	"0"
+
+}
+

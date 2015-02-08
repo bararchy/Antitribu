@@ -1,0 +1,13 @@
+Particle
+{
+	sprite		"ember4"
+	frames		"30"
+	size		"10~20"
+	rotation	"0~360"
+	red		"255"
+	green		"0~20"
+	blue		"0"
+	color		"455,0"
+	mask		"0"
+}
+

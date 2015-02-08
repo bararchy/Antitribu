@@ -1,0 +1,30 @@
+//Attach Type: Bone Single Point
+//Bone: Bip01 R Hand
+
+Particle
+{
+	//loop "1"
+	//fps "30"
+
+	//spawn
+	{
+		particle "D_ThaumaturgyCast"
+		loop "1"
+		rate "100"
+		radius "0"
+		theta "0~360"
+		phi	"-180~180"
+		z	"2"
+	}
+
+	//spawn
+	{
+		particle "D_ThaumaturgyCast_Stars"
+		rate "20"
+		radius "0"
+		phi "-180~180"
+		theta "0~360"
+		z	"2"
+	}
+}
+

@@ -1,0 +1,16 @@
+Particle
+{
+	frames "30"
+
+
+	spawn
+	{
+		
+		particle "w_rocketlauncher_projectile_Fx1"
+		rate 	"10"
+	}
+
+	
+}
+
+

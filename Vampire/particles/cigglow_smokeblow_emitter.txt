@@ -1,0 +1,22 @@
+Particle
+{
+loop		"0"	
+frames		"40"
+
+	spawn
+	{
+		particle	"CigGlow_CIGINHALE_smoke1"
+		rate		"50,0"
+		y		"1"
+
+		
+	}
+	spawn
+	{
+		particle	"CigGlow_CIGINHALE_smoke2"
+		rate		"50,0"
+		y		"1"
+
+		
+	}
+}

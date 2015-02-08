@@ -1,0 +1,27 @@
+Particle
+{
+	loop "1"
+
+	spawn
+	{
+		particle "trem_fireshield_fx1"
+		rate "100"
+		radius	"60"
+		theta "90"
+		phi	"0~360"
+		z	"-10"
+		
+	}
+
+	spawn
+	{
+		particle "trem_fireshield_fx2"
+		rate "30"
+		radius	"0"
+		theta "0"
+		phi	"0"
+		z	"-10"
+		
+	}
+}
+

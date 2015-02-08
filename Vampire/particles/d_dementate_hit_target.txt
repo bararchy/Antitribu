@@ -1,0 +1,28 @@
+Particle
+{ 
+	loop "0"
+	fps "15"
+
+	spawn
+	{
+		particle "D_Dementate_Hit"
+		loop "1"
+		rate "100"
+		radius "5,15"
+		theta "0~360"
+		phi	"-180~180"
+		z	"2"
+	}
+	
+	
+	frames		"40"
+	sprite		"Suck_normal"
+	color		"0"
+	mask		"0"
+	size		"80"
+	Depth_offset	"-10"
+	normal		"Suck_normal"
+	refract		"-2,2,-1,.8,-.3,.27,-.12,0"
+	z		"10"
+}
+

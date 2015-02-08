@@ -1,0 +1,33 @@
+Particle
+{
+	frames 		"60"
+	min_frames	"30"
+	sprite		"glassshard"
+	size		"1~4"
+	height		".1~.6,.5~1,.1~.6,.5~1,.1~.6,.5~1,.1~.6,.5~1,.1~.6,.5~1,.5~1,.1~.6,.5~1,.1~.6,.5~1,.1~.6,.5~1,.1~.6,.5~1"
+	rotation	"0,-180~180,360"
+	Depth_offset	"10"
+	Parent_speed	"0"
+	Radius_speed	"150,0(40)"
+	elevation_speed	"0,-150(40)"
+	
+//	red		"200~400,200~400,0"
+//	green		"200~300,200~300,0"
+//	blue		"100,100,0"
+
+	color		"455,100"
+	mask		"0"
+	use_surface_color "1"
+
+	collide
+	{
+		self
+		{
+			bounce ".2~.8"
+			gravity "200~300"
+			friction "1~1.5"
+		}
+	}
+}
+
+	

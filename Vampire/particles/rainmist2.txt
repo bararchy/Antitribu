@@ -1,0 +1,17 @@
+Particle
+{
+//	loop "1"
+	sprite		"point_16"
+	max_frames	"600"
+	X_speed		"10~30"
+	Y_speed		"10~30"
+	Z_speed		"0,-20"
+	size		"10,200"
+	red		"0,10,0"
+	green		"0,10,0"
+	blue		"0,10,0"
+	mask		"0"
+	precipitation	"1"
+
+}
+

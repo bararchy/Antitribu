@@ -1,0 +1,18 @@
+Particle
+{
+	sprite 		"point_16"
+	frames		"8"
+	X_speed		"0"
+	Y_speed		"0"
+	Z_speed		"0,-100"
+	theta_speed	"0"
+	phi_speed	"0"
+	radius_speed	"100,0"
+	rotation	"0"
+	size		"1"
+	color		"100,20"
+	mask		"0"
+	precipitation	"1"
+
+}
+

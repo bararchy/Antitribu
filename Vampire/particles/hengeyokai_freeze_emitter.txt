@@ -1,0 +1,25 @@
+Particle
+{
+	loop "0"
+	frames	"30"	
+
+	spawn
+	{
+		particle "hengeyokai_freeze_fx1"
+		burst "100"
+		phi "-40~40"
+		theta "-40~40"
+		x	"2"
+
+	}
+
+	spawn
+	{
+		particle "hengeyokai_freeze_fx2"
+		burst "100"
+		phi "-40~40"
+		theta "-40~40"
+		x	"2"
+
+	}
+}

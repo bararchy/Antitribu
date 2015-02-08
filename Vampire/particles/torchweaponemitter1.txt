@@ -1,0 +1,31 @@
+Particle
+{
+	loop "1"
+	fps "30"
+
+	spawn
+	{
+		particle	"Torch_Weapon_Flames1"
+		rate		"80"
+		radius		"0"
+		theta		"0~360"
+		phi		"0"
+	}
+
+	spawn
+	{
+		particle	"Torch_Weapon_Flames2"
+		rate		"80"
+		radius		"0"
+		theta		"0~360"
+		phi		"0"
+	}
+
+	spawn
+	{
+		particle	"Torch_Weapon_Glow"
+		rate		"2"
+	}
+
+}
+

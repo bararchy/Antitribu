@@ -1,0 +1,19 @@
+Particle
+{
+	frames 		"55"
+
+	sprite		"FurBall"
+	size		"0,50~130"
+	rotation	"0~360,0~360"
+
+	radius_speed	"0,20"
+	Z_speed		"400,0"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"0,100~300,0"
+	mask		"0"
+
+}
+

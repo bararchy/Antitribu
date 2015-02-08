@@ -1,0 +1,19 @@
+Particle
+{
+	frames 		"120"
+	sprite		"ember4"
+	size		"10~20"
+	height		"1,5,1,1,1"
+	width		"1"
+	Radius_speed	"80~30,0"
+	movealign	"1"
+	rotation	"0"
+	Z_speed		"0"
+
+	red		"80"
+	green		"65"
+	blue		"127"
+	color		"36~52,0"
+	mask		"128~250,0"
+}
+

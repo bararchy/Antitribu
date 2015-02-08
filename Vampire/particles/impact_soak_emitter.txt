@@ -1,0 +1,12 @@
+Particle
+{
+loop "0"	
+
+	spawn
+	{
+		particle "ImpactFX_SoakPuff"
+		burst "1"
+		
+	}
+
+}

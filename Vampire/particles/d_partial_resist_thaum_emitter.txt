@@ -1,0 +1,30 @@
+//Attach Type: Bone Tree
+
+Particle
+{
+
+	loop		"1"
+	frames		"60"
+
+	
+	spawn
+	{
+		particle	"partial_resist_thaum_fx1"
+		burst		"1"
+		radius		"0"
+		theta		"0~360"
+		phi		"20~-20"
+
+	}
+	spawn
+	{
+		particle	"partial_resist_thaum_fx2"
+		rate		"50"
+		radius		"0"
+		theta		"0~360"
+		phi		"90~-90"
+
+	}
+	
+
+}

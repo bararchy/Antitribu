@@ -1,0 +1,14 @@
+Particle
+{
+	frames 		"6000"
+	theta_speed 	"50,50~100,50~100,50~100,50"
+	phi_speed 	"50,50~100,50~100,50~100,50"
+	Parent_speed	"1"
+
+	spawn
+	{
+		particle	"Cigar_Smoke1"
+		loop		"1"
+		rate		"50"
+	}
+}

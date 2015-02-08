@@ -1,0 +1,24 @@
+Particle
+{
+	frames		"10"
+	sprite		"flare-2"
+	red		"255"
+	green		"0"
+	blue		"0"
+	color		"10~50,0"
+	mask		"0"
+	Rotation	"0,-90~90"
+	size		"3,10"
+
+	x_speed		0
+	y_speed		0
+	z_speed		0
+	parent_speed	0
+	elevation_speed	"0"
+
+	Depth_offset	"0"
+
+	normal		"Deform_Normal"
+	refract		"3~-3,0"
+}
+

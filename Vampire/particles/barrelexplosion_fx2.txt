@@ -1,0 +1,24 @@
+Particle
+{
+	frames 		"60"
+
+	sprite		"inspectionline2"
+	size		"30"
+	height		"10"
+	width		"100"
+	movealign	"0"
+
+	rotation	"0"
+	z_speed		"0"
+	Parent_speed	"0"
+	depth_offset	"0"
+
+	red		"100"
+	green		"100,255"
+	blue		"255,255"
+
+	color		"255,255,255,0"
+	mask		"0"
+}
+
+

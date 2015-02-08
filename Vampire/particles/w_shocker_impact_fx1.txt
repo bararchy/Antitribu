@@ -1,0 +1,22 @@
+Particle
+{
+
+	frames 		"8"
+	sprite		"lightningarc4"
+	size		"10,20"
+	Depth_offset	"0"
+	Rotation 	"0~180"
+	parent_speed	"1"
+
+	z_speed		"0"
+
+	red		"0,255,255"
+	green		"100,255,255"
+	blue		"255"
+
+	color		"30,255"
+
+	mask		"0"
+}
+
+

@@ -1,0 +1,25 @@
+Particle
+{
+//	frames	"120"
+	loop	"1"
+
+	spawn
+	{
+		particle	"D_Thaumaturgy_bloodboil-fx4"
+		rate		"100"
+		radius		"0"
+		theta		"0~360"
+		phi		"90~-90"
+	}
+
+	spawn
+	{
+		particle	"D_Thaumaturgy_bloodboil-fx6-drops"
+		rate		"0,0,2,15,60"
+		radius		"0"
+		theta		"0~360"
+		phi		"90~-90"
+
+	}
+}
+

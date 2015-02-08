@@ -1,0 +1,58 @@
+Particle
+{
+	frames			"10"
+
+	spawn
+	{
+		particle "EX_center"
+		burst 		"1"		
+	}
+
+
+	spawn
+	{
+		particle "EX_OuterRim"
+		loop 		"1"
+		rate 		"60"
+		radius 		"100"
+		theta 		"0~360"
+	}
+
+	spawn
+	{
+		particle "EX_OuterRim2"
+		loop 		"1"
+		burst 		"50"
+		radius 		"100"
+		theta		"0~360"
+
+	}
+
+	spawn
+	{
+		particle "EX_OuterRim3"
+		loop 		"1"
+		burst		"30"
+		radius 		"50"
+		theta		"0~360"
+
+	}
+
+
+	spawn
+	{
+		particle "Debries"
+		loop 		"1"
+		burst		"5"
+		radius 		"0~100"
+		theta 		"0~360"
+	}
+
+	spawn
+	{
+		particle 	"EX_ring"
+		burst		"1"
+		phi		"10"
+	}
+}
+

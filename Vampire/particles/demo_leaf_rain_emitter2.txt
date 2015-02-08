@@ -1,0 +1,14 @@
+Particle
+{
+	loop "1"
+
+	spawn
+	{
+		particle "demo_leaf_rain2_fx1"
+		rate ".5~1"
+		radius "5~100"
+		theta "0~360"
+		phi "0~-180"
+	}
+}
+

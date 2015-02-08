@@ -1,0 +1,27 @@
+Particle
+{
+	loop	"1"
+
+
+	spawn
+	{
+		particle	"Electrical_Sparks_Spark1"
+		rate		"30"
+	}
+	spawn
+	{
+		particle	"Electrical_Sparks_Spark2"
+		rate		"30"
+	}
+	spawn
+	{
+		particle	"Electrical_Sparks_Spark3"
+		rate		"1"
+	}
+	spawn
+	{
+		particle	"Electrical_Sparks_Spark4"
+		rate		"1"
+	}
+}
+

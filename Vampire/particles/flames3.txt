@@ -1,0 +1,30 @@
+Particle
+{
+	frames 		"15"
+//	max_frames	"15"
+	sprite		"FurBallYellow"
+	size		"2"
+	width		".5,.2"
+	theta_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	"10,0,0"
+	Rotation 	"0,0~180,270"
+	X_speed		"0"
+	Y_speed		"0"
+	Elevation_speed	"5~10"
+//	red		"0,255,255,255,255,255,255,255"
+//	green		"0,255,255,100~255,100~255,100,0,0"
+//	blue		"0,255,0,0~255,0,0,0,0"
+//	color		"20,150,40"
+	red		"100,255,255,255,255,255,255,0"
+	green		"100,255,255,255,150~255,150,100,0"
+	blue		"255,255,255,255,150,150,40,0"
+	color		"150,40"
+
+	mask		"0,0,0"
+
+	Depth_offset	"-2"
+
+}
+
+

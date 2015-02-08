@@ -1,0 +1,22 @@
+Particle
+{
+	frames	"160"
+	loop	"0"
+
+	spawn
+	{
+		particle	"D_Thaumaturgy_Bloodshield_dripfx1"
+		rate		"300"
+		theta		"0~360"
+		radius		"3"
+	}
+
+	spawn
+	{
+		particle	"D_Thaumaturgy_Bloodshield_Bloodtrailfx1"
+		rate		"90"
+		theta		"0~360"
+		radius		"3"
+	}	
+}
+

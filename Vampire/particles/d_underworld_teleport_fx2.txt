@@ -1,0 +1,28 @@
+Particle
+{
+	frames 		"160"
+
+	sprite		"lightningarccircle"
+	normal		"teleport_normal"
+	size		"0,0(15),100(32)"
+	refract		"0,0(12),5(30)"
+	
+	Height		"1"
+	width		"1"
+
+	Rotation 	"0,500"
+	flat		"0"
+	movealign	"0"
+	depth_offset	"10"
+
+	theta_speed	"0"
+	phi_speed	"0"
+	radius_speed	"0"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"0"
+	mask		"0"	
+}
+

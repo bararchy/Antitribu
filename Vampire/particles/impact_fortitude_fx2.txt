@@ -1,0 +1,12 @@
+Particle
+{
+	frames 		"8"
+	sprite		"fortitudeflash"
+	size		"50,0"
+	Depth_offset	"20"
+	Parent_speed	"0"
+	color		"255,0"
+	mask		"0"
+	Rotation 	"0~359"
+	sortfront	"1"
+}

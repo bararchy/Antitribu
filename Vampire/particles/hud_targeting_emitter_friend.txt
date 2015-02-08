@@ -1,0 +1,27 @@
+Particle
+{
+	loop		"1"
+	fps		"30"
+
+	spawn
+	{
+		particle	"hud_target_friend_fx3"
+		rate		".5"
+		z		"0"
+		phi		"0"
+		Radius		"0"
+		no_z_test	"1"
+	}
+
+	spawn
+	{
+		particle	"hud_target_friend_fx3"
+		burst		"1"
+		z		"0"
+		phi		"0"
+		Radius		"0"
+		no_z_test	"1"
+	}
+
+}
+

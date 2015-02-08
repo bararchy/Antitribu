@@ -1,0 +1,37 @@
+Particle
+{	
+	frames	"60"
+	fps 	"30"
+
+	spawn
+	{
+		particle 	"d_Obtenebration_cast2_fx1"
+		loop 		"1"
+		burst		"1"
+		radius 		"50"
+		theta 		"0"
+		phi		"-90"
+	}
+
+	spawn
+	{
+		particle 	"d_Obtenebration_cast2_fx2"
+		burst		"1"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		x		"-.5"
+		z		"3"
+	}
+
+	spawn
+	{
+		particle	"d_obtenebration_cast_ShroudOfSight_fx1"
+		burst		"200"
+		phi		"0"
+		theta		"0~360"
+		Radius		"0"
+		z		"-30"
+	}
+}
+

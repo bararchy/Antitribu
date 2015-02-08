@@ -1,0 +1,25 @@
+Particle
+{
+	frames			"120"
+	loop 			"1"
+
+	spawn
+	{
+		particle "CUTSCENE_widescreen_panels_fx1"
+		rate		"2"
+		radius		"10"
+		phi		"30"
+	
+	}
+
+	spawn
+	{
+		particle "CUTSCENE_widescreen_panels_fx2"
+		rate		"2"
+		radius		"10"
+		phi		"-30"
+	
+	}
+
+}
+

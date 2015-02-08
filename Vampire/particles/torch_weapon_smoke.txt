@@ -1,0 +1,14 @@
+Particle
+{
+	frames 		"30"
+//	max_frames	"200"
+	sprite		"Glow"
+	size		"5,15~30"
+	rotation	"0,-90~90"
+	Depth_offset	"0"
+	Parent_speed	"0"
+	Radius_speed	"0"
+	elevation_speed	"30~40"
+	color		"0"
+	mask		"0,60,0"
+}

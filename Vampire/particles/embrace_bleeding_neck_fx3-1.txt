@@ -1,0 +1,23 @@
+Particle
+{
+	frames 		"220"
+
+	sprite		"bloodshotdot"
+	size		".1,.02"
+	height		"2"
+	movealign	"0"
+
+	Parent_speed	".1"
+	x_speed		"0"
+	y_speed		"0"
+	elevation_speed	"0"
+
+	red	"255"
+	blue	"0"
+	green	"0"
+
+	color	"60,0"
+	mask	"100,0"
+ 	
+	
+}

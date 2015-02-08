@@ -1,0 +1,18 @@
+Particle
+{
+	frames 		"30"
+	sprite		"D_thaumcast"
+	size		"39"
+	rotation	"0,-40"
+	depth_offset	"-20"
+	parent_speed	"1"
+	sortfront	"1"
+	Radius_speed	"0"
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"200,0"
+	mask		"0"
+
+}
+

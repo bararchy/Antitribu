@@ -1,0 +1,39 @@
+Particle
+{
+	sprite		"mingxiaodot"
+	frames		"30"
+	size		"2"
+	width		"1"
+	height		"1,10"
+	rotation	"0"
+	elevation_speed	"0,0"
+	parent_speed	"0"
+	radius_speed	"100"
+	movealign	"1"
+
+
+	red		"0"
+	green		"255,255"
+	blue		"355,0"
+	color		"100,0"
+
+
+
+	mask		"255,0"
+
+	sortfront	"0"
+
+collide 
+	{
+		
+		decal
+		{
+		particle 	"ming_xiao_burst_trail_fx1"
+		theta		"0~360"
+		radius		"3"
+		}
+	}
+
+	
+
+}

@@ -1,0 +1,16 @@
+Particle
+{
+	frames 		"4"
+
+	sprite		"ember3"
+	size		"6,0"
+
+	red		"0~64"
+	green		"0~64"
+	blue		"255"
+
+	color		"255,0"
+	mask		"0"
+
+}
+

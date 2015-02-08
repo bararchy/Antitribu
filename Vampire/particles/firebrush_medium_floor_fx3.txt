@@ -1,0 +1,14 @@
+Particle
+{
+	frames		"20"
+	sprite 		"flare2"
+	size 		"103~210,103~210,103~210,103~210,103~210"
+	width		"2"
+	rotation	"0"
+	red		"255"
+	green		"200"
+	blue		"100"
+	color		"0,50~100,0"
+	mask 		"0"
+	Depth_offset	"0"
+}

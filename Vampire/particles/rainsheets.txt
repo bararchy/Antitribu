@@ -1,0 +1,14 @@
+Particle
+{
+	sprite		"FurBall"
+	frames		"80"
+	movealign	"0"
+	X_speed		"10"
+	Y_speed		"10"
+	Z_speed		"-200"
+	size		"300~500"
+	color		"0,15(60),0"
+	mask		"0"
+	precipitation	"1"
+}
+

@@ -1,0 +1,19 @@
+Particle
+{
+	frames 		"40"
+	sprite		"vic4crown"
+	size		"20"
+	rotation	"0"
+	depth_offset	"10"
+	parent_speed	"1"
+	sortfront	"1"
+	elevation_speed	"0"
+	Z_speed		"0"
+
+	red		"200~255"
+	green		"0~20,0~20,0~20,0~20"
+	blue		"20~0,0~20,0~20,0~20"
+	color 		"90,128"
+	mask		"128,0"
+}
+

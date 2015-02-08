@@ -1,0 +1,45 @@
+Particle
+{
+	loop	"1"
+
+	spawn
+	{
+		particle "d_target_fx1"
+		rate		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+		z	"15"
+	}
+
+	spawn
+	{
+		particle "d_target_fx1"
+		burst		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+		z	"15"
+	}
+
+	spawn
+	{
+		particle "d_target_fx2"
+		rate		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+		z	"0"
+	}
+
+	spawn
+	{
+		particle "d_target_fx2"
+		burst		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+		z	"0"
+	}
+}
+

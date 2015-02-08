@@ -1,0 +1,27 @@
+Particle
+{
+	frames 		"45"
+	sprite		"bloodshotdot3"
+	size		"3,6,3,10,3"
+	flat		"0"
+	height		"5"
+	width		"1"
+	movealign	"1"
+	elevation_speed	"0,20,-80,20,-20"
+	Radius_speed	"-173"
+	theta_speed	"0"
+	phi_speed	"0"
+	x_speed		"0"
+	Depth_offset	"0"
+	Rotation 	"0"
+	Parent_Speed	"0"
+
+	red		"300,100(10)"
+	blue		"0"
+	green		"0"
+	color		"155"
+
+	mask		"100"
+
+	sortfront	"1"
+}

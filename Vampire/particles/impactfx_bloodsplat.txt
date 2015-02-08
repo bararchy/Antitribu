@@ -1,0 +1,13 @@
+Particle
+{
+	frames	"6"
+	sprite "BloodSplat"
+	size "8,20~30"
+	width ".8"
+	Rotation 	"0~360"
+	Depth_offset	"8"
+	color	"255,200,0"
+	mask "255,255,0"
+}
+
+

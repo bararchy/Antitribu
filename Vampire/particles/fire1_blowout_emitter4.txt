@@ -1,0 +1,49 @@
+Particle
+{
+	loop "0"
+
+
+
+
+	spawn
+	{
+		particle "Flames1_blowout"
+		loop "0"
+		rate "50"
+		radius	"6"
+		theta "260~300"
+		phi	"0~20"
+		z	"10"
+	}
+
+
+//	spawn
+	{
+		particle "FlameGlow1"
+		rate "3"
+		loop "1"
+		z	"10"
+	}
+
+	spawn
+	{
+		particle "Smoke1_blowout"
+		loop "1"
+		rate "5"
+		radius "3"
+		theta "260~300"
+		phi	"0"
+		z	"0~30"
+	}
+
+	spawn
+	{
+		particle "FlameEmbers1_blowout"
+		loop "0"
+		burst "20"
+		radius "0~6"
+		theta "260~300"
+		phi	"0"
+	}
+}
+

@@ -1,0 +1,26 @@
+Particle
+{
+
+	sprite		"lightningarc4"
+	frames		"10"
+	size		"20~50!,20~50!,100!,50!"
+	flat		"0"
+	height		"1!,-1!,1!"
+	width		"1!,-1!,1!,-1!"
+	rotation	"0~360"
+	elevation_speed	"0"
+	parent_speed	"0"
+	radius_speed	".1"
+	movealign	"1"
+	depth_offset	"10"
+
+
+	red		"0"
+	green		"205"
+	blue		"255"
+	color		"0!,255!,0!,255!,0!,250(10),0"
+	mask		"0"
+
+	sortfront	"0"
+
+}

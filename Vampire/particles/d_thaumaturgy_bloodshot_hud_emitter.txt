@@ -1,0 +1,26 @@
+
+Particle
+{
+loop "0"	
+frames 		"60"
+
+	spawn
+	{
+		particle "d_thaumaturgy_bloodshot_hud_fx1"
+		burst	"1"
+		phi	"0"
+		radius	"0"	
+		theta	"0"
+
+	}
+
+spawn
+	{
+		particle "d_thaumaturgy_bloodshot_hud_fx2"
+		burst	"1"
+		phi	"0"
+		radius	"0"	
+		theta	"0"
+
+	}
+}

@@ -1,0 +1,15 @@
+Particle
+{
+	frames 		"20"
+	sprite		"mort4crown"
+	size		"0,200"
+	Radius_speed	"0"
+	Z_speed		"0"
+	red		"0,60"
+	green		"0,255"
+	blue		"0,50"
+	color		"0,10(20),0"
+	mask		"0,60(5),60(20),0"
+
+}
+

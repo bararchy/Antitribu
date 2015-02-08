@@ -1,0 +1,31 @@
+Particle
+{
+	frames 	"30"
+	fps	"30"
+	loop	"1"
+
+	spawn
+	{
+		
+		particle "w_rocketlauncher_rocket_Fx1"
+		rate 	"100"
+		loop	"1"
+	}
+	spawn
+	{
+		
+		particle "w_rocketlauncher_rocket_Fx2"
+		rate 	"60"
+		loop	"1"
+	}
+	spawn
+	{
+		
+		particle "w_rocketlauncher_rocket_Fx3"
+		rate 	"10"
+		loop	"1"
+	}
+	
+}
+
+

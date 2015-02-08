@@ -1,0 +1,41 @@
+Particle
+{
+	frames			"30"
+	loop 			"1"
+
+	spawn
+	{
+		particle "Ethereal_Flame_Fire01-tornado"
+		rate		"20"
+		phi		"50~-50"
+		theta		"50~-50"
+		radius		"-50~50"
+	}
+	spawn
+	{
+		particle "Ethereal_Flame_Fire02-tornado"
+		rate		"60"
+		phi		"50~-50"
+		theta		"50~-50"
+		radius		"-50~50"
+	}
+	spawn
+	{
+		particle "Ethereal_Flame_Fire03-tornado"
+		rate		"20"
+		phi		"50~-50"
+		theta		"50~-50"
+		radius		"-50~50"
+	}
+	spawn
+	{
+		particle "Ethereal_Flame_Fire04-tornado"
+		rate		"20"
+		phi		"50~-50"
+		theta		"50~-50"
+		radius		"-50~50"
+	}
+
+
+}
+

@@ -1,0 +1,40 @@
+Particle
+{
+		frames	"60"
+		loop	"1"
+		
+
+	spawn
+	{
+		particle "D_dementate_berserk_fx1"
+		rate		"40"
+		radius "0"
+		theta "0~360"
+		phi	"0"
+		z	"0"
+	}
+
+//	spawn
+	{
+		particle "d_dementate_berserk_fx2"
+		rate		"70"
+		radius "0"
+		theta "0"
+		phi	"0"
+		x	"0"
+		z	"10"
+	}
+
+//	spawn
+	{
+		particle "D_dementate_berserk_fx3"
+		burst		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+		x	"0"
+		z	"0"
+	}
+
+}
+

@@ -1,0 +1,14 @@
+Particle
+{
+	loop "0"
+	frames	"90"	
+
+	spawn
+	{
+		particle	"dust_Clouds"
+		burst		"20"
+		theta		"0~360"
+		Radius		"5000~6144"
+	}
+
+}

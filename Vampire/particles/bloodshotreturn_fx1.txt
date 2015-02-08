@@ -1,0 +1,41 @@
+Particle
+{
+	frames 		"30"
+	sprite		"bloodshotdot2"
+	size		"1"
+	movealign	"0"
+	Rotation 	"0"
+	Radius_speed	"-50,50"
+	parent_speed	"1"
+	elevation_speed	"0"
+	theta_speed	"100~200"
+	phi_speed	"50~300"
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"200"
+	mask		"200"
+	depth_offset	"0"
+
+	spawn
+	{
+		distance	"0"
+		particle "bloodshotreturn_fx2"
+		loop "1"
+		rate		"300"
+		radius "1"
+		theta "0"
+		phi	"0"
+	}
+
+	spawn
+	{
+		particle "bloodshotreturn_fx4"
+		rate		"20"
+		radius "3"
+		theta "90"
+		phi	"0~360"
+	}
+
+}
+

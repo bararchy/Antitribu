@@ -1,0 +1,25 @@
+Particle
+{
+	loop "1"
+
+	spawn
+	{
+		particle "warrens_tube_water_fx1"
+		rate "100"
+		radius "30"
+		theta "0~360"
+		phi	"0~360"
+		z	"0"
+	}
+
+	spawn
+	{
+		particle "warrens_tube_water_fx2"
+		rate "200"
+		radius "30~60"
+		theta "0~360"
+		phi	"0~360"
+		z	"0"
+	}
+}
+

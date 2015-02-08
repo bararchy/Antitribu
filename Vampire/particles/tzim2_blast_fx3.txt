@@ -1,0 +1,30 @@
+Particle
+{
+	min_frames	"20"
+	frames 		"25"
+	max_frames	"30"
+	sprite		"tzim2slime"
+	size		"100,200"
+	
+	theta_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	"100,0"
+	Rotation 	"0~360,0~360"
+	X_speed		"0"
+	Y_speed		"0"
+	z_speed		"0"
+	Elevation_speed	"0,50"
+	parent_speed	"0"
+	movealign	"1"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"200,0"
+
+	mask		"0"
+
+	Depth_offset	"20"
+	
+	
+}

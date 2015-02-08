@@ -1,0 +1,34 @@
+Particle
+{
+	frames 		"40"
+
+	sprite		"furball2"
+//	normal		"bubbles_normal"
+	size		"10~20,15~25"
+	height		"1"
+	width		"1"
+	movealign	"0"
+	depth_offset	"-5~10"
+
+	Rotation 	"0~360"
+
+	z_speed		"5~20"
+	
+	parent_speed	"0"
+
+//	refract		".1,0"
+
+//	red		"255"
+//	green		"255"
+//	blue		"255"
+//	color		"0,0"
+//	mask		"255,0"
+
+	red		"0,60"
+	green		"0,255"
+	blue		"0,50"
+	color		"0,10(20),0"
+	mask		"0,60(5),60(20),0"
+}
+
+

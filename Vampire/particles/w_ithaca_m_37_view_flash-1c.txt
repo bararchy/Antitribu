@@ -1,0 +1,28 @@
+Particle
+{
+	frames 		"5"
+	sprite		"ft_explosion2"
+	size		"1,10~40"
+	Depth_offset	"0"
+	theta_speed 	"0"
+	phi_speed 	"0"
+//	radius_speed	"0~100"
+	Rotation 	"0~360"
+	X_speed		"0"
+	Y_speed		"0"
+	Z_speed		"0"
+	Parent_speed	"1"
+	elevation_speed	"10"
+
+	z		"10"
+
+	red		"255"
+	green		"200"
+	blue		"175"
+
+	color		"128,0"
+
+	mask		"0"
+}
+
+

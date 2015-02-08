@@ -1,0 +1,34 @@
+Particle
+{
+	frames			"30"
+	loop 			"1"
+
+	spawn
+	{
+		particle "Ethereal_Shake_Fire01"
+		rate		"20"
+		theta		"0~360"
+		phi		"90~-90"
+		radius		"0~10"
+	
+	}
+	spawn
+	{
+		particle "Ethereal_Shake_Fire02"
+		rate		"10"
+		theta		"0~360"
+		phi		"90~-90"
+		radius		"0~10"
+	}
+	spawn
+	{
+		particle "Ethereal_Shake_Fire03"
+		rate		"20"
+		theta		"0~360"
+		phi		"90~-90"
+		radius		"0~10"
+	}
+
+
+}
+

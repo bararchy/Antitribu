@@ -1,0 +1,19 @@
+Particle
+{
+	loop "1"
+	fps "30"
+
+
+
+	spawn
+	{
+		particle 	"projectile"
+		loop 		"1"
+		rate 		"200"
+		theta "0,90,90,0"
+		phi	"0"
+	}
+
+
+}
+

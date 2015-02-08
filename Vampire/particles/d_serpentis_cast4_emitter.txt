@@ -1,0 +1,49 @@
+Particle
+{
+	frames	"90"
+
+	spawn
+	{
+		particle "d_serpentis_cast1_fx1"
+		burst		"1"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		z		"4"
+	}
+
+	spawn
+	{
+		particle "d_serpentis_cast1_fx3"
+		rate		"50"
+		radius 		"0"
+		theta 		"0~360"
+		phi		"0~360"
+		//z		"-25"
+	}
+
+	spawn
+	{
+		particle "d_serpentis_cast4_fx2"
+		//burst		"1"
+		rate		"0.75"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		//x		"-.5"
+		z		"-55"
+	}
+
+	//spawn
+	{
+		particle "d_serpentis_cast4_fx3"
+		rate		"20"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+	}
+}
+
+
+
+

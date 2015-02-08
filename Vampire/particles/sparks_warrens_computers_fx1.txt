@@ -1,0 +1,30 @@
+Particle
+{
+	frames 		"40"
+	min_frames	"20"
+
+	sprite		"DropletFast"
+	size		"20,10,5,5,5,5"
+	height		"1~3,.25"
+
+	Parent_speed	"0"
+
+	Radius_speed	"100~500,0"
+	elevation_speed	"0,-200"
+	
+	red		"60,0"
+	green		"80,0"
+	blue		"255"
+
+	color		"455"
+	mask		"0"
+
+	movealign	"1"
+
+	collide
+	{
+		
+	}
+}
+
+	

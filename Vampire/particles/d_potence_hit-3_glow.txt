@@ -1,0 +1,23 @@
+Particle
+{
+	frames 		"10"
+	sprite		"blueflamespray"
+	size		"50,0"
+	Depth_offset	"5"
+	Rotation 	"0~360"
+	parent_speed	"0"
+
+	z_speed		"0"
+
+	red		"255,0"
+	green		"0,100"
+	blue		"0,255"
+
+	color		"120,0"
+
+	mask		"0"
+}
+
+
+
+

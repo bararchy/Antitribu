@@ -1,0 +1,28 @@
+Particle
+{
+
+	frames		"30"
+
+	spawn
+	{
+		particle "bloodshotreturnburst_fx1"
+		loop "1"
+		burst		"50"
+		radius "0"
+		theta "90"
+		phi	"0~360"
+	}
+
+	spawn
+	{
+		particle "bloodshotreturnburst_fx2"
+		loop "1"
+		burst		"50"
+		radius "0"
+		theta "90"
+		phi	"0~360"
+	}
+
+
+}
+

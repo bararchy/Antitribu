@@ -1,0 +1,31 @@
+Particle
+{
+	frames 		"20"
+	sprite		"flash"
+	size		"0,0(10),10(20)"
+	Depth_offset	"5"
+	theta_speed 	"100~500"
+	phi_speed 	"0"
+	radius_speed	"250,-250"
+	Rotation 	"0"
+	X_speed		"0"
+	Y_speed		"0"
+	Z_speed		"0"
+	Parent_speed	"1"
+
+	red		"255"
+	green		"0"
+	blue		"0"
+
+	color		"0,255"
+
+	mask		"255,0"
+
+	spawn
+	{
+		particle "D_BloodHealing-trail"
+		rate "1000"
+	}
+}
+
+

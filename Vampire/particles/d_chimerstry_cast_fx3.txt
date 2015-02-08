@@ -1,0 +1,21 @@
+Particle
+{
+	frames 		"45"
+	sprite		"chimspirit"
+	size		"0,80"
+	height		"1"
+	width		"1"
+	rotation	"3000,-3000"
+	depth_offset	"10"
+	parent_speed	"1"
+	elevation_speed	"0"
+	sortfront	"1"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"255,0"
+	mask		"0"
+
+}
+

@@ -1,0 +1,28 @@
+Particle
+{
+	
+	sprite		"mingxiaotentspray"
+	frames		"15"
+	size		"5,30~50"
+	width		"1"
+	height		"1"
+	rotation	"0~360"
+	elevation_speed	"0"
+	parent_speed	"1"
+	radius_speed	"0"
+	movealign	"0"
+	depth_offset	"10"
+
+
+	red		"100"
+	green		"255~150,150"
+	blue		"455~300,300"
+	color		"255,0"
+
+	mask		"0,0"
+
+	sortfront	"1"
+
+	
+
+}

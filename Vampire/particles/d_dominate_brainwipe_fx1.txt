@@ -1,0 +1,27 @@
+Particle
+{
+	frames 		"30"
+	sprite		"dominateember"
+	size		"1"
+	height		"3,.5"
+	width		"1"
+	movealign	"1"
+	rotation	"0"
+	depth_offset	"0"
+	parent_speed	"0"
+	elevation_speed	"0,20~40"
+	sortfront	"1"
+//	Radius_speed	"1~15"
+	theta_speed	"300"
+	phi_speed	"50"
+//	x_speed		"0,0,-10,10,-10,10,-10,10"
+//	y_speed		"0,0,-10,10,-10,10,-10,10"
+//	z_speed		"0,0,-10,30,-30,30,-30,30"
+	red		"255"
+	green		"255"
+	blue		"355"
+	color		"0,255,0"
+	mask		"0"
+
+}
+

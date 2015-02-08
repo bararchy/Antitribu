@@ -1,0 +1,16 @@
+//Attach Type: Bone Single Point
+//Bone: Bip01 Head
+
+Particle
+{
+loop "1"	
+	spawn
+	{
+		particle "GlowyWierd"
+		rate "50"
+		radius "0~.1"
+		phi "180~-180"
+		theta "0"
+	}
+
+}

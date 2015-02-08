@@ -1,0 +1,35 @@
+Particle
+{
+	frames 		"60"
+	//sprite		"serpentis_crown2"
+	sprite		"serpentis_eyes"
+	size		"50"
+	flat		"1"
+	movealign	"1"
+	parent_speed	"1"
+
+	//red		"170,300,170"
+	//green		"200,300,200"
+	//blue		"60"
+	//color		"0,150,0"
+	//mask		"0"
+
+	//red		"140"
+	//green		"200"
+	//blue		"55~60"
+	//color		"100,0"
+	//mask		"0,20,50,0"
+
+	//red		"170,300,170"
+	//green		"200,300,200"
+	//blue		"60"
+	//color		"100!,0!,0!,0!,0!,100!,0!,0!,60!,0!,30!,0!,0!"
+	//mask		"0,20,50,0"
+
+	red		"140,240"
+	green		"200~260"
+	blue		"60~70,90"
+	color		"0,30,60,90,60,30,0"
+	mask		"0,50,20,0"
+}
+

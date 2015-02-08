@@ -1,0 +1,33 @@
+Particle
+{
+	loop 	"0"
+	frames	"40"
+	fps 	"30"
+
+	spawn
+	{
+		particle "ft_fireleft"
+		loop	"1"
+		rate 	"10"
+		radius 	"0~10"
+		theta 	"0~360"	
+	}
+
+	spawn
+	{
+		particle "ft_fireleft2"
+		loop	"1"
+		rate 	"10"
+		radius 	"0~10"
+		theta 	"0~360"	
+	}
+
+	spawn
+	{	
+		particle "ft_fireleft3"
+		loop	"1"
+		rate 	"2"
+		radius 	"0~10"
+		theta 	"0~360"	
+	}
+}

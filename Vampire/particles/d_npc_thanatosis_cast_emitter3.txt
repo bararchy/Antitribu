@@ -1,0 +1,27 @@
+Particle
+{
+	frames	"60"
+	loop	"0"
+
+	spawn
+	{
+		particle "d_npc_thanatosis_cast3_fx1"
+		rate		"10"
+		radius 		"3"
+		theta 		"0~360"
+		phi		"0"
+		z		"4"
+	}
+
+	spawn
+	{
+		particle "d_npc_thanatosis_cast3_fx2"
+		rate		"10"
+		radius 		"0"
+		theta 		"0~360"
+		phi		"0"
+		x		"0"
+		z		"0"
+	}
+}
+

@@ -1,0 +1,13 @@
+Particle
+{
+	frames 		"60"
+//	max_frames	"80"
+	sprite		"Potence"
+	size		"0,.5"
+
+	rotation	"0,45"
+	Parent_speed	"1"
+	Radius_speed	"-1~-2,0,0"
+	color		"0,20~50,0"
+	mask		"0"
+}

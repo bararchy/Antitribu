@@ -1,0 +1,39 @@
+Particle
+{
+	frames			"20"
+	
+
+	spawn
+	{
+		particle	"explosion_fx1"
+		burst		"8"
+		z		"0~100"
+	}
+
+	spawn
+	{
+		particle 	"explosion_fx2"
+		burst 		"15"
+		radius		"0~90"
+		phi 		"90~180"
+		theta 		"0~360"
+		z		"0~60"
+	}
+
+	spawn
+	{
+		particle	"explosion_fx3"
+		burst		"10"
+		z		"0~100"
+	}
+	
+	spawn
+	{
+		particle	"explosion_fx4"
+		burst		"50"
+		z		"40"
+		phi		"0~360"
+		theta		"0~360"
+	}
+}
+

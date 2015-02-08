@@ -1,0 +1,25 @@
+Particle
+{
+	frames 		"45"
+
+	sprite		"teleportline"
+	size		"10"
+	
+	Height		"1,5"
+	width		"2"
+
+	Rotation 	"0"
+	movealign	"1"
+
+	theta_speed	"5,100~300"
+	radius_speed	"0"
+	phi_speed	"0"
+
+	red		"255,500"
+	green		"255,500"
+	blue		"255,500"
+	color		"255"
+	mask		"0"
+
+}
+

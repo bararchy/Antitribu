@@ -1,0 +1,68 @@
+
+Particle
+{
+	loop "1"
+	fps "30"
+
+	
+	spawn
+	{
+		particle "d_animalism_pestilence_fx1"
+		rate 	"12"
+		radius 	"60"
+		theta 	"0~360"
+		phi	"0"
+		z	"-55"
+	}
+
+	spawn
+	{
+		particle "d_animalism_pestilence_fx2"
+		rate 	"15"
+		radius 	"0"
+		theta 	"0~360"
+		phi	"0"
+		z	"-55"
+	}
+
+	spawn
+	{
+		particle "d_animalism_pestilence_fx3"
+		rate	"10"
+		radius 	"40"
+		theta 	"0~360"
+		phi	"0"
+		z	"20~30"
+	}
+
+	spawn
+	{
+		particle "d_animalism_pestilence_fx4"
+		rate	"24"
+		radius 	"40"
+		theta 	"0~360"
+		phi	"0~360"
+		z	"20~-20"
+	}
+	
+	spawn
+	{
+		particle "d_animalism_pestilence_fx5"
+		rate 	"30"
+		radius 	"100"
+		theta 	"0~360"
+		phi	"0"
+		z	"-55"
+	}
+
+	spawn
+	{
+		particle	"d_animalism_pestilence_fx6"
+		rate		"20"
+		radius		"0~100"
+		theta		"0~360"
+		phi		"0"
+		z		"30~-60"
+ 	}
+}
+

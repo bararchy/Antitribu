@@ -1,0 +1,25 @@
+Particle
+{
+	sprite		"flamesmall1"
+	rate		"1"
+	size		"20"
+	width		"1"
+	height		"1"
+	frames		"30"
+	color		"40,0"
+	rotation	"0~360(0),0~360(30)"
+	mask		"0"
+
+	parent_speed	"0"
+	x_speed		"-10~10"
+	z_speed		"0~10"
+	y_speed		"-10~10"
+	Radius_speed	"5" // The speed the particle travels from the emitter
+
+	theta_speed	"0~20" //The speed it orbits the emitting particle horizontally
+	phi_speed	"0~20" //The speed it orbits the emitting particle vertically
+
+	elevation_speed	"10~25"
+	
+	movealign	"0"
+}

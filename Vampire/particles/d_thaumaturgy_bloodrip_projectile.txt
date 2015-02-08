@@ -1,0 +1,32 @@
+Particle
+{
+	loop "0"
+	Frames		"30"
+//	sprite "BloodDrop"
+	size		"20"
+	z_speed		"200,-200,200"
+	y_speed		"200,-200,200"
+ 	Radius_speed	"400"
+
+	spawn
+	{
+		particle "D_Thaumaturgy_BloodRip_Trail"
+		rate "400"
+		loop "0"
+		theta "0~360"
+		phi	"180~-180"
+		radius "0~5"
+	}
+	spawn
+	{
+		particle "D_Thaumaturgy_BloodRip_Mist"
+		rate "50"
+		loop "0"
+		theta "0~360"
+		phi	"180~-180"
+		radius "0~5"
+	}
+
+
+}
+

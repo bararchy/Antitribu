@@ -1,0 +1,13 @@
+Particle
+{
+	sprite "Ringlet"
+	frames "15"
+	size "1,10"
+	red "100,0"
+	green "100,0"
+	blue "100,0"
+	mask "0"
+	precipitation "1"
+
+}
+

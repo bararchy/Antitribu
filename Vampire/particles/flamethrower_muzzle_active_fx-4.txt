@@ -1,0 +1,27 @@
+Particle
+{
+	frames 		"90"
+
+	sprite		"fire-spritesmall"
+	size		"0,80~100"
+
+
+	y_speed 	"-150~-300,0"
+	z_speed		"0,0~150"
+	elevation_speed	"20,0"
+
+	Rotation 	"0~360,0~360"
+
+	red		"255"
+	green		"128"
+	blue		"64"
+
+	color		"30,0"
+	Mask		"0,0,0,100,0"
+
+	collide
+	{
+		
+	}
+}
+

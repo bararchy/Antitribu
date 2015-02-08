@@ -1,0 +1,34 @@
+
+Particle
+{
+loop "0"	
+frames 		"60"
+
+	spawn
+	{
+		particle "HUD_Shocked_fx1"
+		burst	"3"
+		phi	"0~360"
+		radius	"1"	
+		theta	"270"
+
+	}
+	spawn
+	{
+		particle "HUD_Shocked_fx2"
+		rate	"1"
+		phi	"0"
+		radius	"1"	
+		theta	"0"
+
+	}
+	spawn
+	{
+		particle "HUD_Shocked_fx3"
+		burst	"3"
+		phi	"0~360"
+		radius	"1"	
+		theta	"270"
+
+	}
+}

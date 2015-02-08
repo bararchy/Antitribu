@@ -1,0 +1,16 @@
+Particle
+{
+	frames 		"45"	
+	sprite		"kold1hud"
+	size		"2.75"
+	Depth_offset	"-0.33"
+	Parent_speed	"1"
+//	Rotation 	"0,100"
+
+	red		"50~100"
+	green		"75~100"
+	blue		"200~255"
+	color		"255(1),0~255,0~255,0~255,0~255,0~255,0~255,0~255,0~255,0~255,0~255,0~255"
+	mask		"0"
+}
+

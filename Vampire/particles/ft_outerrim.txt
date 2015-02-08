@@ -1,0 +1,22 @@
+Particle
+{
+	frames 		"30"
+	fps		"30"
+
+	sprite		"Cloud"
+	size		"0,30(7),60"
+
+	Rotation 	"0,45,90"
+	x_speed		"0"
+	y_speed		"0"
+	Z_speed		"0"
+	Radius_speed	"60"
+
+	red		"200,200,150,100,50,0"
+	green		"200,100,66,33,0"
+	blue		"100,25,15,10,0"
+	color		"300,0"
+	mask		"0"
+
+}
+

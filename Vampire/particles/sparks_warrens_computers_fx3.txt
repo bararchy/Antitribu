@@ -1,0 +1,27 @@
+Particle
+{
+	min_frames	"4"
+	frames 		"8"
+	max_frames	"15"
+
+	sprite		"lightningarc1"
+	size		"180~240"
+	
+	rotation	"170~190"
+	Depth_offset	"20"
+
+	radius_speed	"15"
+
+	movealign	"1"
+
+	red		"70"
+	green		"70"
+	blue		"200"
+
+	color		"255!,0!,255!,0!,255!,0!"
+	mask		"0"
+
+	sortfront	"1"
+
+	Parent_speed	"0"
+}

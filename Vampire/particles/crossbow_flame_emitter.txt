@@ -1,0 +1,33 @@
+Particle
+{
+	loop "0"
+
+	frames	"30"
+
+
+
+
+	spawn
+	{
+		particle "cross_Flames1"
+		rate "40"
+		radius	"0"
+		theta "0"
+		phi	"0"
+		z	"0"
+	}
+
+	spawn
+	{
+		particle "cross_Flames1"
+		burst "20"
+		radius	"0"
+		theta "0"
+		phi	"0"
+		z	"0"
+	}
+
+
+
+}
+

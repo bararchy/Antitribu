@@ -1,0 +1,34 @@
+Particle
+{
+	frames "30"
+
+
+	spawn
+	{
+		
+		particle "W_ithaca_m_37_flash-1b"
+		burst "8"
+		theta 	"270"
+	}
+
+	spawn
+	{
+		
+		particle "W_ithaca_m_37_flash-3b"
+		burst "3"
+		
+	}
+
+	spawn
+	{
+		
+		particle "W_ithaca_m_37_smoke-1b"
+		burst "10"
+		theta 	"-15"
+		phi	"-10"
+		
+	}
+	
+}
+
+

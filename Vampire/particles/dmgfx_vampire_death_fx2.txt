@@ -1,0 +1,17 @@
+Particle
+{
+
+	frames 		"30"
+	sprite		"ember5"
+	size		"70"
+
+	rotation	"0"
+	Depth_offset	"0"
+	Parent_speed	"1"
+	Radius_speed	"0"
+	elevation_speed	"0"
+	color		"0,60,0"
+	mask		"0"
+}
+
+

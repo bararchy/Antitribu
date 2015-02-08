@@ -1,0 +1,17 @@
+Particle
+{
+	frames 		"30"
+	sprite		"obtaura"
+	size		"80"
+	flat		"1"
+	movealign	"1"
+	parent_speed	"1"
+
+	red		"64"
+	green		"64"
+	blue		"64"
+	color		"0,60,0"
+	mask		"0,200,0"
+	
+}
+

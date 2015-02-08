@@ -1,0 +1,35 @@
+Particle
+{
+
+		
+		
+	loop	"0"
+	frames	"60"			
+		
+
+
+	
+	spawn
+	{
+		
+		particle "Impact_fx_bloodspray_fx1"
+		rate "50"
+		radius "0"
+		theta "0"
+		phi "-40~40"
+		
+	}
+
+	spawn
+	{
+		
+		particle "Impact_fx_bloodspray_fx2"
+		rate "30"
+		radius "0"
+		theta "0"
+		phi "0"
+		
+	}
+
+}
+

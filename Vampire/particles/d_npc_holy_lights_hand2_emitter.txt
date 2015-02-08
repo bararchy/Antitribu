@@ -1,0 +1,15 @@
+Particle
+{
+	loop	"0"
+	frames	"30"
+
+	spawn
+	{
+		particle	"d_npc_holy_lights_hand2_fx1"
+		burst		"30"
+		radius		"0"
+		phi		"0~360"
+		theta		"0~360"
+		z		"20"
+	}
+}

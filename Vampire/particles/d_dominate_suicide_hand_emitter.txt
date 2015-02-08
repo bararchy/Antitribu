@@ -1,0 +1,40 @@
+Particle
+{
+		frames	"60"
+	
+
+//	spawn
+	{
+		particle "D_dominate_suicide_hand_fx1"
+		rate		"50"
+		radius "3"
+		theta "0~360"
+		phi	"0"
+		z	"0"
+
+	}
+	
+	spawn
+	{
+		particle "d_dominate_suicide_hand_fx2"
+		rate		"100"
+		radius "0"
+		theta "0"
+		phi	"0"
+		x	"0"
+		z	"0"
+	}
+
+//	spawn
+	{
+		particle "D_dominate_suicide_hand_fx3"
+		burst		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+		x	"-.5"
+		z	"0"
+	}
+
+}
+

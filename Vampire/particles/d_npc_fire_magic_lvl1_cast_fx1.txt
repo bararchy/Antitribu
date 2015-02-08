@@ -1,0 +1,26 @@
+Particle
+{
+	loop 		"0"
+	Frames		"35"
+	z_speed		"0,-100,-250"
+	Radius_speed	"300"
+
+	spawn
+	{
+		particle 	"FlameThrow1"
+		loop 		"0"
+		rate 		"50"
+		radius 		"0"
+		theta 		"0~360"
+		phi		"-180~180"
+		size 		"5,20,40"
+
+	red		"100,255,255,255,255,255,255,0"
+	green		"100,255,255,255,150~255,150,100,0"
+	blue		"255,255,255,255,150,150,40,0"
+	color		"500,100"
+	mask		"0,0,0,255,0"
+
+	}
+}
+

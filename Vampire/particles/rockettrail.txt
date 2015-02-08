@@ -1,0 +1,27 @@
+Particle
+{
+	sprite "FurBallYellow"
+//	min_frames	"10"
+	frames "50"
+	max_frames	"80"
+	parent_speed "0"
+	size "10,20~30(10),40~60"
+	Rotation	"0,90,180,200~270,360"
+	Z_speed		"0,20~60"
+	Radius_speed	"50,0(10)"
+
+//	red "255,255,255,255,0(15)"
+//	green "255,180~255,180,50,0(15)"
+//	blue "100~255,100,50,30,0(15)"
+//	color	"100,0(20)"
+
+	red "255,255,0(2)"
+	green "255,128,0(2)"
+	blue "255,0,0(2)"
+	color	"80,0(3)"
+
+	mask "0,100(5),0"
+
+}
+
+

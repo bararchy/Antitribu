@@ -1,0 +1,25 @@
+Particle
+{
+	frames 		"30"
+	sprite		"bloodspeckle"
+	size		"3"
+	height		"6,1"
+	movealign	"1"
+	rotation	"0"
+	elevation_speed	"10~20"
+	depth_offset	"-20"
+	parent_speed	"0"
+	sortfront	"1"
+	Radius_speed	"0"
+	x_speed		"0,0,-10,10,-10,10,-10,10"
+	y_speed		"0,0,-10,10,-10,10,-10,10"
+//	z_speed		"0,0,-10,30,-30,30,-30,30"
+
+	red		"200~255"
+	green		"0~20,0~20,0~20,0~20"
+	blue		"20~0,0~20,0~20,0~20"
+	color 		"90,128"
+	mask		"128,0"
+
+}
+

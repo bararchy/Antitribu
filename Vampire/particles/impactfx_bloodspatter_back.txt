@@ -1,0 +1,31 @@
+Particle
+{
+	frames 		"12"
+	min_frames	"6"
+
+//	sprite		"BloodDrop"
+	size		"5"
+
+	Parent_speed	"0"
+	Radius_speed	"450"
+
+	collide
+	{
+
+		decal
+		{
+			//vdecal_first "decals/stains/blooddripa"
+			//vdecal_last  "decals/stains/blooddripd"
+
+                        vdecal_first "decals/stains/blooda"
+                        vdecal_first "decals/stains/bloodb"
+                        vdecal_first "decals/stains/bloodc"
+                        vdecal_last  "decals/stains/blooddripb"
+                        vdecal_last "decals/stains/bloodbga"
+                        vdecal_last "decals/stains/bloode"
+                        vdecal_last "decals/stains/bloodf"
+		}
+
+
+	}
+}

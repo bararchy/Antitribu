@@ -1,0 +1,38 @@
+Particle
+{
+
+
+	spawn
+	{
+		particle "d_Viscicitude_blast_fx1"
+		loop 		"1"
+//		burst		"100"
+		burst		"10"
+		rate 		"10"
+		radius		"0"
+		theta 		"0~360"
+		phi		"0~360"
+	}
+
+	spawn
+	{
+		particle "d_Viscicitude_blast_fx2"
+		loop 		"1"
+		burst		"1"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+	}
+
+	spawn
+	{
+		particle "d_Viscicitude_blast_fx3"
+		loop 		"1"
+		burst		"1"
+		radius 		"28"
+		theta 		"0"
+		phi		"-90"
+	}
+
+}
+

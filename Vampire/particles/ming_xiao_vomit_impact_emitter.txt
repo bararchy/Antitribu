@@ -1,0 +1,39 @@
+Particle
+{
+
+
+	loop	"0"
+	frames	"30"
+
+	spawn
+	{
+		particle "ming_xiao_tent_dam_fx1"
+		burst		"20"
+		rate "0"
+		radius "0"
+		theta "0~360"
+		phi	"0~360"
+	}
+
+	spawn
+	{
+		particle "ming_xiao_tent_dam_fx2"
+		burst		"3"
+		rate "0"
+		radius "0"
+		theta "0~360"
+		phi	"0~360"
+	}
+
+	spawn
+	{
+		particle "ming_xiao_tent_dam_fx3"
+		burst		"3"
+		rate "0"
+		radius "0"
+		theta "0~360"
+		phi	"0~360"
+	}
+
+}
+

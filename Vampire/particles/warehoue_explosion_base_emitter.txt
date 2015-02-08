@@ -1,0 +1,49 @@
+Particle
+{
+	loop		"0"
+	frames		"10000"
+
+
+	spawn
+	{
+		particle	"Warehouse_explosion_base_fx1"
+		burst		"5"
+		radius		"0"
+		theta		"-60~60"
+		phi		"-60~60"
+		z		"30"
+	}
+
+	spawn
+	{
+		particle	"Warehouse_explosion_base_fx2"
+		burst		"20"
+		radius		"0"
+		theta		"-60~60"
+		phi		"-60~60"
+		z		"30"
+	}
+
+	spawn
+	{
+		particle "warehouse_explosion_base_flames_fx1"
+		rate "30"
+		theta "0~360"
+		phi	"180~-180"
+		z	"-10"
+	}
+
+
+	spawn
+	{
+		particle "warehouse_explosion_base_flameglow_fx1"
+		rate "3"
+		z	"80~100"
+	}
+
+	
+
+	
+
+}
+

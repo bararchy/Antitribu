@@ -1,0 +1,14 @@
+Particle
+{
+	loop	"1"
+
+	spawn
+	{
+		particle 	"w_steyr_scout_fx1"
+		rate		"0.5"
+		distance 	"1"
+		rotation 	"0~360"
+		timescale 	"0.9~1.1"
+	}
+}
+

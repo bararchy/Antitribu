@@ -1,0 +1,115 @@
+Particle
+{
+	loop		"1"
+	frames		"120"
+
+	//spawn
+	{
+		particle "d-koldunic-wof-wall-fx1"
+		rate 		"5"
+		radius		"0~100"
+		theta		"0~360"
+		phi		"0~360"
+		//z		"-30"
+	}
+
+	spawn
+	{
+		particle "d-koldunic-wof-wall-fx2"
+		rate 		"15"
+		radius		"0~100"
+		theta		"0~360"
+		phi		"0~360"
+		//z		"-30"
+	}
+
+	spawn
+	{
+		particle "d-koldunic-wof-wall-fx3"
+		rate 		"10"
+		theta 		"90~270"
+		radius		"0~100"
+		phi		"0~30"
+		//z		"-40"
+	}
+
+	spawn
+	{
+		particle "d-koldunic-wof-wall-fx5"
+		rate		"20"
+		radius 		"0"
+		theta 		"0~360"
+		phi		"0"
+		//z		"-30"
+	}
+
+	spawn
+	{
+		particle "d-koldunic-wof-wall-fx6"
+		rate		"5"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		//z		"-45"
+	}
+
+	spawn
+	{
+		particle "d-koldunic-wof-wall-fx9"
+		rate 		"30"
+		radius		"0"
+		theta 		"0~360"
+		phi		"0"
+		z		"-5"
+	}
+
+	spawn
+	{
+		particle "zombie_spawning_fx2"
+		rate		"30"
+		theta		"0~360"	
+		radius		"0~30"	
+	}
+
+
+	spawn
+	{
+		particle "sledgehammer_pound_fx1"
+		burst		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+		z	"0"
+	}
+
+	spawn
+	{
+		particle "sledgehammer_pound_fx2"
+		burst		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+		z	"0"
+	}
+
+	spawn
+	{
+		particle "sledgehammer_pound_fx3"
+		burst		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+		z	"3"
+	}
+	
+	spawn
+	{
+		particle "sledgehammer_pound_fx4"
+		burst		"80"
+		radius "0~40"
+		theta "0~360"
+		phi	"0"
+		z	"0"
+	}
+}
+

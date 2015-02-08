@@ -1,0 +1,29 @@
+Particle
+{
+	
+	frames 		"30"
+	
+
+	sprite		"ripples"
+	normal		"wave_normal"
+	refract		"0,1,0"
+
+	size		"20~30,50"
+	
+	rotation	"0~90,0~90"
+	Depth_offset	"-100"
+
+	radius_speed	"-.1"
+	movealign	"1"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+
+	color		"0"
+	mask		"0"
+
+	sortfront	"1"
+
+	Parent_speed	"0"
+}

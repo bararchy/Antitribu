@@ -1,0 +1,10 @@
+Particle
+{
+	sprite	"HUD_Impact"
+	frames	"8"
+	size	".01,.2(3),.5"
+	rotate	"0"
+	color	"255,0"
+	mask	"0"
+}
+

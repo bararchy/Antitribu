@@ -1,0 +1,20 @@
+Particle
+{
+	frames 		"10"
+	sprite		"teleportline"
+	size		"20"
+	height		"10"
+	depth_offset	"-10"
+	movealign	"1"
+	radius_speed	"100"
+	red		"120"
+	blue		"255"
+	green		"140"
+	rotation	"0"
+
+	color		"255,0"
+	mask		"0"
+	parent_speed	"0"
+
+}
+

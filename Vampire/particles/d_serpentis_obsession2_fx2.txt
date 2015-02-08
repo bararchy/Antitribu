@@ -1,0 +1,23 @@
+Particle
+{
+	frames 		"30"
+	sprite		"ember4"
+	size		"1"
+	height		"3,.5"
+	width		"1"
+	movealign	"1"
+	rotation	"0"
+	depth_offset	"0"
+	parent_speed	"0"
+	elevation_speed	"0,15~30"
+	sortfront	"1"
+	theta_speed	"400"
+	phi_speed	"100"
+
+	red		"170,300,170"
+	green		"200,300,200"
+	blue		"60"
+	color		"120,120,0"
+	mask		"0"
+}
+

@@ -1,0 +1,25 @@
+//Attach Type: Bone Tree
+
+
+Particle
+{
+loop "1"	
+frames 		"60"
+
+	spawn
+	{
+		particle "HUD_Fire_Flames"
+		rate "1700"
+		phi "0"
+		theta "0"
+	}
+
+	spawn
+	{
+		particle	"HUD_Fire_Glow"
+		rate		"150"
+		phi		"0"
+		radius		"0"
+		theta		"0"
+	}
+}

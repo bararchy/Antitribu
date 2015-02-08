@@ -1,0 +1,16 @@
+Particle
+{
+	frames 		"15"
+	sprite		"furball"
+	size		"1~3"
+	parent_speed	"1"
+
+	red		"255,255,255,255"
+	green		"255,128,128,128"
+	blue		"255,64,64,64"
+
+	color		"0,64,0"
+	mask		"0"
+}
+
+	

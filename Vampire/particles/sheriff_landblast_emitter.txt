@@ -1,0 +1,48 @@
+Particle
+{
+	
+	loop	"0"
+	frames	"60"
+
+	spawn
+	{
+		particle "sheriff_landblast_fx1"
+		burst		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+		z	"20"
+	}
+
+	spawn
+	{
+		particle "sheriff_landblast_fx2"
+		rate		"100"
+		radius "0"
+		theta "0~360"
+		phi	"0"
+		z	"20"
+	}
+
+	spawn
+	{
+		particle "sheriff_landblast_fx3"
+		burst		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+		z	"10"
+	}
+
+	spawn
+	{
+		particle "sheriff_landblast_fx5"
+		rate		"100"
+		radius "0~100"
+		theta "0~360"
+		phi	"0"
+		z	"10"
+	}
+
+}
+

@@ -1,0 +1,15 @@
+Particle
+{	
+	frames	"25"
+//	loop	"1"
+
+	spawn
+	{
+		particle 	"w_laser_view_fx1"
+//		loop 		"1"
+		rate 		"100"
+		theta 		"0"
+		phi		"0"
+		z		"3"
+	}
+}

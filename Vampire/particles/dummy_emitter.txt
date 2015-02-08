@@ -1,0 +1,16 @@
+Particle
+{
+	loop "1"
+	fps "20"
+	frames "200"
+
+	spawn
+	{
+		particle "D_BloodHealing_Emitter"
+		burst		"1"
+
+	}
+
+
+}
+

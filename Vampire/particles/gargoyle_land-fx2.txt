@@ -1,0 +1,22 @@
+Particle
+{
+	frames 		"20"
+	sprite		"ringlet"
+	size		"0,600,600"
+
+	Rotation 	"0~360"
+	flat		"1"
+
+	Parent_speed	"0"
+
+	red		"255"
+	green		"225"
+	blue		"205"
+
+	color		"64,0"
+	mask		"0"
+
+
+}
+
+

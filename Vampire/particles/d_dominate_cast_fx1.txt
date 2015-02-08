@@ -1,0 +1,25 @@
+Particle
+{
+	frames 		"30"
+	sprite		"Dominatedots"
+	size		"5"
+	height		"-4,-4,4"
+	width		"4,4,-4"
+	rotation	"200~360"
+	depth_offset	"0"
+	parent_speed	"1"
+	elevation_speed	"0"
+	sortfront	"1"
+//	Radius_speed	"1~15"
+//	phi_speed	"400,0"
+//	x_speed		"0,0,-10,10,-10,10,-10,10"
+//	y_speed		"0,0,-10,10,-10,10,-10,10"
+//	z_speed		"0,0,-10,30,-30,30,-30,30"
+	red		"0"
+	green		"200"
+	blue		"255"
+	color		"0,255,0"
+	mask		"0"
+
+}
+

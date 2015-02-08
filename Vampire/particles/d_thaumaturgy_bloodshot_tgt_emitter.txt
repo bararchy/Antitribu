@@ -1,0 +1,23 @@
+Particle
+{
+	frames		"60"
+
+	spawn
+	{
+		particle "bloodshot_tgt_fx1"
+		burst		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+	}
+
+	spawn
+	{
+		particle "bloodshot_tgt_fx2"
+		rate		"10"
+		radius "0"
+		theta "0"
+		phi	"0"
+	}
+}
+

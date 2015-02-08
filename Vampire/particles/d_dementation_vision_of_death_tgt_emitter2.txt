@@ -1,0 +1,57 @@
+Particle
+{
+	//frames	"300"
+
+	//spawn
+	{
+		particle 	"D_dementation_vision_of_death_tgt_fx1"
+		rate		"25"
+		radius 		"30"
+		theta 		"230"
+		phi		"0"
+		z		"-20"
+	}
+
+	//spawn
+	{
+		particle "D_dementation_vision_of_death_tgt_fx3"
+		rate		"25"
+		radius "30"
+		theta "230"
+		phi	"0"
+		x	"0"
+		z	"0"
+	}
+
+	//spawn
+	{
+		particle "d_dementation_vision_of_death_tgt_fx4"
+		rate		"25"
+		radius "15"
+		theta "50"
+		phi	"0"
+		x	"0"
+		z	"0"
+	}
+
+	//spawn
+	{
+		particle "D_dementation_vision_of_death_tgt_fx6"
+		rate		"20"
+		radius "0"
+		theta "0"
+		phi	"0"
+		z	"0"
+	}
+
+	//spawn
+	{
+		particle "D_dementation_vision_of_death_tgt_fx7"
+		burst		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+		z	"-10"
+	}
+}
+

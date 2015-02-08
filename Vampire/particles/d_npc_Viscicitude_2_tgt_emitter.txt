@@ -1,0 +1,46 @@
+//Attach Type: Bone Tree
+//Bone: Bip01 Spine
+
+Particle
+{
+	loop 	"0"	
+	frames	"90"
+
+	//spawn
+	{
+		particle 	"d_npc_Viscicitude_2_tgt_fx1"
+		rate 		"100"
+		radius		"0"
+		theta 		"0~360"
+		phi		"-180~180"
+		z		"5"
+	}
+
+	spawn
+	{
+		particle	"d_animalism_wolf_trail_fx1-1"
+		rate		"50"
+		radius		"0"
+		phi		"0"
+		theta		"0"
+	}
+
+	spawn
+	{
+		particle	"D_Thaumaturgy_bloodboil-fx6-drops"
+		rate		"0,0,2,15,60"
+		radius		"0"
+		theta		"0~360"
+		phi		"90~-90"
+
+	}
+	spawn
+	{
+		particle	"d_npc_thanathosis_compress_fx3"
+		rate		"50"
+		radius		"0"
+		theta		"0~360"
+		phi		"90~-90"
+
+	}
+}

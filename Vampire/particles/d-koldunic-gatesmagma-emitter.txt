@@ -1,0 +1,96 @@
+Particle
+{
+	loop	"1"
+	frames	"120"
+	fps 	"120"
+
+	spawn
+	{
+		particle "d-koldunic-gatesmagma-fx1"
+		rate 		"5"
+		radius		"0~45"
+		theta		"0~360"
+		phi		"0~360"
+		z		"-30"
+	}
+
+	spawn
+	{
+		particle "d-koldunic-gatesmagma-fx2"
+		rate 		"5"
+		radius		"0~45"
+		theta		"0~360"
+		phi		"0~360"
+		z		"-30"
+	}
+
+	spawn
+	{
+		particle "d-koldunic-gatesmagma-fx3"
+		rate		"5"
+		radius 		"0"
+		theta 		"0~360"
+		phi		"0"
+		z		"-50"
+	}
+
+	spawn
+	{
+		particle "d-koldunic-gatesmagma-fx4"
+		rate		"1"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		z		"-55"
+	}
+
+	spawn
+	{
+		particle "d-koldunic-gatesmagma-fx5"
+		rate		"10"
+		radius 		"0~25"
+		theta 		"0~360"
+		phi		"0"
+		z		"-40"
+	}
+
+	spawn
+	{
+		particle "d-koldunic-gatesmagma-fx6"
+		rate		"1"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		z		"-55"
+	}
+
+	spawn
+	{
+		particle "d-koldunic-wof-wall-fx9"
+		rate 		"7"
+		radius		"0"
+		theta 		"0~360"
+		phi		"0"
+		z		"-45"
+	}
+
+	spawn
+	{
+		particle "zombie_spawning_fx2"
+		rate		"10"
+		theta		"0~360"	
+		radius		"0~50"
+		z		"-40"	
+	}
+	
+	spawn
+	{
+		particle "sledgehammer_pound_fx4"
+		rate		"10"
+		radius 		"0~60"
+		theta 		"0~360"
+		phi		"0"
+		z		"-45"
+	}
+}
+

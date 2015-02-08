@@ -1,0 +1,14 @@
+Particle
+{
+	loop "1"
+
+	spawn
+	{
+		particle	"CityLights2"
+		rate		"20"
+		radius		"400~1500"
+		theta		"200~340"
+	}
+
+}
+

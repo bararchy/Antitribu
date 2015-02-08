@@ -1,0 +1,12 @@
+Particle
+{
+	loop		"0"
+	frames		"15"
+	spawn
+	{
+		particle 	"Warehoue_Explosion_Base_emitter"
+		burst		"1"
+
+	}
+}
+

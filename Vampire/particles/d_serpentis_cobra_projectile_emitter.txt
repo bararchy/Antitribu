@@ -1,0 +1,52 @@
+Particle
+{	
+	frames	"30"
+
+	spawn
+	{
+		particle 	"d_serpentis_cobra_projectile_fx1"
+		burst 		"3"
+		theta 		"0~20"
+		phi		"0~40"
+		z		"-15"
+	}
+
+	spawn
+	{
+		particle 	"d_serpentis_cobra_projectile_fx2"
+		burst 		"1"
+		theta 		"0"
+		phi		"0"
+		z		"-15"
+	}
+
+	spawn
+	{
+		particle 	"d_serpentis_cobra_projectile_fx3"
+		rate 		"150"
+		theta 		"90"
+		phi		"0~360"
+		radius		"2"
+		z		"-15"
+	}
+	spawn
+	{
+		particle 	"d_serpentis_cobra_projectile_fx4"
+		rate 		"85"
+		//loop 		"1"
+		theta 		"0~360"
+		phi		"180~-180"
+		z		"-15"
+	}
+	spawn
+	{
+		particle 	"d_serpentis_cobra_projectile_fx5"
+		burst 		"1"
+		theta 		"0"
+		phi		"0"
+		radius		"0"
+		z		"-15"
+	}
+
+}
+

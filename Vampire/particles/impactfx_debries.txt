@@ -1,0 +1,33 @@
+Particle
+{
+	frames 		"80"
+	sprite		"debries"
+	size		".1~1"
+	height		".1~.6,.5~1,.1~.6,.5~1,.1~.6,.5~1,.1~.6,.5~1,.1~.6,.5~1"
+	rotation	"0,-180~180(2),360"
+	Depth_offset	"10"
+	Parent_speed	"0"
+	Radius_speed	"100,0(30)"
+	elevation_speed	"-100"
+	
+
+	red		"150~255,0"
+	green		"200~255,0"
+	blue		"175~255,0"
+
+	color		"5000"
+	mask		"255,0"
+	use_surface_color "1"
+
+	collide
+	{
+		self
+		{
+			bounce ".2~.8"
+			gravity "200~300"
+			friction "1~1.5"
+		}
+	}
+}
+
+	

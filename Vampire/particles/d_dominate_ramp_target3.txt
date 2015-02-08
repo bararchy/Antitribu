@@ -1,0 +1,22 @@
+Particle
+{ 
+	frames		"42"
+	Depth_offset	"-10"
+
+	sprite		"cloud"
+	color		"0"
+	mask		"0"
+	size		"100"
+	normal		"Suck_normal"
+	refract		"2,10"
+
+//	spawn
+	{
+		particle 	"D_Dominate_Ramp_Smoke"
+		rate 		"10"
+		radius		 "0"
+		theta 		"0~360"
+		phi		"-180~180"
+
+	}
+}

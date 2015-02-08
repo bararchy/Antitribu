@@ -1,0 +1,29 @@
+Particle
+{
+	frames 		"20"
+
+	sprite		"flameshort"
+	size		"3~8"
+	height		"1!,-1!,2"
+	width		"1"
+
+	Rotation 	"60~-60,0"
+
+	x_speed		"0"
+	y_speed		"0"
+	z_speed		"20"
+
+	parent_speed	"0"
+
+	red		"255"
+	green		"50"
+	blue		"0"
+
+	color		"100,0"
+
+	mask		"0"
+
+
+}
+
+

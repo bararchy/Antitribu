@@ -1,0 +1,31 @@
+Particle
+{
+	frames 		"70"
+//	sprite		"ember6"
+	sprite		"necroember6"
+	size		"30,200,100"
+	flat		"0"
+	height		"1"
+	width		"1"
+	movealign	"0"
+	elevation_speed	"0"
+	Radius_speed	"0"
+	theta_speed	"0"
+	phi_speed	"0"
+	x_speed		"0"
+	Depth_offset	"10"
+	Rotation 	"0~360,0~360"
+	Parent_Speed	"0"
+	
+//	red		"140,100"
+//	blue		"255"
+//	green		"190,150"
+//	color		"0,100(10),60,60,0"
+//	mask		"0"
+
+	red		"200~255"
+	green		"200~255"
+	blue		"200~255"
+	color		"0,128,0"
+	mask		"0"
+}

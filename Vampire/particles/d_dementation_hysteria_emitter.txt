@@ -1,0 +1,38 @@
+Particle
+{
+		frames	"450"
+
+	spawn
+	{
+		particle "D_dementation_hysteria_fx1"
+		rate		"70"
+		radius "0"
+		theta "0"
+		phi	"0"
+		z	"0"
+	}
+
+	spawn
+	{
+		particle "d_dementation_hysteria_fx2"
+		burst		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+		x	"0"
+		z	"3"
+	}
+
+	spawn
+	{
+		particle "D_dementation_hysteria_fx3"
+		burst		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+		x	"-.5"
+		z	"-62"
+	}
+
+}
+

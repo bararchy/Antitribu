@@ -1,0 +1,20 @@
+Particle
+{
+	frames 		"45"
+	sprite		"claws"
+	size		"10"
+	Depth_offset	"10"
+	height		"30,30,30,30,30,30,0"
+	Parent_speed	"1"
+
+	red		"255,255,255"
+	green		"0,0,0,0,255,0"
+	blue		"0,0,0,0,255,0"
+
+	color		"0,0,0,0,128,0"
+
+	mask		"0"
+}
+
+
+

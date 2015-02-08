@@ -1,0 +1,25 @@
+Particle
+{
+	loop 	"0"
+	fps 	"30"
+	frames	"60"
+
+	spawn
+	{
+		particle 	"d_npc_fire_magic_lvl1_cast_fx1"
+		loop 		"0"
+		rate 		"50"
+		theta 		"0,35,0"
+		phi		"0"
+	}
+
+	spawn
+	{
+		particle 	"d_npc_fire_magic_lvl1_cast_fx3"
+		loop 		"0"
+		rate 		"100"
+		theta 		"0,35,0"
+		phi		"0"
+	}
+}
+

@@ -1,0 +1,24 @@
+Particle
+{
+	min_frames	"2"
+	frames 		"10"
+	max_frames	"30"
+
+	sprite		"dropletfast_yellow"
+	size		"1~5"
+	height		"3,5,1"
+	width		"1.5"
+	Depth_offset	"2"
+	movealign	"1"
+	Parent_speed	"0"
+	Radius_speed	"60"
+	elevation_speed	"0,-200~-300"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"255"
+	mask		"0"
+	use_surface_color	"0"
+
+}	

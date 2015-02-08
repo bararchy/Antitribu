@@ -1,0 +1,15 @@
+Particle
+{
+	frames 		"2"
+
+	sprite		"point_128"
+	size		"1000,1500,2000,1500,1000,0"
+	rotation	"0~360"
+	red		"255,255"
+	green		"128,255"
+	blue		"64,255"
+	color		"255"
+	mask		"0"
+
+}
+

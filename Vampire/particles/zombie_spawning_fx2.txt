@@ -1,0 +1,23 @@
+Particle
+{
+	frames 		"45"
+	min_frames	"30"
+	max_frames	"60"
+
+	sprite		"ember3"
+	size		"1~2,0"
+
+	rotation	"0~360"
+	x_speed		"-30~30,0"
+	y_speed		"-30~30,0"
+	z_speed		"50~80,-100"
+
+	red		"255"
+	green		"128"
+	blue		"64"
+
+	color		"0"
+	mask		"255,0"
+}
+
+	

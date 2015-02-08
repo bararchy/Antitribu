@@ -1,0 +1,22 @@
+Particle
+{
+	loop "1"
+	frames		"50"
+
+	sprite		"could"
+	size		"30"
+
+	X_speed		"10~30"
+	Y_speed		"10~30"
+	Z_speed		"50"
+	
+	rotate		"-180~180,-180~180"
+
+	red		"255"
+	green		"0"
+	blue		"0"
+
+	color		"100"
+	mask		"0"
+}
+

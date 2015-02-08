@@ -1,0 +1,25 @@
+Particle
+{
+	loop "1"
+	fps "30"
+
+
+
+	spawn
+	{
+		particle "torch_Flames"
+		rate "50"
+		radius "0~2"
+		theta "0~360"
+		phi	"0"
+	}
+
+
+	spawn
+	{
+		particle "FlameGlow1"
+		rate	"2"
+	}
+
+}
+

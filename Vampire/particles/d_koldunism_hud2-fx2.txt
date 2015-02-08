@@ -1,0 +1,17 @@
+Particle
+{
+	frames 		"40"
+
+	sprite		"potencering"
+	size		"15,40"	
+	rotation	"0~360"
+	radius_speed 	"0~-10"
+	no_z_test	"0"
+
+	red		"50~100"
+	green		"75~100"
+	blue		"200~255"
+	color		"255(1),0~255,0~255,0~255,0~255,0~255,0~255,0~255,0~255,0~255,0~255,0~255"
+	mask		"0"
+}
+

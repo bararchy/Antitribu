@@ -1,0 +1,16 @@
+Particle
+{
+	frames 		"31"
+	sprite		"d_thaumcastblur"
+	size		"30,0"
+	rotation	"0,100"
+	movealign	"0"
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"100"
+	mask		"0"
+	parent_speed	"0"
+
+}
+

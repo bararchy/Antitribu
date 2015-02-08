@@ -1,0 +1,22 @@
+Particle
+{
+	frames 		"15"
+	sprite		"greenshotdot"
+	size		"1"
+	height		"3,1,1,1"
+	width		"1"
+	movealign	"1"
+
+	rotation	"0,0~360"
+	Radius_speed	"0~60"
+	elevation_speed	"-60,0"
+	parent_speed	"0"
+	x_speed		"0"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+
+	color		"200,0"
+	mask		"255,0"
+}

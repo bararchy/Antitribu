@@ -1,0 +1,13 @@
+Particle
+{ 
+	frames		"90"
+	Depth_offset	"-10"
+
+	sprite		"cloud"
+	color		"0"
+	mask		"0"
+	size		"100"
+	normal		"Suck_normal"
+	refract		"2,10"
+
+}

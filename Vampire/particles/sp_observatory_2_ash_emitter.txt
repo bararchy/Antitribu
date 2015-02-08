@@ -1,0 +1,32 @@
+Particle
+{
+	loop "1"
+	precipitation "1"
+
+	spawn
+	{
+		particle "sp_observatory_2_ash_fx1"
+		rate "40"
+		radius "1~200"
+		theta "0~360"
+	}
+
+	spawn
+	{
+		particle "sp_BurningEmbers"
+		rate "25"
+		radius "1~200"
+		theta "0~360"
+	}
+
+	spawn
+	{
+		particle "SmokeyAir_test"
+		rate "10"
+		radius "200"
+		theta "0~360"
+		phi	"0"
+		z	"20"
+	}
+}
+

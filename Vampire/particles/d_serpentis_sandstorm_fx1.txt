@@ -1,0 +1,52 @@
+Particle
+{
+	frames 		"100"
+	sprite		"serpentis_firesprite"
+	size		"55,30~20"
+	height		"1,2"
+	width		"1"
+	movealign	"1"
+	elevation_speed	"10~45"
+	Radius_speed	"-5"
+	theta_speed	"10~250"
+	phi_speed	"0"
+	x_speed		"0"
+	Depth_offset	"10"
+	Rotation 	"0"
+	Parent_Speed	"0"
+
+	//		1 variant
+	//red		"100,0"
+	//green		"0,140"
+	//blue		"30,15"
+	//color		"0,15,10,25,0"
+	//mask		"0,15,15,15,15,15,15,0"
+
+	//		2 variant
+	//red		"0,255"
+	//green		"0,180"
+	//blue		"255,80,80"
+	//color		"0,15,10,25,0"
+	//mask		"0,15,15,15,15,15,15,0"
+
+	//		3 variant
+	//red		"0,120"
+	//green		"0,100"
+	//blue		"50,0"
+	//color		"0,40,30,40,30,40,0"
+	//mask		"0,50,50,50,50,50,0"
+
+
+	//		4 variant
+	//red		"0,120"
+	//green		"0,100"
+	//blue		"50,70"
+	//color		"0,60,60,60,60,60,0"
+	//mask		"0,25,25,25,25,25,0"
+
+	red		"10,120"
+	green		"10,100"
+	blue		"20,90"
+	color		"0,65,65,65,65,65,0"
+	mask		"0,25,25,25,25,25,0"
+}

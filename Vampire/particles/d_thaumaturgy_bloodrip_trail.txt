@@ -1,0 +1,19 @@
+Particle
+{
+	sprite "BloodDrop"
+	min_frames	"5"
+	frames "15"
+	max_frames	"20"
+	size "3~5,0"
+	Height		"1,.5(3),1"
+	Width		"1,.5"
+	Rotation	"0,-180~180"
+
+
+	color	"100,80~150"
+
+	mask "100~255,255"
+
+}
+
+

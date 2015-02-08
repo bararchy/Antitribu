@@ -1,0 +1,33 @@
+Particle
+{
+	frames 		"3000"
+	theta_speed 	"200,50~300,50~150,50~300,100,50~300,50~300,50~300,50~300,50~150,50~300,100,50~300,50~300,50~300,100"
+//	theta_speed	"500"
+	phi_speed 	"0~100"
+	Parent_speed	"1"
+
+	spawn
+	{
+		particle	"Moth_F1_2"
+		rate		"8"
+		Timescale	"8" 
+	}
+	spawn
+	{
+		particle	"Moth_F2_2"
+		rate		"8"
+		Timescale	"8" 
+	}
+	spawn
+	{
+		particle	"Moth_F3_2"
+		rate		"8"
+		Timescale	"8" 
+	}
+	spawn
+	{
+		particle	"Moth_F4_2"
+		rate		"8"
+		Timescale	"8" 
+	}
+}

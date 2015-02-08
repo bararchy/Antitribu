@@ -1,0 +1,27 @@
+Particle
+{
+	frames 		"30"
+
+	sprite		"furball_normal"
+//	normal		"furball_normal"
+	size		"30,100~200"
+	
+	depth_offset	"-80"
+
+	Rotation 	"-360~360,-360~360"
+
+	Elevation_speed		"40~200"
+
+//	refract		"1.0,1.0,1.0,0"
+
+	color		"0"
+	mask		"0"
+
+	collide
+	{
+		
+	}
+
+
+}
+

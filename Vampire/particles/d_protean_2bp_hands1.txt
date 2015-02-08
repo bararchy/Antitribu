@@ -1,0 +1,25 @@
+Particle
+{
+	frames 		"30"
+	sprite		"Protean_2BP_Hands0000"
+	size		"50"
+	Depth_offset	"15"
+	theta_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	"0"
+	Rotation 	"0"
+	X_speed		"0"
+	Y_speed		"0"
+	Z_speed		"0"
+	Parent_speed	"1"
+
+	red		"255,255,255"
+	green		"128,255,0"
+	blue		"64,255,0"
+
+	color		"0,16,16,16,16,0,0,0,0,0,0,0,0,0,0,0,0"
+	mask		"0"
+
+}
+
+

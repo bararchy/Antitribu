@@ -1,0 +1,17 @@
+Particle
+{
+	frames 		"400"
+	sprite		"VTM_Glow2"
+	size		"30,30(200),100"
+//	width		"2,2(200),8"
+//	height		"1,1(200),0"
+	width		"2"
+	X_speed		"0"
+	Y_speed		"0"
+	Z_speed		"5,0(150)"
+
+	color		"0,0(20),255(100),255(200),0"
+	mask		"0"
+}
+
+

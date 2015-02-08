@@ -1,0 +1,16 @@
+//Attach Type: Bone Tree
+
+Particle
+{
+	loop "1"
+	fps "30"
+
+	spawn
+	{
+		particle "D_Thaumatergy_Distort"
+		loop "1"
+		rate "20"
+		radius "0"
+	}
+}
+

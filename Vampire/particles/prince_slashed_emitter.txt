@@ -1,0 +1,15 @@
+Particle
+{
+	loop	"0"
+	frames	"30"	
+
+	spawn
+	{
+		particle "ImpactFX_BloodSpatter_Out"
+		burst "30"
+		phi "-40~40"
+		theta "-40~40"
+		x	"2"
+	}
+	
+}	

@@ -1,0 +1,27 @@
+Particle
+{
+	loop "1"
+//	sprite "smile"
+	fps 20
+	frames 50
+//	red "0,255,0"
+//	blue "0~100,42(9),50~100(13)!,200,220"
+	
+	size "0~100,0~100"
+	mask "255"
+	rotation "0,120,240"
+	
+	spawn
+	{
+		particle "test2"
+		rate "10"
+//		burst "5000,5000,5000"
+		radius "0"
+		theta "0~360"
+		phi "0"
+		red "255,255,0"
+		green "0,255,255"
+		blue "255,0,255"
+	}
+}
+

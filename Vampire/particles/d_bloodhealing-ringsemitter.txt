@@ -1,0 +1,36 @@
+Particle
+{
+	frames "30"
+
+
+	spawn
+	{
+		
+		particle "D_bloodhealing-rings"
+		burst "5"
+		radius	"0~10"
+		Phi	"90~-90"
+		theta	"0~360"
+		
+	}
+	spawn
+	{
+		
+		particle "D_bloodhealing-rings2"
+		burst "5"
+		radius	"0~10"
+		Phi	"90~-90"
+		theta	"0~360"
+		
+	}
+	spawn
+	{
+		
+		particle "D_bloodhealing-rings1"
+		burst "1"
+		
+	}
+
+}
+
+

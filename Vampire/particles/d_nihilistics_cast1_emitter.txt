@@ -1,0 +1,80 @@
+Particle
+{
+	frames	"300"
+
+	//spawn
+	{
+		particle 	"d_npc_thanatosis_cast4_fx2"
+		loop 		"1"
+		burst		"1"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+	}
+
+	spawn
+	{
+		particle 	"Ethereal_Flame_Fire04-bubble"
+		rate		"10"
+		phi		"50~-50"
+		theta		"50~-50"
+		radius		"-35~35"
+		z		"-55~-40"
+	}
+
+	spawn
+	{
+		particle 	"d_nihilistics_cast1_fx4"
+		rate		"7"
+		phi		"20~-20"
+		theta		"50~-50"
+		radius		"-25~25"
+		z		"-55~-45"
+	}
+
+
+
+	spawn
+	{
+		particle 	"d_nihilistics_cast1_fx5"
+		rate 		"1"
+		burst		"2"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		x		"-.5"
+		z		"3"
+	}
+
+	spawn
+	{
+		particle 	"d_nihilistics_cast1_fx3"
+		rate		"20"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		z		"-20"
+	}
+
+	spawn
+	{
+		particle 	"d_nihilistics_cast1_fx2"
+		rate		"20"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		z		"-10"
+	}
+
+
+	spawn
+	{
+		particle 	"d_nihilistics_cast1_fx1"
+		rate		"20"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		z		"0"
+	}
+}
+

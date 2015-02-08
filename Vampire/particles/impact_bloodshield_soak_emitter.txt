@@ -1,0 +1,23 @@
+Particle
+{
+loop "0"	
+		frames	"10"
+
+	
+	spawn
+	{
+		particle "Impact_bloodshield_fx1"
+		burst	"20"
+		phi 	"-80~80"
+		theta 	"-80~80"
+	}
+
+	spawn
+	{
+		particle "Impact_bloodshield_fx2"
+		rate	"50"
+		phi 	"0"
+		theta 	"-50"
+	}
+
+}

@@ -1,0 +1,11 @@
+Particle
+{
+	frames 		"5"
+	sprite		"Sparks"
+	size		"10,0"
+	rotation	"0~360"
+	Parent_speed	"0"
+	Radius_speed	"70"
+	color		"200,0"
+	mask		"0"
+}

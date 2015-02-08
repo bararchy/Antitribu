@@ -1,0 +1,25 @@
+Particle
+{
+	frames 		"5"
+	sprite		"aura_red"
+	size		"1,20~40"
+	Depth_offset	"0"
+	theta_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	"80~300"
+	Rotation 	"0~360"
+	X_speed		"0"
+	Y_speed		"0"
+	Z_speed		"0"
+	Parent_speed	"0"
+
+	red		"255"
+	green		"200"
+	blue		"175"
+
+	color		"128,0"
+
+	mask		"0"
+}
+
+

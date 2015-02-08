@@ -1,0 +1,19 @@
+
+Particle
+{
+	loop "0"
+	fps "30"
+
+	spawn
+	{
+		particle "chang_teleport_out_fx1"
+		loop 	"0"
+		rate 	"70"
+		radius 	"30"
+		z	"30"
+		theta 	"0~360"
+		phi	"0~360"
+	}
+	
+}
+

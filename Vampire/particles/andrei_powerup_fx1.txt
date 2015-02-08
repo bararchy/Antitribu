@@ -1,0 +1,16 @@
+Particle
+{
+	frames		"30"
+	sprite		"andreipowerupring"
+	size		"10~20,5,0"
+	color		"0,355,355"
+	parent_speed	"1"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+
+	mask		"0"
+
+	Depth_offset	"12"
+}

@@ -1,0 +1,29 @@
+Particle
+{
+	frames 		"20"
+	min_Frames	"10"
+	max_frames	"30"
+
+	sprite		"flameshortblue"
+	size		"2~5,1"
+
+	Height		"6,1"
+
+	theta_speed	"300~400"
+	radius_speed	"-150"
+
+	Rotation 	"180"
+
+	Z_speed		"250~-20,0"
+
+	movealign	"1"
+
+	red		"200~255"
+	green		"32~64"
+	blue		"32~64"
+
+	color		"255"
+	mask		"0"
+
+}
+

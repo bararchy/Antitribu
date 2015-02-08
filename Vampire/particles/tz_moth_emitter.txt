@@ -1,0 +1,23 @@
+Particle
+{
+	loop	"1"
+	fps	"30"
+
+	spawn
+	{
+		particle	"Moth_Path"
+		burst		"2"
+		radius		"10~20"
+		theta		"0~360"
+		phi		"-30~30"
+ 	}
+	spawn
+	{
+		particle	"Moth_Path_2"
+		burst		"2"
+		radius		"10~20"
+		theta		"0~360"
+		phi		"-30~30"
+ 	}
+}
+

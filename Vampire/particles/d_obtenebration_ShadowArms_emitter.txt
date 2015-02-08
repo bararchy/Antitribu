@@ -1,0 +1,16 @@
+Particle
+{
+	//frames	"30"
+	loop 		"1"	
+
+	spawn
+	{
+		particle 	"d_obtenebration_ShadowArms_fx1"
+		rate		"80"
+		radius 		"80"
+		theta 		"0"
+		phi		"0"
+		z		"-50"
+	}
+}
+

@@ -1,0 +1,41 @@
+Particle
+{
+	loop "1"
+	fps "30"
+
+
+
+	spawn
+	{
+		particle "treeFlames"
+		loop "1"
+		rate "75"
+		theta "0~360"
+		phi	"180~-180"
+		z	"-10"
+	}
+
+
+	spawn
+	{
+		particle "FlameGlow1"
+		burst "1"
+		fps ".1"
+		loop "1"
+		z	"0"
+	}
+
+	spawn
+	{
+		particle "treeSmoke"
+		loop "1"
+		rate ".3"
+		radius "0~32"
+		theta "0~360"
+		phi	"0"
+	
+	}
+
+
+}
+

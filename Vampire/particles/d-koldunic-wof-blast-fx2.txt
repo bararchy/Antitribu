@@ -1,0 +1,19 @@
+Particle
+{
+	frames 		"50"
+	sprite		"ashgroup"
+	size		"100"
+	width		"1"
+	movealign	"0"
+	Rotation 	"0~360"
+	radius_speed	"-20~-100"
+	Z_speed		"-5~30"
+
+	red		"255"
+	green		"100"
+	blue		"0"
+	color		"255,0"
+	mask		"0"
+
+}
+

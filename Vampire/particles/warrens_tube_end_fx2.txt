@@ -1,0 +1,20 @@
+Particle
+{
+
+	frames		"30"
+	sprite		"spray"
+	size		"20~30,50"
+	rotation	"0~360,0"
+	movealign	"0"
+	width		"1,2~-2"
+	height		"1,1~2"
+	x_speed		"500~600,0"
+	elevation_speed	"-40,-200~-400"
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"0,0,5,10,0"
+	mask		"0"
+	depth_offset	"0"
+}
+

@@ -1,0 +1,178 @@
+Particle
+{
+	frames	"10"
+
+	//льдышки во все стороны
+	//spawn
+	{
+		particle 	"Sparks_Warrens_Computers_fx1"
+		burst 		"80~120"
+		phi 		"-60~60"
+		theta 		"0~360"
+	}
+	//мелкое сверкание
+	//spawn
+	{
+		particle 	"Sparks_Warrens_Computers_fx2"
+		burst 		"1"
+	}
+	//большая молния
+	//spawn
+	{
+		particle 	"Sparks_Warrens_Computers_fx3"
+		burst		"2"
+		phi 		"0~180"
+		radius		"70"	
+		theta		"0~360"
+	}
+	//белый большой туман
+	//spawn
+	{
+		particle 	"Sparks_Warrens_Computers_fx4"
+		burst		"10"
+		phi 		"0~45"
+		radius		"20"	
+		theta		"160~180"
+	}
+	//плоское внизу свечение
+	//spawn
+	{
+		particle 	"Sparks_Warrens_Computers_fx5"
+		burst 		"1"
+		radius		"20"
+		phi		"-50"
+	}
+	//редкая плоская молния
+	//spawn
+	{
+		particle 	"Sparks_Warrens_Computers_fx6"
+		burst 		"2"
+		radius		"-40"
+		phi		"15"
+	}
+
+	//побольше и почаще молния
+	//spawn
+	{
+		particle 	"Sparks_Warrens_Computers_fx7"
+		burst 		"2"
+		radius		"-40"
+		phi		"15"
+	}
+
+	//побольше и почаще молния не много другая
+	//spawn
+	{
+		particle 	"Sparks_Warrens_Computers_fx8"
+		burst 		"2"
+		radius		"-40"
+		phi		"15"
+	}
+	//еле заметный пар
+	//spawn
+	{
+		particle 	"Sparks_Warrens_Computers_fx9-steam"
+		rate 		"30"
+		radius		"10~50"
+		theta 		"0~360"
+
+	}
+	//электро свечение
+	//spawn
+	{
+		particle 	"Sparks_Warrens_Computers_fx10"
+		burst		"3"
+		phi 		"180"
+		radius		"70"	
+	}
+	//еще большая молния
+	//spawn
+	{
+		particle 	"Sparks_Warrens_Computers_fx11"
+		burst		"2"
+		phi 		"0~180"
+		radius		"70"	
+		theta		"0~360"
+	}
+
+	spawn
+	{
+		particle "temple_spike_fx1"
+		loop 		"0"
+		burst		"10"
+		rate 		"0"
+		radius 		"10"
+		theta 		"0"
+		phi		"0"
+		x		"80"
+		z		"-2~-4"
+		y		"-20~20"
+	}
+
+	spawn
+	{
+		particle "temple_spike_fx2"
+		loop 		"0"
+		burst		"10"
+		rate 		"0"
+		radius 		"10"
+		theta 		"0"
+		phi		"0"
+		x		"-80"
+//		z		"-20~-40"
+		z		"-2~-4"
+		y		"-20~20"
+	}
+
+	//большая молния
+	spawn
+	{
+		particle 	"d_chimerstry_tgt3_fx3"
+		burst		"2"
+		phi 		"0~180"
+		radius		"40"	
+		theta		"0~360"
+	}
+
+	//побольше и почаще молния
+	spawn
+	{
+		particle 	"d_chimerstry_tgt3_fx7"
+		burst 		"2"
+		radius		"-20"
+		phi		"15"
+		z		"-12~-14"
+	}
+
+	//побольше и почаще молния не много другая
+	spawn
+	{
+		particle 	"d_chimerstry_tgt3_fx8"
+		burst 		"2"
+		radius		"-40"
+		phi		"15"
+		z		"-15~-18"
+	}
+
+	//электро свечение
+	spawn
+	{
+		particle 	"d_chimerstry_tgt3_fx10"
+		burst		"3"
+//		phi 		"180"
+		phi 		"90"
+//		radius		"70"
+		radius		"40"
+		z		"-8~-12"	
+	}
+	//еще большая молния
+	spawn
+	{
+		particle 	"d_chimerstry_tgt3_fx11"
+		burst		"2"
+		phi 		"0~180"
+		radius		"40"	
+		theta		"0~360"
+	}
+}
+

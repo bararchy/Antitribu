@@ -1,0 +1,16 @@
+Particle
+{
+	sprite		"bloodsprayend"
+	frames		"65"
+	size		"10~20,35"
+	rotation	"0~360"
+
+//	color		"200,200,0"
+//	mask		"255,255,0"
+
+	red		"200~255"
+	green		"0~20"
+	blue		"20~0"
+	color 		"100"
+	mask		"255"
+}

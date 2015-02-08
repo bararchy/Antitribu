@@ -1,0 +1,16 @@
+Particle
+{
+	sprite		"flamespray"
+	size		"20,130"
+	width		"1"
+	height		"1"
+	frames		"20"
+	color		"100,0"
+	rotation	"0~360"
+	mask		"0"
+	parent_speed	"1"
+	Radius_speed	"1" // The speed the particle travels from the emitter
+	theta_speed	"0~360" //The speed it orbits the emitting particle horizontally
+	phi_speed	"0" //The speed it orbits the emitting particle vertically
+	move_align"	"1"
+}

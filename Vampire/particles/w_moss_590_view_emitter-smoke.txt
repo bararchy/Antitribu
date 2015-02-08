@@ -1,0 +1,14 @@
+Particle
+{
+	frames "30"
+
+	spawn
+	{
+		particle "W_ithaca_m_37_smoke-1"
+		burst 		"20"
+		theta 		"-15"
+		phi		"-10"
+		z		"-10"
+	}
+}
+

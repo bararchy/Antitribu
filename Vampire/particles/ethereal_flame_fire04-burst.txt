@@ -1,0 +1,19 @@
+Particle
+{
+	frames 		"5"
+
+	sprite		"flash"
+	size		"400,0"
+	no_z_test	"1"
+
+	Rotation 	"0~360"
+
+	red		"255,0"
+	green		"255,0"
+	blue		"255,200~255"
+	color		"0,64~255,0"
+	mask		"0"
+
+}
+
+

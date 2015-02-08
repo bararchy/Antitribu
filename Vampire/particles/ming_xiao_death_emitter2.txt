@@ -1,0 +1,49 @@
+Particle
+{
+
+	frames		"240"
+
+	spawn
+	{
+		particle	"ming_xiao_death2_fx1"
+		burst		"1"
+		theta		"0"
+		phi		"0"
+		radius		"0"
+		z	"-10"
+	}
+
+	spawn
+	{
+		particle	"ming_xiao_death2_fx2"
+		burst		"1"
+		theta		"0"
+		phi		"0"
+		radius		"0"
+		z	"-10"
+	}
+	
+	spawn
+	{
+		particle	"ming_xiao_death2_fx3"
+		burst		"1"
+		theta		"0"
+		phi		"0"
+		radius		"0"
+		z	"-10"
+	}
+
+	spawn
+	{
+		particle	"ming_xiao_death2_fx4"
+		rate		"100"
+		theta		"0~360"
+		phi		"0"
+		radius		"0~100"
+		z	"-120"
+	}
+}
+
+
+
+

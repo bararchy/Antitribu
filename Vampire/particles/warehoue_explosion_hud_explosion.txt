@@ -1,0 +1,12 @@
+Particle
+{
+	frames 		"50"
+	fps		"30"
+	sprite		"FT_Explosion2"
+	Rotate		"0,180~-180"
+	size		"0,200"
+	color		"300,0"
+	mask		"0"
+
+}
+

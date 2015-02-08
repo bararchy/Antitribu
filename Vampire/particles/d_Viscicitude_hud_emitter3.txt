@@ -1,0 +1,27 @@
+Particle
+{
+	loop "1"
+	frames	"30"
+	fps "30"
+
+	spawn
+	{
+		particle "d_Viscicitude_hud_fx1"
+		burst		"1"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+	}
+
+	spawn
+	{
+		particle "d_Viscicitude_hud3_fx1"
+		rate		"9"
+		phi		"0~360"
+		radius		"1"	
+		theta		"270"
+	}
+
+
+}
+

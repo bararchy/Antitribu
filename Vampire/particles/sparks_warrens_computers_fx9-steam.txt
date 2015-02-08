@@ -1,0 +1,25 @@
+Particle
+{
+	min_frames	"30"
+	frames 		"60"
+	max_frames	"90"
+
+	sprite		"furball2"
+	size		"20,20~60"
+
+	rotation	"0,-60~60"
+
+	z_speed		"10~40"
+	
+	red		"255"
+	green		"255"
+	blue		"255"
+
+	lighting	"0"
+
+	color		"0,10,0"
+	mask		"0,10,0"
+	
+}
+
+	

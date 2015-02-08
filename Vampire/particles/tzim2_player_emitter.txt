@@ -1,0 +1,36 @@
+Particle
+{
+loop "1"	
+
+
+
+	spawn
+	{
+		particle 	"tzim2_player_fx1"
+		rate		"30"
+		radius		 "0"
+		theta 		"0~360"
+		phi		"-180~180"
+
+	}
+
+	spawn
+	{
+		particle 	"tzim2_player_fx2"
+		rate 		"10"
+		radius		 "0"
+		theta 		"0~360"
+		phi		"-180~180"
+
+	}
+
+	spawn
+	{
+		particle 	"tzim2_player_fx3"
+		rate 		"30"
+		radius		 "10"
+		theta 		"0~360"
+		phi		"-180~180"
+
+	}
+}

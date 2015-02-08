@@ -1,0 +1,22 @@
+Particle
+{
+	spawn
+	{
+		particle "ImpactFX_SoakHit1"
+		burst "1"
+	}
+	spawn
+	{
+		particle "ImpactFX_SoakHit2"
+		burst "1"
+	}
+	spawn
+	{
+		particle "ImpactFX_SoakHit3"
+		burst "1"
+	}
+	
+
+}
+
+	

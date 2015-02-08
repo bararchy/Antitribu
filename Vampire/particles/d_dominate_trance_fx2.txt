@@ -1,0 +1,20 @@
+Particle
+{
+	frames 		"450"
+	sprite		"dominateember"
+	size		"100"
+	rotation	"0"
+	elevation_speed	"0"
+	depth_offset	"-20"
+	parent_speed	"1"
+	sortfront	"1"
+	Radius_speed	"0"
+	Z_speed		"0"
+	red		"0"
+	green		"455"
+	blue		"455"
+	color		"30,30,30,30,0"
+	mask		"0"
+
+}
+

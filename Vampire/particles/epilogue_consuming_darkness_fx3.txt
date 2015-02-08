@@ -1,0 +1,28 @@
+Particle
+{
+	frames		"10"
+	sprite		"ember6"
+	normal		"lightningarc4"
+	refract		"1,0"
+	size		"6~20"
+	height		"20"
+	parent_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	"0,0"
+	movealign	"0"
+	Rotation 	"0~360"
+	X_speed		"0"
+	Y_speed		"0"
+	Elevation_speed	"0"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"0"
+
+	mask		"0"
+
+	Depth_offset	"-30"
+
+	
+}

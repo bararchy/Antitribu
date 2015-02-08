@@ -1,0 +1,13 @@
+Particle
+{
+	frames			"30"
+	loop 			"0"
+
+	spawn
+	{
+		particle "Flame_Gout_Flame1"
+		rate		"60"
+	}
+
+}
+

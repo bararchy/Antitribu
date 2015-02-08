@@ -1,0 +1,31 @@
+Particle
+{
+	loop "0"
+	frames	"60"
+	fps "30"
+
+
+
+	spawn
+	{
+		particle "ft_hit_steamfx1"
+		loop 	"1"
+		burst 	"2"
+		radius 	"10"
+		theta 	"90"
+		phi	"-180~180"
+	}
+
+	spawn
+	{
+		
+		particle "ft_hit_steamfx2"
+		loop	"1"
+		burst	"1"
+		radius 	"0~20"
+		theta	"90"
+		phi	"-180~180"
+		
+	}
+
+}

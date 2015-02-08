@@ -1,0 +1,21 @@
+Particle
+{
+	frames 		"60"
+	sprite		"chimember"
+	size		"70"
+	rotation	"0"
+	elevation_speed	"0"
+	depth_offset	"-5"
+	parent_speed	"1"
+	sortfront	"1"
+	Radius_speed	"0"
+	Z_speed		"0"
+
+	red		"255"
+	green		"100"
+	blue		"255"
+	color		"100,100,0"
+	mask		"0"
+
+}
+

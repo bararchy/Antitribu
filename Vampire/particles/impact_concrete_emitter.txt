@@ -1,0 +1,34 @@
+Particle
+{
+loop "0"	
+
+
+	spawn
+	{
+		particle "ImpactFX_ColorDustPuff"
+		burst "3"
+		phi "-20~20"
+		theta "-20~20"
+		radius	"4"
+	}	
+
+	spawn
+	{
+		particle "ImpactFX_Debries"
+		burst "10"
+		phi "-40~40"
+		theta "-40~40"
+		x	"2"
+
+	}
+
+	spawn
+	{
+		particle "ImpactFX_DebrieTrickle_P1"
+		burst "1"
+		x	"1"
+
+	}
+
+
+}

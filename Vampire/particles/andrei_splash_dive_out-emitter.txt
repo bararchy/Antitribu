@@ -1,0 +1,57 @@
+
+Particle
+{
+	loop "0"
+	fps "30"
+	frames "30"
+
+	spawn
+	{
+		particle "Andrei_Splash_FX-1"
+		loop "0"
+		rate "15"
+		radius "0,0~50,0"
+		theta "0~360"
+	}
+	spawn
+	{
+		particle "Andrei_Splash_FX-2"
+		loop "0"
+		rate "100"
+		radius "0,0~50,0"
+		theta "0~360"
+	}
+	spawn
+	{
+		particle "Andrei_Splash_FX-3"
+		loop "0"
+		burst "0"
+		radius "0~35"
+		theta "0~360"
+	}
+	spawn
+	{
+		particle "Andrei_Splash_FX-4"
+		loop "0"
+		burst "100"
+		radius "0~10"
+		theta "0~360"
+	}
+	spawn
+	{
+		particle "Andrei_Splash_FX-5"
+		loop 	"0"
+		burst 	"0"
+		phi	"90"
+		
+	}
+	spawn
+	{
+		particle "Andrei_Splash_FX-6"
+		loop "0"
+		rate "25"
+		radius "0,0~35,0"
+		theta "0~360"
+	}
+}
+

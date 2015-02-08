@@ -1,0 +1,22 @@
+Particle
+{
+	frames 		"30"
+	sprite		"changdot"
+	size		"100,100,10"
+	height		"1,5,5,1"
+	width		"1,1,.1"
+	movealign	"1"
+	elevation_speed	"0,0,400"
+	Radius_speed	"0"
+	x_speed		"0"
+	Depth_offset	"10"
+	Rotation 	"0"
+	Parent_Speed	"1"
+
+	red		"255"
+	blue		"255"
+	green		"255"
+	color		"0,100,255,0"
+
+	mask		"0"
+}

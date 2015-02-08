@@ -1,0 +1,27 @@
+Particle
+{
+	frames 		"30"
+	sprite		"flamemass"
+	size		"30~45,50~75"
+	width		"1"
+	height		"1,2"
+	theta_speed 	"0,0~30,0~80,0"
+	phi_speed 	"0"
+	radius_speed	"30,0,0"
+	Rotation 	"-105~105,0"
+	X_speed		"0"
+	Y_speed		"0"
+	Elevation_speed	"40~100"
+
+	red		"255"
+	green		"255~150,150"
+	blue		"255~100,100"
+	color		"0,15,40,15,0"
+
+	mask		"0,0,0"
+
+	Depth_offset	"30"
+
+	
+
+}

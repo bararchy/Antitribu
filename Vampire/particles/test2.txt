@@ -1,0 +1,34 @@
+Particle
+{
+	sprite		"smile"
+	size		"10"
+	width		"1,0,1"
+	height		"1,2,1"
+
+	parent_speed	"0"
+
+	Radius_speed	"0~20,0" // The speed the particle travels from the emitter
+
+	theta_speed	"20" //The speed it orbits the emitting particle horizontally
+	phi_speed	"5" //The speed it orbits the emitting particle vertically
+
+	elevation_speed	"-100"
+	
+	movealign	"0"
+
+
+	collide //What happens when the particle collides with world geometry
+	{
+		spawn
+		{
+		particle 	"test3"
+		friction 	"2"
+		Bounce		"1"
+		}
+
+		decal
+		{
+		particle 	"test4"
+		}
+	}
+}

@@ -1,0 +1,23 @@
+Particle
+{
+	frames 		"45"
+
+	sprite		"flamebodyEthereal"
+	size		"30~50"
+
+	Rotation 	"10~-10"
+	movealign	"1"
+
+	Rotation 	"0~360"
+	x_speed		"0"
+	y_speed		"0"
+	Z_speed		"80~90,-50"
+
+	red		"200~255,200~255"
+	green		"255"
+	blue		"200~255,200~255"
+	color		"0,32~128,0"
+	mask		"0,255,0"
+
+}
+

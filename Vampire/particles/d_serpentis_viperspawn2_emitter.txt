@@ -1,0 +1,40 @@
+Particle
+{	
+	frames	"60"
+
+	spawn // blood grow up
+	{
+		
+		particle "blood_guardian_summon_fx5"
+		burst "20"
+		radius "0"
+		theta "0"
+		phi "90"
+		z	"-20"
+		
+	}
+
+	spawn // small-big blood sphere
+	{
+		
+		particle "blood_guardian_summon_fx5-2"
+		burst "30"
+		radius "5"
+		theta "0~360"
+		phi "0~360"
+		z	"-20"
+		
+	}
+
+	spawn // blood on floor
+	{
+		
+		particle "blood_guardian_summon_fx6"
+		rate "0,40"
+		radius "0"
+		theta "0"
+		phi "0"
+		z	"-20"		
+	}
+}
+

@@ -1,0 +1,12 @@
+Particle
+{
+frames		"120"
+
+	spawn
+	{
+		particle	"BloodyEyes_Droplets"
+		rate		"20"
+		theta		"0~360"
+		radius		"2"
+	}
+}

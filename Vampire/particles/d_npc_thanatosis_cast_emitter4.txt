@@ -1,0 +1,46 @@
+Particle
+{
+	frames	"120"
+	loop	"0"
+
+	spawn
+	{
+		particle "d_npc_thanatosis_cast4_fx1"
+		loop 		"1"
+		burst		"10"
+		rate 		"10"
+		radius		"0"
+		theta 		"0~360"
+		phi		"0~360"
+	}
+
+	spawn
+	{
+		particle "d_npc_thanatosis_cast4_fx2"
+		loop 		"1"
+		burst		"1"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+	}
+
+	spawn
+	{
+		particle	"D_Thaumaturgy_bloodboil-fx4"
+		rate		"100"
+		radius		"0"
+		theta		"0~360"
+		phi		"90~-90"
+	}
+
+	spawn
+	{
+		particle	"D_Thaumaturgy_bloodboil-fx6-drops"
+		rate		"0,0,2,15,60"
+		radius		"0"
+		theta		"0~360"
+		phi		"90~-90"
+
+	}
+}
+

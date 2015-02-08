@@ -1,0 +1,39 @@
+Particle
+{
+	frames 		"15"
+	sprite		"mingxiaospray"
+	size		"0"
+
+	rotation	"0~360"
+	Radius_speed	"0"
+	elevation_speed	"0"
+	parent_speed	"0"
+	x_speed		"0"
+
+	red		"100,200"
+	green		"255,200"
+	blue		"355,150"
+
+	color		"0"
+	mask		"0"
+
+
+	
+	collide 
+	{
+		
+		decal
+		{
+		particle 	"Vomitblood6"
+		theta		"0~360"
+		radius		"2"
+		}
+		decal
+		{
+		particle 	"Vomitblood5"
+		theta		"0~360"
+		radius		"2"
+		}
+	}
+
+}

@@ -1,0 +1,22 @@
+Particle
+{
+loop "0"	
+
+	spawn
+	{
+		particle "ImpactFX_DustPuff"
+		burst "1"
+		phi "-20~20"
+		theta "-20~20"
+	}
+	spawn
+	{
+		particle "ImpactFX_Splinters"
+		burst "20"
+		phi "-40~40"
+		theta "-40~40"
+		x	"2"
+
+	}
+
+}

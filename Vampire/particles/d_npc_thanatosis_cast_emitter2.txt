@@ -1,0 +1,16 @@
+//Attach Type: Bone Tree
+//Bone: Bip01 Spine
+Particle
+{
+	loop 	"0"
+	frames	"120"	
+	spawn
+	{
+		particle 	"D_Animalisim_BodySmoke"
+		rate 		"130"
+		radius		"0"
+		theta 		"0~360"
+		phi		"-180~180"
+		z		"5"
+	}
+}

@@ -1,0 +1,25 @@
+Particle
+{
+	frames 		"60"
+
+	sprite		"flameLongEthereal"
+	size		"5,10~50"
+
+	Height		"1,4"
+
+	Rotation 	"180"
+	x_speed		"0,-50~50,-50~50"
+	y_speed		"0,100"
+	Z_speed		"75~100,0"
+
+	movealign	"1"
+
+	red		"200~255"
+	green		"200~255"
+	blue		"200~255"
+	color		"0,64~200,0"
+	mask		"0"
+
+}
+
+

@@ -1,0 +1,19 @@
+Particle
+{
+	frames 		"10"
+	sprite		"suck_height"
+	size		"20,18,14,6,0"
+	Depth_offset	"-3"
+	Rotation 	"0~360"
+	parent_speed	"0"
+
+	red		"255,0~30"
+	green		"255,0~30"
+	blue		"255,150~255"
+
+	color		"10,0"
+
+	mask		"0"
+}
+
+

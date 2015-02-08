@@ -1,0 +1,18 @@
+Particle
+{
+
+	frames		"30"
+	sprite		"bubble"
+	size		"1"
+	rotation	"0~360"
+	movealign	"0"
+	width		"1"
+	height		"1"
+	x_speed		"100~300"
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"0,55~200,0"
+	mask		"0"
+}
+

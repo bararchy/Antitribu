@@ -1,0 +1,18 @@
+Particle
+{
+	frames 		"40"
+	sprite		"Protean_Flash"
+	size		"50"
+	width		"1,1,6"
+	Parent_speed	"1"
+
+	red		"255,255,255"
+	green		"255,255,0"
+	blue		"255,0,0"
+
+	color		"0,16,32,100,32,100,32,0"
+	mask		"0"
+
+}
+
+

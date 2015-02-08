@@ -1,0 +1,32 @@
+Particle
+{
+	sprite		"BloodDrop"
+	frames		"60"
+	movealign	"1"
+	x_speed		"0"
+	Elevation_speed	"0,0(10),-100~-200(30)"
+//	phi_speed	"-50"
+	size		".5,1(10)"
+	height		"1,10(10),1,1"
+	width		"4,.5(10)"
+	depth_offset	"-5"
+
+	red		"150,75"
+	green		"0"
+	blue		"0"
+
+	color		"0,255(3)"
+	mask		"0,255(3)"
+
+
+	collide
+	{
+		
+		decal
+		{
+		particle 	"tz_bloodtrickle_blooddrops"
+		}
+	}
+
+}
+

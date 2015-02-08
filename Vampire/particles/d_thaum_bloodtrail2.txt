@@ -1,0 +1,10 @@
+Particle
+{
+	sprite		"bloodspray2"
+	frames		"100"
+	size		"1~10"
+	rotation	"0~360"
+	color		"100,100,0"
+	mask		"255,255,0"
+	depthoffset	"-10"
+}

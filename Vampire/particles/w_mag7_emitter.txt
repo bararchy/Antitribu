@@ -1,0 +1,38 @@
+Particle
+{
+	frames "30"
+
+	spawn
+	{
+		particle 	"w_mag7_flash-1"
+		burst 		"8"
+		theta 		"270"
+		y		"-5"
+	}
+
+	spawn
+	{
+		particle 	"w_mag7_flash-2"
+		burst 		"30"
+		theta 		"265~275"
+		phi		"-4~4"
+		y		"-5"
+	}
+
+	spawn
+	{
+		particle 	"w_mag7_flash-3"
+		burst 		"1"
+		y		"-5"
+	}
+
+	spawn
+	{
+		particle 	"w_mag7_smoke-1"
+		burst 		"20"
+		theta 		"270"
+		y		"-5"
+	}
+}
+
+

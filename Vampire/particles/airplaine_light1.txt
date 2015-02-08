@@ -1,0 +1,14 @@
+Particle
+
+{
+	fps		"30"
+	sprite		"point_16"
+	frames		"30"
+	size		"0,3,0"
+
+	color		"0,255,0"
+	mask		"0"
+}
+
+
+

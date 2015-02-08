@@ -1,0 +1,33 @@
+Particle
+{
+	loop	"1"
+	
+	spawn
+	{
+		particle	"d_animalism_raven_trail_fx1"
+		rate		"1~5,0,1~5"
+		radius		"0"
+		phi		"0"
+		theta		"0"
+	}
+
+	spawn
+	{
+		particle	"d_animalism_raven_trail_fx2"
+		rate		"20"
+		radius		"0"
+		phi		"0"
+		theta		"0"
+	}
+	
+	
+	spawn
+	{
+		particle	"d_animalism_raven_trail_fx3"
+		rate		"8"
+		radius		"0"
+		phi		"0"
+		theta		"0"
+	}
+
+}

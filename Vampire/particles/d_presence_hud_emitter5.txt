@@ -1,0 +1,29 @@
+//Attach Type: Bone Tree
+
+
+Particle
+{
+	loop "1"
+	fps "30"
+
+	spawn
+	{
+		particle "D_Presence_HUD5_fx1"
+		loop "1"
+		rate "2"
+		radius "0"
+		phi "0"
+		theta	"0"
+	}
+
+	spawn
+	{
+		particle "D_Presence_HUD5_fx2"
+		rate "30"
+		radius "0"
+		phi	"0"
+		theta	"0"
+		z	"-.4"
+		x	".1"
+	}	
+}

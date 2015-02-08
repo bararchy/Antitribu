@@ -1,0 +1,24 @@
+bParticle
+{
+	frames 		"25"
+	max_frames	"55"
+	sprite		"dominateember"
+	size		"40"
+	width		"1~2,1~10"
+	height		"3!,-2!,10!,-2,4!"
+	rotation	"90"
+	movealign	"0"
+	depth_offset	"0"
+	parent_speed	"1"
+	radius_speed	"20"
+	sortfront	"1"
+	elevation_speed	"30"
+	Z_speed		"0"
+	red		"255"
+	green		"300"
+	blue		"455"
+	color		"100,0,0"
+	mask		"0"
+
+}
+

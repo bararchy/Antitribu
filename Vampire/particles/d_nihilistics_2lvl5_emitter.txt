@@ -1,0 +1,27 @@
+//Attach Type: Bone Tree
+Particle
+{
+	frames		"100"
+	//fps 		"30"
+
+	spawn
+	{
+		particle 	"d_nihilistics_2lvl5_fx1"
+		loop 		"1"
+		rate 		"20"
+		radius 		"0"
+		theta 		"0~360"
+		phi		"0"
+	}
+
+	spawn
+	{
+		particle 	"d_nihilistics_2lvl5_fx2"
+		loop 		"1"
+		rate 		"20"
+		radius 		"0"
+		theta 		"0~360"
+		phi		"0"
+	}
+}
+

@@ -1,0 +1,18 @@
+Particle
+{
+	frames 		"30"
+	sprite		"cloud"
+	size		"100,1"
+	rotation	"0,-180~180"
+	Depth_offset	"0"
+	elevation_speed	"0"
+	Parent_speed	"1"
+	Radius_speed	"0"
+	red		"255"
+	green		"0"
+	blue		"0"
+	color		"0,100"
+	mask		"0"
+}
+
+

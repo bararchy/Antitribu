@@ -1,0 +1,17 @@
+Particle
+{
+	frames		"150"
+	sprite		"changdot"
+	size		"0,100"
+	parent_speed	"0"
+	depth_offset	"0" 	
+
+	red		"200"
+	green		"255"
+	blue		"400"
+	color		"0,200"
+
+	mask		"0"
+
+	Depth_offset	"12"
+}

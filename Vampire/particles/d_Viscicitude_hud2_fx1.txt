@@ -1,0 +1,23 @@
+Particle
+{
+	frames 		"30"
+	sprite		"presencering"
+	size		"3"
+	Depth_offset	"0"
+	Parent_speed	"1"
+	Rotation 	"0,100"
+
+//	red		"455,255"
+//	green		"255,255"
+//	blue		"900,0"
+//	color		"0,70,0"
+
+//	mask		"0"
+
+	red		"200~255"
+	green		"0~20,0~20,0~20,0~20"
+	blue		"20~0,0~20,0~20,0~20"
+	color 		"90,128"
+	mask		"128,0"
+
+}

@@ -1,0 +1,21 @@
+Particle
+{
+	frames 		"30"
+
+	sprite		"ember"
+	size		"10,0"
+
+	Rotation 	"0~360"
+	x_speed		"1000~-1000,0"
+	y_speed		"1500~-1000,0"
+	Z_speed		"1000~-1000,-500"
+
+
+	red		"255"
+	green		"128"
+	blue		"64"
+	color		"300"
+	mask		"0"
+	
+
+}

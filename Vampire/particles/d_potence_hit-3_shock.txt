@@ -1,0 +1,23 @@
+Particle
+{
+	frames 		"3"
+	sprite		"Shock2"
+	size		"5~25"
+	Depth_offset	"0"
+	Rotation 	"0~360"
+	parent_speed	"1"
+
+	z_speed		"0"
+
+	red		"255,64~128"
+	green		"255,64~128"
+	blue		"255,255,255"
+
+	color		"0,155,0,155,100,150,100,150,0"
+
+	mask		"0"
+}
+
+
+
+

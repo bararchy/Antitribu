@@ -1,0 +1,23 @@
+Particle
+{
+	frames 		"35"
+	sprite		"bloodshotspray"
+	size		"0,10,2"
+	height		"1,1,10"
+	width		"1,1,10"
+	movealign	"0"
+	Rotation 	"0~360"
+	Radius_speed	".1"
+	parent_speed	"0"
+	elevation_speed	"0,-30"
+	theta_speed	"0"
+	phi_speed	"60"
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"180,0"
+	mask		"255,0"
+	depth_offset	"-20"
+
+}
+

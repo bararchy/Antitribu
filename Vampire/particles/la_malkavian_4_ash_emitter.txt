@@ -1,0 +1,23 @@
+Particle
+{
+	loop "1"
+
+	spawn
+	{
+		particle "la_malkavian_4_ash_fx1"
+		rate "30"
+		radius "0"
+		theta "0~360"
+	}
+
+	spawn
+	{
+		particle "la_malkavia_4_air_fx1"
+		rate "10"
+		radius "0"
+		theta "0~360"
+		phi	"0"
+		z	"0"
+	}
+}
+

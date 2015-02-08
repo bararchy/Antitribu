@@ -1,0 +1,27 @@
+Particle
+
+{
+	frames	"2400"
+
+	spawn
+	{
+		particle	"VTM_GlowTEMP"
+		burst		"1"
+		z		"-5"
+	}
+
+	//spawn
+	{
+		particle	"BloodlinesTEMP"
+		burst		"1"
+		z		"-10"
+	}
+
+	spawn
+	{
+		particle 	"Airplaine"
+		loop 		"1"
+		burst 		"1"
+	}
+
+}

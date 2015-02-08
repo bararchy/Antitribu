@@ -1,0 +1,27 @@
+Particle
+{
+	loop "1"
+	fps "30"
+
+	spawn
+	{
+		particle "pipe_Water"
+		loop "1"
+		rate "100"
+//		radius "5"
+		theta "180"
+		phi	"0"
+	}
+
+	spawn
+	{
+		particle "D_Auspex_Diablorie"
+		loop "1"
+		rate "40"
+		radius "0"
+		theta "0~360"
+		phi	"0"
+	}
+
+}
+

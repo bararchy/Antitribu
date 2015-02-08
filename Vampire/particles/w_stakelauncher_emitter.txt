@@ -1,0 +1,67 @@
+Particle
+{
+	frames "30"
+
+	spawn
+	{
+		particle 	"w_StakeLauncher_Fx1"
+		burst 		"8"
+		theta 		"150"
+	}
+	spawn
+	{
+		particle 	"w_StakeLauncher_Fx1"
+		burst 		"8"
+		theta 		"30"
+	}
+	spawn
+	{
+		particle 	"w_StakeLauncher_Fx4"
+		burst 		"60"
+		phi		"0~360"
+		theta 		"0"
+	}
+	spawn
+	{
+		particle 	"w_StakeLauncher_Fx4-1"
+		burst 		"60"
+		phi		"0~360"
+		theta 		"0"
+	}
+
+	spawn
+	{
+		particle 	"w_StakeLauncher_Fx4-2"
+		burst 		"60"
+		phi		"0~360"
+		theta 		"0"
+	}
+
+
+	spawn
+	{
+		particle 	"w_StakeLauncher_Fx2"
+		burst 		"18"
+		theta 		"180"
+	}
+	spawn
+	{
+		particle 	"w_StakeLauncher_Fx2"
+		burst 		"18"
+		theta 		"0"
+	}
+	spawn
+	{
+		particle 	"w_StakeLauncher_Fx2"
+		burst 		"18"
+		theta 		"90"
+	}
+	spawn
+	{
+		particle 	"w_StakeLauncher_Fx3"
+		burst 		"3"
+		theta 		"90"
+	}
+}
+
+

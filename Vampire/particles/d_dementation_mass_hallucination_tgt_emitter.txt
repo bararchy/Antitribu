@@ -1,0 +1,38 @@
+Particle
+{
+		frames	"600"
+
+	spawn
+	{
+		particle "D_dementation_mass_hallucination_tgt_fx1"
+		rate		"100"
+		radius "0"
+		theta "0"
+		phi	"0"
+		z	"15"
+	}
+
+	spawn
+	{
+		particle "d_dementation_mass_hallucination_tgt_fx2"
+		rate		"10"
+		radius "0"
+		theta "0"
+		phi	"0"
+		x	"0"
+		z	"3"
+	}
+
+	spawn
+	{
+		particle "D_dementation_mass_hallucination_tgt_fx3"
+		burst		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+		x	"-0"
+		z	"-60"
+	}
+
+}
+

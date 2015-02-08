@@ -1,0 +1,58 @@
+Particle
+{
+	loop		"0"
+	frames		"10000"
+
+
+	spawn
+	{
+		particle	"sp_ventrue_explosion_fx1"
+		rate		"80"
+		radius		"0"
+		theta		"0"
+		phi		"0"
+		z		"-30"
+	}
+
+	spawn
+	{
+		particle	"sp_ventrue_explosion_fx2"
+		burst		"70"
+		radius		"0"
+		theta		"-60~60"
+		phi		"-60~60"
+		z		"-30"
+	}
+
+	spawn
+	{
+		particle	"sp_ventrue_explosion_fx3"
+		rate		"20,0(120)"
+		radius		"40"
+		theta		"0~360"
+		phi		"0~360"
+		z		"0"
+	}
+
+	spawn
+	{
+		particle	"sp_ventrue_explosion_fx2"
+		rate		"20,0(120)"
+		radius		"20"
+		theta		"0~360"
+		phi		"0~360"
+		z		"0"
+	}
+
+	spawn
+	{
+		particle	"sp_ventrue_explosion_fx4"
+		rate		"5,0(100)"
+		radius		"30"
+		theta		"0~360"
+		phi		"0~360"
+		z		"0"
+	}
+
+}
+

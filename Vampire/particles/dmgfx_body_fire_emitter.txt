@@ -1,0 +1,30 @@
+Particle
+{
+	loop "1"
+	fps "30"
+
+	spawn
+	{
+		particle	"body_flames1"
+		loop		"1"
+		rate		"60"
+		radius		"0~2"
+		theta		"0~360"
+		phi		"0"
+		z		"-5"
+	}
+
+	spawn
+	{
+		particle	"Body_Flame_Glow"
+		rate		"2"
+		phi		"0"
+		radius		"0"
+		Depth_offset	"10"
+		theta		"0"
+	}
+
+
+
+}
+

@@ -1,0 +1,31 @@
+Particle
+{
+	
+	frames 		"30"
+	
+
+	sprite		"ember4"
+
+	size		"5"
+	x_speed		"-.5~-2,-.1,-.5~-2,-.1,-1~-5"
+	y_speed		"-.1,-.5~-2,-.1,-.5~-2,-.1"
+	z_speed		"-.5~-2,-.1,-.5~-2,-.1,-.5~-2"
+	width		"1"
+	
+	rotation	"0,0~360"
+	Depth_offset	"-300"
+
+	radius_speed	"-.1"
+//	movealign	"1"
+
+	red		"255"
+	green		"500"
+	blue		"0"
+
+	color		"255"
+	mask		"0"
+
+	sortfront	"1"
+
+	Parent_speed	"0"
+}

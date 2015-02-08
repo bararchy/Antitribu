@@ -1,0 +1,24 @@
+Particle
+{
+	frames 		"20~40"
+	max_frames	"300"
+	sprite		"fire-sprite"
+	size		"5~20"
+	Depth_offset	"5"
+	Rotation 	"360~-360"
+	X_speed		"0"
+	Y_speed		"0"
+	Z_speed		"1,6~9.5"
+	Parent_speed	"0"
+
+	red		"255,255,255"
+	green		"128,128,0"
+	blue		"64,64,0"
+
+	color		"255,255,255,150,100,50,0"
+	mask		"0"
+
+
+}
+
+

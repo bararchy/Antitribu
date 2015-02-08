@@ -1,0 +1,22 @@
+Particle
+{
+	frames 		"60"
+	sprite		"Ember2"
+	size		".7"
+	height		"10,1,1,1"
+	X_speed		"-10~10,60~50"
+	Y_speed		"-10~10,-10~10,-10~10,-10~10,-10~10,-10~10,-10~10,-10~10,-10~10"
+	Elevation_speed	"20~60"
+	radius_speed	"30,0,0,0,0"
+
+	movealign	"1"
+	parent_speed	"0"
+
+	red		"200~255"
+	green		"0~20,0~20,0~20,0~20"
+	blue		"20~0,0~20,0~20,0~20"
+	color 		"90,128"
+	mask		"128,0"
+
+}
+

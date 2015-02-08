@@ -1,0 +1,23 @@
+Particle
+{
+	frames 		"100"
+	sprite		"chimcerber"
+	size		"15"
+	height		"-1"
+	width		"1"
+	rotation	"0,5,-5,5,-5,5,-5,5,-5,5,-5,5,-5,0"
+	movealign	"1"
+	depth_offset	"0"
+	radius_speed	"0"
+	phi_speed	"10,-30,5,-20,20,-50,30,-10,40,-20,10,-30,5,-20,20,-50,30,-10,40,-20,0"
+	theta_speed	"100"
+	parent_speed	"0"
+	y_speed		"0"
+	sortfront	"0"
+
+	red		"200~247"
+	green		"0~56,0~56,0~56,0~56"
+	blue		"137~120,120~137,120~137,120~137"
+	color 		"90,128"
+	mask		"128,0"
+}

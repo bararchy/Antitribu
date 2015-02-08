@@ -1,0 +1,40 @@
+Particle
+{
+	fps	"30"
+	
+	spawn
+	{
+		particle	"w_shocker_impact_fx1"
+		rate		"1~5"
+		phi		"-5~5"
+		theta		"-20~20"
+	}
+
+	spawn
+	{
+		particle	"w_shocker_impact_fx2"
+		rate		"3~7"
+		phi		"-10~10"
+		theta		"-100~100"
+	}
+
+	spawn
+	{
+		particle 	"w_impact_blunts_fx2"
+		burst 		"1"
+	}
+
+	spawn
+	{
+		particle	"D_Potence_DeathBlow_Shock"
+		rate		"20"
+	}
+
+	spawn
+	{
+		particle	"D_Potence_DeathBlow_Smoke"
+		rate		"30"
+	}
+	
+}
+

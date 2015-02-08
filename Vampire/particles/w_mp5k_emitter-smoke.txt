@@ -1,0 +1,23 @@
+Particle
+{
+	frames "15"
+
+	spawn
+	{
+		particle 	"w_mp5k_smoke_fx1"
+		rate 		"15"
+		y		"-5"
+		x		"2"
+	}
+
+	spawn
+	{
+		particle 	"w_mp5k_smoke_fx2"
+		rate 		"4"
+		y		"-5"
+		x		"2"
+	}
+}
+
+
+

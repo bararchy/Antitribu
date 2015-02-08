@@ -1,0 +1,22 @@
+Particle
+{
+loop		"0"	
+frames		"30"
+
+	spawn
+	{
+		particle	"CigGlow_CIGINHALE_spark"
+		burst		"1"
+		radius		"5"
+		theta		"60"
+
+	}
+	spawn
+	{
+		particle	"CigGlow_CIGINHALE_spark2"
+		burst		"1"
+		radius		"5"
+		theta		"60"
+
+	}
+}

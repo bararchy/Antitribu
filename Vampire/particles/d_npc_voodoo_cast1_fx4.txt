@@ -1,0 +1,19 @@
+Particle
+{
+	frames 		"120"
+	sprite		"changchargeline"
+	size		"10"
+	height		"1,50,5"
+	movealign	"1"
+	Rotation 	"0"
+	Radius_speed	"50,100"
+	theta_speed	"0"
+	phi_speed	"0"
+
+	red		"80"
+	green		"65"
+	blue		"127"
+	color		"36~52,0"
+	mask		"128~250,0"
+}
+

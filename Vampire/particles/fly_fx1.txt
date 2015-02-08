@@ -1,0 +1,25 @@
+Particle
+{
+	frames 		"100"
+	sprite		"pestbug"
+	size		".5"
+	height		"-1,-3"
+	width		"1"
+	movealign	"1"
+	elevation_speed	"-20,10,-20"
+	Radius_speed	"0~10"
+	theta_speed	"-20~20,-20~20,-20~20,-20~20,-20~20"
+	phi_speed	"0,-10~10,-10~10,-10~10,-10~10,0"
+	x_speed		"4,-4,4,-4,4,-4,4,-4,0,0,-40~40,-40~40,4,-4,4,-4"
+	y_speed		"4~20,-4~30,4,-4,4,-4,4,-4,0,0,-40~40,-40~40,4,-4,4,-4"	
+	Depth_offset	"10"
+	Rotation 	"0"
+	Parent_Speed	"0"
+
+	red		"0"
+	blue		"0"
+	green		"0"
+	color		"0"
+
+	mask		"0,255(3),255,255,255,255,0"
+}

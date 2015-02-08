@@ -1,0 +1,20 @@
+Particle
+{
+	frames 		"60"
+	sprite		"ember6"
+	size		"3"
+	flat		"0"
+	movealign	"1"
+	height		"5,1,1"
+	parent_speed	"0"
+	elevation_speed	"100"
+	radius_speed	"0"
+	theta_speed	"0,50~100"
+
+	red		"255"
+	green		"70"
+	blue		"100"
+	color		"255,0"
+	mask		"0"
+}
+

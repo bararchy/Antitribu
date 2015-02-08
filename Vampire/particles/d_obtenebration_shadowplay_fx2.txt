@@ -1,0 +1,20 @@
+Particle
+{
+	frames 		"20"
+	sprite		"obtaura"
+	size		"35"
+	height		"1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1"
+	Depth_offset	"-20"
+
+	Rotation 	"0~360,0"
+
+	red		"64"
+	green		"64"
+	blue		"64"
+	color		"0,60,0"
+	mask		"0,200,0"
+
+
+}
+
+

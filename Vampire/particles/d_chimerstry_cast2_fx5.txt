@@ -1,0 +1,20 @@
+Particle
+{
+	frames 		"50"
+	sprite		"Aura_Red"
+	size		"0,120"
+	Depth_offset	"-4"
+	Parent_speed	"1"
+	Rotation 	"0,-180~180"
+
+//	color		"0"
+//	mask		"100,255,0"
+
+	red		"200~247"
+	green		"0~56,0~56,0~56,0~56"
+	blue		"137~120,120~137,120~137,120~137"
+	color 		"90,128"
+	mask		"128,0"
+}
+
+

@@ -1,0 +1,14 @@
+Particle
+{
+	frames			"30"
+	loop 			"1"
+
+	spawn
+	{
+		particle "Lasombra_Teleport_fx1-body"
+		burst		"50"
+	}
+
+
+}
+

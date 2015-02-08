@@ -1,0 +1,16 @@
+Particle
+{
+	loop		"0"
+	frames		"45"
+	
+	spawn
+	{
+		particle	"d_necromancy_ghoust_fx1"
+		rate		"10"
+		radius		"0"
+		phi		"0"
+		theta		"0"
+		z		"5"
+	}
+
+}

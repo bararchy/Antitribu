@@ -1,0 +1,26 @@
+Particle
+{
+	loop 		"0"
+	frames		"20"
+
+	spawn
+	{
+		particle	"d_necromancy_level1_fx1"
+		rate		"2"
+		burst		"1"
+		radius		"0"
+		phi		"0"
+		theta		"0"
+		z		"0"
+	}
+
+	spawn
+	{
+		particle	"d_necromancy_level1_fx2"
+		rate		"30,1"
+		radius		"3"
+		phi		"0"
+		theta		"0~360"
+		z		"0"
+	}	
+}

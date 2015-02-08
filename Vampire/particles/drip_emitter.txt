@@ -1,0 +1,19 @@
+Particle
+{
+	loop "1"
+	fps "5"
+	frames "70"
+
+
+	spawn
+	{
+		particle "Drip"
+		rate "0~.25"
+//		radius "1~200"
+//		theta "0~360"
+	}
+
+
+
+}
+

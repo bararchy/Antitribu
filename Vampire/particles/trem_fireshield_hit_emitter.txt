@@ -1,0 +1,38 @@
+`Particle
+{
+	fps	"30"
+
+
+	spawn
+	{
+		particle "trem_fireshield_hit_fx1"
+		loop "1"
+		burst		"2"
+		radius "0"
+		theta "0"
+		phi	"0"
+	}
+
+	spawn
+	{
+		particle "trem_fireshield_hit_fx2"
+		loop "0"
+		burst	"10"
+		radius "0"
+		theta "0"
+		phi	"0~360"
+	}
+
+	spawn
+	{
+		particle "trem_fireshield_hit_fx3"
+		rate "3"
+		theta "0"
+		phi	"0"
+		radius	"0"
+		z	"-20"
+	}
+
+	
+}
+

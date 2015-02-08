@@ -1,0 +1,24 @@
+Particle
+{
+loop "1"	
+
+	spawn
+	{
+		particle "Inspection_Stars"
+		rate "2000"
+		phi "180~-180"
+		theta "0~360"
+		Radius		"15"
+	}
+
+	spawn
+	{
+		particle	"Inspection_Insight_Stars"
+		rate		"2000"
+		phi		"180~-180"
+		theta		"0~360"
+		Radius		"5"
+	}
+
+	
+}

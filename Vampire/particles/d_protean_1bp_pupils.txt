@@ -1,0 +1,25 @@
+Particle
+{
+	frames 		"70"
+	sprite		"Protean_Pupils"
+	size		"50"
+	Depth_offset	"0"
+	theta_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	"0"
+	Rotation 	"0"
+	X_speed		"0"
+	Y_speed		"0"
+	Z_speed		"0"
+	Parent_speed	"1"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+
+	color		"0,25,50,255,255,255,200,150,100,50,0"
+	mask		"0"
+
+}
+
+

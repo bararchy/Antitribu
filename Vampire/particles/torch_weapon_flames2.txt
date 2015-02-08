@@ -1,0 +1,16 @@
+Particle
+{
+	frames		"30"
+	sprite		"flamebody"
+	size		"2,8,4,2,1,0"
+	Rotation 	"0~360"
+	Radius_speed	"5,-5~0,0"
+	elevation_speed	"0~50"
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"0,20,40,20,0"
+	mask		"0"
+	parent_speed	"1"
+	Depth_offset	"0"
+}

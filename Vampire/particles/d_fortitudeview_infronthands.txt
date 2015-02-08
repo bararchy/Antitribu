@@ -1,0 +1,14 @@
+Particle
+{
+	frames 		"200"
+	sprite		"ember6"
+	size		"0~2,4~8"
+	Depth_offset	"10"
+	color		"0,20(20),0"
+	mask		"0"
+	rotation	"0,-180~180,360"
+	Radius_speed	"0"
+	Parent_speed	"1"
+}
+
+

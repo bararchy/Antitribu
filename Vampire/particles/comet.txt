@@ -1,0 +1,20 @@
+Particle
+{
+	loop "1"
+	fps 20
+	frames 50
+	
+	size "0~100,0~100"
+	mask "255"
+	rotation "0,120,240"
+	
+	spawn
+	{
+		particle "comet2"
+		rate "30"
+		radius "0"
+		theta "0~360"
+		z "-50"
+	}
+}
+

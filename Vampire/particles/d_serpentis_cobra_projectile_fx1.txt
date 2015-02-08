@@ -1,0 +1,21 @@
+Particle
+{
+	frames 		"30"
+	sprite		"Tzim2slime"
+	size		"10~30,90"
+	theta_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	"60,0"
+	Rotation 	"0~180,0~180"
+	X_speed		"0"
+	Y_speed		"0"
+	z_speed		"0"
+	Elevation_speed	"0"
+	//Depth_offset	"-2"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"255,255,0"
+	mask		"0,255,0,255,0"		
+}

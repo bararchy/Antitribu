@@ -1,0 +1,20 @@
+Particle
+{
+	frames 		"30"
+	sprite		"serpentis_crown"
+	size		"55"
+	flat		"1"
+	rotation	"20,80"
+	depth_offset	"0"
+	parent_speed	"1"
+	sortfront	"1"
+	elevation_speed	"0"
+
+	red		"140,240"
+	green		"200~260"
+	blue		"60~70,90"
+	color		"30,60,90,60,30,0"
+	mask		"0,50,20,0"
+
+}
+

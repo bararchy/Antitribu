@@ -1,0 +1,16 @@
+Particle
+{
+	loop "1"
+
+	spawn
+	{
+		particle "barrelfirecharge_fx1"
+		rate "10"
+		radius "3"
+		theta "0~360"
+		phi	"0"
+		z	"0"
+	}
+
+}
+

@@ -1,0 +1,30 @@
+Particle
+{
+	min_frames	"20"
+	frames 		"25"
+	max_frames	"30"
+	sprite		"ember4"
+	size		"1~2"
+	
+	theta_speed 	"0"
+	phi_speed 	"90"
+	radius_speed	"0"
+	Rotation 	"0,0,0~360"
+	X_speed		"0"
+	Y_speed		"0"
+	z_speed		"0"
+	Elevation_speed	"0"
+	parent_speed	"1"
+	movealign	"0"
+
+	red		"200"
+	green		"255"
+	blue		"50"
+	color		"0,200,200,0"
+
+	mask		"0"
+
+	Depth_offset	"20"
+	
+	
+}

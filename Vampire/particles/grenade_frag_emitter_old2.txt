@@ -1,0 +1,36 @@
+Particle
+{
+	spawn
+	{
+		particle "EX_Sparks"
+		loop "1"
+		rate "30,0(10)!"
+		radius "60"
+		theta "0~360"
+		phi	"180~-180"
+//		Timescale "1.5"
+	}
+
+	spawn
+	{
+		particle "EX_OuterRim"
+		loop "1"
+		rate "30,0(10)!"
+		radius "5"
+		theta "0~360"
+		phi	"180~-180"
+//		Timescale "1.5"
+	}
+	
+	spawn
+	{
+		particle "EX_OuterRim2"
+		loop "1"
+		rate "30,0(10)!"
+		radius "10"
+		theta "0~360"
+		phi	"180~-180"
+//		Timescale "1.5"
+	}
+}
+

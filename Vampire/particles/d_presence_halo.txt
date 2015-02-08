@@ -1,0 +1,14 @@
+Particle
+{
+	loop		"0"
+	frames		"30"
+	sprite		"HaloPresence"
+	size		"40"
+	Depth_offset	"-20"
+	color		"0,100,0"
+	mask		"0"
+	Rotation 	"0,90~-90"
+
+}
+
+

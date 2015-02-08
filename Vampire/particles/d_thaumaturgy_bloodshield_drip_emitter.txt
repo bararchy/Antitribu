@@ -1,0 +1,13 @@
+Particle
+{
+	loop	"1"
+
+
+	spawn
+	{
+		particle	"D_Thaumaturgy_Bloodshield_dripfx1"
+		rate		"40"
+	}
+	
+}
+

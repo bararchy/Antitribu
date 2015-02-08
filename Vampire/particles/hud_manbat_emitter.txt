@@ -1,0 +1,13 @@
+Particle
+{
+		loop "1"	
+
+	spawn
+	{
+		particle "HUD_Manbat_fx1"
+		rate	"50"
+		phi	"0~360"
+		radius	"1"	
+		theta	"270"
+	}
+}

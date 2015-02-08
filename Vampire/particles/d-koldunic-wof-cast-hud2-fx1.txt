@@ -1,0 +1,18 @@
+Particle
+{	
+	frames 		"300"	
+	sprite		"flash_yellow"
+	size		"50~100,0"	
+	rotation	"0~360"
+	Depth_offset	"-100"
+	radius_speed	".1"
+	movealign	"1"
+	sortfront	"1"
+	Parent_speed	"0"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"60,20,0"
+	mask		"0,0,200,0"
+}

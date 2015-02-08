@@ -1,0 +1,27 @@
+Particle
+{
+	loop "0"
+	frames	"200"
+
+	
+	spawn
+	{
+		particle "warrens_tube_end_fx1"
+		rate "0,200(20)!,0"
+		radius "10"
+		theta "0~360"
+		phi	"0~360"
+		y	"-30~30"
+	}
+	
+	spawn
+	{
+		particle "warrens_tube_end_fx2"
+		rate "0,500(20)!,0"
+		radius "0~10"
+		theta "0"
+		phi	"0"
+		y	"-30~30"
+	}
+}
+

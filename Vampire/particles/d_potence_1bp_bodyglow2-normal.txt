@@ -1,0 +1,18 @@
+Particle
+{ 
+
+	frames 		"20"
+	sprite		"ring_normal"
+	color		"0,64"
+	mask		"0"
+	rotation	"0~360"
+
+	size		"20,0"
+
+	Depth_offset	"-6"
+
+	normal		"ring_normal"
+	refract		"0,~1,0"
+}
+
+

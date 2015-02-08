@@ -1,0 +1,31 @@
+Particle
+{
+	loop "1"
+	fps	"30"
+
+
+
+
+	spawn
+	{
+		particle "firebrush_small_wall_fx1"
+		rate "2500"
+		radius	"2"
+		theta "0"
+		phi	"0~360"
+		z	"0"
+	}
+
+	spawn
+	{
+		particle "firebrush_small_wall_fx3"
+		rate "100"
+		radius	"0"
+		theta "0~360"
+		phi	"0"
+		z	"60"
+	}
+
+	
+}
+

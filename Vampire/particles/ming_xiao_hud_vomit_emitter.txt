@@ -1,0 +1,54 @@
+Particle
+{
+		loop "0"
+		frames	"210"	
+
+	spawn
+	{
+		particle "HUD_Tzim2_fx1"
+		rate	"50"
+		phi	"0~360"
+		radius	"1"	
+		theta	"270"
+	}
+	spawn
+	{
+		particle "HUD_Tzim2_fx2"
+		burst	"20"
+		phi	"0~360"
+		radius	"1"	
+		theta	"270"
+	}
+	spawn
+	{
+		particle "HUD_Tzim2_fx3"
+		burst	"20"
+		phi	"0~360"
+		radius	"1"	
+		theta	"270"
+	}
+	spawn
+	{
+		particle "HUD_Tzim2_fx4"
+		rate	"3"
+		phi	"0~360"
+		radius	"1"	
+		theta	"270"
+	}
+	spawn
+	{
+		particle "HUD_Tzim2_fx5"
+		rate	"1"
+		phi	"0~360"
+		radius	"1"	
+		theta	"270"
+	}
+	spawn
+	{
+		particle "HUD_Tzim2_fx6"
+		rate	"1"
+		phi	"60"
+		radius	"1"	
+		theta	"90"
+	}
+}

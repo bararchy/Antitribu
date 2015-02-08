@@ -1,0 +1,39 @@
+Particle
+{
+		frames	"30"
+		loop	"1"
+
+	spawn
+	{
+		particle "D_dominate_brainwipe_fx1"
+		rate		"60"
+		radius "3"
+		theta "0~360"
+		phi	"0"
+		z	"4"
+
+	}
+	spawn
+	{
+		particle "d_dominate_brainwipe_fx2"
+		rate		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+		x	"0"
+		z	"3"
+	}
+
+	spawn
+	{
+		particle "D_dominate_brainwipe_fx3"
+		rate		"5"
+		radius "0"
+		theta "0"
+		phi	"0"
+		x	"-.5"
+		z	"-62"
+	}
+
+}
+

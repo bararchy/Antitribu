@@ -1,0 +1,22 @@
+Particle
+{
+	frames 		"50"
+	sprite		"flamebodyethereal"
+	size		"0,20"
+	Depth_offset	"-20"
+	theta_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	"0"
+	Rotation 	"0,-90~90"
+	X_speed		"0"
+	Y_speed		"0"
+	Z_speed		"0"
+	Parent_speed	"1"
+
+	red		"200~255"
+	green		"200~255"
+	blue		"200~255"
+	color		"0,64~200,0"
+	mask		"0"
+}
+

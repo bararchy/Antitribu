@@ -1,0 +1,26 @@
+Particle
+{
+	frames "30"
+	loop  "1"
+
+	spawn
+	{
+		
+		particle "w_StakeLauncher_Redlight_Fx1"
+		rate "6"
+		loop  "1"
+		radius	"5"
+	}
+	spawn
+	{
+		
+		particle "w_StakeLauncher_Redlight_Fx2"
+		rate "6"
+		loop  "1"
+		radius	"5"
+	}
+
+	
+}
+
+

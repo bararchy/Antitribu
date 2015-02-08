@@ -1,0 +1,22 @@
+Particle
+{
+	frames		"30"
+	sprite		"flamemass"
+	size		"15"
+	height		"2,1"
+	width		"1,1,1,.3,.3"
+	parent_speed	"0"
+	elevation_speed	"10~20"
+	rotation	"0~360,0~360"
+	depth_offset	"0"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+
+	color		"0,30,0"
+
+	mask		"0"
+
+//	Depth_offset	"12"
+}

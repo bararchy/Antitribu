@@ -1,0 +1,25 @@
+Particle
+{
+	frames 		"45"
+
+	sprite		"flamemedium"
+	size		"0,80~150"
+
+	y_speed 	"-300~-450,0"
+	z_speed		"0,0,50~100"
+
+	Rotation 	"0~360"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+
+	color		"0,64,64,0"
+	Mask		"0"
+
+	collide
+	{
+		
+	}
+}
+

@@ -1,0 +1,30 @@
+Particle
+{
+	frames 		"20"
+
+	sprite		"flamemedium"
+//	normal		"bubbles_normal"
+	size		"30~40,50~60"
+	height		"1"
+	width		"1"
+	movealign	"0"
+	depth_offset	"-5~10"
+
+	Rotation 	"0~360"
+
+	z_speed		"5~20"
+	
+	parent_speed	"0"
+
+//	refract		".1,0"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"0,0"
+	mask		"255,0"
+
+
+}
+
+

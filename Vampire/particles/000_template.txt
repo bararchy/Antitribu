@@ -1,0 +1,148 @@
+Particle
+{
+	sprite		"enter_name_of_sprite_here"	// Comment out this line to not use a sprite.
+
+	fps		"30"	// The base frame rate of the animations.
+
+	loop		"0"	// Set this to 1 to make the particle loop rather than die out.
+
+	frames		"30"	// The number of frames the particle lives. For looping particles,
+				// this still controls the rate that parameters change.
+	
+	min_frames	"-1"	// To have particles whose lifespan varies, set these two parameters.
+	max_frames	"-1"	// Otherwise the frames value will be used. Note that the frames value
+				// above is used as the basis for setting keys on animated values.
+
+	red		"255"	// Scales the red, green, and blue colors of the sprite.
+	green		"255"	// Values range from 0-255.
+	blue		"255"
+
+	color		"255"	// This scales red, green, and blue together,
+				// to fade out the sprite without changing its hue.
+
+	mask		"255"	// This (along with the alpha channel of the sprite) controls
+				// how much the background is masked out. 0 means don't mask out
+				// at all (meaning the sprite is additive), while 255 means mask
+				// the background completely to black (so that the sprite appears
+				// blended).
+	
+	refract		"1.0"	// This sets the amount of refraction, for refractive sprites.
+				// Negative values will reverse the refraction. Values from -3 to +3
+				// work well.
+
+	width		"1.0"	// These scale the width and height independently of the size, so
+	height		"1.0"	// you can stretch the sprite out.
+
+	size		"1.0"	// This scales the sprite. Size is in inches.
+
+	rotation	"0"	// Rotates the sprite on the screen. There are 360 degrees in a full circle.
+
+		// NOTE: If you just want some sort of outward movement, a large system will run faster if
+		// you moving particles in x, y, and z instead of using radius, theta, and phi. For example,
+		// x_speed "-100~100", y_speed "-100~100", z_speed "-100~100" will move out in random
+		// directions with a less computation than if you set radius_speed = "50~100".
+
+	x_speed		"0"	// Movement speed along the X-axis of the system. This is East unless the system is rotated.
+	y_speed		"0"	// Movement speed along the Y-axis of the system. This is North unless the system is rotated.
+	z_speed		"0"	// Movement speed along the Z-axis of the system. This is Up unless the system is rotated.
+	elevation_speed	"0"	// Movement speed along the Z-axis of the WORLD. This is ALWAYS straight up.
+
+	radius_speed	"0"	// Movement speed in or out of the spawn point. Positive numbers mean move out.
+	theta_speed	"0"	// Movement speed of a horizontal rotation around the spawn point.
+	phi_speed	"0"	// Movement speed of a vertical rotation around the spawn point.
+
+	parent_speed	"0"	// How much of the parent particle's motion this particle will
+				// follow. 0.0 = ignore parent's motion, 1.0 = follow parent exactly.
+				// Values between 0 and 1 will cause a drift in the parent's direction.
+
+	depth_offset	"0"	// This offsets the particle's depth on the screen, to make sure it renders
+				// in front of or behind the object to which it's attached. Positive numbers
+				// pull towards the camera, negative numbers push away from the camera.
+				// Distance is in inches. Cannot be animated.
+
+	no_z_test	"0"	// Set this to 1 to cause the sprite to always draw in front of everything. Cannot be animated.
+
+	flat		"0"	// Set this to 1 to cause the sprite to draw flat on the ground (or whatever the X/Y plane
+				// of the system is) like a decal. This cannot be combined with "movealign" or "lighting".
+				// Cannot be animated.
+	
+	sortfront	"0"	// Setting this to 1 makes the particle draw over other particles
+				// even if they're in front, but unlike no_z_test it's still blocked
+				// by solid objects in the world. Cannot be animated.
+	
+	movealign	"0"	// Setting this to 1 makes the sprite align itself with its own direction of motion,
+				// like a raindrop with a tail. This cannot be combined with "flat" or "lighting"
+				// Cannot be animated.
+
+	lighting	"0"	// Setting this to 1 causes the particle's color to be scaled by the lighting
+				// in the scene. This cannot be combined with "movealign" or "flat". Cannot be animated.
+	
+	ignore_surface_color "0"	// Setting this to 1 causes impact particles to ignore the color from the
+					// surface that was hit. Cannot be animated.
+
+	precipitation	"0"	// This is used internally to spawn particles in a box around the player for
+				// effects such as rain or snow. Cannot be animated.
+	
+
+
+	// NOTE: The spawn section is optional, and may appear as many times as you like to spawn multiple
+	// types of child particles.
+
+	spawn
+	{
+		particle	"enter_name_of_system_to_spawn_here"
+
+		rate		"0"	// The rate at which child particles are emitted, in either particles
+					// per second (if "distance" is left at 0), or per inch of movement
+					// (if "distance" is set to 1).
+		
+		distance	"0"	// Setting this to 1 makes child particles be emitted based on the
+					// distance travelled rather than time elapsed. Cannot be animated.
+
+		burst		"0"	// Emit a number of particles all at once on certain frame(s).
+
+		rotation	"0"	// This is added to the rotation of the children's sprites. There are 360
+					// degrees in a circle.
+
+			// NOTE: If you just want some sort of offset, the system will run faster if you specify it with
+			// x, y, and z instead of radius, theta, and phi. Specifying x "-100~100" y "-100~100" z "-100~100"
+			// would make the particles spawn at random locations in a box with sides 200 inches across, whereas
+			// radius "0~100" theta "0~360" phi "-90~90" would spawn in a sphere with a 200-inch diameter. If
+			// the box looks good enough, it'll help the frame rate if you set up the particles that way.
+
+		x		"0"	// Starting offset along the X-axis of the system. This is East unless the system is rotated. 
+		y		"0"	// Starting offset along the Y-axis of the system. This is North unless the system is rotated.
+		z		"0"	// Starting offset along the Z-axis of the system. This is Up unless the system is rotated.   
+		elevation	"0"	// Starting offset along the Z-axis of the WORLD. This is ALWAYS straight up.
+
+		radius		"0"	// This is the distance from the center at which child particles will be spawned.
+
+		theta		"0"	// If radius is non-zero, this controls the horizontal rotation in which that
+					// distance will point. Normally you'd specify a range such as 0~360 so that
+					// the particles will come out in a ring.
+
+		phi		"0"	// If radius is non-zero, this this controls the vertical rotation in which that
+					// distance will point. Normally you'd either leave this at 0 to create a disc,
+					// or specify a range such as -90~90 to cover a full sphere.
+
+		timescale	"1.0"	// This slows down or speeds up the lifetimes of the child particles. A value of 2.0
+					// would make them last twice as long. Never set this to 0 or a negative number.
+
+		red		"255"	// These modulate the color of the particles emitted, so you can change them over time.
+		green		"255"	// Values range from 255 (full color) to 0 (faded to black).
+		blue		"255"
+
+		color		"255"	// Scales all the color channels of the child particles together. Values
+					// range from 255 (full brightness) to 0 (faded to black).
+
+		mask		"255"	// This scales the masking done by child particles. A value of 255 leaves the
+					// masking done by the child particles as-is (so they can fade the background
+					// all the way to block). A value of 0 reduces the masking done by the children
+					// to 0, so that they can't change the background at all.
+
+		width		"1.0"	// These multiply by the width and height and size of the child particles,
+		height		"1.0"	// so that the particles emitted by the system can grow and shrink over time.
+		size		"1.0"
+
+	}
+}

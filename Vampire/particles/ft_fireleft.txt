@@ -1,0 +1,16 @@
+Particle
+{
+	frames		"10"
+	sprite		"flamebody"
+	size		"5~20"
+
+	depth_offset	"10"
+	rotation	"0~360"
+	
+	elevation_speed	"10~65"
+	
+	movealign	"0"
+
+	color		"0,60,40,20,0"
+	mask		"0"
+}

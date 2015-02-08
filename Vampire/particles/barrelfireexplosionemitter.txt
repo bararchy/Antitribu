@@ -1,0 +1,50 @@
+Particle
+{
+	frames		"30"
+
+	spawn
+	{
+		particle "barrelexplosion_fx1"
+		rate		"50"
+		radius		"10"
+		theta		"0~360"
+		z		"-70"		
+	
+
+	}
+
+	spawn
+	{
+		particle "barrelexplosion_fx2"
+		burst "1"
+		radius "10"
+		theta "0~360"
+		phi	"0"
+		z	"0"
+	}
+
+	spawn
+	{
+		particle "barrelexplosion_fx3"
+		rate		"50"
+		radius		"10"
+		theta		"0~360"
+		z		"-70"		
+	
+
+	}
+
+	spawn
+	{
+		particle "barrelexplosion_fx4"
+		burst		"50"
+		radius		"10"
+		theta		"0~360"
+		z		"-70"		
+	
+
+	}
+
+	
+}
+

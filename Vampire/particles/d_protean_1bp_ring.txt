@@ -1,0 +1,25 @@
+Particle
+{
+	frames 		"15"
+	sprite		"ring"
+	size		"70,0"
+	Depth_offset	"0"
+	theta_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	"0"
+	Rotation 	"0"
+	X_speed		"0"
+	Y_speed		"0"
+	Z_speed		"0"
+	Parent_speed	"1"
+
+	red		"255,255"
+	green		"255,0"
+	blue		"255,0"
+
+	color		"0,32"
+	mask		"0"
+
+}
+
+

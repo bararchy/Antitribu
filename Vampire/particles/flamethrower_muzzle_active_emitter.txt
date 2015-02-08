@@ -1,0 +1,58 @@
+Particle
+{	
+	frames	"60"
+	loop	"1"
+
+	spawn
+	{
+		particle "flamethrower_Muzzle_Active_FX-1"
+		rate	"80"
+		loop 	"1"
+		phi	"100"
+
+	}
+//	spawn
+	{
+		particle "flamethrower_Muzzle_Active_FX-2"
+		burst	"10"
+		loop 	"1"
+		
+		phi	"-180~180"
+		theta	"0"
+
+	}
+//	spawn
+	{
+		particle "flamethrower_Muzzle_Active_FX-3"
+		rate	"5"
+		loop 	"1"
+		phi	"100"
+
+	}
+	spawn
+	{
+		particle "flamethrower_Muzzle_Active_FX-4"
+		rate	"20"
+		loop 	"1"
+		phi	"100"
+
+	}
+	spawn
+	{
+		particle "flamethrower_Muzzle_Active_FX-5"
+		rate	"30"
+		loop 	"1"
+		phi	"100"
+
+	}
+	spawn
+	{
+		particle "flamethrower_Muzzle_Active_FX-6"
+		burst	"4"
+		loop 	"0"
+		phi	"100"
+
+	}
+
+
+}

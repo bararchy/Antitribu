@@ -1,0 +1,21 @@
+Particle
+{
+	loop		"0"
+	min_frames	"10"
+	max_frames	"50"
+	Radius_speed	"200,0"
+	elevation_speed	"0,-200~-400"
+	Parent_speed	"0"
+
+	spawn
+	{
+		particle	"CollumBreak_DustTrail"
+		loop		"0"
+		rate		"50"
+		radius		"0~3"
+		theta		"0~360"
+		phi		"180~-180"
+	}
+
+}
+

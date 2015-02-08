@@ -1,0 +1,23 @@
+Particle
+{
+	loop	"1"	
+
+	spawn
+	{
+		particle "Prince_decap_fx1"
+		rate "30"
+		phi "-40~40"
+		theta "-40~40"
+		x	"0"
+	}
+
+	spawn
+	{
+		particle "Prince_decap_fx1"
+		burst "40"
+		phi "-40~40"
+		theta "-40~40"
+		x	"0"
+	}
+	
+}	

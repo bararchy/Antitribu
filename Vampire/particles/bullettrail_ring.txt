@@ -1,0 +1,16 @@
+Particle
+{
+	sprite		"Ripples"
+	fps		30
+	min_frames	15
+	max_frames	18
+	x_speed		0
+	y_speed		0
+	z_speed		0
+	parent_speed	0
+	size		"1,5~6,5~8"
+	color		"255,255,0"
+	mask		0
+	lighting	1
+}
+

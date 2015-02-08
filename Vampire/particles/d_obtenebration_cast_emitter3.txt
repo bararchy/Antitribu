@@ -1,0 +1,27 @@
+Particle
+{
+	loop 	"1"	
+	frames	"60"
+
+	spawn
+	{
+		particle 	"d_obtenebration_cast3_fx1"
+		loop 		"1"
+		burst		"1"
+		radius 		"50"
+		theta 		"0"
+		phi		"-90"
+	}
+
+	spawn
+	{
+		particle 	"d_obtenebration_cast3_fx2"
+		burst		"1"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		x		"-.5"
+		z		"3"
+	}
+}
+

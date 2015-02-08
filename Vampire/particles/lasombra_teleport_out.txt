@@ -1,0 +1,33 @@
+Particle
+{
+	frames			"30"
+	loop 			"1"
+
+	spawn
+	{
+		particle "Lasombra_Teleport_fx1"
+		burst		"50"
+	//	phi		"50~-50"
+		theta		"0~360"
+		radius		"30"
+	}
+	spawn
+	{
+		particle "Lasombra_Teleport_fx2"
+		burst		"50"
+		phi		"60"
+		theta		"0~360"
+		radius		"50"
+	}
+	spawn
+	{
+		particle "Lasombra_Teleport_fx3"
+		burst		"50"
+	//	phi		"50~-50"
+		theta		"0~360"
+		radius		"60"
+	}
+
+
+}
+

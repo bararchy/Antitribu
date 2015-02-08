@@ -1,0 +1,29 @@
+Particle
+{
+	loop "0"
+
+
+
+
+	spawn
+	{
+		particle "ming_xiao_slimetrail_fx1"
+		rate "5"
+		radius	"10~20"
+		theta "0~360"
+		phi	"0"
+		z	"-13"
+	}
+
+	spawn
+	{
+		particle "ming_xiao_slimetrail_fx1-1"
+		burst "3"
+		radius	"10~20"
+		theta "0~360"
+		phi	"0"
+		z	"-10"
+	}
+
+}
+

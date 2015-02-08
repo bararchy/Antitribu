@@ -1,0 +1,21 @@
+Particle
+{
+	frames 		"10"
+
+	sprite		"lightningarccircle"
+	size		"200~400"
+	flat		"1"
+
+	rotation	"0~360"
+	Parent_speed	"0"
+	
+	red		"255"
+	green		"255"
+	blue		"255"
+
+	color		"255,0"
+	mask		"0"
+	
+}
+
+	

@@ -1,0 +1,18 @@
+Particle
+{
+	frames 		"10"
+	max_frames	"35"
+	sprite		"flamelong"
+	size		"60,0"
+	width		"1,.2"
+	Rotation 	"0,0~180"
+	elevation_speed	"30~80"
+	Z_speed		"5"
+	color		"0,50,50,0"
+
+	mask		"0"
+
+
+}
+
+

@@ -1,0 +1,26 @@
+Particle
+{
+	frames 		"30"
+
+	sprite		"ring2"
+	size		"5,0"
+	height		"1"
+	width		"1"
+	movealign	"0"
+
+	rotation	"0~360"
+	radius_speed	"0"
+	theta_speed	"0"
+	Parent_speed	"1"
+	depth_offset	"0"
+	no_z_test	"1"
+
+	red		"2000"
+	green		"0"
+	blue		"0"
+
+	color		"1000"
+	mask		"0"
+}
+
+

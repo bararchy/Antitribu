@@ -1,0 +1,31 @@
+Particle
+{
+	frames "0"
+
+
+	spawn
+	{
+		
+		particle "W_thirtyeight_flash-1a"
+		burst "3"
+		y	"-9"
+	}
+//	spawn
+//	{
+//		
+//		particle "W_thirtyeight_flash-2"
+//		burst "10"
+//		theta 	"0"
+//	}
+//	spawn
+	{
+		
+		particle "W_thirtyeight_flash-3"
+		burst "3"
+		
+	}
+
+	
+}
+
+

@@ -1,0 +1,24 @@
+Particle
+{
+loop "0"	
+
+
+	spawn
+	{
+		particle "Impact_fortitude_fx1"
+		burst "30"
+		phi "-80~80"
+		theta "-80~80"
+		x	"1"
+
+	}
+
+	spawn
+	{
+		particle "Impact_fortitude_fx2"
+		burst "1"
+		x	"1"
+	}
+
+
+}

@@ -1,0 +1,25 @@
+Particle
+{
+	frames		"30"
+	distance	"0"
+	loop 		"1"
+	fps 		"30"
+	
+	spawn
+	{
+		particle 	"d_presence_projectile_fx1"
+		loop 		"1"
+		burst		"1"
+//		rate		"2"
+		radius 		"10"
+		theta 		"90"		
+		phi		"0~360"
+	}
+
+}
+
+	
+
+
+
+

@@ -1,0 +1,97 @@
+Particle
+{
+	frames			"10"
+
+	spawn
+	{
+		particle "EX_center_a"
+		burst 		"1"		
+	}
+
+
+	spawn
+	{
+		particle "EX_OuterRim_a"
+		loop 		"1"
+		rate 		"60"
+		radius 		"200"
+		theta 		"0~360"
+	}
+
+	spawn
+	{
+		particle "EX_OuterRim2_a"
+		loop 		"1"
+		burst 		"50"
+		radius 		"200"
+		theta		"0~360"
+
+	}
+
+	spawn
+	{
+		particle "EX_OuterRim3"
+		loop 		"1"
+		burst		"30"
+		radius 		"50"
+		theta		"0~360"
+
+	}
+
+
+	spawn
+	{
+		particle "Debries"
+		loop 		"1"
+		burst		"5"
+		radius 		"0~100"
+		theta 		"0~360"
+	}
+
+	spawn
+	{
+		particle 	"EX_ring"
+		burst		"1"
+		phi		"10"
+	}
+
+		spawn
+	{
+		particle	"Warehouse_explosion_base_fx1"
+		burst		"5"
+		radius		"100"
+		theta		"-60~60"
+		phi		"-60~60"
+		z		"30"
+	}
+
+	spawn
+	{
+		particle	"Warehouse_explosion_base_fx2"
+		burst		"20"
+		radius		"100"
+		theta		"-60~60"
+		phi		"-60~60"
+		z		"30"
+	}
+
+	spawn
+	{
+		particle "warehouse_explosion_base_flames_fx1"
+		rate "30"
+		radius		"100"
+		theta "0~360"
+		phi	"180~-180"
+		z	"-10"
+	}
+
+
+	spawn
+	{
+		particle "warehouse_explosion_base_flameglow_fx1"
+		rate "3"
+		radius		"100"
+		z	"80~100"
+	}
+}
+

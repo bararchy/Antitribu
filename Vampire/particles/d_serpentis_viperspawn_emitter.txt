@@ -1,0 +1,47 @@
+Particle
+{	
+	loop	"0"
+	frames	"60"
+
+	spawn
+	{
+		particle "sheriff_teleport_fx1"
+		burst		"90"
+		radius 		"0~50"
+		theta 		"0~360"
+		phi		"0~360"
+		z		"-25"
+	}
+
+	spawn
+	{
+		particle "sheriff_teleport_fx2"
+		burst		"5"
+		radius 		"15"
+		theta 		"0"
+		phi		"0~360"
+		z		"-25"
+	}
+
+	spawn // blood on floor
+	{
+		particle "d_serpentis_viperspawn_fx1"
+		rate 		"5,30"
+		radius 		"0"
+		theta 		"0"
+		phi 		"0"
+		z		"-12"
+	}
+
+	spawn // small-big blood sphere
+	{
+		particle "d_serpentis_viperspawn_fx2"
+		burst 		"50"
+		//rate 		"1"
+		radius 		"5"
+		theta 		"0~360"
+		phi 		"0~360"
+		z		"-10"
+	}
+}
+

@@ -1,0 +1,31 @@
+Particle
+{
+	frames 		"15"
+	max_frames	"22"
+	sprite		"Flamemass"
+	size		"10~20,10,10"
+	width		"1"
+	parent_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	"0,0"
+	Rotation 	"0~360,0~180"
+	X_speed		"0"
+	Y_speed		"0"
+	Elevation_speed	"42~52"
+
+	red		"255"
+	green		"255~150,150"
+	blue		"255~100,100"
+	color		"0,20~45,0"
+
+	mask		"0,0,0"
+
+	Depth_offset	"-2"
+
+	
+	collide	
+	{
+
+	}
+
+}

@@ -1,0 +1,35 @@
+Particle
+{
+
+
+	spawn
+	{
+		particle "temple_spike_fx1"
+		loop "0"
+		burst		"10"
+		rate "0"
+		radius "10"
+		theta "0"
+		phi	"0"
+		x	"80"
+		z	"20~40"
+		y	"-20~20"
+	}
+
+	spawn
+	{
+		particle "temple_spike_fx2"
+		loop "0"
+		burst		"10"
+		rate "0"
+		radius "10"
+		theta "0"
+		phi	"0"
+		x	"-80"
+		z	"20~40"
+		y	"-20~20"
+	}
+
+
+}
+

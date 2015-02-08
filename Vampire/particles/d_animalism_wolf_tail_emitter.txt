@@ -1,0 +1,26 @@
+Particle
+{
+
+	loop "0"
+	frames		"60"
+
+	spawn
+	{
+		particle	"d_animalism_wolf_tail_fx1"
+		burst		"3"
+		radius		"0"
+		phi		"0"
+		theta		"0"
+		z		"-6"
+	}
+	
+	spawn
+	{
+		particle	"d_animalism_wolf_outof_fx2"
+		rate		"10"
+		radius		"3"
+		phi		"0"
+		theta		"0~360"
+		z		"0"
+	}
+}

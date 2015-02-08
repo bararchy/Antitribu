@@ -1,0 +1,17 @@
+Particle
+{
+		frames		"150"
+
+	spawn
+	{
+		particle "d_thaumaturgy_bloodvomit_tgt_fx1"
+		loop "1"
+		burst		"1"
+		radius "40"
+		theta "0"
+		phi	"-90"
+	}
+
+
+}
+

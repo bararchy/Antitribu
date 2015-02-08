@@ -1,0 +1,20 @@
+Particle
+{
+	frames 		"20"
+	sprite		"ashgroup"
+	size		"12,0"
+	height		"1"
+	width		"1"
+	rotation	"0~100,359"
+	depth_offset	"-10"
+	parent_speed	"1"
+	elevation_speed	"0"
+	sortfront	"1"
+
+	red		"50~100"
+	green		"75~100"
+	blue		"200~255"
+	color		"255(1),0~255,0~255,0~255,0~255,0~255,0~255,0~255,0~255,0~255,0~255,0~255"
+	mask		"0"
+}
+

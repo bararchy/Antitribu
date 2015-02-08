@@ -1,0 +1,25 @@
+Particle
+{
+	sprite		"point_16"
+	frames		"30"
+	Radius_speed	"0"
+	size		".5~1"
+	parent_speed	"0"
+	elevation_speed	"-100~-150"
+
+	red		"100"
+	green		"0"
+	blue		"0"
+	mask		"100"
+
+	collide
+	{
+		decal
+		{
+			particle 	"d-koldunic-wof-surge-fx3"
+			theta		"0~360"
+			radius		"2"
+		}
+	}
+}
+

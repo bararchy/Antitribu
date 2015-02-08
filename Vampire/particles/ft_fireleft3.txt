@@ -1,0 +1,17 @@
+Particle
+{
+	frames		"25"
+	sprite		"ember3"
+	size		"25~50"
+
+	depth_offset	"10"
+	
+	elevation_speed	"10~85"
+
+	red	"255"
+	green	"128"
+	blue	"64"
+
+	color		"16~64,0"
+	mask		"0"
+}

@@ -1,0 +1,23 @@
+Particle
+{
+	frames 		"425"
+	max_frames	"500"
+	sprite		"furballbottomglow"
+	size		"32,512"
+	theta_speed 	"0"
+	phi_speed 	"0"
+//	radius_speed	"10,0,0,0,0"
+//	Rotation 	"0,180,270,360"
+	X_speed		"-10~10,-10~10,-10~10,-10~10"
+	Y_speed		"-5~5,10~20,40~50"
+	Elevation_speed	"50,40"
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"100,0"
+	mask		"100,0"
+
+
+}
+
+

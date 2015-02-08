@@ -1,0 +1,24 @@
+Particle
+{
+	frames 		"80"
+	sprite		"pestswarm1"
+	size		"15,15"
+	height		"1,3"
+	width		"1"
+	movealign	"1"
+	elevation_speed	"-15~-10"
+	Radius_speed	"0"
+	theta_speed	"50~200"
+	phi_speed	"0"
+	x_speed		"0"
+	Depth_offset	"10"
+	Rotation 	"0"
+	Parent_Speed	"0"
+
+	red		"200"
+	blue		"10~100"
+	green		"200~150"
+	color		"0,200~255,200~255,200~255,0"
+
+	mask		"0,255,255,255,255,255,0"
+}

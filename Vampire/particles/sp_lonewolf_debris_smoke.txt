@@ -1,0 +1,33 @@
+Particle
+{
+	frames 		"30"
+	max_frames	"45"
+	sprite		"mingxiaocloud"
+	size		"30~50,80"
+	height		"1"
+	width		"1"
+	theta_speed 	"0"
+	phi_speed 	"0"
+	parent_speed	".2"
+	Rotation 	"0~360"
+	X_speed		"0"
+	Y_speed		"0"
+	Elevation_speed	"0"
+
+	red		"200"
+	green		"110"
+	blue		"100"
+	color		"90,0"
+
+	mask		"255,0"
+
+	Depth_offset	"-2"
+
+	collide
+	{
+	
+	}
+
+	
+
+}

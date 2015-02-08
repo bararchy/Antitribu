@@ -1,0 +1,28 @@
+Particle
+{
+	loop "0"
+	frames "180"
+	fps "30"
+
+	spawn
+	{
+		particle "AnimalismCast"
+		loop "1"
+		rate "100,100(150),0"
+		radius "20"
+		theta "0~360"
+		phi	"0"
+	}
+
+	spawn
+	{
+		particle "AnimalismCastSpiders"
+		loop "1"
+		rate "100,100(150),0"
+		radius "20"
+		theta "0~360"
+		phi	"0"
+	}
+
+}
+

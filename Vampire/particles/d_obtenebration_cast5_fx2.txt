@@ -1,0 +1,20 @@
+Particle
+{
+	frames 		"40"
+	sprite		"obt5crown"
+	size		"20"
+	rotation	"0"
+	depth_offset	"10"
+	parent_speed	"1"
+	sortfront	"1"
+	elevation_speed	"0"
+	Z_speed		"0"
+
+	red		"64"
+	green		"64"
+	blue		"64"
+	color		"0,60,0"
+	mask		"0,200,0"
+
+}
+

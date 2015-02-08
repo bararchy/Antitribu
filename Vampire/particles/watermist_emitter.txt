@@ -1,0 +1,17 @@
+Particle
+{
+	loop "1"
+	fps "30"
+
+	spawn
+	{
+		particle "watermist"
+		loop "1"
+		rate "15"
+		radius "10~70"
+		theta "0~360"
+		phi	"0~360"
+	}
+
+}
+

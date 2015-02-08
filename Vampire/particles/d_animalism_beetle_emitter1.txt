@@ -1,0 +1,35 @@
+Particle
+{
+	loop	"1"
+	
+	spawn
+	{
+		particle	"d_animalism_beetle_fx1"
+		rate		"100"
+		radius		"0"
+		phi		"0"
+		theta		"0"
+		z		"225"
+		y		"-1~1"
+	}
+
+	spawn
+	{
+		particle	"d_animalism_beetle_fx2"
+		rate		"3"
+		radius		"0"
+		phi		"0"
+		theta		"0"
+		z	"220"
+	}
+
+	spawn
+	{
+		particle	"d_animalism_beetle_fx3"
+		burst		"1"
+		radius		"0"
+		phi		"0"
+		theta		"0"
+		z	"220"
+	}
+}

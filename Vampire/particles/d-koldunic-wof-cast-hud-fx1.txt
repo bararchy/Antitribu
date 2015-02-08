@@ -1,0 +1,19 @@
+Particle
+{
+	frames 		"45"
+	sprite		"kold_crown1"
+	size		"12"
+	rotation	"0~360"
+	depth_offset	"-10"
+	parent_speed	"1"
+	sortfront	"1"
+	elevation_speed	"0"
+	Z_speed		"0"
+
+	red		"255"
+	green		"70"
+	blue		"100"
+	color		"100,30,30,30,0"
+	mask		"0"
+}
+

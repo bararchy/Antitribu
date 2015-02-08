@@ -1,0 +1,23 @@
+Particle
+{
+	frames			"90"
+
+	spawn
+	{
+		particle 	"zombie_spawning_fx1"
+		rate		"10"
+		theta		"0~360"	
+		radius		"0~15"	
+
+	}
+	spawn
+	{
+		particle 	"zombie_spawning_fx2"
+		rate		"30"
+		theta		"0~360"	
+		radius		"0~15"	
+
+	}
+
+}
+

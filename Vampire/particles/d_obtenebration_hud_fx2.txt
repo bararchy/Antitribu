@@ -1,0 +1,17 @@
+Particle
+{
+	frames 		"60"
+	sprite		"obtring"
+	size		"3"
+	Depth_offset	"0"
+	Parent_speed	"1"
+	Rotation 	"0,100"
+
+	red		"64"
+	green		"64"
+	blue		"64"
+	color		"0,60,0"
+	mask		"0,200,0"
+}
+
+

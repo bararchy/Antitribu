@@ -1,0 +1,31 @@
+Particle
+{
+	loop	"1"
+//	fps	"60"
+//	frames	"60"
+
+	spawn
+	{
+		particle	"w_fire_magic_hand_fx1"
+//		burst		"8"
+		rate		"10"
+		theta		"0~360"
+		phi		"90"
+		loop		"1"
+	}
+	
+	spawn
+	{
+		particle	"w_fire_magic_hand_fx2"
+		rate		"30"
+		radius		"3"
+		phi		"0~360"
+		theta		"0~360"
+	}
+
+	spawn
+	{
+		particle	"w_fire_magic_hand_fx3"
+		rate		"40"
+	}
+}

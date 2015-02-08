@@ -1,0 +1,38 @@
+Particle
+{
+		frames	"30"
+
+	spawn
+	{
+		particle "D_dementate_cast4_fx1"
+		burst		"1"
+		radius "1"
+		theta "0"
+		phi	"0~360"
+		z	"0"
+	}
+
+	spawn
+	{
+		particle "d_dementate_cast4_fx2"
+		burst		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+		x	"0"
+		z	"0"
+	}
+
+	spawn
+	{
+		particle "D_dementate_cast4_fx3"
+		rate		"60"
+		radius "0"
+		theta "0"
+		phi	"0"
+		x	"0"
+		z	"0"
+	}
+
+}
+

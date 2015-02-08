@@ -1,0 +1,23 @@
+Particle
+{
+	frames 		"10"
+	sprite		"potenceaura"
+	size		"20~80"
+	Depth_offset	"0"
+	Rotation 	"0~360"
+	parent_speed	"1"
+
+	z_speed		"0"
+
+	red		"0"
+	green		"200"
+	blue		"255,255,255"
+
+	color		"0,50,0,50,30,70,10,0"
+
+	mask		"0"
+}
+
+
+
+

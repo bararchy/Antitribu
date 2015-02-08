@@ -1,0 +1,35 @@
+Particle
+{
+	loop "1"
+	fps "30"
+
+
+
+	spawn
+	{
+		particle 	"flameprojectile"
+		loop 		"1"
+		rate 		"50"
+		theta "90,135,90"
+		phi	"0"
+	}
+
+	spawn
+	{
+		particle 	"flameprojectile2"
+		loop 		"1"
+		rate 		"10"
+		theta "90,135,90"
+		phi	"0"
+	}
+
+	spawn
+	{
+		particle 	"flameprojectile3"
+		loop 		"1"
+		rate 		"100"
+		theta "90,135,90"
+		phi	"0"
+	}
+}
+

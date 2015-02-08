@@ -1,0 +1,22 @@
+Particle
+{
+	frames 		"100"
+	sprite		"serpentis_ash"
+	size		"10~100"
+	height		"-1"
+	width		"1"
+	movealign	"0"
+	elevation_speed	"-25,10,-25"
+	Radius_speed	"0~10"
+	theta_speed	"-30~30,-30~30,-30~30,-30~30,-30~30"
+	phi_speed	"0,-20~20,-20~20,-20~20,-20~20,0"	
+	Depth_offset	"10"
+	Rotation 	"0"
+	Parent_Speed	"0"
+
+	red		"120"
+	green		"100"
+	blue		"50"
+	color		"0,80(3),80,80,80,80,0"
+	mask		"0,100(3),100,100,100,100,0"
+}

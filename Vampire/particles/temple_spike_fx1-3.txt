@@ -1,0 +1,17 @@
+Particle
+{
+	frames 		"20"
+	sprite		"aura"
+	size		"20"
+	height		"1"
+	parent_speed	"1"
+	
+	rotation	"0~360"
+
+
+	color		"40,40,0"
+	mask		"0"
+
+
+}
+

@@ -1,0 +1,13 @@
+//Attach Type: BoneTree
+Particle
+{
+	frames			"60"
+
+	spawn
+	{
+		particle 	"d_npc_sanguinus_cast3_fx1"
+//		burst		"50"
+		rate		"100"
+	}
+}
+

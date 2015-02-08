@@ -1,0 +1,14 @@
+Particle
+{
+	fps	"60"
+
+	spawn
+	{
+		particle	"D_obfuscate_broken_fx1"
+		rate		"40"
+	}
+	
+	
+
+}
+

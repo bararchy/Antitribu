@@ -1,0 +1,39 @@
+Particle
+{
+	frames 		"40"
+	min_frames	"20"
+//	sprite		"Ember4"
+	sprite		"DropletFast"
+//	size		"6"
+	size		"5"
+	height		"1~3,.25"
+	width		"1.5,1"
+
+	rotation	"0"
+	Depth_offset	"10"
+	Parent_speed	"0"
+	Radius_speed	"200,0~50(20)"
+	elevation_speed	"0,-200(20)"
+	
+
+	red		"120"
+	green		"196"
+	blue		"252"
+
+	color		"255,255(5),255,0"
+	mask		"0"
+
+	movealign	"1"
+
+	collide
+	{
+		self
+		{
+			bounce ".5"
+			gravity "350"
+			friction "1"
+		}
+	}
+}
+
+	

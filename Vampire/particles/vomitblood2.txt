@@ -1,0 +1,21 @@
+Particle
+{
+	frames 		"3"
+	sprite		"bloodvomitbase"
+	size		"3~6"
+	height		"1"
+	move_align	"1"
+
+	rotation	"-20~20"
+	Radius_speed	"30"
+	elevation_speed	"0"
+	parent_speed	"1"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+
+	color		"100~200"
+	mask		"100~200"
+
+}

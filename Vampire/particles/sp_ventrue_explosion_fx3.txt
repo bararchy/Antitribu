@@ -1,0 +1,21 @@
+Particle
+{
+	frames 		"22"
+
+	sprite		"mingxiaocloud2"
+	size		"0,30,30,10"
+	width		"1"
+	depth_offset	"120"
+
+	Rotation 	"0~360"
+	radius_speed	"0"
+	Z_speed		"0"
+
+	red		"255,100"
+	green		"100,100"
+	blue		"0,100"
+	color		"355,20"
+	mask		"0,0,50,0"
+
+}
+

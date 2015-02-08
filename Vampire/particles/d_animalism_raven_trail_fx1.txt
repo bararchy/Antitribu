@@ -1,0 +1,28 @@
+Particle
+{
+	frames 		"60"
+	sprite		"ravenfeather"
+	size		"3~7"
+	height		"1~.6"
+	width		"1"
+	elevation_speed	"-20~-40,0,-20~-40,0,-20~-40,-5"
+	Radius_speed	"0"
+	x_speed		"0,-12~12,0,-12~12,0,-12~12,0"
+	y_speed		"0,-12~12,0,-12~12,0,-12~12,0"
+//	z_speed		"0,5~12,0,5~12,0,5~12,0"
+	Depth_offset	"0"
+	Rotation 	"-30~30,0~360,-30~30,0~360,-30~30,0~360"
+	Parent_Speed	"0"
+	movealign	"0"
+	
+
+
+
+	red		"0"
+	blue		"100"
+	green		"40"
+
+	color		"40"
+
+	mask		"255,255,255,255,0"
+}

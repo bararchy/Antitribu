@@ -1,0 +1,39 @@
+Particle
+{
+
+
+	spawn
+	{
+		particle "FireBalls1"
+		loop "1"
+		burst		"200"
+		rate "0"
+		radius "0"
+		theta "0~360"
+		phi	"180~-180"
+	}
+
+	spawn
+	{
+		particle "ExplosionSparks"
+		loop "1"
+		burst		"20"
+		rate "0"
+		radius "0"
+		theta "0~360"
+		phi	"180~-180"
+	}
+
+	spawn
+	{
+		particle "Flash1"
+		loop "1"
+		rate "1"
+		radius "0"
+		theta "0"
+		phi	"0"
+	}
+
+
+}
+

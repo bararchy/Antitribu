@@ -1,0 +1,23 @@
+Particle
+{
+
+		loop		"1"
+		mask		"0"
+		rotation	"0"
+		frames		"30"
+		y_speed		"10"
+	
+	
+	spawn
+	{
+		
+		particle "nivdot"
+		rate "1"
+		burst "1"
+		radius "5~10"
+		theta "0"
+		phi "0"
+		
+	}
+}
+

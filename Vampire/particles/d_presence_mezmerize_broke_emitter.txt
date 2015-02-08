@@ -1,0 +1,26 @@
+Particle
+{
+loop "0"	
+
+
+	spawn
+	{
+		particle "d_presence_mezmerize_broke_fx1"
+		burst "100"
+		phi "0~360"
+		theta "0~360"
+		z	"30"
+
+	}
+
+	spawn
+	{
+		particle "d_presence_mezmerize_broke_fx2"
+		burst "30"
+		phi	"0~360"
+		theta	"0~360"
+		z	"30"
+	}
+
+
+}

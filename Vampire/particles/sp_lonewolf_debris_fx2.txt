@@ -1,0 +1,32 @@
+Particle
+{
+	sprite		"glassshard2"
+	frames	"200"
+	Z_speed		"-200"
+	rotation	"0~360,0~360"
+	size		"30~50"
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"0"
+	mask		"0,255(10)"
+
+	spawn
+	{
+		particle "sp_lonewolf_debris_flames2"
+		rate "5"
+		radius "0"
+		theta "0"
+		phi "0"
+	}
+
+	spawn
+	{
+		particle "sp_lonewolf_debris_smoke"
+		rate "10"
+		radius "0"
+		theta "0"
+		phi "0"
+	}
+}
+

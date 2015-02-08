@@ -1,0 +1,20 @@
+Particle
+{
+	frames 		"50"
+	sprite		"auspexkindred"
+	size		"20~40,50"
+	Depth_offset	"-15"
+	Parent_speed	"1"
+	Rotation 	"0~360"
+
+
+	red		"100~255"
+	green		"255"
+	blue		"100~255"
+	
+	color		"0,60,0"
+
+	mask		"0"
+
+
+}

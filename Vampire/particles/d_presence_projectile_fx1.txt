@@ -1,0 +1,31 @@
+Particle
+{
+	frames 		"30"
+	sprite		"StarPresence"
+	size		"1"
+	movealign	"0"
+	Rotation 	"0"
+	Radius_speed	"-50,50"
+	parent_speed	"1"
+	elevation_speed	"0"
+
+	theta_speed	"1~2000"
+	phi_speed	"5~3000"
+
+
+	color		"0,100~200,0"
+	mask		"0"
+	depth_offset	"0"
+
+	spawn
+	{
+		distance	"0"
+		particle 	"d_presence_projectile_fx2"
+		loop 		"1"
+		rate		"80"
+		radius 		"10"
+		theta 		"1"
+		phi		"1"
+	}
+}
+

@@ -1,0 +1,18 @@
+Particle
+{
+	frames 		"35"
+
+	sprite		"furball"
+	size		"0,120~200"
+
+	Rotation 	"-360~360,-360~360"
+
+	red		"255~200"
+	green		"80~128"
+	blue		"40~70"
+
+	color		"0,128,0"
+	mask		"0"
+
+}
+

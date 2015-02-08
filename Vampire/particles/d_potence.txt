@@ -1,0 +1,20 @@
+Particle
+{
+	frames 		"10"
+	sprite		"vein"
+	size		"15~20"
+	elevation_speed	"0"
+	Radius_speed	"0"
+	Depth_offset	"-3"
+	Rotation 	"0~360"
+
+
+
+	red		"255,0~40"
+	green		"255,0~100"
+	blue		"255,150~250"
+
+	color		"0,255,30,25,20,15,10,5,0"
+
+	mask		"0"
+}

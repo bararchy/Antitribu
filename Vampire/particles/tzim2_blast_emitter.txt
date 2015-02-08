@@ -1,0 +1,63 @@
+Particle
+{
+	fps	"30"
+
+
+	spawn
+	{
+		particle "tzim2_blast_fx1"
+		loop "1"
+		burst		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+	}
+
+	spawn
+	{
+		particle "tzim2_blast_fx2"
+		loop "0"
+		burst	"10"
+		radius "0"
+		theta "0"
+		phi	"0~360"
+	}
+
+	spawn
+	{
+		particle "tzim2_blast_fx3"
+		loop "0"
+		burst	"10"
+		radius "0"
+		theta "0"
+		phi	"0~360"
+	}
+
+	spawn
+	{
+		particle "Tzim2_blast_fx4"
+		burst "40"
+		theta "0~360"
+		phi	"0~360"
+		radius	"0"
+	}
+
+	spawn
+	{
+		particle "Tzim2_blast_fx5"
+		rate "3"
+		theta "0"
+		phi	"0"
+		radius	"0"
+	}
+
+	spawn
+	{
+		particle "Tzim2_blast_fx6"
+		rate	"2"
+		theta "0"
+		phi	"0"
+		radius	"0"
+	}
+}
+

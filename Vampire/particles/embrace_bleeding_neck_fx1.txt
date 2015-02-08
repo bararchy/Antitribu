@@ -1,0 +1,22 @@
+Particle
+{
+	frames 		"30"
+
+	sprite		"ember7"
+	size		".8"
+	height		"1"
+	movealign	"0"
+
+	Parent_speed	"1"
+	Radius_speed	"0"
+	elevation_speed	"0"
+
+	red	"255"
+	blue	"0"
+	green	"0"
+
+	color	"20"
+	mask	"255"
+ 	
+	
+}

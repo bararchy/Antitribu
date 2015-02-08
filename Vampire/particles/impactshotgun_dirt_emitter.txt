@@ -1,0 +1,32 @@
+Particle
+{
+loop "0"	
+
+	
+	spawn
+	{
+		particle "ImpactFX_Debries"
+		burst "10"
+		phi "-40~40"
+		theta "-40~40"
+		x	"2"
+
+	}
+
+	spawn
+	{
+		particle "ImpactFX_DirtPuff"
+		rate	"20,0"
+		phi "-20~20"
+		theta "-20~20"
+	}
+
+	spawn
+	{
+		particle "ImpactFX_DirtPuff2"
+		burst	"3"
+		phi "-20~20"
+		theta "-20~20"
+		z	"3"
+	}
+}

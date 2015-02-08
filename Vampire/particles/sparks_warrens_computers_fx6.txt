@@ -1,0 +1,25 @@
+Particle
+{
+	min_frames	"2"
+	frames		"8"
+	max_frames	"16"
+	
+
+	sprite		"lightningarc1"
+	size		"100~200"
+	flat		"1"
+
+//	rotation	"60~120"
+
+	Parent_speed	"0"
+	
+	red		"255"
+	green		"255"
+	blue		"255"
+
+	color		"255,0"
+	mask		"0"
+	
+}
+
+	

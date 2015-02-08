@@ -1,0 +1,21 @@
+Particle
+{
+	sprite		"point_16"
+	frames		"40"
+	max_frames	"80"
+	parent_speed	"0"
+	size		"3,1"
+	elevation_speed	"0,-100"
+	Radius_speed	"0"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"10~20,0"
+
+	mask		"0"
+
+	lighting	"0"
+}
+
+

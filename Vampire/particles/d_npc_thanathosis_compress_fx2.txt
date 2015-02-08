@@ -1,0 +1,30 @@
+Particle
+{
+	frames 		"60"
+	movealign	"0"
+	sprite		"dropletfast"
+	size		"4"
+	height		"2,1"
+
+	parent_speed	"0"
+	radius_speed	"0~20,0"
+
+
+	z_speed		"0,-200"
+
+	red	"255"
+	green	"0"
+	blue	"0"
+
+	color	"100"
+	mask	"255"
+
+	collide
+	{
+		
+		decal
+                {
+                particle	"vomitblood5"
+                }
+	}	
+}

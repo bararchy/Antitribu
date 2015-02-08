@@ -1,0 +1,23 @@
+Particle
+{
+
+	frames 		"30"
+	sprite		"fortituderings"
+	size		"10~20"
+	height		"1!,-1!,1!,-1!,1!,-1!,1!,-1!"
+	Depth_offset	"-10"
+	Rotation 	"0~180,90"
+	parent_speed	"1"
+
+	z_speed		"0"
+
+	red		"200"
+	green		"255"
+	blue		"255"
+
+	color		"40,0"
+
+	mask		"0"
+}
+
+

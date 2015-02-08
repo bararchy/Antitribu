@@ -1,0 +1,26 @@
+Particle
+{
+
+	sprite		"auspexaurainnocent"
+	frames		"40"
+	size		"10~50,100"
+	flat		"0"
+	height		"1"
+	width		"1"
+	rotation	"0~360"
+	elevation_speed	"0"
+	parent_speed	"1"
+	radius_speed	"0"
+	movealign	"0"
+	depth_offset	"30"
+
+
+	red		"200,0"
+	green		"30,30,200"
+	blue		"50,50,255"
+	color		"0!,50!,0!,55!,0!,50(10),0"
+	mask		"0"
+
+	sortfront	"0"
+
+}

@@ -1,0 +1,14 @@
+Particle
+{
+	sprite "smile2"
+	frames "4"
+	parent_speed "0"
+	size "1,5"
+	red "255,255,0"
+	green "255,0,0"
+	blue "255,0,0"
+	mask "0"
+	no_surface_color "1"
+}
+
+

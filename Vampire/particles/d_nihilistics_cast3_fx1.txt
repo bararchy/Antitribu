@@ -1,0 +1,26 @@
+Particle
+{
+	frames		"30"
+	sprite		"ember6"
+	normal		"wave_normal"
+	refract		"0,0.4,0"
+
+	size		"40~80"
+	width		"1"
+	parent_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	"0,0"
+	movealign	"0"
+
+	Rotation 	"0~360"
+	X_speed		"0"
+	Y_speed		"0"
+	Elevation_speed	"0"
+	Depth_offset	"-30"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"0"
+	mask		"0"	
+}

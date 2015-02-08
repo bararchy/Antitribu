@@ -1,0 +1,34 @@
+MainMenuParticles
+{
+	camera_fov		"90"
+	camera_near		"2"
+	camera_far		"2048"
+	camera_rotation		"-4"
+	//default_skybox		"MM_Skybox"
+	default_skybox		"antitribu"
+	music			"music/Vampire_Theme.mp3"
+	//music			"music/Vampire_Theme_new.wav"
+
+	Particle
+	{
+		emitter		"M_Clouds_Emmiter"
+		origin		"[0,0,-30]"
+		angle		"[0,0,0]"
+	}
+
+	Particle
+	{
+		emitter		"M_Clans_Emmiter"
+		origin		"[0,0,-30]"
+		angle		"[0,0,0]"
+	}
+
+	Particle
+	{
+		emitter		"M_Cels_Emmiter"
+		origin		"[0,0,-30]"
+		angle		"[0,0,0]"
+	}
+
+
+}

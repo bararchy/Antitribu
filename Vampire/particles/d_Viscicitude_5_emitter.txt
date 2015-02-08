@@ -1,0 +1,35 @@
+Particle
+{
+	loop	"1"
+
+	//spawn
+	{
+		particle "d_Viscicitude_5_fx1"
+		rate		"15"
+		phi 		"-180~180"
+		theta 		"0~360"
+		z		"0"
+		radius 		"0~5"
+	}
+		
+	//spawn
+	{
+		particle "d_Viscicitude_5_fx2"
+		loop 		"1"
+		rate 		"15"
+		radius 		"0"
+		theta 		"0~360"
+		phi		"0"
+	}
+
+	spawn
+	{
+		particle "d_Viscicitude_5_fx3"
+		rate		"50"
+		radius 		"0"
+		theta 		"0~360"
+		phi		"0~360"
+		//z		"-25"
+	}	
+}
+

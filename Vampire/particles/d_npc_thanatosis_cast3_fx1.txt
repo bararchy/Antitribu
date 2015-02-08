@@ -1,0 +1,20 @@
+Particle
+{
+	frames 		"60"
+	sprite		"ember6"
+	size		"60,10"
+	height		"1~-1"
+	width		"1,1,6"
+	rotation	"90"
+	depth_offset	"0"
+	parent_speed	"1"
+	elevation_speed	"0,20"
+	sortfront	"1"
+
+	red		"0,60"
+	green		"0,255"
+	blue		"0,50"
+	color		"0,10(20),0"
+	mask		"0,60(5),60(20),0"
+}
+

@@ -1,0 +1,16 @@
+Particle
+{
+loop	"0"
+frames	"120"
+	spawn
+	{
+		particle "ImpactFX_DebrieTrickle_P2"
+		rate "4~0,0"
+		radius	"0~3"
+		phi "-40~40"
+		theta "-40~40"
+	}
+
+}
+
+	

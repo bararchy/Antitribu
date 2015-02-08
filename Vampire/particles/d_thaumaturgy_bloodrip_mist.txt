@@ -1,0 +1,19 @@
+Particle
+{
+	sprite 		"glow"
+	min_frames	"10"
+	frames 		"30"
+	max_frames	"35"
+	parent_speed 	"0"
+	size 		"0,20(5),20"
+	Rotation	"0,-180~180"
+	Z_speed		"0,-40(10)"
+//	Radius_speed	"0~10,-10(10)"
+	green		"30"
+	blue		"30"
+	color		"0,40(3),0"
+	mask 		"0,100(4),0"
+
+}
+
+

@@ -1,0 +1,48 @@
+Particle
+{
+	frames 		"45"
+	sprite		"crackedearth"
+	size		"160~190"
+	flat		"1"
+	movealign	"0"
+	parent_speed	"0"
+	elevation_speed	"0~2"
+
+	red		"255"
+	green		"70"
+	blue		"100"
+	color		"255,255,0"
+	mask		"0"
+	
+	//spawn
+	//{
+	//	particle "d-koldunic-gatesmagma-fx7"
+	//	rate		"2"
+	//	radius 		"0"
+	//	theta 		"0"
+	//	phi		"0"
+	//	z		"0"
+	//}
+
+	spawn
+	{
+		particle "d-koldunic-wof-blast-fx7"
+		rate		"3"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		z		"0"
+	}
+
+	collide
+	{
+		
+		decal
+                {
+                        //vdecal_first "decals/stains/blooda"
+                        vdecal_last "decals/damage/flamelick"
+                }
+	}
+
+}
+

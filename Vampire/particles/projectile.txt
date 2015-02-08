@@ -1,0 +1,25 @@
+Particle
+{
+	loop "0"
+	Frames		"10"
+//	sprite "smile"
+//	movealign	"1"
+//	Y_speed		"300,0"	
+//	x_speed		"300,0"
+	z_speed		"0,0,-10,30"
+	Radius_speed	"300"
+
+
+	spawn
+	{
+		particle 	"FireBalls1"
+		loop 		"1"
+		rate "20"
+		radius "0"
+		theta "0~360"
+		phi	"-180~180"
+	}
+
+
+}
+

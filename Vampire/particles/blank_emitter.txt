@@ -1,0 +1,10 @@
+Particle
+{
+	spawn
+	{
+		particle	"ash"
+		burst		"0"
+		
+	}
+	
+}

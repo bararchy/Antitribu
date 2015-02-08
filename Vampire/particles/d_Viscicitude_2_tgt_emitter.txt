@@ -1,0 +1,20 @@
+//Attach Type: Bone Tree
+//Bone: Bip01 Spine
+
+Particle
+{
+loop "1"	
+
+
+
+	spawn
+	{
+		particle 	"d_Viscicitude_2_tgt_fx1"
+		rate 		"300"
+		radius		 "0"
+		theta 		"0~360"
+		phi		"-180~180"
+		z		"5"
+
+	}
+}

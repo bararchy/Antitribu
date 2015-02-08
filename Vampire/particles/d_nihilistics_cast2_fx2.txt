@@ -1,0 +1,18 @@
+Particle
+{
+	frames 		"50"
+	sprite		"flamesprayethereal"
+	size		"0,25"
+	Depth_offset	"-10"
+	Parent_speed	"1"
+	Rotation 	"0,-180~180"
+
+	red		"200~255"
+	green		"200~255"
+	blue		"200~255"
+	color		"0,64~200,0"
+	mask		"0"
+
+}
+
+

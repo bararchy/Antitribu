@@ -1,0 +1,23 @@
+Particle
+{
+	frames 		"45"
+	sprite		"presencedots"
+	size		"30,60"
+	rotation	"0,20,-20"
+	depth_offset	"-10"
+	parent_speed	".9"
+	elevation_speed	"0"
+	sortfront	"1"
+//	Radius_speed	"1~15"
+//	theta_speed	"400,0"
+//	x_speed		"0,0,-10,10,-10,10,-10,10"
+//	y_speed		"0,0,-10,10,-10,10,-10,10"
+//	z_speed		"0,0,-10,30,-30,30,-30,30"
+	red		"255,355"
+	green		"255,255"
+	blue		"955,0,0,0"
+	color		"150,0"
+	mask		"0"
+
+}
+

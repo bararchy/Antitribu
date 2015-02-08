@@ -1,0 +1,27 @@
+Particle
+{
+	frames 		"15"
+	max_frames	"22"
+	sprite		"changflamemass2"
+	size		"60,5~30"
+	width		"1,2"
+	height		"2,1"
+	theta_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	"0,0"
+	Rotation 	"0,-200~200"
+	X_speed		"0"
+	Y_speed		"0"
+	Elevation_speed	"150~200"
+
+	red		"100,100"
+	green		"100,400"
+	blue		"255"
+	color		"0,60~90(10),20~0"
+
+	mask		"0,0,0"
+
+	Depth_offset	"-2"
+
+}
+

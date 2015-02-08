@@ -1,0 +1,22 @@
+Particle
+{
+	frames 		"30"
+	sprite		"serpentis_firesprite"
+	size		"5,10~25"
+	height		"3,1,1,1"
+	width		".5,1(15)"
+	movealign	"1"
+
+	rotation	"0,0~360"
+	Radius_speed	"0"
+	elevation_speed	"-20"
+	parent_speed	"1"
+	x_speed		"0"
+
+	red		"10,120"
+	green		"10,100"
+	blue		"20,90"
+	color		"0,65,65,65,65,65,0"
+	mask		"0,25,25,25,25,25,0"
+
+}

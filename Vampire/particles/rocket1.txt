@@ -1,0 +1,19 @@
+Particle
+{
+	loop "0"
+	Frames		"35"
+	
+
+	spawn
+	{
+		particle "RocketTrail1"
+		rate "200"
+		loop "0"
+		theta "0~360"
+		phi	"180~-180"
+	}
+
+
+
+}
+

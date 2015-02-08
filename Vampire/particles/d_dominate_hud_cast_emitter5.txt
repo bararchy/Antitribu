@@ -1,0 +1,26 @@
+Particle
+{
+		frames	"30"
+
+	spawn
+	{
+		particle "D_dominate_hud_cast5_fx1"
+		burst		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+	}
+
+	spawn
+	{
+		particle "d_dominate_hud_cast5_fx2"
+		rate		"20"
+		radius "0"
+		theta "90"
+		phi	"0"
+		y	"0"
+	}
+
+
+}
+

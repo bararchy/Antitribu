@@ -1,0 +1,21 @@
+Particle
+{
+	frames 		"20"
+	sprite		"teleportline"
+	size		"7"
+	width		"1"
+	height		"20"
+	Rotation 	"0"
+	radius_speed	"800~1299"
+	Z_speed		"0"
+	movealign	"1"
+
+	red		"255"
+	green		"30"
+	blue		"0"
+	color		"855,0"
+	mask		"0"
+	depth_offset	"0"
+
+}
+

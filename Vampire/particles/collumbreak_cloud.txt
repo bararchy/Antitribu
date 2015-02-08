@@ -1,0 +1,19 @@
+Particle
+{
+	frames		"40"
+
+	sprite		"furball2"
+	size		"10,100"
+	radius_speed	"20,0"
+	Elevation_speed	"0,-20"
+	Depth_offset	"20"
+	Parent_speed	"0"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"30,0"
+	mask		"0"
+	
+	lighting	"0"
+}

@@ -1,0 +1,34 @@
+//Attach Type: Bone Single Point
+//Bone: Bip01 L Hand, Bip01 R Hand
+
+Particle
+{
+	loop	"1"
+	fps	"30"
+	frames	"30"
+
+	spawn
+	{
+		particle	"D_PotenceView_Glow"
+		burst		"1"
+	}
+	
+	spawn
+	{
+		particle	"D_Potence"
+		rate		"60"
+	}
+	spawn
+	{
+		particle "D_Potence_BehindHands"
+		rate "200"
+
+	}
+	spawn
+	{
+		particle "D_Potence_BehindHands2"
+		rate "3"
+
+	}
+
+}

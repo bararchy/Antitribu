@@ -1,0 +1,48 @@
+Particle
+{
+	
+
+	spawn
+	{
+		particle "flamethrower_Muzzle_Active1_FX-1"
+		rate	"80"
+		loop 	"1"
+//		phi	"100"
+	}
+
+	spawn
+	{	
+		particle "flamethrower_Muzzle_Active1_FX-4"
+		rate	"20"
+		loop 	"1"
+//		phi	"100"
+	}
+
+	spawn
+	{
+		particle "flamethrower_Muzzle_Active1_FX-5"
+		rate	"30"
+		loop 	"1"
+//		phi	"100"
+	}
+
+	spawn
+	{
+		particle "flamethrower_Muzzle_Active1_FX-6"
+		burst	"4"
+		loop 	"0"
+//		phi	"100"
+	}
+
+	spawn
+	{
+		particle "rockettrail4"
+		rate	"80"
+		x	"10"
+		z	"10"
+
+	}
+
+}
+
+

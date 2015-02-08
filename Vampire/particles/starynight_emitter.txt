@@ -1,0 +1,15 @@
+Particle
+{
+	loop	"0"
+
+	spawn
+	{
+		particle	"StaryNight_Stars"
+		burst		"500"
+		radius		"1000"
+		theta		"0~360"
+		phi		"100~180"
+	}
+
+}
+

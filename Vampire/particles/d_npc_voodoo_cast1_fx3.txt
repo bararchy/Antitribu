@@ -1,0 +1,23 @@
+Particle
+{
+	frames 		"120"
+	sprite		"Aura_Yellow"
+	size		"0~40"
+	Depth_offset	"-12"
+	theta_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	"0"
+	Rotation 	"0,-90~90"
+	X_speed		"0"
+	Y_speed		"0"
+	Z_speed		"0"
+	Parent_speed	"1"
+
+	red		"80"
+	green		"65"
+	blue		"127"
+	color		"36~52,0"
+	mask		"128~250,0"
+}
+
+

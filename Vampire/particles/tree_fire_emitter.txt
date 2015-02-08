@@ -1,0 +1,32 @@
+Particle
+{
+	loop "1"
+	fps "30"
+
+
+
+	spawn
+	{
+		particle "Flames1"
+		loop "1"
+		rate "150"
+		theta "0~360"
+		phi	"180~-180"
+		z	"-10"
+	}
+
+
+	spawn
+	{
+		particle "FlameGlow1"
+		burst "1"
+		fps ".1"
+		loop "1"
+		z	"0"
+	}
+
+
+
+
+}
+

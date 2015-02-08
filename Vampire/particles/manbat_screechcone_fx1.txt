@@ -1,0 +1,22 @@
+Particle
+{
+	frames 		"100"
+	sprite		"fire-spritesmall"
+	normal		"bubbles_normal"
+	size		"500"
+	height		"10,.5"
+	movealign	"0"
+	radius_speed	"1"
+	elevation_speed	"-30"
+	rotation	"0"
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"100,0"
+	mask		"0"
+
+	refract		"20,0"
+	parent_speed	"0"
+
+}
+

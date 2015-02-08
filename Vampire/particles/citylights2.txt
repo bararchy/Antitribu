@@ -1,0 +1,12 @@
+Particle
+{
+	fps		"5"
+	frames 		"15"
+	sprite		"Ember"
+
+	size		"1~4"
+
+	color		"255,0~255(14),0"
+	mask		"0"
+}
+

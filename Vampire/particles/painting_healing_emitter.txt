@@ -1,0 +1,42 @@
+Particle
+{
+	frames "70"
+
+
+	spawn
+	{
+		
+		particle "painting_healing_fx1"
+		rate "10"
+		radius "0"
+		theta "0"
+		phi "0"
+		z	"40"
+		
+	}
+
+	spawn
+	{
+		
+		particle "painting_healing_fx2"
+		rate "10"
+		radius "0"
+		theta "0"
+		phi "0"
+		z	"40"
+		
+	}
+
+	spawn
+	{
+		
+		particle "painting_healing_fx3"
+		rate "5"
+		radius "0"
+		theta "0"
+		phi "0"
+		z	"40"
+		
+	}
+}
+

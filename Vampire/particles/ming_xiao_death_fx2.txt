@@ -1,0 +1,26 @@
+Particle
+{
+
+	sprite		"mingxiaocloud"
+	frames		"60"
+	size		"20,100(45),20"
+	flat		"0"
+	height		"1"
+	width		"1,1,1,5"
+	rotation	"0~360,0"
+	elevation_speed	"0"
+	parent_speed	".2"
+	radius_speed	"30"
+	movealign	"0"
+	depth_offset	"30"
+
+
+	red		"255,200,255"
+	green		"255~130,130"
+	blue		"255~100,100"
+	color		"0,55(5),5"
+	mask		"0,180(5),0"
+
+	sortfront	"0"
+
+}

@@ -1,0 +1,15 @@
+Particle
+{
+	frames		"1800"
+	sprite		"vein"
+	size		"15"
+	color		"300"
+
+	red		"255,0~40"
+	green		"255,0~100"
+	blue		"255,150~250"
+
+	mask		"0"
+
+	Depth_offset	"12"
+}

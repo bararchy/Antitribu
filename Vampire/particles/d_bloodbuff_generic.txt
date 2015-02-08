@@ -1,0 +1,33 @@
+Particle
+{
+	frames "30"
+
+
+	spawn
+	{
+		
+		particle 	"D_bloodbufff_generic_1"
+		burst		"30"
+		radius		"50"	
+		theta		"0~360"
+		phi		"-90~90"
+		
+	}
+	spawn
+	{
+		
+		particle 	"D_bloodbuff_generic_2"
+		burst 		"1"
+		
+	}
+	spawn
+	{
+		
+		particle 	"D_bloodbuff_generic_3"
+		burst		"10"
+		radius		"10"
+		theta		"0~360"
+		phi		"-90~90"
+	}
+}
+

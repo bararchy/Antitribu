@@ -1,0 +1,54 @@
+Particle
+{
+
+
+	spawn
+	{
+		particle "d_thaumaturgy_bloodvomit_nova_fx1"
+		loop "1"
+		burst		"1"
+		radius "50"
+		theta "0"
+		phi	"-90"
+	}
+
+	spawn
+	{
+		particle "d_thaumaturgy_bloodvomit_nova_fx2"
+		loop "1"
+		burst		"1"
+		radius "45"
+		theta "0"
+		phi	"-90"
+	}
+
+	spawn
+	{
+		particle "d_thaumaturgy_bloodvomit_nova_fx3"
+		loop "1"
+		burst		"1"
+		radius "30"
+		theta "0"
+		phi	"-90"
+	}
+
+	spawn
+	{
+		particle "d_thaumaturgy_bloodvomit_nova_fx4"
+		burst		"1"
+		radius "40"
+		theta "0"
+		phi	"-90"
+	}
+	
+	spawn
+	{
+		particle "d_thaumaturgy_bloodvomit_nova_fx5"
+		burst		"300"
+		radius "0"
+		z	"-30"
+		theta "0~360"
+		phi	"0"
+	}
+}
+

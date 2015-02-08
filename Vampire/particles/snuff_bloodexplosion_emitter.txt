@@ -1,0 +1,26 @@
+Particle
+{
+	loop	"0"
+	frames	"200"	
+
+	spawn
+	{
+		particle "snuff_bloodexplosion_fx1"
+		rate "300"
+		phi "0~30"
+		theta "0~360"
+		z	"20"
+		radius	"5~40"
+	}
+	
+	spawn
+	{
+		particle "ImpactFX_Mc_GenericHit1"
+		rate "10"
+		theta	"0~360"
+		radius	"0~20"
+	}
+	
+}
+
+	

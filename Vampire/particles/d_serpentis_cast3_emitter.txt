@@ -1,0 +1,30 @@
+Particle
+{
+	frames	"90"
+
+	spawn
+	{
+		particle "d_serpentis_cast3_fx1"
+		burst		"1"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		z		"2"
+	}
+
+	spawn
+	{
+		particle "d_serpentis_cast3_fx2"
+		//burst		"1"
+		rate		"0.65"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		//x		"-.5"
+		z		"-20"
+	}
+}
+
+
+
+

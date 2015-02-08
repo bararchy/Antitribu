@@ -1,0 +1,33 @@
+Particle
+{
+	frames 		"30"
+	sprite		"Tzim2skull"
+	size		"20,40"
+	theta_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	"60,0"
+	Rotation 	"0"
+	X_speed		"0"
+	Y_speed		"0"
+	z_speed		"0"
+	Elevation_speed	"0"
+	Depth_offset	"0"
+	sortfront	"1"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"255,0,0,0"
+	mask		"0"
+
+	collide
+	{
+		
+		decal
+		{
+			particle 	"d_serpentis_cobra_projectile_fx6"
+			//theta		"0~360"
+			//radius		"2"
+		}
+	}	
+}

@@ -1,0 +1,16 @@
+Particle
+{
+//	loop "1"
+	sprite		"FurBall"
+	max_frames	"100"
+	X_speed		"10~30"
+	Y_speed		"10~30"
+	Z_speed		"-50"
+	rotation	"0,360"
+	size		"30"
+	red		"0"
+	green		"0"
+	blue		"0"
+	mask		"0,80,0"
+}
+

@@ -1,0 +1,15 @@
+Particle
+
+{
+	fps		"8"
+	sprite		"mothframe1"
+	frames		"8"
+	size		"3"
+	Width		"-1"
+
+	color		"200,0,0,0"
+	mask		"255,0,0,0"
+}
+
+
+

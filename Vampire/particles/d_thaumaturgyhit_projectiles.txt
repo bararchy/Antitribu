@@ -1,0 +1,28 @@
+Particle
+{
+	loop		"0"
+	fps		"30"
+	frames		"30"
+	Radius_speed	"150,0"
+	elevation_speed	"0,-150"
+	Parent_speed	"0"
+
+	spawn
+	{
+		particle	"D_ThaumaturgyHit_BloodTrail"
+		loop		"0"
+		rate		"150"
+		radius		"0"
+		theta		"0~360"
+		phi		"180~-180"
+	}
+
+	collide
+	{
+		decal
+		{
+		particle 	"D_ThaumaturgyHit_GroundSplats"
+		}
+	}
+}
+

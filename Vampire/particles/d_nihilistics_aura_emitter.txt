@@ -1,0 +1,28 @@
+Particle
+{
+	loop "0"
+	fps "15"
+
+	spawn
+	{
+		particle 	"d_nihilistics_aura_fx1"
+		loop 		"1"
+		rate 		"65"
+		radius 		"40~90"
+		theta 		"0~360"
+		phi		"-180~180"
+		z		"2"
+	}
+	
+	
+	frames		"35"
+	sprite		"Suck_normal"
+	color		"0"
+	mask		"0"
+	size		"100~180"
+	Depth_offset	"-10"
+	normal		"Suck_normal"
+	refract		"-2,2,-1,.8,-.3,.27,-.12,0"
+	z		"10"
+}
+

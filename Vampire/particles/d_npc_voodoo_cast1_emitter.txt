@@ -1,0 +1,44 @@
+Particle
+{
+	frames		"120"
+	fps		"30"
+
+	spawn
+	{
+		particle 	"d_npc_voodoo_cast1_fx2"
+		rate		"20"
+		theta		"0~360"	
+		radius		"0~15"	
+	}
+
+	spawn
+	{
+		particle 	"d_npc_voodoo_cast1_fx3"
+		loop 		"1"
+		rate 		"50"
+		radius 		"0"
+		theta 		"0~360"
+		phi		"0"
+	}
+
+	spawn
+	{
+		particle 	"d_npc_voodoo_cast1_fx4"
+		burst		"5"
+		radius 		"0"
+		theta 		"0~360"
+		phi		"0~90"
+		z		"10"
+	}
+
+	spawn
+	{
+		particle 	"d_npc_voodoo_cast1_fx5"
+		rate		"30"
+		z		"10"
+		radius 		"0"
+		theta 		"0~360"
+		phi		"0~90"
+	}
+}
+

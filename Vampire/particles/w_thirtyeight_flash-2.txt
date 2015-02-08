@@ -1,0 +1,21 @@
+Particle
+{
+	frames 		"4"
+	sprite		"ft_explosion2"
+	size		"10,0"
+	
+	Rotation 	"0~360"
+	
+	Parent_speed	"0"
+	radius_speed	"50~900,0"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+
+	color		"128,0"
+
+	mask		"0"
+}
+
+

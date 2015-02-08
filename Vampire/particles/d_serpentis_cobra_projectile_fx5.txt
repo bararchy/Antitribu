@@ -1,0 +1,27 @@
+Particle
+{
+	min_frames	"20"
+	frames 		"25"
+	max_frames	"30"
+	sprite		"tzim2lightningbunch"
+	size		"40"
+	
+	theta_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	".1"
+	Rotation 	"0~360,90"
+	X_speed		"0"
+	Y_speed		"0"
+	z_speed		"0"
+	Elevation_speed	"0"
+	movealign	"0"
+	Parent_speed	"1"
+	mask		"0"
+	Depth_offset	"-2"
+
+	red		"170,300,170"
+	green		"200,300,200"
+	blue		"60"
+	color		"100!,0!,0!,0!,0!,100!,0!,0!,60!,0!,30!,0!,0!"
+}
+

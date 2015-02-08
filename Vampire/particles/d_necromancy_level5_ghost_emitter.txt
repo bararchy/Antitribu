@@ -1,0 +1,32 @@
+Particle
+{
+
+	spawn
+	{
+		particle "d_necromancy_level5_ghost_fx1"
+		loop 		"1"
+		burst		"100"
+		rate 		"0"
+		radius 		"0"
+		theta 		"0~360"
+		phi		"0~360"
+	}
+
+	spawn
+	{
+		particle	"d_necromancy_level5_ghost_fx2"
+		rate		"10"
+		z		"-30"
+	}
+	
+	spawn
+	{
+		particle	"d_necromancy_level5_ghost_fx3"
+		rate		"15,100"
+		radius		"30"
+		z		"-30"
+		theta		"40~-40"
+		phi		"0~360"
+	}
+}
+

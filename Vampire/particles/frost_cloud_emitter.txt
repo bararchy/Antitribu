@@ -1,0 +1,20 @@
+Particle
+{
+	loop "1"
+	fps "120"
+
+	spawn
+	{
+		particle "frost_cloud"
+		loop "1"
+		rate "2"
+		radius "64~512"
+		theta "0~360,"
+		phi	"0,-20~0,0"
+//		X_speed		"0"
+//		Y_speed		"10"
+
+	}
+
+}
+

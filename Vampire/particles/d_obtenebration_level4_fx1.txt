@@ -1,0 +1,19 @@
+Particle
+{
+	frames 		"45"
+	sprite		"obtdots"
+	size		"20,60"
+	height		"1"
+	rotation	"0,-10,10,-10,10,-10,10,0"
+	depth_offset	"10"
+	parent_speed	".9"
+	elevation_speed	"-10"
+	sortfront	"0"
+
+	red		"64"
+	green		"64"
+	blue		"64"
+	color		"0,60,0"
+	mask		"0,200,0"
+}
+

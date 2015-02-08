@@ -1,0 +1,13 @@
+Particle
+{
+	frames 		"15"
+//	max_frames	"80"
+	sprite		"StarPresence"
+	size		".05~.5,.02"
+
+	rotation	"0,-360~360"
+	Parent_speed	"1"
+	Radius_speed	"1~2"
+	color		"0,100~200,0"
+	mask		"0"
+}

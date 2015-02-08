@@ -1,0 +1,25 @@
+Particle
+{
+	frames 		"30"
+	sprite		"auspexkindred"
+	size		"30~60"
+	height		"-1~1"
+	Depth_offset	"-15"
+	theta_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	"0"
+	Rotation 	"0~360"
+	X_speed		"0"
+	Y_speed		"0"
+	Z_speed		"0,5~10"
+
+	red		"50"
+	green		"0"
+	blue		"255"
+
+	color		"0,60,0"
+
+	mask		"0,0"
+}
+
+

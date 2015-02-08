@@ -1,0 +1,19 @@
+Particle
+{
+	frames 		"60"
+	sprite		"Sparks2"
+	size		"0,100~250"
+
+	elevation_speed	"50,-150"
+
+	Rotation 	"0~360"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"100,0"
+	mask		"200,0"
+
+	lighting	"0"
+}
+

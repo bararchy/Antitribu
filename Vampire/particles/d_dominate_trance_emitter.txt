@@ -1,0 +1,38 @@
+Particle
+{
+		frames	"450"
+
+	spawn
+	{
+		particle "D_dominate_trance_fx1"
+		rate		"40"
+		radius "3"
+		theta "0~360"
+		phi	"0"
+		z	"4"
+	}
+
+	spawn
+	{
+		particle "d_dominate_trance_fx2"
+		burst		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+		x	"0"
+		z	"3"
+	}
+
+	spawn
+	{
+		particle "D_dominate_trance_fx3"
+		burst		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+		x	"-.5"
+		z	"-62"
+	}
+
+}
+

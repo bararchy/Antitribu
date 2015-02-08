@@ -1,0 +1,19 @@
+Particle
+{
+	frames 		"40"
+	sprite		"necroember4"
+	size		"8"
+	height		"30,30,1,1,1"
+	movealign	"1"
+	Rotation 	"0"
+	Radius_speed	"100,0"
+	theta_speed	"0,0,0,-10~10,-30~30,-30~30"
+	phi_speed	"0,0,0,-10~10,-30~30,-30~30"
+
+	red		"50~100"
+	green		"75~100"
+	blue		"200~255"
+	color		"255(1),0~255,0~255,0~255,0~255,0~255,0~255,0~255,0~255,0~255,0~255,0~255"
+	mask		"0"
+}
+

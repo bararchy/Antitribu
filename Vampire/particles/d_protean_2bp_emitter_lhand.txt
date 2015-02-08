@@ -1,0 +1,21 @@
+Particle
+{
+	frames "60"
+
+	spawn
+	{
+		particle "D_protean_2bp_Flash1"
+		burst	"1"
+		x	"0"
+		z	"0"
+	}
+	spawn
+	{
+		particle "D_protean_2bp_Flash2"
+		burst	"1"
+		x	"0"
+		z	"0"
+	}
+	
+}
+

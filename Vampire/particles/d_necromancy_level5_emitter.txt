@@ -1,0 +1,13 @@
+Particle
+{
+	frames	"60"
+	spawn
+	{
+		particle	"d_necromancy_level5_fx1"
+		rate		"150"
+		radius		"60"
+		phi		"0"
+		theta		"0~360"
+		z		"0"
+	}
+}

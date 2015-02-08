@@ -1,0 +1,22 @@
+Particle
+{
+//	frames 		"60"
+//	sprite		"Sparks2"
+//	size		"0,100~250"
+//	elevation_speed	"50,-150"
+
+	frames 		"120"
+	sprite		"bloodspeckle"
+	size		"0,250~450"
+//	elevation_speed	"60,-170"
+	elevation_speed	"0,-150~-200"
+	Rotation 	"0~360"
+
+	red		"255"
+	green		"0"
+	blue		"0"
+	color		"100,0"
+	mask		"200,0"
+
+}
+

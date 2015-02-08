@@ -1,0 +1,14 @@
+Particle
+{
+	sprite			"TestSurfASpry"
+	frames			"360"
+
+	size			"20"
+	red				"0"
+	green			"255"
+	blue			"0"
+	mask			"255"
+
+	y_speed			"10"
+}
+

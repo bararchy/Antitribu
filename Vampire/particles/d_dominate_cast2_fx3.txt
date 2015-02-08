@@ -1,0 +1,19 @@
+bParticle
+{
+	frames 		"30"
+	sprite		"dominaterings"
+	size		"20"
+	rotation	"45,90"
+	depth_offset	"10"
+	parent_speed	"1"
+	sortfront	"1"
+	elevation_speed	"0"
+	Z_speed		"0"
+	red		"655"
+	green		"655"
+	blue		"655"
+	color		"100,0,0"
+	mask		"0"
+
+}
+

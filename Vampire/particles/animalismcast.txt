@@ -1,0 +1,27 @@
+Particle
+{
+	frames 		"10"
+	max_frames	"100"
+	sprite		"PurpFurball"
+	size		"30,20"
+	theta_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	"0"
+	Rotation 	"0,90,180,270,360"
+	X_speed		"0"
+	Y_speed		"0"
+	Z_speed		"80~100"
+	red		"255"
+	green		"255"
+	blue		"255"
+
+	color		"40,0"
+	mask		"0"
+
+//	red "255"
+//	green "0"
+//	blue "0"
+//	mask "0"
+}
+
+

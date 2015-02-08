@@ -1,0 +1,11 @@
+Particle
+{
+	frames 		"6"
+	sprite		"Flash"
+	size		"1,5~15(3)"
+	Depth_offset	"5"
+	Parent_speed	"0"
+	color		"255,255(3),0"
+	mask		"0"
+	sortfront	"1"
+}

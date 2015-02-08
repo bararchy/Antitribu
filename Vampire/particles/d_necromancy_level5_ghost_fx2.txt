@@ -1,0 +1,15 @@
+Particle
+{
+	frames		"45"
+	sprite		"necrowolfember"
+	size		"0,50"
+	parent_speed	"0" 	
+	Depth_offset	"12"
+
+	red		"200~255"
+	green		"200~255"
+	blue		"200~255"
+	color		"0,128,0"
+	mask		"0"
+}
+

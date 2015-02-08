@@ -1,0 +1,18 @@
+Particle
+{
+	frames 		"60"
+	sprite		"Glow"
+	size		".5~1.5,0"
+
+	rotation	"0~30,15"
+	Depth_offset	"0"
+	Parent_speed	"1"
+	Radius_speed	"0"
+
+	red		"255"
+	green		"0"
+	blue		"0"
+
+	color		"0,10,0"
+	mask		"0"
+}

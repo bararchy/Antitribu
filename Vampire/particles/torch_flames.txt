@@ -1,0 +1,20 @@
+Particle
+{
+	frames 		"10"
+	max_frames	"35"
+	sprite		"flamemass"
+	size		"1,10,1"
+	width		"1"
+	Rotation 	"0~360,0~360"
+	elevation_speed	"15~20"
+	red		"100,255,255,255,255,255,255,0"
+	green		"100,255,255,255,150~255,150,100,0"
+	blue		"255,255,255,255,150,150,40,0"
+	color		"0,20,40,20,0"
+
+	mask		"0,0"
+
+
+}
+
+

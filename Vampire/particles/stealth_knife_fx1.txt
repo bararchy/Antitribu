@@ -1,0 +1,32 @@
+Particle
+{
+	frames 		"30"
+	max_frames	"60"
+
+	sprite		"glassshard"
+	size		"6,2~.5(5),2~.5"
+	height		"3,1(20)"
+	movealign	"1"
+	rotation	"0,0(5),0~360"
+
+	Parent_speed	"0"
+	Radius_speed	"30~40"
+	elevation_speed	"0,-150"
+
+	red	"150~100"
+	blue	"0"
+	green	"0"
+
+	color	"100,0"
+	mask	"255,0"
+ 	
+
+	collide 
+	{
+		decal
+		{
+		particle 	"D_thaum_bloodtrail"
+		}
+	}
+	
+}

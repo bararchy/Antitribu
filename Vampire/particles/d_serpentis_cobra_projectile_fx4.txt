@@ -1,0 +1,47 @@
+Particle
+{
+	min_frames	"15"
+	frames 		"20"
+	max_frames	"25"
+	sprite		"ember4"
+
+	parent_speed 	"0"
+	size 		"5,10~20(5),20~30"
+	Rotation	"0,90,180,200~270,360"
+	Z_speed		"5~40"
+	Radius_speed	"40,0(10)"
+	
+	// green
+	//red		"200"
+	//green		"255"
+	//blue		"50"
+	//color		"0,200,200,0"
+	//mask		"0"
+
+	// light green
+	//red		"200"
+	//blue		"50"
+	//green		"255"
+	//color		"50~150!,0!,0!,50!,0!,50~150!,0!"
+	//mask		"0"
+
+	// yellow green
+	//red		"170,300,170"
+	//green		"200,300,200"
+	//blue		"60"
+	//color		"0,150,0"
+	//mask		"0"
+
+	// dark green
+	//red		"140"
+	//green		"200"
+	//blue		"100"
+	//color		"100,0"
+	//mask		"0,255,255,0"
+
+	red		"170"
+	green		"240"
+	blue		"55"
+	color		"0,200,200,0"
+	mask		"0,255,255,0"
+}

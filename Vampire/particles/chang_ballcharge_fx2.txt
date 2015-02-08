@@ -1,0 +1,25 @@
+Particle
+{
+	frames 		"10"
+	sprite		"changchargeline"
+	size		"10,1"
+	height		"3,1"
+	elevation_speed	"40"
+	Radius_speed	"0"
+	x_speed		"0"
+	Depth_offset	"-3"
+	Rotation 	"0"
+	Parent_Speed	"0"
+	movealign	"0"
+	
+
+
+
+	red		"255"
+	green		"255"
+	blue		"255"
+
+	color		"0,255,128"
+
+	mask		"0"
+}

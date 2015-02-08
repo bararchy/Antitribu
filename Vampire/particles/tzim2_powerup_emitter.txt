@@ -1,0 +1,43 @@
+Particle
+{
+	loop "0"
+	frame	"10"
+
+
+
+	spawn
+	{
+		particle "tzim2_powerup_fx1"
+		rate	"90"
+		radius	"30"
+		theta "0~360"
+		phi	"0~360"
+	}
+
+	spawn
+	{
+		particle "Tzim2_powerup_fx2"
+		rate "10"
+		radius "0"
+		theta "0"
+		phi	"0"
+	}
+	
+	spawn
+	{
+		particle "Tzim2_powerup_fx3"
+		rate "15"
+		radius "0"
+		theta "0"
+		phi	"0"
+	}
+
+	spawn
+	{
+		particle "Tzim2_powerup_fx4"
+		burst "1"
+		radius "0"
+		theta "0"
+		phi	"0"
+	}
+}

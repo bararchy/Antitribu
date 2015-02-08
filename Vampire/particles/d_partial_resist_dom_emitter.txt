@@ -1,0 +1,17 @@
+//Attach Type: Bone Tree + Model Colors
+
+Particle
+{
+	loop		"1"
+
+	spawn
+	{
+		particle	"D_partial_resist_dom_fx1"
+		rate		"30"
+		radius		"0~5"
+		theta		"0~360"
+		phi		"180~-180"
+		z		"-10~10"
+	}
+
+}

@@ -1,0 +1,18 @@
+Particle
+{
+	frames	"30"
+	sprite "HeartDead"
+	size "10"
+	width ".8"
+	Depth_offset	"8"
+
+//	100% Health
+	color	"200,255,200"
+
+//	Dead
+//	color	"0"
+
+	mask "255"
+}
+
+

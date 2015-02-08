@@ -1,0 +1,10 @@
+Particle
+{
+	fps	"30"
+	frames  "150"
+
+
+	
+	
+}
+

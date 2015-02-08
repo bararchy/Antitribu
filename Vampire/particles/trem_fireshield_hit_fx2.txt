@@ -1,0 +1,30 @@
+Particle
+{
+	min_frames	"20"
+	frames 		"25"
+	max_frames	"30"
+	sprite		"tremblastballs"
+	size		"50,25"
+	
+	theta_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	"100,0"
+	Rotation 	"0~360,0~360"
+	X_speed		"0"
+	Y_speed		"0"
+	z_speed		"0"
+	Elevation_speed	"0,100"
+	parent_speed	"0"
+	movealign	"1"
+
+	red		"100,0"
+	green		"255,100"
+	blue		"255"
+	color		"100,0"
+
+	mask		"0,50,0"
+
+	Depth_offset	"20"
+	
+	
+}

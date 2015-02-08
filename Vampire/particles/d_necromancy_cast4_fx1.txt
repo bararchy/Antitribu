@@ -1,0 +1,18 @@
+Particle
+{
+	frames 		"30"
+	sprite		"necro4crown"
+	size		"80"
+	flat		"1"
+	movealign	"1"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+
+	mask		"0"
+	
+	parent_speed	"1"
+
+}
+

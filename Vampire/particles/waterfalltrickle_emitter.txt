@@ -1,0 +1,27 @@
+`Particle
+{
+	loop "1"
+	fps "30"
+	frames "30"
+
+
+
+	spawn
+	{
+		particle "WaterDrops2"
+		rate "5"
+		radius "1~5"
+		theta "0~360"
+	}
+
+	spawn
+	{
+		particle "WaterDrops2"
+		rate "10"
+		radius "1~2"
+		theta "0~360"
+	}
+
+
+}
+

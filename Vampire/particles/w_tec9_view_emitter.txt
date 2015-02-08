@@ -1,0 +1,14 @@
+Particle
+{
+	frames "0"
+
+	spawn
+	{
+		particle "W_thirtyeight_flash-1"
+		burst 		"3"
+		y		"-2"
+		x		"1"
+	}
+}
+
+

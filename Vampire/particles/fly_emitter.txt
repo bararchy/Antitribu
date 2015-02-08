@@ -1,0 +1,17 @@
+Particle
+{
+	loop	"1"
+	fps	"30"
+
+	spawn
+	{
+		particle	"fly_fx1"
+		rate		"100"
+		radius		"0~200"
+		theta		"0~360"
+		phi		"0"
+		z		"30~-30"
+ 	}
+	
+}
+

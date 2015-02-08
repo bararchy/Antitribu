@@ -1,0 +1,22 @@
+Particle
+{
+	frames 		"15"
+	max_frames	"80"
+	sprite		"ember6"
+	size		"5,50"
+	rotation	"0,-90~90"
+	Depth_offset	"10"
+	Parent_speed	"0"
+	Radius_speed	"40,10,0"
+	elevation_speed	"5,20"
+
+	red		"255"
+	green		"190"
+	blue		"128"
+	
+	color		"20,0"
+	mask		"0,0"
+
+	use_surface_color "0"
+	lighting	"0"
+}

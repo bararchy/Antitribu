@@ -1,0 +1,26 @@
+Particle
+{
+	loop	"0"
+
+
+	spawn
+	{
+		particle	"LightBulb_Pop_Spark1"
+		burst		"30"
+	}
+	spawn
+	{
+		particle	"LightBulb_Pop_Spark2"
+		burst		"30"
+	}
+	spawn
+	{
+		particle	"LightBulb_Pop_Spark3"
+		burst		"1"
+	}
+	spawn
+	{
+		particle	"LightBulb_Pop_Spark4"
+		burst		"1"
+	}
+}

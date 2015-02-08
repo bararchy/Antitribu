@@ -1,0 +1,13 @@
+Particle
+{
+	frames "10"
+
+	spawn
+	{
+		particle "D_Protean_4BP_bodyMouth"
+		rate	"10"
+		z	"10"
+
+	}
+}
+

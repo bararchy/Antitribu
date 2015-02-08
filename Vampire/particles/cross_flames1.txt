@@ -1,0 +1,24 @@
+Particle
+{
+	frames 		"10"
+	sprite		"flamemedium"
+	size		"15,3"
+	height		"1"
+	elevation_speed	"10~30"
+	radius_speed	"0"
+
+	parent_speed	".9"
+	movealign	"0"
+	rotation	"0~360,0~360"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+
+	color		"0,125,0"
+
+	mask		"0"
+
+	Depth_offset	"2"
+
+}

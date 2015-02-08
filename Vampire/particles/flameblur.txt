@@ -1,0 +1,24 @@
+Particle
+{
+	sprite		"flamebodyblur"
+	rate		"1"
+	size		"20,60"
+	width		"1"
+	height		"1"
+	frames		"60"
+	color		"10,40"
+	rotation	"180~360(0),40~60(60)"
+	mask		"0"
+
+	parent_speed	"0"
+	x_speed		"-130"
+	z_speed		"0(0),30(70)"
+	Radius_speed	"0" // The speed the particle travels from the emitter
+
+	theta_speed	"0~20" //The speed it orbits the emitting particle horizontally
+	phi_speed	"0~20" //The speed it orbits the emitting particle vertically
+
+	elevation_speed	"10"
+	
+	movealign	"0"
+}

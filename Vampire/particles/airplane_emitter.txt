@@ -1,0 +1,11 @@
+Particle
+{
+loop	"0"
+	spawn
+	{
+		particle 	"Airplaine"
+		loop 		"1"
+		burst 		"1"
+	}
+}
+

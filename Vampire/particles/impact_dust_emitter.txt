@@ -1,0 +1,15 @@
+Particle
+{
+loop "0"	
+
+	spawn
+	{
+		particle "Impact_dust_fx1"
+		burst "20"
+		phi "0"
+		theta "0~360"
+		z	"10"
+	}
+
+
+}

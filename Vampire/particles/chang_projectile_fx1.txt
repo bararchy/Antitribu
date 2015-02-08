@@ -1,0 +1,18 @@
+Particle
+{
+	frames		"100"
+	sprite		"changflamemass"
+	size		"20~30,40"
+	parent_speed	"1"
+	rotation	"0~360,0~360"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+
+	color		"255,100,0"
+
+	mask		"0"
+
+	Depth_offset	"10"
+}

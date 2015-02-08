@@ -1,0 +1,19 @@
+Particle
+{
+	frames 		"5000"
+	fps		"1"
+	sprite		"CityLights"
+//	flat 		"1"
+	rotation	"0~360"
+
+	size		"20"
+
+	red		"255"
+	green		"180~255"
+	blue		"80~190"
+
+	color		"255"
+	mask		"0"
+
+}
+

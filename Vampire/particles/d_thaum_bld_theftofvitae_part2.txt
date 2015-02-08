@@ -1,0 +1,14 @@
+Particle
+{
+	frames 		"30"
+	sprite		"point_16"
+	size		".01~.05"
+
+	rotation	"0,-180~180"
+	Parent_speed	"1"
+	Radius_speed	"-1~-2"
+	green		"0"
+	blue		"0"
+	color		"0,100~200,0"
+	mask		"0"
+}

@@ -1,0 +1,24 @@
+Particle
+{
+	frames 	"8"
+
+	spawn
+	{
+		particle "w_rocketlauncher_rocket_Fx1"
+		rate 		"80"
+	}
+
+	spawn
+	{
+		particle "w_rocketlauncher_rocket_Fx2"
+		rate 		"50"
+	}
+
+	spawn
+	{
+		particle "w_rocketlauncher_rocket_Fx3"
+		rate 		"5"
+	}
+}
+
+

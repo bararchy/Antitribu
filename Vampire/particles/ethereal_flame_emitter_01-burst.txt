@@ -1,0 +1,36 @@
+Particle
+{
+	frames			"30"
+	loop 			"0"
+
+	spawn
+	{
+		particle "Ethereal_Flame_Fire01-burst"
+		burst		"1"
+		
+	}
+	spawn
+	{
+		particle "Ethereal_Flame_Fire02-burst"
+		burst		"120"
+		phi		"90~-90"
+		theta		"0~360"
+		radius		"200"
+	}
+	spawn
+	{
+		particle "Ethereal_Flame_Fire03-burst"
+		burst		"120"
+		phi		"90~-90"
+		theta		"0~360"
+		radius		"200"
+	}
+	spawn
+	{
+		particle "Ethereal_Flame_Fire04-burst"
+		burst		"4"
+	}
+
+
+}
+

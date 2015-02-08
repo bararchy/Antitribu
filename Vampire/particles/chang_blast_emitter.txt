@@ -1,0 +1,36 @@
+Particle
+{
+	fps		"30"
+
+	spawn
+	{
+		particle "chang_blast_fx1"
+		burst		"50"
+		radius "0"
+		theta "0~360"
+		phi	"0~90"
+		z	"-30"
+	}
+
+	spawn
+	{
+		particle "chang_blast_fx2"
+		rate	"100"
+		z	"-30"
+		radius 	"0"
+		theta 	"0~360"
+		phi	"0~90"
+	}
+
+	spawn
+	{
+		particle "chang_blast_fx3"
+		rate	"100"
+		z	"-30"
+		radius 	"0"
+		theta 	"0~360"
+		phi	"0"
+	}
+
+}
+

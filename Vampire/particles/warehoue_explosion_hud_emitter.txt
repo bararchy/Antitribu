@@ -1,0 +1,67 @@
+Particle
+{
+	loop		"0"
+	parent_speed	"0"
+	
+	spawn
+	{
+		particle	"Warehoue_Explosion_Hud_center"
+		burst		"3"
+		x		"70"
+	}
+	spawn
+	{
+		particle	"EX_center"
+		rate		"30,0(15)!"
+		radius		"50"
+		theta		"-60~60"
+		phi		"-60~60"
+		x		"50"
+	}
+
+	spawn
+	{
+		particle	"EX_Sparks"
+		rate		"20,0(10)!"
+		radius		"60"
+		theta		"-60~60"
+		phi		"-60~60"
+		x		"50"
+	}
+
+	spawn
+	{
+		particle	"EX_OuterRim"
+		rate		"20,0(10)!"
+		radius		"15"
+		theta		"-60~60"
+		phi		"-60~60"
+		x		"50"
+	}
+
+	spawn
+	{
+		particle	"Warehoue_Explosion_Hud_Flare"
+		burst		"1"
+		x		"20"
+	}
+
+	spawn
+	{
+		particle	"Warehoue_Explosion_Hud_Explosion"
+		burst		"1"
+		x		"20"
+	}
+
+	spawn
+	{
+		particle	"EX_OuterRim2"
+		rate		"20,0(10)!"
+		radius		"30"
+		theta		"-60~60"
+		phi		"-60~60"
+		x		"50"
+	}
+
+}
+

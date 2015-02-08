@@ -1,0 +1,16 @@
+Particle
+{
+	frames 		"60"
+	sprite		"crackedearth"
+	size		"75~90"
+	flat		"1"
+	rotation	"0~360"
+	red		"255"
+	green		"70"
+	blue		"100"
+	color		"0"
+	mask		"255,255,0"
+	parent_speed	"0"
+	elevation_speed	"0"
+}
+

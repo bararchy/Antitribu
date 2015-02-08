@@ -1,0 +1,23 @@
+Particle
+{
+	sprite		"ankh"
+	frames		"30"
+	size		"15"
+	width		"1"
+	height		"1"
+	rotation	"0"
+	elevation_speed	"5,-5"
+	parent_speed	"1"
+	radius_speed	"0"
+	movealign	"0"
+	depth_offset	"10"
+
+
+	red		"255"
+	green		"0"
+	blue		"0"
+	color		"255"
+
+	mask		"0"
+
+}

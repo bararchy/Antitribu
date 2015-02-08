@@ -1,0 +1,13 @@
+Particle
+{
+loop		"0"	
+frames		"40"
+
+	spawn
+	{
+		particle	"BlowSmoke"
+		rate		"150,0"
+		phi		"20"
+		theta		"180"
+	}
+}

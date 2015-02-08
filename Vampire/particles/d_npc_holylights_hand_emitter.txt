@@ -1,0 +1,25 @@
+//Attach Type: Bone Single Point
+//Bone: Bip01 L Hand
+Particle
+{
+	frames	"60"
+
+	spawn
+	{
+		particle 	"d_npc_holylights_hand_Flare"
+//		loop 		"1"
+		rate 		"0"
+		burst 		"1"
+	}
+
+	spawn
+	{
+		particle	"d_npc_holy_lights_hand2_fx1"
+		burst		"20"
+		radius		"0"
+		phi		"0~360"
+		theta		"0~360"
+//		z		"10"
+	}
+}
+

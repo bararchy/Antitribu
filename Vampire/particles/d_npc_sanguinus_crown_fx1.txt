@@ -1,0 +1,18 @@
+Particle
+{
+	frames 		"30"
+	sprite		"vic8crown"
+	size		"80"
+	flat		"1"
+	movealign	"1"
+
+	red		"128,0"
+	green		"0~16"
+	blue		"0~16,32"
+	color		"0,32,32,25,20,15,10,5,0"
+	mask		"0"
+
+	parent_speed	"1"
+
+}
+

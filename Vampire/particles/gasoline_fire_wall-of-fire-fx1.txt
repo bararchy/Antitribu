@@ -1,0 +1,22 @@
+Particle
+{
+	frames 		"20"
+	min_frames	"15"
+	max_frames	"40"
+
+	sprite		"flamebody"
+	size		"30~50"
+
+	z_speed 	"0,50~300,50~0"
+
+	Rotation 	"0~360,0~-360"
+
+	red		"200~255"
+	green		"200~255"
+	blue		"200~255"
+
+	color		"0,64,56,48,40,32,24,16,8,0"
+	Mask		"0"
+
+}
+

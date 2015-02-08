@@ -1,0 +1,37 @@
+Particle
+{
+
+
+	spawn
+	{
+		particle "andrei_blast_fx1"
+		loop "1"
+		burst		"100"
+		rate "0"
+		radius "0"
+		theta "0~360"
+		phi	"0~360"
+	}
+
+	spawn
+	{
+		particle "andrei_blast_fx2"
+		loop "1"
+		burst		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+	}
+
+	spawn
+	{
+		particle "andrei_blast_fx3"
+		loop "1"
+		burst		"1"
+		radius "28"
+		theta "0"
+		phi	"-90"
+	}
+
+}
+

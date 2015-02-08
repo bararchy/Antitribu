@@ -1,0 +1,15 @@
+Particle
+{
+	sprite 		"point_16"
+	frames		"15"
+//	min_frames	"5"
+	elevation_speed	"0,-180"
+	theta_speed	"0"
+	phi_speed	"0"
+	radius_speed	"180,0"
+	rotation	"0"
+	size		"1~1.5"
+	color		"20~50,10"
+	mask		"0"
+}
+

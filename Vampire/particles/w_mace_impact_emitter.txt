@@ -1,0 +1,63 @@
+Particle
+{
+	loop	"0"
+
+	spawn
+	{
+		particle	"w_mace_impact_fx1"
+		rate		"100"
+		theta		"0~360"
+		radius		"3"
+	}
+
+
+	spawn
+	{
+		particle	"w_mace_impact_fx2"
+		rate		"30"
+		theta		"0~360"
+		radius		"3"
+	}
+
+	spawn
+	{
+		particle 	"ImpactFX_BloodSpatter_Out"
+		burst 		"30"
+		phi 		"-40~40"
+		theta 		"0~360"
+		x		"2"
+	}
+	
+	spawn
+	{
+		particle 	"ImpactFX_Mc_GenericHit1"
+		burst 		"1"
+	}
+
+	spawn
+	{
+		particle 	"ImpactFX_BloodSpatter_Back"
+		burst 		"4"
+		phi 		"-10~10"
+		theta 		"170~190"
+		x		"-10"
+	}
+
+	spawn
+	{
+		particle 	"w_impact_blunts_fx1"
+		burst		"40"
+		radius		"0~10"
+		theta		"0~360"	
+		phi		"0~360"
+		z		"0~40"	
+	}
+
+	spawn
+	{
+		particle 	"w_impact_blunts_fx2"
+		burst 		"1"
+	}
+	
+}
+

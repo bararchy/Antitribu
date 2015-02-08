@@ -1,0 +1,18 @@
+//Attach Type: Bone Tree
+//Bone: Bip01 Spine
+
+Particle
+{
+	loop 	"0"
+	frames "90"	
+
+	spawn
+	{
+		particle 	"D_Thaum_Bld_TheftOfVitae_Tgt_BloodSmoke"
+		rate 		"50"
+		radius		 "0"
+		theta 		"0~360"
+		phi		"-180~180"
+		z		"5"
+	}
+}

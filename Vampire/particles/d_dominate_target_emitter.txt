@@ -1,0 +1,11 @@
+//Attach Type: Bone Tree
+
+Particle
+{
+	spawn
+	{
+		particle	"D_Dominate_Target"
+		burst		"1"
+	}
+}
+

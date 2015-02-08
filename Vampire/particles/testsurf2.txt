@@ -1,0 +1,38 @@
+Particle
+{
+	frames "60"
+	radius_speed "20~60"
+	z_speed "300,-600"
+	theta_speed "300"
+
+	spawn
+	{
+		particle "TestSurf3"
+		rate "150"
+		red "255,255,255,255,0"
+		green "255,255,255,255,0"
+		blue "255,255,255,255,0"
+		mask "255,255,255,255,0"
+	}
+
+	collide
+	{
+		self
+		{
+			bounce ".8"
+			gravity "300"
+		}
+
+		decal
+		{
+			vdecal_first "decals/stains/blooda"
+			vdecal_last  "decals/stains/bloodg"
+		}
+
+		decal
+		{
+			particle "cometdecal"
+		}
+	}
+}
+

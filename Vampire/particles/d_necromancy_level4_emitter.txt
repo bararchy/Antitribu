@@ -1,0 +1,14 @@
+Particle
+{
+	loop	"1"
+	frames	"60"
+	
+	spawn
+	{
+		particle	"d_necromancy_level4_fx1"
+		rate		"10"
+		radius		"0"
+		phi		"0"
+		theta		"0"
+	}
+}

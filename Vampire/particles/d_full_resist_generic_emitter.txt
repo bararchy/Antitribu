@@ -1,0 +1,32 @@
+Particle
+{
+	loop		"0"
+
+	spawn
+	{
+		particle	"D_Full_Resist_Generic_Fx1"
+		rate		"100"
+		radius		"0~20"
+		theta		"0~360"
+		phi		"90~-90"
+	}
+
+	spawn
+	{
+		particle	"D_Full_Resist_Generic_Fx2"
+		burst		"30"
+		radius		"0~45"
+		theta		"0~360"
+		phi		"90~-90"
+	}
+	
+	spawn
+	{
+		particle	"D_Full_Resist_Generic_Fx3"
+		rate		"10"
+		radius		"0"
+	
+	}
+
+
+}

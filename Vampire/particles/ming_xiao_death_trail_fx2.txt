@@ -1,0 +1,15 @@
+Particle
+{
+	sprite		"mingxiaoslime3"
+	frames		"80"
+	size		"7~11,20~25"
+	rotation	"0~360"
+
+	red		"0"
+	green		"255,255"
+	blue		"355,100"
+	color		"0,120,0"
+	mask		"0,255,0"
+	sortfront	"1"
+}
+

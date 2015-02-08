@@ -1,0 +1,30 @@
+Particle
+{
+	loop "1"
+	fps "30"
+
+
+
+	spawn
+	{
+		particle "treeFlames"
+		loop "1"
+		rate "50"
+		theta "0~360"
+		phi	"180~-180"
+		z	"-10"
+	}
+
+
+	spawn
+	{
+		particle "treeflameglow"
+		rate "3"
+		z	"80~100"
+	}
+
+	
+
+
+}
+

@@ -1,0 +1,13 @@
+Particle
+{
+	frames		"50"
+	sprite		"Halo"
+	size		"70,0"
+	Depth_offset	"-10"
+	color		"0,100,0"
+	mask		"0"
+	green		"0"
+	blue		"0,0(50),255"
+}
+
+

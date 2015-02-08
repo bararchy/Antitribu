@@ -1,0 +1,38 @@
+Particle
+{
+	loop	"1"
+	fps	"30"
+	frames	"30"
+
+	spawn	//brown dust
+	{
+		particle	"d_nihilistics_level4_tgt-fx1"
+		burst		"100"
+		phi		"0"
+		theta		"0~360"
+		Radius		"0"
+		z		"-40"
+	}
+	spawn // brown ring
+	{
+		particle	"d_nihilistics_level4_tgt-fx2"
+		burst		"1"
+		Radius		"0"
+		z		"-30"
+	}
+	spawn // normal wave
+	{
+		particle	"d_nihilistics_level4_tgt-fx3"
+		burst		"1"
+		Radius		"0"
+		z		"-10"
+	}
+	spawn // white points
+	{
+		particle	"d_nihilistics_level4_tgt-fx4"
+		burst		"120"
+		phi		"0"
+		theta		"0~360"
+		Radius		"0~100"
+	}
+}

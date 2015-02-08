@@ -1,0 +1,94 @@
+Particle
+{
+	frames	"100"
+	//fps 	"15"
+
+	sprite		"Suck_normal"
+	color		"0"
+	mask		"0"
+	size		"80"
+	Depth_offset	"-10"
+	normal		"Suck_normal"
+	refract		"-2,2,-1,.8,-.3,.27,-.12,0"
+	z		"10"
+
+	spawn
+	{
+		particle 	"Ethereal_Flame_Fire04-bubble"
+		rate		"10"
+		phi		"50~-50"
+		theta		"50~-50"
+		radius		"-35~35"
+		z		"-55~-40"
+	}
+
+	spawn
+	{
+		particle 	"d_nihilistics_lvl5_fx1"
+		rate		"20"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		z		"0"
+	}
+	spawn
+	{
+		particle 	"d_nihilistics_lvl5_fx2"
+		rate		"20"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		z		"-10"
+	}
+	spawn
+	{
+		particle 	"d_nihilistics_lvl5_fx3"
+		rate		"20"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		z		"-20"
+	}
+	spawn
+	{
+		particle 	"d_nihilistics_lvl5_fx4"
+		rate		"7"
+		phi		"20~-20"
+		theta		"50~-50"
+		radius		"-25~25"
+		z		"-55~-45"
+	}
+	spawn
+	{
+		particle 	"d_nihilistics_lvl5_fx5"
+		rate 		"1"
+		burst		"2"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		x		"-.5"
+		z		"3"
+	}
+
+	spawn
+	{
+		particle 	"d_nihilistics_lvl5_fx6"
+		loop 		"1"
+		rate 		"100"
+		radius 		"5,15"
+		theta 		"0~360"
+		phi		"-180~180"
+		z		"2"
+	}
+
+	spawn
+	{
+		particle 	"d_nihilistics_lvl5_fx7"
+		loop 		"1"
+		burst		"1"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+	}
+}
+

@@ -1,0 +1,6 @@
+Particle
+{
+	loop	"0"	
+	frames 	"60"
+
+}

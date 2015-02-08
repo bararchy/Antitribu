@@ -1,0 +1,21 @@
+Particle
+{
+	frames 		"80"
+	sprite		"DropletFast3"
+	size		"150"
+	Movealign	"1"
+	height		"0,5,5,5,5,5,5,5,0"
+	width		"1,1,6,6,6,6,6,1,1"
+	
+	radius_speed	"-1"
+
+	red		"200~255"
+	green		"0~20,0~20,0~20,0~20"
+	blue		"20~0,0~20,0~20,0~20"
+	color 		"90,128"
+	mask		"128,0"
+
+}
+
+
+	

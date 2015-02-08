@@ -1,0 +1,30 @@
+Particle
+{
+	min_frames	"10"
+	frames 		"20"
+	max_frames	"25"
+	sprite		"ripples"
+	size		"40~100,10"
+	
+	theta_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	"0"
+	Rotation 	"0~360,0~360"
+	X_speed		"-30"
+	Y_speed		"0"
+	z_speed		"0"
+	Elevation_speed	"-50"
+	parent_speed	"0"
+	movealign	"0"
+
+	red		"140"
+	green		"200"
+	blue		"100"
+	color		"100,0"
+
+	mask		"0,255,255,0"
+
+	Depth_offset	"-2"
+}
+
+

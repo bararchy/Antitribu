@@ -1,0 +1,19 @@
+Particle
+{
+	frames 		"30"
+	sprite		"necro9crown"
+	size		"20"
+	rotation	"0"
+	depth_offset	"10"
+	parent_speed	"1"
+	sortfront	"1"
+	elevation_speed	"0"
+	Z_speed		"0"
+
+	red		"200~255"
+	green		"200~255"
+	blue		"200~255"
+	color		"0,64~200(20),0"
+	mask		"0,60(5),60(20),0"
+}
+

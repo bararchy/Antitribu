@@ -1,0 +1,24 @@
+Particle
+{
+	frames 		"15"
+	sprite		"greenspray2"
+	size		"5,10~20"
+	height		"3,1,1,1"
+	width		".5!,-1!,1!,-1!,1!"
+	//movealign	"1"
+
+	rotation	"0,0~360"
+	Radius_speed	"60"
+	elevation_speed	"-60,0,0,0"
+	parent_speed	"1"
+
+	theta_speed	"50"
+	Depth_offset	"-60"
+	
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"0,50,50,0"
+	mask		"150,150,0"
+}
+	

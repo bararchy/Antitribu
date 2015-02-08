@@ -1,0 +1,24 @@
+Particle
+{
+	loop	"0"
+	frames	"30"	
+
+	spawn
+	{
+		particle "stealth_sledgehammer_fx1"
+		burst "30"
+		phi "0"
+		theta "0~360"
+	}
+	
+	spawn
+	{
+		particle "stealth_sledgehammer_fx1"
+		rate "80"
+		phi "0"
+	}
+	
+	
+}
+
+	

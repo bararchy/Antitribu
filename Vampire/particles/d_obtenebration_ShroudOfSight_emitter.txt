@@ -1,0 +1,17 @@
+Particle
+{
+	loop "1"
+	fps "30"
+
+	spawn
+	{
+		particle "d_obtenebration_ShroudOfSight_fx1"
+		burst		"1"
+		rate 		"60"
+		radius 		"6"
+		theta 		"0~360"
+		phi		"0"
+		z		"-5"
+	}
+}
+

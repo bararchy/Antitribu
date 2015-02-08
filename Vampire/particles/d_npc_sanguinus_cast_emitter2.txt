@@ -1,0 +1,26 @@
+//Attach Type: Bone Tree, Bip01 R Hand, Bip01 L Hand
+Particle
+{
+	loop		"0"
+	frames		"40"
+
+	spawn
+	{
+		particle	"d_npc_sanguinus_cast_fx1"
+		rate		"70"
+		radius		"0"
+		theta		"0~360"
+		phi		"90~-90"
+		z		"5"
+	}
+
+	spawn
+	{
+		particle	"d_npc_sanguinus_cast_fx3"
+		rate		"0,0,2,15,30"
+		radius		"0"
+		theta		"0~360"
+		phi		"90~-90"
+		z		"5"
+	}
+}

@@ -1,0 +1,19 @@
+Particle
+{
+	frames 		"60"
+	sprite		"dropletfast"
+	size		"10"
+	height		"1,40,5"
+	movealign	"1"
+	Rotation 	"0"
+	Radius_speed	"20,60"
+	theta_speed	"0"
+	phi_speed	"0"
+
+	red		"50~100"
+	green		"75~100"
+	blue		"200~255"
+	color		"255(1),0~255,0~255,0~255,0~255,0~255,0~255,0~255,0~255,0~255,0~255,0~255"
+	mask		"0"
+}
+

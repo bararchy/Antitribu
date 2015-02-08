@@ -1,0 +1,20 @@
+Particle
+{
+	frames 		"30"
+	sprite		"dominaterings"
+	size		"100"
+	flat		"1"
+	rotation	"0,10"
+	depth_offset	"10"
+	parent_speed	"1"
+	sortfront	"1"
+	elevation_speed	"0"
+	Z_speed		"0"
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"20,20~100,20,0"
+	mask		"0"
+
+}
+

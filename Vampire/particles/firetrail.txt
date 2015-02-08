@@ -1,0 +1,22 @@
+Particle
+{
+	sprite 		"flamebody"
+	frames 		"45"
+	parent_speed 	"0"
+	size 		"20,0"
+	Rotation	"0,90,180,200~270,360"
+	Z_speed		"0,5~30"
+	Radius_speed	"50,0(10)"
+
+
+
+	red "255,255,0(10)"
+	green "255,255,0(10)"
+	blue "255,255,0(10)"
+	color	"255,0"
+
+	mask "0,30,0"
+
+}
+
+

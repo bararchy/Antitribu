@@ -1,0 +1,22 @@
+Particle
+{
+	frames			"30"
+	loop 			"1"
+
+	spawn
+	{
+		particle "trem_firewall_fx1"
+		rate		"80"
+		phi		"0"
+		radius		"-70~50"
+	}
+	
+	spawn
+	{
+		particle "trem_firewall_fx2"
+		rate		"20"
+		phi		"0"
+		radius		"-50~50"
+	}	
+}
+

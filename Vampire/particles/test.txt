@@ -1,0 +1,53 @@
+Particle
+{
+	sprite		"smile2" //The name of the TGA with the extension striped
+	size		"10" //The size of the particle. If nothing is entered default is 1
+	width		"1"
+	height		"1"
+
+	frames		"30" //Number of frames the particle will live
+	min_frames	"10" //The minimum number of frames the particle will live
+	max_frames	"40" //The maximum number of frames the particle will live
+		
+	loop		"1" //Loop  particle (never die)  1=LOOP 0=NO LOOP
+
+//The speed the particle will move in a given direction relative to the emitter
+	x_speed		"10"
+	y_speed		"10"
+	z_speed		"10"
+//the speed at which the particle will fall down in the world
+	elevation_speed	"0"
+
+// ~ indicates a range of numbers. example 0~10 would generate a random number between 1 and 10
+// (number) a number in parentheses indicates that number will exists at that frame
+// (number)! followed indicates hold the previous number and change to this one at this frame
+
+//Rotation of the sprite
+	rotation	"0~180"
+
+//Color of the sprite
+	red		"255,0,0"
+	green		"0,255,0"
+	blue		"0,0,255"
+
+	color		"255,0(5)!,255(10)!" //master color control
+
+	mask		"0,255,0" //opacity of the alpha channel
+
+	SPAWN
+	{
+		particle	"Test2" //The particles name with the TXT extension striped
+
+		rate		"5" //The number of particles that spawn per second
+		//burst		"5"  //create all 5 particles at the same time
+
+		radius		"0~20"	The Radius from the emitter the new particle will spawn
+		theta		"0~360"
+		phi		"0~180"
+
+		//Offsets relative to the emitting particle
+		x		"0" 
+		y		"0"
+		z		"0"
+	}
+}

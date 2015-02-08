@@ -1,0 +1,26 @@
+Particle
+{
+	frames 		"30"
+	max_frames	"30"
+	sprite		"Potence"
+	size		"15,0"
+	Depth_offset	"-10"
+	radius_speed	"5"
+	Rotation 	"0,-90~90"
+	X_speed		"0"
+	Y_speed		"0"
+	elevation_speed	"0,10,20,30"
+	Parent_speed	"1"
+	theta_speed 	"0,20,20,20"
+	phi_speed 	"0"
+
+	red		"200,255,255,255"
+	green		"200,255,255,100"
+	blue		"100~200,255,255,100"
+
+	color		"0,150,200,100,0"
+
+	mask		"0"
+}
+
+

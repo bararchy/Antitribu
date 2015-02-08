@@ -1,0 +1,40 @@
+Particle
+{	
+	frames	"60"
+	loop 	"0"
+	fps 	"30"
+
+	spawn
+	{
+		particle "w_sawed_off_fx3"
+		rate		"60"
+	}
+
+	spawn
+	{
+		particle "w_sawed_off_fx4"
+		rate		"20"	
+	}
+
+	spawn
+	{
+		particle "w_sawed_off_fx1"
+		loop 		"1"
+		rate 		"30"
+		radius 		"0~20"
+		theta 		"0~360"
+		phi		"0"
+	}
+
+/*
+	spawn
+	{
+		particle "w_sawed_off_fx2"
+		loop 		"1"
+		rate 		"2"
+		radius 		"0~6"
+		theta 		"0~360"
+		phi		"0"
+	}
+*/
+}

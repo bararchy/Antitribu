@@ -1,0 +1,19 @@
+Particle
+{
+	frames 		"5"
+	sprite		"ember3"
+	size		"1"
+
+	parent_speed	"1"
+
+	no_z_test	"1"
+
+	red		"255"
+	green		"128"
+	blue		"128"
+
+	color		"0,0,255,255,0,0"
+	mask		"0"
+}
+
+

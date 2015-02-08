@@ -1,0 +1,30 @@
+Particle
+{
+	frames 		"100000"
+
+	sprite		"teleportring2"
+	size		"300"
+	
+	Height		"1"
+	width		"1"
+
+	Rotation 	"0,1000000000000000~2000000000000000"
+	flat		"0"
+	movealign	"0"
+	depth_offset	"-20"
+
+	theta_speed	"0"
+	phi_speed	"0"
+	radius_speed	"0"
+
+
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"0,0(210),255(300)"
+	mask		"0"
+	
+
+	
+}
+

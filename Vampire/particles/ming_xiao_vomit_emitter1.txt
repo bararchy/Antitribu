@@ -1,0 +1,28 @@
+Particle
+{
+
+	frames		"90"
+
+	spawn
+	{
+		particle	"ming_xiao_vomit_fx1"
+		rate		"30"
+		theta		"90~-180"
+		phi		"30~-150"
+	}
+
+	spawn
+	{
+		particle	"ming_xiao_vomit_fx2"
+		rate		"70"
+		theta		"0"
+		phi		"0"
+		z		"-8"
+	}
+	
+
+}
+
+
+
+

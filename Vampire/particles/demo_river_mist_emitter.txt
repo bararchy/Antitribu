@@ -1,0 +1,15 @@
+Particle
+{
+	loop "1"
+
+	spawn
+	{
+		particle "demo_river_mist_fx1"
+		rate "5"
+		radius "0~100"
+		theta "0~360"
+		phi	"0"
+		z	"-25~-55"
+	}
+}
+

@@ -1,0 +1,14 @@
+Particle
+{
+	loop "0"	
+	frames "10"
+
+	spawn
+	{
+		particle "WaterBigSplash"
+		burst "4"
+		phi "-40~40"
+		theta "-40~40"
+		x	"2"
+	}
+}

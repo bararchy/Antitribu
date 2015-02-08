@@ -1,0 +1,25 @@
+Particle
+{
+	sprite		"teleport_normal"
+	frames		"400"
+	size		"150~195"
+	rotation	"0~360"
+	elevation_speed	"0~5"
+
+	normal		"crackedearth"
+	//normal		"bubbles_normal"
+	refract		"1,4,7,4,1"
+
+	theta_speed 	"-40~40"
+	phi_speed 	"40~-40"
+
+	//Depth_offset	"-10~10"
+
+	red		"180~200"
+	green		"128"
+	blue		"64"
+
+	color		"0"
+	mask		"50,100,120,100,50"
+}
+

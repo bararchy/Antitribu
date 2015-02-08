@@ -1,0 +1,23 @@
+Particle
+{
+	frames 		"60"
+	sprite		"presenceember"
+	size		"40"
+	rotation	"0"
+	depth_offset	"-10"
+	parent_speed	"1"
+	elevation_speed	"10"
+	sortfront	"0"
+//	Radius_speed	"1~15"
+//	theta_speed	"400,0"
+//	x_speed		"0,0,-10,10,-10,10,-10,10"
+//	y_speed		"0,0,-10,10,-10,10,-10,10"
+//	z_speed		"0,0,-10,30,-30,30,-30,30"
+	red		"0,255,255"
+	green		"0,255,255"
+	blue		"300,255"
+	color		"0,40,0"
+	mask		"0"
+
+}
+

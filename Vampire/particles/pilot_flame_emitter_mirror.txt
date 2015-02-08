@@ -1,0 +1,48 @@
+Particle
+{
+	loop "1"
+	fps "30"
+
+
+
+	spawn
+	{
+		particle "pilot_flame_mirror"
+		loop "1"
+		rate "150~200"
+		theta "0~-360"
+		phi	"180~-180"
+
+	}
+
+
+	spawn
+	{
+		particle "FlameGlow3"
+		burst "1"
+		fps ".1"
+		loop "1"
+		z	"0"
+	}
+
+//	spawn
+	{
+		particle "Smoke3"
+		loop "1"
+		rate "10"
+		radius "0~6"
+		theta "0~360"
+		phi	"0"
+	}
+
+//	spawn
+	{
+		particle "FlameEmbers1"
+		loop "1"
+		rate "5"
+		radius "0~6"
+		theta "0~360"
+		phi	"0"
+	}
+}
+

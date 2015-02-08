@@ -1,0 +1,30 @@
+Particle
+{
+	frames			"30"
+	loop 			"0"
+
+	spawn
+	{
+		particle "Ethereal_HUD_boom-fx1"
+		rate		"3"
+	//	theta		"0~360"
+		radius		"400"
+	
+	}
+	spawn
+	{
+		particle "Ethereal_HUD_boom-fx2"
+		rate		"5"
+	//	theta		"0~360"
+		radius		"10"
+	
+	}
+	spawn
+	{
+		particle "Ethereal_HUD_boom-fx3"
+		burst		"1"
+
+	
+	}
+}
+

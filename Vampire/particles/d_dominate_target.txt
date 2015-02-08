@@ -1,0 +1,19 @@
+Particle
+{ 
+//	loop		"1"
+	fps		"30"
+	frames		"58"
+	sprite		"Suck_normal"
+	color		"0"
+	mask		"0"
+
+	size		"100"
+	Rotation 	"0"
+
+	Depth_offset	"-10"
+
+	normal		"Suck_normal"
+//	refract		"0,2(30),-1(31),1(37),-.5(43),.5(48),-.25(52),.25(55),-.12(57),0"
+	refract		"0,3(30),-1.5,1.4,-.8,.7,-.26,.25,-.12,0"
+}
+

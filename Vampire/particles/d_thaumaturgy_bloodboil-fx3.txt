@@ -1,0 +1,30 @@
+Particle
+{
+	frames 		"30"
+
+	sprite		"bloodboilember"
+	size		"4"
+	height		"10,1,1"
+	width		".5,1"
+
+
+	Rotation 	"0"
+
+	theta_speed	"500"
+	phi_speed	"100"
+	radius_speed	"2"
+	parent_speed	"0"
+	elevation_speed	"30"
+	depth_offset	"-10"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"255"
+
+	mask		"0"
+
+
+}
+
+

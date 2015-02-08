@@ -1,0 +1,22 @@
+Particle
+{
+	loop		"1"
+
+	//spawn
+	{
+		particle	"MM_menu_fx1"
+		rate		"150"
+		z		"0"
+		theta		"0"
+	}
+
+	spawn
+	{
+		particle	"MM_menu_fx2"
+		rate		"105"
+		z		"0"
+		theta		"0"
+	}
+
+}
+

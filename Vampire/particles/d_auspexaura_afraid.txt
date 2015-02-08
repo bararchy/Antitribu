@@ -1,0 +1,22 @@
+Particle
+{
+	frames 		"60"
+	sprite		"auspexauraafraid"
+	size		"10,25"
+	Depth_offset	"-20"
+	Parent_speed	"1"
+
+	Rotation 	"0,-180~180,360"
+
+	red		"355,255"
+	green		"355,180"
+	blue		"455,200"
+
+	color		"0,60,60,60,60,60,60,0"
+
+	mask		"0"
+
+
+}
+
+

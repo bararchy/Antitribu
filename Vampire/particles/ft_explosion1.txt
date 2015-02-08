@@ -1,0 +1,29 @@
+Particle
+{
+	frames		"30"
+	sprite		"FT_Explosion128"
+	size		"2,100"
+	rotation	"0~360,0~360"
+	Depth_offset	"0"
+	color		"255"
+	mask		"40"
+}
+
+//Particle
+//{
+//	frames 		"30"
+
+//	sprite		"FT_Explosion1"
+//	sprite		"Flash"
+//	size		"1"
+
+//	Depth_offset	"0"
+
+//	elevation_speed	"0"
+//	rotation	"0"
+
+//	color		"255"
+//	mask		"255"
+//}
+
+

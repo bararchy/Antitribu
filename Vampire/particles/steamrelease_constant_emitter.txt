@@ -1,0 +1,15 @@
+Particle
+{
+loop		"1"	
+min_frames	"15"
+frames		"20"
+max_frames	"25"
+
+	spawn
+	{
+		particle	"SteamRelease_Constant"
+		rate		"50"
+		phi		"-10~10"
+		theta		"-10~10"
+	}
+}

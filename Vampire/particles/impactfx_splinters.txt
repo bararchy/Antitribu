@@ -1,0 +1,35 @@
+Particle
+{
+	frames 		"60"
+	min_frames	"30"
+	sprite		"Splinter"
+	size		"2~5"
+	height		".1~.6,.5~1.5,.1~.6,.5~1.5,.1~.6,.5~1.5,.1~.6,.5~1.5,.1~.6,.5~1.5,.5~1.5,.1~.6,.5~1.5,.1~.6,.5~1.5,.1~.6,.5~1.5,.1~.6,.5~1.5"
+	rotation	"0~360,720"
+	Depth_offset	"10"
+	Parent_speed	"0"
+	Radius_speed	"150,0(40)"
+	elevation_speed	"0,-150(40)"
+	lighting	".9"
+	
+	red		"255,0"
+	green		"160,0"
+	blue		"100,0"
+	mask		"255,0"
+
+	color		"1000,0"
+
+	use_surface_color "1"
+
+	collide
+	{
+		self
+		{
+			bounce ".2~.8"
+			gravity "200~300"
+			friction "1~1.5"
+		}
+	}
+}
+
+	

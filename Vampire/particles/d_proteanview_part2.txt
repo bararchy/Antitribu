@@ -1,0 +1,15 @@
+Particle
+{
+	loop	"1"
+	frames	"60"
+	sprite "Vein"
+	size ".3~.8"
+	rotation	"0~360"
+	red		"255"
+	green		"0"
+	blue		"0"
+	color	"0,30(20)!,10,30(30)!,10(35),0"
+	mask		"0"
+}
+
+

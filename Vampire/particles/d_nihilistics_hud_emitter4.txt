@@ -1,0 +1,48 @@
+Particle
+{
+	loop 	"1"
+	frames	"30"
+	fps 	"30"
+
+	spawn
+	{
+		particle "d_nihilistics_hud4_fx1"
+		burst		"2"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+	}
+
+	spawn
+	{
+		particle "d_nihilistics_hud_fx2"
+		rate		"2"
+		radius 		"0"
+		theta 		"90"
+		phi		"0"
+		y		"0"
+	}
+
+	spawn
+	{
+		particle "d_nihilistics_hud_fx3"
+		rate 		"30"
+		radius 		"0"
+		phi		"0"
+		theta		"0"
+		z		"-.4"
+		x		".1"
+	}
+
+	spawn
+	{
+		particle "d_nihilistics_hud_fx4"
+		loop 		"1"
+		rate 		"100"
+		radius 		"5,15"
+		theta 		"0~360"
+		phi		"-180~180"
+		z		"2"
+	}
+}
+

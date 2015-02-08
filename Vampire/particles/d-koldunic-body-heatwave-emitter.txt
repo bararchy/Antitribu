@@ -1,0 +1,160 @@
+Particle
+{
+	//loop		"1"
+	frames	"180"
+	fps 	"30"
+	spawn
+	{
+		particle "d-koldunic-wof-wall-fx1"
+		rate 		"3"
+		radius		"0~50"
+		theta		"0~360"
+		phi		"0~360"
+		z		"-30"
+	}
+	//spawn
+	{
+		particle "d-koldunic-wof-wall-fx2"
+		loop		"1"
+		rate 		"15"
+		radius		"0~100"
+		theta		"0~360"
+		phi		"0~360"
+		z		"-30"
+	}
+
+	//spawn
+	{
+		particle "d-koldunic-wof-wall-fx3"
+		loop		"1"
+		rate 		"10"
+		theta 		"90~270"
+		radius		"0~100"
+		phi		"0~30"
+		z		"-40"
+	}
+
+	//spawn
+	{
+		particle "d-koldunic-wof-wall-fx5"
+		loop		"1"
+		rate		"5"
+		radius 		"0"
+		theta 		"0~360"
+		phi		"0"
+		z		"-30"
+	}
+
+	spawn
+	{
+		particle "d-koldunic-wof-wall-fx6"
+		loop		"1"
+		rate		"1"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		z		"-45"
+	}
+
+	spawn
+	{
+		particle "d-koldunic-wof-wall-fx9"
+		loop		"1"
+		rate 		"5"
+		radius		"0"
+		theta 		"0~360"
+		phi		"0"
+		z		"-40"
+	}
+
+	//spawn
+	{
+		particle "zombie_spawning_fx2"
+		loop		"1"
+		rate		"10"
+		theta		"0~360"	
+		radius		"0~60"
+		z		"-35"	
+	}
+
+
+	spawn
+	{
+		particle "sledgehammer_pound_fx1"
+		burst		"1"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		z		"-30"
+	}
+
+	spawn
+	{
+		particle "sledgehammer_pound_fx2"
+		burst		"1"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		z		"-30"
+	}
+	
+	spawn
+	{
+		particle "sledgehammer_pound_fx4"
+		burst		"50"
+		radius 		"0~80"
+		theta 		"0~360"
+		phi		"0"
+		z		"-20"
+	}
+	//spawn
+	{
+		particle	"sp_ventrue_explosion_fx1"
+		rate		"80"
+		radius		"0"
+		theta		"0"
+		phi		"0"
+		z		"-20"
+	}
+
+	//spawn
+	{
+		particle	"sp_ventrue_explosion_fx2"
+		burst		"70"
+		radius		"0"
+		theta		"-60~60"
+		phi		"-60~60"
+		z		"-30"
+	}
+
+	//spawn
+	{
+		particle	"sp_ventrue_explosion_fx3"
+		rate		"20,0(120)"
+		radius		"40"
+		theta		"0~360"
+		phi		"0~360"
+		z		"0"
+	}
+
+	//spawn
+	{
+		particle	"sp_ventrue_explosion_fx2"
+		rate		"20,0(120)"
+		radius		"20"
+		theta		"0~360"
+		phi		"0~360"
+		z		"0"
+	}
+
+	//spawn
+	{
+		particle	"sp_ventrue_explosion_fx4"
+		rate		"5,0(100)"
+		radius		"20"
+		theta		"0~360"
+		phi		"0~360"
+		z		"0"
+	}
+}
+

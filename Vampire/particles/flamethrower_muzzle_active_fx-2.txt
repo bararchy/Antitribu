@@ -1,0 +1,26 @@
+Particle
+{
+	frames 		"10"
+
+	sprite		"flamemedium"
+	size		"0,30,16,12,8,4,0"
+
+	y_speed		"-50~-380"
+
+
+
+	Rotation 	"-360~360,-360~360"
+
+	red		"0~64,255"
+	green		"0~64,255"
+	blue		"255,255"
+
+	color		"64,0"
+	Mask		"0"
+
+	collide
+	{
+		
+	}
+}
+

@@ -1,0 +1,14 @@
+Particle
+{
+	loop "0"
+
+	spawn
+	{
+		particle "CityLights1"
+		burst "300"
+		radius "400~1600"
+		theta "200~340"
+	}
+
+}
+

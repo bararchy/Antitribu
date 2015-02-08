@@ -1,0 +1,23 @@
+Particle
+{
+	frames 		"40"
+	sprite		"teleportline"
+	size		"10"
+	height		"10"
+//	depth_offset	"-10"
+	depth_offset	"6"
+	movealign	"1"
+	radius_speed	"70"
+	rotation	"0"
+//	parent_speed	"0"
+
+//	red		"120"
+//	blue		"255"
+//	green		"140"
+//	color		"255,0"
+//	mask		"0"
+
+	color		"300,150(3),0"
+	mask		"0"
+}
+

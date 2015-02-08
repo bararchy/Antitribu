@@ -1,0 +1,22 @@
+Particle
+{
+	frames 		"10"
+	sprite		"bloodsprayend"
+	rotation	"0"
+	size		"2,1,.5"
+	height		"3,1"
+	width		"1!,-1!,1!,-1!"
+	radius_speed	"80"
+	elevation_speed	"0,-100"
+	movealign	"1"
+
+	red		"200"
+	blue		"0"
+	green		"0"
+	color 		"255,0"
+	mask		"255,0"
+
+
+}
+
+

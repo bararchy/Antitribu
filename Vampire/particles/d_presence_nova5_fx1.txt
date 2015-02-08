@@ -1,0 +1,16 @@
+Particle
+{
+	frames 		"60"
+	sprite		"presencering"
+	size		"0,400"
+	flat		"1"
+	movealign	"1"
+	red		"0,355,455"
+	green		"0,255,255"
+	blue		"900,0,0,0"
+	color		"255,0"
+	mask		"0"
+	parent_speed	"1"
+
+}
+

@@ -1,0 +1,19 @@
+Particle
+{
+	fps	"30"
+	frames  "150"
+
+	spawn
+	{
+		particle	"D_Potence_DeathBlow_Shock"
+		rate		"20"
+	}
+
+	spawn
+	{
+		particle	"D_Potence_DeathBlow_Smoke"
+		rate		"30"
+	}
+	
+}
+

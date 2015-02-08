@@ -1,0 +1,16 @@
+Particle
+{
+	frames 		"30"
+	sprite		"tremblastring"
+	size		"0,650"
+	flat		"1"
+	movealign	"1"
+	red		"955,0,0"
+	green		"100,0,0"
+	blue		"255,0,0"
+	color		"255,0,0"
+	mask		"255,0"
+	parent_speed	"0"
+
+}
+

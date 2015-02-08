@@ -1,0 +1,47 @@
+Particle
+{
+	loop "1"
+
+	spawn
+	{
+		particle	"epilogue_consuming_darkness_fx1"
+		rate		"200"
+		radius		"0"
+		theta		"0"
+		phi		"0"
+		x		"-1"
+	}
+	
+	spawn
+	{
+		particle	"epilogue_consuming_darkness_fx2"
+		rate		"50"
+		radius		"0"
+		theta		"0"
+		phi		"0"
+		x		"-12"
+	}
+
+	spawn
+	{
+		particle	"epilogue_consuming_darkness_fx3"
+		rate		"10"
+		radius		"0"
+		theta		"0"
+		phi		"0"
+		x		"-12"
+	}
+	
+	spawn
+	{
+		particle	"epilogue_consuming_darkness_fx4"
+		rate		"10"
+		radius		"0"
+		theta		"0"
+		phi		"0"
+		x		"-12"
+	}
+
+
+}
+

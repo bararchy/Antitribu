@@ -1,0 +1,39 @@
+Particle
+{
+		frames	"30"
+
+	
+	spawn
+	{
+		particle "D_dominate_cast5_fx1"
+		rate		"30"
+		radius "0"
+		theta "0"
+		phi	"0"
+		z	"0"
+	}
+
+	spawn
+	{
+		particle "d_dominate_cast5_fx2"
+		burst		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+		x	"0"
+		z	"0"
+	}
+
+	spawn
+	{
+		particle "D_dominate_cast5_fx3"
+		burst		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+		x	"0"
+		z	"0"
+	}
+
+}
+

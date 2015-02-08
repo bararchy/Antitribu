@@ -1,0 +1,21 @@
+Particle
+{
+	sprite		"Fire-Sprite2"
+	frames		"80"
+	max_frames	"100"
+	parent_speed	"0"
+	size		"10~20,30~60(20)"
+	Rotation	"0,90,180,200~270,360"
+	elevation_speed	"0,20"
+	Radius_speed	"50,0(10)"
+
+	red		"255,255,0(10)"
+	green		"255,128,0(10)"
+	blue		"255,0,0(10)"
+	color		"80,0(15)"
+
+	mask		"0,10~50(5),0"
+
+}
+
+

@@ -1,0 +1,27 @@
+Particle
+{
+	frames 		"70"
+	max_frames	"90"
+	sprite		"glow"
+	size		"0,10~30"
+	Depth_offset	"10"
+	theta_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	"0"
+	Rotation 	"0,-180~180"
+	X_speed		"0"
+	Y_speed		"0"
+	Z_speed		"0,0(15),10(30)"
+	Parent_speed	"1"
+
+//	red		"255"
+//	green		"255"
+//	blue		"255"
+
+	color		"0,70(20),0(40)"
+	mask		"0,70(20),0"
+
+
+}
+
+

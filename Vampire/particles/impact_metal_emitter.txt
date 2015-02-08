@@ -1,0 +1,15 @@
+Particle
+{
+loop "0"	
+
+	spawn
+	{
+		particle "ImpactFX_Sparks"
+		burst "20"
+		phi "-80~80"
+		theta "-80~80"
+		x	"1"
+
+	}
+
+}

@@ -1,0 +1,28 @@
+Particle
+{
+	loop "1"
+	fps "30"
+	frames "30"
+
+
+
+	spawn
+	{
+		particle "tz_bloodtrickle_fx1"
+		rate "5"
+		radius "0~1"
+		theta "0~360"
+	}
+	
+	spawn
+	{
+		particle "tz_bloodtrickle_fx2"
+		rate "2"
+		radius "0~1"
+		theta "0~360"
+		z	"3"
+	}
+
+
+}
+

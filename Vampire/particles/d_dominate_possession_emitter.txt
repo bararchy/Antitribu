@@ -1,0 +1,40 @@
+Particle
+{
+		frames	"60"
+		loop	"1"
+		
+
+	spawn
+	{
+		particle "D_dominate_possession_fx1"
+		rate		"40"
+		radius "3"
+		theta "0~360"
+		phi	"0"
+		z	"4"
+	}
+
+	spawn
+	{
+		particle "d_dominate_possession_fx2"
+		rate		"40"
+		radius "0"
+		theta "0"
+		phi	"0"
+		x	"0"
+		z	"0"
+	}
+
+//	spawn
+	{
+		particle "D_dominate_possession_fx3"
+		burst		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+		x	"-.5"
+		z	"-62"
+	}
+
+}
+

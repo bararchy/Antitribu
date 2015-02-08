@@ -1,0 +1,32 @@
+Particle
+{
+	loop	"0"
+	spawn
+	{
+		particle 	"d_serpentis_cobra_impact_fx1"
+		rate		"5"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		z		"0"
+	}
+
+	spawn
+	{
+		particle 	"d_serpentis_cobra_impact_fx2"
+		rate		"35"
+		radius 		"0"
+		theta 		"0~360"
+		phi		"0~360"
+		z		"0"
+	}
+
+	spawn
+	{
+		particle 	"d_serpentis_cobra_impact_fx3"
+		rate		"50"
+		theta		"0~360"
+		phi		"0"
+	}
+}
+

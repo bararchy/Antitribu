@@ -1,0 +1,37 @@
+Particle
+{
+	loop "0"
+	frames	"60"
+	fps "30"
+
+	spawn
+	{
+		particle "ft_collide2"
+		loop 	"1"
+		burst 	"20"
+		radius 	"10"
+		theta 	"90"
+		phi	"-180~180"
+	}
+
+
+	spawn
+	{
+		particle "FT_smoke1"
+		loop "1"
+		burst "1"
+		radius "0~6"
+		theta "0~360"
+
+	}
+
+	spawn
+	{
+		particle "ft_collide_heatwave"
+		loop 	"1"
+		burst 	"1"
+	
+	}
+
+
+}

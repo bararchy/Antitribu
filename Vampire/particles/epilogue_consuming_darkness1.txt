@@ -1,0 +1,15 @@
+Particle
+{
+	frames	"310"
+	
+	spawn
+	{
+		particle	"epilogue_consuming_darkness_fx2"
+		rate		"200"
+		radius		"10"
+		theta		"10"
+		phi		"10"
+		//x		"-12"
+	}
+}
+

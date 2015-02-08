@@ -1,0 +1,22 @@
+Particle
+{
+	frames 		"50"
+	sprite		"FlashBig"
+	size		"0,40"
+	Depth_offset	"-10"
+	theta_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	"0"
+	Rotation 	"0,-90~90"
+	X_speed		"0"
+	Y_speed		"0"
+	Z_speed		"0"
+
+	color		"0,70,0"
+
+	mask		"255,0,0"
+
+
+}
+
+

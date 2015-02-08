@@ -1,0 +1,54 @@
+Particle
+{
+	//loop	"1"
+
+	spawn
+	{
+		particle "d_chimerstry_cast2_fx1"
+		rate		"3"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		z		"-40"
+	}
+	
+	spawn
+	{
+		particle "d_chimerstry_cast2_fx2"
+		rate		"50"
+		radius 		"100"
+		theta 		"0"
+		phi		"0"
+		z		"-50"
+	}
+
+	//spawn
+	{
+		particle	"d_chimerstry_cast2_fx3"
+		rate		"10"
+		radius		"0"
+		phi		"0"
+		theta		"0"
+	}
+	
+	
+	spawn
+	{
+		particle	"d_chimerstry_cast2_fx4"
+		rate		"3"
+		radius		"0"
+		phi		"0"
+		theta		"0"
+	}
+
+	spawn
+	{
+		particle 	"d_chimerstry_cast2_fx5"
+		loop 		"1"
+		rate 		"1"
+		radius 		"0"
+		theta 		"0~360"
+		phi		"0"
+	}
+}
+

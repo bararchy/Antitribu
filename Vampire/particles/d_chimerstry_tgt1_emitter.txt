@@ -1,0 +1,95 @@
+Particle
+{
+	frames	"15"
+//	loop	"1"
+
+
+
+	// круги вокруг
+	//spawn
+	{
+		particle 	"d_chimerstry_tgt1_fx1"
+		rate		"15"
+		radius 		"30"
+		theta 		"230"
+		phi		"0"
+		x		"0"
+		z		"0"
+	}
+	// ещё круги вокруг
+	//spawn
+	{
+		particle 	"d_chimerstry_tgt1_fx2"
+		rate		"15"
+		radius 		"15"
+		theta 		"50"
+		phi		"0"
+		x		"0"
+		z		"0"
+	}
+
+	// букашки
+	//spawn
+	{
+		particle 	"d_chimerstry_tgt1_fx3"
+		rate		"25"
+		radius 		"30"
+		theta 		"230"
+		phi		"0"
+		z		"0"
+	}
+
+	// большой круг
+	spawn
+	{
+		particle 	"d_chimerstry_tgt1_fx4"
+		burst		"1"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		z		"-10"
+	}
+
+	spawn
+	{
+		particle 	"d_chimerstry_tgt2_fx1"
+		burst 		"30"
+		rate 		"1"
+		phi 		"-40~40"
+		theta		"-40~40"
+		x		"-32"		
+		z		"32"
+	}
+
+	spawn
+	{
+		particle 	"d_chimerstry_tgt2_fx2"
+		burst 		"30"
+		rate 		"1"
+		phi 		"-40~40"
+		theta 		"-40~40"
+		x		"-32"
+		z		"32"
+
+	}
+
+	spawn
+	{
+		particle 	"D_Animalisim_Spiders"
+		rate 		"40"
+		radius 		"5"
+		theta 		"0~360"
+		z		"-30"
+	}
+
+	spawn
+	{
+		particle 	"D_Animalisim_GroundFog"
+		rate 		"100"
+		radius 		"5"
+		theta 		"0~360"
+		z		"-37"
+	}
+
+}
+

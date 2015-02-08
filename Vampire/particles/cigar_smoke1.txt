@@ -1,0 +1,16 @@
+Particle
+{
+	frames 		"200"
+	max_frames	"500"
+	sprite		"furball"
+	size		"0,2~3(50),0"
+	Elevation_speed	"2"
+	Parent_speed	"0"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+
+	color		"2,0"
+	mask		"1"
+}

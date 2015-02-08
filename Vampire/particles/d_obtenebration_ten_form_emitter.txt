@@ -1,0 +1,45 @@
+Particle
+{
+	loop "1"
+
+	spawn
+	{
+		particle	"d_obtenebration_ten_form_fx1"
+		rate		"150"
+		radius		"0"
+		theta		"0"
+		phi		"0"
+		x		"-1"
+	}
+	
+	spawn
+	{
+		particle	"d_obtenebration_ten_form_fx2"
+		rate		"7"
+		radius		"0"
+		theta		"0"
+		phi		"0"
+		x		"-12"
+	}
+
+	spawn
+	{
+		particle 	"d_obtenebration_ten_form_fx3"
+		burst		"1"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		z		"-10"
+	}
+
+	spawn
+	{
+		particle 	"d_obtenebration_ten_form_fx4"
+		rate		"55"
+		radius 		"0"
+		theta 		"0~360"
+		phi		"0"
+		z		"-15"
+	}
+}
+

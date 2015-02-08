@@ -1,0 +1,13 @@
+Particle
+{
+	frames 		"5"
+	sprite		"point_128"
+	size		"300"
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"255"
+	mask		"255"
+
+}
+

@@ -1,0 +1,27 @@
+Particle
+{
+	
+	frames 		"25"
+	
+
+	sprite		"Tzim2spaz"
+
+	size		"30~70,100"
+	
+	rotation	"0,90"
+	Depth_offset	"-100"
+
+	radius_speed	"-.15"
+	movealign	"1"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+
+	color		"0,50,50,50,0"
+	mask		"0,255,0"
+
+	sortfront	"1"
+
+	Parent_speed	"0"
+}

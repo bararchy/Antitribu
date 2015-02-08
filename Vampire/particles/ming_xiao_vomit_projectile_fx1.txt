@@ -1,0 +1,26 @@
+Particle
+{
+	sprite		"mingxiaovomit"
+	frames		"10"
+	size		"0,60"
+	width		"1"
+	height		"1"
+	rotation	"0~360"
+	elevation_speed	"0"
+	parent_speed	"0"
+	radius_speed	"0"
+	movealign	"0"
+
+
+	red		"100,100,255"
+	green		"200,200,250"
+	blue		"355,355,200"
+	color		"100,0"
+
+	mask		"100,0"
+
+	sortfront	"0"
+
+	
+
+}

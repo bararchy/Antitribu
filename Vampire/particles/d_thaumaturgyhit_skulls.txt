@@ -1,0 +1,27 @@
+Particle
+{
+	frames 		"80"
+	max_frames	"200"
+	sprite		"skull"
+	size		"8~15"
+	Depth_offset	"-10"
+	theta_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	"0"
+//	Rotation 	"0,-180~180"
+	X_speed		"0"
+	Y_speed		"0"
+	Z_speed		"0,10~20(20)"
+	Parent_speed	"0"
+
+//	red		"255"
+//	green		"0"
+//	blue		"0"
+
+	color		"0,200(20),0"
+	mask		"0"
+
+
+}
+
+

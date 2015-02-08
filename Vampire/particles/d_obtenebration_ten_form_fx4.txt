@@ -1,0 +1,19 @@
+Particle
+{
+	frames 		"60"
+	sprite		"furball"
+	size		"15"
+	height		"8,1"
+	width		"1.5~-1.5"
+	movealign	"1"
+	radius_speed	"35~65,0"
+	parent_speed	"0"
+
+	red		"64"
+	green		"64"
+	blue		"64"
+	color		"0,60,0"
+	mask		"0,200,0"
+
+}
+

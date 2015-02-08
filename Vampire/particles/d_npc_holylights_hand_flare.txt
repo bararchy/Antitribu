@@ -1,0 +1,16 @@
+Particle
+{
+	frames 		"50"
+	fps		"30"
+	sortfront	"1"
+	sprite		"Halo2"
+	Depth_offset	"6"
+
+	size		"120,80(3)"
+
+
+	Radius_speed	"0"
+	color		"300,150(3),0"
+	mask		"0"
+}
+

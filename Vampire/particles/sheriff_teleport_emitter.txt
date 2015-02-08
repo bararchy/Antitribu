@@ -1,0 +1,27 @@
+Particle
+{
+
+	loop	"0"
+	frames	"30"
+	spawn
+	{
+		particle "sheriff_teleport_fx1"
+		burst		"100"
+		radius "0~50"
+		theta "0~360"
+		phi	"0~360"
+		z	"10~100"
+	}
+
+	spawn
+	{
+		particle "sheriff_teleport_fx2"
+		burst		"5"
+		radius "20"
+		theta "0"
+		phi	"0~360"
+		z	"40"
+	}
+
+}
+

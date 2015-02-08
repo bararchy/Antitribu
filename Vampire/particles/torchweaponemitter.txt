@@ -1,0 +1,17 @@
+Particle
+{
+	loop "1"
+	fps "30"
+
+	spawn
+	{
+		particle	"w_shocker_loop"
+		rate		"7"
+		radius		"0"
+		theta		"0~90"
+		phi		"0"
+		mask		"0"
+	}
+
+}
+

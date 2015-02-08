@@ -1,0 +1,38 @@
+Particle
+{
+	frames "60"
+
+
+	spawn
+	{
+		particle "D_protean_2bp_Hands1"
+		burst 	"1"
+		x	"0"
+		z	"60"
+	}
+	spawn
+	{
+		particle "D_protean_2bp_Hands2"
+		burst 	"1"
+		x	"0"
+		z	"60"
+	}
+
+	spawn
+	{
+		particle "D_protean_2bp_Hands3"
+		burst 	"1"
+		x	"0"
+		z	"60"
+	}
+	spawn
+	{
+		particle "D_protean_2bp_Hands4"
+		burst 	"1"
+		x	"0"
+		z	"60"
+	}
+
+	
+}
+

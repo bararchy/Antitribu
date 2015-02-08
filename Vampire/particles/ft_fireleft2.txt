@@ -1,0 +1,15 @@
+Particle
+{
+	frames		"10"
+	sprite		"flamelong"
+	size		"5~10"
+	width		"1,1~4"
+
+	depth_offset	"10"
+	rotation	"70~110"
+	
+	elevation_speed	"20~85"
+
+	color		"0,60,40,20,0"
+	mask		"0"
+}

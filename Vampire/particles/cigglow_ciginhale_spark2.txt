@@ -1,0 +1,16 @@
+Particle
+{
+	frames 		"10"
+	sprite		"flare"
+	size		"40,0"
+	parent_speed	"1"
+
+	red		"255"
+	green		"128"
+	blue		"64"
+
+	color		"128,0"
+	mask		"0"
+}
+
+	

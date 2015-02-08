@@ -1,0 +1,19 @@
+Particle
+{
+	loop "1"
+	fps "30"
+	frames "300"
+	burst "1"
+
+	spawn
+	{
+		particle "D_ThaumaturgyHit_Projectiles"
+		loop "0"
+		rate "50"
+		radius "0"
+		theta "0~360"
+		phi	"180~-180"
+	}
+
+}
+

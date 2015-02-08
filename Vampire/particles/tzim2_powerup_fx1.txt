@@ -1,0 +1,23 @@
+Particle
+{
+
+	frames 		"10"
+	sprite		"ember4"
+	size		"1,10"
+	theta_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	"-60"
+	Rotation 	"0"
+	Elevation_speed	"0"
+	parent_speed	"1"
+
+	red		"170"
+	green		"250"
+	blue		"60"
+	color		"200"
+
+	mask		"0"
+
+	Depth_offset	"0"
+
+}

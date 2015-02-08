@@ -1,0 +1,31 @@
+Particle
+{
+	frames 		"3"
+	sprite		"lightningarc4"
+	size		"2~5"
+	height		"1,1,1"
+	elevation_speed	"10~20"
+	Radius_speed	"0~7"
+	Rotation 	"0~15,30~60"
+	parent_speed	"1"
+
+	z_speed		"0"
+
+	red		"255,64~128"
+	green		"255,64~128"
+	blue		"255,255,255"
+
+	color		"0,155,0,155,100,150,100,150,0"
+
+	mask		"0"
+	parent_speed	"1"
+	Depth_offset	"1"
+	x		"10"
+	y		"10"
+	z		"-10"
+
+}
+
+
+
+

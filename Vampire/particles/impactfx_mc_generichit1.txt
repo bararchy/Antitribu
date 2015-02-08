@@ -1,0 +1,21 @@
+Particle
+{
+	frames 		"5"
+	sprite		"Bloodspray2"
+	size		"0,100"
+	height		"1"
+	width		"1"
+	rotation	"0~360"
+	Parent_speed	"0"
+	
+	depth_offset	"3"
+
+	red		"200~255"
+	green		"0"
+	blue		"0"
+	color 		"255,0"
+	mask		"255,0"
+}
+
+
+	

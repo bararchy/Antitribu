@@ -1,0 +1,18 @@
+Particle
+{
+	frames 		"400"
+	sprite		"BloodLines2"
+	size		"15,15(200),100"
+//	width		"2,2(200),8"
+//	height		"1,1(200),0"
+	width		"2"
+	X_speed		"0"
+	Y_speed		"0"
+	Z_speed		"0"
+	green		"0"
+	blue		"0"
+	color		"0,0(150),255(180),255(200),0"
+	mask		"0"
+}
+
+

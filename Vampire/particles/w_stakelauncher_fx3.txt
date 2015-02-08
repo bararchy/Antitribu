@@ -1,0 +1,19 @@
+Particle
+{
+	frames 		"2"
+	sprite		"fire-sprite"
+	size		"30,0"
+
+	parent_speed	"0"
+
+	rotation	"0~360"
+
+	red		"255"
+	green		"128"
+	blue		"64"
+
+	color		"255"
+	mask		"0"
+}
+
+

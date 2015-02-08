@@ -1,0 +1,64 @@
+Particle
+{
+	frames	"90"
+
+	spawn
+	{
+		particle "d_serpentis_cast2_fx1"
+		rate		"20"
+		theta		"90~-180"
+		phi		"30~-150"
+	}
+
+	spawn
+	{
+		particle "d_serpentis_cast2_fx2"
+		burst		"1"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		z		"4"
+	}
+
+	spawn
+	{
+		particle "d_serpentis_cast2_fx3"
+		//burst		"1"
+		rate		"0.65"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		//x		"-.5"
+		z		"-62"
+	}
+
+	spawn
+	{
+		particle "w_mace_impact_fx1"
+		rate		"100"
+		theta		"0~360"
+		radius		"3"
+	}
+
+
+	spawn
+	{
+		particle "w_mace_impact_fx2"
+		rate		"30"
+		theta		"0~360"
+		radius		"3"
+	}
+
+	//spawn
+	{
+		particle "ImpactFX_BloodSpatter_Out"
+		burst 		"30"
+		phi 		"-40~40"
+		theta 		"0~360"
+		x		"2"
+	}
+}
+
+
+
+

@@ -1,0 +1,41 @@
+Particle
+{
+	frames 		"10"
+	min_frames	"10"
+	max_frames	"15"
+
+	sprite		"ember3"
+	size		"20"
+
+	flat		"1"
+
+	radius_speed	"500~600,0"
+	theta_speed	"-100~100"
+
+	red		"64,200~255"
+	green		"64,128"
+	blue		"255,64"
+
+	color		"255,0"
+	Mask		"0"
+
+
+	spawn
+	{
+		particle "Gasoline_Fire_Start_Fx1-trail"
+
+		rate "30"
+		frames	"90"
+	
+	}
+	spawn
+	{
+		particle "Gasoline_Fire_Start_Fx2"
+		rate 	"30"
+		theta	"0~360"
+	
+	}
+	
+
+}
+

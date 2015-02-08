@@ -1,0 +1,22 @@
+Particle
+{
+	loop "0"
+	Frames		"35"
+	sprite "smile"
+	z_speed		"0"
+	Radius_speed	"800"
+
+
+	spawn
+	{
+		particle "RocketTrail"
+		rate "200"
+		loop "0"
+		theta "0~360"
+		phi	"180~-180"
+	}
+
+
+
+}
+

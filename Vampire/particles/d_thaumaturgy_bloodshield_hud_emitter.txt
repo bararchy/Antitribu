@@ -1,0 +1,14 @@
+Particle
+{
+		loop "1"	
+
+	spawn
+	{
+		particle "d_thaumaturgy_bloodshield_hud_fx1"
+		rate	"50"
+		phi	"0~360"
+		radius	"1"	
+		theta	"270"
+	}
+
+}

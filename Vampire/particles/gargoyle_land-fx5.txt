@@ -1,0 +1,27 @@
+Particle
+{
+	frames 		"200"
+	min_frames	"150"		
+	max_frames	"250"
+	sprite		"cloud"
+	size		"30,70~100"
+
+	rotation	"0~360"
+	
+	X_speed		"-5~5,-5~5,-5~5,-5~5"
+	y_speed		"-5~5,-5~5,-5~5,-5~5"
+	Z_speed		"0~10,0,-3~-10"
+
+	Parent_speed	"0"
+
+	red		"255"
+	green		"225"
+	blue		"205"
+
+	color		"64,0"
+	mask		"255,0"
+	
+	lighting	"1"
+}
+
+

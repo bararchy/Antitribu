@@ -1,0 +1,62 @@
+aParticle
+{	
+	frames	"60"
+	loop	"1"
+
+	spawn
+	{
+		particle "gasoline_fire_wall-of-fire-Fx1"
+		rate	"150"
+		loop 	"1"
+		
+		radius	"-100~100"
+		theta	"0~360"
+		phi	"0"
+		
+
+	}
+	spawn
+	{
+		particle "gasoline_fire_wall-of-fire-Fx2"
+		burst	"10"
+		loop 	"1"
+		radius	"-100~100"
+		theta	"0~360"
+		phi	"0"
+
+
+	}
+
+	spawn
+	{
+		particle "gasoline_fire_wall-of-fire-Fx4"
+		rate	"10"
+		loop 	"1"
+		radius	"-100~100"
+		theta	"0~360"
+		phi	"0"
+
+	}
+	spawn
+	{
+		particle "gasoline_fire_wall-of-fire-Fx5"
+		rate	"30"
+		loop 	"1"
+		radius	"-100~100"
+		theta	"0~360"
+		phi	"0"
+
+	}
+	spawn
+	{
+		particle "gasoline_fire_wall-of-fire-Fx6"
+		burst	"4"
+		loop 	"0"
+		radius	"-100~100"
+		theta	"0~360"
+		phi	"0"
+
+	}
+
+
+}

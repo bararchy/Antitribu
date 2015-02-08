@@ -1,0 +1,18 @@
+Particle
+{
+	sprite 		"furball"
+	Min_Frames	"4"
+ 	X_speed		"0,0~2"
+	Y_speed		"0,0~2"
+	Z_speed		"10,0"
+	theta_speed	"0"
+	phi_speed	"0"
+	radius_speed	"10,0,0,0,0"
+	rotation	"0,-270~270"
+	size		"2,6~8"
+	red		"20,0"
+	green		"20,0"
+	blue		"20,0"
+	mask		"0"
+}
+

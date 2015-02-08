@@ -1,0 +1,21 @@
+Particle
+{
+
+	spawn
+	{
+		particle	"CollumBreak_Projectiles"
+		loop		"0"
+		burst		"3"
+		theta		"0~360"
+		phi		"180~-180"
+	}
+
+	spawn
+	{
+		particle "CollumBreak_Cloud"
+		burst "20"
+		theta		"0~360"
+		phi		"180~-180"
+	}
+
+}

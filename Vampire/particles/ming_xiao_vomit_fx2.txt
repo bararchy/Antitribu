@@ -1,0 +1,23 @@
+Particle
+{
+	frames 		"30"
+	sprite		"mingxiaoslime"
+	size		"5,60"
+	height		"3,1,1,1"
+	width		".5,1(15)"
+	movealign	"1"
+
+	rotation	"0,0~360"
+	Radius_speed	"0"
+	elevation_speed	"-60"
+	parent_speed	"0"
+	x_speed		"0"
+
+	red		"255"
+	green		"355~200,150(8)"
+	blue		"455~300,100(8)"
+
+	color		"0,150(3),50(10),0(16)"
+	mask		"0,255(3),110(12),0(16)"
+
+}

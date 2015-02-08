@@ -1,0 +1,16 @@
+Particle
+{
+	frames 		"120"
+	sprite		"kold_crown5"
+	size		"50"
+	flat		"1"
+	movealign	"1"
+	parent_speed	"1"
+
+	red		"255"
+	green		"70"
+	blue		"100"
+	color		"100,30,30,30,0"
+	mask		"0"
+}
+

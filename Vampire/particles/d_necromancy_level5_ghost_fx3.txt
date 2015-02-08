@@ -1,0 +1,22 @@
+Particle
+{
+	frames 		"30"
+	sprite		"necrowolfember"
+	size		"6"
+	height		"1,8"
+	movealign	"1"
+	elevation_speed	"0"
+	Radius_speed	"0,-60"
+	phi_speed	"0,200"
+	theta_speed	"0"
+	Depth_offset	"0"
+	Rotation 	"0"
+	Parent_Speed	"0"
+	
+	red		"200~255"
+	green		"200~255"
+	blue		"200~255"
+	color		"0,128,0"
+	mask		"0"
+}
+

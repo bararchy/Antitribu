@@ -1,0 +1,44 @@
+Particle
+{
+	frames		"45"
+	fps		"30"
+
+	spawn
+	{
+		particle 	"d_koldunism_cast2_fx1"
+		rate		"20"
+		theta		"0~360"	
+		radius		"0~15"	
+	}
+
+	//spawn
+	{
+		particle 	"d_koldunism_cast2_fx2"
+		loop 		"1"
+		rate 		"50"
+		radius 		"0"
+		theta 		"0~360"
+		phi		"0"
+	}
+
+	spawn
+	{
+		particle 	"d_koldunism_cast2_fx3"
+		burst		"5"
+		radius 		"0"
+		theta 		"0~360"
+		phi		"0~90"
+		z		"10"
+	}
+
+	spawn
+	{
+		particle 	"d_koldunism_cast2_fx4"
+		rate		"30"
+		z		"10"
+		radius 		"0"
+		theta 		"0~360"
+		phi		"0~90"
+	}
+}
+

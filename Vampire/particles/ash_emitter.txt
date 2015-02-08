@@ -1,0 +1,23 @@
+Particle
+{
+	loop "1"
+	precipitation "1"
+
+	spawn
+	{
+		particle "AshFalling"
+		rate "100"
+		radius "1~200"
+		theta "0~360"
+	}
+
+	spawn
+	{
+		particle "BurnigEmbers"
+		rate "20"
+		radius "1~200"
+		theta "0~360"
+	}
+
+}
+

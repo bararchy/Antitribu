@@ -1,0 +1,31 @@
+Particle
+{
+	frames		"210"
+	sprite		"mingxiaoslime"
+	size		"0,0(60),100(61),800(210)"
+	flat		"1"
+	width		"1"
+	theta_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	"0,0"
+	Rotation 	"0~360"
+	X_speed		"0"
+	Y_speed		"0"
+	Elevation_speed	"0"
+	parent_speed	"0"
+
+	red		"255,50(60),200,155(210)"
+	green		"255,300(60),200,200(210)"
+	blue		"255~100,455~300(60),100(210)"
+	color		"0,0(59),40(64),0(210)"
+
+
+
+	mask		"0,0(59),100(64),40,0(210)"
+
+	Depth_offset	"0"
+	sortfront	"0"
+
+	
+
+}

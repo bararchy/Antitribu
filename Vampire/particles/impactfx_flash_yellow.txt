@@ -1,0 +1,12 @@
+Particle
+{
+	frames 		"8"
+	sprite		"Flash_Yellow"
+	size		"30"
+	Depth_offset	"5"
+	Parent_speed	"0"
+	color		"255,255(3),0"
+	mask		"0"
+	Rotation 	"0~359"
+	sortfront	"1"
+}

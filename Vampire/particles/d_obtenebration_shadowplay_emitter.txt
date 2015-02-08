@@ -1,0 +1,35 @@
+Particle
+{
+	loop	"1"
+
+	spawn
+	{
+		particle	"d_obtenebration_shadowplay_fx1"
+		rate		"25"
+		phi 		"-180~180"
+		theta 		"0~360"
+		z		"0"
+		radius 		"0~5"
+	}
+		
+	spawn
+	{
+		particle 	"d_obtenebration_shadowplay_fx2"
+		loop 		"1"
+		rate 		"65"
+		radius 		"0"
+		theta 		"0~360"
+		phi		"0"
+	}
+	
+	spawn
+	{
+		particle 	"d_obtenebration_ten_form_fx4"
+		rate		"55"
+		radius 		"0"
+		theta 		"0~360"
+		phi		"0"
+		z		"-15"
+	}
+}
+

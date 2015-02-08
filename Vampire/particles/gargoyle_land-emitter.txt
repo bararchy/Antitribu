@@ -1,0 +1,42 @@
+Particle
+{
+loop "0"	
+
+	spawn
+	{
+		particle	"Gargoyle_Land-fx1"
+		burst		"200"
+		phi		"0"
+		theta		"0~360"
+		Radius		"0"
+	}
+	spawn
+	{
+		particle	"Gargoyle_Land-fx2"
+		burst		"1"
+		Radius		"0"
+	}
+	spawn
+	{
+		particle	"Gargoyle_Land-fx3"
+		burst		"1"
+		Radius		"0"
+	}
+	spawn
+	{
+		particle	"Gargoyle_Land-fx4"
+		burst		"500"
+		phi		"0"
+		theta		"0~360"
+		Radius		"0~200"
+	}
+	spawn
+	{
+		particle	"Gargoyle_Land-fx5"
+		burst		"100"
+		phi		"0"
+		theta		"0~360"
+		Radius		"0~400"
+	}
+
+}

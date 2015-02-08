@@ -1,0 +1,26 @@
+Particle
+{
+	frames 		"20"
+	sprite		"dementatewisps"
+	size		"20"
+	height		"1,5"
+	width		"1"
+	rotation	"0"
+	movealign	"1"
+	depth_offset	"-100"
+	parent_speed	"1"
+	elevation_speed	"0"
+	sortfront	"1"
+	Radius_speed	"-.1,0"
+//	phi_speed	"-700"
+//	x_speed		"-10,0"
+//	y_speed		"0,0,-10,10,-10,10,-10,10"
+//	z_speed		"0,0,-10,30,-30,30,-30,30"
+	red		"255"
+	green		"100"
+	blue		"255"
+	color		"100,150,0"
+	mask		"0"
+
+}
+

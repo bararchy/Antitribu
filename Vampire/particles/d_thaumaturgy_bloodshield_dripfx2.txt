@@ -1,0 +1,26 @@
+Particle
+{
+	frames 		"30"
+
+	sprite		"bloodshotdot"
+	size		"0"
+	elevation_speed	"-200"
+	parent_speed	"0"
+	movealign	"0"
+
+	color		"0"
+	mask		"0"
+
+	collide 
+	{
+		
+		decal
+		{
+		particle 	"D_thaum_blooddrops"
+		theta		"0~360"
+		radius		"2"
+		}
+	}
+
+}
+

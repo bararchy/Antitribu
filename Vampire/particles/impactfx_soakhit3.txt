@@ -1,0 +1,14 @@
+Particle
+{
+	frames 		"5"
+	max_frames	"5"
+	sprite		"flash"
+	size		"70,0"
+	rotation	"0~360"
+	Parent_speed	"0"
+	red		"80~110"
+	blue		"80~100"
+	green		"80~100"
+	color		"128,0"
+	mask		"0"
+}

@@ -1,0 +1,10 @@
+Particle
+{
+	frames 		"180"
+	sprite		"FurBall2"
+	size		"400"
+	color		"0"
+	mask		"0,255(20),255(150),0"
+
+}
+

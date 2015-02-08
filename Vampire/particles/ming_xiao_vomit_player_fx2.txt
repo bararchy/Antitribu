@@ -1,0 +1,21 @@
+Particle
+{
+	frames 		"30"
+	sprite		"mingxiaobubble"
+	size		"10,1"
+	height		"2,1,1"
+	width		"1"
+	rotation	"0"
+	depth_offset	"20"
+	parent_speed	"0"
+	sortfront	"1"
+	elevation_speed	"-20~-40"
+	Z_speed		"0"
+	red		"255,100"
+	green		"255,200"
+	blue		"255,355"
+	color		"0,200,0"
+	mask		"0,100,0"
+
+}
+

@@ -1,0 +1,15 @@
+Particle
+{
+	loop "1"
+
+	spawn
+	{
+		particle "fire_smokey_air_fx1"
+		rate "20"
+		radius "100~500"
+		theta "0~360"
+		phi	"0~20"
+		z	"30"
+	}
+}
+

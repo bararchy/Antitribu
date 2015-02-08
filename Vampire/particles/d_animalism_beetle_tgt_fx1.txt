@@ -1,0 +1,27 @@
+Particle
+{
+	sprite		"beetlehit"
+	frames		"20"
+	size		"5,30"
+	width		"1"
+	height		"1"
+	rotation	"0~360"
+	elevation_speed	"0"
+	parent_speed	"0"
+	radius_speed	"0"
+	movealign	"0"
+	depth_offset	"20"
+
+
+	red		"255"
+	green		"255,100"
+	blue		"255,0"
+	color		"255,255,0"
+
+	mask		"0"
+
+	sortfront	"0"
+
+	
+
+}

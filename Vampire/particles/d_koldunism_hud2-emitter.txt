@@ -1,0 +1,37 @@
+Particle
+{
+	frames			"30"
+	loop 			"0"
+
+	spawn
+	{
+		particle "d_koldunism_hud2-fx1"
+		rate		"3"
+		radius		"400"
+	
+	}
+	spawn
+	{
+		particle "d_koldunism_hud2-fx2"
+		rate		"5"
+		radius		"10"
+	
+	}
+	spawn
+	{
+		particle "d_koldunism_hud2-fx3"
+		burst		"1"
+
+	
+	}
+	spawn
+	{
+		particle "d_koldunism_hud2-fx4"
+		burst		"1"
+		rate		"1"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+	}
+}
+

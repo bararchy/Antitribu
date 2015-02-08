@@ -1,0 +1,26 @@
+Particle
+{
+		frames	"30"
+
+	spawn
+	{
+		particle "D_dementate_HUD_cast_fx1"
+		burst		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+	}
+
+	spawn
+	{
+		particle "d_dementate_HUD_cast_fx2"
+		rate		"100"
+		radius "0"
+		theta "90"
+		phi	"0"
+		y	"0"
+	}
+
+
+}
+

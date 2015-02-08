@@ -1,0 +1,12 @@
+Particle
+{
+	frames			"30"
+	loop 			"0"
+
+	spawn
+	{
+		particle 	"d_npc_fire_magic_lvl1_fx1"
+		rate		"60"
+	}
+}
+

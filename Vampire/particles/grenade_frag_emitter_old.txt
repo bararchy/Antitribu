@@ -1,0 +1,83 @@
+Particle
+{
+
+
+	spawn
+	{
+		particle "EX_center"
+		loop "1"
+		rate "100,0(15)!"
+		radius "50"
+		theta "0~360"
+		phi	"180~-180"
+//		Timescale "1.5"
+	}
+
+	spawn
+	{
+		particle "EX_Sparks"
+		loop "1"
+		rate "60,0(10)!"
+		radius "60"
+		theta "0~360"
+		phi	"180~-180"
+//		Timescale "1.5"
+	}
+
+	spawn
+	{
+		particle "EX_OuterRim"
+		loop "1"
+		rate "60,0(10)!"
+		radius "15"
+		theta "0~360"
+		phi	"180~-180"
+//		Timescale "1.5"
+	}
+
+	spawn
+	{
+		particle "EX_Flare"
+		loop "1"
+		rate "0"
+		burst "1"
+		radius "0"
+		theta "0~360"
+		phi	"180~-180"
+//		Timescale "1.5"
+	}
+
+	spawn
+	{
+		particle "EX_OuterRim2"
+		loop "1"
+		rate "60,0(10)!"
+		radius "30"
+		theta "0~360"
+		phi	"180~-180"
+//		Timescale "1.5"
+	}
+
+	spawn
+	{
+		particle "ExplosionSparks"
+		loop "1"
+		burst		"100"
+		rate "0"
+		radius "0"
+		theta "0~360"
+		phi	"180~-180"
+	}
+
+	spawn
+	{
+		particle "Debries"
+		loop "1"
+		burst		"10"
+		rate "0"
+		radius "0"
+		theta "0~360"
+		phi	"180~-180"
+	}
+}
+

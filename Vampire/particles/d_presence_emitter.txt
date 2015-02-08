@@ -1,0 +1,21 @@
+//Attach Type: Bone Single Point
+//Bone: Bip01 Head
+
+Particle
+{
+loop "1"	
+	spawn
+	{
+		particle	"D_Presence_Stars"
+		rate		"30"
+		phi		"180~-180"
+		theta		"0~360"
+	}
+
+	spawn
+	{
+		particle	"D_Presence_Halo"
+		rate		"3"
+		z		"3"
+	}
+}

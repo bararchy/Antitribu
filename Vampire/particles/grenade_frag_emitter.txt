@@ -1,0 +1,33 @@
+Particle
+{
+	frames			"10"
+
+	spawn
+	{
+		particle "Grenade_Frag_flash1"
+		burst 		"1"		
+	}
+
+
+	spawn
+	{
+		particle "Grenade_Frag_fire1"
+		loop 		"1"
+		burst		"30"
+		radius 		"10"
+		theta 		"0~360"
+	}
+	spawn
+	{
+		particle "Grenade_Frag_fire2"
+		loop 		"1"
+		burst 		"40"
+		radius 		"10"
+		theta 		"0~360"
+	}
+
+
+
+
+}
+

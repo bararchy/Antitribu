@@ -1,0 +1,25 @@
+Particle
+{
+	loop	"0"
+	frames	"100"	
+
+	spawn
+	{
+		particle "stealth_knife_fx1"
+		burst "20"
+		phi "0~60"
+		theta "0~360"
+	}
+	
+	spawn
+	{
+		particle "stealth_knife_fx1"
+		rate "80"
+		phi "0~60"
+		theta "0~360"
+	}
+	
+	
+}
+
+	

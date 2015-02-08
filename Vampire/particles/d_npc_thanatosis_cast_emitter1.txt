@@ -1,0 +1,35 @@
+Particle
+{
+	frames	"90"
+	spawn
+	{
+		particle "d_npc_thanatosis_cast_fx3"
+		rate 		"1"
+		burst		"2"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		x		"-.5"
+		z		"3"
+	}
+
+	spawn
+	{
+		particle "d_npc_thanatosis_cast_fx1"
+		rate 		"1"
+		loop 		"1"
+		burst		"2"
+		radius 		"50"
+		theta 		"0"
+		phi		"-90"
+	}
+
+	spawn
+	{
+		particle 	"d_npc_thanatosis_cast_fx2"
+		rate		"30"
+		theta		"0~360"	
+		radius		"0~15"	
+	}
+}
+

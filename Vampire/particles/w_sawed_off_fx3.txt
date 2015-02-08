@@ -1,0 +1,30 @@
+Particle
+{
+	frames 		"10"
+
+	sprite		"flamemedium"
+	size		"0,8~15"
+
+	Radius_speed	"50,0(10)"
+
+	x_speed 	"0~100,20~50"
+	z_speed		"0,0,50~100"
+
+	Rotation 	"0~360"
+		
+	width		"1"
+	height		"1"
+	elevation_speed	"0"
+	movealign	"0"
+	theta_speed	"0~20" 
+	phi_speed	"0~20"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+
+	color		"0,64,64,0"
+	Mask		"0"
+
+}
+

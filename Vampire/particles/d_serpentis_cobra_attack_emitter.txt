@@ -1,0 +1,38 @@
+Particle
+{	
+	frames		"20"
+	spawn
+	{
+		particle 	"d_serpentis_cobra_attack_fx1"
+		rate 		"45"
+		//loop 		"1"
+		theta 		"0~360"
+		phi		"180~-180"
+	}
+	//spawn
+	{
+		particle 	"d_serpentis_cobra_attack_fx2"
+		rate		"20"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+	}
+	spawn
+	{
+		particle 	"d_serpentis_cobra_attack_fx3"
+		burst		"3"
+		rate 		"0"
+		radius 		"0"
+		theta 		"0~360"
+		phi		"0~360"
+	}
+	spawn
+	{
+		particle	"d_serpentis_cobra_impact_fx3"
+		rate		"50"
+		theta		"0~360"
+		phi		"0"
+		z		"-3"
+	}
+}
+

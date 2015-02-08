@@ -1,0 +1,28 @@
+//Attach Type: Bone Tree
+
+
+Particle
+{
+loop "1"	
+
+
+	spawn
+	{
+		particle "D_Fortitude"
+		rate "100"
+		phi "-180~180"
+		theta "0~360"
+		z	"0"
+		radius "0 "
+	}
+
+	spawn
+	{
+		particle "D_Fortitude2"
+		rate "100"
+		phi "-180~180"
+		theta "0~360"
+		z	"0"
+		radius "0 "
+	}
+}

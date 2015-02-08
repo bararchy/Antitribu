@@ -1,0 +1,26 @@
+Particle
+{
+	frames 		"100"
+	sprite		"dementateember"
+	size		"15"
+	height		"1"
+	width		"1!,-1!,1!,-1!,1!,-1!,1!,-1!,1!,-1!,1!,-1!,1!,-1!,1!,-1!,1!,-1!,1!,-1!,1!,-1!,1!,-1!,1"
+	rotation	"0,5,-5,5,-5,5,-5,5,-5,5,-5,5,-5,0"
+	movealign	"1"
+	depth_offset	"0"
+	radius_speed	"0"
+	phi_speed	"-5,20,-10,50,-50,20,-10,40,-20,40,-50,30,-8,40,-40,50,-20,20,-20,30,0"
+	theta_speed	"-112"
+	parent_speed	"0"
+//	elevation_speed	"10,-20,20,-20,50,-5,5,-5,5,-5"
+	y_speed		"0"
+	sortfront	"1"
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"255"
+	mask		"0"
+
+
+}
+

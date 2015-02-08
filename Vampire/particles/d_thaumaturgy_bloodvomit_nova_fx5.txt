@@ -1,0 +1,18 @@
+Particle
+{
+	frames 		"20"
+	sprite		"bloodspray2"
+	size		"10~15,60~100"
+	height		"3,.5"
+	radius_speed	"250~300"
+	movealign	"1"
+	rotation	"0"
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"0,20,0"
+	mask		"30,0"
+	parent_speed	"1"
+
+}
+

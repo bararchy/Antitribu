@@ -1,0 +1,23 @@
+Particle
+{
+	frames 		"4"
+	min_frames	"2"
+	max_frames	"6"
+	sprite		"bloodsplat"
+	size		"1"
+	height		"1~50"
+	radius_speed	"600~1000"
+	
+	parent_speed	"0"
+	Movealign	"1"
+
+	red		"255,255,255,255,255"
+	green		"255,128,128,128,128"
+	blue		"255,64,64,64,64"
+
+	color		"255"
+
+	mask		"0"
+}
+
+

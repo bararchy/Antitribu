@@ -1,0 +1,16 @@
+Particle
+{
+	frames 		"10"
+	sprite		"tzim2blastring"
+	size		"30,350"
+	movealign	"1"
+	rotation	"0~360,0~360"
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"255,0"
+	mask		"50,0"
+	parent_speed	"0"
+
+}
+

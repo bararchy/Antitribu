@@ -1,0 +1,23 @@
+Particle
+{
+	frames "15"
+
+	spawn
+	{
+		particle "W_thirtyeight_Smoke1"
+		rate "30"
+		parent_speed	"1"
+		y		"-3"
+	}
+
+	spawn
+	{
+		particle "W_thirtyeight_Smoke2"
+		rate "10"
+		parent_speed	"1"
+		y		"-3"
+	}
+}
+
+
+

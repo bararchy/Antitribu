@@ -1,0 +1,35 @@
+Particle
+{
+		frames	"30"
+
+	spawn
+	{
+		particle "d_thaumaturgy_bloodboil_nova_fx1"
+		burst		"50"
+		rate "0"
+		radius "0"
+		theta "0~360"
+		phi	"0~360"
+	}
+
+	spawn
+	{
+		particle "d_thaumaturgy_bloodboil_nova_fx2"
+		burst		"1"
+		radius "0"
+		theta "0"
+		phi	"0"
+	}
+
+	spawn
+	{
+		particle "d_thaumaturgy_bloodboil_nova_fx3"
+		burst		"1"
+		radius "0"
+		z	"-60"
+		theta "0"
+		phi	"-90"
+	}
+
+}
+

@@ -1,0 +1,38 @@
+Particle
+{
+loop "0"	
+
+//	spawn
+	{
+		particle "ImpactFX_BlackendDustPuff"
+		burst "4"
+		phi "-20~20"
+		theta "-20~20"
+	}
+	spawn
+	{
+		particle "ImpactFX_Sparks"
+		burst "5~20"
+		phi "-80~80"
+		theta "-80~80"
+		x	"1"
+
+	}
+
+	spawn
+	{
+		particle "ImpactFX_Flash_Large"
+		burst "1"
+		x	"1"
+	}
+
+//	spawn
+	{
+		particle "ImpactFX_SparkSpray"
+		burst "5~10"
+		phi "-60~60"
+		theta "-60~60"
+		x	"1"
+
+	}
+}

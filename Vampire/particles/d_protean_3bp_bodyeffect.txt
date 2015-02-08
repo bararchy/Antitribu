@@ -1,0 +1,23 @@
+Particle
+{
+	frames 		"30"
+	sprite		"veinfire"
+	size		"20,0"
+	Depth_offset	"1"
+	theta_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	"0"
+	Rotation 	"0~360"
+
+	Parent_speed	"1"
+
+	red		"255,255,255"
+	green		"128,255,0"
+	blue		"64,255,0"
+
+	color		"0,255"
+	mask		"0"
+
+}
+
+

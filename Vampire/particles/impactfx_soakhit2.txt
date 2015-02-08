@@ -1,0 +1,14 @@
+Particle
+{
+	frames 		"4"
+	max_frames	"4"
+	sprite		"aura_blue"
+	size		"50,0"
+	rotation	"0~360"
+	Parent_speed	"0"
+	red		"70~160"
+	blue		"100~240"
+	green		"70~160"
+	color		"128,0"
+	mask		"0"
+}

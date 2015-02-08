@@ -1,0 +1,26 @@
+Particle
+{
+	frames 		"7"
+	sprite		"claws"
+	size		"10"
+	Depth_offset	"2"
+	height		"1,30,30"
+	theta_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	"0"
+	Rotation 	"45"
+	X_speed		"0"
+	Y_speed		"0"
+	Z_speed		"0"
+	Parent_speed	"0"
+
+	red		"255,255"
+	green		"255,0"
+	blue		"255,0"
+
+	color		"255,0"
+
+	mask		"0"
+}
+
+

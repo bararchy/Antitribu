@@ -1,0 +1,22 @@
+Particle
+{
+	loop "0"	
+
+	spawn
+	{
+		particle	"BloodSplash_fx1"
+		loop "0"
+		burst "10"
+		radius "0~35"
+		theta "0~360"
+	}
+
+	spawn
+	{
+		particle 	"BloodSplash_fx2"
+		loop "0"
+		rate "30"
+		radius "0~30"
+		theta "0~360"
+	}	
+}

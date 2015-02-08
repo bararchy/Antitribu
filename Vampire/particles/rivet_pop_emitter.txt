@@ -1,0 +1,13 @@
+Particle
+{
+loop "0"	
+
+	spawn
+	{
+		particle "ImpactFX_ColorDustPuff"
+		burst "4"
+		phi "-20~20"
+		theta "-20~20"
+	}
+
+}

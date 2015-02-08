@@ -1,0 +1,17 @@
+Particle
+{
+	frames 		"20"
+	sprite		"bloodboilblastring"
+	size		"0,550"
+	flat		"1"
+	movealign	"1"
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"255,0"
+	mask		"50"
+	parent_speed	"0"
+
+}
+
+

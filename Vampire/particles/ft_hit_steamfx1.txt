@@ -1,0 +1,25 @@
+Particle
+{
+	frames		"25"
+	sprite		"furball"
+	size		"80,15~40"
+
+	rotation	"-360~360,-360~360"
+
+	radius_speed	"10~200,0"
+	elevation_speed	"0,50~200"
+	
+	depth_offset	"20"
+	
+	red		"255"
+	green		"255"
+	blue		"255"
+
+	color		"16~64,0"
+	mask		"0"
+
+
+
+}
+
+

@@ -1,0 +1,21 @@
+Particle
+{
+	frames		"30"
+	sprite		"fire-sprite2"
+	size		"5,10"
+	rotation	"0"
+	Depth_offset	"0"
+	z_speed		"0~20"
+
+	red		"10"
+	blue		"255"
+	green		"10"
+
+
+	color		"255,0"
+	mask		"0"
+	
+	
+}
+
+

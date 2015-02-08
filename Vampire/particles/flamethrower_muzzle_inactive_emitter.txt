@@ -1,0 +1,12 @@
+Particle
+{	
+	frames	"30"
+	loop	"1"
+
+	spawn
+	{
+		particle "flamethrower_Muzzle_Inactive_FX-1"
+		rate	"0"
+		loop	"1"
+	}	
+}

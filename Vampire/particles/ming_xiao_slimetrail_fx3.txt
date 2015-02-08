@@ -1,0 +1,23 @@
+Particle
+{
+	sprite		"mingxiaobubble"
+	frames		"60"
+	size		"1~5,1"
+	height		"3~7,1"
+	rotation	"0"
+	elevation_speed	"100,-200"
+	parent_speed	".5"
+	radius_speed	"50,0"
+	movealign	"1"
+
+
+	red		"0,255"
+	green		"255~150,150"
+	blue		"455~300,100"
+	color		"160,0(50)"
+
+	mask		"100,255"
+
+	sortfront	"0"
+}
+

@@ -1,0 +1,9 @@
+Particle
+{
+	sprite		"smile"
+	frames		"30"
+	size		"5"
+	color		"255,0"
+	mask		"255,0"
+}
+

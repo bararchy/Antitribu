@@ -1,0 +1,21 @@
+Particle
+{
+	frames 		"30"
+	sprite		"fangs"
+	size		"0,50,50,50,0"
+	height		"10,1,1,1"
+	Depth_offset	"1"
+	Rotation 	"0"
+
+	Parent_speed	"1"
+
+	red		"255,255,255"
+	green		"128,255,0"
+	blue		"64,255,0"
+
+	color		"0,128,0"
+	mask		"0"
+
+}
+
+

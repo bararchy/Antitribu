@@ -1,0 +1,43 @@
+Particle
+{
+	
+	loop	"0"
+	frames	"210"
+
+	spawn
+	{
+		particle	"ming_xiao_vomit_player_fx1"
+		rate		"20"
+		theta		"0"
+		phi		"0"
+	}
+
+	spawn
+	{
+		particle	"ming_xiao_vomit_player_fx2"
+		rate		"30"
+		theta		"0"
+		phi		"0"
+	}
+
+	spawn
+	{
+		particle	"ming_xiao_vomit_player_fx3"
+		rate		"80"
+		theta		"0~360"
+		phi		"0"
+	}
+
+	spawn
+	{
+		particle	"ming_xiao_vomit_player_fx4"
+		rate		"20"
+		theta		"0"
+		phi		"0"
+	}
+
+}
+
+
+
+

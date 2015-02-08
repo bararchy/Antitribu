@@ -1,0 +1,22 @@
+Particle
+{
+	frames 		"15"
+	sprite		"furball2"
+	size		"35"
+	theta_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	"30,50~60,100(80),0"
+
+	X_speed		"2~-1,0"
+	Y_speed		"2~-1,0"
+	z_speed		"2~-1,0"
+	Elevation_speed	"-5,-10"
+
+	red		"64"
+	green		"64"
+	blue		"64"
+	color		"0,60,0"
+	mask		"0,200,0"
+
+
+}

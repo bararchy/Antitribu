@@ -1,0 +1,23 @@
+//Attach Type: Bone Tree + Model Colors
+
+Particle
+{
+	sprite		"point_16"
+	loop		"1"
+	radius		"0"
+	theta		"0~360"
+	phi		"-180~180"
+	x		"-10~10
+
+	spawn
+	{
+		particle	"D_ThaumatergyHit_Projectiles"
+		loop		"0"
+		rate		"0"
+		radius		"0"
+		theta		"0~360"
+		phi		"180~-180"
+	}
+
+}
+

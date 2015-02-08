@@ -1,0 +1,27 @@
+Particle
+{
+	frames	"250"
+
+	spawn
+	{
+		particle "d_Viscicitude_1_tgt_fx1"
+//		burst		"25"
+		rate		"30"
+		radius		"0~2"
+		theta		"0~360"
+	}
+
+	spawn
+	{
+		particle "d_Viscicitude_1_tgt_fx2"
+		rate		"8"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		x		"0"
+		z		"3"
+	}
+
+
+}
+

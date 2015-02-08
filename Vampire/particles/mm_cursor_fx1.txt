@@ -1,0 +1,22 @@
+Particle
+{
+	frames 		"60"
+
+	sprite		"d_target_ring2"
+	size		".05,.08"
+	height		"1"
+	width		"1"
+
+	rotation	"0~360"
+	Parent_speed	"1"
+
+	red		"9000"
+	green		"0"
+	blue		"0"
+
+	color		"255,255,0"
+	mask		"0"
+
+}
+
+

@@ -1,0 +1,18 @@
+Particle
+{
+	frames 		"15"
+	sprite		"tremblastring"
+	size		"0,150,220"
+	flat		"1"
+	rotation	"0~360"
+	radius_speed	"0"
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"255,0"
+	mask		"0"
+	parent_speed	"0"
+	elevation_speed	"0"
+
+}
+

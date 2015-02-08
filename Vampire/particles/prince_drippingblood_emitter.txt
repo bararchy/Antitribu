@@ -1,0 +1,15 @@
+Particle
+{
+	loop	"0"
+	frames	"350"	
+
+	spawn
+	{
+		particle "prince_drip_fx1"
+		rate "20,40,0"
+		phi "0"
+		theta "0~360"
+		x	"0"
+	}
+	
+}

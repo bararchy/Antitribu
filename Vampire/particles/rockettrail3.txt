@@ -1,0 +1,21 @@
+Particle
+{
+	sprite "flamemedium"
+
+	frames 		"50"
+	max_frames	"80"
+	parent_speed 	"0"
+	size 		"2,5~10(5),10~20"
+	Rotation	"0,90,180,200~270,360"
+	Z_speed		"0,2~6"
+	Radius_speed	"5,0(10)"
+
+
+	red		"255"
+	green		"255"
+	blue		"255"
+
+	color		"0,64,64,0"
+	Mask		"0"
+
+}

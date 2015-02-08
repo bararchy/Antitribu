@@ -1,0 +1,25 @@
+Particle
+{
+	frames		"50"
+	sprite		"mingxiaosperm"
+	size		"2"
+	height		"-1"
+	theta_speed 	"10"
+	phi_speed 	"0"
+	radius_speed	"10"
+	Rotation 	"10,-10,10,-10,10,-10,10,-10,10,-10,10,-10,10,-10,10"
+	X_speed		"0"
+	Y_speed		"0"
+	Elevation_speed	"-5~-10,5~-5,15~-15,4~-4(20),-100"
+	parent_speed	"0"
+	movealign	"1"
+
+	Depth_offset	"10"
+	sortfront	"1"
+
+	red		"200"
+	blue		"50"
+	green		"255"
+	color		"50~150!,0!,0!,50!,0!,50~150!,0!"
+	mask		"0"
+}

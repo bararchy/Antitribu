@@ -1,0 +1,10 @@
+Particle
+{
+	spawn
+	{
+		particle 	"Warehoue_Explosion_Base_emitter"
+		burst 		"1"
+
+	}
+}
+

@@ -1,0 +1,20 @@
+Particle
+{
+	frames 		"40"
+	sprite		"vic6crown"
+	size		"12"
+	rotation	"0~360"
+	depth_offset	"-10"
+	parent_speed	"1"
+	sortfront	"1"
+	elevation_speed	"0"
+	Z_speed		"0"
+	red		"255"
+	green		"255"
+	blue		"255"
+
+	mask		"0"
+
+
+}
+

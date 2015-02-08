@@ -1,0 +1,18 @@
+Particle
+{
+	frames 		"105"
+	sprite		"Tzim2slime"
+	size		"20~30,50"
+	rotation	"0~90,0~90"
+	Depth_offset	"-100"
+	radius_speed	"-.1"
+	movealign	"1"
+	sortfront	"1"
+	Parent_speed	"0"
+
+	red		"64"
+	green		"64"
+	blue		"64"
+	color		"0,60,0"
+	mask		"0,200,0"
+}

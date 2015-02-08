@@ -1,0 +1,28 @@
+Particle
+{
+loop "0"	
+
+	spawn
+	{
+		particle "ImpactFX_Sparks_Long"
+		burst "80"
+		phi "-180~180"
+		theta "0~360"
+
+	}
+
+	spawn
+	{
+		particle "ImpactFX_Flash_Large"
+		burst "1"
+	}
+
+	spawn
+	{
+		particle "ImpactFX_SparkSpray"
+		burst "5~10"
+		phi "-60~60"
+		theta "-60~60"
+
+	}
+}

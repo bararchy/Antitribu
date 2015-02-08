@@ -1,0 +1,22 @@
+Particle
+{
+
+	fps	"30"
+	loop	"1"
+
+	
+	spawn
+	{
+		particle	"D_fortitude_bodyGlowfx1"
+		rate		"30"
+	}
+	
+	spawn
+	{
+		particle 	"D_fortitude_bodyGlowfx2"
+		rate 		"130"
+
+	}
+
+}
+

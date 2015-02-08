@@ -1,0 +1,25 @@
+Particle
+{
+
+	sprite		"tremblastring"
+	frames		"90"
+	size		"0,0(70),1000(90)"
+	height		"1"
+	flat		"1"
+	rotation	"0"
+	elevation_speed	"0"
+	parent_speed	"1"
+	radius_speed	"0"
+	movealign	"0"
+
+
+	red		"0"
+	green		"0,100(50),200,200"
+	blue		"0,400(50),255,100"
+	color		"255,255(70),0"
+
+	mask		"100,0"
+
+	sortfront	"0"
+
+}

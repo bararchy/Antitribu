@@ -1,0 +1,19 @@
+Particle
+{
+	frames 		"20"
+	sprite		"glassshard"
+	size		".2~.5"
+	height		"5,1,1"
+	flat		"0"
+	elevation_speed	"80~200,-60"
+	rotation	"0,0~360,0~360,0~360"	
+
+	red		"1000"
+	green		"1000"
+	blue		"1000"
+	color		"255,0"
+	mask		"0"
+	parent_speed	"0"
+	elevation_speed	"0"
+}
+

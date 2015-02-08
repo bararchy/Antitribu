@@ -1,0 +1,29 @@
+Particle
+{
+	loop "0"
+	frames	"10"
+
+
+	spawn
+	{
+		particle "force_feeding_fx1"
+		burst "20"
+		radius "0"
+		theta "0"
+		phi	"0"
+		z	"0"
+	}
+
+	spawn
+	{
+		particle "force_feeding_fx2"
+		burst "10"
+		radius "3"
+		theta "20"
+		phi	"0"
+		z	"0"
+	}
+
+
+}
+

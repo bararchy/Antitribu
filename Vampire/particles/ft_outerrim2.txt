@@ -1,0 +1,23 @@
+Particle
+{
+	frames 		"30"
+	fps		"30"
+
+	sprite		"Crust"
+	size		"0,10(7),30"
+
+	Rotation 	"0,12"
+	x_speed		"0"
+	y_speed		"0"
+	Z_speed		"0"
+	Radius_speed	"30"
+	movealign	"1"
+
+	red		"200,200,150,100,50,0"
+	green		"200,100,66,33,0"
+	blue		"100,25,15,10,0"
+	color		"300(10),0(30)"
+	mask		"0"
+
+}
+

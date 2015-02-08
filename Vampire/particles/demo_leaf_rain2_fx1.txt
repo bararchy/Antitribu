@@ -1,0 +1,19 @@
+Particle
+{
+	sprite		"leaf"
+	frames		"200"
+	X_speed		"-50~-10"
+	Y_speed		"-20~20,-20~20"
+	Z_speed		"-20~-100,10~-20,-70"
+	movealign	"1"
+	rotation	"0,0~360(30),0~360,0~360"
+	size		"10~20"
+	width		"1~1.5"
+	height		"-1"
+	red		"200"
+	green		"200"
+	blue		"200"
+	color		"0,255~200(5),255~200(195),0"
+	mask		"0,255(5),255(195),0"
+}
+

@@ -1,0 +1,37 @@
+Particle
+{
+	frames 		"90"
+
+	sprite		"ember3"
+	size		"2"
+
+	x_speed		"140,140,-60"
+	y_speed		"80,-150,300"
+
+	red		"200~255"
+	green		"128"
+	blue		"64"
+
+	color		"255"
+	Mask		"0"
+
+
+	spawn
+	{
+		particle "Gasoline_Fire_Trail_Fx1-flameline"
+
+		rate "60"
+		frames	"90"
+	
+	}
+	spawn
+	{
+		particle "Gasoline_Fire_Trail_Fx1-flameline-glow"
+
+		rate "60"
+		frames	"90"
+	
+	}
+
+}
+

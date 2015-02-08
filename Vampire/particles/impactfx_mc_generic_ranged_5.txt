@@ -1,0 +1,22 @@
+Particle
+{
+	frames 		"25"
+	sprite		"Ember3"
+	size		"3~1"
+	x_speed 	"-60~60"
+	y_speed 	"-60~60"
+	z_speed		"-60~90,-120"
+	parent_speed	"0"
+	movealign	"1"
+
+	depth_offset	"10"
+	
+	red		"200~255,255"
+	green		"10~50,0"
+	blue		"10~50,0"
+	color 		"255,150,155,155"
+	mask		"0,255,255,255"
+}
+
+
+	

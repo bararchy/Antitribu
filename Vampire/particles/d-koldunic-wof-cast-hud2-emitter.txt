@@ -1,0 +1,14 @@
+Particle
+{
+	//loop 		"1"	
+	frames 		"300"
+
+	spawn
+	{
+		particle "d-koldunic-wof-cast-hud-fx2"
+		rate		"9"
+		phi		"0~360"
+		radius		"1"	
+		theta		"270"
+	}
+}

@@ -1,0 +1,13 @@
+Particle
+{
+
+
+	spawn
+	{
+		particle	"C_Theater_Collum_Emitter"
+		burst		"1"
+		z		"200"
+
+	}
+
+}

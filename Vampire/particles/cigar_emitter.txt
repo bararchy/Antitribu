@@ -1,0 +1,15 @@
+Particle
+{
+	loop	"0"
+	fps	"30"
+
+	spawn
+	{
+		particle	"Cigar_SmokeMover"
+		burst		"2"
+		radius		".2~1"
+		theta		"0~360"
+		phi		"0~360"
+ 	}
+}
+

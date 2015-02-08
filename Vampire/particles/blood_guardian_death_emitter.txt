@@ -1,0 +1,27 @@
+Particle
+{
+	frames			"90"
+
+	spawn
+	{
+		particle 	"blood_guardian_death_fx1"
+		burst		"100"
+		radius		"0~15"
+		theta		"0~360"	
+		phi		"0~360"
+		z		"0~80"	
+
+	}
+
+	spawn
+	{
+		particle 	"blood_guardian_death_fx2"
+		rate		"3"
+		radius		"0"
+		theta		"0~360"	
+		phi		"0"
+		z		"0"	
+
+	}
+	
+}

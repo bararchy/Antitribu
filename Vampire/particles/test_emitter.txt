@@ -1,0 +1,8 @@
+Particle
+{
+	spawn
+	{
+		particle	"Test" //The particles name with the TXT extension striped
+		burst		"1"  //create a single particle
+	}
+}

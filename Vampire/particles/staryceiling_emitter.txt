@@ -1,0 +1,14 @@
+Particle
+{
+	loop "1"
+
+	spawn
+	{
+		particle "StaryCeiling_star"
+		rate "100"
+		radius "-150~150"
+		theta "0~360"
+	}
+
+}
+

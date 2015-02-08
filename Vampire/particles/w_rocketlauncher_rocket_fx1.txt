@@ -1,0 +1,30 @@
+Particle
+{
+	frames 		"30"
+	min_frames	"20"
+	max_frames	"45"
+
+	sprite		"furball"
+	size		"10,100,100,100,100"
+
+
+	radius_speed	"-600~-800,0"
+//	phi_speed	"100"
+
+	x_speed		"100~-100"
+	y_speed		"100~-100"
+	z_speed		"100~-100"
+
+	Rotation 	"0~360,0~360"
+	
+	parent_speed	"0"
+
+	red		"255,255,255,255"
+	green		"128,255,255,255"
+	blue		"64,255,255,255"
+
+	color		"128,64,20,15,10,5,0"
+	mask		"0,80,60,40,20,0"
+}
+
+

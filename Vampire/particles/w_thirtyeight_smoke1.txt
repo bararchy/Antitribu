@@ -1,0 +1,21 @@
+Particle
+{
+	frames 		"60"
+	sprite		"crust"
+	size		"2,1~8"
+	Rotation 	"0~360,0~360"
+	
+	Z_speed		"2~10"
+	parent_speed	"0"
+
+	red		"128"
+	green		"128"
+	blue		"128"
+
+	color		"16~64,0"
+
+	mask		"64,0"
+}
+
+
+

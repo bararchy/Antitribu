@@ -1,0 +1,23 @@
+Particle
+{
+	frames		"180"
+	sprite		"ember3"
+	size		"20~40"
+
+	rotation	"0"
+
+	z_speed		"0"
+	depth_offset	"5"
+	
+	movealign	"0"
+
+	red		"255,255,255,128,64"
+	green		"192,192,128,0,0"
+	blue		"128,128,64,0,0"
+
+	color		"0,30,25,20,15,10,5,0"
+	mask		"0"
+
+	"flat"		"1"
+
+}

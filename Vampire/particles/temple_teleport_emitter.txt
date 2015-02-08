@@ -1,0 +1,75 @@
+Particle
+{
+	frames			"30"
+	loop 			"1"
+
+	spawn
+	{
+		particle "temple_teleport_fx1"
+		rate		"50"
+		phi		"130~210"
+		theta		"0~360"
+		radius		"200~250"
+	}
+
+	spawn
+	{
+		particle "temple_teleport_fx2"
+		burst		"1"
+		phi		"0"
+		theta		"5"
+		radius		"1"
+		z		"60"
+	}
+	spawn
+	{
+		particle "temple_teleport_fx3"
+		rate		"3"
+		phi		"0"
+		theta		"0"
+		radius		"0"
+		z		"40"
+	}
+
+	spawn
+	{
+		particle "temple_teleport_fx4"
+		burst		"2"
+		phi		"0"
+		theta		"5"
+		radius		"1"
+		z		"60"
+	}
+
+	spawn
+	{
+		particle "temple_teleport_fx5"
+		burst		"1"
+		phi		"0"
+		theta		"5"
+		radius		"1"
+		z		"60"
+	}
+
+	spawn
+	{
+		particle "temple_teleport_fx6"
+		rate		"3"
+		phi		"0"
+		theta		"5"
+		radius		"1"
+		z		"60"
+	}
+
+	spawn
+	{
+		particle "temple_teleport_fx7"
+		rate		"20"
+		phi		"0"
+		theta		"0~360"
+		radius		"300"
+		z		"-30"
+	}
+
+}
+

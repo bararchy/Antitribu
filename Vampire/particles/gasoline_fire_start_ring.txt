@@ -1,0 +1,23 @@
+Particle
+{
+	frames 		"15"
+	
+
+	sprite		"crust"
+	size		"0,200,200~300"
+
+	rotation	"0~360"
+	flat		"1"
+
+
+	red		"0~64"
+	green		"0~64"
+	blue		"255"
+
+	color		"255,0"
+	Mask		"0"
+
+
+
+}
+

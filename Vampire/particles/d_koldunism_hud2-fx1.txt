@@ -1,0 +1,17 @@
+Particle
+{
+	frames 		"40"
+
+	sprite		"teleportring2"
+	size		"0,200"
+	radius_speed 	"-400"
+	no_z_test	"1"
+
+	red		"50~100"
+	green		"75~100"
+	blue		"200~255"
+	color		"255(1),0~255,0~255,0~255,0~255,0~255,0~255,0~255,0~255,0~255,0~255,0~255"
+	mask		"0"
+
+}
+

@@ -1,0 +1,31 @@
+Particle
+{
+	frames 		"8"
+
+	sprite		"shock1"
+	size		"10~20"
+	height		"1,.1,1"
+	width		"1,.1,.1,1"
+	
+	theta_speed 	"0"
+	phi_speed 	"0"
+	radius_speed	".3"
+	Rotation 	"0~360"
+	X_speed		"0"
+	Y_speed		"0"
+	z_speed		"0"
+	Elevation_speed	"0"
+	movealign	"1"
+	Parent_speed	"1"
+
+	red		"200"
+	blue		"50"
+	green		"255"
+	color		"50~150!,0!,0!,50!,0!,50~150!,0!"
+
+	mask		"0"
+
+	Depth_offset	"0"
+	
+	
+}

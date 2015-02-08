@@ -1,0 +1,14 @@
+Particle
+{
+	frames "90"
+
+	spawn
+	{
+		particle "Gasoline_Fire_Trail_Fx1"
+		burst "1"
+	
+	}
+
+
+}
+

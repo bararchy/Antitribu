@@ -1,0 +1,16 @@
+Particle
+{
+	frames 		"5"
+	sprite		"flash"
+	size		"10"
+	parent_speed	"1"
+
+	red		"255"
+	green		"128"
+	blue		"64"
+
+	color		"255,0"
+	mask		"0"
+}
+
+	

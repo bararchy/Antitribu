@@ -1,0 +1,28 @@
+Particle
+{
+	frames 		"50"
+	sprite		"ember4"
+	size		"10,5"
+	height		"1"
+	width		"1"
+	elevation_speed	"40~50"
+	Radius_speed	"1"
+	x_speed		"0~40,0~20,-10~10,-10~10"
+	y_speed		"0~40,0~20,-10~10,-10~10"
+	phi_speed	"300"
+	Depth_offset	"50"
+	Rotation 	"0"
+	Parent_Speed	"0"
+	movealign	"0"
+	
+
+
+
+	red		"140,100"
+	blue		"255"
+	green		"190,150"
+
+	color		"255,0"
+
+	mask		"0"
+}

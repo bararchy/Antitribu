@@ -1,0 +1,50 @@
+Particle
+{
+	loop	"0"
+	frames "30"
+
+	spawn
+	{
+		particle "d-koldunic-wof-cast-fx1"
+		burst		"1"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		z		"2"
+	}
+	spawn
+	{
+		particle "d-koldunic-wof-cast-fx2"
+		rate		"50"
+		radius 		"0"
+		theta 		"0"
+		phi		"0"
+		z		"2"
+	}
+	//spawn
+	{
+		particle "d-koldunic-wof-cast-fx3"
+		rate		"50"
+		radius 		"0"
+		theta 		"0~360"
+		phi		"0~360"
+	}
+	spawn
+	{
+		particle "d-koldunic-wof-cast-fx4"
+		burst		"1"
+		radius 		"50"
+		theta 		"0"
+		phi		"-90"
+	}
+	spawn
+	{
+		particle "Andrei_powerup_fx2"
+		rate		"75"
+		radius		"15~22"
+		phi		"0~360"
+		theta		"0~360"
+		z		"-20"
+	}
+}
+

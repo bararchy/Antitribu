@@ -1,0 +1,32 @@
+Particle
+{
+	frames 		"30"
+	sprite		"nivdot"
+	size		"5"
+	Depth_offset	"5"
+	
+	radius_speed	"100,-100"
+	Rotation 	"0"
+	X_speed		"0"
+	Y_speed		"0"
+	Z_speed		"0"
+	move_align	"1"
+
+	Parent_speed	"1"
+
+	red		"255"
+	green		"255"
+	blue		"255"
+
+	color		"255"
+
+	mask		"0"
+
+	spawn
+	{
+		particle "D_BloodHealing-trail"
+		rate "100"
+	}
+}
+
+

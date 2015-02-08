@@ -1,0 +1,52 @@
+Particle
+{
+	sprite		"flamemass"
+	rate		"1"
+	size		"0(0),10~20(10),50~60(70)"
+	width		"1"
+	height		"1"
+	frames		"90"
+	color		"60(0),10(90)"
+	rotation	"0~360(0),0~60(90)"
+	mask		"0"
+
+	parent_speed	"1"
+	x_speed		"-350"
+	z_speed		"0(0),30(90)"
+	Radius_speed	"100" // The speed the particle travels from the emitter
+
+	theta_speed	"-10~5" //The speed it orbits the emitting particle horizontally
+	phi_speed	"0~5" //The speed it orbits the emitting particle vertically
+
+	elevation_speed	"0"
+	
+	movealign	"0"
+
+	spawn
+	{
+		
+		particle "flametrailup"
+		rate "0~3"
+		radius "0"
+		theta "0"
+		phi "0"
+		
+	}
+	
+
+	collide //What happens when the particle collides with world geometry
+	{
+		
+	spawn
+	{
+		particle 	"flame_stationary_smoke"
+		friction 	"2"
+		Bounce		".001"
+	}
+		decal
+		{
+		particle 	"flamebrush"
+		}
+	}
+}
+

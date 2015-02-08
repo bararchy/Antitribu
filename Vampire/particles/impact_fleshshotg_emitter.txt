@@ -1,0 +1,20 @@
+//Attach Type: Bone Single Point
+//Bone: Bip01 Spine2
+
+Particle
+{
+	loop "0"
+	fps "30"
+
+	spawn
+	{
+		particle "D_BloodHealing"
+		loop "1"
+		rate "100"
+		radius "20~30"
+		theta "0~360"
+		phi	"-180~180"
+	}
+
+}
+

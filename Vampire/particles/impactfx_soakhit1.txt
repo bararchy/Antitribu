@@ -1,0 +1,14 @@
+Particle
+{
+	frames 		"7"
+	max_frames	"7"
+	sprite		"ring"
+	size		"0,40"
+	rotation	"0"
+	Parent_speed	"0"
+	red		"70~120"
+	blue		"70~160"
+	green		"70~120"
+	color		"100,0"
+	mask		"0"
+}

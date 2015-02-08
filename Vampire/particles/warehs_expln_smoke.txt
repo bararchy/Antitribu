@@ -1,0 +1,18 @@
+Particle
+{
+	loop		"0"
+	frames 		"300"
+	max_frames	"500"
+	sprite		"furballbottomglow"
+	size		"30,200"
+	Depth_offset	"10"
+	X_speed		"-10~10,-10~10,-10~10,-10~10"
+	Y_speed		"10~-10,50~60"
+	Elevation_speed	"50,20"
+	color		"0,100(20),0"
+	mask		"0,100(20),100,0"
+
+
+}
+
+

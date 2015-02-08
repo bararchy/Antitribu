@@ -1,0 +1,20 @@
+Particle
+{
+	frames 		"90"
+	sprite		"dementatedeath"
+	size		"110"
+	height		"1,1,2"
+	width		"1,1,.5"
+	elevation_speed	"40,0"
+	depth_offset	"0"
+	flat		"0"
+	movealign	"0"
+	red		"255"
+	green		"255"
+	blue		"255"
+	color		"20"
+	mask		"255,255,0"
+	parent_speed	"0"
+
+}
+

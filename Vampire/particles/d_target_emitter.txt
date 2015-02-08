@@ -1,0 +1,18 @@
+//Attach Type: Bone Tree
+
+Particle
+{
+	loop "1"
+	fps "30"
+
+//	spawn
+	{
+		particle "D_Target"
+		loop "1"
+		rate "200"
+		radius "0"
+		theta "0"
+		phi	"0"
+	}
+}
+

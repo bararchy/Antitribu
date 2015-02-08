@@ -1,0 +1,40 @@
+Particle
+{
+
+	sprite		"mingxiaobubble"
+	frames		"60"
+	size		"2~7,1"
+	height		"3~4,1"
+	rotation	"0"
+	elevation_speed	"100~200,-100~-400"
+	parent_speed	"0"
+	radius_speed	"50,0"
+	movealign	"1"
+
+
+	red		"0,255"
+	green		"100,255~150,150"
+	blue		"400,255~100,100"
+	color		"255,255"
+
+	mask		"100,0"
+
+	sortfront	"0"
+
+collide 
+	{
+		
+		decal
+		{
+		particle 	"ming_xiao_death_trail_fx1"
+		theta		"0~360"
+		radius		"3"
+		}
+		decal
+		{
+		particle 	"ming_xiao_death_trail_fx2"
+		theta		"0~360"
+		radius		"3"
+		}
+	}
+}

@@ -1,0 +1,32 @@
+Particle
+{
+	loop 	"1"
+	frames	"30"
+	fps 	"30"
+
+	spawn
+	{
+		particle 	"d_Obtenebration_hud5_fx1"
+		rate		"50"
+		phi		"0~360"
+		radius		"1"	
+		theta		"270"
+	}
+	spawn
+	{
+		particle 	"d_Obtenebration_hud5_fx2"
+		burst		"20"
+		phi		"0~360"
+		radius		"1"	
+		theta		"270"
+	}
+	spawn
+	{
+		particle 	"d_Obtenebration_hud5_fx3"
+		burst		"20"
+		phi		"0~360"
+		radius		"1"	
+		theta		"270"
+	}
+}
+

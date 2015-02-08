@@ -1,0 +1,41 @@
+Particle
+{
+	frames			"30"
+	loop 			"1"
+
+	spawn
+	{
+		particle "Ethereal_Flame_Fire01-bubble"
+		rate		"10"
+		phi		"20~-20"
+		theta		"50~-50"
+		radius		"-50~50"
+	}
+	spawn
+	{
+		particle "Ethereal_Flame_Fire02-bubble"
+		rate		"30"
+		phi		"20~-20"
+		theta		"50~-50"
+		radius		"-50~50"
+	}
+	spawn
+	{
+		particle "Ethereal_Flame_Fire03-bubble"
+		rate		"10"
+		phi		"20~-20"
+		theta		"50~-50"
+		radius		"-50~50"
+	}
+	spawn
+	{
+		particle "Ethereal_Flame_Fire04-bubble"
+		rate		"20"
+		phi		"50~-50"
+		theta		"50~-50"
+		radius		"-50~50"
+	}
+
+
+}
+

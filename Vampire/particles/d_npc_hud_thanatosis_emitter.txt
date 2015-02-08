@@ -1,0 +1,53 @@
+Particle
+{
+	loop "1"	
+
+	spawn
+	{
+		particle "d_npc_hud_thanatosis_fx1"
+		rate		"50"
+		phi		"0~360"
+		radius		"1"	
+		theta		"270"
+	}
+	spawn
+	{
+		particle "d_npc_hud_thanatosis_fx2"
+		burst		"20"
+		phi		"0~360"
+		radius		"1"	
+		theta		"270"
+	}
+	spawn
+	{
+		particle "d_npc_hud_thanatosis_fx3"
+		burst		"20"
+		phi		"0~360"
+		radius		"1"	
+		theta		"270"
+	}
+	spawn
+	{
+		particle "d_npc_hud_thanatosis_fx4"
+		rate		"3"
+		phi		"0~360"
+		radius		"1"	
+		theta		"270"
+	}
+	spawn
+	{
+		particle "d_npc_hud_thanatosis_fx5"
+		rate		"1"
+		phi		"0~360"
+		radius		"1"	
+		theta		"270"
+	}
+	spawn
+	{
+		particle "d_npc_hud_thanatosis_fx6"
+		rate		"1"
+		phi		"60"
+		radius		"1"	
+		theta		"90"
+	}
+}

@@ -1,0 +1,10 @@
+Particle
+{
+	sprite		"BloodSplat"
+	frames		"90"
+	size		"10~20"
+	color		"100~255,0"
+	mask		"255,0"
+
+}
+

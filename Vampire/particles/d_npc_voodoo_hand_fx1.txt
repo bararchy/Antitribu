@@ -1,0 +1,30 @@
+Particle
+{
+	frames 		"90"
+	fps		"30"
+	sortfront	"1"
+	sprite		"Halo2"
+	Depth_offset	"6"
+
+	size		"120,80(3)"
+	Radius_speed	"0"
+
+//	red		"255"
+//	green		"128"
+//	blue		"64"
+//	color		"16~32,0"
+//	mask		"128~200,0"
+
+//	red		"29"
+//	green		"53"
+//	blue		"144"
+//	color		"16~52,0"
+//	mask		"128~200,0"
+
+	red		"80"
+	green		"65"
+	blue		"127"
+	color		"36~52,0"
+	mask		"128~250,0"
+}
+

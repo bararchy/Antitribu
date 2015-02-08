@@ -1,0 +1,16 @@
+Particle
+{
+	loop "1"
+	frames 50
+	fps 10
+
+	spawn
+	{
+		particle "falling_dust_particle"
+		rate "95~270"
+		radius "5~550"
+		theta "0~360"
+		phi "1~5"
+	}
+}
+

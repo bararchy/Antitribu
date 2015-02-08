@@ -1,0 +1,20 @@
+Particle
+{
+	frames 		"60"
+	sprite		"dementatering2"
+	size		"10"
+	width		"-1"
+	rotation	"-200,-500"
+	depth_offset	"-10"
+	parent_speed	"1"
+	sortfront	"1"
+	elevation_speed	"0"
+	Z_speed		"0"
+	red		"210"
+	green		"100"
+	blue		"210"
+	color		"0,100,0"
+	mask		"0"
+
+}
+
