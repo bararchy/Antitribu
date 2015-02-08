@@ -1,0 +1,6 @@
+$keys angry scream dead
+$hasweighting
+"normal" "_" 0.000 0.000 0.000 0.000 0.000 0.000 "Regular expression"
+"angry" "_" 1.000 1.000 0.000 0.000 0.000 0.000 "Pissed off"
+"scream" "_" 0.000 0.000 1.000 1.000 0.000 0.000 "Screaming"
+"dead" "_" 0.000 0.000 0.000 0.000 1.000 1.000 "Dead"
