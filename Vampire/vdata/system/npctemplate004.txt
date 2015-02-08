@@ -1,0 +1,468 @@
+//////////////////////////////////////////////////
+// NPC Stat Templates (Packages)
+//
+//	NPCs in worldcraft are assigned one of these which determines their statistics.
+
+ClanDataTables
+{
+
+// SpiderChick
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"TzimisceCreation1"
+			"ParentTemplateName"		"NPCGeneric"
+			"Name"				"Tzimisce Creation"
+			"Description"			"SpiderChick"
+		}
+
+		General
+		{
+			"Clan"				"None"
+			"M_Body"			"/models/character/monster/tzimisce/creation1/creation1_full.mdl"
+			"Gender"			"Female"
+//			"ClanEffect"			"Clan (TzimisceCreation1)"
+			"Kindred"			"0"
+			"Supernatural"			"1"
+			"NoBiting"			"1"
+			"DisciplineStrata"		"4"
+			"Boss"				"0"
+			"Disallow_Kindred_Death"	"0"
+			"Has_Burning_Death"		"1"
+			"SoundGroup"			"SPIDERCHICK"
+			"DamageFilterBashing"		"0.70"
+			"DamageFilterLethal"		"0.80"
+			"DamageFilterAggravated"	"1.00"
+		}
+
+		Attributes
+		{
+			"Strength"			"5"
+			"Dexterity"			"3"
+			"Stamina"			"3"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"2"
+			"Intelligence"			"1"
+			"Wits"				"2"
+			"Max_Health"			"450"
+			"BloodPool"			"0"
+			"FaithPoints"			"0"
+			"Starting_Equipment"		"TzimisceCreation1"
+			"Excluded_Equipment"		"TzimisceCreation1"
+			"Armor_Rating"			"0"
+		}
+
+		Abilities
+		{
+			"Brawl"				"4"
+			"Dodge"				"1"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"0"
+			"Melee"				"3"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"0"
+			"Finance"			"0"
+			"Investigation"			"0"
+		}
+
+		Resistances
+		{
+		// Dementation:
+			"Veil of Madness"	"Full"
+			"The Haunting"		"Full"
+			"Voice of Madness"	"Full"
+			"Waking Nightmare"	"Full"
+			"Total Insanity"	"Partial"
+
+		// Dominate:
+			"Calm"			"Full"
+			"Dance"			"Full"
+			"Follow"		"Full"
+			"Hide"			"Full"
+			"Jump"			"Full"
+			"Leave"			"Full"
+			"Mesmerize"		"Partial"
+			"Sleep"			"Partial"
+			"Impose Will"		"Partial DMG:0"
+			"Possession"		"Partial"
+
+		// Thaumaturgy:
+			"Blood Malady"		"Full"
+			"Bloody Eye"		"Partial"
+			"Theft of Vitae"	"Full"
+			"Purge Blood"		"Partial"
+			"Blood Boil"		"Partial DMG:2"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+	}
+
+// Guy with Head on Hand
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"TzimisceCreation2"
+			"ParentTemplateName"	"NPCGeneric"
+			"Name"			"None"
+			"Description"		"fat Guy with Head on Hand"
+		}
+
+		General
+		{
+			"Clan"				"None"
+			"M_Body"			"/models/character/monster/tzimisce/creation2/creation2_full.mdl"
+			"Gender"			"Male"
+//			"ClanEffect"			"Clan (TzimisceCreation2)"
+			"Kindred"			"0"
+			"Supernatural"			"1"
+			"DisciplineStrata"		"2"
+			"Boss"				"0"
+			"NoBiting"			"1"
+			"Disallow_Kindred_Death"	"0"
+			"Has_Burning_Death"		"1"
+			"SoundGroup"			"TC_FatGuy"
+			//"DeathGib"			"models/gibs/hgibs_TZ2_Fatguy.mdl"
+			//"GibsCollide"			"1"
+			"DamageFilterBashing"		"0.65"
+			"DamageFilterLethal"		"0.75"
+			"DamageFilterAggravated"	"1.00"
+		}
+
+		Attributes
+		{
+			"Strength"			"3"
+			"Dexterity"			"3"
+			"Stamina"			"2"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"5"
+			"Intelligence"			"1"
+			"Wits"				"2"
+			"Max_Health"			"300"
+
+			"BloodPool"			"0"
+			"FaithPoints"			"0"
+			"Armor_Rating"			"1"
+			"Starting_Equipment"		"TzimisceCreation2"
+			"Excluded_Equipment"		"TzimisceCreation2"
+		}
+
+		Abilities
+		{
+			"Brawl"				"1"
+			"Dodge"				"3"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"2"
+			"Melee"				"1"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"0"
+			"Finance"			"0"
+			"Investigation"			"0"
+		}
+
+		Resistances
+		{
+		// Dementation:
+			"Veil of Madness"	"Full"
+			"The Haunting"		"Full"
+			"Voice of Madness"	"Full"
+			"Waking Nightmare"	"Full"
+			"Total Insanity"	"Partial"
+
+		// Dominate:
+			"Calm"			"Full"
+			"Dance"			"Full"
+			"Follow"		"Full"
+			"Hide"			"Full"
+			"Jump"			"Full"
+			"Leave"			"Full"
+			"Mesmerize"		"Partial"
+			"Sleep"			"Partial"
+			"Impose Will"		"Partial DMG:0"
+			"Possession"		"Partial"
+
+		// Thaumaturgy:
+			"Blood Malady"		"Full"
+			"Bloody Eye"		"Partial"
+			"Theft of Vitae"	"Full"
+			"Purge Blood"		"Partial"
+			"Blood Boil"		"Partial DMG:4"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+	}
+
+// Head Runner
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"TzimisceCreation3"
+			"ParentTemplateName"		"NPCGeneric"
+			"Name"				"None"
+			"Description"			"Head Runner"
+		}
+
+		General
+		{
+			"Clan"				"None"
+			"M_Body"			"/models/character/monster/tzimisce/creation3/tzim3.mdl"
+			"Gender"			"Male"
+//			"ClanEffect"			"Clan (TzimisceCreation3)"
+			"Kindred"			"0"
+			"Supernatural"			"1"
+			"DisciplineStrata"		"1"
+			"Boss"				"0"
+			"NoBiting"			"1"
+			"Disallow_Kindred_Death"	"0"
+			"Has_Burning_Death"		"1"
+			"SoundGroup"			"TC_Runner"
+			"DeathGib"			"models/gibs/hgibs_TZ3_Runner.mdl"
+			"GibsCollide"			"0"
+			"DamageFilterBashing"		"0.80"
+			"DamageFilterLethal"		"0.90"
+			"DamageFilterAggravated"	"1.00"
+			//"HasTrueSight"			"1"
+			//"TrueSightVisionDistance"	"500"
+		}
+
+		Attributes
+		{
+			"Strength"			"2"
+			"Dexterity"			"1"
+			"Stamina"			"1"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"5"  
+			"Intelligence"			"1"
+			"Wits"				"2"
+			"Max_Health"			"180"
+
+			"BloodPool"			"0"
+			"FaithPoints"			"0"
+			"Starting_Equipment"		"TzimisceCreation3"
+			"Excluded_Equipment"		"TzimisceCreation3"
+		}
+
+		Abilities
+		{
+			"Brawl"				"1"
+			"Dodge"				"0"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"0"
+			"Melee"				"0"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"0"
+			"Finance"			"0"
+			"Investigation"			"0"
+		}
+
+		Resistances
+		{
+		// Dementation:
+			"Veil of Madness"	"Full"
+			"The Haunting"		"Full"
+			"Voice of Madness"	"Full"
+			"Waking Nightmare"	"Full"
+			"Total Insanity"	"Partial"
+
+		// Dominate:
+			"Calm"			"Full"
+			"Dance"			"Full"
+			"Follow"		"Full"
+			"Hide"			"Full"
+			"Jump"			"Full"
+			"Leave"			"Full"
+			"Mesmerize"		"Partial"
+			"Sleep"			"Partial"
+			"Impose Will"		"Partial DMG:0"
+			"Possession"		"Partial"
+
+		// Thaumaturgy:
+			"Blood Malady"		"Partial DMG:1"
+			"Bloody Eye"		"Partial DMG:2"
+			"Theft of Vitae"	"Partial DMG:2"
+			"Purge Blood"		"Partial DMG:10"
+			"Blood Boil"		"Partial DMG:10"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+	}
+	
+// Nos for Scene
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"Nos_Attacked"
+			"ParentTemplateName"		"NPCGeneric"
+			"Name"				"None"
+			"Description"			"Nos for Scene"
+		}
+
+		General
+		{
+			"Clan"				"None"
+			"Gender"			"Male"
+			"Kindred"			"1"
+			"Supernatural"			"1"
+			"DisciplineStrata"		"7"
+			"Boss"				"0"
+			"NoBiting"			"1"
+			"Disallow_Kindred_Death"	"0"
+			"Has_Burning_Death"		"1"
+			"SoundGroup"			""
+			"GibsCollide"			"1"
+			"DamageFilterBashing"		"0.70"
+			"DamageFilterLethal"		"0.80"
+			"DamageFilterAggravated"	"1.00"
+			"HasTrueSight"			"1"
+		}
+
+		Attributes
+		{
+			"Strength"			"2"
+			"Dexterity"			"1"
+			"Stamina"			"1"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"4"  
+			"Intelligence"			"1"
+			"Wits"				"2"
+			"Max_Health"			"500"
+
+			"BloodPool"			"0"
+			"FaithPoints"			"0"
+			"Starting_Equipment"		"TzimisceCreation3"
+			"Excluded_Equipment"		"TzimisceCreation3"
+		}
+
+		Abilities
+		{
+			"Brawl"				"1"
+			"Dodge"				"0"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"0"
+			"Melee"				"0"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"0"
+			"Finance"			"0"
+			"Investigation"			"0"
+		}
+
+		Resistances
+		{
+		// Dementation:
+			"Veil of Madness"	"Full"
+			"The Haunting"		"Full"
+			"Voice of Madness"	"Full"
+			"Waking Nightmare"	"Full"
+			"Total Insanity"	"Full"
+
+		// Dominate:
+			"Calm"			"Full"
+			"Dance"			"Full"
+			"Follow"		"Full"
+			"Hide"			"Full"
+			"Jump"			"Full"
+			"Leave"			"Full"
+			"Mesmerize"		"Full"
+			"Sleep"			"Full"
+			"Impose Will"		"Full"
+			"Possession"		"Full"
+
+		// Thaumaturgy:
+			"Blood Malady"		"Full"
+			"Bloody Eye"		"Full"
+			"Theft of Vitae"	"Full"
+			"Purge Blood"		"Full"
+			"Blood Boil"		"Full"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+	}
+}
+

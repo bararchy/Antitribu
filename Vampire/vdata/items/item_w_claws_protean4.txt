@@ -1,0 +1,135 @@
+// armour-weapon for tzimisce
+WeaponData
+{
+	"viewmodel"	"models/w_null.mdl"
+	"infomodel"	"models/weapons/disciplines/Viscicitude/level2/i_flesh.mdl"
+	"playermodel"	"models/weapons/disciplines/Viscicitude/level2/g_flesh.mdl"
+	"wieldmodel_f"	"models/weapons/disciplines/Viscicitude/level2/w_f_flesh.mdl"
+	"wieldmodel_m"	"models/weapons/disciplines/Viscicitude/level2/w_m_flesh.mdl"
+	"anim_prefix"	""
+
+	"printname"	"Flesh"
+	"description"	"Vicissitude is a horrific discipline of twisting meat and bone.
+Melding this muscle with your own grants +2 to physical attributes, but reduce humanity by 2, and requires 1 blood to keep the muscle alive.
+If you activate 1 level of Vicissitude using this flesh then your appearance will become terrible and will increase your intimidate in dialogues."
+
+	"bucket"		"1"
+	"bucket_position"	"2"
+
+	"camera_class"		"melee"
+	"weight"		"3"
+	"item_flags"		"1"
+	"item_type"		"generic"
+	"item_worth"		"14"
+
+	"is_visible_in_hud"	"1"
+	"is_droppable"		"1"
+	"is_wieldable"		"1"
+
+	"wield_effect"		"Discipline (Viscicitude_level2_flesh)"
+	
+	"knockback_chance" 	"0.5"
+	"knowledge_min"		"4"
+
+	SoundData
+	{
+		"swish"
+		{
+			"sound1"	"Weapons/Melee/Claws/Swish_1.wav"
+			"sound2"	"Weapons/Melee/Claws/Swish_2.wav"
+			"sound3"	"Weapons/Melee/Claws/Swish_3.wav"
+		}
+
+		"pickup"
+		{
+			"sound1"	"Weapons\Melee\Claws\Deploy.wav"
+		}
+
+		"stealth_kill_success"
+		{
+			"sound1"	"Weapons/Melee/Severed_Arm/Stealth_Severed_Arm.wav"
+		}
+
+		"stealth_kill_failure"
+		{
+			"sound1"	"Weapons/Melee/Fists/Stealth_Kill_Failure.wav"
+		}
+	}
+	
+	Activation
+	{
+		"Tag"			"Primary"
+		"Type"			"Attack"
+		"Ammo_Type"		"None"
+		"Ammo_Cost"		"0"
+
+		"SkillRequirement"	"3"		
+		"BaseLethality"		"12"		
+		"Dmg"			"2 Aggravated Close_Combat_Melee DMG_BURN"
+
+		"Botch_Table"		"Melee_Weapons"
+		"Attack_Rate"		"1.0"
+		"Range"			"0"
+		"CriminalLevel"		"4"
+
+	// Sounds...
+		SoundData
+		{
+			"attack"
+			{
+				"sound1"	"Weapons/Melee/Claws/Swish_1.wav"
+				"sound2"	"Weapons/Melee/Claws/Swish_2.wav"
+				"sound3"	"Weapons/Melee/Claws/Swish_3.wav"
+			}
+
+			"attack_npc"
+			{
+				"sound1"	"Weapons/Melee/Claws/Swish_1.wav"
+				"sound2"	"Weapons/Melee/Claws/Swish_2.wav"
+				"sound3"	"Weapons/Melee/Claws/Swish_3.wav"
+			}
+
+			"deploy"
+			{
+				"sound1"	"Weapons/Melee/Claws/Deploy.wav"
+			}
+
+			"put_away"
+			{
+				"sound1"	"Weapons/Melee/Claws/Put_Away.wav"
+			}
+
+			"fidget"
+			{
+				"sound1"	"Weapons/Melee/Claws/Fidget.wav"
+			}
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/zflesh_sel"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/zflesh"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+	}
+}

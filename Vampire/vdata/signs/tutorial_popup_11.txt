@@ -1,0 +1,28 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Masquerade:
+The Masquerade is the tradition of keeping vampire existence a secret. In general, revealing any aspect of Kindred existence to humans will result in a Masquerade violation. Feeding, the use of certain Disciplines, and other supernatural acts can cause Masquerade violations if seen by a human.
+In some instances, such as when you are in a Combat Area, you have free reign to use the full range of your vampiric abilities without incurring Masquerade violations. Combat Areas will be explained later.
+Masquerade violations are tracked in the upper-right corner of your character sheet. The more Masquerade violations you incur, the more clues mortal vampire hunters will have to track you with. These hunters can strike at any time, without warning. If you incur five Masquerade violations, you will lose the game.
+Refer to the descriptions of individual Disciplines to see if they are considered Masquerade violations.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

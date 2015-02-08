@@ -1,0 +1,453 @@
+//////////////////////////////////////////////////
+// NPC Stat Templates (Packages)
+//
+//	NPCs in worldcraft are assigned one of these which determines their statistics.
+
+ClanDataTables
+{
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"sp_gio_weak"
+			"ParentTemplateName"		""
+			"Name"				""
+			"Description"			"Giovanni: Weak Guard"
+		}
+
+		General
+		{
+			"Clan"				"None"
+//			"ClanEffect"			""
+			"Kindred"			"0"
+			"Supernatural"			"0"
+			"Boss"				"0"
+			"SoundGroup"			"Italian_Accent"
+
+			"NormalFootfallDist"		"1000"
+			"HeavyFootfallDist"		"800"
+			"NormalFootfallVol"		"0.85"
+			"HeavyFootfallVol"		"0.45"
+			"NpcFakeReloadCountMin"		"12.0" 		// beretta
+		}
+
+		Attributes
+		{
+			"Strength"				"2"
+			"Dexterity"				"2"
+			"Stamina"				"3"
+			"Charisma"				"1"
+			"Manipulation"				"1"
+			"Appearance"				"1"
+			"Perception"				"3"
+			"Intelligence"				"1"
+			"Wits"					"3"
+			"Armor_Rating"				"0"
+			"Max_Health"				"100"	
+			"BloodPool"				"6"
+			"FaithPoints"				"0"
+			"Starting_Equipment"			"Civilian"
+			"Excluded_Equipment"			"Default"
+		}
+
+		Abilities
+		{
+			"Brawl"					"2"
+			"Dodge"					"2"
+			"Intimidation"				"0"
+			"Subterfuge"				"0"
+			"Firearms"				"2"
+			"Melee"					"2"
+			"Security"				"0"
+			"Stealth"				"1"
+			"Computer"				"5"     // Defense vs pc feeding
+			"Finance"				"0"
+			"Investigation"				"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+	}
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"sp_gio_average"
+			"ParentTemplateName"		""
+			"Name"				""
+			"Description"			"Giovanni: Average Guard"
+		}
+
+		General
+		{
+			"Clan"				"None"
+//			"ClanEffect"			""
+			"Kindred"			"0"
+			"Supernatural"			"0"
+			"Boss"				"0"
+			"SoundGroup"			"Italian_Accent"
+
+			"NormalFootfallDist"		"1000"
+			"HeavyFootfallDist"		"800"
+			"NormalFootfallVol"		"0.85"
+			"HeavyFootfallVol"		"0.45"
+			"NpcFakeReloadCountMin"		"7.0" 		// colt1911
+		}
+
+		Attributes
+		{
+			"Strength"				"3"
+			"Dexterity"				"2"
+			"Stamina"				"3"
+			"Charisma"				"1"
+			"Manipulation"				"1"
+			"Appearance"				"1"
+			"Perception"				"3"
+			"Intelligence"				"1"
+			"Wits"					"4"
+			"Armor_Rating"				"1"
+			"Max_Health"				"130"	
+			"BloodPool"				"10"
+			"FaithPoints"				"0"
+			"Starting_Equipment"			"Civilian"
+			"Excluded_Equipment"			"Default"
+		}
+
+		Abilities
+		{
+			"Brawl"					"2"
+			"Dodge"					"3"
+			"Intimidation"				"0"
+			"Subterfuge"				"0"
+			"Firearms"				"3"
+			"Melee"					"2"
+			"Security"				"0"
+			"Stealth"				"1"
+			"Computer"				"6"     // Defense vs pc feeding
+			"Finance"				"0"
+			"Investigation"				"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+	}
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"sp_gio_strong"
+			"ParentTemplateName"		""
+			"Name"				""
+			"Description"			"Giovanni: Strong Guard"
+		}
+
+		General
+		{
+			"Clan"				"None"
+//			"ClanEffect"			""
+			"Kindred"			"0"
+			"Supernatural"			"0"
+			"Boss"				"0"
+			"SoundGroup"			"Italian_Accent"
+
+			"NormalFootfallDist"		"1000"
+			"HeavyFootfallDist"		"800"
+			"NormalFootfallVol"		"0.85"
+			"HeavyFootfallVol"		"0.45"
+			"NpcFakeReloadCountMin"		"6.0" 		// S&W29
+		}
+
+		Attributes
+		{
+			"Strength"				"3"
+			"Dexterity"				"3"
+			"Stamina"				"4"
+			"Charisma"				"1"
+			"Manipulation"				"1"
+			"Appearance"				"1"
+			"Perception"				"4"
+			"Intelligence"				"1"
+			"Wits"					"5"
+			"Armor_Rating"				"2"
+			"Max_Health"				"140"	
+			"BloodPool"				"12"
+			"FaithPoints"				"0"
+			"Starting_Equipment"			"Civilian"
+			"Excluded_Equipment"			"Default""
+		}
+
+		Abilities
+		{
+			"Brawl"					"3"
+			"Dodge"					"3"
+			"Intimidation"				"0"
+			"Subterfuge"				"0"
+			"Firearms"				"4"
+			"Melee"					"3"
+			"Security"				"0"
+			"Stealth"				"4"
+			"Computer"				"7"     // Defense vs pc feeding
+			"Finance"				"0"
+			"Investigation"				"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+	}
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"sp_gio_vampire"
+			"ParentTemplateName"	""
+			"Name"			"bruno bodyguards"
+			"Description"		"Giovanni: bruno bodyguards"
+		}
+
+		General
+		{
+			"Clan"				"None"
+			"Body"				"Vampire"
+			"Gender"			"Male, Female"
+//			"ClanEffect"			""
+			"Kindred"			"1"
+			"Supernatural"			"1"
+			"DisciplineStrata"		"1"
+			"Disallow_Kindred_Death"	"0"
+			"Has_Burning_Death"		"1"
+			"Monster"			"1"
+			"Boss"				"0"
+			"NoBiting"			"1"
+			"SoundGroup"			"Italian_Accent"
+			"NpcFakeReloadCountMin"		"10.0" 
+
+			"DamageFilterBashing"		"0.75"
+			"DamageFilterLethal"		"0.80"
+			"DamageFilterAggravated"	"1.00"
+			"HasTrueSight"			"1"
+		}
+
+		Attributes
+		{
+			"Strength"			"4"
+			"Dexterity"			"4"
+			"Stamina"			"3"
+			"Charisma"			"2"
+			"Manipulation"			"2"
+			"Appearance"			"2"
+			"Perception"			"3"
+			"Intelligence"			"2"
+			"Wits"				"4"
+			"BloodPool"			"10"
+			"FaithPoints"			"10"
+			"Starting_Equipment"	"NPCGeneric"
+			"Excluded_Equipment"	"Default"
+			"Max_Health"		"235"
+		}
+
+		Abilities
+		{
+			"Brawl"				"4"
+			"Dodge"				"4"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"3"
+			"Melee"				"3"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"10"
+			"Finance"			"0"
+			"Investigation"			"0"
+		}
+
+		Disciplines
+		{
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"0"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"0"
+			}
+
+			From
+			{
+			}
+		}
+	}
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"Bruno"
+			"ParentTemplateName"		""
+			"Name"				"Bruno"
+			"Description"			"Giovanni Boss"
+		}
+
+		General
+		{
+			"Clan"				"None"
+//			"ClanEffect"			""
+			"Kindred"			"1"
+			"Supernatural"			"1"
+			"DisciplineStrata"		"7"
+			"Boss"				"1"
+			"NoBiting"			"1"
+			"SoundGroup"			"Italian_Accent"
+
+			"NormalFootfallDist"		"1000"
+			"HeavyFootfallDist"		"800"
+			"NormalFootfallVol"		"0.85"
+			"HeavyFootfallVol"		"0.45"
+
+
+			"NpcFakeReloadCountMin"		"20.0" 		// Uzi/Deagle
+			"DamageFilterBashing"		"0.60"
+			"DamageFilterLethal"		"0.75"
+			"DamageFilterAggravated"	"1.00"
+		}
+
+		Attributes
+		{
+			"Strength"				"5"
+			"Dexterity"				"4"
+			"Stamina"				"4"
+			"Charisma"				"1"
+			"Manipulation"				"1"
+			"Appearance"				"1"
+			"Perception"				"4"
+			"Intelligence"				"1"
+			"Wits"					"4"
+			"Armor_Rating"				"3"
+			"Max_Health"				"1200"	
+			"BloodPool"				"5"
+			"FaithPoints"				"5"
+			"Starting_Equipment"			"Civilian"
+			"Excluded_Equipment"			"Default"
+		}
+
+		Abilities
+		{
+			"Brawl"					"5"
+			"Dodge"					"4"
+			"Intimidation"				"0"
+			"Subterfuge"				"0"
+			"Firearms"				"3"
+			"Melee"					"4"
+			"Security"				"0"
+			"Stealth"				"4"
+			"Computer"				"10"     // Defense vs pc feeding
+			"Finance"				"0"
+			"Investigation"				"0"
+		}
+
+		Resistances
+		{
+		// Dementation:
+			"Veil of Madness"	"Full"
+			"The Haunting"		"Full"
+			"Voice of Madness"	"Full"
+			"Waking Nightmare"	"Full"
+			"Total Insanity"	"Full"
+
+		// Dominate:
+			"Calm"			"Full"
+			"Dance"			"Full"
+			"Follow"		"Full"
+			"Hide"			"Full"
+			"Jump"			"Full"
+			"Leave"			"Full"
+			"Mesmerize"		"Full"
+			"Sleep"			"Partial"
+			"Impose Will"		"Partial DMG:0"
+			"Possession"		"Partial"
+
+		// Thaumaturgy:
+			"Blood Malady"		"Full"
+			"Bloody Eye"		"Full"
+			"Theft of Vitae"	"Full"
+			"Purge Blood"		"Partial"
+			"Blood Boil"		"Partial DMG:2"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+	}
+}

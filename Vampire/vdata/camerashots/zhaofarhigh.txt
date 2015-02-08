@@ -1,0 +1,39 @@
+CameraShotTable
+{
+	// This is the default camera that is used when dialog begins. 
+	ZhaoFarHigh
+	{
+		End
+		{
+			"Position"		"Player"
+			"AttachPos"		"Origin"
+			"AttachType"		"Follow"
+			"OffsetOrigin"		"[20, 0, 79]"	 
+		}
+
+		Target	
+		{
+			Point1
+			{
+				"Position"	"DialogTarget"
+				"AttachPos"	"Bone: Bip01 R Calf"
+				"AttachType"	"None"
+			}
+
+		}
+
+		CameraConstraints
+		{
+			"MoveSpeed"		"500"
+			"MoveAccel"		"250"
+			"TurnAccel"		"30"
+			"MaxTurnRate"		"[60, 60, 60]"	
+			"DistanceTolerance"	"5"
+			"AngularTolerance"	"[3, 3, 3]"	
+			"FieldOfView"		"75"
+			"DialogPOV"		"1"
+			"SyncRotateOnMove"	"1"
+		}
+	}
+
+}

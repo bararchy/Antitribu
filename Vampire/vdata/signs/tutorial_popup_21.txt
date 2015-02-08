@@ -1,0 +1,29 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Use the Feed key (default F) to feed.
+Use the Feed key again to stop feeding before you kill innocent human victims.
+Different feeding vessels provide different amounts of blood. Bums and other lowlife provide little blood.
+Killing innocents costs you a point of your former Humanity, and brings you one step closer to the Beast Within. The lower your Humanity, the greater the chance you will suffer frenzy - total loss of control.
+When you are low on blood and/or when you take sudden massive damage, you are at high risk of frenzying. Low Humanity scores multiply this risk.
+Your Humanity can be found at the top of your character sheet.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

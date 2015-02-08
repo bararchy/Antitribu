@@ -1,0 +1,27 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"The red meter on the right represents your available blood pool.
+Below the blood meter is your current blood ability. Use the ] and [ keys (by default) or the mouse wheel to scroll through the list of available blood abilities.
+Use the vampire Power key (default right-click) to activate the selected blood ability. Using blood abilities consumes blood points. Blood abilities cost between 1 and 4 blood points per use.
+Blood Buff is a blood ability. Use it to enhance all of your Physical Attributes (Strength, Dexterity, and Stamina) to 5 for a short time. Blood Buff costs 3 blood points.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

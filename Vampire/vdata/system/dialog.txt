@@ -1,0 +1,31 @@
+// Dialog Doc
+
+DialogData
+{
+	Text
+	{
+		// These are for default lines if conditionals elminate all valid options
+		// Localize the strings on the RIGHT side of the string pairs *ONLY*!
+		"Greeting"		"Hello."
+		"Appreciation"	"Thanks"
+		"Leaving"		"Goodbye"
+
+		// Used for Dialog line displays
+		"Discipline_Blood"	"O"
+		"Persuasion_Name"	"[P]   "
+		"Seduction_Name"	"[S]   "
+	}
+
+	Dependencies
+	{
+		"0"	"Discipline: Holy_Light"
+		"1"	"Discipline: Blood_Healing"
+		"2"	"Feat: Persuasion"
+		"3"	"Feat: Seduction"
+		"4"	"Discipline: Fortitude"
+		"5"	"Discipline: Dominate"
+		"6"	"Discipline: Dementation"
+		"7"	"Discipline: Presence"
+		"8"	"Discipline: Animalism"
+	}
+}

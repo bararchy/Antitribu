@@ -1,0 +1,40 @@
+StealthKillRules
+{
+	// NOTE: if a table ends before it gets to 10, the last value
+	// is used for the rest of the entries. 
+	DeafZoneArc
+	{
+		// feat: sneaking
+		// Feat Level		//Angle (degrees)
+		"1"			"25"
+		"2"			"36"
+		"3"			"46"
+		"4"			"57"
+		"5"			"67"
+		"6"			"78"
+		"7"			"88"
+		"8"			"99"
+		"9"			"109"
+		"10"			"120"
+	}
+
+
+	StatInfo
+	{
+		// these are the defaults that will be used if values are not found. 
+//		"StealthFeatMin"		"1"
+//		"StealthFeatMax"		"10"
+//		"HearingScalarMin"		"0.0"
+//		"HearingScalarMax"		"3.0"
+//		"StealthKillDistMin"		"0"	// NOTE: This value is only used to build the table, and is not used too allow/reject stealth kill attempts
+//		"StealthKillDistMax"		"70"
+
+		"StealthFeatMin"		"1"
+		"StealthFeatMax"		"10"
+		"HearingScalarMin"		"0.0"
+		"HearingScalarMax"		"2.5"
+		"StealthKillDistMax"		"95"
+	}
+
+
+}

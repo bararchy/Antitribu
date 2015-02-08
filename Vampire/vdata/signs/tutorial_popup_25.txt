@@ -1,0 +1,30 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Sneaking:
+Use the Crouch key (default CTRL) to switch between standing and crouching.
+Crouching will put you into sneak mode.
+While in sneak mode, other characters in the world will have difficulty seeing and hearing you. This difficulty is derived from two factors: your Sneaking feat and light.
+The higher your Sneaking feat score, the harder you will be to detect.
+It is always easier to hide in the shadows. While you are crouched, a light meter will appear on the left side of your display, next to your health meter. This gauge measures the amount of light falling on your character. The more light, the easier you will be to spot.
+The indicator atop the light gauge will tell you when others in the world may have spotted you, or suspect your presence.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

@@ -1,0 +1,23 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"If you are unable to successfully pick a lock, try using Blood Buff to temporarily raise your stats."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

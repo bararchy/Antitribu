@@ -1,0 +1,342 @@
+// DSP Effects
+// 0 : "Normal (off)"
+// 1 : "Generic"
+// 2 : "Metal Small"
+// 3 : "Metal Medium"
+// 4 : "Metal Large"
+// 5 : "Tunnel Small"
+// 6 : "Tunnel Medium"
+// 7 : "Tunnel Large"
+// 8 : "Chamber Small"
+// 9 : "Chamber Medium"
+// 10: "Chamber Large"
+// 11: "Bright Small"
+// 12: "Bright Medium"
+// 13: "Bright Large"
+// 14: "Water 1"
+// 15: "Water 2"
+// 16: "Water 3"
+// 17: "Concrete Small"
+// 18: "Concrete Medium"
+// 19: "Concrete Large"
+// 20: "Big 1"
+// 21: "Big 2"
+// 22: "Big 3"
+// 23: "Cavern Small"
+// 24: "Cavern Medium"
+// 25: "Cavern Large"
+// 26: "Weirdo 1"
+// 27: "Weirdo 2"
+// 28: "Weirdo 3"
+
+
+
+
+// ***************** d2_depot  *****************
+// *******************************************************************************
+
+
+"d2_depot_cellblock_quiet"
+{
+	"dsp"	"10"
+	"playlooping"
+	{
+		"volume"	"0.15"
+		"pitch"		"100"
+		"wave"		"ambient/areas/d2_depot/quiet_cellblock_amb.wav"
+	}
+
+
+	// Random sounds
+	"playrandom"
+	{
+		"time"		"0.1, 0.1"
+		"volume"	"0.5,1"
+		"pitch"		"50,120"
+		"rndwave"
+		{
+			//"wave"	"temp/soundscape_test/music_snippet1.wav"
+			//"wave"	"temp/soundscape_test/music_snippet2.wav"
+			//"wave"	"temp/soundscape_test/music_snippet3.wav"
+			//"wave"	"temp/soundscape_test/music_snippet4.wav"
+			//"wave"	"temp/soundscape_test/music_snippet5.wav"
+			//"wave"	"temp/soundscape_test/music_snippet6.wav"
+			//"wave"	"temp/soundscape_test/music_snippet7.wav"
+			//"wave"	"temp/soundscape_test/music_snippet8.wav"
+		}
+
+		//"position"	"0"
+		//"attenuation"	"3"
+	}
+
+
+}
+
+
+"d2_depot_cellblock_medium"
+{
+	"dsp"	"10"
+	"playlooping"
+	{
+		"volume"	"0.15"
+		"pitch"		"100"
+		"wave"		"ambient/areas/d2_depot/quiet_cellblock_amb.wav"
+	}
+
+
+	// Random sounds
+	"playrandom"
+	{
+		"time"		"0.1, 0.1"
+		"volume"	"0.5,1"
+		"pitch"		"50,120"
+		"rndwave"
+		{
+			//"wave"	"temp/soundscape_test/music_snippet1.wav"
+			//"wave"	"temp/soundscape_test/music_snippet2.wav"
+			//"wave"	"temp/soundscape_test/music_snippet3.wav"
+			//"wave"	"temp/soundscape_test/music_snippet4.wav"
+			//"wave"	"temp/soundscape_test/music_snippet5.wav"
+			//"wave"	"temp/soundscape_test/music_snippet6.wav"
+			//"wave"	"temp/soundscape_test/music_snippet7.wav"
+			//"wave"	"temp/soundscape_test/music_snippet8.wav"
+		}
+
+		//"position"	"0"
+		//"attenuation"	"3"
+	}
+
+
+}
+
+
+
+
+"d2_depot_cellblock_quiet_cell"
+{
+	"dsp"	"17"
+	"playlooping"
+	{
+		"volume"	"0.15"
+		"pitch"		"100"
+		"wave"		"ambient/areas/d2_depot/quiet_cellblock_amb.wav"
+	}
+
+
+	// Random sounds
+	"playrandom"
+	{
+		"time"		"0.1, 0.1"
+		"volume"	"0.5,1"
+		"pitch"		"50,120"
+		"rndwave"
+		{
+			//"wave"	"temp/soundscape_test/music_snippet1.wav"
+			//"wave"	"temp/soundscape_test/music_snippet2.wav"
+			//"wave"	"temp/soundscape_test/music_snippet3.wav"
+			//"wave"	"temp/soundscape_test/music_snippet4.wav"
+			//"wave"	"temp/soundscape_test/music_snippet5.wav"
+			//"wave"	"temp/soundscape_test/music_snippet6.wav"
+			//"wave"	"temp/soundscape_test/music_snippet7.wav"
+			//"wave"	"temp/soundscape_test/music_snippet8.wav"
+		}
+
+		//"position"	"0"
+		//"attenuation"	"3"
+	}
+
+
+}
+
+
+
+
+
+
+// ***************** d1_town_01  *****************
+// *******************************************************************************
+
+
+
+// ******************   SOUNDSCAPE TEST  ***************************************
+
+
+// No DSP, no ambients
+"Nothing"
+{
+	"dsp"	"0"
+}
+
+"GenericIndoor"
+{
+	"dsp"	"1"
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/areas/air_exchange/indoor2.wav"
+	}
+}
+
+"GenericOutdoor"
+{
+	"dsp"	"19"
+	"playlooping"
+	{
+		"volume"	"0.25"
+		"wave"		"ambient/areas/air_exchange/indoor2.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.75"
+		"wave"		"ambient/areas/air_exchange/outdoor2.wav"
+		"pitch"		"100"
+		"position"	"0"
+	}
+}
+
+
+
+
+"cabin"
+{
+	"dsp"	"17"
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"temp/soundscape_test/cabin_ambience.wav"
+	}
+
+
+	// ****  TV Music
+	"playlooping"
+	{
+		"volume"	"0.25"
+		"wave"		"temp/soundscape_test/tv_music.wav"
+		"pitch"		"100"
+		"attenuation"	"2"
+		"position"	"0"
+	}
+
+	
+	// ** Tower sticking out of wall
+	"playlooping"
+	{
+		"volume"	"0.6"
+		"wave"		"temp/soundscape_test/cabin_wall.wav"
+		"pitch"		"100"
+		"attenuation"	"2"
+		"position"	"1"
+	}
+
+
+	// Random sounds for TV
+	"playrandom"
+	{
+		// time, volume, pitch, attenuation are all random intervals ( i.e. minval, maxval )
+		// every 0.5 to 2 seconds
+		"time"		"0.1, 0.1"
+
+		// at a volume of 0.25 to 0.25
+		"volume"	"0.5,1"
+
+		// at a pitch of 90 to 100
+		"pitch"		"50,120"
+
+		// play one of these .wav files randomly each time
+		"rndwave"
+		{
+			//"wave"	"temp/soundscape_test/music_snippet1.wav"
+			//"wave"	"temp/soundscape_test/music_snippet2.wav"
+			//"wave"	"temp/soundscape_test/music_snippet3.wav"
+			//"wave"	"temp/soundscape_test/music_snippet4.wav"
+			//"wave"	"temp/soundscape_test/music_snippet5.wav"
+			//"wave"	"temp/soundscape_test/music_snippet6.wav"
+			//"wave"	"temp/soundscape_test/music_snippet7.wav"
+			//"wave"	"temp/soundscape_test/music_snippet8.wav"
+		}
+		
+		// omit position for ambient sounds
+		"position"	"0"
+		// only required if "position" is present
+		"attenuation"	"3"
+	}
+
+
+	
+	// Random Sounds for Wall
+	"playrandom"
+	{
+		// time, volume, pitch, attenuation are all random intervals ( i.e. minval, maxval )
+		// every 0.5 to 2 seconds
+		"time"		"1,4"
+
+		// at a volume of 0.25 to 0.25
+		"volume"	"0.5,0.8"
+
+		// at a pitch of 90 to 100
+		"pitch"		"80,120"
+
+		// play one of these .wav files randomly each time
+		"rndwave"
+		{
+			"wave"	"temp/soundscape_test/wall1.wav"
+			"wave"	"temp/soundscape_test/wall2.wav"
+			"wave"	"temp/soundscape_test/wall3.wav"
+			"wave"	"temp/soundscape_test/wall4.wav"
+		}
+		
+		// omit position for ambient sounds
+		"position"	"1"
+		// only required if "position" is present
+		"attenuation"	"2"
+	}
+
+
+
+}
+
+
+
+"cabin_outdoor"
+{
+	"dsp"	"20"
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"temp/soundscape_test/outdoor.wav"
+	}
+
+	"playrandom"
+	{
+		// time, volume, pitch, attenuation are all random intervals ( i.e. minval, maxval )
+		// every 0.5 to 2 seconds
+		"time"		"0.1, 0.1"
+
+		// at a volume of 0.25 to 0.25
+		"volume"	"0.5,1"
+
+		// at a pitch of 90 to 100
+		"pitch"		"50,120"
+
+		// play one of these .wav files randomly each time
+		"rndwave"
+		{
+			"wave"	"temp/soundscape_test/music_snippet1.wav"
+			"wave"	"temp/soundscape_test/music_snippet2.wav"
+			//"wave"	"temp/soundscape_test/music_snippet3.wav"
+			//"wave"	"temp/soundscape_test/music_snippet4.wav"
+			//"wave"	"temp/soundscape_test/music_snippet5.wav"
+			//"wave"	"temp/soundscape_test/music_snippet6.wav"
+			//"wave"	"temp/soundscape_test/music_snippet7.wav"
+			//"wave"	"temp/soundscape_test/music_snippet8.wav"
+		}
+		
+
+	}
+
+}
+// ********************************************************************************

@@ -1,0 +1,59 @@
+// hockey mask
+WeaponData
+{
+	"infomodel"	"models/cinematic/visual_stuff/pc/hockey_mask/i_hockey_mask.mdl"
+	"playermodel"	"models/cinematic/visual_stuff/pc/hockey_mask/g_hockey_mask.mdl"
+
+	"printname"	"Hockey mask"
+	"description"	"Today, hockey masks made from fiberglass is the much more popular option because it is safer. The mask has fundamentally changed the way goaltenders play, since they can go down to their knees to stop a shot without the risk of a stick, skate, or a puck hitting and lacerating their face or concussing them.
+			 Wearing a hockey mask increases bashing and lethal soak, but at the same time reduces appearance."
+
+	"equip_effect"		"Item (hockey mask)" 
+
+	"bucket"		"1"
+	"bucket_position"	"2"
+
+	"camera_class"		"noswitch"
+	"weight"		"3"
+	"item_flags"		"1"
+	"item_type"		"generic"
+	"item_worth"		"100"
+	"is_visible_in_hud"	"1"
+	"is_droppable"		"1"
+	"is_wieldable"		"0"
+
+	SoundData	
+	{
+		"pickup"
+		{
+			"sound1"	"items/Book/Pickup.wav"
+		}
+	}
+	
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/pc_gear/hockey_mask_SEL"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/pc_gear/hockey_mask"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+	}
+}

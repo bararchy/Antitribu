@@ -1,0 +1,29 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Thaumaturgy:
+The hallmark of Clan Tremere, Thaumaturgy is a powerful Discipline, instilling awe and fear in the Tremere's friends and foes alike. The secrets of the Tremere's \"blood magic\" are closely guarded, and the ability to wield it inherent to Tremere blood.
+Blood Strike:
+The individual levels of Thaumaturgy each have their own unique effects. The first level is known as Blood Strike. Blood Strike is a powerful attack that allows a Tremere to damage foes at a distance, and even steal their blood. Blood Strike fires a projectile of the Tremere's own blood that seeks the victim. If the Tremere wishes to use Blood Strike to steal blood from their victim, they must concentrate, and cannot move significantly for the duration of the effect.
+Unlike other weapons, the damage done by Thaumaturgy cannot be defended against, and can only be Soaked by supernatural beings.
+The individual levels of Thaumaturgy carry different costs. Blood Strike costs 1 blood point. To use Blood Strike, scroll to it using the ] and [ keys (by default) or with the mouse wheel, target your enemy, then use the Power key (default right-click) to activate it.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

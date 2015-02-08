@@ -1,0 +1,27 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"The Inspection feat allows you to notice minute details in the world that might otherwise be overlooked such as secret doors or hidden items, like the lockpicks in front of you.
+The higher your Inspection feat, the more minute details you will be able to notice.
+Use the Character Editor key (default C) to access the character sheet. All of your Feats are listed on the right side of your character sheet. Feats are a measure of your character's skill. They govern the different tasks you will perform during the course of the game. Feats are derived from Attributes and Abilities.
+Use the Use key (default E) to pick up items.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

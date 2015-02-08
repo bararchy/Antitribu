@@ -1,0 +1,277 @@
+//////////////////////////////////////////////////
+// NPC Stat Templates (Packages)	- VentrueTower
+//
+//	NPCs in worldcraft are assigned one of these which determines their statistics.
+
+ClanDataTables
+{
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"SWAT"
+			"ParentTemplateName"	""
+			"Name"			"SWAT"
+			"Description"		"SWAT"
+		}
+
+		General
+		{
+			"Clan"				"None"
+			"M_Body"			"models/character/npc/unique/malkgirl/girl.mdl"
+			"F_Body"			"models/character/npc/unique/malkgirl/girl.mdl"
+			"Gender"			"Male, Female"
+			"Kindred"			"0"
+			"SoundGroup"			""
+			"NormalFootfallDist"		"300"
+			"HeavyFootfallDist"		"600"
+			"NormalFootfallVol"		"0.45"
+			"HeavyFootfallVol"		"0.85"
+			"NpcFakeReloadCountMin"		"22.0" 	// steyr-aug
+			"DamageFilterBashing"		"0.70"
+			"DamageFilterLethal"		"0.80"
+			"DamageFilterAggravated"	"1.00"
+			"NoBiting"			"0"
+		}
+
+		Attributes
+		{
+			"Strength"		"5"
+			"Dexterity"		"2"
+			"Stamina"		"4"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"4"
+			"Intelligence"		"1"
+			"Wits"			"5"
+			"Armor_Rating"		"4"
+			"Max_Health"		"200"
+			"BloodPool"		"10"
+			"FaithPoints"		"15"
+			"Starting_Equipment"	"NPCGeneric"
+			"Excluded_Equipment"	"Default"
+		}
+
+		Abilities
+		{
+			"Brawl"				"0"
+			"Dodge"				"3"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"4"
+			"Melee"				"4"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"9"
+			"Finance"			"0"
+			"Investigation"			"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"0"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"0"
+			}
+
+			From
+			{
+			}
+		}
+
+		LoiterActivities
+		{
+			"ACT_IDLE"			"1.0"
+		}
+	}
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"SuperSWAT"
+			"ParentTemplateName"	"SWAT"
+			"Name"			"SuperSWAT"
+			"Description"		"SuperSWAT"
+		}
+
+		General
+		{
+			"Clan"				"None"
+			"M_Body"			"models/character/npc/unique/malkgirl/girl.mdl"
+			"F_Body"			"models/character/npc/unique/malkgirl/girl.mdl"
+			"Gender"			"Male, Female"
+			"Kindred"			"0"
+			"SoundGroup"			""
+			"NormalFootfallDist"		"300"
+			"HeavyFootfallDist"		"600"
+			"NormalFootfallVol"		"0.45"
+			"HeavyFootfallVol"		"0.85"
+			"NpcFakeReloadCountMin"		"25.0" 	// steyr-aug
+			"Disallow_Knockbacks"		"1"
+			"DamageFilterBashing"		"0.70"
+			"DamageFilterLethal"		"0.80"
+			"DamageFilterAggravated"	"1.00"
+			"NoBiting"			"1"
+		}
+
+		Attributes
+		{
+			"Strength"		"5"
+			"Dexterity"		"1"
+			"Stamina"		"4"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"5"
+			"Intelligence"		"1"
+			"Wits"			"10"
+			"Armor_Rating"		"2"
+			"Max_Health"		"200"
+			"BloodPool"		"14"
+			"FaithPoints"		"15"
+			"Starting_Equipment"	"NPCGeneric"
+			"Excluded_Equipment"	"Default"
+		}
+
+		Abilities
+		{
+			"Brawl"				"0"
+			"Dodge"				"0"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"2"
+			"Melee"				"3"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"10"
+			"Finance"			"0"
+			"Investigation"			"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+
+		LoiterActivities
+		{
+			"ACT_IDLE"				"1.0"
+		}
+	}
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"VentrueGhouls"
+			"ParentTemplateName"	"NPCGeneric"
+			"Name"			"Ventrue Ghouls"
+			"Description"		"Ventrue Ghouls"
+		}
+
+		General
+		{
+			"Clan"				"None"
+			"M_Body"			"models/character/npc/unique/malkgirl/girl.mdl"
+			"F_Body"			"models/character/npc/unique/malkgirl/girl.mdl"
+			"Gender"			"Male, Female"
+			"Kindred"			"1"
+			"Supernatural"			"1"
+			"DisciplineStrata"		"4"
+			"Disallow_Kindred_Death"	"0"
+			"Has_Burning_Death"		"1"
+			"NoBiting"			"1"
+			"SoundGroup"			""
+			"NormalFootfallDist"		"300"
+			"HeavyFootfallDist"		"600"
+			"NormalFootfallVol"		"0.45"
+			"HeavyFootfallVol"		"0.85"
+			"NpcFakeReloadCountMin"		"20.0" 	//m3/m16
+
+			"DamageFilterBashing"		"0.65"
+			"DamageFilterLethal"		"0.75"
+			"DamageFilterAggravated"	"1.00"
+		}
+
+		Attributes
+		{
+			"Strength"		"3"
+			"Dexterity"		"1"
+			"Stamina"		"2"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"5"
+			"Intelligence"		"1"
+			"Wits"			"5"
+			"Armor_Rating"		"2"
+			"Max_Health"		"300"
+			"BloodPool"		"6"
+			"FaithPoints"		"15"
+			"Starting_Equipment"	"NPCGeneric"
+			"Excluded_Equipment"	"Default"
+		}
+
+		Abilities
+		{
+			"Brawl"				"0"
+			"Dodge"				"2"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"2"
+			"Melee"				"2"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"5"
+			"Finance"			"0"
+			"Investigation"			"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+
+		LoiterActivities
+		{
+			"ACT_IDLE"			"1.0"
+		}
+	}
+}

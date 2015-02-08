@@ -1,0 +1,56 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/general"
+//		"Tiled"		"0"
+		"XPos"		"1"
+		"YPos"		"1"
+		"Wide"		"1024"
+		"Tall"		"1024"
+	}
+
+	Label
+	{
+		"Text"				"empty"
+		"Alignment"			"center"
+		"Font"				"Newsprint"
+		"XPos"				"444"
+		"YPos"				"187"
+		"Wide"				"128"
+		"Tall"				"128"
+		"TextRGBA"			"[0,0,0,136]"
+		"BackgroundRGBA"		"[8,8,8,1]"
+		"Image"				"hud\Disciplines\animalism_base"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Animalism is the mystical vampiric power calls animals for help.
+Animalism is a summoning Discipline. For activate it, need some time and rituals actions.
+Use of Animalism is a Masquerade violation if you are seen activating it."
+		"Font"		"ParagraphText"
+		"Font_640"	"Trebuchet"
+		"XPos"		"324"
+		"YPos"		"332"
+		"Wide"		"375"
+		"Tall"		"223"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+
+	TextBlock
+	{
+		"Text"		"left-click to continue"
+		"XPos"		"410"
+		"YPos"		"572"
+		"Wide"		"205"
+		"Tall"		"25"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+
+		"Font"		"Trebuchet"
+		"Font_640"	"Trebuchet"
+	}
+}

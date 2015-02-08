@@ -1,0 +1,10 @@
+
+Ask TJ or Brian if the following, or any other triggered/situational sounds are necessary for this unique character.
+-----------------------------------------------------------------
+
+Fidget sounds
+Played while character is standing around and not doing anything
+Fidget_1.wav	
+Fidget_2.wav	
+Fidget_3.wav	
+

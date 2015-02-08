@@ -1,0 +1,161 @@
+//////////////////////////////////////////////////
+// NPC Stat Templates (Packages)
+//
+//	NPCs in worldcraft are assigned one of these which determines their statistics.
+
+ClanDataTables
+{
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"VentrueSecurity"
+			"ParentTemplateName"	"NPCGeneric"
+			"Name"			"None"
+			"Description"		"This is for the security officers in the Kill LaCroix Quest - la_ventruetower_1b"
+		}
+
+		General
+		{
+			"Clan"				"None"
+//			"ClanEffect"			""
+			"Kindred"			"0"
+			"Supernatural"			"0"
+			"Boss"				"0"
+			"SoundGroup"			""
+			"NpcFakeReloadCountMin"		"4.0" 	// anaconda
+			"NeverInnocent"			"1"
+		}
+
+		Attributes
+		{
+			"Strength"			"4"
+			"Dexterity"			"2"
+			"Stamina"			"0"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"4"
+			"Intelligence"			"1"
+			"Wits"				"4"
+			"BloodPool"			"14"
+			"FaithPoints"			"0"
+			"Starting_Equipment"	"NPCGeneric"
+			"Excluded_Equipment"	"Default"
+			"Max_Health"		"90"
+			"Armor_Rating"		"0"
+		}
+
+		Abilities
+		{
+			"Brawl"					"3"
+			"Dodge"					"2"
+			"Intimidation"				"0"
+			"Subterfuge"				"0"
+			"Firearms"				"1"
+			"Melee"					"4"
+			"Security"				"0"
+			"Stealth"				"0"
+			"Computer"				"9"   // defense vs pc feeding
+			"Finance"				"0"
+			"Investigation"				"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+	}
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"VentrueSecurityFastFood"
+			"ParentTemplateName"	"VentrueSecurity"
+			"Name"			"None"
+			"Description"		"This is for the security officers in the Kill LaCroix Quest - la_ventruetower_1b"
+		}
+
+		General
+		{
+			"Clan"				"None"
+//			"ClanEffect"			""
+			"Kindred"			"0"
+			"Supernatural"			"0"
+			"Boss"				"0"
+			"SoundGroup"			""
+			"NpcFakeReloadCountMin"		"4.0" 	// anaconda
+			"FastFood"			"1"
+			"NeverInnocent"			"1"
+
+		}
+
+		Attributes
+		{
+			"Strength"			"4"
+			"Dexterity"			"2"
+			"Stamina"			"0"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"4"
+			"Intelligence"			"1"
+			"Wits"				"4"
+			"BloodPool"			"10"
+			"FaithPoints"			"0"
+			"Starting_Equipment"	"NPCGeneric"
+			"Excluded_Equipment"	"Default"
+			"Max_Health"		"40"
+			"Armor_Rating"		"0"
+		}
+
+		Abilities
+		{
+			"Brawl"				"0"
+			"Dodge"				"2"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"0"
+			"Melee"				"4"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"3"   // defense vs pc feeding
+			"Finance"			"0"
+			"Investigation"			"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+	}
+}

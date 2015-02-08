@@ -1,0 +1,27 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Firearms:
+Your Ranged Combat feat affects the accuracy of weapons, as represented by the bloom of the crosshairs. A higher Ranged Combat feat will help constrain the crosshair bloom, and control the kick of the weapon.
+Your Ranged feat may also affect damage. Each firearm has a Ranged Combat Requirement. If your Ranged feat is above this value, you will do extra damage with the firearm. If your Ranged feat is below the Requirement, you will do less damage.
+Each firearm has a Lethality rating. This value can be used to determine the firearms' effectiveness versus supernaturals, as supernaturals must roll their Defense + Soak against the Lethality to defend against the damage. Each point of Ranged Combat an attacker has above the Ranged Combat Requirement adds one to Lethality. Lethality x Base Damage = Total Potential Damage.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

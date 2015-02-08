@@ -1,0 +1,40 @@
+CameraShotTable
+{
+	// This is the default camera that is used when dialog begins. 
+	Bach
+	{
+		End
+		{
+			"Position"		"DialogTarget"
+			"AttachPos"		"Origin"
+			"AttachType"		"Follow"
+			"OffsetOrigin"		"[23, 0, 65]"	 
+		}
+
+		Target	
+		{
+			Point1
+			{
+				"Position"	"DialogTarget"
+				"AttachPos"	"Bone: Bip01 Head"
+				"AttachType"	"None"
+			}
+
+		}
+
+		CameraConstraints
+		{
+			"MoveSpeed"		"800"
+			"MoveAccel"		"500"
+			"TurnAccel"		"30"
+			"MaxTurnRate"		"[60, 60, 60]"	
+			"DistanceTolerance"	"5"
+			"AngularTolerance"	"[3, 3, 3]"	
+			"FieldOfView"		"75"
+			"DialogPOV"		"1"
+			"SyncRotateOnMove"	"1"
+			"SnapOnShotChange"	"0"
+		}
+	}
+
+}

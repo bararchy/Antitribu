@@ -1,0 +1,37 @@
+SoundSchemeTables
+{
+	SoundScheme
+	{
+		"Name"			"Usable"
+		"InternalName"		"Openable"
+
+		SoundList
+		{
+			Sound
+			{
+				// played when the object begins to open
+				"Name"		"open"
+			}
+
+			Sound
+			{
+				// played when the object is finished closing
+				"Name"		"close"
+			}
+
+			
+			Sound
+			{
+				// played when the player tries to open a locked object
+				"Name"		"locked"
+			}
+
+			Sound
+			{
+				// played when the object starts to move
+				"Name"		"swing"
+			}
+		}
+
+	}
+}

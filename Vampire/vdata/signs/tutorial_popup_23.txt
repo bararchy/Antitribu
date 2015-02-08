@@ -1,0 +1,26 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Clan Nosferatu, having long been forced to share the same shadows, has a certain kinship with vermin. Rats do not flee the Nosferatu's approach.
+Most vampires can feed upon rats and gain a single blood point. With fewer options than their more presentable brethren, Nosferatu have grown accustomed to sustenance on a diet thin in blood. Nosferatu can gain three blood points from feeding upon rats.
+Killing rats has no impact on your Humanity score.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

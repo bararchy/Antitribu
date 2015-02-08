@@ -1,0 +1,516 @@
+> Comments must begin the line with ">"
+> Only localize the MIDDLE field, please.
+
+>
+> Junk for testing
+> Total Experience Value: This is the value without extra experience points
+>
+Title01  | NONE		 | 51
+Title02  | Description02 | 7
+Title03  | Description03 | 0
+Title04  | Description04 | 50
+Title05  | Description05 | 501
+
+>
+> Tutorial
+> Total Experience Value: 3
+>
+Tutor01  | Escaped the Sabbat assault | 301
+
+>
+> Elizabeth Dane
+> Total Experience Value: 10
+>
+Dane01	 | Obtained the manifest | 101
+Dane02	 | Obtained the police report | 101
+Dane03	 | Explored the crime scene | 201
+Dane04	 | Elizabeth Dane investigation completed | 401
+Dane05   | Investigated the Dane without killing anyone | 201
+
+>
+> Wherefore Art Thou, Mercurio?
+> Total Experience Value: 1
+>
+Merc01   | Located Mercurio | 101
+
+>
+> Surf's Up
+> Total Experience Value: 8
+>
+Astro01 | Retrieved the Astrolite | 401
+Astro02 | Reported back to Mercurio | 101
+Astro03 | Gave Mercurio some morphine | 101
+Astro04 | Returned Mercurio's money | 101
+Astro05 | Found Mercurio's journal | 101
+
+>
+> Explosive Beginnings
+> Total Experience Value: 13
+>
+Explosive01 | Got the feud called off | 401
+Explosive02 | Found Bertram Tung | 101
+Explosive03 | Blew up the warehouse | 501
+Explosive04 | Planted the Astrolite without killing anyone | 201
+Explosive05 | Reported warehouse destoryed to LaCroix | 101
+
+>
+> Haunted Hotel
+> Total Experience Value: 5
+>
+Haunted01 | Retrieved the pendant from the Ocean House | 201
+Haunted02 | Delivered the pendant to Therese | 101
+Haunted03 | Delivered the pendant to Jeanette | 101
+Haunted04 | Refused to give pendant to Jeanette | 101
+
+>
+> Slashterpiece
+> Total Experience Value: 4
+>
+Slash01 | Destroyed the paintings | 301
+Slash02 | Got inside gallery with the help of Chunk | 101
+
+>
+> Bad Blood
+> Total Experience Value: 1
+>
+Bad01 | Arrived at the Diner | 101
+
+>
+> Sibling Rivalry
+> Total Experience Value: 5
+>
+Sibling01 | Convinced Jeanette to kill Therese | 101
+Sibling02 | Convinced Therese to kill Jeanette | 101
+Sibling03 | Convinced Therese and Jeanette to live in peace | 301
+
+>
+> Searching for Mr. Carson
+> Total Experience Value: 5
+>
+Carson01 | Found information about Carson's last case | 101
+Carson02 | Rescued Carson | 301
+Carson03 | Reported back to Kilpatrick about Carson | 101
+
+>
+> The Bail Jumper
+> Total Experience Value: 2
+>
+Bail01 | Heard "Muddy" is headed downtown | 101
+Bail02 | Told Arthur Where "Muddy" is | 101
+
+>
+> Thinned Blood
+> Total Experience Value: 8
+>
+Thinned01 | Retrieved Lily's belongings | 101
+Thinned02 | Found Lily's journal | 101
+Thinned03 | Freed Lily | 301
+Thinned04 | Told E about Lily and thin-bloods | 101
+Thinned05 | Convinced Phil to give you the code | 201
+
+>
+> Asian Vampire
+> Total Experience Value: 9
+>
+Asian01 | Killed the Asian vampire | 501
+Asian02 | Told Knox that you killed Asian vampire | 101
+Asian03 | Unraveled Knox and Bertram's plan to deceive you | 201
+Asian04 | Found clues relating to the Asian vampire | 101
+
+>
+> Werewolf Blood
+> Total Experience Value: 4
+>
+Wblood01 | Retrieved the Werewolf blood from the clinic | 301
+Wblood02 | Successfully sent the blood back to LaCroix | 101
+
+>
+> Replacing Lily
+> Total Experience Value: 2
+>
+Danielle01 | Convinced Danielle to visit the Blood Bank | 201
+
+>
+> Carnival of Death
+> Unassigned Quest
+> Total Experience Value: 9
+>
+Killer01 | Talked the serial killer down | 301
+Killer02 | Convinced the bum to stay quiet | 101
+Killer03 | Killed serial killer | 501
+
+>
+> Contact Grout 
+> Total Experience Value: 6
+>
+Grout01 | Saw the remains of Alistair Grout | 301
+Grout02 | Told the Prince Grout is dead | 101
+Grout03 | Solved Grout's riddle | 101
+Grout04 | Unlocked Grout's inner sanctum | 101
+
+>
+> Museum
+> Total Experience Value: 8
+>
+Museum01 | Found the museum key | 101
+Museum02 | Located the sarcophagus room | 301
+Museum03 | Told the Prince that the sarcophagus was stolen | 201
+Museum04 | Investigated the museum without killing anyone | 201
+
+>
+> Find Sarcophagus
+> Total Experience Value: 14
+>
+Sarc01 | Found Gary | 301
+Sarc02 | Discovered the location of sarcophagus | 201
+Sarc03 | Returned the sarcophagus to Prince | 401
+Sarc04 | Killed Bruno Giovanni | 501
+
+>
+> Talk to Professor at Society
+> Total Experience Value: 12
+>
+Society01 | Killed Bach | 501
+Society02 | Talked to the professor | 101
+Society03 | Rescued the professor | 301
+Society04 | Found out secret info about sarcophagus from the professor | 201
+Society05 | Rescued Ash | 101
+
+>
+> Snuff Film
+> Total Experience Value: 7
+>
+Tape01 | Got info on the snuff film | 201
+Tape02 | Found the snuff film | 301
+Tape03 | Showed the tape to Isaac | 201
+
+>
+> 609 King's Way
+> Total Experience Value: 5
+>
+Kings01 | Destroyed the surgical lab creating Blood Brothers | 501
+
+>
+> Finding Barabus
+> Total Experience Value: 8
+>
+Barabus01 | Rescued Barabus from the Fu Syndicate | 601
+Barabus02 | Received Gary's phone call | 201
+
+>
+> Giovanni Mansion
+> Total Experience Value: 8
+>
+Giovanni01 | Infiltrated the Giovanni mansion | 101
+Giovanni02 | Found the sarcophagus room | 201
+Giovanni03 | Killed the Changs | 501
+
+>
+> Storming the Hallowbrook
+> Total Experience Value: 7
+>
+Shangrila01 | Located the lair of the Sabbat leader | 101
+Shangrila02 | Killed Andrei | 501
+Shangrila03 | Reported the death of the Sabbat to the Prince | 101
+
+>
+> Antitribu library quest
+> Total Experience Value: 10
+>
+>
+Sabbatsewer01 | Killed Jenny, the priest of the 'Dogs of War' pack | 501
+Sabbatlibrary03 | Sent the Lich into oblivion | 501
+
+>
+> The Alliance
+> Total Experience Value: 12
+>
+Alliance01 | Found out where Nines is | 201
+Alliance02 | Contacted Nines | 101
+Alliance03 | Escaped from Griffith Park | 201
+Alliance04 | Killed the Werewolf | 701
+
+>
+> Bloodhunt
+> Total Experience Value: 10
+>
+Bloodhunt01 | Survived the Blood Hunt | 701
+Bloodhunt02 | Killed the gargoyle | 301
+
+>
+> Kill Ming Xiao
+> Total Experience Value: 10
+>
+Ming01 | Reached Ming-Xiao's lair | 301
+Ming02 | Got the sarcophagus key | 701
+
+>
+> Dead Ex
+> Total Experience Value: 5
+>
+Dead01 | Found the location of the meeting | 101
+Dead02 | Met with the courier | 101
+Dead03 | Found the tape | 201
+Dead04 | Showed the tape to Isaac | 101
+
+>
+> Gargoyle Quest
+> Total Experience Value: 11
+>
+Gargoyle01 | Destroyed the Gargoyle | 501
+Gargoyle02 | Convinced the Gargoyle to ally with Isaac | 301
+Gargoyle03 | Told Isaac about the Regent and the Gargoyle | 201
+Gargoyle04 | Told Isaac about the Gargoyle | 101
+
+>
+> Plague Bearer
+> Total Experience Value: 18
+> 
+Plague01 | Got info about Jezebel Locke | 101
+Plague02 | Got Jezebel's key | 101
+Plague03 | Killed Jezebel | 501
+Plague04 | Got info from Tin Can Bill | 101
+Plague05 | Killed Kanker | 501
+Plague06 | Killed another plaguebearer | 501
+
+>
+> Kill All Plague Bearers
+> Total Experience Value: 9
+>
+AllPlague01 | Found a plaguebearer clue | 101
+AllPlague02 | Gained entrance to the crackhouse | 101
+AllPlague03 | Killed Bishop Vick | 501
+AllPlague04 | Told Damsel the last plaguebearer is dead | 201
+
+>
+> Traffik
+> Total Experience Value: 8
+>
+Traffik01 | Got Larry's briefcase | 201
+Traffik02 | Delivered the briefcase | 401
+Traffik03 | Got briefcase without being detected | 201
+
+>
+> Confession
+> Total Experience Value: 4
+>
+Confession01 | Gave Igor Venus' message | 301
+Confession02 | Told Venus you solved her problem | 101
+
+>
+> And Venus Was Her Name
+> Total Experience Value: 5
+>
+Venus01 | Solved Venus' Boris "problem" | 401
+Venus02 | Told Venus her problem is solved | 101
+
+>
+> Kill Venus
+> Total Experience Value: 4
+>
+Kill01 | Killed Venus for Boris | 301
+Kill02 | Told Boris Venus is dead | 101
+
+>
+> Junky
+> Total Experience Value: 6
+>
+Junky01 | Protected the Masquerade by dealing with Patty | 101
+Junky02 | Convinced Patty to leave town | 401
+Junky03 | Told Skelter you've dealt with Patty | 101
+
+>
+> Necromantic
+> Total Experience Value: 4
+>
+Necro01 | Dealt with Milligan | 301
+Necro02 | Informed Pisha that Milligan has been dealt with | 101
+
+>
+> Occult Items
+> Total Experience Value: 2
+>
+Occult01 | Retrieved an occult item for Pisha | 101
+Occult02 | Exchanged occult items with Pisha | 101
+
+>
+> Strip to Hunt
+> Total Experience Value: 8
+>
+Strip01 | Killed Chastity the hunter | 401
+Strip02 | Told VV Chastity is dead | 101
+Strip03 | Killed the hunter with no loss of innocent life | 301
+
+>
+> B Rated Writer
+> Total Experience Value: 11
+>
+Writer01 | Got Hatter's manuscript | 201
+Writer02 | Found out Hatter's collaborator's name | 201
+Writer03 | Killed Julius | 201
+Writer04 | Completed VV's quest | 301
+Writer05 | Delivered the manuscript to VV | 201
+
+>
+> Hunters Hunting
+> Total Experience Value: 8 +2 & +2 for another Ultra hunters
+>
+Hunters01 | You helped Ash evade the hunters | 601
+Hunters02 | You Killed the Ultra hunter | 201
+
+>
+> You Only Die Once a Night
+> Total Experience Value: 7
+>
+Romero01 | Kept the zombies out of Hollywood | 701
+
+>
+> A DIsh Best Served Cold
+> Total Experience Value: 3
+>
+Tommy01 | Convinced Flayton to give a bad review | 301
+
+>
+> Model Citizen
+> Total Experience Value: 7
+>
+Imalia01 | Ruined Tawni Sessions' life | 501
+Imalia02 | Told Imalia Tawni is dead | 201
+
+>
+> Cover Girl
+> Total Experience Value: 1
+>
+Cover01 | Found Imalia's magazine | 101
+
+>
+> The Kidnapped
+> Total Experience Value: 6
+>
+Kiki01 | Rescued Kiki | 401
+Kiki02 | Returned to Wong Ho | 201
+
+>
+> Original Gangster
+> Total Experience Value: 15
+>
+Gangster01 | Met with Zhao | 301
+Gangster02 | Survived the Tong ambush | 401
+Gangster03 | Survived the Tong ambush with Zhao alive | 801
+
+>
+> The Dragon's Tail
+> Total Experience Value: 7
+>
+Johnny01 | Killed Johnny | 301
+Johnny02 | Stealth-killed Johnny | 401
+
+>
+> The Invitation
+> Total Experience Value: 11
+>
+Mandarin01 | Survived the Mandarin's experiments | 601
+Mandarin02 | Killed the Mandarin | 301
+Mandarin03 | Freed Barabus | 201
+
+>
+> Demon Hunter
+> Total Experience Value: 11
+>
+Yukie01 | Ming-Xiao told you the hengeyokai's name is Zygaena | 201
+Yukie02 | Set up a meeting with Zygaena | 201
+Yukie03 | Killed the hengeyokai | 701
+
+>
+> Eye Gouge Hell
+> Total Experience Value: 5
+>
+Eyes01 | Got the eyes | 301
+Eyes02 | Gave Ox the eyes | 201
+
+>
+> Bad Luck Farmer
+> Total Experience Value: 10
+> 
+Ox01 | Placed the talisman | 201
+Ox02 | Dealt with Shu | 301
+Ox03 | Told Ox about the talisman placement | 201
+Ox04 | Ox was happy you killed Shu | 301
+
+>
+> Hit Man Impasse
+> Total Experience Value: 14
+> 
+Hitman01 | Gave Ji Wen Ja Lu Fang's key | 401
+Hitman02 | Gave Lu Fang Ji Wen Ja's key | 401
+Hitman03 | Convinced Ji Wen Ja and Lu Fang to become friends | 601
+
+>
+> A Tangled Web
+> Total Experience Value: 16
+>
+Web01    | Activated Santa Monica hub | 401
+Web02 	 | Activated Downtown hub | 401
+Web03 	 | Activated Hollywood hub | 401
+Web04 	 | Activated Chinatown hub | 401
+
+>
+> Muddy Hunt
+> Total Experience Value: 2
+>
+Muddy01	 | Found "Muddy" Mike | 201
+
+>
+> Pimpin for Romero
+> Total Experience Value: 2
+>
+Pimp01	 | Romero got some lovin' | 201
+
+>
+> Spiritual Release
+> Total Experience Value: 3
+>
+Spirit01    | Released the Ocean House spirits | 301
+
+> The Regent's Riddle
+> Total Experience Value: 2
+>
+Strauss01    | Found Maximillian Strauss | 201
+
+> Underworld Blues
+> Total Experience Value: 4
+>
+BertramCD01    | Found Bertram's data CD | 201
+BertramCD02    | Returned Bertram's data CD | 201
+
+> Beckett's Name
+> Total Experience Value: 2
+>
+Beckett01    | Found out more info about Beckett | 201
+
+> Beckett's Quest
+> Total Experience Value: 2
+>
+Beckett02    | Found out more info about Beckett | 201
+
+> Giovanni Mansion
+> Total Experience Value: 6
+>
+Gio01    | Helped one of the Giovanni get dirt on others | 201
+Gio02    | Helped one of the Giovanni get dirt on others | 201
+Gio03    | Helped one of the Giovanni get dirt on others | 201
+
+>
+> Hunters rides on UH-1c 
+>
+Rid01    | Apocalypse Now | 501
+
+>
+> Professional killer 
+>
+Profkiller01    | You worked as a professional killer | 101
+
+>
+> Nines intro: kill pander without Nines help
+>
+NinesHepl01    | You killed the Pander leader without Nines help | 301

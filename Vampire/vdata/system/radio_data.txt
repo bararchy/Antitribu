@@ -1,0 +1,38 @@
+RadioData
+{
+	// Radios check dependencies from the top of this file to the bottom
+	// they will play the first that is true in the file
+	// they re-check this list every time the map is loaded, or a save game is loaded
+
+	Show
+	{
+		"dependency"		"G.Story_State < 10"	
+		"filename"		"radio/radio_loop_1.mp3"
+
+	}
+
+	Show
+	{
+		"dependency"		"G.Story_State >= 10 and G.Story_State < 30"	
+		"filename"		"radio/radio_loop_2.mp3"
+	}
+
+	Show
+	{
+		"dependency"		"G.Story_State >= 30 and G.Story_State < 45"	
+		"filename"		"radio/radio_loop_3.mp3"
+	}
+
+	Show
+	{
+		"dependency"		"G.Story_State >= 45 and G.Story_State < 70"	
+		"filename"		"radio/radio_loop_4.mp3"
+	}
+
+
+	Show
+	{
+		"dependency"		"G.Story_State >= 70"	
+		"filename"		"radio/radio_loop_5.mp3"
+	}
+}

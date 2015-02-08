@@ -1,0 +1,64 @@
+// Chang's staff; Test
+WeaponData
+{
+	"viewmodel"		"models/weapons/w_null.mdl"
+	"playermodel"		"models/weapons/w_null.mdl"
+	"wieldmodel_f"		"models/weapons/w_null.mdl"
+	"wieldmodel_m"		"models/cinematic/visual_stuff/raincoat2/w_m_raincoat2.mdl"
+	"infomodel"		"models/scenery/misc/armor/RiotGear/RiotGear.mdl"
+	"anim_prefix"		"riot_gear"
+
+	"printname"		"Body Armor"
+	"description"		"Most of these protective compounds are worn under clothing, for that extra ounce of \"not gonna die tonight\". Their armor rating is 4 with -2 to Dexterity."
+	"bucket"		"1"
+	"bucket_position"	"2"
+
+	"weight"		"0"
+	"item_flags"		"1"
+	"item_type"		"armor"
+	"item_worth"		"300"
+	"item_class_discount" 	"1"
+
+	"equip_mask"		"Normal"
+	"permanent_inventory"	"1"	
+	"shows_view_model"	"1"
+	"is_droppable"		"0"
+	"is_wieldable"		"1"
+
+	SoundData	
+	{
+		"pickup"
+		{
+			"sound1"	"items/Book/Pickup.wav"
+		}
+	}
+
+
+	SpriteData
+	{
+
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/Armors/BrujahM/Brujah_M_A4"	
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/Armors/BrujahM/Brujah_M_A4"	
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+	}
+}

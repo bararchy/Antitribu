@@ -1,0 +1,35 @@
+SignData
+{
+	// NOTE: Labels get text justification
+	//	 TextBlocks get word wrapping	
+	//	 Font sizes per resolution are defined in vampire/resource/TrackerScheme.res
+
+	// if you don't specify X and Y pos for the background image, it will autocenter. 
+	BackgroundImage
+	{
+		//"Name"		"hud/signs/monogram"
+		"Name"		"hud/signs/notepad_yellow"
+		"Tiled"		"0"
+//		"XPos"		"312"
+//		"YPos"		"128"
+		"Wide"		"450"
+		"Tall"		"595"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Hey, Eddie, yesterday the cargo came from France it's damn ugly statue, deal with it.
+This Venus is ordered for decoration, you know she has neo-Gothic club in downtown.
+Oh i forgot, some brainsick would come from 'prosthesis of Gimble' seems, he also wanted to buy this statue, what a moron isn't it?"
+		"Font"		"Vamp_Handwriting1"
+		"XPos"		"78"
+		"YPos"		"99"
+		"Wide"		"365"
+		"Tall"		"575"
+		"TextRGBA"		"[0,0,0,150]"
+		"BackgroundRGBA"	"[0,0,0,0]"
+	}
+
+}
+

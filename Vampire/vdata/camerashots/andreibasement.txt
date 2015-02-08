@@ -1,0 +1,45 @@
+CameraShotTable
+{
+
+	AndreiBasement
+	{
+
+		Start
+		{
+			"Position"		"Named"
+			"AttachPos"		"Center"
+			"AttachType"		"Follow" 
+		}
+
+		End
+		{
+			"Position"		"Named"
+			"AttachPos"		"Center"
+			"AttachType"		"Follow"	 
+		}
+
+		Target	
+		{
+			Point1
+			{
+				"Position"		"Named"
+				"AttachPos"		"Center"
+				"AttachType"		"Follow"	 
+			}
+		}
+
+		CameraConstraints
+		{
+			"MoveAccel"		"40.0"
+			"TurnAccel"		"90"
+			"MoveSpeed"		"80"
+			"MaxTurnRate"		"[160, 160, 160]"	
+			"DistanceTolerance"	"10"
+			"AngularTolerance"	"[1, 1, 10]"	
+			"FieldOfView"		"75"
+			"DialogPOV"		"1"
+			"SyncRotateOnMove"	"1"
+		}
+	}
+
+}

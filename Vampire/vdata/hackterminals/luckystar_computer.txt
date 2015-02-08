@@ -1,0 +1,32 @@
+TerminalDefinition
+{
+	"screen saver"		""		 
+	"brackets"		""			
+
+	LogonScreen	
+	{
+		"line0"		"sammie sammie"  
+		"line1"		"It's a secret to everybody"
+	}
+
+	SubDir
+	{
+		"name"			"for Friend"
+		"description"		"from friend"
+
+		Function
+		{
+			"name"		"Sam J."
+			"description"	"Sam J. meeting"
+			"runtext"	"I'm waiting you in Gallery Noir in Santa Monica."
+			"runscript"	"HunterStart()"
+		}
+
+		Function
+		{
+			"name"		"Don't Forget"
+			"description"	"Don't Forget"
+			"runtext"	"Don't forget check your tail."
+		}
+	}
+}

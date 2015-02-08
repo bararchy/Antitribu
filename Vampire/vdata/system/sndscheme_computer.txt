@@ -1,0 +1,36 @@
+SoundSchemeTables
+{
+	SoundScheme
+	{
+		"Name"			"Usable"
+		"InternalName"		"Computer"
+
+		SoundList
+		{
+			Sound
+			{
+				//Changed directory accepted comand
+				"Name"		"accept"
+			}
+
+			Sound
+			{
+				//Is played when the hack/computer interface is brought up.
+				"Name"		"access"
+			}
+			
+			Sound
+			{
+				//Need password or password failed
+				"Name"		"error"
+			}
+
+			Sound
+			{
+				//Sound is looped while hacking a password
+				"Name"		"typing"
+			}
+		}
+
+	}
+}

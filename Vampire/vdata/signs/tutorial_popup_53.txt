@@ -1,0 +1,30 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Animalism:
+Of all Kindred, Clan Gangrel are perhaps closest to their inner nature. Wild and unrefined, they have long spurned the strictures of society and sought communion with nature. The vampiric Discipline of Animalism is one of the hallmarks of the Gangrel bloodline. With it the Gangrel can communicate with animal spirits, invoking frightening and ferocious effects.
+The individual levels of Animalism each have their own unique effects.
+Level One: Nightwisp Ravens
+The Gangrel may call forth Nightwisp Ravens to incapacitate and distract a victim. The effect is fragile, however; if the Gangrel touches, attacks, or otherwise disturbs the stricken individual, the Ravens will disperse and the effect will end prematurely.
+Nightwisp Ravens, and all other Animalism effects, are clearly supernatural in nature, and carry a risk of violating the Masquerade if they are witnessed by non-hostile humans. Animalism is therefore to be used with discretion.
+The individual levels of Animalism carry different costs. Nightwisp Ravens costs 1 blood point. To use Nightwisp Ravens, scroll to it using the ] and [ keys (by default) or with the mousewheel, target your enemy, then use the Power key (default right-click) to activate it.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

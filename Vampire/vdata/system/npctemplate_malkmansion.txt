@@ -1,0 +1,184 @@
+//////////////////////////////////////////////////
+// NPC Stat Templates (Packages)	- Vampire
+//
+//
+//
+//	MALKAVIAN MANSION NPCS - PLEASE DO NOT PUT OTHER NPC TEMPLATES IN HERE!!!
+//
+
+ClanDataTables
+{
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"MalkMansionStalker"
+			//"ParentTemplateName"	"NPCGeneric"
+			"ParentTemplateName"	""
+			"Name"			"Malkavian Mansion Stalker"
+			"Description"		"Malkavian Mansion Stalker NPC"
+		}
+
+		General
+		{
+			"Kindred"		"0"
+			"Supernatural"		"0"
+			"Boss"			"0"
+			"Gender"		"Male"
+			"SoundGroup"		"monster/zombie_male"
+			"SpawnModel"		"models/character/npc/unique/Malkavian_mansion/Stalker/stalker.mdl"
+			//"Has_Badblood"		"1"
+		}
+
+		Attributes
+		{
+			"Strength"			"3"
+			"Dexterity"			"2"
+			"Stamina"			"2"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"2"
+			"Intelligence"			"1"
+			"Wits"				"3"
+			"Armor_Rating"			"0"
+			"Max_Health"			"205"
+			"BloodPool"			"10"
+		}
+
+		Abilities
+		{
+			"Brawl"				"1"
+			"Dodge"				"2"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"0"
+			"Melee"				"1"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"2"
+			"Finance"			"0"
+			"Investigation"			"0"
+		}
+	}
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"MalkMansionCroucher"
+			//"ParentTemplateName"	"NPCGeneric"
+			"ParentTemplateName"	""
+			"Name"			"Malkavian Mansion Croucher"
+			"Description"		"Malkavian Mansion Croucher NPC"
+		}
+
+		General
+		{
+			"Clan"				"Human"
+			"Kindred"			"0"
+			"Supernatural"			"0"
+			"Boss"				"0"
+			"Gender"			"Male, Female"
+			"SoundGroup"			"Tzim_Punks"
+			//"SpawnModel"			"models/character/npc/unique/Malkavian_mansion/Stalker_Female/stalker_female.mdl"
+			"SpawnModel"			"models/character/npc/unique/Malkavian_mansion/stalker/stalker_female.mdl"
+			"Disallow_Knockbacks"		"1"
+			//"FastFood"			"1"		
+			//"Has_Badblood"			"1"
+			"DeathGib"			"models/gibs/hgibs.mdl"
+			"GibsCollide"			"0"
+			"NeverInnocent"			"1"
+		       	"HasTrueSight" 			"1"
+		}
+
+		Attributes
+		{
+			"Strength"			"2"
+			"Dexterity"			"2"
+			"Stamina"			"2"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"3"
+			"Intelligence"			"1"
+			"Wits"				"4"
+			"Armor_Rating"			"0"
+			"Max_Health"			"185"
+			"BloodPool"			"6"
+		}
+
+		Abilities
+		{
+			"Brawl"				"2"
+			"Dodge"				"2"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"2"
+			"Melee"				"2"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"3"
+			"Finance"			"0"
+			"Investigation"			"0"
+		}
+	}
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"MalkMansionStalkerBurning"
+			//"ParentTemplateName"	"NPCGeneric"
+			"ParentTemplateName"	""
+			"Name"			"Malkavian Mansion Stalker"
+			"Description"		"Malkavian Mansion Stalker NPC"
+		}
+
+		General
+		{
+			"Kindred"		"0"
+			"Supernatural"		"0"
+			"Boss"			"0"
+			"Gender"		"Male"
+			"SoundGroup"		"monster/zombie_male"
+			"SpawnModel"		"models/character/npc/unique/Malkavian_mansion/Stalker/stalker.mdl"
+			"NoBiting"		"1"
+		}
+
+		Attributes
+		{
+			"Strength"			"1"
+			"Dexterity"			"1"
+			"Stamina"			"1"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"1"
+			"Intelligence"			"1"
+			"Wits"				"0"
+			"Armor_Rating"			"0"
+			"Max_Health"			"105"
+			"BloodPool"			"6"
+		}
+
+		Abilities
+		{
+			"Brawl"				"0"
+			"Dodge"				"0"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"0"
+			"Melee"				"0"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"0"
+			"Finance"			"0"
+			"Investigation"			"0"
+		}
+	}
+}
+
+//
+//	MALKAVIAN MANSION NPCS - PLEASE DO NOT PUT OTHER NPC TEMPLATES IN HERE!!!
+//

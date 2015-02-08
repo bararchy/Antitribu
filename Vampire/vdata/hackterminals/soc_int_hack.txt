@@ -1,0 +1,154 @@
+TerminalDefinition
+{
+	"screen saver"		"Society of Leopold"	
+	"brackets"		""			
+	"difficulty"		"6"
+
+	LogonScreen
+	{
+		"line0"		"Society of Leopold"
+	}
+
+	SubDir
+	{
+		"name"			"power"
+		"password"		"wod"
+		"description"		"Enable or disable charges"
+		"dependency"		"G.Computer_Password == 1"
+		
+		Function
+		{
+			"name"		"on"
+			"description"	"Turns charges on"
+			"runtext"	"Charges enabled."
+			"trigger"	"0"		
+		}
+
+		Function
+		{
+			"name"		"off"
+			"description"	"Turns charges off"
+			"runtext"	"Charges disabled."
+			"trigger"	"1"		
+		}
+	}
+
+	SubDir
+	{
+		"name"			"power"
+		"password"		"rod"
+		"description"		"Enable or disable charges"
+		"dependency"		"G.Computer_Password == 2"
+		
+		Function
+		{
+			"name"		"on"
+			"description"	"Turns charges on"
+			"runtext"	"Charges enabled."
+			"trigger"	"0"		
+		}
+
+		Function
+		{
+			"name"		"off"
+			"description"	"Turns charges off"
+			"runtext"	"Charges disabled."
+			"trigger"	"1"		
+		}
+	}
+
+	SubDir
+	{
+		"name"			"power"
+		"password"		"sod"
+		"description"		"Enable or disable charges"
+		"dependency"		"G.Computer_Password == 3"
+		
+		Function
+		{
+			"name"		"on"
+			"description"	"Turns charges on"
+			"runtext"	"Charges enabled."
+			"trigger"	"0"		
+		}
+
+		Function
+		{
+			"name"		"off"
+			"description"	"Turns charges off"
+			"runtext"	"Charges disabled."
+			"trigger"	"1"		
+		}
+	}
+
+//////////////////////////////////////////////////////////////////////
+	SubDir
+	{
+		"name"			"heat sig"
+		"password"		"yak"
+		"description"		"Change heat signature settings"
+		"dependency"		"G.Computer_Password == 1"
+		
+		Function
+		{
+			"name"		"human"
+			"description"	"Sets charge on human heat signatures"
+			"runtext"	"Charges set to human."
+			"trigger"	"2"			
+		}
+
+		Function
+		{
+			"name"		"vampire"
+			"description"	"Sets charge on vampire heat signatures"
+			"runtext"	"Charges set to vampire."
+			"trigger"	"3"			
+		}
+	}
+	SubDir
+	{
+		"name"			"heat sig"
+		"password"		"dak"
+		"description"		"Change heat signature settings"
+		"dependency"		"G.Computer_Password == 2"
+		
+		Function
+		{
+			"name"		"human"
+			"description"	"Sets charge on human heat signatures"
+			"runtext"	"Charges set to human."
+			"trigger"	"2"			
+		}
+
+		Function
+		{
+			"name"		"vampire"
+			"description"	"Sets charge on vampire heat signatures"
+			"runtext"	"Charges set to vampire."
+			"trigger"	"3"			
+		}
+	}
+	SubDir
+	{
+		"name"			"heat sig"
+		"password"		"oak"
+		"description"		"Change heat signature settings"
+		"dependency"		"G.Computer_Password == 3"
+		
+		Function
+		{
+			"name"		"human"
+			"description"	"Sets charge on human heat signatures"
+			"runtext"	"Charges set to human."
+			"trigger"	"2"			
+		}
+
+		Function
+		{
+			"name"		"vampire"
+			"description"	"Sets charge on vampire heat signatures"
+			"runtext"	"Charges set to vampire."
+			"trigger"	"3"			
+		}
+	}
+}

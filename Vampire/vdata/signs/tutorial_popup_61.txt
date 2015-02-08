@@ -1,0 +1,30 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Protean:
+Protean is the legendary vampiric ability of transformation, and a gift shared by all of Clan Gangrel.
+Each level of Protean represents a physical transformation. These transformations are cumulative.
+Level One: Gleam of Red Eyes
+On invoking Protean, the Gangrel's eyes become glowing red and cat-like. Gleam of Red Eyes allows the Gangrel to see perfectly in the dark, detect heat, and conveys a +2 bonus to Perception.
+The physical transformations that result from Protean are obvious supernatural acts. Protean should therefore be used with discretion in safe areas.
+To use Protean, scroll to it using the ] and [ keys (by default) or with the mouse wheel, then use the Power key (default right-click) to activate it.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

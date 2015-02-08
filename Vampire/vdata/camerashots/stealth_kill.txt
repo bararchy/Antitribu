@@ -1,0 +1,133 @@
+CameraShotTable
+{
+	
+	// slightly above, in front of, and to the left of the sequence. 
+	Stealth_Kill_1
+	{
+		Start
+		{
+			"Position"		"GrappleAttacker"
+			"AttachPos"		"Origin"
+			"AttachType"		"Follow"
+			"OffsetOrigin"		"[64, 64, 96]"	 
+		}
+
+		Target	
+		{
+			Point1
+			{
+				"Position"		"GrappleAttacker"
+				"AttachPos"		"Bone: Bip01 Head"
+				"AttachType"		"Follow"
+			}
+		}
+
+		CameraConstraints
+		{
+			"TurnAccel"		"60"
+			"MaxTurnRate"		"[180,180,180]"
+			"DistanceTolerance"	"10"
+			"AngularTolerance"	"[2, 2, 2]"		
+		}
+
+	}
+
+	// in front of target, looking at target. 
+	Stealth_Kill_2
+	{
+		Start
+		{
+			"Position"		"GrappleAttacker"
+			"AttachPos"		"Bone: Bip01 Head"
+			"AttachType"		"FollowEntAngles"
+			"OffsetOrigin"		"[128,0,0]"	 
+		}
+
+		Target	
+		{
+			Point1
+			{
+				"Position"		"GrappleAttacker"
+				"AttachPos"		"Bone: Bip01 Head"
+				"AttachType"		"Follow"
+			}
+		}
+
+		CameraConstraints
+		{
+			"TurnAccel"		"60"
+			"MaxTurnRate"		"[180,180,180]"
+			"DistanceTolerance"	"10"
+			"AngularTolerance"	"[2, 2, 2]"		
+		}
+
+	}
+
+
+
+
+	// slightly above, in front of, and to the left of the sequence. 
+	Stealth_Kill_3
+	{
+		Start
+		{
+			"Position"		"GrappleAttacker"
+			"AttachPos"		"Origin"
+			"AttachType"		"Follow"
+			"OffsetOrigin"		"[64, -64, 24]"	 
+		}
+
+		Target	
+		{
+			Point1
+			{
+				"Position"		"GrappleAttacker"
+				"AttachPos"		"Bone: Bip01 Head"
+				"AttachType"		"Follow"
+			}
+		}
+
+		CameraConstraints
+		{
+			"TurnAccel"		"60"
+			"MaxTurnRate"		"[180,180,180]"
+			"DistanceTolerance"	"10"
+			"AngularTolerance"	"[2, 2, 2]"		
+		}
+
+	}
+
+
+
+	// high above, slightly behindlooking straight down
+	Stealth_Kill_4
+	{
+		Start
+		{
+			"Position"		"GrappleVictim"
+			"AttachPos"		"Origin"
+			"AttachType"		"FollowEntAngles"
+			"OffsetOrigin"		"[-32, 0, 128]"	 
+		}
+
+		Target	
+		{
+			Point1
+			{
+				"Position"		"GrappleVictim"
+				"AttachPos"		"Bone: Bip01 Head"
+				"AttachType"		"Follow"
+			}
+		}
+
+		CameraConstraints
+		{
+			"TurnAccel"		"60"
+			"MaxTurnRate"		"[180,180,180]"
+			"DistanceTolerance"	"10"
+			"AngularTolerance"	"[2, 2, 2]"		
+		}
+
+	}
+
+}

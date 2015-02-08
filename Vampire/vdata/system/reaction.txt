@@ -1,0 +1,68 @@
+// Reactions Doc
+
+ReactionsData
+{
+	// Note: Do *NOT* Localize *ANY* of these strings!
+	General
+	{
+		"InternalName"	"Reactions"
+
+		ModifierNames  // For Lookups & Debugging
+		{
+			"0"	"+"
+			"1"	"*"
+			"2"	"/"
+			"3"	"Max"
+			"4"	"Min"
+			"5"	"%"
+		}
+
+		CritterScopes
+		{
+			"0"	"Kindred"
+			"1"	"Kine"
+			"2"	"ALL"
+
+//			"0"	"ALL"			// "Kindred(), Kine()"
+//			"1"	"Kindred"		// "ALL(!Kine)
+//			"2"	"Kine"		// "ALL(!Kindred)"
+//			"3"	"FriendlyNPCS"	// "ALL(!PCs)"
+		}
+
+		WhoModifiesSpecifications
+		{
+//			"0"	"Others"
+//			"1"	"Self"
+		}
+
+		Table
+		{
+			"Name"		"Reaction Ranges"
+			"InternalName"	"Reaction_Ranges"
+
+			"Clamping"		"1"
+
+			"0"			"0"
+			"1"			"20"
+			"2"			"40"
+			"3"			"60"
+			"4"			"80"
+			"5"			"100"
+			"6"			"9999"
+		}
+	}
+
+	Strings
+	{
+		ReactionLevel
+		{
+			"Name0"		"Want To Kill"
+			"Name1"		"Hatred"
+			"Name2"		"Dislike"
+			"Name3"		"Neutral Reaction"
+			"Name4"		"Admire"
+			"Name5"		"Love"
+			"Name6"		"Obsession"
+		}
+	}
+}

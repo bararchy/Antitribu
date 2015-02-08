@@ -1,0 +1,27 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Use the Feed key (default F) when you are in range to feed on a victim.
+Hit the Feed key again to stop feeding; it is important to stop feeding before you kill innocent victims.
+Feeding has a narcotic effect on humans. After non-aggressive humans are fed upon, they will enter a trance-like state. Use this time to slip away undetected. During combat, humans will not become incapacitated after you stop feeding.
+It is important that humans do not see you feed on other humans.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

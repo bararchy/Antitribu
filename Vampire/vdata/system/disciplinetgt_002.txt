@@ -1,0 +1,5213 @@
+//Discipline new Domination for Bloodlines: Antitribu (made by Lenusk@)
+DisciplineTgtList
+{
+// ---------------------
+// Dominate: Level 1
+DisciplineTgt
+{
+	"Name"			"Command"
+	"InternalName"		"Dominate_Level1"
+
+	"Discipline"		"Dominate"
+	"Level"			"1"
+
+	"TgtHightlightParticle"	"D_Target_Aura_Emitter"
+
+	"BloodCost"			"1"
+	"RecoveryTime"			"4.0"
+
+	AoE
+	{
+		"Range"		"512"
+		"Source"	"Self"		// Self/Target
+		"Affects"	"Target"	// Target/Radius:#/Cone:#
+
+		Affects_Filters
+		{
+			"Critter"		"1"
+			"No_Friends"		"1"
+		}
+
+	// Tables:
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Human"		"1"
+				"Player"	"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Human"
+			}
+		}
+
+	// Tables: PC lasombra
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"Player"		"1"
+				"CharTemplate"		"Player_Brujah"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Common"
+			}
+		}
+
+	// Tables: PC old clan tzimisce
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"Player"		"1"
+				"CharTemplate"		"Player_Tzimisceoc"
+			}
+		
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Common"
+			}
+		}
+
+	// Tables: PC giovanni
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"Player"		"1"
+				"CharTemplate"		"Player_Ventrue"
+			}
+		
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Common"
+			}
+		}
+
+	// Tables: possesed PC malkavian
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"Player"		"1"
+				"CharTemplate"		"Leopold2"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Player_Dementation2"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Dementation"
+			}
+		}
+//
+// ADD DISCIPLINESTRATA EFFECTS BELOW THIS LINE
+//
+		Affects_Table	
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"Gargoyle"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}
+
+		Affects_Table	
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"Hengeyokai"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}
+
+		Affects_Table	
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"MingXiao"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}
+
+		Affects_Table	
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"MingXiaoProxy"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"TzimisceCreation2"
+			}
+
+			Mapping
+			{
+				"Chance"	"100%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"		"Hit_Human"	
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"TzimisceCreation3"
+			}
+
+			Mapping
+			{
+				"Chance"	"100%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"		"Hit_Human"	
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"0"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_One"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Two"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Three"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Four"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Human"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"1"
+			}
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_One"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Two"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Three"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Four"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_1"
+			}
+		}		
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"2"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_One"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Two"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Three"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Four"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_2"
+			}
+		}		
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"3"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Command_One"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Command_Two"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Command_Three"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Command_Four"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_3"
+			}
+		}	
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"4"
+			}
+
+			Mapping
+			{
+				"Chance"	"40%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"40%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Mapping
+			{
+				"Chance"	"20%"
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_4"
+			}
+		}	
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"5"
+			}
+
+			Mapping
+			{
+				"Chance"	"34%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"34%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Mapping
+			{
+				"Chance"	"34%"
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_5"
+			}
+		}	
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"6"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_6"
+			}
+		}	
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"7"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_7"
+			}
+		}	
+//
+// ADD DISCIPLINESTRATA EFFECTS ABOVE THIS LINE
+//
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Human"		"1"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_One"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Two"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Three"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Four"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Human"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"	"1"
+				"No_Boss"	"1"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Boss"		"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Boss_NoEffect"
+			}
+		}
+	}
+
+	Effect_Src_Instant
+	{
+	}
+
+	Effect_Src_Hit
+	{
+	}
+
+// Effects:
+	Hit_Invulnerable
+	{
+	}
+
+// Effects: PC clan: lasombra, old clab, giavanni cast animation
+	Hit_Player_Common
+	{
+		"Duration"		"2"
+		"Dmg_Health"		"0%"
+		"Gesture_Anim"		"ACT_CAST_RESET_LAYER_THAUMATURGY"
+		"Gesture_Duration"	"1.25"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Domination_pc1)"
+		}
+
+		Effect_Tgt_Hit
+		{
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dominate_Cast_Emitter1"
+				"AttachType"	"BoneSinglePoint"
+				"AttachName"	"Bip01 Head"
+			}
+
+			Particle_FirstPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dominate_Hud_Cast_Emitter1"
+				"AttachType"	"ScreenCenter"
+				"AttachName"	""
+			}
+		}
+
+		SoundFX
+		{
+			"Sound"		"Disciplines/Dominate/suggestion_ramp.wav"
+		}
+
+		OnEnd
+		{
+		}
+	}
+
+// Effects: possessed malkavian: jeanette/therese/tourette cast animation
+	Hit_Player_Dementation
+	{
+		"Gesture_Anim"		"ACT_MADNESS_GETOUT"
+		"Gesture_Duration"	"1.85" 
+		"Duration"		"20"
+		"Dmg_Health"		"0%"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation_level1_1)"
+		}
+
+		Effect_Tgt_Hit
+		{
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dementation_Cast_Emitter1"
+				"AttachType"	"BoneSinglePoint"
+				"AttachName"	"Bip01 Head"
+			}
+
+			Particle_FirstPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dementation_Hud_Cast_Emitter1"
+				"AttachType"	"ScreenCenter"
+				"AttachName"	""
+			}
+		}
+
+		SoundFX
+		{
+			"Sound"		"Disciplines/Dementation/insanity_hit.wav"
+		}
+	}
+
+	Hit_Player_Dementation2
+	{
+		"Gesture_Anim"		"ACT_MADNESS_GETOUT"
+		"Gesture_Duration"	"1.85" 
+		"Duration"		"20"
+		"Dmg_Health"		"0%"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation_level1_2)"
+		}
+
+		Effect_Tgt_Hit
+		{
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dementation_Cast_Emitter1"
+				"AttachType"	"BoneSinglePoint"
+				"AttachName"	"Bip01 Head"
+			}
+
+			Particle_FirstPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dementation_Hud_Cast_Emitter1"
+				"AttachType"	"ScreenCenter"
+				"AttachName"	""
+			}
+		}
+
+		SoundFX
+		{
+			"Sound"		"Disciplines/Dementation/insanity_hit.wav"
+		}
+	}
+
+	Hit_Player_Human
+	{
+	}
+
+	Hit_Player_Supernatural
+	{
+	}
+
+	Hit_Human
+	{
+	}
+
+	Hit_Command_One
+	{
+		"AI_Schedule"		"SCHED_TROIKA_DO_HAUNTING_ACTIVITY"
+		"Duration"		"10"
+		"Gesture_Anim"		"ACT_CIGARETTE_INTO"
+		"Gesture_Duration"	"10.0"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation-Mass_Hallucination)"
+		}
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Dominate_Level1"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
+
+		Effect_Tgt_Hit
+		{
+			SoundFX
+			{
+				"Sound"		"Disciplines/Dominate/dominate_imposewill.wav"
+				"Channel"	"CHAN_AUTO"
+				"IsLooping"	"1"
+			}
+		}
+
+		OnEnd
+		{
+			"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"
+			"Duration"		"1.2"
+			"Knockback"		"50%"	
+		}
+	}
+
+	Hit_Command_Two
+	{
+		"AI_Schedule"		"SCHED_TROIKA_DO_HAUNTING_ACTIVITY"
+		"Duration"		"10"
+		"Gesture_Anim"		"ACT_CELLPHONE_INTO"
+		"Gesture_Duration"	"10.0"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation-Mass_Hallucination)"
+		}
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Dominate_Level1"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
+
+		Effect_Tgt_Hit
+		{
+			SoundFX
+			{
+				"Sound"		"Disciplines/Dominate/dominate_imposewill.wav"
+				"Channel"	"CHAN_AUTO"
+				"IsLooping"	"1"
+			}
+		}
+
+		OnEnd
+		{
+			"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"
+			"Duration"		"1.2"
+			"Knockback"		"50%"	
+		}
+	}
+
+	Hit_Command_Three
+	{
+		"AI_Schedule"		"SCHED_TROIKA_DO_LEAVE_ACTIVITY"
+		"Duration"		"7-12"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation-Mass_Hallucination)"
+		}
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Dominate_Level1"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
+
+		Effect_Tgt_Hit
+		{
+			SoundFX
+			{
+				"Sound"		"Disciplines/Dominate/dominate_imposewill.wav"
+				"Channel"	"CHAN_AUTO"
+				"IsLooping"	"1"
+			}
+		}
+
+		OnEnd
+		{
+			"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"
+			"Duration"		"1-2"
+			"Knockback"		"50%"	
+		}
+	}
+
+	Hit_Command_Four
+	{
+		"AI_Schedule"		"SCHED_TROIKA_DO_HAUNTING_ACTIVITY"
+		"Duration"		"7-12"
+		"AddToComfort"		"1"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation-Mass_Hallucination)"
+		}
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Dominate_Level1"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
+
+		Effect_Tgt_Hit
+		{
+			SoundFX
+			{
+				"Sound"		"Disciplines/Dominate/dominate_imposewill.wav"
+				"Channel"	"CHAN_AUTO"
+				"IsLooping"	"1"
+			}
+		}
+
+		OnEnd
+		{
+			"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"
+			"Duration"		"1-2"
+			"Knockback"		"50%"	
+		}
+	}
+
+	Hit_Hysteria
+	{
+		"AI_Schedule"		"SCHED_TROIKA_D_HYSTERIA"
+		"Duration"		"9-12"
+		"Expression"		"Smile"
+		"AddToComfort"		"1"
+
+		Trigger_Casting
+		{
+				"DisciplineFX"	"Dominate_Level1"
+				"Source"	"Target"
+				"Affects"	"Self"
+		}
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation-Hysteria)"
+		}
+
+		Effect_Tgt_Hit
+		{
+			SoundFX
+			{
+				"Sound"		"Disciplines/Dementation/Veil_Hit.wav"
+				"Channel"	"CHAN_AUTO"
+				"IsLooping"	"1"
+			}
+		}
+
+		OnEnd
+		{
+			"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"
+			"Duration"		"1-1.5"
+		}
+	}
+
+	Hit_Trance
+	{
+		"AI_Schedule"		"SCHED_TROIKA_D_TRANCE"
+		"Duration"		"10-14"
+		"AddToComfort"		"0"
+
+		Trigger_Casting
+		{
+				"DisciplineFX"	"Dominate_Level1"
+				"Source"	"Target"
+				"Affects"	"Self"
+		}
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation-Hysteria)"
+		}
+
+		Effect_Tgt_Hit
+		{
+			SoundFX
+			{
+				"Sound"		"Disciplines/Dominate/Dominate_Mesmerize.wav"
+				"Channel"	"CHAN_AUTO"
+				"IsLooping"	"1"
+			}
+		}
+
+		OnEnd
+		{
+			"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"
+			"Duration"		"1-1.5"
+		}
+	}
+
+	Hit_Supernatural
+	{
+		"InheritFrom"		"Hit_Trance"
+	}
+
+	Hit_Supernatural_NoEffect
+	{
+		"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"
+            	"Duration"		"1-2"
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Dominate_Level1"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
+
+		Effect_Tgt_Hit
+		{
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Full_Resist_Thaum_Emitter"
+				"AttachType"	"BoneTreeWithColors"
+				"AttachName"	""
+			}
+
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Full_Resist_Generic_Emitter"
+				"AttachType"	"BoneTree"
+				"AttachName"	""
+			}
+		}
+	}
+
+	Hit_Strata_1
+	{
+		"InheritFrom"		"Hit_Hysteria"
+	}
+
+	Hit_Strata_2
+	{
+		"InheritFrom"		"Hit_Hysteria"
+	}
+
+	Hit_Strata_3
+	{
+		"InheritFrom"		"Hit_Supernatural_NoEffect"
+	}
+
+	Hit_Strata_4
+	{
+		"InheritFrom"		"Hit_Supernatural_NoEffect"
+	}
+
+	Hit_Strata_5
+	{
+		"InheritFrom"		"Hit_Supernatural"	
+	}
+
+	Hit_Strata_6
+	{
+		"InheritFrom"		"Hit_Supernatural"		
+	}
+
+	Hit_Strata_7
+	{
+		"InheritFrom"		"Hit_Supernatural_NoEffect"
+	}
+
+	Hit_Boss_NoEffect
+	{
+		"InheritFrom"		"Hit_Supernatural_NoEffect"
+	}
+}
+
+// ---------------------
+// Dominate: Level 2
+DisciplineTgt
+{
+	"Name"			"Mesmermise"	
+	"InternalName"		"Dominate_Level2"
+
+	"Discipline"			"Dominate"
+	"Level"				"2"
+
+	"TgtHightlightParticle"		"D_Target_Aura_Emitter"
+
+	"BloodCost"			"2"
+	"RecoveryTime"			"5.0"
+
+	AoE
+	{
+		"Range"		"600"
+		"Source"	"Self"		// Self/Target
+		"Affects"	"Target"	// Target/Radius:#/Cone:#
+
+		Affects_Filters
+		{
+			"Critter"		"1"
+			"No_Friends"		"1"
+		}
+
+	// Tables:
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Human"		"1"
+				"Player"	"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Human"
+			}
+		}
+
+	// Tables: PC lasombra
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"Player"		"1"
+				"CharTemplate"		"Player_Brujah"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Common"
+			}
+		}
+
+	// Tables: PC old clan tzimisce
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"Player"		"1"
+				"CharTemplate"		"Player_Tzimisceoc"
+			}
+		
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Common"
+			}
+		}
+
+	// Tables: PC giovanni
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"Player"		"1"
+				"CharTemplate"		"Player_Ventrue"
+			}
+		
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Common"
+			}
+		}
+
+	// Tables: possesed PC malkavian
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"Player"		"1"
+				"CharTemplate"		"Leopold2"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Player_Dementation2"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Dementation"
+			}
+		}
+//
+// ADD DISCIPLINESTRATA EFFECTS BELOW THIS LINE
+//
+		Affects_Table	
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"Gargoyle"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}
+
+		Affects_Table	
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"Hengeyokai"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}
+
+		Affects_Table	
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"MingXiao"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}
+
+		Affects_Table	
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"MingXiaoProxy"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"TzimisceCreation2"
+			}
+
+			Mapping
+			{
+				"Chance"	"100%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"		"Hit_Human"	
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"TzimisceCreation3"
+			}
+
+			Mapping
+			{
+				"Chance"	"100%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"		"Hit_Human"	
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"0"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_One"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Two"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Three"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Four"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Human"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"1"
+			}
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_One"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Two"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Three"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Four"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_1"
+			}
+		}		
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"2"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_One"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Two"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Three"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Four"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_2"
+			}
+		}		
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"3"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Command_One"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Command_Two"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Command_Three"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Command_Four"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_3"
+			}
+		}	
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"4"
+			}
+
+			Mapping
+			{
+				"Chance"	"40%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"40%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Mapping
+			{
+				"Chance"	"20%"
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_4"
+			}
+		}	
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"5"
+			}
+
+			Mapping
+			{
+				"Chance"	"34%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"34%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Mapping
+			{
+				"Chance"	"34%"
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_5"
+			}
+		}	
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"6"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_6"
+			}
+		}	
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"7"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_7"
+			}
+		}	
+//
+// ADD DISCIPLINESTRATA EFFECTS ABOVE THIS LINE
+//
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Human"		"1"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_One"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Two"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Three"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Four"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Human"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"	"1"
+				"No_Boss"	"1"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Boss"		"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Boss_NoEffect"
+			}
+		}
+	}
+
+	Effect_Src_Instant
+	{
+	}
+
+	Effect_Src_Hit
+	{
+	}
+
+// Effects:
+	Hit_Invulnerable
+	{
+	}
+
+// Effects: PC clan: lasombra, old clab, giavanni cast animation
+	Hit_Player_Common
+	{
+		"Duration"		"2"
+		"Dmg_Health"		"0%"
+		"Gesture_Anim"		"ACT_CAST_CONTINUE_LAYER_THAUMATURGY"
+		"Gesture_Duration"	"1.25"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Domination_pc1)"
+		}
+
+		Effect_Tgt_Hit
+		{
+			Particle_ThirdPerson
+			{
+				"Entity"	"disc_particle"
+				"RateMin"	"1.0"
+				"OpacityMin"	"1.0"
+				"SizeMin"	"1.0"
+				"ParticleName"	"D_Dominate_Cast_Emitter3"
+				"AttachType"	"BoneSinglePoint"
+				"AttachName"	"Bip01 Head"
+			}
+
+			Particle_FirstPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"	"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dominate_Hud_Cast_Emitter3"
+				"AttachType"	"ScreenCenter"
+				"AttachName"	""
+			}
+		}
+
+		SoundFX
+		{
+			"Sound"		"Disciplines/Dominate/dominate_sleep.wav"
+		}
+
+		OnEnd
+		{
+		}
+	}
+
+// Effects: possessed malkavian: jeanette/therese/tourette cast animation
+	Hit_Player_Dementation
+	{
+		"Gesture_Anim"		"ACT_INSANITY_PRE"
+		"Gesture_Duration"	"1.85" 
+		"Duration"		"20"
+		"Dmg_Health"		"0%"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation_level2_1)"
+		}
+
+		Effect_Tgt_Hit
+		{
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"	"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dementation_Cast_Emitter4"
+				"AttachType"	"BoneSinglePoint"
+				"AttachName"	"Bip01 Head"
+			}
+
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"	"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dementation_Cast_Emitter3"
+				"AttachType"	"BoneTreeWithColors"
+				"AttachName"	""
+			}
+
+			Particle_FirstPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"	"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dementation_Hud_Cast_Emitter2"
+				"AttachType"	"ScreenCenter"
+				"AttachName"	""
+			}
+
+			Particle_FirstPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"	"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dementation_Hud_Cast_Emitter5"
+				"AttachType"	"ScreenCenter"
+				"AttachName"	""
+			}
+		}
+
+		SoundFX
+		{
+			"Sound"		"Disciplines/Dementation/nightmare_hit.wav"
+		}
+	}
+
+	Hit_Player_Dementation2
+	{
+		"Gesture_Anim"		"ACT_INSANITY_PRE"
+		"Gesture_Duration"	"1.85" 
+		"Duration"		"20"
+		"Dmg_Health"		"0%"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation_level2_2)"
+		}
+
+		Effect_Tgt_Hit
+		{
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"	"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dementation_Cast_Emitter4"
+				"AttachType"	"BoneSinglePoint"
+				"AttachName"	"Bip01 Head"
+			}
+
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"	"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dementation_Cast_Emitter3"
+				"AttachType"	"BoneTreeWithColors"
+				"AttachName"	""
+			}
+
+			Particle_FirstPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"	"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dementation_Hud_Cast_Emitter2"
+				"AttachType"	"ScreenCenter"
+				"AttachName"	""
+			}
+
+			Particle_FirstPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"	"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dementation_Hud_Cast_Emitter5"
+				"AttachType"	"ScreenCenter"
+				"AttachName"	""
+			}
+		}
+
+		SoundFX
+		{
+			"Sound"		"Disciplines/Dementation/nightmare_hit.wav"
+		}
+	}
+
+	Hit_Player_Human
+	{
+	}
+
+	Hit_Player_Supernatural
+	{
+	}
+
+	Hit_Human
+	{
+	}
+
+	Hit_Command_One
+	{
+		"AI_Schedule"		"SCHED_TROIKA_DO_SLEEP_ACTIVITY"
+		"Duration"		"10-15"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation-Mass_Hallucination)"
+		}
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Dominate_Level2"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
+
+		Effect_Tgt_Hit
+		{
+			SoundFX
+			{
+				"Sound"		"Disciplines/Dominate/dominate_mesmerize.wav"
+				"Channel"	"CHAN_AUTO"
+				"IsLooping"	"1"
+			}
+		}
+	}
+
+	Hit_Command_Two
+	{
+		"AI_Schedule"	"SCHED_TROIKA_D_PURGE"
+		"Duration"	"5"
+		"Dmg_Health"	"20-30%"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation-Mass_Hallucination)"
+		}
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Dominate_Level2"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
+
+		Effect_Tgt_Hit
+		{
+			SoundFX
+			{
+				"Sound"		"Disciplines/Dominate/dominate_mesmerize.wav"
+				"Channel"	"CHAN_AUTO"
+				"IsLooping"	"1"
+			}
+		}
+
+		OnEnd
+		{
+			"Dmg_Health"	"10-15%"
+		}
+	}
+
+	Hit_Command_Three
+	{
+		"AI_Schedule"		"TAKE_COVER_FROM_ENEMY"
+		"Duration"		"5-8"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation-Mass_Hallucination)"
+		}
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Dominate_Level2"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
+
+		Effect_Tgt_Hit
+		{
+			SoundFX
+			{
+				"Sound"		"Disciplines/Dominate/dominate_mesmerize.wav"
+				"Channel"	"CHAN_AUTO"
+				"IsLooping"	"1"
+			}
+		}
+
+		OnEnd
+		{
+			"AI_Schedule"	"SCHED_TROIKA_DISORIENTED"
+			"Dmg_Health"	"10-15%"
+			"Knockback"	"50%"	
+		}
+	}
+
+	Hit_Command_Four
+	{
+		"AI_Schedule"	"SCHED_TROIKA_FLEE_AND_COWER"
+		"Duration"	"7-10"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation-Mass_Hallucination)"
+		}
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Dominate_Level2"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
+
+		Effect_Tgt_Hit
+		{
+			SoundFX
+			{
+				"Sound"		"Disciplines/Dominate/dominate_mesmerize.wav"
+				"Channel"	"CHAN_AUTO"
+				"IsLooping"	"1"
+			}
+		}
+
+		OnEnd
+		{
+			"AI_Schedule"	"SCHED_TROIKA_DISORIENTED"
+			"Duration"	"1-2"
+			"Knockback"	"50%"
+			"Dmg_Health"	"10-15%"
+		}
+	}
+
+	Hit_Hysteria
+	{
+		"AI_Schedule"		"SCHED_TROIKA_D_HYSTERIA"
+		"Duration"		"9-12"
+		"Expression"		"Smile"
+		"AddToComfort"		"1"
+
+		Trigger_Casting
+		{
+				"DisciplineFX"	"Dominate_Level2"
+				"Source"	"Target"
+				"Affects"	"Self"
+		}
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation-Mass_Hallucination)"
+		}
+
+		Effect_Tgt_Hit
+		{
+			SoundFX
+			{
+				"Sound"		"Disciplines/Dementation/Veil_Hit.wav"
+				"Channel"	"CHAN_AUTO"
+				"IsLooping"	"1"
+			}
+		}
+
+		OnEnd
+		{
+			"AI_Schedule"	"SCHED_TROIKA_DISORIENTED"
+			"Duration"	"1-1.5"
+			"Dmg_Health"	"3-10%"
+		}
+
+		OnInterrupt
+		{
+			"AI_Schedule"	"SCHED_TROIKA_DISORIENTED"
+			"Dmg_Health"	"3-10%"
+
+			Effect_Tgt_Hit
+			{
+				SoundFX
+				{
+					"Sound"		"Disciplines/Dominate/mesmerize_ramp.wav"
+				}
+			}
+		}
+	}
+
+	Hit_Trance
+	{
+		"AI_Schedule"		"SCHED_TROIKA_D_TRANCE"
+		"Duration"		"10-14"
+		"AddToComfort"		"0"
+
+		Trigger_Casting
+		{
+				"DisciplineFX"	"Dominate_Level2"
+				"Source"	"Target"
+				"Affects"	"Self"
+		}
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation-Mass_Hallucination)"
+		}
+
+		Effect_Tgt_Hit
+		{
+			SoundFX
+			{
+				"Sound"		"Disciplines/Dominate/Dominate_Mesmerize.wav"
+				"Channel"	"CHAN_AUTO"
+				"IsLooping"	"1"
+			}
+		}
+
+		OnEnd
+		{
+			"AI_Schedule"	"SCHED_TROIKA_DISORIENTED"
+			"Duration"	"1-1.5"
+			"Dmg_Health"	"3-10%"
+		}
+
+		OnInterrupt
+		{
+			"AI_Schedule"	"SCHED_TROIKA_DISORIENTED"
+			"Dmg_Health"	"3-10%"
+
+			Effect_Tgt_Hit
+			{
+				SoundFX
+				{
+					"Sound"		"Disciplines/Dominate/mesmerize_ramp.wav"
+				}
+			}
+		}
+	}
+
+	Hit_Supernatural
+	{
+		"InheritFrom"		"Hit_Trance"
+	}
+
+	Hit_Supernatural_NoEffect
+	{
+		"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"
+            	"Duration"		"1-2"
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Dominate_Level2"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
+
+		Effect_Tgt_Hit
+		{
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Full_Resist_Thaum_Emitter"
+				"AttachType"	"BoneTreeWithColors"
+				"AttachName"	""
+			}
+
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Full_Resist_Generic_Emitter"
+				"AttachType"	"BoneTree"
+				"AttachName"	""
+			}
+		}
+	}
+
+	Hit_Strata_1
+	{
+		"InheritFrom"		"Hit_Hysteria"
+	}
+
+	Hit_Strata_2
+	{
+		"InheritFrom"		"Hit_Hysteria"
+	}
+
+	Hit_Strata_3
+	{
+		"InheritFrom"		"Hit_Supernatural_NoEffect"
+	}
+
+	Hit_Strata_4
+	{
+		"InheritFrom"		"Hit_Supernatural_NoEffect"
+	}
+
+	Hit_Strata_5
+	{
+		"InheritFrom"		"Hit_Supernatural"	
+	}
+
+	Hit_Strata_6
+	{
+		"InheritFrom"		"Hit_Supernatural"		
+	}
+
+	Hit_Strata_7
+	{
+		"InheritFrom"		"Hit_Supernatural_NoEffect"
+	}
+
+	Hit_Boss_NoEffect
+	{
+		"InheritFrom"		"Hit_Supernatural_NoEffect"
+	}
+}
+
+// ---------------------
+// Dominate: Level 3
+DisciplineTgt
+{
+	"Name"		"The forgetful mind"
+	"InternalName"	"Dominate_Level3"
+
+	"Discipline"		"Dominate"
+	"Level"			"3"
+
+//	"TgtHightlightParticle"	"D_Target_Aura_Emitter"
+
+	"BloodCost"		"3"
+	"Overt"			"0"
+	"RecoveryTime"		"5.5"
+
+	AoE
+	{
+		"Range"		"0"
+		"Source"	"Self"		// Self/Target
+		"Affects"	"Radius"	// Target/Radius:#/Cone:#
+		"MaxRadius"	"350"
+
+		Affects_Filters
+		{
+			"Critter"	"1"
+			"No_Self"	"1"
+			"No_Friends"	"1"
+		}
+
+	// Tables:
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Human"		"1"
+				"Player"	"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Human"
+			}
+		}
+
+	// Tables: PC lasombra
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"Player"		"1"
+				"CharTemplate"		"Player_Brujah"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Common"
+			}
+		}
+
+	// Tables: PC old clan tzimisce
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"Player"		"1"
+				"CharTemplate"		"Player_Tzimisceoc"
+			}
+		
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Common"
+			}
+		}
+
+	// Tables: PC giovanni
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"Player"		"1"
+				"CharTemplate"		"Player_Ventrue"
+			}
+		
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Common"
+			}
+		}
+
+	// Tables: possesed PC malkavian
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"Player"		"1"
+				"CharTemplate"		"Leopold2"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Player_Dementation2"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Dementation"
+			}
+		}
+
+//
+// ADD DISCIPLINESTRATA EFFECTS BELOW THIS LINE
+//
+		Affects_Table	
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"Gargoyle"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}
+
+		Affects_Table	
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"Doggie"
+			}
+
+			Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}
+
+            	Affects_Table	
+		{
+		
+                  	Affects_Filters
+	            	{
+				"CharTemplate"	"TzimisceCreation1"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}		
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"TzimisceCreation2"
+			}
+
+			Mapping
+			{
+				"Chance"	"100%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"		"Hit_Human"	
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"TzimisceCreation3"
+			}
+
+			Mapping
+			{
+				"Chance"	"100%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"		"Hit_Human"	
+			}
+		}
+
+            	Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"0"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_One"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Two"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Three"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Four"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Human"
+			}
+		}
+
+		Affects_Table 
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"1"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_One"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Two"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Three"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Four"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_1"
+			}
+		}		
+
+		Affects_Table 
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"2"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_One"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Two"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Three"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Four"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_2"
+			}
+		}
+
+		Affects_Table 
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"3"
+			}
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Command_One"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Command_Two"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Command_Three"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Command_Four"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_3"
+			}
+		}		
+
+		Affects_Table 
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"4"
+			}
+
+			Mapping
+			{
+				"Chance"	"40%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"40%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Mapping
+			{
+				"Chance"	"20%"
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_4"
+			}
+		}		
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"5"
+			}
+
+			Mapping
+			{
+				"Chance"	"34%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"34%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Mapping
+			{
+				"Chance"	"34%"
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_5"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"6"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_6"
+			}
+		}	
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"7"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_7"
+			}
+		}	
+//
+// ADD DISCIPLINESTRATA EFFECTS ABOVE THIS LINE
+//
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Human"	"1"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_One"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Two"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Three"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Four"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Human"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"No_Boss"		"1"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Boss"		"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Boss_NoEffect"
+			}
+		}
+	}
+
+	Effect_Src_Instant
+	{
+	}
+
+	Effect_Src_Hit
+	{
+	}
+
+// Effects:
+	Hit_Invulnerable
+	{
+	}
+
+// Effects: PC clan: lasombra, old clab, giavanni cast animation
+	Hit_Player_Common
+	{
+		"Duration"		"2"
+		"Dmg_Health"		"0%"
+		"Gesture_Anim"		"ACT_CAST_LAYER_HOLY_LIGHT"
+		"Gesture_Duration"	"1.25"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Domination_pc1)"
+		}
+
+		Effect_Tgt_Hit
+		{
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"	"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dominate_Cast_Emitter2"
+				"AttachType"	"BoneSinglePoint"
+				"AttachName"	"Bip01 Head"
+			}
+
+			Particle_FirstPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"	"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dominate_Hud_Cast_Emitter2"
+				"AttachType"	"ScreenCenter"
+				"AttachName"	""
+			}
+		}
+
+		SoundFX
+		{
+			"Sound"		"Disciplines/Dominate/dominate_brainwipe.wav"
+		}
+
+		OnEnd
+		{
+		}
+	}
+
+// Effects: possessed malkavian: jeanette/therese/tourette cast animation
+	Hit_Player_Dementation
+	{
+		"Gesture_Anim"		"ACT_INSANITY_PRE"
+		"Gesture_Duration"	"1.85" 
+		"Duration"		"7"
+		"Dmg_Health"		"0%"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation_level3_1)"
+		}
+
+		Effect_Tgt_Hit
+		{
+				Particle_ThirdPerson
+				{
+					"Entity"		"env_particle"
+					"RateMin"		"1.0"
+					"OpacityMin"	"1.0"
+					"SizeMin"		"1.0"
+					"ParticleName"	"D_Dementation_Hysteria_Broke_Emitter"
+					"AttachType"	"BoneTreeWithColors"
+					"AttachName"	""
+					"Detach"		"1"
+				}
+
+		Particle_ThirdPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"	"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"D_Dementation_Cast_Emitter2"
+			"AttachType"	"BoneSinglePoint"
+			"AttachName"	"Bip01 Head"
+		}
+
+		Particle_FirstPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"	"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"D_Dementation_Hud_Cast_Emitter2"
+			"AttachType"	"ScreenCenter"
+			"AttachName"	""
+		}
+
+		Particle_ThirdPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"	"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"D_Dementation_Mass_Hallucination_Emitter"
+			"AttachType"	"BoneSinglePoint"
+			"AttachName"	"Bip01 Spine"
+		}
+
+		Particle_FirstPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"	"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"D_Dementation_Hud_Cast_Emitter5"
+			"AttachType"	"ScreenCenter"
+			"AttachName"	""
+		}
+		}
+
+		SoundFX
+		{
+			"Sound"		"Disciplines/Dementation/Veil_Hit.wav"
+		}
+	}
+
+	Hit_Player_Dementation2
+	{
+		"Gesture_Anim"		"ACT_INSANITY_PRE"
+		"Gesture_Duration"	"1.85" 
+		"Duration"		"7"
+		"Dmg_Health"		"0%"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation_level3_2)"
+		}
+
+		Effect_Tgt_Hit
+		{
+				Particle_ThirdPerson
+				{
+					"Entity"		"env_particle"
+					"RateMin"		"1.0"
+					"OpacityMin"	"1.0"
+					"SizeMin"		"1.0"
+					"ParticleName"	"D_Dementation_Hysteria_Broke_Emitter"
+					"AttachType"	"BoneTreeWithColors"
+					"AttachName"	""
+					"Detach"		"1"
+				}
+
+		Particle_ThirdPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"	"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"D_Dementation_Cast_Emitter2"
+			"AttachType"	"BoneSinglePoint"
+			"AttachName"	"Bip01 Head"
+		}
+
+		Particle_FirstPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"	"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"D_Dementation_Hud_Cast_Emitter2"
+			"AttachType"	"ScreenCenter"
+			"AttachName"	""
+		}
+
+		Particle_ThirdPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"	"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"D_Dementation_Mass_Hallucination_Emitter"
+			"AttachType"	"BoneSinglePoint"
+			"AttachName"	"Bip01 Spine"
+		}
+
+		Particle_FirstPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"	"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"D_Dementation_Hud_Cast_Emitter5"
+			"AttachType"	"ScreenCenter"
+			"AttachName"	""
+		}
+		}
+
+		SoundFX
+		{
+			"Sound"		"Disciplines/Dementation/Veil_Hit.wav"
+		}
+	}
+
+	Hit_Player_Human
+	{
+	}
+
+	Hit_Player_Supernatural
+	{
+	}
+
+	Hit_Human
+	{
+		"InheritFrom"		"Hit_Command_One"
+	}
+
+	Hit_Command_One
+	{
+		"AI_Schedule"		"TAKE_COVER_FROM_ENEMY"
+		"Duration"		"7-12"
+
+		TraitEffect
+		{
+			"Effect"		"Discipline (Dominate-Possession)"
+		}
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Dominate_Level3"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
+
+		OnEnd
+		{
+			"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"
+		}
+	}
+
+	Hit_Command_Two
+	{
+		"AI_Schedule"		"SCHED_TROIKA_FLEE_AND_COWER"
+		"Duration"		"7-12"
+
+		TraitEffect
+		{
+			"Effect"		"Discipline (Dominate-Possession)"
+		}
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Dominate_Level3"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
+
+		OnEnd
+		{
+			"Knockback"		"50%"	
+		}
+	}
+
+	Hit_Command_Three
+	{
+		"AI_Schedule"		"SCHED_TROIKA_COWER_SIMPLE_NOSEE"
+		"Duration"		"7-12"
+
+		TraitEffect
+		{
+			"Effect"		"Discipline (Dementation-Berserk)"
+		}
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Dominate_Level3"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
+	}
+
+	Hit_Command_Four
+	{
+		"AI_Schedule"		"SCHED_TROIKA_MESMERIZED"
+		"AI_NPCFlag"		"D_CALM"
+		"AddToComfort"		"1"
+		"Duration"		"5-7"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation-Mass_Hallucination)"
+		}
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Dominate_Level3"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
+
+		OnEnd
+		{
+			"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"
+			"AI_NPCFlag"		"D_CALM"
+			"Duration"		"2-4"
+			"Knockback"		"50%"	
+		}
+	}
+
+	Hit_Hysteria
+	{
+		"AI_Schedule"		"SCHED_TROIKA_D_HYSTERIA"
+		"Duration"		"9-12"
+		"Expression"		"Smile"
+		"AddToComfort"		"1"
+
+		Trigger_Casting
+		{
+				"DisciplineFX"	"Dominate_Level3"
+				"Source"	"Target"
+				"Affects"	"Self"
+		}
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation-Hysteria)"
+		}
+
+		Effect_Tgt_Hit
+		{
+			SoundFX
+			{
+				"Sound"		"Disciplines/Dementation/Veil_Hit.wav"
+				"Channel"	"CHAN_AUTO"
+				"IsLooping"	"1"
+			}
+		}
+
+		OnEnd
+		{
+			"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"
+			"Duration"		"1-1.5"
+		}
+	}
+
+	Hit_Trance
+	{
+		"AI_Schedule"		"SCHED_TROIKA_D_TRANCE"
+		"Duration"		"10-14"
+		"AddToComfort"		"0"
+
+		Trigger_Casting
+		{
+				"DisciplineFX"	"Dominate_Level3"
+				"Source"	"Target"
+				"Affects"	"Self"
+		}
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation-Hysteria)"
+		}
+
+		Effect_Tgt_Hit
+		{
+			SoundFX
+			{
+				"Sound"		"Disciplines/Dominate/Dominate_Mesmerize.wav"
+				"Channel"	"CHAN_AUTO"
+				"IsLooping"	"1"
+			}
+		}
+
+		OnEnd
+		{
+			"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"
+			"Duration"		"1-1.5"
+		}
+	}
+
+	Hit_Supernatural
+	{
+		"InheritFrom"		"Hit_Command_Two"
+	}
+
+	Hit_Supernatural_NoEffect
+	{
+		"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"
+            	"Duration"		"1-2"
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Dominate_Level3"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
+
+		Effect_Tgt_Hit
+		{
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Full_Resist_Thaum_Emitter"
+				"AttachType"	"BoneTreeWithColors"
+				"AttachName"	""
+			}
+
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Full_Resist_Generic_Emitter"
+				"AttachType"	"BoneTree"
+				"AttachName"	""
+			}
+		}
+	}
+        
+	Hit_Strata_1
+	{
+		"InheritFrom"		"Hit_Command_One"
+	}
+
+	Hit_Strata_2
+	{
+		"InheritFrom"		"Hit_Command_Two"
+	}
+
+	Hit_Strata_3
+	{
+		"InheritFrom"		"Hit_Command_Three"
+	}
+
+	Hit_Strata_4
+	{
+		"InheritFrom"		"Hit_Command_Four"
+	}
+
+	Hit_Strata_5
+	{
+		"InheritFrom"		"Hit_Supernatural"	
+	}
+
+	Hit_Strata_6
+	{
+		"InheritFrom"		"Hit_Supernatural"		
+	}
+
+	Hit_Strata_7
+	{
+		"InheritFrom"		"Hit_Supernatural_NoEffect"
+	}
+
+	Hit_Boss_NoEffect
+	{
+		"InheritFrom"		"Hit_Supernatural_NoEffect"
+	}
+}
+
+
+
+// ---------------------
+// Dominate: Level 4
+DisciplineTgt
+{
+	"Name"		"Conditioning"
+	"InternalName"	"Dominate_Level4"
+
+	"Discipline"			"Dominate"
+	"Level"				"4"
+
+	"TgtHightlightParticle"		"D_Target_Aura_Emitter"
+
+	"BloodCost"			"4"
+	"RecoveryTime"			"15.0"
+
+	AoE
+	{
+		"Range"		"700"
+		"Source"	"Target"		// Self/Target
+		"Affects"	"Radius"		// Target/Radius:#/Cone:#
+		"MaxRadius"	"450"
+
+		Affects_Filters
+		{
+			"Critter"		"1"
+			"No_Friends"		"1"
+		}
+
+	// Tables:
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Human"		"1"
+				"Player"	"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Human"
+			}
+		}
+
+	// Tables: PC lasombra
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"Player"		"1"
+				"CharTemplate"		"Player_Brujah"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Common"
+			}
+		}
+
+	// Tables: PC old clan tzimisce
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"Player"		"1"
+				"CharTemplate"		"Player_Tzimisceoc"
+			}
+		
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Common"
+			}
+		}
+
+	// Tables: PC giovanni
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"Player"		"1"
+				"CharTemplate"		"Player_Ventrue"
+			}
+		
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Common"
+			}
+		}
+
+	// Tables: possesed PC malkavian
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"Player"		"1"
+				"CharTemplate"		"Leopold2"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Player_Dementation2"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Dementation"
+			}
+		}
+//
+// ADD DISCIPLINESTRATA EFFECTS BELOW THIS LINE
+//
+		Affects_Table	
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"Gargoyle"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}
+
+		Affects_Table	
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"Hengeyokai"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}
+
+		Affects_Table	
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"MingXiao"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}
+
+		Affects_Table	
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"MingXiaoProxy"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"TzimisceCreation2"
+			}
+
+			Mapping
+			{
+				"Chance"	"100%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"		"Hit_Human"	
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"TzimisceCreation3"
+			}
+
+			Mapping
+			{
+				"Chance"	"100%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"		"Hit_Human"	
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"0"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_One"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Two"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Three"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Four"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Human"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"1"
+			}
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_One"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Two"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Three"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Four"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_1"
+			}
+		}		
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"2"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_One"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Two"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Three"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Four"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_2"
+			}
+		}		
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"3"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Command_One"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Command_Two"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Command_Three"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Command_Four"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_3"
+			}
+		}	
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"4"
+			}
+
+			Mapping
+			{
+				"Chance"	"40%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"40%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Mapping
+			{
+				"Chance"	"20%"
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_4"
+			}
+		}	
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"5"
+			}
+
+			Mapping
+			{
+				"Chance"	"34%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"34%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Mapping
+			{
+				"Chance"	"34%"
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_5"
+			}
+		}	
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"6"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_6"
+			}
+		}	
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"7"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_7"
+			}
+		}	
+//
+// ADD DISCIPLINESTRATA EFFECTS ABOVE THIS LINE
+//
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Human"		"1"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_One"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Two"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Three"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Four"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Human"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"	"1"
+				"No_Boss"	"1"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Boss"		"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Boss_NoEffect"
+			}
+		}
+	}
+
+	Effect_Src_Instant
+	{
+	}
+
+	Effect_Src_Hit
+	{
+	}
+
+// Effects:
+	Hit_Invulnerable
+	{
+	}
+
+// Effects: PC clan: lasombra, old clab, giavanni cast animation
+	Hit_Player_Common
+	{
+		"Duration"		"2"
+		"Dmg_Health"		"0%"
+		"Gesture_Anim"		"ACT_CAST_CHARGE_LAYER_THAUMATURGY"
+		"Gesture_Duration"	"1.25"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Domination_pc1)"
+		}
+
+		Effect_Tgt_Hit
+		{
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"	"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dominate_Cast_Emitter5"
+				"AttachType"	"BoneSinglePoint"
+				"AttachName"	"Bip01 Head"
+			}
+
+			Particle_FirstPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"	"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dominate_Hud_Cast_Emitter5"
+				"AttachType"	"ScreenCenter"
+				"AttachName"	""
+			}
+		}
+
+		SoundFX
+		{
+			"Sound"		"Disciplines/Dominate/Dominate_mass_suicide.wav"
+		}
+
+		OnEnd
+		{
+		}
+	}
+
+// Effects: possessed malkavian: jeanette/therese/tourette cast animation
+	Hit_Player_Dementation
+	{
+		"Gesture_Anim"		"ACT_INSANITY_PRE"
+		"Gesture_Duration"	"1.85" 
+		"Duration"		"14"
+		"Dmg_Health"		"0%"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation_level4_1)"
+		}
+
+		Effect_Tgt_Hit
+		{
+		Particle_ThirdPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"	"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"D_Dementation_Cast_Emitter3"
+			"AttachType"	"BoneSinglePoint"
+			"AttachName"	"Bip01 Head"
+		}
+
+		Particle_FirstPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"	"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"D_Dementation_Hud_Cast_Emitter3"
+			"AttachType"	"ScreenCenter"
+			"AttachName"	""
+		}
+
+		Particle_ThirdPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"	"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"D_Dementation_Cast_Emitter2"
+			"AttachType"	"BoneSinglePoint"
+			"AttachName"	"Bip01 Head"
+		}
+
+		Particle_ThirdPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"	"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"D_Dementation_Mass_Hallucination_Emitter"
+			"AttachType"	"BoneSinglePoint"
+			"AttachName"	"Bip01 Spine"
+		}
+
+		Particle_FirstPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"	"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"D_Dementation_Hud_Cast_Emitter5"
+			"AttachType"	"ScreenCenter"
+			"AttachName"	""
+		}
+		}
+
+		SoundFX
+		{
+			"Sound"		"Disciplines/Dementation/nightmare_hit.wav"
+		}
+	}
+
+	Hit_Player_Dementation2
+	{
+		"Gesture_Anim"		"ACT_INSANITY_PRE"
+		"Gesture_Duration"	"1.85" 
+		"Duration"		"14"
+		"Dmg_Health"		"0%"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation_level4_2)"
+		}
+
+		Effect_Tgt_Hit
+		{
+		Particle_ThirdPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"	"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"D_Dementation_Cast_Emitter3"
+			"AttachType"	"BoneSinglePoint"
+			"AttachName"	"Bip01 Head"
+		}
+
+		Particle_FirstPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"	"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"D_Dementation_Hud_Cast_Emitter3"
+			"AttachType"	"ScreenCenter"
+			"AttachName"	""
+		}
+
+		Particle_ThirdPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"	"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"D_Dementation_Cast_Emitter2"
+			"AttachType"	"BoneSinglePoint"
+			"AttachName"	"Bip01 Head"
+		}
+
+		Particle_ThirdPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"	"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"D_Dementation_Mass_Hallucination_Emitter"
+			"AttachType"	"BoneSinglePoint"
+			"AttachName"	"Bip01 Spine"
+		}
+
+		Particle_FirstPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"	"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"D_Dementation_Hud_Cast_Emitter5"
+			"AttachType"	"ScreenCenter"
+			"AttachName"	""
+		}
+		}
+
+		SoundFX
+		{
+			"Sound"		"Disciplines/Dementation/nightmare_hit.wav"
+		}
+	}
+
+	Hit_Player_Human
+	{
+	}
+
+	Hit_Player_Supernatural
+	{
+	}
+
+	Hit_Human
+	{
+	}
+
+	Hit_Command_One
+	{
+		"AI_Schedule"		"SCHED_TROIKA_D_SUICIDE"
+		"Duration"		"-1"
+
+		TraitEffect
+		{
+			"Effect"		"Discipline (Dominate-Possession)"
+		}
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Dominate_Level4"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
+
+		Effect_Tgt_Hit
+		{
+			SoundFX
+			{
+				"Sound"		"Disciplines/Dominate/dominate_imposewill.wav"
+				"Channel"	"CHAN_AUTO"
+				"IsLooping"	"1"
+			}
+		}
+	}
+
+	Hit_Command_Two
+	{
+		"AI_Schedule"		"SCHED_TROIKA_D_AFRAID"
+		"AI_NPCFlag"		"D_CALM"
+		"AddToComfort"		"1"
+		"Duration"		"7-12"
+
+		TraitEffect
+		{
+			"Effect"		"Discipline (Dominate-Possession)"
+		}
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Dominate_Level4"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
+
+		OnEnd
+		{
+			"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"
+			"Duration"		"1.2"
+			"Knockback"		"50%"
+			"Dmg_Health"		"18-28%"	
+		}
+	}
+
+	Hit_Command_Three
+	{
+		"AI_Schedule"		"SCHED_TROIKA_COWER_SIMPLE_NOSEE"
+		"Duration"		"7-12"
+
+		TraitEffect
+		{
+			"Effect"		"Discipline (Dementation-Berserk)"
+		}
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Dominate_Level4"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
+
+		OnEnd
+		{
+			"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"
+			"Duration"		"1-2"
+			"Knockback"		"50%"
+			"Dmg_Health"		"18-28%"
+		}
+	}
+
+	Hit_Command_Four
+	{
+		"AI_Schedule"		"SCHED_TROIKA_DO_MADNESS_ACTIVITY"
+		"Duration"		"10-15"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation-Mass_Hallucination)"
+		}
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Dominate_Level4"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
+
+		OnEnd
+		{
+			"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"
+			"Duration"		"1-2"
+			"Knockback"		"50%"
+			"Dmg_Health"		"18-28%"	
+		}
+	}
+
+	Hit_Hysteria
+	{
+		"AI_Schedule"		"SCHED_TROIKA_D_HYSTERIA"
+		"Duration"		"9-12"
+		"Expression"		"Smile"
+		"AddToComfort"		"1"
+
+		Trigger_Casting
+		{
+				"DisciplineFX"	"Dominate_Level4"
+				"Source"	"Target"
+				"Affects"	"Self"
+		}
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation-Hysteria)"
+		}
+
+		Effect_Tgt_Hit
+		{
+			SoundFX
+			{
+				"Sound"		"Disciplines/Dementation/Veil_Hit.wav"
+				"Channel"	"CHAN_AUTO"
+				"IsLooping"	"1"
+			}
+		}
+
+		OnEnd
+		{
+			"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"
+			"Duration"		"1-1.5"
+		}
+	}
+
+	Hit_Trance
+	{
+		"AI_Schedule"		"SCHED_TROIKA_D_TRANCE"
+		"Duration"		"10-14"
+		"AddToComfort"		"0"
+
+		Trigger_Casting
+		{
+				"DisciplineFX"	"Dominate_Level4"
+				"Source"	"Target"
+				"Affects"	"Self"
+		}
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation-Hysteria)"
+		}
+
+		Effect_Tgt_Hit
+		{
+			SoundFX
+			{
+				"Sound"		"Disciplines/Dominate/Dominate_Mesmerize.wav"
+				"Channel"	"CHAN_AUTO"
+				"IsLooping"	"1"
+			}
+		}
+
+		OnEnd
+		{
+			"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"
+			"Duration"		"1-1.5"
+		}
+	}
+
+	Hit_Supernatural
+	{
+		"InheritFrom"		"Hit_Command_Two"
+	}
+
+	Hit_Supernatural_NoEffect
+	{
+		"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"
+            	"Duration"		"1-2"
+		"Dmg_Health"		"5-20%"
+		"Knockback"		"50%"
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Dominate_Level4"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
+
+		Effect_Tgt_Hit
+		{
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Full_Resist_Thaum_Emitter"
+				"AttachType"	"BoneTreeWithColors"
+				"AttachName"	""
+			}
+
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Full_Resist_Generic_Emitter"
+				"AttachType"	"BoneTree"
+				"AttachName"	""
+			}
+		}
+	}
+
+	Hit_Strata_1
+	{
+		"InheritFrom"		"Hit_Command_One"
+	}
+
+	Hit_Strata_2
+	{
+		"InheritFrom"		"Hit_Command_Two"
+	}
+
+	Hit_Strata_3
+	{
+		"InheritFrom"		"Hit_Command_Three"
+	}
+
+	Hit_Strata_4
+	{
+		"InheritFrom"		"Hit_Command_Four"
+	}
+
+	Hit_Strata_5
+	{
+		"InheritFrom"		"Hit_Supernatural"	
+	}
+
+	Hit_Strata_6
+	{
+		"InheritFrom"		"Hit_Supernatural"		
+	}
+
+	Hit_Strata_7
+	{
+		"InheritFrom"		"Hit_Supernatural_NoEffect"
+	}
+
+	Hit_Boss_NoEffect
+	{
+		"InheritFrom"		"Hit_Supernatural_NoEffect"
+	}
+}
+
+// ---------------------
+// Dominate: Level 5
+DisciplineTgt
+{
+	"Name"		"Possession"
+	"InternalName"	"Dominate_Level5"
+
+	"Discipline"			"Dominate"
+	"Level"				"5"
+
+	"TgtHightlightParticle"		"D_Target_Aura_Emitter"
+
+	"BloodCost"			"5"
+	"RecoveryTime"			"15.0"
+
+	AoE
+	{
+		"Range"		"600"
+		"Source"	"Self"		// Self/Target
+		"Affects"	"Target"	// Target/Radius:#/Cone:#
+
+		Affects_Filters
+		{
+			"Critter"		"1"
+			"No_Friends"		"1"
+		}
+
+	// Tables:
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Human"		"1"
+				"Player"	"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Human"
+			}
+		}
+
+	// Tables: PC lasombra
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"Player"		"1"
+				"CharTemplate"		"Player_Brujah"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Common"
+			}
+		}
+
+	// Tables: PC old clan tzimisce
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"Player"		"1"
+				"CharTemplate"		"Player_Tzimisceoc"
+			}
+		
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Common"
+			}
+		}
+
+	// Tables: PC giovanni
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"Player"		"1"
+				"CharTemplate"		"Player_Ventrue"
+			}
+		
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Common"
+			}
+		}
+
+	// Tables: possesed PC malkavian
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"Player"		"1"
+				"CharTemplate"		"Leopold2"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Player_Dementation2"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Dementation"
+			}
+		}
+//
+// ADD DISCIPLINESTRATA EFFECTS BELOW THIS LINE
+//
+		Affects_Table	
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"Gargoyle"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}
+
+		Affects_Table	
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"Hengeyokai"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}
+
+		Affects_Table	
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"MingXiao"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}
+
+		Affects_Table	
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"MingXiaoProxy"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"TzimisceCreation2"
+			}
+
+			Mapping
+			{
+				"Chance"	"100%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"		"Hit_Human"	
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"TzimisceCreation3"
+			}
+
+			Mapping
+			{
+				"Chance"	"100%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"		"Hit_Human"	
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"0"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_One"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Two"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Three"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Four"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Human"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"1"
+			}
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_One"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Two"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Three"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Four"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_1"
+			}
+		}		
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"2"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_One"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Two"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Three"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Four"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_2"
+			}
+		}		
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"3"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Command_One"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Command_Two"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Command_Three"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Command_Four"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"17%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_3"
+			}
+		}	
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"4"
+			}
+
+			Mapping
+			{
+				"Chance"	"40%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"40%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Mapping
+			{
+				"Chance"	"20%"
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_4"
+			}
+		}	
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"5"
+			}
+
+			Mapping
+			{
+				"Chance"	"34%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"34%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Mapping
+			{
+				"Chance"	"34%"
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_5"
+			}
+		}	
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"6"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_6"
+			}
+		}	
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"7"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_7"
+			}
+		}	
+//
+// ADD DISCIPLINESTRATA EFFECTS ABOVE THIS LINE
+//
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Human"		"1"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_One"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Two"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Three"
+			}
+
+			Mapping
+			{
+				"Chance"	"25%"
+				"HitTable"	"Hit_Command_Four"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Human"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"	"1"
+				"No_Boss"	"1"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Hysteria"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Trance"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Boss"		"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Boss_NoEffect"
+			}
+		}
+	}
+
+	Effect_Src_Instant
+	{
+	}
+
+	Effect_Src_Hit
+	{
+	}
+
+// Effects:
+	Hit_Invulnerable
+	{
+	}
+
+// Effects: PC clan: lasombra, old clab, giavanni cast animation
+	Hit_Player_Common
+	{
+		"Duration"		"2"
+		"Dmg_Health"		"0%"
+		"Gesture_Anim"		"ACT_CAST_CONTINUE_LAYER_THAUMATURGY"
+		"Gesture_Duration"	"1.25"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Domination_pc1)"
+		}
+
+		Effect_Tgt_Hit
+		{
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"	"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dominate_Cast_Emitter4"
+				"AttachType"	"BoneSinglePoint"
+				"AttachName"	"Bip01 Head"
+			}
+
+			Particle_FirstPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"	"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dominate_Hud_Cast_Emitter4"
+				"AttachType"	"ScreenCenter"
+				"AttachName"	""
+			}
+		}
+
+		SoundFX
+		{
+			"Sound"		"Disciplines/Dominate/Dominate_Possession.wav"
+		}
+
+		OnEnd
+		{
+		}
+	}
+
+// Effects: possessed malkavian: jeanette/therese/tourette cast animation
+	Hit_Player_Dementation
+	{
+		"Gesture_Anim"		"ACT_INSANITY_PRE"
+		"Gesture_Duration"	"1.85" 
+		"Duration"		"14"
+		"Dmg_Health"		"0%"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation_level5_1)"
+		}
+
+		Effect_Tgt_Hit
+		{
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"	"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dementation_Berserk_Tgt_Emitter"
+				"AttachType"	"BoneSinglePoint"
+				"AttachName"	"Bip01 Head"
+			}
+
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"	"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dementation_Berserk_Tgt_Emitter2"
+				"AttachType"	"Bonetree"
+				"AttachName"	""
+			}
+
+			Particle_FirstPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"	"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dementation_Hud_Cast_Emitter5"
+				"AttachType"	"ScreenCenter"
+				"AttachName"	""
+			}
+
+			Particle_FirstPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"	"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dementation_Hud_Cast_Emitter3"
+				"AttachType"	"ScreenCenter"
+				"AttachName"	""
+			}
+		}
+
+		SoundFX
+		{
+			"Sound"		"Disciplines/Dementation/haunting_hit.wav"
+		}
+	}
+
+	Hit_Player_Dementation2
+	{
+		"Gesture_Anim"		"ACT_INSANITY_PRE"
+		"Gesture_Duration"	"1.85" 
+		"Duration"		"14"
+		"Dmg_Health"		"0%"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation_level5_2)"
+		}
+
+		Effect_Tgt_Hit
+		{
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"	"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dementation_Berserk_Tgt_Emitter"
+				"AttachType"	"BoneSinglePoint"
+				"AttachName"	"Bip01 Head"
+			}
+
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"	"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dementation_Berserk_Tgt_Emitter2"
+				"AttachType"	"Bonetree"
+				"AttachName"	""
+			}
+
+			Particle_FirstPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"	"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dementation_Hud_Cast_Emitter5"
+				"AttachType"	"ScreenCenter"
+				"AttachName"	""
+			}
+
+			Particle_FirstPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"	"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dementation_Hud_Cast_Emitter3"
+				"AttachType"	"ScreenCenter"
+				"AttachName"	""
+			}
+		}
+
+		SoundFX
+		{
+			"Sound"		"Disciplines/Dementation/haunting_hit.wav"
+		}
+	}
+
+	Hit_Player_Human
+	{
+	}
+
+	Hit_Player_Supernatural
+	{
+	}
+
+	Hit_Human
+	{
+	}
+
+	Hit_Command_One
+	{
+		"AI_Schedule"		"SCHED_TROIKA_D_POSSESSION"
+		"DoPossession"		"1"
+		"Duration"		"-1"
+
+		TraitEffect
+		{
+			"Effect"		"Discipline (Dominate-Possession)"
+		}
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Dominate_Level5"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
+
+		Effect_Tgt_Hit
+		{
+			SoundFX
+			{
+				"Sound"		"Disciplines/Dominate/dominate_imposewill.wav"
+				"Channel"	"CHAN_AUTO"
+				"IsLooping"	"1"
+			}
+		}
+	}
+
+	Hit_Command_Two
+	{
+		"AI_Schedule"		"SCHED_TROIKA_D_POSSESSION"
+		"DoPossession"		"1"
+		"Duration"		"20-35"
+
+		TraitEffect
+		{
+			"Effect"		"Discipline (Dominate-Possession)"
+		}
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Dominate_Level5"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
+
+		OnEnd
+		{
+			"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"
+			"Duration"		"1.2"
+			"Knockback"		"50%"	
+		}
+	}
+
+	Hit_Command_Three
+	{
+		"AI_Schedule"		"SCHED_TROIKA_D_BERSERK"
+		"DoFrenzy"		"1"
+		"AddToComfort"		"0"
+		"Duration"		"20-35"
+
+		TraitEffect
+		{
+			"Effect"		"Discipline (Dementation-Berserk)"
+		}
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Dominate_Level5"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
+
+		OnEnd
+		{
+			"AI_Schedule"		"SCHED_TROIKA_D_SUICIDE"
+		}
+	}
+
+	Hit_Command_Four
+	{
+		"AI_Schedule"		"SCHED_TROIKA_D_VISION_OF_DEATH"
+		"Expression"		"Scared"
+		"Duration"		"-1"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation-Mass_Hallucination)"
+		}
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Dominate_Level5"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
+	}
+
+	Hit_Hysteria
+	{
+		"AI_Schedule"		"SCHED_TROIKA_D_HYSTERIA"
+		"Duration"		"9-12"
+		"Expression"		"Smile"
+		"AddToComfort"		"1"
+
+		Trigger_Casting
+		{
+				"DisciplineFX"	"Dominate_Level5"
+				"Source"	"Target"
+				"Affects"	"Self"
+		}
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation-Hysteria)"
+		}
+
+		Effect_Tgt_Hit
+		{
+			SoundFX
+			{
+				"Sound"		"Disciplines/Dementation/Veil_Hit.wav"
+				"Channel"	"CHAN_AUTO"
+				"IsLooping"	"1"
+			}
+		}
+
+		OnEnd
+		{
+			"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"
+			"Duration"		"1-1.5"
+		}
+	}
+
+	Hit_Trance
+	{
+		"AI_Schedule"		"SCHED_TROIKA_D_TRANCE"
+		"Duration"		"10-14"
+		"AddToComfort"		"0"
+
+		Trigger_Casting
+		{
+				"DisciplineFX"	"Dominate_Level5"
+				"Source"	"Target"
+				"Affects"	"Self"
+		}
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation-Hysteria)"
+		}
+
+		Effect_Tgt_Hit
+		{
+			SoundFX
+			{
+				"Sound"		"Disciplines/Dominate/Dominate_Mesmerize.wav"
+				"Channel"	"CHAN_AUTO"
+				"IsLooping"	"1"
+			}
+		}
+
+		OnEnd
+		{
+			"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"
+			"Duration"		"1-1.5"
+		}
+	}
+
+	Hit_Supernatural
+	{
+		"InheritFrom"		"Hit_Command_Two"
+	}
+
+	Hit_Supernatural_NoEffect
+	{
+		"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"
+            	"Duration"		"1-2"
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Dominate_Level5"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
+
+		Effect_Tgt_Hit
+		{
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Full_Resist_Thaum_Emitter"
+				"AttachType"	"BoneTreeWithColors"
+				"AttachName"	""
+			}
+
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Full_Resist_Generic_Emitter"
+				"AttachType"	"BoneTree"
+				"AttachName"	""
+			}
+		}
+	}
+
+	Hit_Strata_1
+	{
+		"InheritFrom"		"Hit_Command_One"
+	}
+
+	Hit_Strata_2
+	{
+		"InheritFrom"		"Hit_Command_Two"
+	}
+
+	Hit_Strata_3
+	{
+		"InheritFrom"		"Hit_Command_Three"
+	}
+
+	Hit_Strata_4
+	{
+		"InheritFrom"		"Hit_Command_Four"
+	}
+
+	Hit_Strata_5
+	{
+		"InheritFrom"		"Hit_Supernatural"	
+	}
+
+	Hit_Strata_6
+	{
+		"InheritFrom"		"Hit_Supernatural"		
+	}
+
+	Hit_Strata_7
+	{
+		"InheritFrom"		"Hit_Supernatural_NoEffect"
+	}
+
+	Hit_Boss_NoEffect
+	{
+		"InheritFrom"		"Hit_Supernatural_NoEffect"
+	}
+}
+
+// ---------------------
+}

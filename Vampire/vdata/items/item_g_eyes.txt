@@ -1,0 +1,60 @@
+//Artifact
+WeaponData
+{
+	"infomodel"	"models/items/Eyeballs/Info/Eyeballs.mdl"
+	"playermodel"	"models/items/Eyeballs/Ground/Eyeballs.mdl"
+	"wieldmodel_f"	"models/weapons/w_null.mdl"
+	"wieldmodel_m"	"models/weapons/w_null.mdl"
+	"viewmodel"	"models/weapons/w_null.mdl"
+	"anim_prefix"	""
+
+	"printname"	"Eyes"
+	"description"	"Eyeballs... Eyeballs?"
+
+	"bucket"		"1"
+	"bucket_position"	"2"
+
+	"weight"		"3"
+	"item_flags"		"1"
+	"item_type"		"powerup"
+	"item_worth"		"-1"
+
+	"is_wieldable"		"0"
+	//"item_class_discount" 	"1"
+	//"equip_mask"		"Normal"
+
+	SoundData
+	{
+		"pickup"
+		{
+			"sound1"	"items/bloodpack/bloodpack_reload.wav"
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/EyeBalls_sel"
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/EyeBalls"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+	}
+}

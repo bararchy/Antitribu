@@ -1,0 +1,60 @@
+// PC shield
+WeaponData
+{
+	"infomodel"	"models\cinematic\visual_stuff\pc\shield\i_pc_shield.mdl"
+	"playermodel"	"models\cinematic\visual_stuff\pc\shield\g_pc_shield.mdl"
+	"anim_prefix"	""
+
+	"printname"	"Shield"
+	"description"	"A shield is a type of personal armor, meant to intercept attacks, either by stopping projectiles such as arrows or redirecting a blow from a sword, mace or battle axe to the side of the shield-bearer.
+			 Using the shield increases soak for bashing and lethal damage, but can only be used with one-handed weapon: like blades or crushing weapons."
+
+	"bucket"		"1"
+	"bucket_position"	"2"
+
+	"camera_class"		"noswitch"
+	"weight"		"1"
+	"item_flags"		"0"
+	"item_type"		"powerup"
+	"item_worth"		"300"
+
+	"is_droppable"		"1"
+	"is_wieldable"		"0"
+	"is_visible_in_hud"	"1"
+	"knowledge_min"		"6"
+
+	SoundData
+	{
+		"pickup"
+		{
+			"sound1"	"items/Magazine/Pickup.wav"
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/pc_gear/shield_sel"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/pc_gear/shield"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+	}
+}

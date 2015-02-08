@@ -1,0 +1,46 @@
+CameraShotTable
+{
+
+	NPCFollowCut
+	{
+
+		Start
+		{
+			"Position"		"Named"
+			"AttachPos"		"Center"
+			"AttachType"		"Follow" 
+		}
+
+		End
+		{
+			"Position"		"Named"
+			"AttachPos"		"Center"
+			"AttachType"		"Follow"	 
+		}
+
+		Target	
+		{
+			Point1
+			{
+				"Position"	"Named"
+				"AttachPos"	"EyePosition"
+				"AttachType"	"Follow"
+			}
+		}
+
+		CameraConstraints
+		{
+			"MoveAccel"		"100.0"
+			"TurnAccel"		"60"
+			"MoveSpeed"		"80"
+			"MaxTurnRate"		"[90, 90, 90]"	
+			"DistanceTolerance"	"10"
+			"AngularTolerance"	"[1, 1, 10]"	
+			"FieldOfView"		"75"
+			"DialogPOV"		"1"
+			"SnapOnShotChange"	"1"
+			"ShowHud"		"0"
+		}
+	}
+
+}

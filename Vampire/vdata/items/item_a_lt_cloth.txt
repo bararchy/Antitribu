@@ -1,0 +1,77 @@
+// Armor
+WeaponData
+{
+	"viewmodel"	"models/weapons/w_null.mdl"
+	"playermodel"	"models/weapons/w_null.mdl"
+	"wieldmodel_f"	"models/weapons/w_null.mdl"
+	"wieldmodel_m"	"models/weapons/w_null.mdl"
+	"infomodel"	"models/scenery/misc/armor/ClothesLight/ClothesLight.mdl"
+	"anim_prefix"	"lt_cloth"
+
+	"printname"	"Light Clothing"
+	"description"	"This is the most basic and unrestrictive clothing. Examples would be t-shirts, khakis, sun dresses, and pleated skirts."	
+
+	"bucket"		"1"
+	"bucket_position"	"2"
+
+	"weight"		"0"
+	"item_flags"		"1"
+	"item_type"		"armor"
+	"item_worth"		"175"
+
+	"item_class_discount" 	"1"
+	"is_droppable"		"0"
+	"permanent_inventory"	"1"
+	"equip_mask"		"Normal"
+
+	"shows_view_model"	"0"
+
+	SoundData
+	{
+		"pickup"
+		{
+			"sound1"	"items/Book/Pickup.wav"
+		}
+	}
+
+	SoundData
+	{
+		"special1"
+		{
+			"sound1"	"weapons/switch_single.wav"
+		}
+
+		"special2"
+		{
+			"sound1"	"weapons/switch_burst.wav"
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/Armors/BrujahM/Brujah_M_A0"
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/Armors/BrujahM/Brujah_M_A0"
+
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+	}
+}

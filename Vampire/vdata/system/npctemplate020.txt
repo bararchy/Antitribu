@@ -1,0 +1,91 @@
+//////////////////////////////////////////////////
+// NPC Stat Templates (Packages)	- Ash
+//
+//	NPCs in worldcraft are assigned one of these which determines their statistics.
+
+ClanDataTables
+{
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"Ash"
+			"ParentTemplateName"	"VampireToreador"
+			"Name"			"Ash"
+			"Description"		"Ash"
+		}
+
+		General
+		{
+			"Clan"			"Toreador"
+			"M_Body"		"models/character/npc/unique/malkgirl/girl.mdl"
+			"F_Body"		"models/character/npc/unique/malkgirl/girl.mdl"
+			"Gender"		"Male"
+			"Kindred"		"1"
+			"Supernatural"		"0"
+			"NoBiting"		"1"
+			"Boss"			"1"
+			"SoundGroup"		""
+			"NormalFootfallDist"	"300"
+			"HeavyFootfallDist"	"600"
+			"NormalFootfallVol"	"0.45"
+			"HeavyFootfallVol"	"0.85"
+			"HasTrueSight"			"1"
+			"TrueSightVisionDistance"	"1200"
+			"NpcFakeReloadCountMin"		"25.0" //uzi
+		}
+
+		Attributes
+		{
+			"Strength"		"3"
+			"Dexterity"		"3"
+			"Stamina"		"4"
+			"Charisma"		"4"
+			"Manipulation"		"2"
+			"Appearance"		"4"
+			"Perception"		"3"
+			"Intelligence"		"1"
+			"Wits"			"3"
+			"BloodPool"		"10"
+			"FaithPoints"		"5"
+			"Max_Health"		"800"
+			"Starting_Equipment"	"NPCGeneric"
+			"Excluded_Equipment"	"Default"
+		}
+
+		Abilities
+		{
+			"Brawl"				"4"
+			"Dodge"				"2"
+			"Intimidation"			"0"
+			"Subterfuge"			"5"
+			"Firearms"			"3"
+			"Melee"				"3"
+			"Security"			"2"
+			"Stealth"			"4"
+			"Computer"			"5"
+			"Finance"			"5"
+			"Investigation"			"2"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+	
+			}
+
+			From
+			{
+			}
+		}
+	}
+}

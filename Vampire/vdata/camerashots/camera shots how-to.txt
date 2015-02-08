@@ -1,0 +1,112 @@
+//
+//How shots work:
+//	
+//	Shots are given a start position, end position, and a look target. 
+//	
+//	If there is no "Start" position specified, the camera will start where ever it currently is in the game. 
+//	If there is no "Start" position AND this is a new camera without a position, it will start from the player's
+//	standard view camera
+//
+//	If there is no "End" position specified, the camera will not move between the points. 
+//
+//	If a shot is defined with no "Start" or "End" position, then it's target points can be used by other 
+//	functions, such as worldcraft keyframed cameras. 
+//
+//	If there is both a "Start" and and "End" position specified, the camera will move towards the "End"
+//	position each frame. 
+//
+//	If there is one target point, the camera will turn to face it each frame. 
+//	If there are two points, the camera will will track a point halfway between them. 
+//	
+//
+//	
+//ShotName		<---- This is what what the shot is called, the name is used by the dialog system to set it up. 
+//{
+//	Start		<---  This is will the shot will begin. If this is not filled in, the camera will start from whereever it is in the world. 
+//	{
+//		// this is where the camera will start rendering from 
+//		"Position"	"Player"		<--- the local player
+//				"DialogTarget"		<--- the npc the player is talking to
+//				"GrappleTarget"		<--- the entity the player is grappling
+//				"World"			<--- the world's origin (0,0,0)
+//				"Named"			<--- the name of an entity in the map 
+//
+//		// this is how the camera is attached to the position
+//		"AttachPos"	"Origin"		<--- The absolute origin of the entity the camera is attached to.
+//				"Center"		<--- The middle of this object
+//				"EyePosition"		<--- Where the Entity's eye's are (or it's origin if it doesn't have eyes)
+//				"Bottom"		<--- The bottom of this object
+//				"Top"			<--- The top of this object
+//				"Bone: Bip01"		<--- A bone on the entity
+//				"Attachment: nozzle"	<--- An attachment point on the entity. 
+//
+//		
+//		"AttachType"	"Follow"		<--- Follow the position of what you are attached to, and 
+//							     translate the offset by the attachment's facing
+//				"FollowNoAngles"	<--- Follow the position of what you're attached to
+//				"None"			<--- don't attach, just set yourself there and don't follow it. 
+//				"FollowEntAngles"	<--- Follow the position of what you are attached to, and translate the offset origin by the facing of the entity		
+//
+//		// if you want the camera to be placed a bit off from the attachment position, fill these in. 
+//		"OffsetOrigin"	[0, 0, 0]		<--- This is a [ X, Y, Z ] vector. It might be easier to think of it as
+//							     [ Forward/Backward, Right/Left, Up/Down ]
+//							     so, for example [ 40, -10, 25 ] would be an offset that is 
+//							     40 inches in front of our position, 10 to our left, and 25 above us. 
+//
+//		<!!	"OffsetAngle"	[0, 0, 0] !!>>	<-- NOTE: This currently isn't implemented. If you think it will be useful, let me know. 
+//
+//	}
+//
+//	End	<----- This is where the shot will transition to. If this is not filled in, the camera will not change position. 
+//	{
+//		"Position"
+//		"AttachPos"
+//		"AttachType"
+//		"Offset"
+//		"OffsetOrig"
+//		"OffsetAngles"
+//	}
+//
+//	Target	<---- this is what the shot will be looking at. 
+//	{
+//		Point1
+//		{
+//			"Position"
+//			"AttachPos"
+//			"AttachType"
+//			"OffsetOrig"
+//			"OffsetAngles"
+//		}
+//
+//		Point2
+//		{
+//			"Position"
+//			"AttachPos"
+//			"AttachType"
+//			"OffsetOrig"
+//			"OffsetAngles"
+//		}
+//
+//	}
+//
+//	CameraConstraints
+//	{
+//		"MoveSpeed"		"350"		<--- Speed, in inches/sec, that the camera should move. 
+//		"MoveAccel"		"200"		<--- How fast the camera should accelerate and decelerate when moving towardsa destination. 
+//
+//		"MaxTurnRate"		"[90, 90, 90]"	<--- the camera can't turn more than this many units in a second. 
+//							     if it is following a fast moving point, this will keep it from moving too fast.
+//		"TurnAccel"		"45"		<--- How fast the camera should accelerate and decelerate when turning to look at something. 
+//
+//		"DistanceTolerance"	"12"		<--- if we are following an entity, and it moves around a bit, we won't move the camera to follow unless it is more than this many units away. 
+//		"AngularTolerance"	"[10, 10, 10]"	<--- if we are following an entity, and it moves around slighltly, we won't tilt the camera unless it is more than this many degrees away from center. 
+//		"FieldOfView"		"75"		<--- how wide our field of view is. 
+//		"DialogPOV"		"1"		<--- if this is set to 1, NPCs will look at the camera during dialog, rather than the player's eye position. 
+//		"AutoPositionFromTarget" "1"		<--- If set to 1, the camera will position itself to the attach
+//								pos, and then adjust it's position from the target 
+//								points so that they are the very top and bottom of 
+//								the screen. 
+//	}
+//
+//}
+//

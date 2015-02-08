@@ -1,0 +1,87 @@
+TerminalDefinition
+{
+	"screen saver"		"Society of Leopold"	// Bounces around on the screen when the terminal is not being used. 
+	"brackets"		""			// these surround the command prompt (2 characters), changed by wesp
+	"email_username"	"reaper"		// printed at the top of the email window, not used for log in. 
+	"email_password"	"burnthemall"		// printed at the top of the email window, not used for log in. 
+
+
+	LogonScreen
+	{
+		"line0"		"Society of Leopold"
+		"line1"		"Base Terminal"
+		"line2"		"Archive and Control"
+
+	}
+
+	SubDir
+	{
+		"name"			"exp bots"
+		"password"		"autobot"
+		"description"		"Explosive Bots Data"	
+		"difficulty"		"8"
+
+		Function
+		{
+			"name"		"explode"			
+			"description"	"all bots explode"	
+			"runtext"	"all bots exploded"	
+			"runscript"	"BotsExplode()"
+		}
+	}
+
+	SubDir
+	{
+		"name"			"pulse gun"
+		"password"		"impulse"
+		"description"		"Pulse Gun Data"	
+		"difficulty"		"8"
+
+		Function
+		{
+			"name"		"disable"			
+			"description"	"pulse gun disable"	
+			"runtext"	"pulse gun disabled"	
+			"runscript"	"PulseGunsDisable()"
+		}
+	}
+
+	SubDir
+	{
+		"name"			"static lasers"
+		"password"		"blaster"
+		"description"		"Lasers Data"	
+		"difficulty"		"8"
+
+		Function
+		{
+			"name"		"disable"			
+			"description"	"Turns charges off"	
+			"runtext"	"Charges disabled."	
+			"runscript"	"AlllasersOff()"
+		}
+
+		Function
+		{
+			"name"		"reprogram"			
+			"description"	"Sets charge on human heat signatures"	
+			"runtext"	"Charges set to human."	
+			"runscript"	"AlllasersReprogram()"
+		}
+	}
+
+	SubDir
+	{
+		"name"			"range door code"	 
+		"password"		"bullseye"	
+		"description"		"Keypad Code"	
+		"difficulty"		"9"
+
+		Function
+		{
+			"name"		"Code"
+			"runtext"	"code: 3341"
+		}
+	}
+
+}

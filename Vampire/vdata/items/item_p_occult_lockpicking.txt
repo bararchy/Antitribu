@@ -1,0 +1,52 @@
+// ancient goblet can alloy use companions
+WeaponData
+{
+	"infomodel"	"models/items/AnimusConstupro/info/i_AnimusConstupro.mdl"
+	"playermodel"	"models/items/AnimusConstupro/ground/g_AnimusConstupro.mdl"
+	"anim_prefix"	""
+
+	"printname"	"The Animus Constupro"
+	"description"	"A weapon of ancient politics, this old magic chalice can allow you to enslave anyone however you must convince them to drink blood directly from this cursed vessel.
+
+				Performing tasks is a good way to gain trust or discover weaknesses. 
+
+				Domination or Dementation feats can also be used to 'convince' the weaker minded."
+
+	"weight"		"1"
+	"item_flags"		"1"
+	"item_type"		"powerup"
+	"item_worth"		"500"
+	"is_droppable"		"1"
+
+	"is_droppable"		"1"
+	"is_wieldable"		"0"
+	"is_visible_in_hud"	"1"
+	"knowledge_min"		"5"
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"		"hud/Inventory_Images/General_Items/AnimusConstupro_sel"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"		"hud/Inventory_Images/General_Items/AnimusConstupro"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+	}
+}

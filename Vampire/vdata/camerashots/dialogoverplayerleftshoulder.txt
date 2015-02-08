@@ -1,0 +1,45 @@
+CameraShotTable
+{
+
+	DialogOverPlayerLeftShoulder
+	{
+
+		End
+		{
+			"Position"		"Player"
+			"AttachPos"		"Bone: Bip01 L Shoulder"
+			"AttachType"		"None"
+			"OffsetOrigin"		"[0, 0, 10]"	 
+		}
+
+		Target	
+		{
+			Point1
+			{
+				"Position"	"DialogTarget"
+				"AttachPos"	"Bone: Bip01 Head"
+				"AttachType"	"Follow"
+			}
+
+			Point2
+			{
+				"Position"	"DialogTarget"
+				"AttachPos"	"Bone: Bip01 Spine2"
+				"AttachType"	"Follow"
+			}
+
+		}
+
+		CameraConstraints
+		{
+			"MoveAccel"		"200"
+			"MoveSpeed"		"500"	
+			"TurnAccel"		"45"
+			"MaxTurnRate"		"[90, 90, 90]"	
+			"DistanceTolerance"	"5"
+			"AngularTolerance"	"[10, 10, 10]"	
+			"FieldOfView"		"75"
+		}
+	}
+
+}

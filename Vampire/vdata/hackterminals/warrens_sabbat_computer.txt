@@ -1,0 +1,126 @@
+TerminalDefinition
+{
+	"screen saver"		"LADWP Area A9"
+	"brackets"		""
+
+	LogonScreen
+	{
+		"line0"		"LA Department of Water and Power"
+		"line1"		"Area D9"
+		"line2"		"Control Terminal 37G"
+		"line3"		"S/N: 356-215-884"
+	}
+		SubDir
+		{
+			"name"			"Directive"
+			"description"		"Directive of management LADWP"
+
+			Function
+			{
+				"name"		"Read"
+				"runtext"	"Due to the increasing incidence of injury and to prevent the entry of strangers and animals in the LA sewers, we now keep compliance with all security standards."
+			}
+
+		}
+
+/////////////////////////////////////////////////////////////////////////////////////
+		Subdir
+		{
+			"name"			"Office Door"
+			"password"		"freaky"
+			"difficulty"		"8"
+			"dependency"		"G.Computer_Password == 1"		
+			"description"		"Controlled Office Door"
+
+			Function
+			{
+				"name"		"Unlock"
+				"description"	"Unlock the Door"
+				"runtext"	"Office Door unlocked."
+				"trigger" 	"1"
+			}
+		}
+
+		Subdir
+		{
+			"name"			"Office Door"
+			"password"		"twiggy"
+			"difficulty"		"8"
+			"dependency"		"G.Computer_Password == 2"		
+			"description"		"Controlled Office Door"
+
+			Function
+			{
+				"name"		"Unlock"
+				"description"	"Unlock the Door"
+				"runtext"	"Office Door unlocked."
+				"trigger" 	"1"
+			}
+		}
+
+		Subdir
+		{
+			"name"			"Office Door"
+			"password"		"wanky"
+			"difficulty"		"8"
+			"dependency"		"G.Computer_Password == 3"		
+			"description"		"Controlled Office Door"
+
+			Function
+			{
+				"name"		"Unlock"
+				"description"	"Unlock the Door"
+				"runtext"	"Office Door unlocked."
+				"trigger" 	"1"
+			}
+		}
+/////////////////////////////////////////////////////////////////////////////////////
+
+		Subdir
+		{
+			"name"			"Warning"
+			"password"		"rusty"
+			"difficulty"		"9"
+			"dependency"		"G.Computer_Password == 1"
+			"description"		"Warning!"		
+
+			Function
+			{
+				"name"		"Read"
+				"description"	"Warning!!!"
+				"runtext"	"All LADWP employees of Area A9 do not switch on all of the pumps and do not open all the valves at the same time. It can lead to malfunction of the electrical system (including security system) at all section of LADWP area A9."
+			}
+		}
+
+		Subdir
+		{
+			"name"			"Warning"
+			"password"		"nasty"
+			"difficulty"		"9"
+			"dependency"		"G.Computer_Password == 2"
+			"description"		"Warning!"		
+
+			Function
+			{
+				"name"		"Read"
+				"description"	"Warning!!!"
+				"runtext"	"All LADWP employees of Area A9 do not switch on all of the pumps and do not open all the valves at the same time. It can lead to malfunction of the electrical system (including security system) at all section of LADWP area A9."
+			}
+		}
+
+		Subdir
+		{
+			"name"			"Warning"
+			"password"		"wasty"
+			"difficulty"		"9"
+			"dependency"		"G.Computer_Password == 3"
+			"description"		"Warning!"		
+
+			Function
+			{
+				"name"		"Read"
+				"description"	"Warning!!!"
+				"runtext"	"All LADWP employees of Area A9 do not switch on all of the pumps and do not open all the valves at the same time. It can lead to malfunction of the electrical system (including security system) at all section of LADWP area A9."
+			}
+		}
+}

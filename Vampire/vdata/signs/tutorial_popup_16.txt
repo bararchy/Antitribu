@@ -1,0 +1,27 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"The vampiric body can recover from even the most egregious wounds, given time.
+The blue bar on the left side of the screen represents your health. If this bar is ever fully depleted, you will suffer a Final Death.
+Your health will replenish slowly over time. The act of consuming blood will replenish your health more quickly. Replenishing health does not cost any blood.
+Aggravated damage - damage from fire, electricity, sunlight, claws, and fangs - will appear on the health bar as yellow scarring. This damage takes at least twice as long to heal as other damage.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

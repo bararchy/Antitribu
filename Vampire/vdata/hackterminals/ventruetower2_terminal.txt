@@ -1,0 +1,88 @@
+TerminalDefinition
+{
+	"screen saver"		"We are always watching!"	
+	"brackets"		""			
+	"email_username"	"gcass"		
+	"email_password"	"ghouls"
+
+	LogonScreen
+	{
+		"line0"		"Monte Blanc Tower Systems"
+		"line1"		"Administration Offices"
+	}
+
+	SubDir
+	{
+		"name"			"Lights"	
+		"password"		"darkness"	
+		"description"		"Office lights"	
+		"difficulty"		"8"
+		"dependency"		"G.Computer_Password == 1"
+
+		Function
+		{
+			"name"		"Enable"			
+			"description"	"Turn on the lights."		
+			"runtext"	"Lights on."	
+			"trigger"	"0"
+		}
+
+		Function
+		{
+			"name"		"Disable"
+			"description"	"Turn off the lights."
+			"runtext"	"Lights out."
+			"trigger"	"1"
+		}
+	}
+
+	SubDir
+	{
+		"name"			"Lights"	
+		"password"		"blackness"	
+		"description"		"Office lights"	
+		"difficulty"		"8"
+		"dependency"		"G.Computer_Password == 2"
+
+		Function
+		{
+			"name"		"Enable"			
+			"description"	"Turn on the lights."		
+			"runtext"	"Lights on."	
+			"trigger"	"0"
+		}
+
+		Function
+		{
+			"name"		"Disable"
+			"description"	"Turn off the lights."
+			"runtext"	"Lights out."
+			"trigger"	"1"
+		}
+	}
+
+	SubDir
+	{
+		"name"			"Lights"	
+		"password"		"duskiness"	
+		"description"		"Office lights"	
+		"difficulty"		"8"
+		"dependency"		"G.Computer_Password == 3"
+
+		Function
+		{
+			"name"		"Enable"			
+			"description"	"Turn on the lights."		
+			"runtext"	"Lights on."	
+			"trigger"	"0"
+		}
+
+		Function
+		{
+			"name"		"Disable"
+			"description"	"Turn off the lights."
+			"runtext"	"Lights out."
+			"trigger"	"1"
+		}
+	}	
+}

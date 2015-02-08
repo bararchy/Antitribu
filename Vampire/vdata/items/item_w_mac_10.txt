@@ -1,0 +1,279 @@
+// Sub machine gun
+WeaponData
+{
+	"printname"	"Intratec TEC-9"
+	"description"	"The Intratec TEC-9 (TEC-DC9) is a blowback-operated, semi-automatic firearm, chambered in 9x19mm Parabellum, and classified by the U.S. Bureau of Alcohol, Tobacco, and Firearms as a handgun.
+			 The TEC-9 and eventually, TEC-DC9 variants, were listed among the 19 firearms banned by name in the USA by the now expired 1994 Federal Assault Weapons Ban (AWB)."
+
+	"viewmodel"	"models/weapons/arsenal_mod/tec9/view/v_tec9.mdl"
+	"playermodel"	"models/weapons/arsenal_mod/tec9/ground/g_tec9.mdl"
+	"wieldmodel_f"	"models/weapons/arsenal_mod/tec9/wield/w_f_tec9.mdl"
+	"wieldmodel_m"	"models/weapons/arsenal_mod/tec9/wield/w_m_tec9.mdl"
+	"infomodel"	"models/weapons/arsenal_mod/tec9/info/i_tec9.mdl"
+
+	"origin_x"	"0"
+	"origin_y"	"3"
+	"origin_z"	"67"
+	"anim_prefix"	"mac10"
+
+	"activation0"		"Full Auto"
+	"activation1"		"error"
+	"jammed0"		"Jammed"
+	"jammed1"		"Jammed"
+	"bucket"		"1"
+	"bucket_position"	"5"
+
+	"camera_class"		"ranged"
+	"weight"		"3"
+	"item_flags"		"0"
+	"item_type"		"weapon_firearm"
+	"sound_group"		"Mac10"
+	"uses_accuracycursors"	"1"
+	"impact_snd_group"	"bullet"
+
+	"muzzleflash_particle" 		"w_tec9_emitter"
+	"muzzlesmoke_particle" 		"w_tec9_emitter-smoke"
+	"viewmuzzleflash_particle" 	"w_tec9_view_emitter"
+	"viewmuzzlesmoke_particle" 	"w_tec9_view_emitter-smoke"
+
+	"item_worth"		"71"
+	//"knowledge_min"		"3"
+
+	SoundData
+	{
+		"pickup"
+		{
+			"sound1"	"Weapons\arsenal_mod\ranged\tec9\tec9_select.wav"
+		}
+	}
+
+//Weapon Ammo
+	Magazine
+	{
+		"ammoprintname"		"9x19mm parabellum"
+		"ammodescription"	"9x19 mm Parabellum - pistol unitary cartridge, developed in 1902 by Austrian gun maker George Luger pistol under the same name 'Luger Parabellum'. Also known as 9x19 mm Luger.
+					Used to Beretta 92, Tec-9 and H&k mp5k
+					Specifications:
+					Bullet weight: 115-146 gr
+					Velocity: 300-580 m/s
+					Energy: 380-700 J"
+
+		"ammo_worth"		"25"
+		"ammoinfomodel"		"models/weapons/arsenal_mod/ammo/tec9/i_tec9_ammo.mdl"
+
+		"Size"			"50"
+		"Default_Size"		"40"
+		"Dropped_Ammo"		"30"
+		"Type"			"DesertEagle_Round"
+		"ReloadTime"		"2.5"
+		
+		SoundData
+		{
+			"reload"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/tec9/tec9_reload.wav"
+			}
+
+			"reload_npc"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/tec9/tec9_reload.wav"
+			}
+		}
+	}
+
+//Primary Attack
+	Activation
+	{
+		"Tag"			"Primary"
+		"Type"			"Attack"
+		"Ammo_Type"		"DesertEagle_Round"
+		"Ammo_Cost"		"1"
+		"Ammo_Fired"		"1"
+		"allow_autofire"	"1"
+
+		"SkillRequirement"	"3"				
+		"BaseLethality"		"8"		
+		"Dmg"			"2 Bashing Ranged_Combat DMG_BULLET"
+
+		"Botch_Table"		"Pistols"
+		"Attack_Rate"			"0.12"
+		"NPC_Attack_Rate_Min"		"0.55"		
+		"NPC_Attack_Rate_Max"		"1.05"		 
+		"NPC_Attack_Rate_Base_Range"	"30"	
+							
+		"Range"				"30"
+							
+	// SKS_RANGED
+		"KickPitchMin"		"-0.5"
+		"KickPitchMax"		"-2.50"
+		"KickYawMin"		"-0.1"
+		"KickYawMax"		"-2.5"
+		"KickTime"		"0.07"
+
+		"CrosshairMinSize"	"23"	// smallest crosshair size for this activation [0-99]
+		"CrosshairFireSize"	"80"	// MAXIMUM size (Firearms 1) of the crosshair when the gun is fired [0-99] scales to Min as player's firearms increases
+		"CrosshairFireSizeMin"	"33"	// MIN size (Firearms 10) of the crosshair when the gun is fired [0-99]
+		"CrosshairWalkSizeMin"	"30"	// min size of the crosshair when the player is walking [0-99]
+		"CrosshairWalkSizeMax"	"35"	//"90"	// max size of the crosshair when the player is walking [0-99]
+		"CrosshairRunSizeMin"	"60"	// min size of the crosshair when the player is running [0-99]
+		"CrosshairRunSizeMax"	"65"	//"90"	// max size of the crosshair when the player is running [0-99]
+
+		"CrosshairIncSpeedMin"	"28"	//"60"min speed(10 Firearm Feat) at which to increase bloom -low # slower
+		"CrosshairIncSpeedMax"	"28"	//"60"max speed(1 Firearm Feat) at which to increase bloom -high # faster
+		"CrosshairDecSpeedMin"	"48"	//min speed(1 Firearm Feat) at which to decrease bloom -low # slower
+		"CrosshairDecSpeedMax"	"48"	//"40"max speed(10 Firearm Feat) at which to decrease bloom -high # faster
+		"CrosshairFirePercent"	"0.1"	
+	
+
+		"SpreadAngle"		"1.0"
+		"CriminalLevel"		"2"
+		"Accuracy"		"1"
+		"BurstMin"		"5"
+		"BurstMax"		"10"
+
+		SoundData
+		{
+			"empty"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/tec9/tec9_empty.wav"
+			}
+
+			"attack"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/tec9/tec9_attack1.wav"
+			}
+
+			"attack_npc"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/tec9/tec9_attack1.wav"	
+				"sound2"	"Weapons/arsenal_mod/ranged/tec9/tec9_attack2.wav"
+				"sound3"	"Weapons/arsenal_mod/ranged/tec9/tec9_attack3.wav"
+			}
+
+			"deploy"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/tec9/tec9_select.wav"
+			}
+
+			"put_away"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/tec9/tec9_deselect.wav"
+			}			
+			
+			"fidget"
+			{
+				"sound1"	"Weapons/Ranged/Fidget.wav"
+			}
+		}
+
+		Tables
+		{
+			Table
+			{
+				"Name"          "WeaponRanges"
+				"InternalName"  "WeaponRanges"
+
+				"Clamping"      "1"
+
+			// point blank 0-80, close 80-110, short/medium 110-220,
+			// meduim 220-370, long 370-650, great 650+
+
+				"0"             "1"       // 5 (bonus)
+				"1"             "150"     // 4 (bonus)
+				"2"             "175"     // 3 (bonus)
+				"3"             "200"     // 2 (bonus)
+				"4"             "225"     // 1 (bonus)
+				"5"             "250"     // 0 (neutral)
+				"6"             "288"     //-1 (penalty)
+				"7"             "325"     //-2 (penalty)
+				"8"             "363"     //-3 (penalty)
+				"9"             "400"     //-4 (penalty)
+			}
+
+			Table
+			{
+				"Name"          "GrossPointBlank"
+				"InternalName"  "GrossPointBlank"
+
+				"Clamping"      "1"
+
+			// percentage from 1-12 feet out
+
+				"0"             "100"
+				"1"             "90"
+				"2"             "80"
+				"3"             "70"
+				"4"             "60"
+				"5"             "50"
+				"6"             "40"
+				"7"             "30"
+				"8"             "20"
+				"9"             "10"
+			}
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/Weapons_Ranged/tec9_SEL"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/Weapons_Ranged/tec9"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}		
+		}
+
+		"ammo"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/weapons_ranged/ammo/tec9_ammo"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"ammo2"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/weapons_ranged/ammo/tec9_ammo_SEL"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+	// Accuracy Crosshairs
+		"Acc_Crosshair00"		"hud/Crosshairs/Crosshair_01"
+		"Acc_Crosshair01"		"hud/Crosshairs/Crosshair_02"
+		"Acc_Crosshair02"		"hud/Crosshairs/Crosshair_03"
+		"Acc_Crosshair03"		"hud/Crosshairs/Crosshair_04"
+		"Acc_Crosshair04"		"hud/Crosshairs/Crosshair_05"
+		"Acc_Crosshair05"		"hud/Crosshairs/Crosshair_06"
+		"Acc_Crosshair06"		"hud/Crosshairs/Crosshair_07"
+		"Acc_Crosshair07"		"hud/Crosshairs/Crosshair_08"
+		"Acc_Crosshair08"		"hud/Crosshairs/Crosshair_09"
+		"Acc_Crosshair09"		"hud/Crosshairs/Crosshair_10"
+		"Interactive_Crosshair"		"hud/Crosshairs/Crosshair_Interactive"
+	}
+}

@@ -1,0 +1,38 @@
+CameraShotTable
+{
+
+	LookAtTargetHead_Snap
+	{
+
+		End
+		{
+			"Position"		"Named"
+			"AttachPos"		"Origin"
+			"AttachType"		"Follow"	 
+		}
+
+		Target	
+		{
+			Point1
+			{
+				"Position"	"Named"
+				"AttachPos"	"Center"
+				"AttachType"	"Follow"
+			}
+		}
+
+		CameraConstraints
+		{
+			"MoveAccel"		"100.0"
+			"TurnAccel"		"60"
+			"MoveSpeed"		"250"		
+			"MaxTurnRate"		"[60, 60, 60]"	
+			"DistanceTolerance"	"5"
+			"AngularTolerance"	"[5, 5, 5]"	
+			"FieldOfView"		"75"
+			"DialogPOV"		"1"
+			"SnapOnShotChange"	"1"
+		}
+	}
+
+}

@@ -1,0 +1,32 @@
+SignData
+{
+	BackgroundImage
+	{
+		//"Name"		"hud/signs/monogram"
+		//"Name"			"Lights/texlight_white"
+		"Name"		"hud/signs/linedpaper"
+		"Tiled"		"0"
+//		"XPos"		"312"
+//		"YPos"		"128"
+		"Wide"		"340"
+		"Tall"		"450"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"ATTENTION!:
+	All LADWP employees of Area A9 do not switch on all of the pumps and do not open all the valves, at the same time, it can lead to malfunction of the electrical system (including security system) at all section of LADWP area A9.
+
+	Darrin Stephens, Lead Foreman, LADWP."
+		"Font"		"ParagraphText"
+		"XPos"		"50"
+		"YPos"		"75"
+		"Wide"		"260"
+		"Tall"		"500"
+		"TextRGBA"		"[0,0,0,150]"
+		"BackgroundRGBA"	"[0,0,0,0]"
+	}
+
+}
+

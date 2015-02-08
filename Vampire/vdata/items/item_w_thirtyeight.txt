@@ -1,0 +1,281 @@
+// Revolver
+WeaponData
+{
+	"printname"	"Smith & Wesson Model 36"
+	"description"	"Smith & Wesson Model 36 - is .38 Special double action revolver. The 2-inch barrel version is one of the preferred backup and conceal carry weapon for law enforcement officers and for civilian use. The Smith and Wesson Model 36 (often called simply '.38 snubnose') was introduced in 1950 as the 'Chief's Special' (or 'Police Chiefs Special').  It is commonly used as a 'belly gun', being stuffed in the pants waist, or as an officer's 'Spare Rod', strapped to the ankle in a holster.
+				Specifications: 
+				Weight 19.5 ounces 
+				Length 6.9375 inchs
+				Effective range 23 meters 
+				Maximum range 46 meters"
+
+	"viewmodel"	"models/weapons/arsenal_mod/colt_peacemaker/view/v_coltpm.mdl"
+	"playermodel"	"models/weapons/arsenal_mod/colt_peacemaker/ground/g_coltpm.mdl"
+	"wieldmodel_f"	"models/weapons/arsenal_mod/colt_peacemaker/wield/w_f_coltpm.mdl"
+	"wieldmodel_m"	"models/weapons/arsenal_mod/colt_peacemaker/wield/w_m_coltpm.mdl"
+	"infomodel"	"models/weapons/arsenal_mod/colt_peacemaker/info/i_coltpm.mdl"
+
+	"origin_x"		"6"
+	"origin_y"		"6"
+	"origin_z"		"68"
+
+	"anim_prefix"		"thirtyeight"
+	"impact_snd_group"	"bullet"
+
+	"activation0"		"Single"
+	"activation1"		"Error"
+	"jammed0"		"Jammed"
+	"jammed1"		"Jammed"
+	"bucket"		"1"
+	"bucket_position"	"1"
+
+	"camera_class"		"ranged"
+	"weight"		"3"
+	"item_flags"		"0"
+	"item_type"		"weapon_firearm"	
+	"sound_group"		"Thirty_Eight"
+	"uses_accuracycursors"	"1"
+
+	"muzzleflash_particle" 		"w_peacemaker_emitter"
+	"muzzlesmoke_particle" 		"w_peacemaker_emitter-smoke"
+	"viewmuzzleflash_particle" 	"w_peacemaker_view_emitter"
+	"viewmuzzlesmoke_particle" 	"w_peacemaker_view_emitter-smoke"
+
+	"item_worth"		"45"
+	//"knowledge_min"		"2"
+
+	SoundData
+	{
+		"pickup"
+		{
+			"sound1"	"Weapons\arsenal_mod\ranged\colt_peacemaker\coltpm_select.wav"
+		}
+	}
+
+//Weapon Ammo
+	Magazine
+	{
+		"ammoprintname"		".38 Special Round"
+		"ammodescription"	".38 Smith & Wesson Special (also .38 Spl, .38 Spc, 9x29.5mmR or 9.1x29mmR) is a rimmed, centerfire cartridge designed by Smith & Wesson. It is most commonly used in revolvers, although some semi-automatic pistols and carbines also use this round.
+					Specifications:
+					Bullet weight: 110-200 gr
+					Velocity: 207-300 m/s
+					Energy: 212-319 J"
+		"ammo_worth"		"6"
+		"ammoinfomodel"		"models/weapons/ammo/thirtyeight/i_thirtyeight_ammo.mdl"
+
+		"Type"			"ThirtyeightRound"
+		"Size"			"6"
+		"Default_Size"		"4"
+		"Dropped_Ammo"		"6"
+		"ReloadTime"		"2.5"
+		
+		SoundData
+		{
+			"reload"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/colt_peacemaker/coltpm_reload.wav"
+			}
+
+			"reload_npc"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/colt_peacemaker/coltpm_reload.wav"
+			}
+		}
+	}
+
+//Primary Attack
+	Activation
+	{
+		"Tag"			"Primary"
+		"Type"			"Attack"
+		"Ammo_Type"		"ThirtyeightRound"
+		"Ammo_Cost"		"1"
+		"Botch_Table"		"Revolvers"
+		"Range"			"35"
+		"SpreadAngle"		"4.0"
+		"CriminalLevel"		"3"
+		"Accuracy"		"4"
+
+		"SkillRequirement"	"2"		
+		"BaseLethality"		"9"		
+		"Dmg"			"2 Bashing Ranged_Combat DMG_BULLET"
+
+		"Attack_Rate"			"0.45"	
+		"NPC_Attack_Rate_Min"		"0.95"	
+		"NPC_Attack_Rate_Max"		"1.15"	
+		"NPC_Attack_Rate_Base_Range"	"100"	
+							
+	// SKS_RANGED
+		"KickPitchMin"		"-1.0"
+		"KickPitchMax"		"-1.00"
+		"KickYawMin"		"-1.0"
+		"KickYawMax"		"-1.0"
+		"KickTime"		"0.1"	
+
+		"CrosshairMinSize"	"10"	// smallest crosshair size for this activation [0-99]
+		"CrosshairFireSize"	"40"	// MAXIMUM size (Firearms 1) of the crosshair when the gun is fired [0-99] scales to Min as player's firearms increases
+		"CrosshairFireSizeMin"	"15"	// MIN size (Firearms 10) of the crosshair when the gun is fired [0-99]
+		"CrosshairWalkSizeMin"	"10"	// min size of the crosshair when the player is walking [0-99]
+		"CrosshairWalkSizeMax"	"10"	// max size of the crosshair when the player is walking [0-99]
+		"CrosshairRunSizeMin"	"20"	// min size of the crosshair when the player is running [0-99]
+		"CrosshairRunSizeMax"	"40"	// max size of the crosshair when the player is running [0-99]
+
+		"CrosshairIncSpeedMin"	"18"	//"80" min speed(10 Firearm Feat) at which to increase bloom -low # slower
+		"CrosshairIncSpeedMax"	"18"	//"95" max speed(1 Firearm Feat) at which to increase bloom -high # faster
+		"CrosshairDecSpeedMin"	"28"	//min speed(1 Firearm Feat) at which to decrease bloom -low # slower
+		"CrosshairDecSpeedMax"	"28"	//"40"max speed(10 Firearm Feat) at which to decrease bloom -high # faster
+
+		"CrosshairFirePercent"	"0.1"			
+
+		SoundData
+		{
+			"empty"
+			{
+				"sound1"	"Weapons/Ranged/Thirty_Eight/Empty.wav"
+			}
+
+			"attack"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/colt_peacemaker/coltpm_attack.wav"
+			}
+
+			"attack_npc"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/colt_peacemaker/coltpm_attack.wav"	
+
+			}
+
+			"deploy"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/colt_peacemaker/coltpm_select.wav"
+			}
+
+			"put_away"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/colt_peacemaker/coltpm_deselect.wav"
+			}			
+			
+			"fidget"
+			{
+				"sound1"	"Weapons/Ranged/Fidget.wav"
+			}
+		}
+
+		Tables
+		{
+			Table
+			{
+				"Name"          "WeaponRanges"
+				"InternalName"  "WeaponRanges"
+
+				"Clamping"      "1"
+
+			// point blank 0-80, close 80-110, short/medium 110-220,
+			// meduim 220-370, long 370-650, great 650+
+
+				"0"             "1"       // 5 (bonus)
+				"1"             "150"     // 4 (bonus)
+				"2"             "175"     // 3 (bonus)
+				"3"             "200"     // 2 (bonus)
+				"4"             "225"     // 1 (bonus)
+				"5"             "250"     // 0 (neutral)
+				"6"             "288"     //-1 (penalty)
+				"7"             "325"     //-2 (penalty)
+				"8"             "363"     //-3 (penalty)
+				"9"             "400"     //-4 (penalty)
+			}
+			
+			Table
+			{
+				"Name"          "GrossPointBlank"
+				"InternalName"  "GrossPointBlank"
+
+				"Clamping"      "1"
+
+			// percentage from 1-12 feet out
+
+				"0"             "100"
+				"1"             "90"
+				"2"             "80"
+				"3"             "70"
+				"4"             "60"
+				"5"             "50"
+				"6"             "40"
+				"7"             "30"
+				"8"             "20"
+				"9"             "10"
+			}
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/Weapons_Ranged/coltpm_SEL"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/Weapons_Ranged/coltpm"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"ammo"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/weapons_ranged/ammo/thirtyeight_Ammo"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"ammo2"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/weapons_ranged/ammo/thirtyeight_ammo_SEL"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+	// Accuracy Crosshairs
+		"Acc_Crosshair00"		"hud/Crosshairs/Crosshair_01"
+		"Acc_Crosshair01"		"hud/Crosshairs/Crosshair_02"
+		"Acc_Crosshair02"		"hud/Crosshairs/Crosshair_03"
+		"Acc_Crosshair03"		"hud/Crosshairs/Crosshair_04"
+		"Acc_Crosshair04"		"hud/Crosshairs/Crosshair_05"
+		"Acc_Crosshair05"		"hud/Crosshairs/Crosshair_06"
+		"Acc_Crosshair06"		"hud/Crosshairs/Crosshair_07"
+		"Acc_Crosshair07"		"hud/Crosshairs/Crosshair_08"
+		"Acc_Crosshair08"		"hud/Crosshairs/Crosshair_09"
+		"Acc_Crosshair09"		"hud/Crosshairs/Crosshair_10"
+		"Interactive_Crosshair"		"hud/Crosshairs/Crosshair_Interactive"
+
+	// Dynamic Crosshairs
+		"Crosshair_LF"			"hud/Crosshairs/Crosshair_LF"
+		"Crosshair_RT"			"hud/Crosshairs/Crosshair_RT"
+		"Crosshair_UP"			"hud/Crosshairs/Crosshair_UP"
+		"Crosshair_DN"			"hud/Crosshairs/Crosshair_DN"
+	}
+}

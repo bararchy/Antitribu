@@ -1,0 +1,29 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Obfuscate:
+The Obfuscate Discipline aids greatly in sneaking. This powerful ability grants the Malkavian limited invisibility.
+Each level of Obfuscate has different limitations. As the Malkavian gains levels in Obfuscate, he will be able to perform more actions without breaking the thin veil of illusion.
+If the Malkavian exceeds the limitations of his present level of Obfuscate, he or she will become visible until the required conditions are once again met.
+Obfuscate costs 1 blood to activate. In order to activate Obfuscate, you must make sure no one else can see you. If you can be seen, activation will fail, and no blood will be spent.
+Unlike other passive Disciplines, Obfuscate's timer can be paused. As long as you stand still, the timer will not run down.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

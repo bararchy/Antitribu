@@ -1,0 +1,35 @@
+TerminalDefinition
+{
+	"screen saver"		"Car50n 1s l337"
+	"brackets"		""			
+
+	LogonScreen
+	{
+		"line0"		"Grumble Grumble"  
+		"line1"		"It's a secret to everybody"
+	}
+
+	SubDir
+	{
+		"name"			"McGee"
+		"password"		"Imalia"
+		"description"		"Currently at large"
+
+		Function
+		{
+			"name"		"Location"
+			"description"	"McGee is here"
+			"runtext"	"McGee is hiding in the tattoo parlor in Santa Monica."
+			"runscript"	"carsonComputerHacked()"
+		}
+
+		Function
+		{
+			"name"		"Key"
+			"description"	"Don't Forget"
+			"runtext"	"Don't forget the key to the tattoo parlor. It's on top of the TV."
+		}
+		
+	}
+
+}

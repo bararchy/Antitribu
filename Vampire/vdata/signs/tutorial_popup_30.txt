@@ -1,0 +1,28 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Presence:
+Vampires of Clan Brujah are able to instill dread and fear in those around them. This ability is manifest in the vampiric Discipline of Presence. In combat, Presence can tilt the scales squarely to Brujah's favor.
+Presence costs 1 blood point to activate.
+Presence weakens anyone near the Brujah. As the Brujah improves his Presence ability with experience, Presence will have a stronger weakening effect and a larger area of effect. At higher levels, Presence has a chance to incapacitate enemies.
+To use Presence, scroll to it using the ] and [ keys (by default) or with the mouse wheel, then use the Power key (default right-click) to activate it.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

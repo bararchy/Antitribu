@@ -1,0 +1,1662 @@
+// Discipline Vicissitude for Bloodlines: Antitribu (made by Lenusk@)
+DisciplineTgtList
+{
+// ---------------------
+// Vicissitude: Level 1
+DisciplineTgt
+{
+	"Name"			"Changeling"
+	"InternalName"		"Vicissitude_Changeling"
+
+	"Discipline"			"Dementation"
+	"Level"				"1"
+
+	"BloodCost"			"1"
+	"RecoveryTime"			"16.0"
+	
+	AoE
+	{
+		"Range"			"0"
+		"Source"		"Self"	// Self/Target
+		"Affects"		"Self"	// Target/Radius:#/Cone:#
+
+		Affects_Filters
+		{
+			"Critter"		"1"
+			"Self"			"1"
+		}
+
+	// Tables:
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Human"		"1"
+				"Player"	"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Human"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"Player"		"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Supernatural"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Human"		"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Human"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"	"1"
+				"CharTemplate"	"Gargoyle"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_Gargoyle"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"No_Boss"		"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Human"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Boss"		"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Human"
+			}
+		}
+	}
+
+	Effect_Src_Instant
+	{
+		Particle_FirstPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"		"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"d_Viscicitude_hud_emitter1"
+			"AttachType"	"ScreenCenter"
+			"AttachName"	""
+		}
+
+		Particle_ThirdPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"		"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"d_Viscicitude_cast_emitter1"
+			"AttachType"	"BoneSinglePoint"
+			"AttachName"	"Bip01 Head"
+		}
+
+		Particle_ThirdPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"		"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"d_Viscicitude_blast_emitter"
+			"AttachType"	"BoneTree"
+			"AttachName"	""
+		}
+
+		SoundFX
+		{
+			"Sound"		"Disciplines/Viscicitude/level1/Activate1.wav"
+		}
+	}
+
+	Effect_Src_Hit
+	{
+	}
+	
+// Effects:
+	Hit_Player_Human
+	{
+		"Gesture_Anim"		"ACT_HOWL"
+		"Gesture_Duration"	"1.0" 
+		"Duration"		"15"	
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Vicissitude_level1)"
+			"Duration"	"15"
+		}
+
+		Effect_Tgt_Hit
+		{
+						Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"d_Viscicitude_1_tgt_emitter"
+				"AttachType"	"BoneTree"
+				"AttachName"	""
+			}
+
+			SoundFX
+			{
+				"Sound"		"Disciplines/Viscicitude/level1/Loop1.wav"
+				"Channel"	"CHAN_AUTO"
+				"IsLooping"	"1"
+			}
+		}
+
+		OnEnd
+		{
+			"Gesture_Anim"		"ACT_ALERT_FRONT_INTO"
+			"Gesture_Duration"	"1.0"
+
+			SoundFX
+			{
+				"Sound"	"Disciplines/Viscicitude/level1/Deactivate1.wav"
+			}
+		}
+	}
+
+	Hit_Player_Supernatural
+	{
+		"InheritFrom"		"Hit_Player_Human"
+	}
+
+	Hit_Human
+	{
+		"InheritFrom"		"Hit_Player_Human"
+	}
+
+	Hit_Supernatural_BloodGuardian
+	{
+		"InheritFrom"		"Hit_Player_Supernatural"
+	}
+
+}
+
+// ---------------------
+// Vicissitude: Level 2
+DisciplineTgt
+{
+	"Name"			"Fleshcraft"
+	"InternalName"		"Vicissitude_Fleshcraft"
+
+	"Discipline"			"Dementation"
+	"Level"				"2"
+
+	"TgtHightlightParticle"		"D_Target_Aura_Emitter"
+
+	"BloodCost"			"2"
+	"RecoveryTime"			"7.5"
+	"SupernaturalLvl"		"3"
+	"Overt"				"1"
+
+	AoE
+	{
+		"Range"			"180"
+		"Source"		"Self"		// Self/Target
+		"Affects"		"Target"	// Target/Radius:#/Cone:#
+
+		Affects_Filters
+		{
+			"Critter"		"1"
+			"Self"			"1"
+			"No_Friends"		"1"
+		}
+
+	// Tables:
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Invulnerable"	"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Invulnerable"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Human"		"1"
+				"Player"	"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Human"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"Player"		"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Supernatural"
+			}
+		}
+
+//
+// ADD DISCIPLINESTRATA EFFECTS BELOW THIS LINE
+//
+		Affects_Table	
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"Doggie"
+			}
+
+			Mapping
+			{
+				"HitTable"	"Hit_Invulnerable"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"0"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Human"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_1"
+			}
+		}		
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"2"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_2"
+			}
+		}	
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"3"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_3"
+			}
+		}	
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"4"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_4"
+			}
+		}	
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"5"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_5"
+			}
+		}	
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"6"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_6"
+			}
+		}	
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"7"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_7"
+			}
+		}	
+
+//
+// ADD DISCIPLINESTRATA EFFECTS ABOVE THIS LINE
+//
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Human"		"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Human"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"No_Boss"		"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Boss"	"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Boss"
+			}
+		}
+	}
+
+	Effect_Src_Instant
+	{
+		Particle_FirstPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"		"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"d_Viscicitude_hud_emitter2"
+			"AttachType"	"ScreenCenter"
+			"AttachName"	""
+		}
+
+		Particle_ThirdPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"		"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"d_Viscicitude_cast_emitter2"
+			"AttachType"	"BoneSinglePoint"
+			"AttachName"	"Bip01 Head"
+		}
+
+		Particle_ThirdPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"		"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"d_Viscicitude_blast_emitter"
+			"AttachType"	"BoneTree"
+			"AttachName"	""
+		}
+
+		SoundFX
+		{
+			"Sound"		"Disciplines/Viscicitude/level2/Activate2.wav"
+		}
+	}
+
+	Effect_Src_Hit
+	{
+	}
+
+// Effects:
+	Hit_Invulnerable
+	{
+		"Gesture_Anim"		"ACT_CAST_CONTINUE_LAYER_THAUMATURGY"
+		"Gesture_Duration"	"1.0" 
+		"Duration"		"1.1"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Vicissitude_pc2)"
+		}
+	}
+
+	Hit_Player_Human
+	{
+	}
+
+	Hit_Player_Supernatural
+	{
+	}
+
+	Hit_Human
+	{
+		"AI_Schedule"		"SCHED_TROIKA_DO_THEFTOFVITAE_ACTIVITY"
+		"Gesture_Anim"		"ACT_CAULDRON_PRE"
+		"Gesture_Duration"	"10.0" 
+		"Duration"		"20-30"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Vicissitude_level2)"
+			//"Duration"	"-1"
+			"Duration"		"20-30"
+		}
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Vicissitude_Fleshcraft"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
+		
+		Effect_Tgt_Hit
+		{
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"d_Viscicitude_2_tgt_emitter"
+				"AttachType"	"BoneTree"
+				"AttachName"	""
+			}
+
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"d_Viscicitude_bleeding_emitter1"
+				"AttachType"	"BoneTree"
+				"AttachName"	""
+			}
+
+			SoundFX
+			{
+				"Sound"		"Disciplines/Viscicitude/level2/Hit2.wav"
+			}
+
+			SoundFX
+			{
+				"Sound"		"Disciplines/Viscicitude/level2/Loop2.wav"
+				"Channel"	"CHAN_AUTO"
+				"IsLooping"	"1"
+			}
+		}
+
+		OnEnd
+		{
+			"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"  
+			"Duration"		"3"
+//			"Gesture_Anim"		"ACT_CAULDRON_PAIN"
+//			"Gesture_Duration"	"1.0" 
+			"Dmg_Health"		"25-35%"
+
+			TraitEffect
+			{
+				"Effect"	"Discipline (Vicissitude_level2_end)"
+				"Duration"	"-1"
+			}
+
+			SoundFX
+			{
+				"Sound"	"Disciplines/Viscicitude/level2/Deactivate2.wav"
+			}
+		}
+	}
+
+	Hit_Supernatural
+	{
+		"InheritFrom"		"Hit_Human"
+	}
+
+	Hit_Supernatural_NoEffect
+	{
+		"AI_Schedule"		"SCHED_TROIKA_D_BLOODBOIL_BOSS"
+		"Duration"		"0.75"
+		"Dmg_Health"		"30-45%"
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Vicissitude_Fleshcraft"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}	
+
+		Effect_Tgt_Hit
+		{
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Full_Resist_Thaum_Emitter"
+				"AttachType"	"BoneTreeWithColors"
+				"AttachName"	""
+			}
+
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Full_Resist_Generic_Emitter"
+				"AttachType"	"BoneTree"
+				"AttachName"	""
+			}
+		}
+	}
+
+	Hit_Strata_1
+	{
+		"InheritFrom"		"Hit_Human"
+	}
+
+	Hit_Strata_2
+	{
+		"InheritFrom"		"Hit_Human"
+	}
+
+	Hit_Strata_3
+	{
+		"InheritFrom"		"Hit_Human"
+	}
+
+	Hit_Strata_4
+	{
+		"InheritFrom"		"Hit_Supernatural_NoEffect"
+		"Dmg_Health"		"30-40%"
+	}
+
+	Hit_Strata_5
+	{
+		"InheritFrom"		"Hit_Supernatural_NoEffect"
+		"Dmg_Health"		"20-30%"
+	}
+
+	Hit_Strata_6
+	{
+		"InheritFrom"		"Hit_Supernatural_NoEffect"
+		"Dmg_Health"		"10-20%"
+	}
+
+	Hit_Strata_7
+	{
+		"InheritFrom"		"Hit_Supernatural_NoEffect"
+		"Dmg_Health"		"5-10%"
+	}
+
+	Hit_Boss
+	{
+		"InheritFrom"		"Hit_Supernatural_NoEffect"
+		"Dmg_Health"		"4-9%"
+	}
+}
+
+// ---------------------
+// Vicissitude: Level 3
+DisciplineTgt
+{
+	"Name"			"Bonecraft"
+	"InternalName"		"Vicissitude_Bonecraft"
+
+	"Discipline"			"Dementation"
+	"Level"				"3"
+
+	"TgtHightlightParticle"		"D_Target_Aura_Emitter"
+
+	"BloodCost"			"3"
+	"RecoveryTime"			"10.5"
+	"SupernaturalLvl"		"4"
+	"Overt"				"1"
+
+	AoE
+	{
+		"Range"			"200"
+		"Source"		"Self"		// Self/Target
+		"Affects"		"Target"	// Target/Radius:#/Cone:#
+
+		Affects_Filters
+		{
+			"Critter"		"1"
+			"Self"			"1"
+			"No_Friends"		"1"
+		}
+
+	// Tables:
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Invulnerable"	"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Invulnerable"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Human"		"1"
+				"Player"	"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Human"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"Player"		"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Supernatural"
+			}
+		}
+
+//
+// ADD DISCIPLINESTRATA EFFECTS BELOW THIS LINE
+//
+
+		Affects_Table	
+		{
+			Affects_Filters
+			{
+				"CharTemplate"		"Doggie"
+			}
+
+			Mapping
+			{
+				"HitTable"	"Hit_Invulnerable"
+			}
+		}
+
+            	Affects_Table	
+		{
+		
+                  	Affects_Filters
+	            	{
+				"Supernatural"	"1"
+				"CharTemplate"	"TzimisceCreation1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}		
+
+		Affects_Table	
+		{
+			Affects_Filters
+			{
+				"Supernatural"	"1"
+				"CharTemplate"	"TzimisceCreation2"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+
+			}
+		}
+
+            	Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"0"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Human"
+			}
+		}
+
+		Affects_Table 
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_1"
+			}
+		}		
+
+		Affects_Table 
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"2"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_2"
+			}
+		}
+
+		Affects_Table 
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"3"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_3"
+			}
+		}		
+
+		Affects_Table 
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"4"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_4"
+			}
+		}		
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"5"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_5"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"6"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_6"
+			}
+		}	
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"DisciplineStrata"	"7"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Strata_7"
+			}
+		}	
+
+//
+// ADD DISCIPLINESTRATA EFFECTS ABOVE THIS LINE
+//
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Human"		"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Human"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"No_Boss"		"1"
+			}
+
+			Mapping
+			{
+				"Chance"	"35%"
+				"HitTable"	"Hit_Supernatural"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_NoEffect"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Boss"		"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Boss_NoEffect"
+			}
+		}
+	}
+
+	Effect_Src_Instant
+	{
+		Particle_FirstPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"		"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"d_Viscicitude_hud_emitter4"
+			"AttachType"	"ScreenCenter"
+			"AttachName"	""
+		}
+
+		Particle_ThirdPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"	"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"d_Viscicitude_cast_emitter4"
+			"AttachType"	"BoneSinglePoint"
+			"AttachName"	"Bip01 Head"
+		}
+		
+		Particle_ThirdPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"		"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"d_Viscicitude_blast_emitter"
+			"AttachType"	"BoneTree"
+			"AttachName"	""
+		}
+
+		SoundFX
+		{
+			"Sound"		"Disciplines/Viscicitude/level4/Activate4.wav"
+		}
+	}
+
+	Effect_Src_Hit
+	{
+	}
+
+// Effects:
+	Hit_Invulnerable
+	{
+		"Gesture_Anim"		"ACT_CAST_CONTINUE_LAYER_THAUMATURGY"
+		"Gesture_Duration"	"1.0" 
+		"Duration"		"1.1"
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Vicissitude_pc3)"
+		}
+	}
+
+	Hit_Player_Human
+	{
+	}
+
+	Hit_Player_Supernatural
+	{
+	}
+
+	Hit_Human
+	{
+		"AI_Schedule"		"SCHED_TROIKA_SWAT_INSECTS"
+		"Duration"		"3.5"
+		"Gesture_Anim"		"ACT_MADNESS_IDLE"
+		"Gesture_Duration"	"3.0" 
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Vicissitude_level3)"	
+		}
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Vicissitude_Bonecraft"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
+
+		Effect_Tgt_Hit
+		{
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"d_Viscicitude_4_tgt_emitter"
+				"AttachType"	"BoneSinglePoint"
+				"AttachName"	"Bip01 spine"
+			}
+
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"d_Viscicitude_bleeding_emitter1"
+				"AttachType"	"BoneSinglePoint"
+				"AttachName"	"Bip01 spine"
+			}
+
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"d_Viscicitude_bleeding_emitter1"
+				"AttachType"	"BoneTree"
+				"AttachName"	""
+			}
+
+			SoundFX
+			{
+				"Sound"		"Disciplines/Viscicitude/level4/Loop4.wav"
+				"Channel"	"CHAN_AUTO"
+				"IsLooping"	"0"
+			}
+		}
+
+		OnEnd
+		{
+			"AI_Schedule"		"SCHED_TROIKA_D_BLOODBOIL_BOSS"
+			"Duration"		"0.5"
+			"Dmg_Health"		"110%"
+			"GibOnDeath"		"1"
+			"Chance"		"110%"
+
+			TraitEffect
+			{
+				"Effect"	"Discipline (Vicissitude_level3)"	
+			}
+
+			SoundFX
+			{
+				"Sound"	"Disciplines/Viscicitude/level4/deactivate4.wav"
+			}
+		}
+	}
+
+	Hit_Supernatural
+	{
+		"InheritFrom"		"Hit_Human"
+	}
+
+	Hit_Supernatural_NoEffect
+	{
+	        //"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"
+		"AI_Schedule"		"SCHED_TROIKA_D_BLOODBOIL_BOSS"			
+                "Duration"		"1"
+		"Dmg_Health"		"20-30%"
+
+		Trigger_Casting
+		{
+			"DisciplineFX"		"Vicissitude_Bonecraft"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}	
+
+		Effect_Tgt_Hit
+		{
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Full_Resist_Thaum_Emitter"
+				"AttachType"	"BoneTreeWithColors"
+				"AttachName"	""
+			}
+
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Full_Resist_Generic_Emitter"
+				"AttachType"	"BoneTree"
+				"AttachName"	""
+			}
+		}
+	}
+
+	Hit_Strata_1 
+	{
+		"InheritFrom"		"Hit_Human"
+	}
+
+	Hit_Strata_2 
+	{
+		"InheritFrom"		"Hit_Human"	
+	}
+
+	Hit_Strata_3
+	{
+		"InheritFrom"		"Hit_Human"
+      	}
+
+	Hit_Strata_4
+	{
+		"InheritFrom"		"Hit_Human"	
+	}
+
+	Hit_Strata_5
+	{
+		"InheritFrom"		"Hit_Supernatural_NoEffect"
+		"Dmg_Health"		"15-25%"
+	}
+
+	Hit_Strata_6
+	{
+		"InheritFrom"		"Hit_Supernatural_NoEffect"
+		"Dmg_Health"		"10-20%"
+	}
+
+	Hit_Strata_7
+	{
+		"InheritFrom"		"Hit_Supernatural_NoEffect"
+		"Dmg_Health"		"7-15%"
+	}
+
+	Hit_Boss_NoEffect
+	{
+		"InheritFrom"		"Hit_Supernatural_NoEffect"
+		"Dmg_Health"		"4-9%"
+	}
+}
+
+// ---------------------
+// Vicissitude: Level 4
+DisciplineTgt
+{
+	"Name"			"Horrid Form"
+	"InternalName"		"Vicissitude_Horrid_Form"
+
+	"Discipline"			"Dementation"
+	"Level"				"4"
+
+	"BloodCost"			"4"
+	"RecoveryTime"			"45.0"
+	"SupernaturalLvl"		"5"
+	"Overt"				"1"
+	
+	AoE
+	{
+		"Range"			"0"
+		"Source"		"Self"	// Self/Target
+		"Affects"		"Self"	// Target/Radius:#/Cone:#
+
+		Affects_Filters
+		{
+			"Critter"		"1"
+			"Self"			"1"
+		}
+
+	// Tables:
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Human"		"1"
+				"Player"	"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Human"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"Player"		"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Supernatural"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Human"		"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Human"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"	"1"
+				"CharTemplate"	"Gargoyle"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Supernatural_Gargoyle"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"No_Boss"		"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Human"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Boss"		"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Human"
+			}
+		}
+	}
+
+	Effect_Src_Instant
+	{
+		Particle_FirstPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"		"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"d_Viscicitude_hud_emitter5"
+			"AttachType"	"ScreenCenter"
+			"AttachName"	""
+		}
+
+		Particle_ThirdPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"		"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"d_Viscicitude_cast_emitter5"
+			"AttachType"	"BoneSinglePoint"
+			"AttachName"	"Bip01 Head"
+		}
+		SoundFX
+		{
+			"Sound"		"Disciplines/Viscicitude/level5/Activate5.wav"
+		}
+	}
+
+	Effect_Src_Hit
+	{
+	}
+	
+// Effects:
+	Hit_Player_Human
+	{
+		"Heal_Blood"		"0"
+		//"Gesture_Anim"		"ACT_HOWL"
+		//"Gesture_Duration"	"0.70" 
+		"Gesture_Anim"		"ACT_BLOCK_stake"
+		"Gesture_Duration"	"1.0"
+		"Duration"		"35"	
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Viscicitude_horrid_form)"	
+		}
+
+		Effect_Tgt_Hit
+		{
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"d_Viscicitude_cast_emitter5"
+				"AttachType"	"BoneSinglePoint"
+				"AttachName"	"Bip01 Head"
+
+				"Detach"	"1"
+			}
+
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"d_Viscicitude_5_emitter"
+				"AttachType"	"BoneTree"
+				"AttachName"	""
+
+				"Detach"	"1"
+			}
+
+			Particle_FirstPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"d_Viscicitude_hud_emitter5"
+				"AttachType"	"ScreenCenter"
+				"AttachName"	""
+
+				"Detach"	"1"
+			}
+
+			SoundFX
+			{
+				"Sound"		"Disciplines/Viscicitude/level5/Loop5.wav"
+				"IsLooping"	"1"
+			}
+		}
+
+		OnEnd
+		{
+			"Heal_Blood"		"0"
+			//"Gesture_Anim"		"ACT_HOWL"
+			//"Gesture_Duration"	"0.70" 
+			"Gesture_Anim"		"ACT_BLOCK_fists"
+			"Gesture_Duration"	"1.0"
+		}
+	}
+
+	Hit_Player_Supernatural
+	{
+		"InheritFrom"		"Hit_Player_Human"
+	}
+
+	Hit_Human
+	{
+		"InheritFrom"		"Hit_Player_Human"
+	}
+
+	Hit_Supernatural_BloodGuardian
+	{
+		"InheritFrom"		"Hit_Player_Supernatural"
+	}
+
+}
+
+// ---------------------
+// Vicissitude: Level 5
+DisciplineTgt
+{
+	"Name"			"Creation Szlachta"
+	"InternalName"		"Vicissitude_Creation_Szlachta"
+
+	"Discipline"		"Dementation"
+	"Level"			"5"
+
+	"BloodCost"		"4"
+	"RecoveryTime"		"7.5"
+	"SupernaturalLvl"	"5"
+	"Overt"			"1"
+	
+	AoE
+	{
+		"Range"			"0"
+		"Source"		"Self"	// Self/Target
+		"Affects"		"Self"	// Target/Radius:#/Cone:#
+
+		Affects_Filters
+		{
+			"Critter"		"1"
+			"Self"			"1"
+		}
+
+	// Tables:
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Human"		"1"
+				"Player"	"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Human"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"Player"		"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Player_Supernatural"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Human"		"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Human"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Supernatural"		"1"
+				"No_Boss"		"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Human"
+			}
+		}
+
+		Affects_Table
+		{
+			Affects_Filters
+			{
+				"Boss"		"1"
+			}
+
+			Default_Mapping
+			{
+				"HitTable"	"Hit_Human"
+			}
+		}
+	}
+
+	Effect_Src_Instant
+	{
+		Particle_FirstPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"		"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"d_Viscicitude_hud_emitter3"
+			"AttachType"	"ScreenCenter"
+			"AttachName"	""
+		}
+
+		Particle_ThirdPerson
+		{
+			"Entity"		"disc_particle"
+			"RateMin"		"1.0"
+			"OpacityMin"	"1.0"
+			"SizeMin"		"1.0"
+			"ParticleName"	"d_Viscicitude_cast_emitter3"
+			"AttachType"	"BoneSinglePoint"
+			"AttachName"	"Bip01 Head"
+		}
+
+		SoundFX
+		{
+			"Sound"		"Disciplines/Viscicitude/level3/Activate3.wav"
+		}
+	}
+
+	Effect_Src_Hit
+	{
+	}
+	
+// Effects:
+	Hit_Player_Human
+	{
+		"Gesture_Anim"		"ACT_CAST_RESET_LAYER_THAUMATURGY"
+		"Gesture_Duration"	"1.05" 
+		"Duration"		"1.25"	
+
+		TraitEffect
+		{
+			"Effect"	"Discipline (Vicissitude_level5)"	
+		}
+
+		Effect_Tgt_Hit
+		{
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"d_Viscicitude_3_emitter"
+				"AttachType"	"BoneTree"
+				"AttachName"	""
+
+				"Detach"		"1"
+			}
+
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"d_Viscicitude_3_emitter"
+				"AttachType"	"BoneTree"
+				"AttachName"	""
+
+				"Detach"	"1"
+			}
+
+			Particle_FirstPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"		"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"d_Viscicitude_hud_emitter3"
+				"AttachType"	"ScreenCenter"
+				"AttachName"	""
+
+				"Detach"	"1"
+			}
+
+			SoundFX
+			{
+				"Sound"		"Disciplines/Viscicitude/level3/Loop3.wav"
+				"IsLooping"	"0"
+			}
+		}
+
+		OnEnd
+		{
+			"Dmg_Health"		"0%"
+			"Duration"		"2.5"
+			"Gesture_Anim"		"ACT_LAND_HARD"
+			"Gesture_Duration"	"2.0"
+
+			TraitEffect
+			{
+				"Effect"	"Discipline (Vicissitude_level5)"	
+			}
+		}
+	}
+
+	Hit_Player_Supernatural
+	{
+		"InheritFrom"		"Hit_Player_Human"
+	}
+
+	Hit_Human
+	{
+		"InheritFrom"		"Hit_Player_Human"
+	}
+
+	Hit_Supernatural_BloodGuardian
+	{
+		"InheritFrom"		"Hit_Player_Supernatural"
+	}
+
+}
+
+//------------------------------
+}

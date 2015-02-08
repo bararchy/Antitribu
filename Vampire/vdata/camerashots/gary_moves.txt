@@ -1,0 +1,39 @@
+CameraShotTable
+{
+	Gary_Moves
+	{
+		
+		End
+		{
+			"Position"	"DialogTarget"
+			"AttachPos"	"EyePosition"
+			"AttachType"	"Follow"
+		}
+						
+
+		Target
+		{
+			Point1
+			{
+				"Position"	"Named"
+				"AttachPos"	"Center"
+				"AttachType"	"Follow"
+			}	
+		}
+	
+		CameraConstraints
+		{
+				"MoveSpeed"		"10"
+				"MoveAccel"		"10"
+				"TurnAccel"		"10"
+				"MaxTurnRate"		"[5, 5, 5]"	
+				"DistanceTolerance"	"5"
+				"AngularTolerance"	"[5, 5, 5]"	
+				"FieldOfView"		"70"
+				"DialogPOV"		"0"
+				"SyncRotateOnMove"	"0"
+		}
+	
+
+	}
+}

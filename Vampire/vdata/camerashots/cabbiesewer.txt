@@ -1,0 +1,39 @@
+CameraShotTable
+{
+	// This is the camera that is used when dialog begins with the sewer cabbie.
+	CabbieSewer
+	{
+		End
+		{
+			"Position"		"DialogTarget"
+			"AttachPos"		"Origin"
+			"AttachType"		"Follow"
+			"OffsetOrigin"		"[50, 0, 30]"
+		}
+
+		Target	
+		{
+			Point1
+			{
+				"Position"	"DialogTarget"
+				"AttachPos"	"EyePosition"
+				"AttachType"	"None"
+			}
+
+		}
+
+		CameraConstraints
+		{
+			"MoveSpeed"		"500"
+			"MoveAccel"		"250"
+			"TurnAccel"		"30"
+			"MaxTurnRate"		"[60, 60, 60]"	
+			"DistanceTolerance"	"5"
+			"AngularTolerance"	"[3, 3, 3]"	
+			"FieldOfView"		"75"
+			"DialogPOV"		"1"
+			"SyncRotateOnMove"	"1"
+		}
+	}
+
+}

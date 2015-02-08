@@ -1,0 +1,28 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Experience:
+You can gain experience points by completing quests and achieving other goals. Experience can then be spent to increase your Attributes, Abilities, and Disciplines. You may also spend experience to gain lost Humanity points.
+On your character sheet, hover over the individual bubbles of the skills to see the cost of raising the skill. The higher the level of the skill, the greater the experience cost to raise the skill.
+You may distribute your points and take them back by clicking the bubble again, but once you exit the character sheet, any experience points you spent can't be taken back. Make sure you've raised the skills you want before you commit.
+You may spend experience or save it as you please. Unspent experience points will stay in your available experience pool.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

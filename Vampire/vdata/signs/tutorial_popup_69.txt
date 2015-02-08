@@ -1,0 +1,26 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Dementation in Dialog:
+		The vampires of Clan Malkavian can instill madness in others. In dialog you may use this ability to impose your will.
+Special Malkavian-only lines will appear in jumbled print. Selecting these replies will consume one blood point per red dot next to the reply, but few can resist such a mental assault.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

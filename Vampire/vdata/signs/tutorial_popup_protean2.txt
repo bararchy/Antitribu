@@ -1,0 +1,40 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/disciplines"
+//		"Tiled"		"0"
+		"XPos"		"1"
+		"YPos"		"1"
+		"Wide"		"1024"
+		"Tall"		"1024"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"There is a guard up ahead. Use Necromancy to kill him.
+You have level one Necromancy, known as Tremens. Scroll the mouse wheel to select Tremens, and use the Power key (default right-click) to activate the Discipline.
+For a short time the dead body will move that would distract the enemy. Equip fists or weapon and kill the guard."
+		"Font"		"ParagraphText"
+		"XPos"		"324"
+		"YPos"		"182"
+		"Wide"		"375"
+		"Tall"		"375"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+
+	TextBlock
+	{
+		"Text"		"left-click to continue"
+		"XPos"		"410"
+		"YPos"		"572"
+		"Wide"		"205"
+		"Tall"		"25"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+
+		"Font"		"Trebuchet"
+	}
+}

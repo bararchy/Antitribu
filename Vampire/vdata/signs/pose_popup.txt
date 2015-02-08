@@ -1,0 +1,10 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/pose_popup"
+		"Tiled"		"0"
+		"Wide"		"600"
+		"Tall"		"600"
+	}
+}

@@ -1,0 +1,98 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/general"
+//		"Tiled"		"0"
+		"XPos"		"1"
+		"YPos"		"1"
+		"Wide"		"1024"
+		"Tall"		"1024"
+	}
+
+	Label
+	{
+		"Text"				"empty"
+		"Alignment"			"center"
+		"Font"				"Newsprint"
+		"XPos"				"327"
+		"YPos"				"193"
+		"Wide"				"110"
+		"Tall"				"110"
+		"TextRGBA"			"[0,0,0,136]"
+		"BackgroundRGBA"		"[8,8,8,1]"
+		"Image"				"hud\Disciplines\animalism_base"
+	}
+
+	Label
+	{
+		"Text"				"empty"
+		"Alignment"			"center"
+		"Font"				"Newsprint"
+		"XPos"				"427"
+		"YPos"				"193"
+		"Wide"				"110"
+		"Tall"				"110"
+		"TextRGBA"			"[0,0,0,136]"
+		"BackgroundRGBA"		"[8,8,8,1]"
+		"Image"				"hud\Disciplines\auspex_base"
+	}
+
+	Label
+	{
+		"Text"				"empty"
+		"Alignment"			"center"
+		"Font"				"Newsprint"
+		"XPos"				"527"
+		"YPos"				"193"
+		"Wide"				"110"
+		"Tall"				"110"
+		"TextRGBA"			"[0,0,0,136]"
+		"BackgroundRGBA"		"[8,8,8,1]"
+		"Image"				"hud\Disciplines\dominate_base"
+	}
+
+	Label
+	{
+		"Text"				"empty"
+		"Alignment"			"center"
+		"Font"				"Newsprint"
+		"XPos"				"627"
+		"YPos"				"193"
+		"Wide"				"110"
+		"Tall"				"110"
+		"TextRGBA"			"[0,0,0,136]"
+		"BackgroundRGBA"		"[8,8,8,1]"
+		"Image"				"hud\Disciplines\koldunism_base"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Old clan Tzimisce have four unique disciplines.
+Animalism: This ability summon the animals for help.
+Auspex: Second sight that allows you to see the auras of others.
+Dominate: The ability to bend people to your will.
+Koldunism: This discipline allows you to create almost any objects."	
+		"Font"		"ParagraphText"
+		"XPos"		"324"
+		"YPos"		"332"
+		"Wide"		"375"
+		"Tall"		"223"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+
+	TextBlock
+	{
+		"Text"		"left-click to continue"
+		"XPos"		"410"
+		"YPos"		"572"
+		"Wide"		"205"
+		"Tall"		"25"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+
+		"Font"		"Trebuchet"
+	}
+}

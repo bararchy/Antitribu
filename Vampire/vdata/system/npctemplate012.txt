@@ -1,0 +1,959 @@
+//////////////////////////////////////////////////
+// NPC Stat Templates (Packages)	- 
+//
+//	NPCs in worldcraft are assigned one of these which determines their statistics.
+
+ClanDataTables
+{
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"ChangBros"
+			"ParentTemplateName"	"VampireGeneric"
+			"Name"			"Blade Brother"
+			"Description"		""
+		}
+
+		General
+		{
+			"Clan"				"Blade Brother"
+			"Body"				"Human"
+			"Gender"			"Male, Female"
+//			"ClanEffect"			""
+			"Kindred"			"1"
+			"Supernatural"			"1"
+			"DisciplineStrata"		"5"
+			"Boss"				"1"
+			"Disallow_Kindred_Death"	"1"
+			"NoBiting"			"1"
+			"SoundGroup"			"Asian"
+			"DamageFilterBashing"		"0.60"
+			"DamageFilterLethal"		"0.75"
+			"DamageFilterAggravated"	"1.00"
+			"SpecialMoveADamage"		"20.0"		// "united-hold-hands-and-attack" damage
+		        "HasTrueSight"			"0"
+			"TrueSightVisionDistance"	"250"
+		}
+
+		Attributes
+		{
+			"Strength"			"4"
+			"Dexterity"			"2"
+			"Stamina"			"1"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"6"
+			"Intelligence"			"1"
+			"Wits"				"4"
+			"BloodPool"			"15"
+			"FaithPoints"			"0"
+			"Starting_Equipment"	"NPCGeneric"
+			"Excluded_Equipment"	"Default"
+			"Max_Health"		"1000"
+		}
+
+		Abilities
+		{
+			"Brawl"				"2"
+			"Dodge"				"4"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"0"
+			"Melee"				"4"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"0"
+			"Finance"			"0"
+			"Investigation"			"0"
+		}
+
+		Resistances
+		{
+		// Dementation:
+			"Veil of Madness"		"Full"
+			"The Haunting"			"Full"
+			"Voice of Madness"		"Full"
+			"Waking Nightmare"		"Full"
+			"Total Insanity"		"Partial"
+
+		// Dominate:
+			"Calm"				"Full"
+			"Dance"				"Full"
+			"Follow"			"Full"
+			"Hide"				"Full"
+			"Jump"				"Full"
+			"Leave"				"Full"
+			"Mesmerize"			"Partial"
+			"Sleep"				"Partial"
+			"Impose Will"			"Partial DMG:0"
+			"Possession"			"Partial"
+
+		// Thaumaturgy:
+			"Blood Malady"			"Full"
+			"Bloody Eye"			"Partial"
+			"Theft of Vitae"		"Full"
+			"Purge Blood"			"Partial"
+			"Blood Boil"			"Partial DMG:4"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+	}
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"ChangBrosClaw" 
+			"ParentTemplateName"	"ChangBros" 
+			"Name"			"Claw Brother"
+			"Description"		"The one with the claws... and yes, the schlong."
+		}
+
+		General
+		{
+			"Clan"			"Claw Brother"
+		}
+	}
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"AsianVampire"
+			"ParentTemplateName"	"VampireGeneric"
+			"Name"			"Cathayan"
+			"Description"		""
+		}
+
+		General
+		{
+			"Clan"				"Cathayan"
+			"Body"				"Human"
+			"Gender"			"Male, Female"
+//			"ClanEffect"			""
+			"Kindred"			"1"
+			"Supernatural"			"1"
+			"NoBiting"			"1"
+			"DisciplineStrata"		"5"
+			"Boss"				"0"
+			"Disallow_Kindred_Death"	"1"
+			"SoundGroup"			"Asian"
+			"NpcFakeReloadCountMin"		"20.0" 	//ak47
+			"DamageFilterBashing"		"0.70"
+			"DamageFilterLethal"		"0.80"
+			"DamageFilterAggravated"	"1.00"
+		        "HasTrueSight"			"0"
+			"TrueSightVisionDistance"	"350"
+
+		}
+
+		Attributes
+		{
+			"Strength"			"4"
+			"Dexterity"			"2"
+			"Stamina"			"1"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"2"
+			"Intelligence"			"1"
+			"Wits"				"5"
+			"BloodPool"			"15"
+			"FaithPoints"			"0"
+			"Starting_Equipment"	"NPCGeneric"
+			"Excluded_Equipment"	"Default"
+			"Max_Health"		"200"
+		}
+
+		Abilities
+		{
+			"Brawl"				"2"
+			"Dodge"				"1"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"0"
+			"Melee"				"2"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"0"
+			"Finance"			"0"
+			"Investigation"			"0"
+		}
+
+		Resistances
+		{
+		// Dementation:
+			"Veil of Madness"		"Full"
+			"The Haunting"			"Full"
+			"Voice of Madness"		"Full"
+			"Waking Nightmare"		"Full"
+			"Total Insanity"		"Partial"
+
+		// Dominate:
+			"Calm"				"Full"
+			"Dance"				"Full"
+			"Follow"			"Full"
+			"Hide"				"Full"
+			"Jump"				"Full"
+			"Leave"				"Full"
+			"Mesmerize"			"Partial"
+			"Sleep"				"Partial"
+			"Impose Will"			"Partial DMG:0"
+			"Possession"			"Partial"
+
+		// Thaumaturgy:
+			"Blood Malady"			"Full"
+			"Bloody Eye"			"Partial"
+			"Theft of Vitae"		"Full"
+			"Purge Blood"			"Partial"
+			"Blood Boil"			"Partial DMG:4"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+	}
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"BloodGuardian"
+			"ParentTemplateName"	"VampireGeneric"
+			"Name"			"Mummy Guard"
+			"Description"		"Mummy Guardian in gallery Santa Monica for Jeanette quest"
+
+		}
+
+		General
+		{
+			"Clan"				"Blood Guardian"
+			"Body"				"Human"
+			"Gender"			"Male, Female"
+//			"ClanEffect"			""
+			"Kindred"			"1"
+			"Supernatural"			"1"
+			"NoBiting"			"1"
+			"Boss"				"1"
+			"Disallow_Kindred_Death"	"1"
+			"Has_Burning_Death"		"0"
+			"Monster"			"1"
+			"SoundGroup"			"zombie_male"
+			"DisciplineStrata"		"7"
+			"Disallow_Knockbacks"		"1"
+			"KnockbackRangedPlayer"		"1"
+			"DamageFilterBashing"		"0.75"
+			"DamageFilterLethal"		"0.80"
+			"DamageFilterAggravated"	"1.00"
+		        "HasTrueSight"			"1"
+			"TrueSightVisionDistance"	"350"
+			"AbsorbsRangedAttacks"		"1" 
+		}
+
+		Attributes
+		{
+			"Strength"			"3"
+			"Dexterity"			"2"
+			"Stamina"			"2"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"3"
+			"Intelligence"			"1"
+			"Wits"				"3"
+			"BloodPool"			"10"
+			"FaithPoints"			"10"
+			"Starting_Equipment"	"NPCGeneric"
+			"Excluded_Equipment"	"Default"
+			"Max_Health"		"230"
+		}
+
+		Abilities
+		{
+			"Brawl"				"1"
+			"Dodge"				"2"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"0"
+			"Melee"				"1"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"0"
+			"Finance"			"0"
+			"Investigation"			"0"
+		}
+
+		Resistances
+		{
+		// Dementation:
+			"Veil of Madness"		"Full"
+			"The Haunting"			"Full"
+			"Voice of Madness"		"Full"
+			"Waking Nightmare"		"Full"
+			"Total Insanity"		"Full"
+
+		// Dominate:
+			"Calm"				"Full"
+			"Dance"				"Full"
+			"Follow"			"Full"
+			"Hide"				"Full"
+			"Jump"				"Full"
+			"Leave"				"Full"
+			"Mesmerize"			"Full"
+			"Sleep"				"Full"
+			"Impose Will"			"Full"
+			"Possession"			"Full"
+
+		// Thaumaturgy:
+			"Blood Malady"			"Full"
+			"Bloody Eye"			"Full"
+			"Theft of Vitae"		"Full"
+			"Purge Blood"			"Full"
+			"Blood Boil"			"Full"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+	}
+
+// Gargoyle
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"Gargoyle"
+			"ParentTemplateName"	"NPCGeneric"
+			"Name"			"The Gargoyle"
+			"Description"		""
+		}
+
+		General
+		{
+			"Clan"				"Gargoyle"
+			"M_Body"			"/models/character/monster/gargoyle/gargoyle.mdl"
+			"Gender"			"Male"
+			"ClanEffect"			""
+			"Kindred"			"0"
+			"Supernatural"			"1"
+			"DisciplineStrata"		"5"
+			"Boss"				"1"
+			"Disallow_Kindred_Death"	"1"
+			"Disallow_FirearmsToBashing"	"1"
+			"KnockbackRangedPlayer"		"1"
+			"SoundGroup"			"Gargoyle"
+			"NoBiting"			"1"
+			"DeathGib"			"models/character/monster/gargoyle/gargoyle_gibbs/garg_gibbs.mdl"
+			"GibsCollide"			"1"
+			"DamageFilterBashing"		"0.70"
+			"DamageFilterLethal"		"0.10"
+			"DamageFilterAggravated"	"0.30"
+			"AbsorbsRangedAttacks"		"1" 
+			"ReceivesExtraClubDmg"		"1"
+		}
+
+		Attributes
+		{
+			"Strength"			"7"
+			"Dexterity"			"2"
+			"Stamina"			"1"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"3"  
+			"Intelligence"			"1"
+			"Wits"				"3"
+			"BloodPool"			"0"
+			"FaithPoints"			"0"
+			"Starting_Equipment"	"Gargoyle"
+			"Excluded_Equipment"	"Gargoyle"
+			"Max_Health"		"800" 
+		}
+
+		Abilities
+		{
+			"Brawl"				"5"
+			"Dodge"				"0"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"0"
+			"Melee"				"3"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"0"
+			"Finance"			"0"
+			"Investigation"			"0"
+		}
+
+		Resistances
+		{
+		// Dementation:
+			"Veil of Madness"	"Full"
+			"The Haunting"		"Full"
+			"Voice of Madness"	"Full"
+			"Waking Nightmare"	"Full"
+			"Total Insanity"	"Partial"
+
+		// Dominate:
+			"Calm"			"Full"
+			"Dance"			"Full"
+			"Follow"		"Full"
+			"Hide"			"Full"
+			"Jump"			"Full"
+			"Leave"			"Full"
+			"Mesmerize"		"Partial"
+			"Sleep"			"Partial"
+			"Impose Will"		"Partial DMG:0"
+			"Possession"		"Partial"
+
+		// Thaumaturgy:
+			"Blood Malady"		"Full"
+			"Bloody Eye"		"Partial"
+			"Theft of Vitae"	"Full"
+			"Purge Blood"		"Partial"
+			"Blood Boil"		"Partial DMG:2"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+	}
+
+// Hengeyokai
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"Hengeyokai"
+			"ParentTemplateName"	"NPCGeneric"
+			"Name"			"Hengeyokai"
+			"Description"		""
+		}
+
+		General
+		{
+			"Clan"				"Hengeyokai"
+			"M_Body"			"/models/character/monster/Hengeyokai/Hengeyokai.mdl"
+			"Gender"			"Male"
+			"ClanEffect"			""
+			"Kindred"			"0"
+			"Supernatural"			"1"
+			"DisciplineStrata"		"5"
+			"Boss"				"1"
+			"Disallow_Kindred_Death"	"1"
+			"KnockbackRangedPlayer"		"1"
+			"SoundGroup"			"Hengeyokai"
+			"NoBiting"			"1"
+			"GibsCollide"			"1"
+			"DamageFilterBashing"		"0.65"
+			"DamageFilterLethal"		"0.80"
+			"DamageFilterAggravated"	"1.00"
+		}
+
+		Attributes
+		{
+			"Strength"			"6"
+			"Dexterity"			"2"
+			"Stamina"			"5"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"3"  
+			"Intelligence"			"1"
+			"Wits"				"4"
+			"BloodPool"			"15"
+			"FaithPoints"			"0"
+			"Starting_Equipment"	"Hengeyokai"
+			"Excluded_Equipment"	"Hengeyokai"
+			"Max_Health"		"1000"
+			"Armor_Rating"		"2"
+		}
+
+		Abilities
+		{
+			"Brawl"				"5"
+			"Dodge"				"3"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"0"
+			"Melee"				"3"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"0"
+			"Finance"			"0"
+			"Investigation"			"0"
+		}
+
+		Resistances
+		{
+		// Dementation:
+			"Veil of Madness"	"Full"
+			"The Haunting"		"Full"
+			"Voice of Madness"	"Full"
+			"Waking Nightmare"	"Full"
+			"Total Insanity"	"Partial"
+
+		// Dominate:
+			"Calm"			"Full"
+			"Dance"			"Full"
+			"Follow"		"Full"
+			"Hide"			"Full"
+			"Jump"			"Full"
+			"Leave"			"Full"
+			"Mesmerize"		"Partial"
+			"Sleep"			"Partial"
+			"Impose Will"		"Partial DMG:0"
+			"Possession"		"Partial"
+
+		// Thaumaturgy:
+			"Blood Malady"		"Full"
+			"Bloody Eye"		"Partial"
+			"Theft of Vitae"	"Full"
+			"Purge Blood"		"Partial"
+			"Blood Boil"		"Partial DMG:2"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+	}
+
+// Yukie
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"Yukie"
+			"ParentTemplateName"	"NPCGeneric"
+			"Name"			"Yukie"
+			"Description"		"Yukie - vampire hunter"
+		}
+
+		General
+		{
+			"Clan"				"None"
+			"Gender"			"Female"
+			"ClanEffect"			""
+			"Kindred"			"0"
+			"Supernatural"			"0"
+			"DisciplineStrata"		"5"
+			"Boss"				"1"
+			"Disallow_Kindred_Death"	"0"
+			"SoundGroup"			"unique/yukie"
+			"NoBiting"			"1"
+			"GibsCollide"			"1"
+			"DamageFilterBashing"		"0.75"
+			"DamageFilterLethal"		"0.80"
+			"DamageFilterAggravated"	"1.00"
+		}
+
+		Attributes
+		{
+			"Strength"			"4"
+			"Dexterity"			"5"
+			"Stamina"			"3"
+			"Charisma"			"3"
+			"Manipulation"			"3"
+			"Appearance"			"3"
+			"Perception"			"2"  
+			"Intelligence"			"3"
+			"Wits"				"4"
+			"BloodPool"			"12"
+			"FaithPoints"			"0"
+			"Starting_Equipment"	"Yukie"
+			"Excluded_Equipment"	"Default"
+			"Max_Health"		"375"
+		}
+
+		Abilities
+		{
+			"Brawl"				"3"
+			"Dodge"				"5"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"2"
+			"Melee"				"3"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"9"
+			"Finance"			"0"
+			"Investigation"			"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+	}
+
+// ManBat
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"ManBat"
+			"ParentTemplateName"	"NPCGeneric"
+			"Name"			"Chiropteran Behemoth"
+			"Description"		""
+		}
+
+		General
+		{
+			"Clan"				"The Sheriff"
+			"M_Body"			"/models/character/monster/manbat/manbat.mdl"
+			"Gender"			"Male"
+			"ClanEffect"			""
+			"Kindred"			"1"
+			"Supernatural"			"1"
+			"DisciplineStrata"		"6"
+			"Boss"				"1"
+			"Disallow_Kindred_Death"	"1"
+			"SoundGroup"			"Sheriff_Manbat"
+			"KnockbackRangedPlayer"		"1"
+			"DamageFilterBashing"		"0.50"
+			"DamageFilterLethal"		"0.65"
+			"DamageFilterAggravated"	"1.00"
+			"DamageFilterFlame"		"0.6"
+			"NoBiting"			"1"
+			"GibsCollide"			"1"
+			"Has_Burning_Death"		"1"
+		}
+
+		Attributes
+		{
+			"Strength"			"5"
+			"Dexterity"			"5"
+			"Stamina"			"5"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"2"  
+			"Intelligence"			"1"
+			"Wits"				"2"
+			"BloodPool"			"15"
+			"FaithPoints"			"0"
+			"Starting_Equipment"	"ManBat"
+			"Excluded_Equipment"	"ManBat"
+			"Max_Health"		"1500"
+		}
+
+		Abilities
+		{
+			"Brawl"				"5"
+			"Dodge"				"2"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"0"
+			"Melee"				"5"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"0"
+			"Finance"			"0"
+			"Investigation"			"0"
+		}
+
+		Resistances
+		{
+		// Dementation:
+			"Veil of Madness"	"Full"
+			"The Haunting"		"Full"
+			"Voice of Madness"	"Full"
+			"Waking Nightmare"	"Full"
+			"Total Insanity"	"Partial"
+
+		// Dominate:
+			"Calm"			"Full"
+			"Dance"			"Full"
+			"Follow"		"Full"
+			"Hide"			"Full"
+			"Jump"			"Full"
+			"Leave"			"Full"
+			"Mesmerize"		"Partial"
+			"Sleep"			"Partial"
+			"Impose Will"		"Partial DMG:0"
+			"Possession"		"Partial"
+
+		// Thaumaturgy:
+			"Blood Malady"		"Full"
+			"Bloody Eye"		"Partial"
+			"Theft of Vitae"	"Full"
+			"Purge Blood"		"Partial"
+			"Blood Boil"		"Partial DMG:2"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+	}
+
+// ManBat Minion
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"ManBatMinion"
+			"ParentTemplateName"	"NPCGeneric"
+			"Name"			"ManBatMinion"
+			"Description"		""
+		}
+
+		General
+		{
+			"Clan"				"None"
+//			"ClanEffect"			""
+			"Kindred"			"1"
+			"Supernatural"			"1"
+			"Disallow_Kindred_Death"	"0"
+			"Has_Burning_Death"		"1"
+			"DisciplineStrata"		"1"
+			"Boss"				"0"
+			"Monster"			"1"
+			"SoundGroup"			"shovel_head"
+			"NoBiting"			"1"
+			"DamageFilterBashing"		"0.80"
+			"DamageFilterLethal"		"0.90"
+			"DamageFilterAggravated"	"1.00"
+		}
+
+		Attributes
+		{
+//			"Attrib_Order"			"Physical_Mental_Social"
+			"Strength"			"4"
+			"Dexterity"			"2"
+			"Stamina"			"3"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"6"
+			"Intelligence"			"1"
+			"Wits"				"3" 
+			"BloodPool"			"8"
+			"FaithPoints"			"0"
+			"Starting_Equipment"	"ManBatMinion"
+			"Excluded_Equipment"	"ManBatMinion"
+			"Max_Health"		"250" 
+			"Armor_Rating"		"0"
+		}
+
+		Abilities
+		{
+			"Brawl"				"3"
+			"Dodge"				"1"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"2"
+			"Melee"				"3"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"5"   // defense vs pc feeding
+			"Finance"			"0"
+			"Investigation"			"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+	}
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"ManBatOfficer"
+			"ParentTemplateName"	"NPCGeneric"
+			"Name"			"None"
+			"Description"		""
+		}
+
+		General
+		{
+			"Clan"				"None"
+//			"ClanEffect"			""
+			"Kindred"			"0"
+			"Supernatural"			"0"
+			"Boss"				"0"
+			"SoundGroup"			"Officer"
+			"FastFood"			"1"		// ensures feeding always succeeds
+			"NpcFakeReloadCountMin"		"6.0" 		// anaconda
+			"DamageFilterBashing"		"0.90"
+			"DamageFilterLethal"		"0.90"
+			"DamageFilterAggravated"	"1.00"
+		}
+
+		Attributes
+		{
+			"Strength"			"4"
+			"Dexterity"			"2"
+			"Stamina"			"3"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"4"
+			"Intelligence"			"1"
+			"Wits"				"3"
+			"BloodPool"			"14"
+			"FaithPoints"			"0"
+			"Starting_Equipment"	"NPCGeneric"
+			"Excluded_Equipment"	"Default"
+			"Max_Health"		"150"
+			"Armor_Rating"		"2"
+		}
+
+		Abilities
+		{
+			"Brawl"				"3"
+			"Dodge"				"1"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"2"
+			"Melee"				"3"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"9"   // defense vs pc feeding
+			"Finance"			"0"
+			"Investigation"			"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+//////////////////////////////////////////////////
+// NPC Stat Templates (Packages)	- Vampire
+//
+//
+
+ClanDataTables
+{
+
+}

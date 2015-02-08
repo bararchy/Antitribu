@@ -1,0 +1,27 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Use the Inventory key (default I) to access your inventory.
+Click on the tabs across the top of the screen to access different inventory categories.
+Keys are located in the \"Equipment\" category. All keys are put on a single key ring. Click on the key ring to see which keys you have.
+Each key corresponds to a single door in the world. Most keys, once used, will not be needed again and will be removed from your key ring.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

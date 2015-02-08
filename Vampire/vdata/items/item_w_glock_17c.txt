@@ -1,0 +1,279 @@
+// normal Pistol
+WeaponData
+{
+	"printname"	"Colt M1911A1"
+	"description"	"Pistol Colt M1911A1 is designed to arm the army. The development was launched by designer John Moses Browning in 1905. Adopted by the United States Army cavalry in 1911, then was adopted by the other armed forces. Officially adopted by nearly 20 countries and produced under license in several countries, also at its base a lot of commercial and sporting options."
+	"viewmodel"	"models/weapons/arsenal_mod/colt1911/view/v_c1911.mdl"
+	"playermodel"	"models/weapons/arsenal_mod/colt1911/ground/g_c1911.mdl"
+	"wieldmodel_f"	"models/weapons/arsenal_mod/colt1911/wield/w_f_c1911.mdl"
+	"wieldmodel_m"	"models/weapons/arsenal_mod/colt1911/wield/w_m_c1911.mdl"
+	"infomodel"	"models/weapons/arsenal_mod/colt1911/info/i_c1911.mdl"
+
+	"origin_x"	"6"
+	"origin_y"	"6"
+	"origin_z"	"68"
+
+	"anim_prefix"	"glock"
+
+	"activation0"		"Single"
+	"activation1"		"Attack"
+	"jammed0"		"Jammed"
+	"jammed1"		"Jammed"
+	"bucket"		"1"
+	"bucket_position"	"2"
+
+	"camera_class"		"ranged"
+	"weight"		"3"
+	"item_flags"		"0"
+	"item_type"		"weapon_firearm"
+	"sound_group"		"Glock"
+	"uses_accuracycursors"	"1"
+	"impact_snd_group"	"bullet"
+
+	"item_worth"		"177"
+
+	"projectile_velocity"	"2000"
+	"projectile_sticks"	"0"
+	"can_stakedmg"		"1"
+	//"knowledge_min"		"5"
+
+	SoundData
+	{
+		"pickup"
+		{
+			"sound1"	"Weapons\arsenal_mod\ranged\colt45\colt45_select.wav"
+		}
+	}
+
+//Weapon Ammo
+	Magazine
+	{
+		"ammoprintname"		".45 ACP (Automatic Colt Pistol)"
+		"ammodescription"	"(Also 11.43x23mm or .45 Auto) .45 caliber unitary pistol cartridge designed by John Browning in 1905. Since then, is a popular cartridge for self-defense (especially in the United States).
+					Used to Colt M1911A1 and M3 'grease gun'
+					Specifications:
+					Bullet weight: 185-230 gr
+					Velocity: 255-350 m/s
+					Energy: 483-738 J"
+
+		"ammoinfomodel"		"models/weapons/ammo/desert_eagle/i_desert_eagle_ammo.mdl"
+
+		"Size"			"7"
+		"Default_Size"		"7"
+		"Dropped_Ammo"		"7"
+		"Type"			"Steyr_AugRound"
+		"ReloadTime"		"3.5"
+		"ammo_worth"		"7"	
+		
+		SoundData
+		{
+			"reload"
+			{
+				"sound1"	"Weapons\arsenal_mod\ranged\colt45\colt45_reload.wav"
+			}
+
+			"reload_npc"
+			{
+				"sound1"	"Weapons\arsenal_mod\ranged\colt45\colt45_reload_ai.wav"
+			}
+		}
+	}
+
+//Primary Attack
+	Activation
+	{
+		"SkillRequirement"	"5"				
+		"BaseLethality"		"12"		
+		"Dmg"			"3 Bashing Ranged_Combat DMG_BULLET"
+		
+		"Attack_Rate"			"0.45"			
+		"NPC_Attack_Rate_Min"		"0.85"	
+		"NPC_Attack_Rate_Max"		"1.25"	
+		"NPC_Attack_Rate_Base_Range"	"60"	
+							
+		"Tag"			"Primary"
+		"Type"			"Attack"
+		"Ammo_Type"		"Steyr_AugRound"
+		"Ammo_Cost"		"1"
+		"Botch_Table"		"Pistols"
+		"Range"			"50"
+		"allow_autofire"	"1"
+
+	// SKS_RANGED
+		"KickPitchMin"		"-1.0"
+		"KickPitchMax"		"-1.00"
+		"KickYawMin"		"-1.0"
+		"KickYawMax"		"-1.0"
+		"KickTime"		"0.1"
+
+		"CrosshairMinSize"	"20"	// smallest crosshair size for this activation [0-99]
+		"CrosshairFireSize"	"80"	// MAXIMUM size (Firearms 1) of the crosshair when the gun is fired [0-99] scales to Min as player's firearms increases
+		"CrosshairFireSizeMin"	"30"	// MIN size (Firearms 10) of the crosshair when the gun is fired [0-99]
+		"CrosshairWalkSizeMin"	"30"	// min size of the crosshair when the player is walking [0-99]
+		"CrosshairWalkSizeMax"	"30"	// max size of the crosshair when the player is walking [0-99]
+		"CrosshairRunSizeMin"	"60"	// min size of the crosshair when the player is running [0-99]
+		"CrosshairRunSizeMax"	"60"	// max size of the crosshair when the player is running [0-99]
+
+		"CrosshairIncSpeedMin"	"28"	//"60"min speed(10 Firearm Feat) at which to increase bloom -low # slower
+		"CrosshairIncSpeedMax"	"28"	//"60"max speed(1 Firearm Feat) at which to increase bloom -high # faster
+		"CrosshairDecSpeedMin"	"48"	//min speed(1 Firearm Feat) at which to decrease bloom -low # slower
+		"CrosshairDecSpeedMax"	"48"	//"40"max speed(10 Firearm Feat) at which to decrease bloom -high # faster
+		"CrosshairFirePercent"	"0.1"	
+
+		"MajorKnockbackDist"	"105.0"	
+		"MinorKnockbackDist"	"5.0"		
+
+		"SpreadAngle"		"1.0"
+		"CriminalLevel"		"3"
+		"Accuracy"		"2"
+
+		SoundData
+		{
+			"empty"
+			{
+				"sound1"	"Weapons\Ranged\empty.wav"
+			}
+
+			"attack"
+			{
+				//"sound1"	"Weapons\arsenal_mod\ranged\colt45\colt45_attack1.wav"
+				//"sound2"	"Weapons\arsenal_mod\ranged\colt45\colt45_attack2.wav"
+				"sound1"	"Weapons\arsenal_mod\ranged\colt45\Colt_1911_Fire1.wav"
+				"sound2"	"Weapons\arsenal_mod\ranged\colt45\Colt_1911_Fire2.wav"
+			}
+
+			"attack_npc"
+			{
+				"sound1"	"Weapons\arsenal_mod\ranged\colt45\colt45_attack1.wav"
+				"sound2"	"Weapons\arsenal_mod\ranged\colt45\colt45_attack2.wav"
+				"sound3"	"Weapons\arsenal_mod\ranged\colt45\colt45_attack_ai.wav"	
+
+			}
+
+			"deploy"
+			{
+				"sound1"	"Weapons\arsenal_mod\ranged\colt45\colt45_select.wav"
+			}
+
+			"put_away"
+			{
+				"sound1"	"Weapons\arsenal_mod\ranged\colt45\colt45_deselect.wav"
+			}			
+			
+			"fidget"
+			{
+				"sound1"	"Weapons\Ranged\Fidget.wav"
+			}
+		}
+
+		Tables
+		{
+			Table
+			{
+				"Name"          "WeaponRanges"
+				"InternalName"  "WeaponRanges"
+
+				"Clamping"      "1"
+
+			// point blank 0-80, close 80-110, short/medium 110-220,
+			// meduim 220-370, long 370-650, great 650+
+
+				"0"             "1"       // 5 (bonus)
+				"1"             "150"     // 4 (bonus)
+				"2"             "175"     // 3 (bonus)
+				"3"             "200"     // 2 (bonus)
+				"4"             "225"     // 1 (bonus)
+				"5"             "250"     // 0 (neutral)
+				"6"             "288"     //-1 (penalty)
+				"7"             "325"     //-2 (penalty)
+				"8"             "363"     //-3 (penalty)
+				"9"             "400"     //-4 (penalty)
+			}
+
+			Table
+			{
+				"Name"          "GrossPointBlank"
+				"InternalName"  "GrossPointBlank"
+
+				"Clamping"      "1"
+
+			// percentage from 1-12 feet out
+
+				"0"             "100"
+				"1"             "90"
+				"2"             "80"
+				"3"             "70"
+				"4"             "60"
+				"5"             "50"
+				"6"             "40"
+				"7"             "30"
+				"8"             "20"
+				"9"             "10"
+			}
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/Weapons_Ranged/c1911_SEL"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/Weapons_Ranged/c1911"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"ammo"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/weapons_ranged/ammo/c1911_ammo"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"ammo2"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/weapons_ranged/ammo/c1911_ammo_SEL"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+	// Accuracy Crosshairs
+		"Acc_Crosshair00"		"hud/Crosshairs/Crosshair_01"
+		"Acc_Crosshair01"		"hud/Crosshairs/Crosshair_02"
+		"Acc_Crosshair02"		"hud/Crosshairs/Crosshair_03"
+		"Acc_Crosshair03"		"hud/Crosshairs/Crosshair_04"
+		"Acc_Crosshair04"		"hud/Crosshairs/Crosshair_05"
+		"Acc_Crosshair05"		"hud/Crosshairs/Crosshair_06"
+		"Acc_Crosshair06"		"hud/Crosshairs/Crosshair_07"
+		"Acc_Crosshair07"		"hud/Crosshairs/Crosshair_08"
+		"Acc_Crosshair08"		"hud/Crosshairs/Crosshair_09"
+		"Acc_Crosshair09"		"hud/Crosshairs/Crosshair_10"
+		"Interactive_Crosshair"		"hud/Crosshairs/Crosshair_Interactive"
+	}
+}

@@ -1,0 +1,132 @@
+CameraShotTable
+{
+
+	// This is the camera that plays when the player dies. 
+	DeathCam
+	{
+		End
+		{
+			"Position"		"Player"
+			"AttachPos"		"Origin"
+			"AttachType"		"None"
+			"OffsetOrigin"		"[0, 0, 100]"	 
+		}
+
+		Target	
+		{
+			Point1
+			{
+				"Position"		"Named"		// the game will set this to the corpse
+				"AttachPos"		"Center"
+				"AttachType"		"Follow"
+			}
+		}
+
+		CameraConstraints
+		{
+			"MoveSpeed"		"25"		
+			"MaxTurnRate"		"[45, 45, 45]"
+			"DistanceTolerance"	"10"
+			"AngularTolerance"	"[10, 10, 10]"		
+		}
+
+	}
+
+	// special-case shot used for testing
+	Follow
+	{
+		Start
+		{
+			"Position"		"Named"
+			"AttachPos"		"Center"
+			"AttachType"		"None"
+		}
+	}
+
+	// special case shot info used by camera_animated entity. Don't change this. 
+	Animated
+	{
+		Start
+		{
+			"Position"		"Named"
+			"AttachPos"		"Bone: cam_bone"
+			"AttachType"		"Follow"
+		}
+	}
+
+	// this camer is used when the player starts picking a lock
+	Intrusion
+	{
+		End
+		{
+			"Position"		"Named"
+			"AttachPos"		"Attachment: camera_position"
+			"AttachType"		"Follow"
+		}
+
+		Target	
+		{
+			Point1
+			{
+				"Position"		"Named"		
+				"AttachPos"		"Attachment: camera_target"
+				"AttachType"		"Follow"
+			}
+		}
+
+
+		CameraConstraints
+		{
+			"MoveAccel"		"450.0"
+			"TurnAccel"		"250"
+			"MoveSpeed"		"300"		
+			"MaxTurnRate"		"[320, 320, 320]"	
+			"DistanceTolerance"	"5"
+			"AngularTolerance"	"[3, 3, 3]"	
+			"FieldOfView"		"75"
+			"DialogPOV"		"0"
+			"DrawViewmodel"		"1"
+			"SyncRotateOnMove"	"1"
+			"ShowHud"		"1"
+		}
+	}
+
+	// this camer is used when the player starts picking a lock
+	Hacking
+	{
+		End
+		{
+			"Position"		"Named"
+			"AttachPos"		"Attachment: screen_axis"
+			"AttachType"		"Follow"
+		}
+
+		Target	
+		{
+			Point1
+			{
+				"Position"		"Named"		
+				"AttachPos"		"Attachment: screen"
+				"AttachType"		"Follow"
+			}
+		}
+
+		CameraConstraints
+		{
+			"MoveAccel"		"250.0"
+			"TurnAccel"		"180"
+			"MoveSpeed"		"300"		
+			"MaxTurnRate"		"[200, 200, 200]"	
+			"DistanceTolerance"	"1"
+			"AngularTolerance"	"[1,1,1]"	
+			"FieldOfView"		"75"
+			"DialogPOV"		"0"
+			"DrawViewmodel"		"0"
+			"SyncRotateOnMove"	"1"
+			"ShowHud"		"1"
+		}
+	}
+
+
+
+}

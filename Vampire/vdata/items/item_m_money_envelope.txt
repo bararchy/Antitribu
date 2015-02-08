@@ -1,0 +1,53 @@
+// Written
+WeaponData
+{
+	"infomodel"	"models/items/MoneyEnvelope/Info/Info_MoneyEnvelope.mdl"
+	"playermodel"	"models/items/MoneyEnvelope/Ground/MoneyEnvelope.mdl"
+	"anim_prefix"	" "
+ 
+	"printname"	"Money Envelope"
+	"description"	"An envelope containing a bit of cash."
+
+	"bucket"		"1"
+	"bucket_position"	"2"
+
+	"weight"		"3"
+	"item_flags"		"1"
+	"item_type"		"generic"
+	"item_worth"		"0"
+
+	SoundData
+	{
+		"pickup"
+		{
+			"sound1"	"Interface/Infobar/Money_Gained.wav"
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/MoneyEnvelope_sel"
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/MoneyEnvelope"
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+	}
+}

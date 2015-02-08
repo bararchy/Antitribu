@@ -1,0 +1,16 @@
+// Choreo version 1
+actor "partymember7"
+{
+  channel "Anim"
+  {
+    event sequence "HotTub_touch"
+    {
+      time 0.000000 3600
+      param "HotTub_touch"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

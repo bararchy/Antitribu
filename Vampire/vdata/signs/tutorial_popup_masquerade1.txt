@@ -1,0 +1,83 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/area"
+//		"Tiled"		"0"
+		"XPos"		"1"
+		"YPos"		"1"
+		"Wide"		"1024"
+		"Tall"		"1024"
+	}
+
+	Label
+	{
+		"Text"				"empty"
+		"Alignment"			"center"
+		"Font"				"Newsprint"
+		"XPos"				"327"
+		"YPos"				"193"
+		"Wide"				"110"
+		"Tall"				"110"
+		"TextRGBA"			"[0,0,0,136]"
+		"BackgroundRGBA"		"[8,8,8,1]"
+		"Image"				"hud\Area_Icons\area_icon_combat"
+	}
+
+	Label
+	{
+		"Text"				"empty"
+		"Alignment"			"center"
+		"Font"				"Newsprint"
+		"XPos"				"457"
+		"YPos"				"193"
+		"Wide"				"110"
+		"Tall"				"110"
+		"TextRGBA"			"[0,0,0,136]"
+		"BackgroundRGBA"		"[8,8,8,1]"
+		"Image"				"hud\Area_Icons\area_icon_safearea"
+	}
+
+	Label
+	{
+		"Text"				"empty"
+		"Alignment"			"center"
+		"Font"				"Newsprint"
+		"XPos"				"586"
+		"YPos"				"193"
+		"Wide"				"110"
+		"Tall"				"110"
+		"TextRGBA"			"[0,0,0,136]"
+		"BackgroundRGBA"		"[8,8,8,1]"
+		"Image"				"hud\Area_Icons\area_icon_elysium"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Area Indicator: The icon to the left indicates that you are in a Combat area.
+Combat: Anything goes.
+Masquerade: Respect the Masquerade.
+Elysium: Vampire neutral ground. No combat or Disciplines are allowed, except Blood Buff while lockpicking."
+		"Font"		"ParagraphText"
+		"XPos"		"324"
+		"YPos"		"332"
+		"Wide"		"375"
+		"Tall"		"223"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+
+	TextBlock
+	{
+		"Text"		"left-click to continue"
+		"XPos"		"410"
+		"YPos"		"572"
+		"Wide"		"205"
+		"Tall"		"25"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+
+		"Font"		"Trebuchet"
+	}
+}

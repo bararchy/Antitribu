@@ -1,0 +1,11 @@
+
+
+
+"DragonBreathImpact"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1"
+	"soundlevel"  	"SNDLVL_75dB"
+
+	"wave"		"weapons/arsenal_mod/ranged/dragon_breath/db_impact1.wav"
+}

@@ -1,0 +1,7 @@
+// Entity PreCache
+
+PreCacheData
+{
+	PreCacheData { "env_phosphoroushit"	"sprites/ember.spr" }
+	PreCacheData { "projectile_impact_sound"	"Weapons\arsenal_mod\ranged\dragon_breath\db_impact1.wav" }
+}

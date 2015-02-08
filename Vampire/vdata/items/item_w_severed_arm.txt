@@ -1,0 +1,133 @@
+// one-hand crushing weapon - medieval steel mace
+WeaponData
+{
+	"printname"	"Mace"
+	"description"	"A mace is a simple weapon that uses a heavy head on the end of a handle to deliver powerful blows. A development of the club, the military mace differs from a hammer in that the head of a mace is radially symmetric so that a blow can be delivered just as effectively with any side of the head."
+
+	"viewmodel"	"models/weapons/w_null.mdl"
+	"playermodel"	"models/weapons/arsenal_mod/mace/ground/g_mace.mdl"
+	"wieldmodel_f"	"models/weapons/arsenal_mod/mace/wield/w_f_mace.mdl"
+	"wieldmodel_m"	"models/weapons/arsenal_mod/mace/wield/w_m_mace.mdl"
+	"infomodel"	"models/weapons/arsenal_mod/mace/info/i_mace.mdl"
+
+	"anim_prefix"		"baseballbat"
+	"impact_snd_group"	"fist"
+
+	"bucket"		"0"
+	"bucket_position"	"3"
+
+	"camera_class"		"melee"
+	"weight"		"2"
+	"item_flags"		"0"
+	"item_type"		"weapon_melee"
+	"sound_group"		"Tire_Iron"
+
+	"knockback_chance"	"1.5"
+
+	//"wield_effect"		"weapon (mace)"
+
+	"item_worth"		"235"
+	//"knowledge_min"		"7"
+
+// Sounds...
+	SoundData
+	{
+		"swish"
+		{
+			"sound1"	"Weapons\arsenal_mod\melee\mace\mace_attack_1.wav"
+			"sound2"	"Weapons\arsenal_mod\melee\mace\mace_attack_2.wav"
+			"sound3"	"Weapons\arsenal_mod\melee\mace\mace_attack_3.wav"
+		}
+
+		"pickup"
+		{
+			"sound1"	"Weapons\arsenal_mod\melee\mace\mace_select.wav"
+		}
+
+		"stealth_kill_success"
+		{
+			"sound1"	"Weapons/Melee/Severed_Arm/Stealth_Severed_Arm.wav"
+		}
+
+		"stealth_kill_failure"
+		{
+			"sound1"	"Weapons/Melee/Fists/Stealth_Kill_Failure.wav"
+		}
+	}
+
+	Activation
+	{
+		"Tag"			"Primary"
+		"Type"			"Attack"
+		"Ammo_Type"		"None"
+		"Ammo_Cost"		"0"
+		"Botch_Table"		"Melee_Weapons"
+		"Attack_Rate"		"1.0"
+		"Range"			"0"
+		"CriminalLevel"		"4"
+
+		"SkillRequirement"	"8"		
+		"BaseLethality"		"16"		
+		"Dmg"			"3 Bashing Close_Combat_Melee DMG_CLUB"
+
+	// Sounds...
+		SoundData
+		{
+			"attack"
+			{
+				"sound1"	"Weapons\arsenal_mod\melee\mace\mace_attack_1.wav"
+				"sound2"	"Weapons\arsenal_mod\melee\mace\mace_attack_2.wav"
+				"sound3"	"Weapons\arsenal_mod\melee\mace\mace_attack_3.wav"
+			}
+
+			"attack_npc"
+			{
+				"sound1"	"Weapons\arsenal_mod\melee\mace\mace_attack_1.wav"
+				"sound2"	"Weapons\arsenal_mod\melee\mace\mace_attack_2.wav"
+				"sound3"	"Weapons\arsenal_mod\melee\mace\mace_attack_3.wav"
+			}
+
+			"botch"
+			{
+				"sound1"	"weapons\Melee\fidget.wav"
+			}
+
+			"deploy"
+			{
+				"sound1"	"Weapons\arsenal_mod\melee\mace\mace_select.wav"
+			}
+
+			"put_away"
+			{
+				"sound1"	"Weapons\arsenal_mod\melee\mace\mace_deselect.wav"
+			}
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/Weapons_Melee/mace_SEL"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/Weapons_Melee/mace"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+	}
+}

@@ -1,0 +1,38 @@
+CameraShotTable
+{
+	// This is the default camera that is used when dialog begins. 
+	Chunk
+	{
+		End
+		{
+			"Position"		"DialogTarget"
+			"AttachPos"		"Origin"
+			"AttachType"		"Follow"
+			"OffsetOrigin"		"[35, 0, 59]"	 
+		}
+
+		Target	
+		{
+			Point1
+			{
+				"Position"	"DialogTarget"
+				"AttachPos"	"Bone: Bip01 Head"
+				"AttachType"	"None"
+			}
+
+		}
+
+		CameraConstraints
+		{
+			"MoveSpeed"		"500"
+			"MoveAccel"		"250"
+			"TurnAccel"		"30"
+			"MaxTurnRate"		"[60, 60, 60]"	
+			"DistanceTolerance"	"5"
+			"AngularTolerance"	"[3, 3, 3]"	
+			"FieldOfView"		"75"
+			"DialogPOV"		"1"
+		}
+	}
+
+}

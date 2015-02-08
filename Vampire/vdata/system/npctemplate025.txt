@@ -1,0 +1,179 @@
+//////////////////////////////////////////////////
+// NPC Stat Templates (Packages)	- Human
+//
+//	NPCs in worldcraft are assigned one of these which determines their statistics.
+
+ClanDataTables
+{
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"Chastity"
+			"ParentTemplateName"	""
+			"Name"			"Chastity"
+			"Description"		"Chastity"
+		}
+
+		General
+		{
+			"Clan"				"Chastity"
+			"M_Body"			"models/character/npc/unique/malkgirl/girl.mdl"
+			"F_Body"			"models/character/npc/unique/malkgirl/girl.mdl"
+			"Gender"			"Male, Female"
+			"Kindred"			"0"
+			"DisciplineStrata"		"4"
+			"SoundGroup"			""
+			"NormalFootfallDist"		"300"
+			"HeavyFootfallDist"		"600"
+			"NormalFootfallVol"		"0.45"
+			"HeavyFootfallVol"		"0.85"
+			"NpcFakeReloadCountMin"		"6.0" 	// none
+			"NeverInnocent"         	"1"
+			"Boss"				"1"
+			"Disallow_Knockbacks"		"0"
+		}
+
+		Attributes
+		{
+			"Strength"			"5"
+			"Dexterity"			"1"
+			"Stamina"			"3"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"4"
+			"Intelligence"			"1"
+			"Wits"				"4"
+			"Max_Health"			"250"
+			"BloodPool"			"11"
+			"FaithPoints"			"15"
+			"Starting_Equipment"		"NPCGeneric"
+			"Excluded_Equipment"		"Default"
+		}
+
+		Abilities
+		{
+			"Brawl"				"0"
+			"Dodge"				"3"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"3"
+			"Melee"				"3"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"9"
+			"Finance"			"0"
+			"Investigation"			"0"			
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+
+		LoiterActivities
+		{
+			"ACT_IDLE"		"1.0"
+		}
+	}
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"Julius"
+			"ParentTemplateName"	""
+			"Name"			"Julius"
+			"Description"		"Julius"
+		}
+
+		General
+		{
+			"Clan"				"None"
+			"M_Body"			"models/character/npc/unique/malkgirl/girl.mdl"
+			"F_Body"			"models/character/npc/unique/malkgirl/girl.mdl"
+			"Gender"			"Male, Female"
+			"Kindred"			"0"
+			"NoBiting"			"1"
+			"DisciplineStrata"		"3"
+			"SoundGroup"			""
+			"NormalFootfallDist"		"300"
+			"HeavyFootfallDist"		"600"
+			"NormalFootfallVol"		"0.45"
+			"HeavyFootfallVol"		"0.85"
+			"NpcFakeReloadCountMin"		"6.0" 	// none
+		}
+
+		Attributes
+		{
+			"Strength"			"4"
+			"Dexterity"			"1"
+			"Stamina"			"4"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"2"
+			"Intelligence"			"1"
+			"Wits"				"3"
+			"Max_Health"			"200"
+			"BloodPool"			"6"
+			"FaithPoints"			"5"
+			"Starting_Equipment"	"NPCGeneric"
+			"Excluded_Equipment"	"Default"
+		}
+
+		Abilities
+		{
+			"Brawl"				"0"
+			"Dodge"				"2"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"0"
+			"Melee"				"3"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"2"
+			"Finance"			"0"
+			"Investigation"			"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+
+		LoiterActivities
+		{
+			"ACT_IDLE"				"1.0"
+		}
+	}
+}

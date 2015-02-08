@@ -1,0 +1,79 @@
+ClanDataTables
+{
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"Johnny"
+			"ParentTemplateName"	""
+			"Name"			"Johnny"
+			"Description"		"Johnny"
+		}
+
+		General
+		{
+			"Clan"				"None"
+			"M_Body"			"models/character/npc/unique/malkgirl/girl.mdl"
+			"F_Body"			"models/character/npc/unique/malkgirl/girl.mdl"
+			"Gender"			"Male"
+			"Kindred"			"0"
+			"SoundGroup"			""
+			"NormalFootfallDist"		"300"
+			"HeavyFootfallDist"		"600"
+			"NormalFootfallVol"		"0.45"
+			"HeavyFootfallVol"		"0.85"
+			"NpcFakeReloadCountMin"		"7.0" 		// colt1911 
+		}
+
+		Attributes
+		{
+			"Strength"				"4"
+			"Dexterity"				"1"
+			"Stamina"				"3"
+			"Charisma"				"1"
+			"Manipulation"				"1"
+			"Appearance"				"1"
+			"Perception"				"4"
+			"Intelligence"				"1"
+			"Wits"					"5"
+			"Armor_Rating"				"0"
+			"Max_Health"				"205"
+			"BloodPool"				"10"
+			"FaithPoints"				"15"
+			"Starting_Equipment"			"NPCGeneric"
+			"Excluded_Equipment"			"Default"
+		}
+
+		Abilities
+		{
+			"Dodge"					"1"
+			"Firearms"				"3"
+			"Melee"					"3"
+			"Computers"				"9"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+
+		LoiterActivities
+		{
+			"ACT_IDLE"			"1.0"
+		}
+	}
+}

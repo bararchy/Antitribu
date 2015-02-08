@@ -1,0 +1,116 @@
+// human flesh for clan nagaraja
+WeaponData
+{
+	"infomodel"	"models/weapons/disciplines/Viscicitude/level2/i_flesh.mdl"
+	"playermodel"	"models/weapons/disciplines/Viscicitude/level2/g_flesh.mdl"
+	"viewmodel"	"models/weapons/w_null.mdl"
+	"wieldmodel_f"	"models/weapons/w_null.mdl"
+	"wieldmodel_m"	"models/weapons/w_null.mdl"	
+	"anim_prefix"	"lockpick"
+
+	"printname"	"Raw Human Flesh"
+	"description"	"Raw human flesh used to feed the foul hunger of clan Nagaraja.
+			Use the flesh when the hunger grips you.
+			Also Tzimisce with high level Vicissitude may find it useful."
+
+	"bucket"		"0"
+	"bucket_position"	"2"
+
+	"camera_class"		"melee"
+
+	"weight"		"0"
+	"item_flags"		"1"
+	"item_type"		"generic"
+	"item_worth"		"33"
+	"player_sell"		"10"
+
+	//"is_stackable" 		"1"
+	//"stacklimit" 		"5"
+ 
+	"is_wieldable"		"1"
+	"item_class_discount" 	"1"
+	"equip_mask"		"Normal" 
+
+	SoundData
+	{
+		"pickup"
+		{
+			"sound1"	"usable/openable/dead_body/open.wav"
+		}
+	}
+
+	Activation
+	{
+		"Tag"		"Primary"
+		"Type"		"Use"
+		"Ammo_Type"	"None"
+		"Ammo_Cost"	"0"
+		"Botch_Table"	"Lockpicks"
+		"Attack_Rate"	"1.0"
+		"Range"		"0"
+
+		SoundData
+		{
+			"deploy"
+			{
+				"sound1"	"usable/openable/dead_body/open.wav"
+			}
+	
+			"put_away"
+			{
+				"sound1"	"usable/openable/dead_body/open.wav"
+			}
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"		"hud/Inventory_Images/General_Items/zflesh_sel"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"		"hud/Inventory_Images/General_Items/zflesh"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"ammo"
+		{
+			"640"
+			{
+				"file"		"hud/Inventory_Images/General_Items/zflesh"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"ammo2"	
+		{
+			"640"
+			{
+				"file"		"hud/Inventory_Images/General_Items/zflesh_sel"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+	}
+}

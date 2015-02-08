@@ -1,0 +1,28 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Fortitude:
+The vampires of Clan Gangrel are renowned for their supernatural resilience. This ability is manifest in the vampiric Discipline of Fortitude.
+Fortitude costs 1 blood point to activate.
+While Fortitude is active, it grants a bonus to the Gangrel's Soak feat. Fortitude also guarantees a portion of all damage received will be ignored. Soak will be explained in more depth later.
+To use Fortitude, scroll to it using the ] and [ keys (by default) or with the mouse wheel, then right-click to activate it.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

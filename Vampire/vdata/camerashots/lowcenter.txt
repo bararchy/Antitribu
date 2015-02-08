@@ -1,0 +1,37 @@
+CameraShotTable
+{
+
+	LowCenter
+	{
+		End
+		{
+			"Position"		"Named"
+			"AttachPos"		"Center"
+			"AttachType"		"Follow"
+			"OffsetOrigin"		"[45, 0, 0]"	 
+		}
+
+		Target	
+		{
+			Point1
+			{
+				"Position"	"Named"
+				"AttachPos"	"Bone: Bip01 Head"
+				"AttachType"	"None"
+			}
+		}
+
+		CameraConstraints
+		{
+			"MoveAccel"		"250.0"
+			"TurnAccel"		"90"
+			"MoveSpeed"		"600"		
+			"MaxTurnRate"		"[120, 120, 120]"	
+			"DistanceTolerance"	"5"
+			"AngularTolerance"	"[5, 5, 5]"	
+			"FieldOfView"		"75"
+			"DialogPOV"		"1"
+		}
+	}
+
+}

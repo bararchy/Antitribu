@@ -1,0 +1,64 @@
+QuestTable
+{
+//	Quest
+//	{
+//		"Title"		This is a simple text title, and what will be used to refer to it in dialog. 
+//
+//		"DisplayName"	This is what will be displayed as the heading for this journal entry
+//				LOCALIZE THIS FIELD
+//
+//		CompletionState
+//		{
+//			"ID"		Each completion state must have a UNIQUE, NUMERIC ID. By default, a player is considered to be at 
+//					completion state 0, when the quest is unassigned. The quest will not be displayed in the journal
+//					unless the player has a valid ID for the quest. 
+//
+//			"Description"	This is what will be displayed as the journal entry for this quest
+//					LOCALIZE THIS FIELD
+//
+//			"Type"		This controls the font, colors, etc, for the quest. MUST be "success, failure, incomplete"
+//
+//			"AwardXP"	This is how many experience points to award to a character when they reach this quest 
+//					completion level. defaults to 0.
+//
+//			"AwardMoney"	This is how much money to award to a character when they reach this quest completion 
+//					level. defaults to 0.
+//
+//			"Event"		This is script data, such as a flag assignment or a function call, that will be passed to 
+//					the script interpreter. by default, there is no event script. 
+//			
+//		}
+//
+//
+//	}
+
+	Quest
+	{
+		"Title"		"Chudila"
+		"DisplayName"	"Chudila"
+
+		CompletionState
+		{
+			"ID"		"1" // Wong Ho	121
+			"Description"	"Wong Ho's daughter Kiki has been kidnapped and is being held in the Lotus Blossom. If you rescue her, Wong Ho will help you in any way he can."
+			"Type"		"incomplete"
+		}
+
+		CompletionState
+		{
+			"ID"		"2" // Kiki 51, 61
+			"Description"	"You have rescued Kiki, though you feel like killing her instead. You should go back to Wong Ho and collect on his offer of help."
+			"Type"		"incomplete"
+			"AwardXP"	"Kiki01"
+		}
+
+		CompletionState
+		{
+			"ID"		"3" // Wong Ho	171
+			"Description"	"You have rescued Kiki and returned to Wong Ho to collect on his offer of help."
+			"Type"		"success"
+			"AwardXP"	"Kiki02"
+		}
+	}
+	
+}

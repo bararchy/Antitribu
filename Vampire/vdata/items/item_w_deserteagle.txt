@@ -1,0 +1,281 @@
+// Pistol
+WeaponData
+{
+	"printname"	"Beretta 92FS"
+	"description"	"The Beretta 92 (also Beretta 92F, FS, M9) is a series of semi-automatic pistols designed and manufactured by Beretta of Italy. The model 92 was designed in 1972 and production of many variants in different calibers continues today. The United States armed forces replaced the M1911 .45 ACP pistol in 1985 with the M9. Although only 5000 copies of the original design were manufactured from 1975 to 1976, the design is currently produced in four different configurations (FS, G, D and DS) and four calibers."
+
+	"viewmodel"	"models/weapons/arsenal_mod/beretta/view/v_beretta.mdl"
+	"playermodel"	"models/weapons/arsenal_mod/beretta/ground/g_beretta.mdl"
+	"wieldmodel_f"	"models/weapons/arsenal_mod/beretta/wield/w_f_beretta.mdl"
+	"wieldmodel_m"	"models/weapons/arsenal_mod/beretta/wield/w_m_beretta.mdl"
+	"infomodel"	"models/weapons/arsenal_mod/beretta/info/i_beretta.mdl"
+
+	"origin_x"	"6"
+	"origin_y"	"6"
+	"origin_z"	"68"
+
+	"anim_prefix"	"glock"
+
+	"activation0"		"Single"
+	"activation1"		"error"
+	"jammed0"		"Jammed"
+	"jammed1"		"Jammed"
+	"bucket"		"1"
+	"bucket_position"	"2"
+
+	"camera_class"		"ranged"
+	"weight"		"3"
+	"item_flags"		"0"
+	"item_type"		"weapon_firearm"
+	"sound_group"		"DesertEagle"
+	"uses_accuracycursors"	"1"
+	"impact_snd_group"	"bullet"
+
+	"item_worth"		"141"
+
+	"impact_force"		"1000"
+	"knockback_chance"	"1.0"
+
+	"projectile_velocity"	"2500"
+	"projectile_sticks"	"0"
+	"can_stakedmg"		"1"
+	//"knowledge_min"		"4"
+
+	SoundData
+	{
+		"pickup"
+		{
+			"sound1"	"Weapons/arsenal_mod/Ranged/beretta/beretta_select.wav"
+		}
+	}
+
+//Weapon Ammo
+	Magazine
+	{
+		"ammoprintname"		"9x19mm parabellum"
+		"ammodescription"	"9x19 mm Parabellum - pistol unitary cartridge, developed in 1902 by Austrian gun maker George Luger pistol under the same name 'Luger Parabellum'. Also known as 9x19 mm Luger.
+					Used to Beretta 92, Tec-9 and H&k mp5k
+					Specifications:
+					Bullet weight: 115-146 gr
+					Velocity: 300-580 m/s
+					Energy: 380-700 J"
+
+		"ammoinfomodel"		"models/weapons/arsenal_mod/ammo/beretta/i_beretta_ammo.mdl"
+
+		"Size"			"15"
+		"Default_Size"		"12"
+		"Dropped_Ammo"		"10"
+		"Type"			"DesertEagle_Round"
+		"ReloadTime"		"3.5"
+		"ammo_worth"		"7.5"	
+		
+		SoundData
+		{
+			"reload"
+			{
+				"sound1"	"Weapons/arsenal_mod/Ranged/beretta/beretta_reload.wav"
+			}
+
+			"reload_npc"
+			{
+				"sound1"	"Weapons/arsenal_mod/Ranged/beretta/beretta_reload.wav"
+			}
+		}
+	}
+
+//Primary Attack
+	Activation
+	{
+		"SkillRequirement"	"4"				
+		"BaseLethality"		"9"		
+		"Dmg"			"3 Bashing Ranged_Combat DMG_BULLET"
+		
+		"Attack_Rate"			"0.35"	
+		"NPC_Attack_Rate_Min"		"0.65"	
+		"NPC_Attack_Rate_Max"		"1.05"		
+		"NPC_Attack_Rate_Base_Range"	"60"	
+							
+		"Tag"				"Primary"
+		"Type"				"Attack"
+		"Ammo_Type"			"DesertEagle_Round"
+		"Ammo_Cost"			"1"
+		"Botch_Table"			"Pistols"
+		"Range"				"40"
+//		"allow_autofire"		"1"
+
+	// SKS_RANGED
+		"KickPitchMax"		"-1.50"		
+		"KickPitchMin"		"-1.75"		
+		"KickYawMax"		"-0.75"		
+		"KickYawMin"		"-0.0"		
+		"KickTime"		"0.02"		
+
+		"CrosshairMinSize"	"8"	// smallest crosshair size for this activation [0-99]
+		"CrosshairFireSize"	"32"	// MAXIMUM size (Firearms 1) of the crosshair when the gun is fired [0-99] scales to Min as player's firearms increases
+		"CrosshairFireSizeMin"	"32"	// MIN size (Firearms 10) of the crosshair when the gun is fired [0-99]
+		"CrosshairWalkSizeMin"	"10"	// min size of the crosshair when the player is walking [0-99]
+		"CrosshairWalkSizeMax"	"10"	// max size of the crosshair when the player is walking [0-99]
+		"CrosshairRunSizeMin"	"30"	// min size of the crosshair when the player is running [0-99]
+		"CrosshairRunSizeMax"	"35"	// max size of the crosshair when the player is running [0-99]
+
+		"CrosshairIncSpeedMin"	"20"	// min speed(10 Firearm Feat) at which to increase bloom -low # slower
+		"CrosshairIncSpeedMax"	"20"	// max speed(1 Firearm Feat) at which to increase bloom -high # faster
+		"CrosshairDecSpeedMin"	"32"	// min speed(1 Firearm Feat) at which to decrease bloom -low # slower
+		"CrosshairDecSpeedMax"	"32"	// max speed(10 Firearm Feat) at which to decrease bloom -high # faster
+
+		"CrosshairFirePercent"	"0.15"
+
+		"SpreadAngle"		"3.0"
+		"CriminalLevel"		"3"
+		"Accuracy"		"6"
+
+		"MajorKnockbackDist"	"100.0"	
+		"MinorKnockbackDist"	"35.0"
+
+		SoundData
+		{
+			"empty"
+			{
+				"sound1"	"Weapons/arsenal_mod/Ranged/beretta/beretta_empty.wav"
+			}
+
+			"attack"
+			{
+				//"sound1"	"Weapons/arsenal_mod/Ranged/beretta/beretta_attack.wav"
+				"sound1"	"Weapons/arsenal_mod/Ranged/beretta/Beretta92_Fire1.wav"
+				"sound2"	"Weapons/arsenal_mod/Ranged/beretta/Beretta92_Fire2.wav"
+				"sound3"	"Weapons/arsenal_mod/Ranged/beretta/Beretta92_Fire3.wav"
+			}
+
+			"attack_npc"
+			{
+				"sound1"	"Weapons/arsenal_mod/Ranged/beretta/beretta_attack.wav"
+			}
+
+			"deploy"
+			{
+				"sound1"	"Weapons/arsenal_mod/Ranged/beretta/beretta_select.wav"
+			}
+
+			"put_away"
+			{
+				"sound1"	"Weapons/arsenal_mod/Ranged/beretta/beretta_deselect.wav"
+			}			
+			
+			"fidget"
+			{
+				"sound1"	"Weapons/Ranged/Fidget.wav"
+			}
+		}
+
+		Tables
+		{
+			Table
+			{
+				"Name"          "WeaponRanges"
+				"InternalName"  "WeaponRanges"
+
+				"Clamping"      "1"
+
+			// point blank 0-80, close 80-110, short/medium 110-220,
+			// meduim 220-370, long 370-650, great 650+
+
+				"0"             "0"         // 5 (bonus)
+				"1"             "0"         // 4 (bonus)
+				"2"             "0"         // 3 (bonus)
+				"3"             "80"        // 2 (bonus)
+				"4"             "80"        // 1 (bonus)
+				"5"             "30000"     // 0 (neutral)
+				"6"             "30000"     //-1 (penalty)
+				"7"             "30000"     //-2 (penalty)
+				"8"             "30000"     //-3 (penalty)
+				"9"             "30000"     //-4 (penalty)
+			}
+
+			Table
+			{
+				"Name"          "GrossPointBlank"
+				"InternalName"  "GrossPointBlank"
+
+				"Clamping"      "1"
+
+			// percentage from 1-12 feet out
+
+				"0"             "100"
+				"1"             "90"
+				"2"             "80"
+				"3"             "70"
+				"4"             "60"
+				"5"             "50"
+				"6"             "40"
+				"7"             "30"
+				"8"             "20"
+				"9"             "10"
+			}
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/Weapons_Ranged/beretta_SEL"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/Weapons_Ranged/beretta"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"ammo"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/weapons_ranged/ammo/glock_ammo"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"ammo2"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/weapons_ranged/ammo/glock_ammo_SEL"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+	// Accuracy Crosshairs
+		"Acc_Crosshair00"		"hud/Crosshairs/Crosshair_01"
+		"Acc_Crosshair01"		"hud/Crosshairs/Crosshair_02"
+		"Acc_Crosshair02"		"hud/Crosshairs/Crosshair_03"
+		"Acc_Crosshair03"		"hud/Crosshairs/Crosshair_04"
+		"Acc_Crosshair04"		"hud/Crosshairs/Crosshair_05"
+		"Acc_Crosshair05"		"hud/Crosshairs/Crosshair_06"
+		"Acc_Crosshair06"		"hud/Crosshairs/Crosshair_07"
+		"Acc_Crosshair07"		"hud/Crosshairs/Crosshair_08"
+		"Acc_Crosshair08"		"hud/Crosshairs/Crosshair_09"
+		"Acc_Crosshair09"		"hud/Crosshairs/Crosshair_10"
+		"Interactive_Crosshair"		"hud/Crosshairs/Crosshair_Interactive"
+	}
+}

@@ -1,0 +1,28 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Potence:
+Clan Brujah are feared as the indomitable warriors of vampire society. The Potence Discipline represents the supernatural strength that is a hallmark of Clan Brujah.
+Potence costs 1 blood point to activate.
+While Potence is activated, the Brujah gains one point of Strength for each level of Potence they have achieved. This effect stacks on top of the bonus gained from Blood Buff. Strength gained from Potence is overwhelming and cannot be defended against.
+To use Potence, scroll to it using the ] and [ keys (by default) or with the mouse wheel, then use the Power key (default right-click) to activate it.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

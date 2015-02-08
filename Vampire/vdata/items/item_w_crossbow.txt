@@ -1,0 +1,280 @@
+// automat
+WeaponData
+{
+	"printname"	"AK-47"
+	"description"	"The AK-47 is a selective-fire, gas-operated 7.62x39mm assault rifle, first developed in the Soviet Union by Mikhail Kalashnikov. Even after six decades the model and its variants remain the most widely used and popular assault rifles in the world because of its durability, low production cost, and ease of use. It has been manufactured in many countries and has seen service with regular armed forces as well as irregular, revolutionary and terrorist organizations worldwide. The AK-47 was the basis for developing many other types of individual and crew-served firearms."
+
+	"viewmodel"	"models/weapons/arsenal_mod/ak47/view/v_ak.mdl"
+	"playermodel"	"models/weapons/arsenal_mod/ak47/world/w_ak.mdl"
+	"wieldmodel_f"	"models/weapons/arsenal_mod/ak47/wield/w_f_ak.mdl"
+	"wieldmodel_m"	"models/weapons/arsenal_mod/ak47/wield/w_m_ak.mdl"
+	"infomodel"	"models/weapons/arsenal_mod/ak47/info/i_ak.mdl"
+
+	"origin_x"	"0"
+	"origin_y"	"-2"
+	"origin_z"	"71.5"
+
+	"anim_prefix"		"m37"
+	"impact_snd_group"	"bullet"
+
+	"activation0"		"Auto"
+	"activation1"		"Error"
+	"jammed0"		"Jammed"
+	"jammed1"		"Jammed"
+	"bucket"		"1"
+	"bucket_position"	"8"
+
+	"camera_class"		"ranged"
+	"weight"		"3"
+	"item_flags"		"0"
+	"item_type"		"weapon_firearm"
+	"reload_single"		"0"	
+	"impact_force"		"3000"	
+	"sound_group"		"Assault_Rifle"
+	"uses_accuracycursors"	"1"
+	
+	"projectile_velocity"	"1850"
+	"projectile_sticks"	"0"
+	"can_stakedmg"		"1"
+
+	"muzzleflash_particle" 		"w_ak_emitter"
+	"muzzlesmoke_particle" 		"w_ak_emitter-smoke"
+	"viewmuzzlesmoke_particle" 	"w_ak_view_emitter-smoke"
+
+	"item_worth"		"221"
+	//"knowledge_min"		"6"	
+
+	SoundData
+	{
+		"pickup"
+		{
+			"sound1"	"Weapons\arsenal_mod\Ranged\ak47\ak47_select.wav"
+		}
+	}
+
+//Weapon Ammo
+	Magazine
+	{
+		"ammoprintname"		".30 Short Russian"
+		"ammodescription"	"7.62x39 mm M43, to Soviet terminology, this cartridge is referred to as «7.62-mm cartridge sample of 1943»
+					Specifications:
+					Bullet weight: 123-154 gr
+					Velocity: 640-805 m/s
+					Energy: 2056-2460 J"
+		"ammo_worth"		"12" 
+		"ammoinfomodel"		"models/weapons/arsenal_mod/ammo/ak47/i_ak_ammo.mdl"
+
+		"Size"			"30"
+		"Default_Size"		"25"
+		"Dropped_Ammo"		"20"
+		"Type"			"AnacondaRound"
+		"ReloadTime"		"1.0"
+		
+		SoundData
+		{
+			"reload"
+			{
+				"sound1"	"Weapons/arsenal_mod/Ranged/ak47/ak47_reload.wav"
+			}
+
+			"reload_npc"
+			{
+				"sound1"	"Weapons/arsenal_mod/Ranged/ak47/ak47_reload.wav"
+			}
+		}
+	}
+
+//Primary Attack
+	Activation
+	{
+		"Tag"			"Primary"
+		"Type"			"Attack"
+		"Ammo_Type"		"AnacondaRound"
+		"Ammo_Cost"		"1"
+		"Ammo_Fired"		"1"
+		"allow_autofire"	"1"
+
+		"SkillRequirement"	"8"				
+		"BaseLethality"		"16"		
+		"Dmg"			"3 Lethal Ranged_Combat DMG_BULLET"
+
+		"Botch_Table"		"Bolt_Rifles"
+		"Attack_Rate"		"0.1"
+		"NPC_Attack_Rate_Min"		"0.35"		
+		"NPC_Attack_Rate_Max"		"0.85"		 
+		"NPC_Attack_Rate_Base_Range"	"90"	
+							
+		"Range"			"100"	
+
+	// SKS_RANGED
+		"KickPitchMin"		"-1.0"
+		"KickPitchMax"		"-1.0"
+		"KickYawMin"		"-1.0"
+		"KickYawMax"		"-1.0"
+		"KickTime"		"0.02"		
+
+		"CrosshairMinSize"	"16"	// smallest crosshair size for this activation [0-99]
+		"CrosshairFireSize"	"65"	// MAXIMUM size (Firearms 1) of the crosshair when the gun is fired [0-99] scales to Min as player's firearms increases
+		"CrosshairFireSizeMin"	"25"	// MIN size (Firearms 10) of the crosshair when the gun is fired [0-99]
+		"CrosshairWalkSizeMin"	"23"	// min size of the crosshair when the player is walking [0-99]
+		"CrosshairWalkSizeMax"	"45"	// max size of the crosshair when the player is walking [0-99]
+		"CrosshairRunSizeMin"	"25"	// min size of the crosshair when the player is running [0-99]
+		"CrosshairRunSizeMax"	"55"	// max size of the crosshair when the player is running [0-99]
+
+		"CrosshairIncSpeedMin"	"15"	//min speed(10 Firearm Feat) at which to increase bloom -low # slower
+		"CrosshairIncSpeedMax"	"15"	//max speed(1 Firearm Feat) at which to increase bloom -high # faster
+		"CrosshairDecSpeedMin"	"30"	//min speed(1 Firearm Feat) at which to decrease bloom -low # slower
+		"CrosshairDecSpeedMax"	"30"	//max speed(10 Firearm Feat) at which to decrease bloom -high # faster
+
+		"CrosshairFirePercent"	"0.05"
+
+		"SpreadAngle"		"2.0"
+		"CriminalLevel"		"4"
+		"Accuracy"		"1"
+		"BurstMin"		"8"
+		"BurstMax"		"12"
+
+		SoundData
+		{
+			"empty"
+			{
+				"sound1"	"Weapons/arsenal_mod/Ranged/ak47/ak47_empty.wav"
+			}
+
+			"attack"
+			{
+				"sound1"	"Weapons/arsenal_mod/Ranged/ak47/ak47_attack.wav"	
+			}
+
+			"attack_npc"
+			{
+				"sound1"	"Weapons/arsenal_mod/Ranged/ak47/ak47_attack.wav"	
+			}
+
+			"deploy"
+			{
+				"sound1"	"Weapons\arsenal_mod\Ranged\ak47\ak47_select.wav"
+			}
+
+			"put_away"
+			{
+				"sound1"	"Weapons\arsenal_mod\Ranged\ak47\ak47_deselect.wav"
+			}			
+			
+			"fidget"
+			{
+				"sound1"	"Weapons\arsenal_mod\Ranged\ak47\ak47_fidget.wav"
+			}
+		}
+
+		Tables
+		{
+			Table
+			{
+				"Name"          "WeaponRanges"
+				"InternalName"  "WeaponRanges"
+
+				"Clamping"      "1"
+
+			// point blank 0-80, close 80-110, short/medium 110-220,
+			// meduim 220-370, long 370-650, great 650+
+
+				"0"             "0"         // 5 (bonus)
+				"1"             "0"         // 4 (bonus)
+				"2"             "0"         // 3 (bonus)
+				"3"             "80"        // 2 (bonus)
+				"4"             "120"       // 1 (bonus)
+				"5"             "30000"     // 0 (neutral)
+				"6"             "30000"     //-1 (penalty)
+				"7"             "30000"     //-2 (penalty)
+				"8"             "30000"     //-3 (penalty)
+				"9"             "30000"     //-4 (penalty)
+			}
+
+			Table
+			{
+				"Name"          "GrossPointBlank"
+				"InternalName"  "GrossPointBlank"
+
+				"Clamping"      "1"
+
+			// percentage from 1-12 feet out
+
+				"0"             "90"
+				"1"             "80"
+				"2"             "70"
+				"3"             "60"
+				"4"             "50"
+				"5"             "40"
+				"6"             "30"
+				"7"             "20"
+				"8"             "10"
+				"9"             "5"
+			}
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/Weapons_Ranged/ak_SEL"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/Weapons_Ranged/ak"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"ammo"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/Weapons_Ranged/ammo/ak_ammo"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"ammo2"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/Weapons_Ranged/ammo/ak_ammo_SEL"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+	// Accuracy Crosshairs
+		"Acc_Crosshair00"		"hud/Crosshairs/Crosshair_01"
+		"Acc_Crosshair01"		"hud/Crosshairs/Crosshair_02"
+		"Acc_Crosshair02"		"hud/Crosshairs/Crosshair_03"
+		"Acc_Crosshair03"		"hud/Crosshairs/Crosshair_04"
+		"Acc_Crosshair04"		"hud/Crosshairs/Crosshair_05"
+		"Acc_Crosshair05"		"hud/Crosshairs/Crosshair_06"
+		"Acc_Crosshair06"		"hud/Crosshairs/Crosshair_07"
+		"Acc_Crosshair07"		"hud/Crosshairs/Crosshair_08"
+		"Acc_Crosshair08"		"hud/Crosshairs/Crosshair_09"
+		"Acc_Crosshair09"		"hud/Crosshairs/Crosshair_10"
+		"Interactive_Crosshair"		"hud/Crosshairs/Crosshair_Interactive"
+	}
+}

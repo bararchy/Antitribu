@@ -1,0 +1,29 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Use the Use key (default E) to operate computers.
+Computers can be used for several purposes: accessing private information, turning on and off security cameras, and opening magnetically sealed doors.
+Most computers are password-protected. It is often possible to persuade people into giving you the password, to find a carelessly placed password, or to simply hack the password.
+Your hacking skill is governed by your Hacking feat. Each computer has a difficulty rating that represents its level of security. If your Hacking feat is greater than the difficulty rating, you have good odds of successfully hacking the computer.
+To attempt to hack a password, hit CTRL-C at the password prompt.
+Left-click to continue."
+//RM: removed "If you fail, however, the difficulty rating will increase." from end of line 17, as this is untrue.
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

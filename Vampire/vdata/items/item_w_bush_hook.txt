@@ -1,0 +1,143 @@
+// two-hand long cutter weapon - pike
+WeaponData
+{
+	"printname"	"Pike"
+	"description"	"Pike - melee piercing-slashing weapon, kind of a long spear. Consists of shaft length of 3-5m and trihedral or tetrahedral metal tip length of 12-57cm, total weight: 3-4kg. Pike is designed to protect the infantry from cavalry attacks. Had spread in the XV-XIX century. 
+
+				following differences between the pikes from spears: 
+
+				-pike considerably longer and therefore heavier, which is why it is necessary to keep two hands 
+				-tip of the pikes is designed to puncture armor and has no broadleaf but narrow faceted shape 
+				-pike is not throwing weapon (exception - boarding pike)."
+
+	"viewmodel"	"models/weapons/w_null.mdl"
+	"playermodel"	"models/weapons/arsenal_mod/pike/world/g_pike.mdl"
+	"wieldmodel_f"	"models/weapons/arsenal_mod/pike/wield/w_f_pike.mdl"
+	"wieldmodel_m"	"models/weapons/arsenal_mod/pike/wield/w_m_pike.mdl"
+	"infomodel"	"models/weapons/arsenal_mod/pike/info/i_pike.mdl"
+
+	"anim_prefix"		"bushhook"
+	"impact_snd_group"	"metal"
+
+	"bucket"		"0"
+	"bucket_position"	"8"
+	"camera_class"		"melee"
+
+	"weight"		"2"
+	"item_flags"		"0"
+	"item_type"		"weapon_melee"
+	"sound_group"		"Bush_Hook"
+	"can_stakedmg"		"1"
+
+	"knockback_chance"	"20.0"
+	"item_worth"		"324"
+	//"wield_effect"		"weapon (halberd)"
+	//"knowledge_min"		"9"
+
+// Sounds...
+	SoundData
+	{
+		"swish"
+		{
+			"sound1"	"Weapons/arsenal_mod/melee/pike/pike_attack1.wav"
+			"sound2"	"Weapons/arsenal_mod/melee/pike/pike_attack2.wav"
+			"sound3"	"Weapons/arsenal_mod/melee/pike/pike_attack3.wav"
+			"sound4"	"Weapons/arsenal_mod/melee/pike/pike_attack4.wav"
+		}
+
+		"pickup"
+		{
+			"sound1"	"Weapons/arsenal_mod/melee/pike/pike_select.wav"	
+		}
+
+		"stealth_kill_success"
+		{
+			"sound1"	"Weapons/arsenal_mod/melee/pike/Stealth_Bush_Hook.wav"
+		}
+
+		"stealth_kill_failure"
+		{
+			"sound1"	"Weapons/Melee/Fists/Stealth_Kill_Failure.wav"
+		}
+
+	}
+
+	Activation
+	{
+		"Tag"			"Primary"
+		"Type"			"Attack"
+		"Ammo_Type"		"None"
+		"Ammo_Cost"		"0"
+
+		"SkillRequirement"	"9"		
+		"BaseLethality"		"18"		
+		"Dmg"			"4 Lethal Close_Combat_Melee DMG_SLASH"
+
+		"Botch_Table"		"Melee_Weapons"
+		"Attack_Rate"		"0"
+		"Range"			"0"
+		"CriminalLevel"		"4"
+
+	// Sounds...
+		SoundData
+		{
+			"attack"
+			{
+				"sound1"	"Weapons/arsenal_mod/melee/pike/pike_attack1.wav"
+				"sound2"	"Weapons/arsenal_mod/melee/pike/pike_attack2.wav"
+				"sound3"	"Weapons/arsenal_mod/melee/pike/pike_attack3.wav"
+				"sound4"	"Weapons/arsenal_mod/melee/pike/pike_attack4.wav"
+			}
+
+			"attack_npc"
+			{
+				"sound1"	"Weapons/arsenal_mod/melee/pike/pike_attack1.wav"
+				"sound2"	"Weapons/arsenal_mod/melee/pike/pike_attack2.wav"
+				"sound3"	"Weapons/arsenal_mod/melee/pike/pike_attack3.wav"
+				"sound4"	"Weapons/arsenal_mod/melee/pike/pike_attack4.wav"
+			}
+
+			"deploy"
+			{
+				"sound1"	"Weapons/arsenal_mod/melee/pike/pike_select.wav"	
+			}
+
+			"put_away"
+			{
+				"sound1"	"Weapons/arsenal_mod/melee/pike/pike_deselect.wav"	
+			}
+
+			"fidget"
+			{
+				"sound1"	"Weapons/Melee/Fidget.wav"
+			}
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/Weapons_Melee/pike_SEL"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/Weapons_Melee/pike"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+	}
+}

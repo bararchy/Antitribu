@@ -1,0 +1,53 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/general"
+//		"Tiled"		"0"
+		"XPos"		"1"
+		"YPos"		"1"
+		"Wide"		"1024"
+		"Tall"		"1024"
+	}
+
+	Label
+	{
+		"Text"				"empty"
+		"Alignment"			"center"
+		"Font"				"Newsprint"
+		"XPos"				"444"
+		"YPos"				"187"
+		"Wide"				"128"
+		"Tall"				"128"
+		"TextRGBA"			"[0,0,0,136]"
+		"BackgroundRGBA"		"[8,8,8,1]"
+		"Image"				"hud\Context_Icons\stealth_succeed"	// changed by wesp
+	}
+
+
+	TextBlock
+	{
+		"Text"		"When you are in position to perform a stealth kill, you will see this Use icon. Stealth kills have the advantage of being completely silent.
+To perform a stealth kill, equip your fists or a melee weapon, crouch and sneak up behind your victim until you see the stealth kill icon, then press the Use key (default E)."
+		"Font"		"ParagraphText"
+		"XPos"		"324"
+		"YPos"		"332"
+		"Wide"		"375"
+		"Tall"		"223"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+
+	TextBlock
+	{
+		"Text"		"left-click to continue"
+		"XPos"		"410"
+		"YPos"		"572"
+		"Wide"		"205"
+		"Tall"		"25"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+
+		"Font"		"Trebuchet"
+	}
+}

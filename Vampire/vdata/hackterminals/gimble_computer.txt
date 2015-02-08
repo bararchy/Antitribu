@@ -1,0 +1,53 @@
+TerminalDefinition
+{
+	"screen saver"		"Stan Gimble"		 
+	"brackets"		""
+
+	"email_password"	"limb"
+	"email_username"	"Stan"
+	"Difficulty"		"5"			
+
+	LogonScreen	
+	{
+		"line0"		"Stan Gimble"  
+		"line1"		"Tzimisce ghoul net"
+	}
+
+	SubDir
+	{
+		"name"			"to mistress"
+		"description"		"to mistress"
+
+		Function
+		{
+			"name"		"response"
+			"description"	"response"
+			"runtext"	"My mistress Anastasia, I got that scroll containing the knowledge of ancient koldunic sorcery of our great Tzimisce clan.
+I keep it in my instrumentari room. It is ripe with magical wards. From what I can gleam, only someone who has the blood of our clan but has not mastered the fleshy arts can read it.
+Your eternal servant Stan"
+			"runscript"	"OldClanLookPC()"
+		}
+	}
+
+	SubDir
+	{
+		"name"			"tool room"
+		"password"		"bigtool"
+		"description"		"tool room"
+
+		Function
+		{
+			"name"		"open door"
+			"description"	"open door"
+			"runtext"	"door in instrumentari room is opened"
+			"runscript"	"OldClanOpen()"
+		}
+	}
+
+	Email
+	{
+		"subject"	"components"
+		"sender"	"Anastasia"	
+		"body"		"Andrei is requesting more fresh bodies for use in the Blood Brothers creation rituals."
+	}
+}

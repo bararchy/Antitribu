@@ -1,0 +1,48 @@
+CameraShotTable
+{
+	DialogMediumShot
+	{
+
+
+		End
+		{
+			"Position"		"Player"
+			"AttachPos"		"Center"
+			"AttachType"		"Follow"
+			"OffsetOrigin"		"[0, 10, 15]"	 
+		}
+
+		Target	
+		{
+			Point1
+			{
+				"Position"	"DialogTarget"
+				"AttachPos"	"Bone: Bip01 Head"
+				"AttachType"	"FollowNoAngles"
+				"OffsetOrigin"	"[0,0,10]"
+			}
+
+			Point2
+			{
+				"Position"	"DialogTarget"
+				"AttachPos"	"Bone: Bip01 Spine"
+				"AttachType"	"Follow"
+			}
+
+		}
+
+		CameraConstraints
+		{
+			"MoveAccel"		"200"
+			"MoveSpeed"		"500"	
+			"TurnAccel"		"45"
+			"MaxTurnRate"		"[90, 90, 90]"	
+			"DistanceTolerance"	"5"
+			"AngularTolerance"	"[2, 2, 2]"	
+			"FieldOfView"		"75"
+			"DialogPOV"		"0"
+			"AutoPositionFromTarget" "1"
+		}
+
+	}
+}

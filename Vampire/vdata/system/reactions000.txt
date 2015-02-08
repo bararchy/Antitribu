@@ -1,0 +1,103 @@
+// Primary Reactions Doc
+
+ReactionsData
+{
+	ReactionCategory
+	{
+		"InternalName"	"History"
+		"Name"		"History"
+
+		ReactionGroup
+		{
+			"InternalName"	"Reaction (Megalomaniac)"
+
+		// Double NPC reactions
+			Reaction
+			{
+//				"Targets"		"NPCS"
+				"Targets"		"ALL"
+				"WhoModifies"		"Others"
+				"Modifier"		"*2"
+			}
+		}
+
+		ReactionGroup
+		{
+			"InternalName"	"Reaction (Close to the Beast)"
+
+			Reaction
+			{
+				"Targets"		"Kindred(!Gangrel)"
+				"WhoModifies"		"Others"
+				"Modifier"		"-5"
+			}
+
+			Reaction
+			{
+				"Targets"		"Kine()"
+				"WhoModifies"		"Others"
+				"Modifier"		"-20"
+			}
+		}
+
+		ReactionGroup
+		{
+			"InternalName"	"Reaction (Occult Nut)"
+
+			Reaction
+			{
+				"Targets"		"Kindred()"
+				"WhoModifies"		"Others"
+				"Modifier"		"-5"			
+			}
+		}
+	}
+
+	ReactionCategory
+	{
+		"InternalName"	"Discipline"
+		"Name"		"Discipline"
+
+		ReactionGroup
+		{
+			"InternalName"	"Reaction (Dementation-Passion)"
+
+			Reaction
+			{
+				"Targets"		"Kindred()"
+				"WhoModifies"		"Others"
+				"Modifier"		"Reaction + ((Reaction - 50)*2)"			// NOTE: TEMP #!!!
+			}
+		}
+
+		ReactionGroup
+		{
+			"InternalName"	"Reaction (Presence-Awe)"
+
+			Reaction
+			{
+//				"Targets"		"FriendlyNPCS()"
+				"WhoModifies"		"Others"
+				"Modifier"		"+20"
+			}
+		}
+
+		ReactionGroup
+		{
+			"InternalName"	"Reaction (Presence-General)"
+
+			Reaction
+			{
+				"Targets"		"ALL"
+				"WhoModifies"		"Others"
+				"Modifier"		"+10"
+			}
+		}
+	}
+
+//	ReactionCategory
+//	{
+//		"InternalName"	"Reputation"
+//		"Name"		"Reputation"
+//	}
+}

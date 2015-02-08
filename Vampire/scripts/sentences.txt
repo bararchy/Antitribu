@@ -1,0 +1,74 @@
+// SPEECH SYSTEM SENTENCES.
+// NOTE:  Do not use TABS.  Separate sentence-names from wave definitions with single spaces only.
+// EXTRA SPECIAL NOTE AT NO EXTRA CHARGE:  Limit names to 23 characters or you will get an error!
+
+
+
+
+// ****************************************************************
+// ****************************************************************
+// ***  BEGIN SPIDER CHICK SOUNDS
+// **
+
+// AGGRO         - Played when she sees player and when she finishes drop down from vent
+SPI_AGGRO0 character/monster/spiderchick/Scream.wav {Len 0.00}
+
+// HIT           - Played when she does a regular attack or fakes throwing a body
+//                 or does a reach around attack
+SPI_ATTACK_HIT0 character/monster/spiderchick/Attack1.wav {Len 0.00}
+SPI_ATTACK_HIT1 character/monster/spiderchick/Attack2.wav {Len 0.00}
+
+// HIT_MASSIVE   - Played when she does a double swing attack or throws a body
+SPI_ATTACK_HIT_MASSIVE0 character/monster/spiderchick/Massive_Attack2.wav {Len 0.00}
+
+// DIES          - Played when she dies
+SPI_DIES0 character/monster/spiderchick/Death1.wav {Len 1.50}
+SPI_DIES1 character/monster/spiderchick/Death1.wav {Len 1.50}
+
+// FIDGET        - Played when she plays fidget animation or randomly when running
+SPI_FIDGET0 character/monster/spiderchick/Fidget1.wav {Len 0.00}
+
+//SPI_FOOTSTEP0 character/monster/spiderchick/spi_footstep_indiv_1.wav {Len 0.00}
+//SPI_FOOTSTEP1 character/monster/spiderchick/spi_footstep_indiv_2.wav {Len 0.00}
+//SPI_FOOTSTEP2 character/monster/spiderchick/spi_footstep_indiv_3.wav {Len 0.00}
+//SPI_FOOTSTEP3 character/monster/spiderchick/spi_footstep_indiv_4.wav {Len 0.00}
+//SPI_FOOTSTEP4 character/monster/spiderchick/spi_footstep_indiv_5.wav {Len 0.00}
+//SPI_FOOTSTEP5 character/monster/spiderchick/spi_footstep_indiv_6.wav {Len 0.00}
+
+// IDLE          - Played when she does idle animation
+SPI_IDLE0 character/monster/spiderchick/Idle1.wav {Len 0.00}
+
+// JUMP_ATTACK   - Played when she does a jump attack
+SPI_JUMP_ATTACK0 character/monster/spiderchick/Jump_Attack1.wav {Len 0.00}
+SPI_JUMP_ATTACK1 character/monster/spiderchick/Jump_Attack2.wav {Len 0.00}
+
+// LAND_HARD     - Will be played when she lands from a drop (if that happens)
+SPI_LAND_HARD0 character/monster/spiderchick/Land_Hard1.wav {Len 0.00}
+SPI_LAND_HARD1 character/monster/spiderchick/Land_Hard2.wav {Len 0.00}
+
+// RUNNING       - Played while she is running
+SPI_RUNNING0 character/monster/spiderchick/Running1.wav {Len 0.00}
+
+// TAKE_DAMAGE   - Played when she takes damage
+SPI_TAKE_DAMAGE0 character/monster/spiderchick/Damage1.wav {Len 0.00}
+SPI_TAKE_DAMAGE1 character/monster/spiderchick/Damage2.wav {Len 0.00}
+
+// **
+// ***  END   SPIDER CHICK SOUNDS
+// ****************************************************************
+// ****************************************************************
+
+
+// ****************************************************************
+// ****************************************************************
+// ***  BEGIN MING XIAO SOUNDS
+// **
+
+MX_CHARGE_ROAR0 character/monster/ming xiao/exert_heavy_1.wav {Len 0.00}
+MX_CHARGE_ROAR1 character/monster/ming xiao/exert_heavy_2.wav {Len 0.00}
+MX_CHARGE_ROAR2 character/monster/ming xiao/exert_heavy_3.wav {Len 0.00}
+
+// **
+// ***  END   MING XIAO SOUNDS
+// ****************************************************************
+// ****************************************************************

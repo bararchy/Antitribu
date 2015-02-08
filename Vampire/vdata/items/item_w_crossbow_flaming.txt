@@ -1,0 +1,292 @@
+// sawed off flaming Shotgun
+WeaponData
+{
+	"printname"	"Sawed off \"Dragon Breath\""
+	"description"	"Dragons Breath - is zirconium-based pyrotechnic shotgun shells. While it has few tactical uses, the visual effect it produces is impressive, similar to that of a short-ranged flamethrower. The pyrotechnic shell is expensive compared to other shells, costing around 5 US dollars per shell. Because it is a very low-power round, it cannot be used in an automatic shotgun; it does not produce enough recoil energy to cycle the next shot, causing the firearm to jam. An additional reason for use only in a manually-operated firearm is the fact that the round shoots at least a little flame for 3–5 seconds. This would cause a hazard if a shell still emitting flame were to be ejected from an automatic shotgun."
+
+	"viewmodel"	"models/weapons/arsenal_mod/breath/view/v_sawed_off.mdl"
+	"playermodel"	"models/weapons/arsenal_mod/breath/world/g_sawed_off.mdl"
+	"wieldmodel_f"	"models/weapons/arsenal_mod/breath/wield/w_f_sawed_off.mdl"
+	"wieldmodel_m"	"models/weapons/arsenal_mod/breath/wield/w_m_sawed_off.mdl"
+	"infomodel"	"models/weapons/arsenal_mod/breath/info/i_sawed_off.mdl"
+
+	"origin_x"	"-2"
+	"origin_y"	"5"
+	"origin_z"	"72"
+
+	"anim_prefix"		"m37"
+	"impact_snd_group"	"bullet"
+
+	"activation0"		"Single Pump"
+	"activation1"		"Error"
+	"jammed0"		"Jammed"
+	"jammed1"		"Jammed"
+	"bucket"		"1"
+	"bucket_position"	"8"
+
+	"camera_class"		"ranged"
+	"weight"		"3"
+	"item_flags"		"0"
+	"item_type"		"weapon_firearm"
+	"reload_single"		"0"	
+	"impact_force"		"3000"	
+	"sound_group"		"Shotgun"
+	"uses_accuracycursors"	"1"
+	
+	"projectile_particles"		"w_sawed_off_projectile_emitter"
+
+	"projectile_model"		"models/weapons/projectile/bullet01.mdl"	
+	"fires_projectile"		"1"
+	"projectile_sticks"		"0"
+	"can_stakedmg"			"0"
+	
+	"muzzleflash_particle" 		"w_sawed_db_emitter"
+	"muzzlesmoke_particle" 		"Blank_emitter"
+	"viewmuzzleflash_particle" 	"w_sawed_db_view_emitter"
+	"viewmuzzlesmoke_particle" 	"w_sawed_db_view_emitter-smoke"
+
+	"item_worth"		"188"
+	//"knowledge_min"		"7"
+
+	"projectile_impact_sound" 	"Weapons\arsenal_mod\ranged\dragon_breath\db_impact1.wav"
+
+	
+	SoundData
+	{
+		"pickup"
+		{
+			"sound1"	"Weapons\arsenal_mod\ranged\dragon_breath\db_select.wav"
+		}
+	}
+
+//Weapon Ammo
+	Magazine
+	{
+		"ammoprintname"		"20 Gauge fireball round Dragon's Breath"
+		"ammodescription"	"zirconium-based pyrotechnic shells function as a short-ranged flamethrower, having an incendiary effect on targets for 5 seconds, NOT AVAILABLE IN: CALIFORNIA, IOWA, ILLINOIS, FLORIDA, AND MASSACHUSETTES, SORRY!"
+		"ammo_worth"		"9" 
+		"ammoinfomodel"		"models/weapons/arsenal_mod/ammo/dragon_breath/i_db_ammo.mdl"
+
+		"Size"			"2"
+		"Default_Size"		"2"
+		"Dropped_Ammo"		"2"
+		"Type"			"FlameThrowerRound"
+		"ReloadTime"		"0.05"
+		
+		SoundData
+		{
+			"reload"
+			{
+				"sound1"	"Weapons\arsenal_mod\ranged\dragon_breath\db_reload.wav"
+			}
+
+			"reload_npc"
+			{
+				"sound1"	"Weapons\arsenal_mod\ranged\dragon_breath\db_reload_ai.wav"
+			}
+		}
+	}
+
+//Primary Attack
+	Activation
+	{
+		"Tag"			"Primary"
+		"Type"			"Attack"
+		"Ammo_Type"		"FlameThrowerRound"
+		"Ammo_Cost"		"1"
+		"Ammo_Fired"		"18"
+		"allow_autofire"	"0"
+
+		"SkillRequirement"	"7"				
+		"BaseLethality"		"19"		
+		"Dmg"			"5 Aggravated Ranged_Combat DMG_BUCKSHOT"
+
+		"Botch_Table"			"grenadelauncher"
+		"Attack_Rate"			"0.55"
+		"NPC_Attack_Rate_Min"		"4.5"	
+		"NPC_Attack_Rate_Max"		"6.5"		
+		"NPC_Attack_Rate_Base_Range"	"85"	
+							
+		"Range"			"50"	
+
+	// SKS_RANGED
+		"KickPitchMin"		"-1.0"
+		"KickPitchMax"		"-1.00"
+		"KickYawMin"		"-1.0"
+		"KickYawMax"		"-1.0"
+		"KickTime"		"0.1"
+
+		"CrosshairMinSize"	"40"	
+		"CrosshairFireSize"	"90"		
+		"CrosshairFireSizeMin"	"45"		
+		"CrosshairWalkSizeMin"	"45"		
+		"CrosshairWalkSizeMax"	"90"		
+		"CrosshairRunSizeMin"	"50"		
+		"CrosshairRunSizeMax"	"90"		
+
+		"CrosshairIncSpeedMin"	"28"	
+		"CrosshairIncSpeedMax"	"28"	
+		"CrosshairDecSpeedMin"	"48"	
+		"CrosshairDecSpeedMax"	"48"	
+
+		"CrosshairFirePercent"	"0.1"	
+
+		"MajorKnockbackDist"	"50.0"			
+		"MinorKnockbackDist"	"5.0"				
+
+		"SpreadAngle"		"1.0"
+		"CriminalLevel"		"5"
+		"Accuracy"		"1"
+
+		"ImpactForceMin"   "1000.0"
+		"ImpactForceMax"   "2000.0"
+
+		"BurstMin"		"1"
+		"BurstMax"		"2"
+
+		SoundData
+		{
+			"empty"
+			{
+				"sound1"	"Weapons\arsenal_mod\ranged\dragon_breath\db_empty.wav"
+			}
+
+			"attack"
+			{
+				"sound1"	"Weapons\arsenal_mod\ranged\dragon_breath\db_attack1.wav"
+				"sound2"	"Weapons\arsenal_mod\ranged\dragon_breath\db_attack2.wav"	
+			}
+
+			"attack_npc"
+			{
+				"sound1"	"Weapons\arsenal_mod\ranged\dragon_breath\db_attack1.wav"
+				"sound2"	"Weapons\arsenal_mod\ranged\dragon_breath\db_attack2.wav"	
+			}
+
+			"deploy"
+			{
+				"sound1"	"Weapons\arsenal_mod\ranged\dragon_breath\db_select.wav"
+			}
+
+			"put_away"
+			{
+				"sound1"	"Weapons\arsenal_mod\ranged\dragon_breath\db_deselect.wav"
+			}			
+			
+			"fidget"
+			{
+				"sound1"	"Weapons\arsenal_mod\ranged\dragon_breath\db_fidget.wav"
+			}
+		}
+
+		Tables
+		{
+			Table
+			{
+				"Name"          "WeaponRanges"
+				"InternalName"  "WeaponRanges"
+
+				"Clamping"      "1"
+
+			// point blank 0-80, close 80-110, short/medium 110-220,
+			// meduim 220-370, long 370-650, great 650+
+
+				"0"             "1"       // 5 (bonus)
+				"1"             "120"     // 4 (bonus)
+				"2"             "130"     // 3 (bonus)
+				"3"             "140"     // 2 (bonus)
+				"4"             "150"     // 1 (bonus)
+				"5"             "188"     // 0 (neutral)
+				"6"             "200"     //-1 (penalty)
+				"7"             "225"     //-2 (penalty)
+				"8"             "263"     //-3 (penalty)
+				"9"             "300"     //-4 (penalty)
+			}
+
+			Table
+			{
+				"Name"          "GrossPointBlank"
+				"InternalName"  "GrossPointBlank"
+
+				"Clamping"      "1"
+
+			// percentage from 1-12 feet out
+
+				"0"             "100"
+				"1"             "90"
+				"2"             "80"
+				"3"             "70"
+				"4"             "60"
+				"5"             "50"
+				"6"             "10"
+				"7"             "10"
+				"8"             "10"
+				"9"             "10"
+			}
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/Weapons_Ranged/sawed_off_SEL"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/Weapons_Ranged/sawed_off"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"ammo"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/weapons_ranged/ammo/db_ammo"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"ammo2"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/weapons_ranged/ammo/db_ammo_SEL"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+	// Accuracy Crosshairs
+		"Acc_Crosshair00"		"hud/Crosshairs/Crosshair_01"
+		"Acc_Crosshair01"		"hud/Crosshairs/Crosshair_02"
+		"Acc_Crosshair02"		"hud/Crosshairs/Crosshair_03"
+		"Acc_Crosshair03"		"hud/Crosshairs/Crosshair_04"
+		"Acc_Crosshair04"		"hud/Crosshairs/Crosshair_05"
+		"Acc_Crosshair05"		"hud/Crosshairs/Crosshair_06"
+		"Acc_Crosshair06"		"hud/Crosshairs/Crosshair_07"
+		"Acc_Crosshair07"		"hud/Crosshairs/Crosshair_08"
+		"Acc_Crosshair08"		"hud/Crosshairs/Crosshair_09"
+		"Acc_Crosshair09"		"hud/Crosshairs/Crosshair_10"
+		"Interactive_Crosshair"		"hud/Crosshairs/Crosshair_Interactive"
+	}
+}

@@ -1,0 +1,27 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Nosferatu and the Masquerade:
+As a Nosferatu, your grisly appearance is very upsetting to humans. Average citizens may flee in fear from you. If you upset enough average citizens, you will incur a Masquerade violation, as stories of humanoid monsters loose in the streets begin to spread.
+Fortunately, eons of scorn have deveolped in the Nosferatu a sort of sixth sense for uninvited gawkers.
+To help you gauge when humans are leery of your presence, refer to the Area Indicator - the bulb atop the health meter on the left side of your display. This indicator tells you if you are in a \"Safe\", \"Elysium\", or \"Combat\" Area. These will be explained later.
+While in Safe Areas, the area indicator can be used as a radar. A red slash will fade in over the Area Indicator as you draw near humans who fear you. If you see the slash begin to appear, move away from the human and back into the shadows."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

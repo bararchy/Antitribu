@@ -1,0 +1,88 @@
+//////////////////////////////////////////////////
+// NPC Stat Templates (Packages)
+//
+//	NPCs in worldcraft are assigned one of these which determines their statistics.
+
+ClanDataTables
+{
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"TongThug"
+			"ParentTemplateName"	"NPCGeneric"
+			"Name"			"None"
+			"Description"		"Firearms 9, Melee 3, Def 3"
+		}
+
+		General
+		{
+			"Clan"				"None"
+//			"ClanEffect"			""
+			"Kindred"			"0"
+			"Supernatural"			"0"
+			"Boss"				"0"
+			"SoundGroup"			"Asian"
+
+			"NormalFootfallDist"		"1000"
+			"HeavyFootfallDist"		"800"
+			"NormalFootfallVol"		"0.85"
+			"HeavyFootfallVol"		"0.45"
+			"NpcFakeReloadCountMin"		"12.0" 	// mag7
+		}
+
+		Attributes
+		{
+			"Strength"				"2"
+			"Dexterity"				"2"
+			"Stamina"				"1"
+			"Charisma"				"2"
+			"Manipulation"				"1"
+			"Appearance"				"1"
+			"Perception"				"3"
+			"Intelligence"				"1"
+			"Wits"					"3"
+			"Armor_Rating"				"0"
+			"Max_Health"				"85"	
+			"BloodPool"				"8"
+			"FaithPoints"				"0"
+			"Starting_Equipment"			"Civilian"
+			"Excluded_Equipment"			"Default"
+		}
+
+		Abilities
+		{
+			"Brawl"					"1"
+			"Dodge"					"2"
+			"Intimidation"				"0"
+			"Subterfuge"				"0"
+			"Firearms"				"3"
+			"Melee"					"2"
+			"Security"				"0"
+			"Stealth"				"0"
+			"Computer"				"6"     // Defense vs pc feeding
+			"Finance"				"0"
+			"Investigation"				"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+	}
+}
+

@@ -1,0 +1,28 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Auspex:
+Vampires of Clan Toreador are gifted with the vampiric Discipline of Auspex. A Toreador using Auspex gains a number of advantages: they can see better in darkness, they can read the auras of other beings, and see through walls.
+Auspex costs 1 blood point to activate.
+While Auspex is active, you will gain a bonus to your Perception attribute. Perception contributes to both the Ranged Combat and Investigation feats.
+To use Auspex, scroll to it using the ] and [ keys (by default) or with the mouse wheel, then use the Power key (default right-click) to activate it.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

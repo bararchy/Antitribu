@@ -1,0 +1,53 @@
+// book
+WeaponData
+{
+	"infomodel"	"models/items/books_new/info/item_i_high_book.mdl"
+	"playermodel"	"models/items/books_new/ground/item_g_high_book.mdl"
+	"anim_prefix"	""
+
+	"printname"	"Hannibal Lecter's Guide To Making Friends And Influencing People"
+	"description"	"When wearing a security guards face it's important to know how to act around his friends. This book contains an easy guide to creating a life time of nightmares. Raises your Intimidation skill."
+
+	"weight"		"3"
+	"item_flags"		"1"
+	"item_type"		"powerup"
+	"item_worth"		"800"
+
+	"knowledge_min"		"9"
+	"grade"			"high"
+	"upgrade_ability"	"Intimidation"
+
+	SoundData
+	{
+		"pickup"
+		{
+			"sound1"	"items/Book/Pickup.wav"
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/beckett_book_sel"
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/beckett_book"
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+	}
+}

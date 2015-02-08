@@ -1,0 +1,103 @@
+TerminalDefinition
+{
+	"screen saver"		"reading is boring!"
+	"brackets"		""		
+
+	LogonScreen
+	{
+		"line0"		"LA Public Library"
+		"line1"		"Phone:(213) 228-7000" 
+		"line2"		"Operating Terminal 3"
+	} 
+
+	SubDir
+	{
+		"name"			"Movie Posters"				
+		"description"		"Movie Posters Collections"
+
+		Function
+		{
+			"name"		"info"
+			"description"	"info about Movie Posters Collections"		
+			"runtext"	"From the special collections of the Frances Howard Goldwyn Hollywood Regional Branch Library, this collection spans from the earliest years of the motion picture industry to the World War II era."
+		}
+	}
+
+	SubDir
+	{
+		"name"			"El Pueblo"				
+		"description"		"El Pueblo Archive Collections"
+
+		Function
+		{
+			"name"		"info"
+			"description"	"info about El Pueblo Archive Collections"		
+			"runtext"	"Not a Library collection, this archive is hosted by LAPL for El Pueblo. El Pueblo Monument has over ten thousand photographs in its collection, divided into three hundred separate categories."
+		}
+	}
+
+	SubDir
+	{
+		"name"			"DWP Archive"				
+		"description"		"DWP Archive Collections"
+
+		Function
+		{
+			"name"		"info"
+			"description"	"info about DWP Archive Collections"		
+			"runtext"	"Not a Library collection, this archive is hosted by LAPL for DWP. The majority of these photographs reflect the early history of the Department of Water and Power, such as the establishment of the Los Angeles Aqueduct and the work of William Mulholland."
+		}
+	}
+
+	SubDir
+	{
+		"name"			"Art's Fair"				
+		"description"		"LAPL Art's Collections"
+		"password"		"oregon"
+		"difficulty"		"9"
+		"dependency"		"G.Computer_Password == 1"
+
+		Function
+		{
+			"name"		"Open gallery"
+			"description"	"Open gallery door"		
+			"runtext"	"Gallery doors open."
+			"trigger"	"1"
+		}
+	}
+
+	SubDir
+	{
+		"name"			"Art's Fair"				
+		"description"		"LAPL Art's Collections"
+		"password"		"nevada"
+		"difficulty"		"9"
+		"dependency"		"G.Computer_Password == 2"
+
+		Function
+		{
+			"name"		"Open gallery"
+			"description"	"Open gallery door"		
+			"runtext"	"Gallery doors open."
+			"trigger"	"1"
+		}
+	}
+
+	SubDir
+	{
+		"name"			"Art's Fair"				
+		"description"		"LAPL Art's Collections"
+		"password"		"arizona"
+		"difficulty"		"9"
+		"dependency"		"G.Computer_Password == 3"
+
+		Function
+		{
+			"name"		"Open gallery"
+			"description"	"Open gallery door"		
+			"runtext"	"Gallery doors open."
+			"trigger"	"1"
+		}
+	}
+
+}

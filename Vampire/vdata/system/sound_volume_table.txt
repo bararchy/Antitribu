@@ -1,0 +1,127 @@
+SoundVolumeTable
+{
+    VolumeLevels
+    {
+    //  Level                                  Volume for average human (game units)
+        "0"                                    "0"       // LEVEL_0    - No sound
+        "1"                                    "180"      // LEVEL_1    - Quiet / Stealthy sounds
+        "2"                                    "240"     // LEVEL_2    - Normal sounds
+        "3"                                    "1200"    // LEVEL_3    - Loud sounds like gun shots
+
+        "4"                                    "120"     // LEVEL_4    - Player Stealth Sound
+        "5"                                    "240"     // LEVEL_5    - Player Feeding Sound
+
+        "6"                                    "100"      // LEVEL_6    - Soft physics sound
+        "7"                                    "250"     // LEVEL_7    - Medium physics sound
+        "8"                                    "500"     // LEVEL_8    - Loud physics sound
+
+        "9"                                    "120"     // LEVEL_9    - *******FUTURE USE****************
+        "10"                                   "120"     // LEVEL_10   - *******FUTURE USE****************
+        "11"                                   "120"     // LEVEL_11   - *******FUTURE USE****************
+        "12"                                   "120"     // LEVEL_12   - *******FUTURE USE****************
+        "13"                                   "120"     // LEVEL_13   - *******FUTURE USE****************
+        "14"                                   "120"     // LEVEL_14   - *******FUTURE USE****************
+        "15"                                   "120"     // LEVEL_15   - *******FUTURE USE****************
+    }
+
+    OccludedVolumeLevels
+    {
+    //  Level                                  0 = can not be occluded by world geometry, 1 = can be occluded
+        "0"                                    "0"       // LEVEL_0    - No sound
+        "1"                                    "1"       // LEVEL_1    - Quiet / Stealthy sounds
+        "2"                                    "1"       // LEVEL_2    - Normal sounds
+        "3"                                    "0"       // LEVEL_3    - Loud sounds like gun shots
+
+        "4"                                    "1"       // LEVEL_4    - Player Stealth Sound
+        "5"                                    "1"       // LEVEL_5    - Player Feeding Sound
+
+        "6"                                    "1"       // LEVEL_6    - Soft physics sound
+        "7"                                    "1"       // LEVEL_7    - Medium physics sound
+        "8"                                    "0"       // LEVEL_8    - Loud physics sound
+
+        "9"                                    "0"       // LEVEL_9    - *******FUTURE USE****************
+        "10"                                   "0"       // LEVEL_10   - *******FUTURE USE****************
+        "11"                                   "0"       // LEVEL_11   - *******FUTURE USE****************
+        "12"                                   "0"       // LEVEL_12   - *******FUTURE USE****************
+        "13"                                   "0"       // LEVEL_13   - *******FUTURE USE****************
+        "14"                                   "0"       // LEVEL_14   - *******FUTURE USE****************
+        "15"                                   "0"       // LEVEL_15   - *******FUTURE USE****************
+    }
+
+    SoundTypes
+    {
+    //  SoundType                              Volume
+
+    //////////////////////////
+    //  Player movement
+        "PLAYER_FOOTSTEP_SNEAK"                "1"        // Player is moving using stealth mode
+        "PLAYER_FOOTSTEP_WALK"                 "2"        // Player is walking
+        "PLAYER_FOOTSTEP_RUN"                  "2"        // Player is running
+    
+        "PLAYER_JUMP"                          "2"        // Player started a jump
+
+        "PLAYER_LAND_SOFT"                     "1"        // Player landed on the ground from a short fall or jump
+        "PLAYER_LAND_HARD"                     "2"        // Player landed on the ground from a long fall or jump
+
+    //////////////////////////
+    //  Player combat
+        "PLAYER_AGGRESSIVE_FEED"               "5"        // Player attempted to feed
+        "PLAYER_GUNSHOT_BASE"                  "3"        // Player fired a basic, non-classified weapon
+        "PLAYER_GUNSHOT_PISTOL"                "3"        // Player fired a pistol
+        "PLAYER_GUNSHOT_MACHINEGUN"            "3"        // Player fired a machine gun
+        "PLAYER_GUNSHOT_SNIPER"                "3"        // Player fired a sniper rifle
+        "PLAYER_GUNSHOT_GENERIC"               "3"        // Player fired a generic weapon
+        "PLAYER_GUNSHOT_SHOTGUN"               "3"        // Player fired a shotgun
+        "PLAYER_GUNSHOT_SHOTGUN2"              "3"        // Player fired a shotgun (secondary attack)
+
+    //////////////////////////
+    //  General combat
+        "BULLET_IMPACT"                        "7"        // Bullet hit a wall or the ground
+        "MELEE_IMPACT"                         "7"        // Melee weapon hit a wall or the ground
+
+        "GRENADE_PRE_DETONATE"                 "2"        // A nearby grenade is about to explode (danger sound)
+        "GRENADE_EXPLOSION"                    "3"        // A grenade exploded
+        "GRENADE_BOUNCE"                       "2"        // A grenade bounced off a wall or the ground
+
+        "MISSILE_EXPLOSION"                    "3"        // A missile exploded
+
+        "HOMING_GRENADE_EXPLOSION"             "2"        // A homing     grenade exploded (N/A)
+        "MOLOTOV_GRENADE_EXPLOSION"            "3"        // A molotov    grenade exploded (N/A)
+        "PATH_GRENADE_EXPLOSION"               "2"        // A pathing    grenade exploded (N/A)
+        "SCANNER_GRENADE_EXPLOSION"            "2"        // A scanner    grenade exploded (N/A)
+
+        "BOTTLE_BREAK"                         "2"        // A (thrown?) bottle broke      (N/A)
+
+    //////////////////////////
+    //  NPC combat
+        "NPC_TAKE_DAMAGE"                      "2"        // An NPC took damage
+        "NPC_FLEE"                             "5"        // An NPC is fleeing
+        "NPC_DISCIPLINE_ALERT"                 "5"        // An NPC was hit by a discipline that should alert others
+
+
+    //////////////////////////
+    //  Environment
+        "PHYSICS_SOFT"                         "6"        // Physics object impact (NYU)
+        "PHYSICS_MEDIUM"                       "7"        // Physics object impact (drag/scrape)
+        "PHYSICS_LOUD"                         "8"        // Physics object impact (collision)
+
+        "DOOR_STEALTH"                         "7"        // 
+        "DOOR_NORMAL"                          "8"        // 
+
+        "EXPLOSION"                            "3"        // Explosion
+    }
+
+    MiscData
+    {
+    //  Tag                                    Value
+        "PLAYER_RUN_SPEED"                     "128.0"    // Player run speed is how fast the player needs to
+                                                          //    be moving to be considered running rather than
+                                                          //    walking.
+    //  "AVERAGE_HUMAN_INSPECTION"             "3"        // Average human inspection is used to determine
+    //                                                    //    the baseline for the volumes.
+    //                                                    //    The volume levels are based on the average human.
+    //  "MAX_INSPECTION_SCALAR"                "2.0"      // Max inpection scalar is how much better than the
+    //                                                    //    average human someone can hear if they have
+    //                                                    //    the highest inspection value (currently 10)
+    }
+}

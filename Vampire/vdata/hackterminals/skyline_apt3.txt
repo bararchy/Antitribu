@@ -1,0 +1,88 @@
+TerminalDefinition
+{
+	"screen saver"		"I'll save your screen, NERD!"
+	"brackets"		""	
+	"email_username"	"gwelch"
+	"email_password"	"riches" 
+
+	LogonScreen
+	{
+		"line0"		"Skyeline Security"
+		"line1"		"Premium Customer Interface"
+	}
+	
+	SubDir
+	{
+		"name"			"Safe"
+		"description"		"Safe"
+		"password"		"gem"
+		"difficulty"		"6"
+		"dependency"		"G.Computer_Password == 1"
+
+		Function
+		{
+			"name"		"Unlock"
+			"description"	""
+			"runtext"	"Safe Unlocked."
+			"trigger"	"4"
+
+		}
+		Function
+		{
+			"name"		"Lock"
+			"description"	""
+			"runtext"	"Safe Locked."
+			"trigger"	"5"
+		}
+	}
+
+	SubDir
+	{
+		"name"			"Safe"
+		"description"		"Safe"
+		"password"		"jam"
+		"difficulty"		"6"
+		"dependency"		"G.Computer_Password == 2"
+
+		Function
+		{
+			"name"		"Unlock"
+			"description"	""
+			"runtext"	"Safe Unlocked."
+			"trigger"	"4"
+
+		}
+		Function
+		{
+			"name"		"Lock"
+			"description"	""
+			"runtext"	"Safe Locked."
+			"trigger"	"5"
+		}
+	}
+
+	SubDir
+	{
+		"name"			"Safe"
+		"description"		"Safe"
+		"password"		"ram"
+		"difficulty"		"6"
+		"dependency"		"G.Computer_Password == 3"
+
+		Function
+		{
+			"name"		"Unlock"
+			"description"	""
+			"runtext"	"Safe Unlocked."
+			"trigger"	"4"
+
+		}
+		Function
+		{
+			"name"		"Lock"
+			"description"	""
+			"runtext"	"Safe Locked."
+			"trigger"	"5"
+		}
+	}
+}

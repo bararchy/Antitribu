@@ -1,0 +1,36 @@
+SignData
+{
+	// NOTE: Labels get text justification
+	//	 TextBlocks get word wrapping	
+	//	 Font sizes per resolution are defined in vampire/resource/TrackerScheme.res
+
+	// if you don't specify X and Y pos for the background image, it will autocenter. 
+	BackgroundImage
+	{
+		//"Name"		"hud/signs/monogram"
+		"Name"		"hud/signs/linedpaper"
+		"Tiled"		"0"
+//		"XPos"		"312"
+//		"YPos"		"128"
+		"Wide"		"450"
+		"Tall"		"595"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Experiment N 29:
+I tried on this statue, all kinds of blood which I had, but no successful results.
+We need more stronger blood, in a certain treatise was written about a werewolf blood is worth try, there are rumors that there is a Santa Monica hospital maybe such blood.
+Also I continue to watch for tremere chantry in downtown, there sure are useful things in this regard."
+		"Font"		"ParagraphText"
+		"XPos"		"33"
+		"YPos"		"63"
+		"Wide"		"385"
+		"Tall"		"550"
+		"TextRGBA"		"[0,0,0,150]"
+		"BackgroundRGBA"	"[0,0,0,0]"
+	}
+
+}
+

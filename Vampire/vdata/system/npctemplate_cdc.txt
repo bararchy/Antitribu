@@ -1,0 +1,27 @@
+//////////////////////////////////////////////////
+// NPC Stat Templates (Packages)
+//
+//	CDC guys need to be marked as nobite since they're fully suited up
+
+ClanDataTables
+{
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"CDC"
+			"ParentTemplateName"	"CivilianGeneric"
+		}
+
+		General
+		{
+			"NoBiting"		"1"
+		}
+
+		Attributes
+		{
+		}
+	}
+}
+

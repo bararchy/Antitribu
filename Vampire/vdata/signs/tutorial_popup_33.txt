@@ -1,0 +1,27 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Discipline Timers:
+While passive disciplines such as Potence are running, a time meter will appear beside the Discipline icon tray in the lower-right corner of your display. This meter indicates how much time is left until the effect renews, and you are charged another point of blood.
+The duration of passive Disciplines varies according to Discipline and level.
+You may turn off a passive Discipline by using the Power key (default right-click) again while the Discipline is selected.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

@@ -1,0 +1,117 @@
+// artefact summon shadow warrior
+WeaponData
+{
+	"infomodel"	"models/items/bestiary/heart_of_darkness/info/i_heart.mdl"
+	"playermodel"	"models/items/bestiary/heart_of_darkness/ground/g_heart.mdl"
+	"viewmodel"	"models/weapons/w_null.mdl"
+	"wieldmodel_f"	"models/items/bestiary/heart_of_darkness/wield/w_f_heart.mdl"
+	"wieldmodel_m"	"models/items/bestiary/heart_of_darkness/wield/w_m_heart.mdl"	
+	"anim_prefix"	"lockpick"
+
+	"printname"	"Heart of Darkness"
+	"description"	" A still beating heart embued with blood magic. Squeezing the blood from the heart brings to life a shadowy duplicate that moves unseen and untouchable for 20 seconds.
+			The horrid organ requires either a knowledge of Obtenebration level 3 or Vicissitude 4 and an Intelligence of at least 4."
+
+
+	"bucket"		"1"
+	"bucket_position"	"2"
+
+	"weight"		"3"
+	"item_flags"		"1"
+	"item_type"		"weapon_melee"
+
+	"camera_class"		"melee"
+	"item_worth"		"100"
+ 
+	"is_wieldable"		"1"
+	//"item_class_discount" 	"1"
+	"equip_mask"		"Normal" 
+	"knowledge_min"		"6"
+
+	SoundData
+	{
+		"pickup"
+		{
+			"sound1"	"surfaces/mud/scrape1.wav"
+		}
+	}
+
+	Activation
+	{
+		"Tag"		"Primary"
+		"Type"		"Use"
+		"Ammo_Type"	"None"
+		"Ammo_Cost"	"0"
+		"Botch_Table"	"Lockpicks"
+		"Attack_Rate"	"1.0"
+		"Range"		"0"
+
+		"SkillRequirement"	"0"		
+		"BaseLethality"		"0"		
+		"Dmg"			"0"
+
+		SoundData
+		{
+			"deploy"
+			{
+				"sound1"	"interface/heartbeat_loop.wav"
+			}
+	
+			"put_away"
+			{
+				"sound1"	"surfaces/mud/scrape3.wav"
+			}
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"		"hud/Inventory_Images/pc_gear/heart_sel"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"		"hud/Inventory_Images/pc_gear/heart"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"ammo"
+		{
+			"640"
+			{
+				"file"		"hud/Inventory_Images/pc_gear/heart"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"ammo2"	
+		{
+			"640"
+			{
+				"file"		"hud/Inventory_Images/pc_gear/heart_sel"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+	}
+}

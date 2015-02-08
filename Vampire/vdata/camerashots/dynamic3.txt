@@ -1,0 +1,39 @@
+CameraShotTable
+{
+	// This is the default camera that is used when dialog begins. 
+	Dynamic3
+	{
+		End
+		{
+			"Position"		"DialogTarget"
+			"AttachPos"		"Origin"
+			"AttachType"		"Follow"
+			"OffsetOrigin"		"[45, 0, 47]"	 
+		}
+
+		Target	
+		{
+			Point1
+			{
+				"Position"	"DialogTarget"
+				"AttachPos"	"Bone: Bip01 Neck"
+				"AttachType"	"None"
+			}
+
+		}
+
+		CameraConstraints
+		{
+			"MoveSpeed"		"500"
+			"MoveAccel"		"250"
+			"TurnAccel"		"30"
+			"MaxTurnRate"		"[60, 60, 60]"	
+			"DistanceTolerance"	"5"
+			"AngularTolerance"	"[10, 10, 10]"	
+			"FieldOfView"		"53"
+			"DialogPOV"		"1"
+			"SyncRotateOnMove"	"1"
+		}
+	}
+
+}

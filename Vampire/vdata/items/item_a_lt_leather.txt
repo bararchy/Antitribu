@@ -1,0 +1,63 @@
+// Armor
+WeaponData
+{
+	"viewmodel"	"models/weapons/w_null.mdl"
+	"playermodel"	"models/weapons/w_null.mdl"
+	"wieldmodel_f"	"models/weapons/w_null.mdl"
+	"wieldmodel_m"	"models/weapons/w_null.mdl"
+	"infomodel"	"models/scenery/misc/armor/LeatherLight/LeatherLight.mdl"
+	"anim_prefix"	"lt_leather"
+
+	"printname"	"Light Leather"
+	"description"	"This is a set of light leather clothing. Light leather clothing has an armor rating of 2, but hinders movement slightly, resulting in a -1 to Dexterity. Some examples of light leather clothing are leather jackets, leather skirts, and leather gloves and boots."
+
+	"bucket"		"1"
+	"bucket_position"	"2"
+
+	"weight"		"0"
+	"item_flags"		"1"
+	"item_type"		"armor"
+	"item_worth"		"250"
+	"item_class_discount" 	"1"
+
+	"wield_effect"		"Item (Light Leather)"
+	"equip_mask"		"Normal"
+
+	"shows_view_model"	"0"
+	"permanent_inventory"	"1"
+	"is_droppable"		"0"
+
+	SoundData
+	{
+		"pickup"
+		{
+			"sound1"	"items/Book/Pickup.wav"
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/Armors/BrujahM/Brujah_M_A2"
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/Armors/BrujahM/Brujah_M_A2"
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+	}
+}

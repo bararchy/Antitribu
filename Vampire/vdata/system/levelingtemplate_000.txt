@@ -1,0 +1,2447 @@
+// Base
+LevelingTemplateList
+{
+
+//
+//  Auto-Leveling Templates:
+//
+//	These attempt to buy each Trait (Attribute/Ability/Discipline), in order.  For example, if you have:
+//		Level { "Strength"	"3" }
+//		Level { "Brawl"		"2" }
+//		Level { "Strength"	"4" }
+//	The system will attempt to buy Strength up to 3, then Brawl up to 2, and then Strength to 4.  If it
+//	cannot pay the full amount to raise Strength to 3, then it will wait until it does before continuing
+//	on to Brawl.
+//
+//	The thing to keep in mind is that you probably want to keep feeding it values to spend points on, so you
+//	should usually put each desired stat in the list multiple times, in different places, until it maxes out.
+//
+//
+//  Format:
+//
+//	LevelingTemplate
+//	{
+//		"Name"			""
+//		"InternalName"		""
+//		
+//		"ClanDependency"		"<Character_Template>"
+//		"Dependency"		"<Trait> <Equality_Comparison> <Value>"	// A requirement for this template to be valid/process
+//		"Dependency"		"Attrib_Order == Physical_Mental_Social"
+//
+//		LevelGroup			// Any number (0 to N) of groups that get processed in-order
+//		{
+//			"Dependency"		"<Trait> <Equality_Comparison> <Value>"	// A requirement for this LevelGroup to be processed
+//
+//			Level { "<Trait>"		"<Value>" }	// Any number of levelling values, that get processed in order
+//			Level { "Strength"	"2" }
+//		}
+//
+//		Level { "<Trait>"		"<Value>" }
+//
+//	}
+//
+//
+// ---------------------
+// ---------------------
+// Templates used when you use the Character Generation Wizard
+
+LevelingTemplate
+{
+	"Name"		"Brujah CharGen"
+	"InternalName"	"Brujah_CharGen"
+
+	"ClanDependency"	"Player_Brujah"	// lasombra
+
+// [Attributes]
+
+	LevelGroup
+	{
+		// Base
+		"Dependency"		"Attrib_Order == Physical_Social_Mental"
+
+		// Physical
+		Level { "Strength"	"2" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"2" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"2" }
+		Level { "Appearance"	"1" }
+
+		// Mental
+		Level { "Perception"	"1" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"1" }
+	}
+
+	LevelGroup
+	{
+
+		"Dependency"		"Attrib_Order == Physical_Mental_Social"
+
+		// Physical
+		Level { "Strength"	"2" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"2" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"1" }
+		Level { "Appearance"	"1" }
+
+	 	// Mental
+ 		Level { "Perception"	"1" }
+	 	Level { "Intelligence"	"1" }
+ 		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Mental_Social_Physical"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"1" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"2" }
+		Level { "Appearance"	"1" }
+
+		// Mental
+		Level { "Perception"	"2" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Mental_Physical_Social"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"2" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"1" }
+		Level { "Appearance"	"1" }
+
+		// Mental
+		Level { "Perception"	"2" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Social_Mental_Physical"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"1" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"2" }
+		Level { "Appearance"	"2" }
+
+		// Mental
+		Level { "Perception"	"1" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Social_Physical_Mental"
+
+		// Physical
+		Level { "Strength"	"2" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"1" }
+
+		// Social
+		Level { "Charisma"	"2" }
+		Level { "Manipulation"	"2" }
+		Level { "Appearance"	"1" }
+
+		// Mental
+		Level { "Perception"	"1" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"1" }
+	}
+
+
+// [Abilities]
+	
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Talents_Skills_Knowledges"
+
+		// Talents
+		Level { "Brawl"		"1" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"1" }
+		Level { "Subterfuge"	"0" }
+
+		// Skills
+		Level { "Firearms"	"1" }
+		Level { "Melee"		"1" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"0" }
+
+		// Knowledges
+		Level { "Computer"	"0" }
+		Level { "Finance"	"1" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"0" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Skills_Talents_Knowledges"
+
+		// Talents
+		Level { "Brawl"		"1" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"0" }
+
+		// Skills
+		Level { "Firearms"	"1" }
+		Level { "Melee"		"1" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"1" }
+
+		// Knowledges
+		Level { "Computer"	"0" }
+		Level { "Finance"	"1" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"0" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Knowledges_Skills_Talents"
+
+		// Talents
+		Level { "Brawl"		"0" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"0" }
+
+		// Skills
+		Level { "Firearms"	"1" }
+		Level { "Melee"		"1" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"0" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"1" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"1" }
+	}
+
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Skills_Knowledges_Talents"
+
+		// Talents
+		Level { "Brawl"		"0" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"0" }
+
+		// Skills
+		Level { "Firearms"	"1" }
+		Level { "Melee"		"1" }
+		Level { "Security"	"1" }
+		Level { "Stealth"	"0" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"0" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"1" }
+	}
+
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Talents_Knowledges_Skills"
+
+		// Talents
+		Level { "Brawl"		"1" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"1" }
+		Level { "Subterfuge"	"0" }
+
+		// Skills
+		Level { "Firearms"	"0" }
+		Level { "Melee"		"1" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"0" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"0" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"1" }
+	}
+
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Knowledges_Talents_Skills"
+
+		// Talents
+		Level { "Brawl"		"1" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"0" }
+
+		// Skills
+		Level { "Firearms"	"0" }
+		Level { "Melee"		"1" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"0" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"1" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"1" }
+	}
+
+// [Disciplines]	Blood_Healing Fortitude
+
+	// Disciplines
+	Level { "Blood_Healing"	"2" }	//Obtenebration	
+	Level { "Potence"	"1" }
+	Level { "Dominate"	"1" }
+}
+
+
+LevelingTemplate
+{
+	"Name"		"Gangrel CharGen"
+	"InternalName"	"Gangrel_CharGen"
+
+	"ClanDependency"	"Player_Gangrel"	// ravnos
+
+// [Attributes]
+
+	LevelGroup
+	{
+		// Base
+		"Dependency"		"Attrib_Order == Physical_Mental_Social"
+
+		// Physical
+		Level { "Strength"	"2" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"2" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"1" }
+		Level { "Appearance"	"1" }
+
+	 	// Mental
+ 		Level { "Perception"	"1" }
+	 	Level { "Intelligence"	"1" }
+ 		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Mental_Social_Physical"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"1" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"2" }
+		Level { "Appearance"	"1" }
+
+		// Mental
+		Level { "Perception"	"2" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Mental_Physical_Social"
+
+		// Physical
+		Level { "Strength"	"2" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"1" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"1" }
+		Level { "Appearance"	"1" }
+
+		// Mental
+		Level { "Perception"	"2" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Social_Mental_Physical"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"1" }
+
+		// Social
+		Level { "Charisma"	"2" }
+		Level { "Manipulation"	"1" }
+		Level { "Appearance"	"2" }
+
+		// Mental
+		Level { "Perception"	"1" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Social_Physical_Mental"
+
+		// Physical
+		Level { "Strength"	"2" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"1" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"2" }
+		Level { "Appearance"	"2" }
+
+		// Mental
+		Level { "Perception"	"1" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"1" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Physical_Social_Mental"
+
+		// Physical
+		Level { "Strength"	"2" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"2" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"2" }
+		Level { "Appearance"	"1" }
+
+		// Mental
+		Level { "Perception"	"1" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"1" }
+	}
+
+// [Abilities]
+	
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Talents_Skills_Knowledges"
+
+		// Talents
+		Level { "Brawl"		"1" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"1" }
+		Level { "Subterfuge"	"0" }
+
+		// Skills
+		Level { "Firearms"	"1" }
+		Level { "Melee"		"0" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"1" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"0" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"0" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Skills_Talents_Knowledges"
+
+		// Talents
+		Level { "Brawl"		"1" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"0" }
+
+		// Skills
+		Level { "Firearms"	"1" }
+		Level { "Melee"		"1" }
+		Level { "Security"	"1" }
+		Level { "Stealth"	"0" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"0" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"0" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Knowledges_Skills_Talents"
+
+		// Talents
+		Level { "Brawl"		"1" }
+		Level { "Dodge"		"0" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"0" }
+
+		// Skills
+		Level { "Firearms"	"0" }
+		Level { "Melee"		"1" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"1" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"0" }
+		Level { "Investigation"	"1" }
+		Level { "Academics"	"1" }
+	}
+
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Skills_Knowledges_Talents"
+
+		// Talents
+		Level { "Brawl"		"0" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"0" }
+
+		// Skills
+		Level { "Firearms"	"1" }
+		Level { "Melee"		"1" }
+		Level { "Security"	"1" }
+		Level { "Stealth"	"0" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"0" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"1" }
+	}
+
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Talents_Knowledges_Skills"
+
+		// Talents
+		Level { "Brawl"		"1" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"1" }
+
+		// Skills
+		Level { "Firearms"	"0" }
+		Level { "Melee"		"1" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"0" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"0" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"1" }
+	}
+
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Knowledges_Talents_Skills"
+
+		// Talents
+		Level { "Brawl"		"0" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"1" }
+
+		// Skills
+		Level { "Firearms"	"1" }
+		Level { "Melee"		"0" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"0" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"1" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"1" }
+	}
+
+// [Disciplines]
+
+	// Disciplines
+	Level { "Obfuscate"		"1" } 
+	Level { "Animalism"		"2" }	//Serpentis
+	Level { "Presence"		"1" } 
+}
+
+
+LevelingTemplate
+{
+	"Name"		"Malkavian CharGen"
+	"InternalName"	"Malkavian_CharGen"
+
+	"ClanDependency"	"Player_Malkavian" // Old clan Tzimisce
+
+// [Attributes]
+
+	LevelGroup
+	{
+		// Base
+		"Dependency"		"Attrib_Order == Physical_Mental_Social"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"2" }
+		Level { "Stamina"	"2" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"1" }
+		Level { "Appearance"	"1" }
+
+	 	// Mental
+ 		Level { "Perception"	"1" }
+	 	Level { "Intelligence"	"1" }
+ 		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Mental_Social_Physical"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"1" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"2" }
+		Level { "Appearance"	"1" }
+
+		// Mental
+		Level { "Perception"	"2" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Mental_Physical_Social"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"2" }
+		Level { "Stamina"	"1" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"1" }
+		Level { "Appearance"	"1" }
+
+		// Mental
+		Level { "Perception"	"2" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Social_Mental_Physical"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"1" }
+
+		// Social
+		Level { "Charisma"	"2" }
+		Level { "Manipulation"	"1" }
+		Level { "Appearance"	"2" }
+
+		// Mental
+		Level { "Perception"	"1" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Social_Physical_Mental"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"2" }
+		Level { "Stamina"	"1" }
+
+		// Social
+		Level { "Charisma"	"2" }
+		Level { "Manipulation"	"1" }
+		Level { "Appearance"	"2" }
+
+		// Mental
+		Level { "Perception"	"1" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"1" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Physical_Social_Mental"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"2" }
+		Level { "Stamina"	"2" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"2" }
+		Level { "Appearance"	"1" }
+
+		// Mental
+		Level { "Perception"	"1" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"1" }
+	}
+
+// [Abilities]
+	
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Talents_Skills_Knowledges"
+
+		// Talents
+		Level { "Brawl"		"1" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"1" }
+
+		// Skills
+		Level { "Firearms"	"1" }
+		Level { "Melee"		"0" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"1" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"0" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"0" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Skills_Talents_Knowledges"
+
+		// Talents
+		Level { "Brawl"		"1" }
+		Level { "Dodge"		"0" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"1" }
+
+		// Skills
+		Level { "Firearms"	"1" }
+		Level { "Melee"		"0" }
+		Level { "Security"	"1" }
+		Level { "Stealth"	"1" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"0" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"0" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Knowledges_Skills_Talents"
+
+		// Talents
+		Level { "Brawl"		"1" }
+		Level { "Dodge"		"0" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"0" }
+
+		// Skills
+		Level { "Firearms"	"0" }
+		Level { "Melee"		"1" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"1" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"0" }
+		Level { "Investigation"	"1" }
+		Level { "Academics"	"1" }
+	}
+
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Skills_Knowledges_Talents"
+
+		// Talents
+		Level { "Brawl"		"0" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"0" }
+
+		// Skills
+		Level { "Firearms"	"1" }
+		Level { "Melee"		"1" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"1" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"0" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"1" }
+	}
+
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Talents_Knowledges_Skills"
+
+		// Talents
+		Level { "Brawl"		"1" }
+		Level { "Dodge"		"0" }
+		Level { "Intimidation"	"1" }
+		Level { "Subterfuge"	"1" }
+
+		// Skills
+		Level { "Firearms"	"1" }
+		Level { "Melee"		"0" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"0" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"0" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"1" }
+	}
+
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Knowledges_Talents_Skills"
+
+		// Talents
+		Level { "Brawl"		"1" }
+		Level { "Dodge"		"0" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"1" }
+
+		// Skills
+		Level { "Firearms"	"1" }
+		Level { "Melee"		"0" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"0" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"0" }
+		Level { "Investigation"	"1" }
+		Level { "Academics"	"1" }
+	}
+
+// [Disciplines]
+
+	// Disciplines
+	Level { "Auspex"		"1" }
+	Level { "Corpus_Vampirus"	"2" } //Animalism
+	Level { "Dominate"		"1" }
+}
+
+
+LevelingTemplate
+{
+	"Name"		"Nosferatu CharGen"
+	"InternalName"	"Nosferatu_CharGen"
+
+	"ClanDependency"	"Player_Nosferatu" // Samedi
+
+// [Attributes]
+
+	LevelGroup
+	{
+		// Base
+		"Dependency"		"Attrib_Order == Physical_Mental_Social"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"2" }
+		Level { "Stamina"	"2" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"1" }
+		Level { "Appearance"	"0" }
+
+	 	// Mental
+ 		Level { "Perception"	"1" }
+	 	Level { "Intelligence"	"1" }
+ 		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Mental_Social_Physical"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"1" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"2" }
+		Level { "Appearance"	"0" }
+
+		// Mental
+		Level { "Perception"	"2" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Mental_Physical_Social"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"2" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"1" }
+		Level { "Appearance"	"0" }
+
+		// Mental
+		Level { "Perception"	"2" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Social_Mental_Physical"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"1" }
+
+		// Social
+		Level { "Charisma"	"2" }
+		Level { "Manipulation"	"2" }
+		Level { "Appearance"	"0" }
+
+		// Mental
+		Level { "Perception"	"1" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Social_Physical_Mental"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"2" }
+
+		// Social
+		Level { "Charisma"	"2" }
+		Level { "Manipulation"	"2" }
+		Level { "Appearance"	"0" }
+
+		// Mental
+		Level { "Perception"	"1" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"1" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Physical_Social_Mental"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"2" }
+		Level { "Stamina"	"2" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"2" }
+		Level { "Appearance"	"0" }
+
+		// Mental
+		Level { "Perception"	"1" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"1" }
+	}
+
+// [Abilities]
+	
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Talents_Skills_Knowledges"
+
+		// Talents
+		Level { "Brawl"		"1" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"1" }
+		Level { "Subterfuge"	"0" }
+
+		// Skills
+		Level { "Firearms"	"0" }
+		Level { "Melee"		"0" }
+		Level { "Security"	"1" }
+		Level { "Stealth"	"1" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"0" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"0" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Skills_Talents_Knowledges"
+
+		// Talents
+		Level { "Brawl"		"1" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"0" }
+
+		// Skills
+		Level { "Firearms"	"0" }
+		Level { "Melee"		"1" }
+		Level { "Security"	"1" }
+		Level { "Stealth"	"1" }
+
+		// Knowledges
+		Level { "Computer"	"0" }
+		Level { "Finance"	"1" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"0" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Knowledges_Skills_Talents"
+
+		// Talents
+		Level { "Brawl"		"1" }
+		Level { "Dodge"		"0" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"0" }
+
+		// Skills
+		Level { "Firearms"	"0" }
+		Level { "Melee"		"0" }
+		Level { "Security"	"1" }
+		Level { "Stealth"	"1" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"0" }
+		Level { "Investigation"	"1" }
+		Level { "Academics"	"1" }
+	}
+
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Skills_Knowledges_Talents"
+
+		// Talents
+		Level { "Brawl"		"0" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"0" }
+
+		// Skills
+		Level { "Firearms"	"0" }
+		Level { "Melee"		"1" }
+		Level { "Security"	"1" }
+		Level { "Stealth"	"1" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"0" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"1" }
+	}
+
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Talents_Knowledges_Skills"
+
+		// Talents
+		Level { "Brawl"		"1" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"1" }
+
+		// Skills
+		Level { "Firearms"	"0" }
+		Level { "Melee"		"0" }
+		Level { "Security"	"1" }
+		Level { "Stealth"	"0" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"0" }
+		Level { "Investigation"	"1" }
+		Level { "Academics"	"0" }
+	}
+
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Knowledges_Talents_Skills"
+
+		// Talents
+		Level { "Brawl"		"1" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"0" }
+
+		// Skills
+		Level { "Firearms"	"0" }
+		Level { "Melee"		"0" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"1" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"0" }
+		Level { "Investigation"	"1" }
+		Level { "Academics"	"1" }
+	}
+
+// [Disciplines]
+
+	Level { "Protean"	"1" }	// necromancy
+	Level { "Obfuscate"	"1" }
+	Level { "Thaumaturgy"	"2" } 	// thanatosis
+}
+
+
+LevelingTemplate
+{
+	"Name"		"Toreador CharGen"
+	"InternalName"	"Toreador_CharGen"
+
+	"ClanDependency"	"Player_Toreador" // Tzimisce
+
+// [Attributes]
+
+	LevelGroup
+	{
+		// Base
+		"Dependency"		"Attrib_Order == Physical_Mental_Social"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"2" }
+		Level { "Stamina"	"2" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"1" }
+		Level { "Appearance"	"1" }
+
+	 	// Mental
+ 		Level { "Perception"	"1" }
+	 	Level { "Intelligence"	"1" }
+ 		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Mental_Social_Physical"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"1" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"1" }
+		Level { "Appearance"	"2" }
+
+		// Mental
+		Level { "Perception"	"2" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Mental_Physical_Social"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"2" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"1" }
+		Level { "Appearance"	"1" }
+
+		// Mental
+		Level { "Perception"	"2" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Social_Mental_Physical"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"1" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"2" }
+		Level { "Appearance"	"2" }
+
+		// Mental
+		Level { "Perception"	"1" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Social_Physical_Mental"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"2" }
+
+		// Social
+		Level { "Charisma"	"2" }
+		Level { "Manipulation"	"1" }
+		Level { "Appearance"	"2" }
+
+		// Mental
+		Level { "Perception"	"1" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"1" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Physical_Social_Mental"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"2" }
+		Level { "Stamina"	"2" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"1" }
+		Level { "Appearance"	"2" }
+
+		// Mental
+		Level { "Perception"	"1" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"1" }
+	}
+
+// [Abilities]
+	
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Talents_Skills_Knowledges"
+
+		// Talents
+		Level { "Brawl"		"1" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"1" }
+
+		// Skills
+		Level { "Firearms"	"1" }
+		Level { "Melee"		"0" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"1" }
+
+		// Knowledges
+		Level { "Computer"	"0" }
+		Level { "Finance"	"1" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"0" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Skills_Talents_Knowledges"
+
+		// Talents
+		Level { "Brawl"		"0" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"1" }
+
+		// Skills
+		Level { "Firearms"	"0" }
+		Level { "Melee"		"1" }
+		Level { "Security"	"1" }
+		Level { "Stealth"	"1" }
+
+		// Knowledges
+		Level { "Computer"	"0" }
+		Level { "Finance"	"1" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"0" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Knowledges_Skills_Talents"
+
+		// Talents
+		Level { "Brawl"		"0" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"0" }
+
+		// Skills
+		Level { "Firearms"	"0" }
+		Level { "Melee"		"1" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"1" }
+
+		// Knowledges
+		Level { "Computer"	"0" }
+		Level { "Finance"	"1" }
+		Level { "Investigation"	"1" }
+		Level { "Academics"	"1" }
+	}
+
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Skills_Knowledges_Talents"
+
+		// Talents
+		Level { "Brawl"		"0" }
+		Level { "Dodge"		"0" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"1" }
+
+		// Skills
+		Level { "Firearms"	"1" }
+		Level { "Melee"		"1" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"1" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"0" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"1" }
+	}
+
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Talents_Knowledges_Skills"
+
+		// Talents
+		Level { "Brawl"		"1" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"1" }
+
+		// Skills
+		Level { "Firearms"	"1" }
+		Level { "Melee"		"0" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"0" }
+
+		// Knowledges
+		Level { "Computer"	"0" }
+		Level { "Finance"	"0" }
+		Level { "Investigation"	"1" }
+		Level { "Academics"	"1" }
+	}
+
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Knowledges_Talents_Skills"
+
+		// Talents
+		Level { "Brawl"		"1" }
+		Level { "Dodge"		"0" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"1" }
+
+		// Skills
+		Level { "Firearms"	"1" }
+		Level { "Melee"		"0" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"0" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"1" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"1" }
+	}
+
+// [Disciplines]
+
+	Level { "Auspex"		"1" }
+	Level { "Corpus_Vampirus"	"1" } 	//Animalism
+	Level { "Dementation"		"2" }	//Vicissitude
+}
+
+
+LevelingTemplate
+{
+	"Name"		"Tremere CharGen"
+	"InternalName"	"Tremere_CharGen"
+
+	"ClanDependency"	"Player_Tremere"	//Nagaraja
+
+// [Attributes]
+
+	LevelGroup
+	{
+		// Base
+		"Dependency"		"Attrib_Order == Physical_Mental_Social"
+
+		// Physical
+		Level { "Strength"	"2" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"2" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"1" }
+		Level { "Appearance"	"1" }
+
+	 	// Mental
+ 		Level { "Perception"	"1" }
+	 	Level { "Intelligence"	"1" }
+ 		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Mental_Social_Physical"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"1" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"2" }
+		Level { "Appearance"	"1" }
+
+		// Mental
+		Level { "Perception"	"2" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Mental_Physical_Social"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"2" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"1" }
+		Level { "Appearance"	"1" }
+
+		// Mental
+		Level { "Perception"	"2" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Social_Mental_Physical"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"1" }
+
+		// Social
+		Level { "Charisma"	"2" }
+		Level { "Manipulation"	"1" }
+		Level { "Appearance"	"2" }
+
+		// Mental
+		Level { "Perception"	"1" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Social_Physical_Mental"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"2" }
+
+		// Social
+		Level { "Charisma"	"2" }
+		Level { "Manipulation"	"1" }
+		Level { "Appearance"	"2" }
+
+		// Mental
+		Level { "Perception"	"1" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"1" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Physical_Social_Mental"
+
+		// Physical
+		Level { "Strength"	"2" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"2" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"2" }
+		Level { "Appearance"	"1" }
+
+		// Mental
+		Level { "Perception"	"1" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"1" }
+	}
+
+// [Abilities]
+	
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Talents_Skills_Knowledges"
+
+		// Talents
+		Level { "Brawl"		"2" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"0" }
+
+		// Skills
+		Level { "Firearms"	"1" }
+		Level { "Melee"		"0" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"1" }
+
+		// Knowledges
+		Level { "Computer"	"0" }
+		Level { "Finance"	"0" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"1" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Skills_Talents_Knowledges"
+
+		// Talents
+		Level { "Brawl"		"1" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"0" }
+
+		// Skills
+		Level { "Firearms"	"1" }
+		Level { "Melee"		"1" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"1" }
+
+		// Knowledges
+		Level { "Computer"	"0" }
+		Level { "Finance"	"0" }
+		Level { "Investigation"	"1" }
+		Level { "Academics"	"0" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Knowledges_Skills_Talents"
+
+		// Talents
+		Level { "Brawl"		"0" }
+		Level { "Dodge"		"0" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"1" }
+
+		// Skills
+		Level { "Firearms"	"1" }
+		Level { "Melee"		"0" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"1" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"0" }
+		Level { "Investigation"	"1" }
+		Level { "Academics"	"1" }
+	}
+
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Skills_Knowledges_Talents"
+
+		// Talents
+		Level { "Brawl"		"0" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"0" }
+
+		// Skills
+		Level { "Firearms"	"1" }
+		Level { "Melee"		"1" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"1" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"0" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"1" }
+	}
+
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Talents_Knowledges_Skills"
+
+		// Talents
+		Level { "Brawl"		"2" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"0" }
+
+		// Skills
+		Level { "Firearms"	"1" }
+		Level { "Melee"		"0" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"0" }
+
+		// Knowledges
+		Level { "Computer"	"0" }
+		Level { "Finance"	"1" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"1" }
+	}
+
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Knowledges_Talents_Skills"
+
+		// Talents
+		Level { "Brawl"		"1" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"0" }
+
+		// Skills
+		Level { "Firearms"	"1" }
+		Level { "Melee"		"0" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"0" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"1" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"1" }
+	}
+
+// [Disciplines]
+
+	// Disciplines
+	Level { "Auspex"	"1" }	
+	Level { "Fortitude"	"2" }	//Nihilistics
+	Level { "Protean"	"1" }	//Necromancy
+}
+
+
+LevelingTemplate
+{
+	"Name"		"Ventrue CharGen"
+	"InternalName"	"Ventrue_CharGen"
+
+	"ClanDependency"	"Player_Ventrue"	// Giovanni
+
+// [Attributes]
+
+	LevelGroup
+	{
+		// Base
+		"Dependency"		"Attrib_Order == Physical_Mental_Social"
+
+		// Physical
+		Level { "Strength"	"2" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"2" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"1" }
+		Level { "Appearance"	"1" }
+
+	 	// Mental
+ 		Level { "Perception"	"1" }
+	 	Level { "Intelligence"	"1" }
+ 		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Mental_Social_Physical"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"1" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"2" }
+		Level { "Appearance"	"1" }
+
+		// Mental
+		Level { "Perception"	"2" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Mental_Physical_Social"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"2" }
+
+		// Social
+		Level { "Charisma"	"1" }
+		Level { "Manipulation"	"1" }
+		Level { "Appearance"	"1" }
+
+		// Mental
+		Level { "Perception"	"2" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Social_Mental_Physical"
+
+		// Physical
+		Level { "Strength"	"1" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"1" }
+
+		// Social
+		Level { "Charisma"	"2" }
+		Level { "Manipulation"	"1" }
+		Level { "Appearance"	"2" }
+
+		// Mental
+		Level { "Perception"	"1" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"2" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Social_Physical_Mental"
+
+		// Physical
+		Level { "Strength"	"2" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"1" }
+
+		// Social
+		Level { "Charisma"	"2" }
+		Level { "Manipulation"	"1" }
+		Level { "Appearance"	"2" }
+
+		// Mental
+		Level { "Perception"	"1" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"1" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Attrib_Order == Physical_Social_Mental"
+
+		// Physical
+		Level { "Strength"	"2" }
+		Level { "Dexterity"	"1" }
+		Level { "Stamina"	"2" }
+
+		// Social
+		Level { "Charisma"	"2" }
+		Level { "Manipulation"	"1" }
+		Level { "Appearance"	"1" }
+
+		// Mental
+		Level { "Perception"	"1" }
+		Level { "Intelligence"	"1" }
+		Level { "Wits"		"1" }
+	}
+
+// [Abilities]
+	
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Talents_Skills_Knowledges"
+
+		// Talents
+		Level { "Brawl"		"1" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"1" }
+
+		// Skills
+		Level { "Firearms"	"1" }
+		Level { "Melee"		"0" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"1" }
+
+		// Knowledges
+		Level { "Computer"	"0" }
+		Level { "Finance"	"1" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"0" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Skills_Talents_Knowledges"
+
+		// Talents
+		Level { "Brawl"		"1" }
+		Level { "Dodge"		"0" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"1" }
+
+		// Skills
+		Level { "Firearms"	"1" }
+		Level { "Melee"		"0" }
+		Level { "Security"	"1" }
+		Level { "Stealth"	"1" }
+
+		// Knowledges
+		Level { "Computer"	"0" }
+		Level { "Finance"	"1" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"0" }
+	}
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Knowledges_Skills_Talents"
+
+		// Talents
+		Level { "Brawl"		"0" }
+		Level { "Dodge"		"0" }
+		Level { "Intimidation"	"1" }
+		Level { "Subterfuge"	"0" }
+
+		// Skills
+		Level { "Firearms"	"0" }
+		Level { "Melee"		"0" }
+		Level { "Security"	"1" }
+		Level { "Stealth"	"1" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"1" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"1" }
+	}
+
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Skills_Knowledges_Talents"
+
+		// Talents
+		Level { "Brawl"		"0" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"0" }
+
+		// Skills
+		Level { "Firearms"	"1" }
+		Level { "Melee"		"1" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"1" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"0" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"1" }
+	}
+
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Talents_Knowledges_Skills"
+
+		// Talents
+		Level { "Brawl"		"1" }
+		Level { "Dodge"		"1" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"1" }
+
+		// Skills
+		Level { "Firearms"	"0" }
+		Level { "Melee"		"1" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"0" }
+
+		// Knowledges
+		Level { "Computer"	"0" }
+		Level { "Finance"	"1" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"1" }
+	}
+
+
+	LevelGroup
+	{
+		"Dependency"		"Ability_Order == Knowledges_Talents_Skills"
+
+		// Talents
+		Level { "Brawl"		"1" }
+		Level { "Dodge"		"0" }
+		Level { "Intimidation"	"0" }
+		Level { "Subterfuge"	"1" }
+
+		// Skills
+		Level { "Firearms"	"1" }
+		Level { "Melee"		"0" }
+		Level { "Security"	"0" }
+		Level { "Stealth"	"0" }
+
+		// Knowledges
+		Level { "Computer"	"1" }
+		Level { "Finance"	"1" }
+		Level { "Investigation"	"0" }
+		Level { "Academics"	"1" }
+	}
+
+// [Disciplines]
+
+	// Disciplines
+	Level { "Dominate"	"1" }
+	Level { "Protean"	"2" }	//Necromancy
+	Level { "Potence"	"1" }
+}
+
+
+// ---------------------
+
+
+// Default Templates used
+
+LevelingTemplate
+{
+	"Name"		"Brujah Default"
+	"InternalName"	"Brujah_Default"
+
+	"ClanDependency"	"Player_Brujah" //	Lasombra  Blood_Healing
+
+	Level { "Strength"	"2" }
+	Level { "Potence"	"2" }
+	Level { "Intimidation"	"1" }
+	Level { "Brawl"		"1" }
+	Level { "Dexterity"	"1" }
+	Level { "Melee"		"1" }
+	Level { "Firearms"	"1" }
+	Level { "Brawl"		"2" }
+	Level { "Dodge"		"1" }
+	Level { "Blood_Healing"	"2" } 	//
+	Level { "Potence"	"3" }
+	Level { "Brawl"		"3" }
+	Level { "Melee"		"2" }
+	Level { "Dexterity"	"2" }
+	Level { "Firearms"	"2" }
+	Level { "Strength"	"3" }
+	Level { "Blood_Healing"	"3" }	//
+	Level { "Dominate"	"3" }	//
+	Level { "Dexterity"	"3" }
+	Level { "Stamina"	"2" }
+	Level { "Potence"	"4" }
+	Level { "Intimidation"	"2" }
+	Level { "Dodge"		"2" }
+	Level { "Stamina"	"3" }
+	Level { "Potence"	"5" }
+	Level { "Strength"	"4" }
+	Level { "Melee"		"3" }
+	Level { "Perception"	"1" }
+	Level { "Firearms"	"3" }
+	Level { "Brawl"		"4" }
+	Level { "Melee"		"4" }
+	Level { "Dexterity"	"4" }
+	Level { "Dominate"	"4" }	//
+	Level { "Brawl"		"5" }
+	Level { "Firearms"	"4" }
+	Level { "Intimidation"	"3" }
+	Level { "Strength"	"5" }
+	Level { "Blood_Healing"	"4" }	//
+	Level { "Stamina"	"4" }
+	Level { "Intimidation"	"4" }
+	Level { "Blood_Healing"	"5" }	//
+	Level { "Dominate"	"5" }	//
+	Level { "Melee"		"5" }
+	Level { "Perception"	"2" }
+	Level { "Firearms"	"5" }
+	Level { "Intimidation"	"5" }
+}
+
+
+LevelingTemplate
+{
+	"Name"		"Gangrel Default"
+	"InternalName"	"Gangrel_Default"
+
+	"ClanDependency"	"Player_Gangrel" // Setites Animalism
+
+	Level { "Strength"	"2" }
+	Level { "Melee"		"1" }
+	Level { "Brawl"		"1" }
+	Level { "Stealth"	"1" }
+	Level { "Presence"	"2" }	//
+	Level { "Stealth"	"2" }
+	Level { "Melee"		"2" }
+	Level { "Strength"	"3" }
+	Level { "Brawl"		"2" }
+	Level { "Dexterity"	"2" }
+	Level { "Obfuscate"	"2" }	//
+	Level { "Stealth"	"3" }
+	Level { "Presence"	"3" }	//
+	Level { "Stamina"	"2" }
+	Level { "Brawl"		"3" }
+	Level { "Melee"		"3" }
+	Level { "Dexterity"	"3" }
+	Level { "Strength"	"4" }
+	Level { "Animalism"	"3" }
+	Level { "Dodge"		"2" }
+	Level { "Presence"	"4" }	//
+	Level { "Melee"		"4" }
+	Level { "Stealth"	"4" }
+	Level { "Obfuscate"	"3" }	//
+	Level { "Animalism"	"4" }
+	Level { "Brawl"		"4" }
+	Level { "Presence"	"5" }	//
+	Level { "Dodge"		"3" }
+	Level { "Strength"	"5" }
+	Level { "Obfuscate"	"4" }	//
+	Level { "Brawl"		"4" }
+	Level { "Animalism"	"5" }
+	Level { "Melee"		"5" }
+	Level { "Stealth"	"5" }
+	Level { "Stamina"	"3" }
+	Level { "Dodge"		"4" }
+	Level { "Perception"	"2" }
+	Level { "Obfuscate"	"5" }	//
+	Level { "Dodge"		"5" }
+	
+}
+
+
+LevelingTemplate
+{
+	"Name"		"Malkavian Default"
+	"InternalName"	"Malkavian_Default"
+
+	"ClanDependency"	"Player_Malkavian" // Old clan Tzimisce
+
+	Level { "Dexterity"	"1" }
+	Level { "Corpus_Vampirus"	"2" }	//1
+	Level { "Perception"	"1" }
+	Level { "Charisma"	"1" }
+	Level { "Wits"		"2" }
+	Level { "Dominate"	"2" }	//2
+	Level { "Intelligence"	"1" }
+	Level { "Academics"	"1" }
+	Level { "Auspex"	"2" }
+	Level { "Computer"	"1" }
+	Level { "Perception"	"2" }
+	Level { "Firearms"	"1" }
+	Level { "Corpus_Vampirus"	"3" }	//1
+	Level { "Charisma"	"2" }
+	Level { "Perception"	"3" }
+	Level { "Firearms"	"2" }
+	Level { "Wits"		"3" }
+	Level { "Academics"	"2" }
+	Level { "Computer"	"2" }
+	Level { "Intelligence"	"2" }
+	Level { "Dominate"	"3" }	//2
+	Level { "Dexterity"	"2" }
+	Level { "Auspex"	"3" }
+	Level { "Corpus_Vampirus"	"4" }	//1
+	Level { "Charisma"	"3" }
+	Level { "Wits"		"4" }
+	Level { "Perception"	"4" }
+	Level { "Firearms"	"3" }
+	Level { "Dominate"	"4" }	//2
+	Level { "Intelligence"	"3" }
+	Level { "Academics"	"3" }
+	Level { "Auspex"	"4" }
+	Level { "Computer"	"3" }
+	Level { "Corpus_Vampirus"	"5" }	//1
+	Level { "Charisma"	"4" }
+	Level { "Wits"		"5" }
+	Level { "Firearms"	"4" }
+	Level { "Perception"	"5" }
+	Level { "Dexterity"	"3" }
+	Level { "Intelligence"	"4" }
+	Level { "Dominate"	"5" }	//2
+	Level { "Auspex"	"5" }
+	Level { "Academics"	"4" }
+	Level { "Computer"	"4" }
+	Level { "Firearms"	"5" }
+	
+}
+
+
+LevelingTemplate
+{
+	"Name"		"Nosferatu Default"
+	"InternalName"	"Nosferatu_Default"
+
+	"ClanDependency"	"Player_Nosferatu" // samedi
+
+	Level { "Strength"	"1" }
+	Level { "Perception"	"1" }
+	Level { "Obfuscate"	"2" }
+	Level { "Firearms"	"1" }
+	Level { "Dexterity"	"2" }
+	Level { "Stealth"	"1" }
+	Level { "Strength"	"2" }
+	Level { "Security"	"1" }
+	Level { "Melee"		"1" }
+	Level { "Perception"	"2" }
+	Level { "Firearms"	"2" }
+	Level { "Obfuscate"	"3" }
+	Level { "Stealth"	"2" }
+	Level { "Protean"	"2" } //
+	Level { "Perception"	"3" }
+	Level { "Thaumaturgy"	"2" } //
+	Level { "Dexterity"	"3" }
+	Level { "Strength"	"3" }
+	Level { "Melee"		"2" }
+	Level { "Perception"	"4" }
+	Level { "Firearms"	"3" }
+	Level { "Security"	"2" }
+	Level { "Strength"	"3" }
+	Level { "Obfuscate"	"4" }
+	Level { "Stealth"	"3" }
+	Level { "Protean"	"3" } //
+	Level { "Melee"		"3" }
+	Level { "Thaumaturgy"	"3" } //
+	Level { "Dexterity"	"4" }
+	Level { "Security"	"3" }
+	Level { "Stealth"	"4" }
+	Level { "Thaumaturgy"	"4" } //
+	Level { "Firearms"	"4" }
+	Level { "Protean"	"4" } //
+	Level { "Strength"	"4" }
+	Level { "Obfuscate"	"5" }
+	Level { "Security"	"4" }
+	Level { "Stealth"	"5" }
+	Level { "Perception"	"5" }
+	Level { "Dexterity"	"5" }
+	Level { "Firearms"	"5" }
+	Level { "Protean"	"5" }	//
+	Level { "Thaumaturgy"	"5" } //
+	Level { "Melee"		"4" }
+}
+
+
+LevelingTemplate
+{
+	"Name"		"Toreador Default"
+	"InternalName"	"Toreador_Default"
+
+	"ClanDependency"	"Player_Toreador" //Tzimisce
+
+	Level { "Perception"	"1" }
+	Level { "Charisma"	"1" }
+	Level { "Subterfuge"	"1" }	
+	Level { "Academics"	"1" }
+	Level { "Corpus_Vampirus"	"2" } //1
+	Level { "Intelligence"	"1" }
+	Level { "Firearms"	"1" }
+	Level { "Charisma"	"2" }
+	Level { "Appearance"	"2" }
+	Level { "Academics"	"2" }
+	Level { "Dementation"	"2" } //2
+	Level { "Subterfuge"	"2" }
+	Level { "Charisma"	"3" }
+	Level { "Manipulation"	"1" }
+	Level { "Intelligence"	"2" }
+	Level { "Perception"	"2" }
+	Level { "Corpus_Vampirus"	"3" } //1
+	Level { "Auspex"	"2" }
+	Level { "Firearms"	"2" }
+	Level { "Appearance"	"3" }
+	Level { "Academics"	"3" }
+	Level { "Dementation"	"3" } //2
+	Level { "Subterfuge"	"3" }
+	Level { "Charisma"	"4" }
+	Level { "Appearance"	"4" }
+	Level { "Corpus_Vampirus"	"4" } //1
+	Level { "Dementation"	"4" } //2
+	Level { "Auspex"	"3" }
+	Level { "Perception"	"3" }
+	Level { "Firearms"	"3" }
+	Level { "Manipulation"	"2" }
+	Level { "Intelligence"	"3" }
+	Level { "Subterfuge"	"4" }
+	Level { "Appearance"	"5" }
+	Level { "Auspex"	"4" }
+	Level { "Corpus_Vampirus"	"5" } //1
+	Level { "Charisma"	"5" }
+	Level { "Dementation"	"5" } //2
+	Level { "Perception"	"4" }
+	Level { "Firearms"	"4" }
+	Level { "Academics"	"4" }
+	Level { "Manipulation"	"3" }
+	Level { "Auspex"	"5" }
+	Level { "Intelligence"	"4" }
+	Level { "Subterfuge"	"5" }
+	Level { "Perception"	"5" }
+	Level { "Academics"	"5" }
+	Level { "Firearms"	"5" }
+}
+
+
+LevelingTemplate
+{
+	"Name"		"Tremere Default"
+	"InternalName"	"Tremere_Default"
+
+	"ClanDependency"	"Player_Tremere" // Nagaraja Fortitude Blood_Healing
+
+	Level { "Wits"		"1" }
+	Level { "Strength"	"1" }
+	Level { "Computer"	"1" }
+	Level { "Intelligence"	"1" }
+	Level { "Academics"	"1" }
+	Level { "Fortitude"	"2" } //1
+	Level { "Melee"		"1" }
+	Level { "Charisma"	"1" }
+	Level { "Perception"	"1" }
+	Level { "Protean"	"2" } //2
+	Level { "Wits"		"2" }
+	Level { "Computer"	"2" }
+	Level { "Intimidation"	"1" }
+	Level { "Fortitude"	"3" } //1
+	Level { "Intelligence"	"2" }
+	Level { "Charisma"	"2" }
+	Level { "Dodge"		"1" }
+	Level { "Academics"	"2" }
+	Level { "Auspex"	"2" }
+	Level { "Strength"	"2" }
+	Level { "Melee"		"2" }
+	Level { "Protean"	"3" } //2
+	Level { "Auspex"	"3" }
+	Level { "Perception"	"2" }
+	Level { "Intimidation"	"2" }
+	Level { "Intelligence"	"3" }
+	Level { "Charisma"	"3" }
+	Level { "Fortitude"	"4" } //1
+	Level { "Wits"		"3" }
+	Level { "Computer"	"3" }
+	Level { "Dodge"		"2" }
+	Level { "Intelligence"	"4" }
+	Level { "Academics"	"3" }
+	Level { "Protean"	"4" } //2
+	Level { "Auspex"	"4" }
+	Level { "Strength"	"3" }
+	Level { "Melee"		"3" }
+	Level { "Fortitude"	"5" } //1
+	Level { "Intimidation"	"3" }
+	Level { "Charisma"	"4" }
+	Level { "Perception"	"3" }
+	Level { "Wits"		"4" }
+	Level { "Computer"	"4" }
+	Level { "Academics"	"4" }
+	Level { "Strength"	"4" }
+	Level { "Melee"		"4" }
+	Level { "Wits"		"5" }
+	Level { "Intimidation"	"4" }
+	Level { "Protean"	"5" } //2
+	Level { "Intelligence"	"5" }
+	Level { "Auspex"	"5" }
+	Level { "Charisma"	"5" }
+	Level { "Perception"	"4" }
+	Level { "Strength"	"5" }
+	Level { "Dodge"		"3" }
+	Level { "Melee"		"5" }
+	Level { "Academics"	"5" }
+}
+
+
+LevelingTemplate
+{
+	"Name"		"Ventrue Default"
+	"InternalName"	"Ventrue_Default"
+
+	"ClanDependency"	"Player_Ventrue" // Giovanni
+
+	Level { "Manipulation"	"1" }
+	Level { "Protean"	"2" } //1
+	Level { "Perception"	"1" }
+	Level { "Intelligence"	"1" }
+	Level { "Academics"	"1" }
+	Level { "Charisma"	"1" }
+	Level { "Intimidation"	"1" }
+	Level { "Manipulation"	"1" }
+	Level { "Firearms"	"1" }
+	Level { "Dominate"	"2" }
+	Level { "Intelligence"	"2" }
+	Level { "Manipulation"	"2" }
+	Level { "Wits"		"1" }
+	Level { "Finance"	"2" }
+	Level { "Intimidation"	"2" }
+	Level { "Charisma"	"2" }
+	Level { "Protean"	"3" } //1
+	Level { "Academics"	"2" }
+	Level { "Potence"	"2" } //2
+	Level { "Finance"	"3" }
+	Level { "Perception"	"2" }
+	Level { "Firearms"	"2" }
+	Level { "Dominate"	"3" }
+	Level { "Wits"		"2" }
+	Level { "Academics"	"3" }
+	Level { "Manipulation"	"3" }
+	Level { "Potence"	"3" } //2
+	Level { "Charisma"	"3" }
+	Level { "Wits"		"2" }
+	Level { "Dominate"	"4" }
+	Level { "Perception"	"3" }
+	Level { "Firearms"	"3" }
+	Level { "Intimidation"	"3" }
+	Level { "Intelligence"	"4" }
+	Level { "Finance"	"4" }
+	Level { "Protean"	"4" } //1
+	Level { "Potence"	"4" } //2
+	Level { "Charisma"	"4" }
+	Level { "Dominate"	"5" }
+	Level { "Protean"	"5" } //1
+	Level { "Intelligence"	"5" }
+	Level { "Academics"	"4" }
+	Level { "Perception"	"4" }
+	Level { "Firearms"	"4" }
+	Level { "Wits"		"3" }
+	Level { "Manipulation"	"5" }
+	Level { "Intimidation"	"4" }
+	Level { "Charisma"	"5" }
+	Level { "Finance"	"5" }
+	Level { "Potence"	"5" } //2
+	Level { "Academics"	"5" }
+	Level { "Perception"	"5" }
+	Level { "Firearms"	"5" }
+}
+
+
+// ---------------------
+// ---------------------
+
+
+// Other examples...
+LevelingTemplate
+{
+	"Name"		"General"
+	"InternalName"	"General"
+
+	Level { "Strength"	"5" }
+}
+
+
+// ---------------------
+// ---------------------
+}

@@ -1,0 +1,124 @@
+// Primary Sound Schemes
+
+SoundSchemeTables
+{
+	SoundScheme
+	{
+		"Name"			"Weapons"
+		"InternalName"		"Weapons"
+
+// Each can have multiples "_#"
+// Basic Sub-folders "Melee", "Ranged" (& "Thrown"?)
+// Each can be overridden by sub-dirs ( "Anaconda", "Assault_Rifle", "Crossbow" for ex. )
+//    and sub-sub directories ( "View_Override" & "Wield_Override" )
+
+//SoundName( pEntity, "Attack", "View" = "Wield" )
+//{
+//	char *sz	= pEntity->SoundSchemeName();
+//}
+
+
+		SoundList
+		{
+			Sound
+			{
+				"Name"	"Attack_1"
+//				"Activity"	"ACT_RANGE_ATTACK1"
+			}
+
+			Sound
+			{
+				"Name"	"Attack_2"
+//				"Activity"	"ACT_RANGE_ATTACK2"
+			}
+
+			Sound
+			{
+				"Name"	"Botch"
+//				"Activity"	"ACT_VM_BOTCH"
+			}
+
+			Sound
+			{
+				"Name"	"Deploy"
+//				"Activity"	"ACT_VM_DRAW"
+//				"Activity"	"ACT_VM_DRAW2"
+			}
+
+			Sound
+			{
+				"Name"	"Detonation"
+			}
+
+			Sound
+			{
+				"Name"	"Empty"
+//				"Activity"	"ACT_VM_DRYFIRE"
+//				"Activity"	"ACT_VM_DRYFIRE2"
+			}
+
+			Sound
+			{
+				"Name"	"Fidget"
+//				"Activity"	"ACT_VM_IDLE"  //???
+			}
+
+			Sound
+			{
+				"Name"	"Put_Away"
+//				"Activity"	"ACT_VM_HOLSTER"
+			}
+
+			Sound
+			{
+				"Name"	"Reload"
+//				"Activity"	"ACT_VM_RELOAD"
+//				"Activity"	"ACT_VM_RELOAD2"
+			}
+
+			Sound
+			{
+				"Name"	"To_Mode1"
+//				"Activity"	"ACT_VM_TOPRIMARY1"
+			}
+
+			Sound
+			{
+				"Name"	"To_Mode2"
+//				"Activity"	"ACT_VM_TOPRIMARY2"
+			}
+
+			Sound
+			{
+				"Name"	"Zoom"
+//				"Activity"	""
+			}
+
+
+// Melee
+			Sound
+			{
+				"Name"	"Swish"
+//				"Activity"	""
+			}
+
+
+// Ejection Sounds
+			Sound
+			{
+				"Name"	"Drop_Clip"
+//				"Activity"	""
+			}
+			Sound
+			{
+				"Name"	"Drop_Shell"
+//				"Activity"	""
+			}
+			Sound
+			{
+				"Name"	"Drop_Shotgun_Shell"
+//				"Activity"	""
+			}
+		}
+	}
+}

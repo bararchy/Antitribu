@@ -1,0 +1,39 @@
+CameraShotTable
+{
+	// This is the default camera that is used when dialog begins. 
+	tTherese
+	{
+		End
+		{
+			"Position"		"DialogTarget"
+			"AttachPos"		"Origin"
+			"AttachType"		"Follow"
+			"OffsetOrigin"		"[21, -13, 59]"	 
+		}
+
+		Target	
+		{
+			Point1
+			{
+				"Position"	"DialogTarget"
+				"AttachPos"	"Bone: Bip01 Neck"
+				"AttachType"	"None"
+			}
+
+		}
+
+		CameraConstraints
+		{
+			"MoveSpeed"		"500"
+			"MoveAccel"		"250"
+			"TurnAccel"		"30"
+			"MaxTurnRate"		"[60, 60, 60]"	
+			"DistanceTolerance"	"7"
+			"AngularTolerance"	"[5, 5, 5]"	
+			"FieldOfView"		"75"
+			"DialogPOV"		"0"
+			"SnapOnShotChange"	"1"
+		}
+	}
+
+}

@@ -1,0 +1,37 @@
+CameraShotTable
+{
+	Gary_Left
+	{
+		End
+		{
+			"Position"	"Player"
+			"AttachPos"	"EyePosition"
+			"AttachType"	"Follow"
+		}		
+
+		Target
+		{
+			Point1
+			{
+				"Position"	"Named"
+				"AttachPos"	"Center"
+				"AttachType"	"None"
+			}	
+		}
+	
+		CameraConstraints
+		{
+				"MoveSpeed"		"500"
+				"MoveAccel"		"250"
+				"TurnAccel"		"30"
+				"MaxTurnRate"		"[60, 60, 60]"	
+				"DistanceTolerance"	"5"
+				"AngularTolerance"	"[10, 10, 10]"	
+				"FieldOfView"		"40"
+				"DialogPOV"		"1"
+				"SyncRotateOnMove"	"1"
+		}
+	
+
+	}
+}

@@ -1,0 +1,98 @@
+// Tzimisce Melee; TEST
+
+WeaponData
+{
+	"printname"		"Tzimicse weakness"
+	"description"		""
+
+	"viewmodel"            "models/weapons/w_null.mdl"
+	"playermodel"          "models/weapons/w_null.mdl"
+	"wieldmodel_f"         "models/weapons/w_null.mdl"
+	"wieldmodel_m"         "models/weapons/w_null.mdl"
+	"anim_prefix"          ""
+
+	"impact_snd_group"	"fist"
+
+	"bucket"               	"0"
+	"bucket_position"      	"1"
+
+	"weight"               	"10"
+	"item_flags"           	"1"
+	"item_type"		"hidden"
+	"item_worth"           	"0"
+//	"equip_mask"		"ClawedForm"
+
+	"is_stackable"		"1"
+	"stack_limit"		"1"
+
+	"is_visible_in_hud"    	"0"
+	"is_droppable"		"0"
+	"is_wieldable"		"0"
+	//"equip_effect"		"item (cursed land helper)"
+
+	SoundData
+	{
+		"swish"
+		{
+			"sound1"	"Weapons/Melee/Fists/Swish_1.wav"
+			"sound2"	"Weapons/Melee/Fists/Swish_2.wav"
+			"sound3"	"Weapons/Melee/Fists/Swish_3.wav"
+		}
+
+		"stealth_kill_success"
+		{
+			"sound1"	"Weapons/Melee/Fists/Stealth_Kill_Success.wav"
+		}
+
+		"stealth_kill_failure"
+		{
+			"sound1"	"Weapons/Melee/Fists/Stealth_Kill_Failure.wav"
+		}
+	}
+
+	Activation
+	{
+		"Tag"              "Primary"
+		"Type"             "Attack"
+		"Ammo_Type"        "None"
+		"Ammo_Cost"        "0"
+		"Botch_Table"      "Fists_Claws_Bite"
+		"Attack_Rate"      "0.5"
+		"Range"            "0"
+
+		"SkillRequirement"	"8"	
+		"BaseLethality"		"15"		
+		"Dmg"              	"1 Aggravated Close_Combat_Brawl DMG_SUPERCLAWBITE"
+
+		"ImpactForceMin"   	"64.0"
+		"ImpactForceMax"   	"128.0"
+		"CriminalLevel"		"5"
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"		"hud/Inventory_Images/Temp_Inven"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"		"hud/Inventory_Images/Temp_Inven"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+	}
+}

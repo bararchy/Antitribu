@@ -1,0 +1,28 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Safe Area:
+The Masquerade symbol indicates that you are in a safe area. This is the realm of mortals, where it is most important that you hide your nature.
+Cities and other safe areas make abundant hunting grounds for Kindred. If you feed in a safe area, quarry your prey in the dark corners where passersby won't see you.
+If you are able to seduce your prey, mortals will dismiss your feeding as a lovers' embrace.
+Police patrol safe areas. If humans see criminal acts taking place, such as picking locks, brandishing weapons, or attacking innocent humans, they will not hesitate to call the police.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

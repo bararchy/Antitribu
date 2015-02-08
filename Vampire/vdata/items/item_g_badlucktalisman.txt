@@ -1,0 +1,62 @@
+// Artifact
+WeaponData
+{
+	"infomodel"	"models/items/Talisman/info/Talisman.mdl"
+	"playermodel"	"models/items/Talisman/ground/Talisman.mdl"
+	"anim_prefix"	" "
+
+	"printname"	"Bad Luck Talisman"
+	"description"	"A talisman that Mr. Ox asked you to put in a marked locker at the Lotus Blossom.
+			Holding this foul charm increases your Intimidation by 1, but reduces Charisma by 1."
+
+	"bucket"		"1"
+	"bucket_position"	"2"
+
+	"camera_class"		"noswitch"
+	"weight"		"3"
+	"item_flags"		"1"
+	"item_type"		"generic"
+	"item_worth"		"200"
+
+	"is_visible_in_hud"	"1"
+	"is_droppable"		"1"
+	"is_wieldable"		"0"
+
+	"equip_effect"		"Item (Bad Luck Talisman)"
+	"knowledge_min"		"3"
+
+	SoundData
+	{
+		"pickup"
+		{
+			"sound1"	"items/Key/Pickup.wav"
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/Talisman_sel"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/Talisman"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+	}
+}

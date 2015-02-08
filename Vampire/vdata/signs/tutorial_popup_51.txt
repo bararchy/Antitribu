@@ -1,0 +1,30 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Dominate:
+Clan Tremere's fearsome power does not stop at Thaumaturgy. The Tremere also has the formidable vampiric Discipline of Dominate in his arsenal. Through sheer force of will, the Tremere can manipulate the minds of others, uprooting their mental wiring, even forcing them to do the Tremere's bidding.
+The individual levels of Dominate each have their own unique effects.
+Level One: Trance
+With Trance, the Tremere can incapacitate targets from a distance. Only strong-willed supernatural beings can resist its effects. The Trance is fragile, however; if the Tremere touches, attacks, or otherwise disturbs the tranced individual, the effect will end prematurely.
+Trance, and all other Dominate effects, have the advantage of being covert actions. The Tremere can Dominate a victim with nothing more than a gaze. Dominate therefore carries no risk of violating the Masquerade. Thaumaturgy, on the other hand, with its spectacular supernatural effects, is clearly a violation of the Masquerade, and must be used with discretion.
+The individual levels of Dominate carry different costs. Trance costs 1 blood point. To use Trance, scroll to it using the ] and [ keys (by default) or with the mouse wheel, target your enemy, then use the Power key (default right-click) to activate it.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

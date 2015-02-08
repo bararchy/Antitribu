@@ -1,0 +1,57 @@
+// quest staff
+WeaponData
+{
+	"infomodel"	"models/items/beckett_key/Info/item_i_beckett_key.mdl"
+	"playermodel"	"models/items/beckett_key/Ground/item_g_beckett_key.mdl"
+	"anim_prefix"	" "
+
+	"printname"	"Library Card"
+	"description"	"This card gives you access to all the online information stored at the LA Public Library. But who would need that right now?"
+
+	"bucket"		"1"
+	"bucket_position"	"2"
+
+	"camera_class"		"noswitch"
+	"weight"		"3"
+	"item_flags"		"1"
+	"item_type"		"generic"
+	"item_worth"		"0"
+	"is_visible_in_hud"	"1"
+	"is_droppable"		"1"
+	"is_wieldable"		"0"
+
+	SoundData
+	{
+		"pickup"
+		{
+			"sound1"	"items/card/Pickup.wav"
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/beckett_key_sel"
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/beckett_key"
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+	}
+}

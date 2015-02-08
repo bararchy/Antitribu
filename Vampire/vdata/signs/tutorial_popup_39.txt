@@ -1,0 +1,28 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Damage types:
+Different attacks do different types of damage.
+Bashing damage is damage from fists and blunt instruments, such as bats or police batons. Mortals can Soak bashing damage, and bashing damage presents only a minor threat to vampires. Against the undead body of a vampire, bullets deal bashing damage.
+Lethal damage is more serious. Bladed weapons deal lethal damage. Humans are defenseless against lethal damage unless they wear body armor. Vampires may defend against lethal damage attacks, but are unable to Soak it. Bullets deal lethal damage to mortals.
+Aggravated damage is deathly serious. Fire, electricity, claws, and fangs deal aggravated damage. Vampires can sometimes defend against aggravated damage attacks, but can only Soak it if the have invoked the vampiric Discipline of Fortitude. Sunlight deals massive amounts of aggravated damage to vampires.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

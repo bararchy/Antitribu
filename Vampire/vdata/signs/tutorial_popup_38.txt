@@ -1,0 +1,29 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Unarmed Combat:
+When attacking an enemy with fists or claws, your Brawl feat is compared against your enemy's Defense feat. The higher your Brawl feat, the better your chance to hit, and the more damage you will do.
+The Brawl feat also makes it easier to feed while in combat. Feeding while in combat is more difficult, and can be interrupted should the vampire suffer damage.
+Use the Attack key (default left-click) to attack with your fists. Melee and unarmed attacks are always done from a third-person camera perspective. Use the toggle 1st/3rd person view key (default T) to toggle camera views.
+Soak:
+Soak is a special feat derived from Stamina and any armor a combatant may be wearing. A combatant's Soak feat gives them a chance to ignore damage from an attack. Vampires have superior abilities and can soak damage from bullets. Soak happens automatically whenever a combatant takes damage.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

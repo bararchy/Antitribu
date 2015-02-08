@@ -1,0 +1,40 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/disciplines"
+//		"Tiled"		"0"
+		"XPos"		"1"
+		"YPos"		"1"
+		"Wide"		"1024"
+		"Tall"		"1024"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"There is a guard up ahead. Use Obtenebration to distract and kill him.
+You have level one Obtenebration, known as Shadow Play. Scroll the mouse wheel to select Shadow Play, and use the Power key (default right-click) to activate the Disipline.
+The guard will be distracted by moving black shadow. And you can easily kill him."
+		"Font"		"ParagraphText"
+		"XPos"		"324"
+		"YPos"		"182"
+		"Wide"		"375"
+		"Tall"		"375"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+
+	TextBlock
+	{
+		"Text"		"left-click to continue"
+		"XPos"		"410"
+		"YPos"		"572"
+		"Wide"		"205"
+		"Tall"		"25"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+
+		"Font"		"Trebuchet"
+	}
+}

@@ -1,0 +1,381 @@
+// automat
+WeaponData
+{
+	"printname"	"M16A1 assault rifle"
+	"description"	"The M16 (also M16A1, M16 SP1, XM16E1, AR-15 SP1) is the United States military designation for the AR-15 rifle. Colt purchased the rights to the AR-15 from ArmaLite and currently uses that designation only for semi-automatic versions of the rifle. The M16 rifle fires the 5.56x45mm cartridge and can produce massive wounding effects when the bullet impacts at high velocity and yaws in tissue leading to fragmentation and rapid transfer of energy."
+
+	"viewmodel"	"models/weapons/arsenal_mod/m16/view/v_m16.mdl"
+	"playermodel"	"models/weapons/arsenal_mod/m16/ground/g_m16.mdl"
+	"wieldmodel_f"	"models/weapons/arsenal_mod/m16/wield/w_f_m16.mdl"
+	"wieldmodel_m"	"models/weapons/arsenal_mod/m16/wield/w_m_m16.mdl"
+	"infomodel"	"models/weapons/arsenal_mod/m16/info/i_m16.mdl"
+
+	"origin_x"		"0"
+	"origin_y"		"4"
+	"origin_z"		"68"
+
+	"anim_prefix"		"steyr"
+	"impact_snd_group"	"bullet"
+
+	"activation0"		"single"
+	"activation1"		"Auto"
+	"jammed0"		"Jammed"
+	"jammed1"		"Jammed"
+	"bucket"		"1"
+	"bucket_position"	"7"
+	"camera_class"		"ranged"
+	"weight"		"2"
+	"item_flags"		"0"
+	"item_type"		"weapon_firearm"
+
+	"impact_force"		"2000"
+	"sound_group"		"Assault_Rifle"
+	"uses_accuracycursors"	"1"
+
+	"muzzleflash_particle" 		"w_m16_emitter"
+	"muzzlesmoke_particle" 		"Blank_emitter"
+	"viewmuzzleflash_particle" 	"w_m16_view_emitter"
+	"viewmuzzlesmoke_particle" 	"w_m16_view_emitter-smoke"
+
+	"item_worth"		"206"
+	//"knowledge_min"		"6"
+
+	SoundData
+	{
+		"pickup"
+		{
+			"sound1"	"Weapons\arsenal_mod\ranged\m16\m16_select.wav"
+		}
+	}
+
+//Weapon Ammo
+	Magazine
+	{
+		"ammoprintname"		"5.56 NATO Round"
+		"ammodescription"	"5.56x45mm NATO is a rifle cartridge developed in the United States and originally chambered in the M16 rifle. Under STANAG 4172, it is a standard cartridge for NATO forces as well as many non-NATO countries. It is derived from, but not identical to, the .223 Remington cartridge.
+					Specifications:
+					Bullet weight: 62-63 gr
+					Velocity: 905-940 m/s
+					Energy: 1679-1796 J"
+		"ammo_worth"		"9"
+		"ammoinfomodel"		"models/weapons/arsenal_mod/ammo/m16/i_m16_ammo.mdl"
+
+		"Size"			"25"
+		"Default_Size"		"0"
+		"Dropped_Ammo"		"25"
+		"Type"			"Super_ShotgunRound"
+		"ReloadTime"		"1.0"
+		
+		SoundData
+		{
+			"reload"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/m16/m16_reload.wav"
+			}
+
+			"reload_npc"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/m16/m16_reload.wav"
+			}
+		}
+	}
+
+//Primary Attack
+	Activation
+	{
+		"Tag"			"Primary"
+		"Type"			"Attack"
+		"Ammo_Type"		"Super_ShotgunRound"
+		"Ammo_Cost"		"1"
+		"Botch_Table"		"Bolt_Rifles"
+		"Range"			"200"
+		"allow_autofire"	"0"
+
+		"SkillRequirement"	"7"		
+		"BaseLethality"		"12"		
+		"Dmg"			"3 Lethal Ranged_Combat DMG_BULLET" 
+
+		"Attack_Rate"			"0.40"
+		"NPC_Attack_Rate_Min"		"0.5"	
+		"NPC_Attack_Rate_Max"		"1.05"	 
+		"NPC_Attack_Rate_Base_Range"	"100"						
+
+	// SKS_RANGED
+		"KickPitchMin"		"1.0"
+		"KickPitchMax"		"1.0"
+		"KickYawMin"		"1.0"
+		"KickYawMax"		"1.0"
+		"KickTime"		"0.01"
+
+		"CrosshairMinSize"	"15"	// smallest crosshair size for this activation [0-99]
+		"CrosshairFireSize"	"33"	// size of the crosshair when the gun is fired [0-99]
+		"CrosshairFireSizeMin"	"18"	// MIN size (Firearms 10) of the crosshair when the gun is fired [0-99]
+		"CrosshairWalkSizeMax"	"25"	// max size of the crosshair when the player is walking [0-99]
+		"CrosshairWalkSizeMin"	"18"	// min size of the crosshair when the player is walking [0-99]
+		"CrosshairRunSizeMin"	"20"	// min size of the crosshair when the player is running [0-99]
+		"CrosshairRunSizeMax"	"30"	// max size of the crosshair when the player is running [0-99]
+
+		"CrosshairIncSpeedMin"	"22"	// min speed(10 Firearm Feat) at which to increase bloom -low # slower
+		"CrosshairIncSpeedMax"	"22"	// max speed(1 Firearm Feat) at which to increase bloom -high # faster
+		"CrosshairDecSpeedMin"	"45"	// min speed(1 Firearm Feat) at which to decrease bloom -low # slower
+		"CrosshairDecSpeedMax"	"45"	// max speed(10 Firearm Feat) at which to decrease bloom -high # faster
+		"CrosshairFirePercent"	"0.15"		
+
+//		"MajorKnockbackDist"	"800.0"			
+		"MinorKnockbackDist"	"5.0"	
+
+		"SpreadAngle"		"1.0"
+		"CriminalLevel"		"4"
+		"Accuracy"		"6"
+		"BurstMin"		"6"
+		"BurstMax"		"12"
+
+		SoundData
+		{
+			"empty"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/m16/m16_empty.wav"
+			}
+
+			"attack"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/m16/m16_attack.wav"
+			}
+
+			"attack_npc"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/m16/m16_attack.wav"	
+
+			}
+
+			"deploy"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/m16/m16_select.wav"
+			}
+
+			"put_away"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/m16/m16_deselect.wav"
+			}			
+			
+			"fidget"
+			{
+				"sound1"	"Weapons/Ranged/Fidget.wav"
+			}
+		}
+
+		Tables
+		{
+			Table
+			{
+				"Name"          "WeaponRanges"
+				"InternalName"  "WeaponRanges"
+
+				"Clamping"      "1"
+
+			// point blank 0-80, close 80-110, short/medium 110-220,
+			// meduim 220-370, long 370-650, great 650+
+
+				"0"             "0"         // 5 (bonus)
+				"1"             "0"         // 4 (bonus)
+				"2"             "0"         // 3 (bonus)
+				"3"             "80"        // 2 (bonus)
+				"4"             "120"       // 1 (bonus)
+				"5"             "30000"     // 0 (neutral)
+				"6"             "30000"     //-1 (penalty)
+				"7"             "30000"     //-2 (penalty)
+				"8"             "30000"     //-3 (penalty)
+				"9"             "30000"     //-4 (penalty)
+			}
+		}
+	}
+
+//secondary Attack
+	Activation
+	{
+		"Tag"			"PrimaryMode2"
+		"Type"			"Attack"
+		"Ammo_Type"		"Super_ShotgunRound"
+		"Ammo_Cost"		"1"
+		"Botch_Table"		"Bolt_Rifles"
+		"allow_autofire"	"1"
+
+		"SkillRequirement"	"7"		
+		"BaseLethality"		"12"		
+		"Dmg"			"3 Lethal Ranged_Combat DMG_BULLET" 
+
+		"Attack_Rate"			"0.12"
+		"NPC_Attack_Rate_Min"		"0.5"	
+		"NPC_Attack_Rate_Max"		"1.2"	 
+		"NPC_Attack_Rate_Base_Range"	"100"	
+							
+	// SKS_RANGED
+		"KickPitchMin"			"1.0"
+		"KickPitchMax"			"1.00"
+		"KickYawMin"			"1.0"
+		"KickYawMax"			"1.0"
+		"KickTime"			"0.02"
+
+		"CrosshairMinSize"	"15"	// smallest crosshair size for this activation [0-99]
+		"CrosshairFireSize"	"33"	// size of the crosshair when the gun is fired [0-99]
+		"CrosshairFireSizeMin"	"18"	// MIN size (Firearms 10) of the crosshair when the gun is fired [0-99]
+		"CrosshairWalkSizeMax"	"25"	// max size of the crosshair when the player is walking [0-99]
+		"CrosshairWalkSizeMin"	"18"	// min size of the crosshair when the player is walking [0-99]
+		"CrosshairRunSizeMin"	"20"	// min size of the crosshair when the player is running [0-99]
+		"CrosshairRunSizeMax"	"30"	// max size of the crosshair when the player is running [0-99]
+
+		"CrosshairIncSpeedMin"	"22"	// min speed(10 Firearm Feat) at which to increase bloom -low # slower
+		"CrosshairIncSpeedMax"	"22"	// max speed(1 Firearm Feat) at which to increase bloom -high # faster
+		"CrosshairDecSpeedMin"	"45"	// min speed(1 Firearm Feat) at which to decrease bloom -low # slower
+		"CrosshairDecSpeedMax"	"45"	// max speed(10 Firearm Feat) at which to decrease bloom -high # faster
+		"CrosshairFirePercent"	"0.15"		
+
+		"SpreadAngle"		"1.0"
+		"CriminalLevel"		"4"
+		"Accuracy"		"6"
+		"BurstMin"		"6"
+		"BurstMax"		"12"
+
+		SoundData
+		{
+			"empty"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/m16/m16_empty.wav"
+			}
+
+			"attack"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/m16/m16_attack.wav"
+			}
+
+			"attack_npc"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/m16/m16_attack.wav"	
+
+			}
+
+			"deploy"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/m16/m16_select.wav"
+			}
+
+			"put_away"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/m16/m16_deselect.wav"
+			}			
+			
+			"fidget"
+			{
+				"sound1"	"Weapons/Ranged/Fidget.wav"
+			}
+		}
+		
+		Tables
+		{
+			Table
+			{
+				"Name"          "WeaponRanges"
+				"InternalName"  "WeaponRanges"
+
+				"Clamping"      "1"
+
+				"0"             "0"         // 5 (bonus)
+				"1"             "0"         // 4 (bonus)
+				"2"             "0"         // 3 (bonus)
+				"3"             "0"         // 2 (bonus)
+				"4"             "30000"     // 1 (bonus)
+				"5"             "30000"     // 0 (neutral)
+				"6"             "30000"     //-1 (penalty)
+				"7"             "30000"     //-2 (penalty)
+				"8"             "30000"     //-3 (penalty)
+				"9"             "30000"     //-4 (penalty)
+			}
+		}
+	}
+
+//Toggle Firing Mode
+	Activation
+	{
+		"Tag"		"Secondary"
+		"Type"		"Toggle_Primary_Mode"
+		"Attack_Rate"	".3"
+
+		SoundData
+		{
+			"to-mode1"
+			{
+				"sound1"	"weapons/Ranged/Uzi/To_Mode1.wav"
+			}
+
+			"to_mode2"
+			{
+				"sound1"	"weapons/Ranged/Uzi/To_Mode2.wav"
+
+			}
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/Weapons_Ranged/m16_Sel"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/Weapons_Ranged/m16"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"ammo"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/weapons_ranged/ammo/m16_ammo"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"ammo2"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/weapons_ranged/ammo/m16_ammo_SEL"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+	// Accuracy Crosshairs
+		"Acc_Crosshair00"		"hud/Crosshairs/Crosshair_01"
+		"Acc_Crosshair01"		"hud/Crosshairs/Crosshair_02"
+		"Acc_Crosshair02"		"hud/Crosshairs/Crosshair_03"
+		"Acc_Crosshair03"		"hud/Crosshairs/Crosshair_04"
+		"Acc_Crosshair04"		"hud/Crosshairs/Crosshair_05"
+		"Acc_Crosshair05"		"hud/Crosshairs/Crosshair_06"
+		"Acc_Crosshair06"		"hud/Crosshairs/Crosshair_07"
+		"Acc_Crosshair07"		"hud/Crosshairs/Crosshair_08"
+		"Acc_Crosshair08"		"hud/Crosshairs/Crosshair_09"
+		"Acc_Crosshair09"		"hud/Crosshairs/Crosshair_10"
+		"Interactive_Crosshair"		"hud/Crosshairs/Crosshair_Interactive"
+	}
+}

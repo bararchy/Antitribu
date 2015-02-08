@@ -1,0 +1,52 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/disciplines"
+//		"Tiled"		"0"
+		"XPos"		"1"
+		"YPos"		"1"
+		"Wide"		"1024"
+		"Tall"		"1024"
+	}
+
+	Label
+	{
+		"Text"				"empty"
+		"Alignment"			"center"
+		"Font"				"Newsprint"
+		"XPos"				"444"
+		"YPos"				"177"
+		"Wide"				"128"
+		"Tall"				"128"
+		"TextRGBA"			"[0,0,0,136]"
+		"BackgroundRGBA"		"[8,8,8,1]"
+		"Image"				"hud\Disciplines\blood_strength_base"
+	}
+
+	TextBlock
+	{
+		"Text"		"Blood Buff is another ability common to all vampires. Scroll the mouse wheel to select Blood Buff, and use the Power key (default right-click) to activate it. 
+Blood Buff gives you a temporary bonus to all of your physical attributes. It is useful in a variety of situations, like picking a lock that would otherwise be too difficult. Note: in Elysium areas, you can use Blood Buff while picking a lock only."	// changed by wesp
+		"Font"		"ParagraphText"
+		"XPos"		"324"
+		"YPos"		"307"
+		"Wide"		"375"
+		"Tall"		"253"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+
+	TextBlock
+	{
+		"Text"		"left-click to continue"
+		"XPos"		"410"
+		"YPos"		"572"
+		"Wide"		"205"
+		"Tall"		"25"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+
+		"Font"		"Trebuchet"
+	}
+}

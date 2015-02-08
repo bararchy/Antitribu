@@ -1,0 +1,58 @@
+// key ring
+WeaponData
+{
+	"infomodel"	"models/items/Key/Info/Info_Key.mdl"
+	"playermodel"	"models/items/Key/Ground/Key.mdl"
+	"anim_prefix"	" "
+
+	"printname"	"Key Ring"
+	"description"	"Key Ring"
+
+	"bucket"		"1"
+	"bucket_position"	"2"
+
+	"camera_class"		"noswitch"
+	"weight"		"3"
+	"item_flags"		"1"
+	"item_type"		"generic"
+	"item_worth"		"0"
+	"is_visible_in_hud"		"1"
+	"is_droppable"			"0"
+	"is_wieldable"			"0"
+	"permanent_inventory"		"1"
+
+	SoundData
+	{
+		"pickup"
+		{
+			"sound1"	"items/Key/Pickup.wav"
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/key_sel"
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/key"
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+	}
+}

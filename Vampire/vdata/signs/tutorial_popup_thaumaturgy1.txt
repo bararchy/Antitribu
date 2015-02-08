@@ -1,0 +1,54 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/general"
+//		"Tiled"		"0"
+		"XPos"		"1"
+		"YPos"		"1"
+		"Wide"		"1024"
+		"Tall"		"1024"
+	}
+
+	Label
+	{
+		"Text"				"empty"
+		"Alignment"			"center"
+		"Font"				"Newsprint"
+		"XPos"				"444"
+		"YPos"				"187"
+		"Wide"				"128"
+		"Tall"				"128"
+		"TextRGBA"			"[0,0,0,136]"
+		"BackgroundRGBA"		"[8,8,8,1]"
+		"Image"				"hud\Disciplines\tanatosis_base"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Thanatosis Samedi's unique discipline manipulating effects of death and decomposition.
+Thanatosis is a targeted discipline. The effect and its length varies with each level.
+Use of Thanatosis is a Masquerade violation."
+		"Font"		"ParagraphText"
+		"XPos"		"324"
+		"YPos"		"332"
+		"Wide"		"375"
+		"Tall"		"223"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+
+	TextBlock
+	{
+		"Text"		"left-click to continue"
+		"XPos"		"410"
+		"YPos"		"572"
+		"Wide"		"205"
+		"Tall"		"25"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+
+		"Font"		"Trebuchet"
+	}
+}

@@ -1,0 +1,3936 @@
+// Primary Clan Docs
+
+ClanDataTables
+{
+// VCLAN 0 = None (Clear)
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"Clear"
+			"Name"			"None"
+			"Description"		"None"
+		}
+
+		General
+		{
+			"Clan"			"None"
+			"M_Body"		"models/character/pc/male/brujah/armor0/brujah_male_armor_0.mdl"
+			"F_Body"		"models/character/pc/female/brujah/armor0/brujah_female_armor_0.mdl"
+			"Gender"		"Male, Female"
+			"Kindred"		"0"
+			"Supernatural"		"0"
+			"Boss"			"0"
+			"ClanIcon"		"cm_clan_symbol_mercenary"
+			"Is_BlueBlood"		"0"
+			"SoundGroup"		""
+			"DeathGib"		"models/gibs/hgibs.mdl"
+		}
+
+		Attributes
+		{
+			"Strength"				"1"
+			"Dexterity"				"1"
+			"Stamina"				"1"
+			"Charisma"				"1"
+			"Manipulation"				"1"
+			"Appearance"				"1"
+			"Perception"				"1"
+			"Intelligence"				"1"
+			"Wits"					"1"
+// Warning: Don't modify this template! It needs to match Stats.txt defaults!
+//	Instead, modify individual templates (or make a central one that they all share).
+//			"Max_Health"				"10"
+			"BloodPool"				"10"
+			"FaithPoints"				"15"
+			"Starting_Equipment"			"Default"
+			"Excluded_Equipment"			"Default"
+		}
+
+		Abilities
+		{
+			"Brawl"					"0"
+			"Dodge"					"0"
+			"Intimidation"				"0"
+			"Subterfuge"				"0"
+			"Firearms"				"0"
+			"Melee"					"0"
+			"Security"				"0"
+			"Stealth"				"0"
+			"Computer"				"0"
+			"Finance"				"0"
+			"Investigation"				"0"
+		}
+
+		Numina
+		{
+		}
+
+		Resistances
+		{
+			// Possibilities are: "None", "Partial", "Full"
+			// Ones that support damages can have their damages overridden via "Partial DMG: 3" for example
+
+		// Dementation:
+			"Veil of Madness"	""
+			"The Haunting"		""
+			"Voice of Madness"	""
+			"Waking Nightmare"	""
+			"Total Insanity"	""
+
+		// Dominate:
+			"Calm"			""
+			"Dance"			""
+			"Follow"		""
+			"Hide"			""
+			"Jump"			""
+			"Leave"			""
+			"Mesmerize"		""
+			"Sleep"			""
+			"Impose Will"		""	// DMG
+			"Possession"		""
+
+		// Thaumaturgy:
+			"Blood Malady"		""
+			"Bloody Eye"		""
+			"Theft of Vitae"	""
+			"Blood Purge"		""	
+			"Blood Boil"		""	// DMG
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"0"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"0"
+			}
+
+			From
+			{
+			}
+		}
+	}
+
+// VCLAN 1 = None (Human)
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"Human"
+			"Name"			"None"
+			"Description"		"A normal human being."
+		}
+
+		General
+		{
+			"Clan"			"None"
+			"M_Body"		"models/character/pc/male/brujah/armor0/brujah_male_armor_0.mdl"
+			"F_Body"		"models/character/pc/female/brujah/armor0/brujah_female_armor_0.mdl"
+			"Gender"		"Male, Female"
+			"Kindred"		"0"
+			"ClanIcon"		"cm_clan_symbol_mercenary"
+			"Is_BlueBlood"		"0"
+			"SoundGroup"		""
+		}
+
+		Attributes
+		{
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+			"BloodPool"		"10"
+			"FaithPoints"		"0"
+			"Starting_Equipment"	"Default"
+			"Excluded_Equipment"	"Default"
+		}
+
+		Abilities
+		{
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+		}
+
+		Numina
+		{
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"0"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"0"
+			}
+
+			From
+			{
+			}
+		}
+	}
+
+// VCLAN 2 = Brujah // Lasombra
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"Player_Brujah"
+			"Name"				"Lasombra"
+			"Description"			"Clan Lasombra consists of social Darwinists, priding themselves on strength, elegance, efficiency and ruthlessness. The Lasombra consider mortals and other Cainites alike to be little more than pawns in the nightly Jyhad. Murder, violence, a lust for blood... Why shun them, ask the Lasombra? Does the lion weep for the lamb? In contrast to the Tzimisce, they do not shun the living, instead tugging at their strings in the hopes of outwitting their hated enemy, the Ventrue."
+			"ShortDescription"		"
+Keepers: aggressive manipulators, masters of shadows"
+			"ShortPenaltyDescription"	"Lasombra cast no reflection. Any reflective surface has a chance of betraying a Lasombra’s nature."
+		}
+
+		General
+		{
+			"Clan"			"Brujah"
+			"M_Body0"		"models/character/pc/male/lasombra/lasombra_male_armor_0.mdl"
+			"M_Body1"		"models/character/pc/male/lasombra/lasombra_male_armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/lasombra/lasombra_male_armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/lasombra/lasombra_male_armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/lasombra/lasombra_male_armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/lasombra/lasombra_male_armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/lasombra/lasombra_female_armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/lasombra/lasombra_female_armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/lasombra/lasombra_female_armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/lasombra/lasombra_female_armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/lasombra/lasombra_female_armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/lasombra/lasombra_female_armor_3.mdl"
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, All-Star Athlete, Black-Hearted, Avid RPG Fan, Academic, Ex-cop, Perv, Deaf"
+			"ClanEffect"		"Clan (lasombra)"
+			"FrenzyEffect"		"Frenzy (Gangrel)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_lasombra"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"1"
+			"Is_BlueBlood"		"0"
+			"SoundGroup"		""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"	"Physical_Social_Mental"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Player_Kindred"
+			"Excluded_Equipment"	"Default"
+			"Experience"		"0"
+
+			"CharGen_AutoLevel_Template"	"Brujah_CharGen"
+			"Default_AutoLevel_Template"	"Brujah_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"	"Talents_Skills_Knowledges"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+		}
+
+		Disciplines
+		{
+			"Blood_Healing"		"1"	//Obtenebration
+			"Dominate"		"1"
+			"Potence"		"1"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+20"
+				"Gangrel"		"+10"
+				"Malkavian"		"+15"
+				"Nosferatu"		"+40"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"-15"
+			}
+		}
+	}
+
+// VCLAN 3 = Gangrel
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"Player_Gangrel"
+			"Name"				"Followers of Set"
+			"Description"			"A clan of vampires who believe their founder was the Egyptian god Set. Orthodox Setite belief dictates that Set will one day return to rule or consume the world, and devout Setites prepare the way for his resurrection. To this end, the clan remains independent of the Sects of other Kindred, and practice, with great skill, the arts of corruption, deceit and ancient sorcery."	
+			"ShortDescription"		"Serpents: Corrupters and cultists, come from ancient Egypt."	
+			"ShortPenaltyDescription"	"Receive a penalty to Sneaking and Obfuscate depending on the degree of illumination."
+		}
+
+		General
+		{
+			"Clan"			"Gangrel"
+			"M_Body0"		"models/character/pc/male/ravnos/ravnos_male_armor_0.mdl"
+			"M_Body1"		"models/character/pc/male/ravnos/ravnos_male_armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/ravnos/ravnos_male_armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/ravnos/ravnos_male_armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/ravnos/ravnos_male_armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/ravnos/ravnos_male_armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/ravnos/ravnos_female_armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/ravnos/ravnos_female_armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/ravnos/ravnos_female_armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/ravnos/ravnos_female_armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/ravnos/ravnos_female_armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/ravnos/ravnos_female_armor_3.mdl"
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, All-Star Athlete, Close to the Beast, Black-Hearted, Avid RPG Fan, Eco-Terrorist Hacker, Ex-cop, Perv, Deaf"
+			"ClanEffect"		"Clan (Ravnos)"
+			"FrenzyEffect"		"Frenzy (Gangrel)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_ravnos"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"2"
+			"Is_BlueBlood"		"0"
+			"SoundGroup"		""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"		"Social_Mental_Physical"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Player_Kindred"
+			"Excluded_Equipment"	"Default"
+			"Experience"		"0"
+
+			"CharGen_AutoLevel_Template"	"Gangrel_CharGen"
+			"Default_AutoLevel_Template"	"Gangrel_Default"
+		}
+
+		Abilities
+		{
+			//"Ability_Order"	"Skills_Talents_Knowledges"
+			"Ability_Order"		"Talents_Knowledges_Skills"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+		}
+
+		Disciplines
+		{
+			"Obfuscate"		"1"
+			"Animalism"		"1"	//Serpentis
+			"Presence"		"1"	//Chimerstry
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+15"
+				"Gangrel"		"+20"
+				"Malkavian"		"+5"
+				"Nosferatu"		"+30"
+				"Toreador"		"-10"
+				"Tremere"		"-15"
+				"Ventrue"		"-10"
+			}
+		}
+	}
+
+// VCLAN 4 = Malkavian // Old clan Tzimisce
+	ClanData
+	{
+		Text
+		{
+			//"TemplateName"			"Player_Malkavian"
+			"TemplateName"			"Player_Tzimisceoc"
+			"Name"				"Old clan Tzimisce"
+			"Description"			"Old Clan Tzimisce claim the dubious honour of being the “True Tzimisce”, considering the younger practisers of Vicissitude to be apostates and abominations. Few in number and far too choosey of their Childer to indulge in frequent embraces, the remaining members of this bloodline keep the old ways and study the old magic of their homeland in the hope of returning their blood to its once proud glory. Through whispered pacts with ancient spirits these Cainites can learn Koldunic sorcery and turn it to the most noble of goals... Eradicating their ill-begotten, degenerate pretenders."
+			"ShortDescription"		"
+Demons: terrible, evil, feudalist dominators, warlocks"
+			"ShortPenaltyDescription"	"Tzimisce are very territorial and are weakened by long stays away from their havens."
+		}
+
+		General
+		{
+			//"Clan"			"Malkavian"
+			"Clan"			"Condotierre"
+//			"M_Body0"		"models/character/pc/male/ventrue/armor0/ventrue_Male_Armor_0.mdl"
+//			"M_Body1"		"models/character/pc/male/ventrue/armor1/ventrue_Male_Armor_1.mdl"
+//			"M_Body2"		"models/character/pc/male/ventrue/armor2/ventrue_Male_Armor_2.mdl"
+//			"M_Body3"		"models/character/pc/male/ventrue/armor3/ventrue_Male_Armor_3.mdl"
+//			"M_Body4"		"models/character/pc/male/ventrue/armor3/ventrue_Male_Armor_3.mdl"
+//			"M_Body5"		"models/character/pc/male/ventrue/armor3/ventrue_Male_Armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/old_clan_tzimisce/old_clan_female_armor0.mdl"
+			"F_Body1"		"models/character/pc/female/old_clan_tzimisce/old_clan_female_armor1.mdl"
+			"F_Body2"		"models/character/pc/female/old_clan_tzimisce/old_clan_female_armor2.mdl"
+			"F_Body3"		"models/character/pc/female/old_clan_tzimisce/old_clan_female_armor3.mdl"
+			"F_Body4"		"models/character/pc/female/old_clan_tzimisce/old_clan_female_armor3.mdl"
+			"F_Body5"		"models/character/pc/female/old_clan_tzimisce/old_clan_female_armor3.mdl"
+//			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Female"
+//			"History"		"None, Megalomaniac, All-Star Athlete, Subtly Insane, Well Educated, Black-Hearted, Avid RPG Fan, Ex-cop, Perv, Pot Head"
+			"ClanEffect"		"Clan (Old clan tzimisce)"
+			"FrenzyEffect"		"Frenzy (Gangrel)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_octzimisce"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"3"
+			"Is_BlueBlood"		"0"
+			"SoundGroup"		""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"		"Mental_Physical_Social"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			//"Starting_Equipment"	"Player_Kindred"
+			"Starting_Equipment"	"Player_Tzimisceoc"
+			"Excluded_Equipment"	"Default"
+			"Experience"		"0"
+
+			"CharGen_AutoLevel_Template"	"Malkavian_CharGen"
+			"Default_AutoLevel_Template"	"Malkavian_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"	"Knowledges_Skills_Talents"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+		}
+
+		Disciplines
+		{
+			"Auspex"		"1"
+			"Corpus_Vampirus"	"1"	//Animalism
+			"Dominate"		"1"
+			//"Divine_Vision"		"1"	//koldunic
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"+20"
+				"Malkavian"		"+20"
+				"Nosferatu"		"+28"
+				"Toreador"		"0"
+				"Tremere"		"+5"
+				"Ventrue"		"+5"
+			}
+		}
+	}
+
+// VCLAN 5 = Nosferatu
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"Player_Nosferatu"
+			"Name"				"Samedi"
+			"Description"			"The Samedi bloodline may be a branch of Nosferatu, or possibly the result of Giovanni experiments. Nobody is in a hurry to claim these wretches, however. The corpse like Samedi mostly appeared in recent nights around the Caribbean and have the unenvied pleasure of being one of the youngest bloodlines known. Sometimes mistaken for Zombies rather than Vampires, Samedi slough off flesh and decay with every movement. Primarily working for the Camarilla as bodyguards and assassins, the secretive group mostly keep to themselves."
+			"ShortDescription"		"
+Stiffs: Decayed, zombie-like, obsessed with matters of death."	
+			"ShortPenaltyDescription"	"Seduction is impossible for these zombies. Their appearance puts the Masquerade at risk."
+		}
+
+		General
+		{
+			"Clan"			"Nosferatu"
+			"M_Body0"		"models/character/pc/male/samedi/samedi_male_armor0.mdl"
+			"M_Body1"		"models/character/pc/male/samedi/samedi_male_armor1.mdl"
+			"M_Body2"		"models/character/pc/male/samedi/samedi_male_armor2.mdl"
+			"M_Body3"		"models/character/pc/male/samedi/samedi_male_armor3.mdl"
+			"M_Body4"		"models/character/pc/male/samedi/samedi_male_armor3.mdl"
+			"M_Body5"		"models/character/pc/male/samedi/samedi_male_armor3.mdl"
+			"F_Body0"		"models/character/pc/female/samedi/samedi_female_armor0.mdl"
+			"F_Body1"		"models/character/pc/female/samedi/samedi_female_armor1.mdl"
+			"F_Body2"		"models/character/pc/female/samedi/samedi_female_armor2.mdl"
+			"F_Body3"		"models/character/pc/female/samedi/samedi_female_armor3.mdl"
+			"F_Body4"		"models/character/pc/female/samedi/samedi_female_armor3.mdl"
+			"F_Body5"		"models/character/pc/female/samedi/samedi_female_armor3.mdl"
+			"M_Hands"		"models/hands/male/samedi/v_samedi_male_hands.mdl"
+			"F_Hands"		"models/hands/female/samedi/v_samedi_female_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, All-Star Athlete, Well Educated, Presentable, Black-Hearted, Avid RPG Fan, Ex-cop, Pot Head, Deaf"
+			"ClanEffect"		"Clan (samedi)"
+			"FrenzyEffect"		"Frenzy (Gangrel)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_samedi"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"4"
+			"Is_BlueBlood"		"0"
+			"SoundGroup"		""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"		"Physical_Mental_Social"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"0"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Player_Kindred"
+			"Excluded_Equipment"	"Default"
+			"Experience"		"0"
+
+			"CharGen_AutoLevel_Template"	"Nosferatu_CharGen"
+			"Default_AutoLevel_Template"	"Nosferatu_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"	"Skills_Knowledges_Talents"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+		}
+
+		Disciplines
+		{
+			"Thaumaturgy"		"1"	// thanatosis
+			"Protean"		"1"	// necromancy
+			"Obfuscate"		"1"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+8"
+				"Gangrel"		"+27"
+				"Malkavian"		"+10"
+				"Nosferatu"		"+35"
+				"Toreador"		"-27"
+				"Tremere"		"-10"
+				"Ventrue"		"-8"
+			}
+		}
+	}
+
+// VCLAN 6 = Toreador
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"Player_Toreador"
+			"Name"				"Tzimisce"
+			"Description"			"Even by Vampiric standards the Tzimisce are alien and evil. Their signature discipline of Vicissitude permits them to kneed flesh and bone into new shapes and allows them to indulge in altering mortal and immortal alike as their imagination sees fit, creating works of sexual art or beasts fit only for war. Welcoming of guests and polite to a fault, their cordial nature is belied by the screams of torment and dismay that echo up from their palatial homes in the Carpathian mountains."
+			"ShortDescription"		"
+Feinds: secretive, perverted, sculptors of flesh"
+			"ShortPenaltyDescription"	"Tzimisce are very territorial and are weakened by long stays away from their havens."
+		}
+
+		General
+		{
+			"Clan"			"Toreador"
+			"M_Body0"		"models/character/pc/male/tzimisce/tzimisce_male_armor_0.mdl"
+			"M_Body1"		"models/character/pc/male/tzimisce/tzimisce_male_armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/tzimisce/tzimisce_male_armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/tzimisce/tzimisce_male_armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/tzimisce/tzimisce_male_armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/tzimisce/tzimisce_male_armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/tzimisce/tzimisce_female_armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/tzimisce/tzimisce_female_armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/tzimisce/tzimisce_female_armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/tzimisce/tzimisce_female_armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/tzimisce/tzimisce_female_armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/tzimisce/tzimisce_female_armor_3.mdl"
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, Well Educated, Starving Artist, Black-Hearted, Avid RPG Fan, Ex-cop, Perv, Pot Head, Deaf"
+			"ClanEffect"		"Clan (Tzimisce)"
+			"FrenzyEffect"		"Frenzy (Gangrel)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_tzimisce"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"5"
+			"Is_BlueBlood"		"0"
+			"SoundGroup"		""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"		"Physical_Mental_Social"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Player_Kindred"
+			"Excluded_Equipment"	"Default"
+			"Experience"		"0"
+
+			"CharGen_AutoLevel_Template"	"Toreador_CharGen"
+			"Default_AutoLevel_Template"	"Toreador_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"	"Talents_Knowledges_Skills"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+		}
+
+		Disciplines
+		{
+			"Corpus_Vampirus"	"1"	//Animalism
+			"Auspex"		"1"
+			"Dementation"		"1"	//Vicissitude
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+10"
+				"Gangrel"		"+5"
+				"Malkavian"		"+20"
+				"Nosferatu"		"-15"
+				"Toreador"		"+20"
+				"Tremere"		"+5"
+				"Ventrue"		"+20"
+			}
+		}
+	}
+
+// VCLAN 7 = Tremere
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"Player_Tremere"
+			"Name"				"Nagaraja"
+			"Description"			"A mysterious bloodline who are forced to take a pound of flesh for every drop of blood, the Nagaraja are hunted and hates by those few vampires unlucky enough to know of their existence. Scattered and rarer than diamonds, the Nagaraja are the centre of wild rumours and stories involving magicians who command death, Egyptian spirits, mummies and even vampire conspiracies of secret sects and hidden masters. Whatever the truth, their grasp of Necromancy protects the few of them that are ever seen from the claws and fangs of their foes."
+			"ShortDescription"		"
+Cannibals: Eaters of flesh, Necromancers, rulers of Obvilion."
+			"ShortPenaltyDescription"	"To survive the Nagaraja must constantly consume raw, human flesh."
+		}
+
+		General
+		{
+			"Clan"			"Tremere"
+			//"M_Body0"		"models/character/pc/male/nagaraja/nagaraja_male_armor_0.mdl"
+			//"M_Body1"		"models/character/pc/male/nagaraja/nagaraja_male_armor_1.mdl"
+			//"M_Body2"		"models/character/pc/male/nagaraja/nagaraja_male_armor_2.mdl"
+			//"M_Body3"		"models/character/pc/male/nagaraja/nagaraja_male_armor_3.mdl"
+			//"M_Body4"		"models/character/pc/male/nagaraja/nagaraja_male_armor_3.mdl"
+			//"M_Body5"		"models/character/pc/male/nagaraja/nagaraja_male_armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/nagaraja/nagaraja_female_armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/nagaraja/nagaraja_female_armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/nagaraja/nagaraja_female_armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/nagaraja/nagaraja_female_armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/nagaraja/nagaraja_female_armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/nagaraja/nagaraja_female_armor_3.mdl"
+			//"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			//"Gender"		"Male, Female"
+			"Gender"		"Female"
+//			"History"		"None, Megalomaniac, Well Educated, Affinity for Magic, Black-Hearted, Avid RPG Fan, Ex-cop, Perv, Pot Head, Deaf"
+			"ClanEffect"		"Clan (Nagaraja)"
+			"FrenzyEffect"		"Frenzy (Gangrel)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_nagaraja"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"6"
+			"Is_BlueBlood"		"0"
+			"SoundGroup"		""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"		"Mental_Physical_Social"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Player_Kindred"
+			"Excluded_Equipment"	"Default"
+			"Experience"		"0"
+
+			"CharGen_AutoLevel_Template"	"Tremere_CharGen"
+			"Default_AutoLevel_Template"	"Tremere_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"		"Knowledges_Talents_Skills"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+		}
+
+		Disciplines
+		{
+			"Fortitude"		"1"	//Nihilistics
+			"Protean"		"1"	//Necromancy
+			"Auspex"		"1"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+10"
+				"Gangrel"		"-10"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"-10"
+				"Tremere"		"+20"
+				"Ventrue"		"+5"
+			}
+		}
+	}
+
+// VCLAN 8 = Ventrue
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"Player_Ventrue"
+			"Name"				"Giovanni"
+			"Description"			"The wealthy Giovanni family is an incestuous pit of henpecking, one-upmanship, diluted genes and organised crime. Family members in the know scramble to impress the elusive family Elders and Dons in the hope of escaping the fate of all mortals. The Giovanni are gathering more than just money and favours each night, however, and their mastery of Necromancy fills the family closets with literal skeletons and ghosts. Rumours persist that the Clan was born of some great, evil act in the past and only survives the modern nights thanks to a truce with the Camarilla, however the Giovanni have taken the world by the throat during the peace and may not be impossible to dislodge."
+			"ShortDescription"		"
+Necromancers: crime lords, manipulators from a Venetian Necromancer family"
+			"ShortPenaltyDescription"	"
+The bite of a Giovanni brings no pleasure, and the victim struggles, making feeding difficult."
+		}
+
+		General
+		{
+			"Clan"			"Ventrue"
+			"M_Body0"		"models/character/pc/male/giovanni/giovanni_male_armor_0.mdl"
+			"M_Body1"		"models/character/pc/male/giovanni/giovanni_male_armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/giovanni/giovanni_male_armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/giovanni/giovanni_male_armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/giovanni/giovanni_male_armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/giovanni/giovanni_male_armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/giovanni/giovanni_female_armor0.mdl"
+			"F_Body1"		"models/character/pc/female/giovanni/giovanni_female_armor1.mdl"
+			"F_Body2"		"models/character/pc/female/giovanni/giovanni_female_armor2.mdl"
+			"F_Body3"		"models/character/pc/female/giovanni/giovanni_female_armor3.mdl"
+			"F_Body4"		"models/character/pc/female/giovanni/giovanni_female_armor3.mdl"
+			"F_Body5"		"models/character/pc/female/giovanni/giovanni_female_armor3.mdl"
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, Well Educated, Black-Hearted, Avid RPG Fan, Generalissimo, Ex-cop, Perv, Pot Head, Deaf"
+			"ClanEffect"		"Clan (giovanni)"
+			"FrenzyEffect"		"Frenzy (Gangrel)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_giovanni"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"7"
+			"Is_BlueBlood"		"0"
+			"SoundGroup"		""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"		"Mental_Social_Physical"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Player_Kindred"
+			"Excluded_Equipment"	"Default"
+			"Experience"		"0"
+
+			"CharGen_AutoLevel_Template"	"Ventrue_CharGen"
+			"Default_AutoLevel_Template"	"Ventrue_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"		"Knowledges_Talents_Skills"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+		}
+
+		Disciplines
+		{
+			"Dominate"		"1"
+			"Potence"		"1"
+			"Protean"		"1"	//Necromancy
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"-28"
+				"Gangrel"		"-10"
+				"Malkavian"		"+15"
+				"Nosferatu"		"-10"
+				"Toreador"		"+15"
+				"Tremere"		"+5"
+				"Ventrue"		"+20"
+			}
+		}
+	}
+
+// VCLAN 9 = Brujah companion info for ANTITRIBU
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"Leopold1"
+			"Name"				"Brujah"
+			"Description"			"Brujah are passionate idealists and rebels, more likely to fight for their rights than write protest songs. In life, most Brujah sought social change, and in undeath, most clan members commonly seek the creation of a vampiric Utopia. As militant radicals, they are renowned for their combat skills, but are also more likely to frenzy due to their hot-bloodedness, so to speak. They receive a +1 to their Unarmed feat but are penalized with a -2 to all frenzy checks, due to their zealous natures."
+			"ShortDescription"		"
+Rabble: Passionate idealists and rebels. Gains +1 to Unarmed."
+			"ShortPenaltyDescription"	"-2 on all frenzy checks."
+		}
+
+		General
+		{
+			"Clan"				"Condotierre"
+			"M_Hands"			"models/hands/male/brujah/v_brujah_male_hands.mdl"
+			"F_Hands"			"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"			"Male, Female"
+			"ClanEffect"			"Clan (Brujah)"
+			"FrenzyEffect"			"Frenzy(Kindred)"
+			"Kindred"			"1"
+			"ClanIcon"			"cm_clan_symbol_brujah"
+
+			"Supernatural"			"1"
+			"Boss"				"0"
+			"DisciplineStrata"		"0"
+			"SoundGroup"			""
+			"NoBiting"			"1"
+
+			"Disallow_Kindred_Death"	"0"
+			"Has_Burning_Death"		"1"
+
+			"SpawnModel"			"models/character/npc/unique/malkgirl/girl.mdl"	
+		}
+
+		Attributes
+		{
+			"Strength"			"1"
+			"Dexterity"			"1"
+			"Stamina"			"1"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"1"
+			"Intelligence"			"1"
+			"Wits"				"1"
+
+			"BloodPool"			"10"
+			"Generation"			"10"
+			"FaithPoints"			"0"
+
+			"Starting_Equipment"	"Player_Kindred"
+			"Excluded_Equipment"	"Default"
+		}
+
+		Abilities
+		{
+			"Brawl"				"1"
+			"Dodge"				"0"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"0"
+			"Melee"				"1"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"0"
+			"Finance"			"0"
+			"Investigation"			"0"
+			"Academics"			"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+20"
+				"Gangrel"		"+10"
+				"Malkavian"		"+15"
+				"Nosferatu"		"+40"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"-15"
+			}
+		}
+	}
+
+// VCLAN 10 = Malkavian companion info for ANTITRIBU
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"Leopold2"
+			"Name"				"Malkavian"
+			"Description"			"Malkavians are known as Lunatics because of their ability to hear voices of \"insight\" and subject others to their insanity through their Discipline, Dementation. The world appears much different to the Malkavian than it does to the \"sane\" clans, though the extent of a Malkavian's madness depends on the individual. A blessing and a curse, a Malkavian's insanity will help or hinder them, depending on how much they struggle against their nature. Malkavians start with a +2 bonus to Inspection."
+			"ShortDescription"		"Lunatics: psycho's, crackbrain's .Insight, +2 to Inspection."
+			"ShortPenaltyDescription"	"Madness."
+		}
+
+		General
+		{
+			"Clan"				"Inquisitor"	
+			"M_Hands"			"models/hands/male/shared/v_shared_male_hands.mdl"
+			"F_Hands"			"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"			"Male, Female"
+			"ClanEffect"			"Clan (Malkavian)"
+			"FrenzyEffect"			"Frenzy(Kindred)"
+			"Kindred"			"1"
+			"ClanIcon"			"cm_clan_symbol_malkavian"
+
+			"Supernatural"			"1"
+			"Boss"				"0"
+			"DisciplineStrata"		"0"
+			"SoundGroup"			""
+			"NoBiting"			"1"
+
+			"Disallow_Kindred_Death"	"0"
+			"Has_Burning_Death"		"1"
+
+			"SpawnModel"			"models/character/npc/unique/malkgirl/girl.mdl"	
+		}
+
+		Attributes
+		{
+			"Strength"			"1"
+			"Dexterity"			"1"
+			"Stamina"			"1"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"1"
+			"Intelligence"			"1"
+			"Wits"				"2"
+
+			"BloodPool"			"10"
+			"Generation"			"10"
+			"FaithPoints"			"0"
+
+			"Starting_Equipment"	"Player_Kindred"
+			"Excluded_Equipment"	"Default"
+		}
+
+		Abilities
+		{
+			"Brawl"				"0"
+			"Dodge"				"0"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"0"
+			"Melee"				"0"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"0"
+			"Finance"			"0"
+			"Investigation"			"2"
+			"Academics"			"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"+20"
+				"Malkavian"		"+20"
+				"Nosferatu"		"+28"
+				"Toreador"		"0"
+				"Tremere"		"+5"
+				"Ventrue"		"+5"
+			}
+		}
+	}
+
+// VCLAN 11 = Nosferatu companion info for ANTITRIBU
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"Leopold3"
+			"Name"				"Nosferatu"
+			"Description"			"Hideous, skulking, and powerful. Even in a world of monsters the Nosferatu stand out. The Embrace twists and deforms their physical features, forcing them to seek sanctuary underground. Nosferatu are masters of the shadows. Due to their curse, Nosferatu have a Seduction of 0 and can never raise it higher, and they hide their existence from common humans. Having shared the darkness with vermin for so long, vampires of Clan Nosferatu are able to draw extra nourishment from rats."
+			"ShortDescription"		"Sewer Rats: hidden freaks, masters of the underground"
+			"ShortPenaltyDescription"	"Seduction maximum of 0. Monstrous visage can cause a Masquerade violation."
+		}
+
+		General
+		{
+			"Clan"				"Mercenary" 
+			"M_Hands"			"models/hands/male/nosferatu/v_nosferatu_male_hands.mdl"
+			"F_Hands"			"models/hands/female/nosferatu/v_nosferatu_fem_hands.mdl"
+			"Gender"			"Male, Female"
+
+			"ClanEffect"			"Clan (Nosferatu)"
+			"FrenzyEffect"			"Frenzy(Kindred)"
+			"Kindred"			"1"
+			"ClanIcon"			"cm_clan_symbol_nosferatu"
+
+			"Supernatural"			"1"
+			"Boss"				"0"
+			"DisciplineStrata"		"0"
+			"SoundGroup"			""
+			"NoBiting"			"1"
+
+			"Disallow_Kindred_Death"	"0"
+			"Has_Burning_Death"		"1"
+
+
+			"SpawnModel"			"models/character/npc/unique/malkgirl/girl.mdl"
+		}
+
+		Attributes
+		{
+			"Strength"			"1"
+			"Dexterity"			"1"
+			"Stamina"			"1"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"0"
+			"Perception"			"1"
+			"Intelligence"			"1"
+			"Wits"				"1"
+
+			"BloodPool"			"10"
+			"Generation"			"10"
+			"FaithPoints"			"0"
+
+			"Starting_Equipment"	"Player_Kindred"
+			"Excluded_Equipment"	"Default"
+		}
+
+		Abilities
+		{
+			"Brawl"				"0"
+			"Dodge"				"0"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"0"
+			"Melee"				"0"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"0"
+			"Finance"			"0"
+			"Investigation"			"0"
+			"Academics"			"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+8"
+				"Gangrel"		"+27"
+				"Malkavian"		"+10"
+				"Nosferatu"		"+35"
+				"Toreador"		"-27"
+				"Tremere"		"-10"
+				"Ventrue"		"-8"
+			}
+		}
+	}
+
+// VCLAN 12 = Toreador companion info for ANTITRIBU
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"Leopold1_F"
+			"Name"				"Toreador"
+			"Description"			"Toreador picture themselves as artistes and visionaries, and they value the high society mentality that the Camarilla reinforces. Of all clans, the Toreador are the most connected to the mortal world through arts and entertainment. Toreador are beautiful creatures, svelte and seductive, and move almost effortlessly through the society of the living. The Toreador's empathy is both a gift and a burden. All Humanity shifts are doubled."
+			"ShortDescription"		"Degenerates: beautiful and glamorous clan of artists and innovators"
+			"ShortPenaltyDescription"	"All Humanity losses are doubled."
+		}
+
+		General
+		{
+			"Clan"				"Condotierre"
+			"M_Hands"			"models/hands/male/shared/v_shared_male_hands.mdl"
+			"F_Hands"			"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"			"Male, Female"
+
+			"ClanEffect"			"Clan (Toreador)"
+			"FrenzyEffect"			"Frenzy(Kindred)"
+			"Kindred"			"1"
+			"ClanIcon"			"cm_clan_symbol_toreador"
+
+			"Supernatural"			"1"
+			"Boss"				"0"
+			"DisciplineStrata"		"0"
+			"SoundGroup"			""
+			"NoBiting"			"1"
+
+			"Disallow_Kindred_Death"	"0"
+			"Has_Burning_Death"		"1"
+
+
+			"SpawnModel"			"models/character/npc/unique/malkgirl/girl.mdl"	
+		}
+
+		Attributes
+		{
+			"Strength"			"1"
+			"Dexterity"			"1"
+			"Stamina"			"1"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"1"
+			"Intelligence"			"1"
+			"Wits"				"1"
+
+			"BloodPool"			"10"
+			"Generation"			"10"
+			"FaithPoints"			"0"
+
+			"Starting_Equipment"	"Player_Kindred"
+			"Excluded_Equipment"	"Default"
+		}
+
+		Abilities
+		{
+			"Brawl"				"0"
+			"Dodge"				"0"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"0"
+			"Melee"				"0"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"0"
+			"Finance"			"0"
+			"Investigation"			"0"
+			"Academics"			"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+10"
+				"Gangrel"		"+5"
+				"Malkavian"		"+20"
+				"Nosferatu"		"-15"
+				"Toreador"		"+20"
+				"Tremere"		"+5"
+				"Ventrue"		"+20"
+			}
+		}
+	}
+
+// VCLAN 13 = Gargoyle companion info for ANTITRIBU
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"Leopold2_F"
+			//"TemplateName"			"Player_Nosferatu"
+			"Name"				"Gargoyle"
+			"Description"			"The Gargoyles are a bloodline created by the Tremere as servitors. Although technically not a Tremere bloodline, the bloodline is largely under their control."
+			"ShortDescription"		"Guardians: slaves, free, runaways, boobies, stone heads, bunch of ugly bastards..."
+			"ShortPenaltyDescription"	"incredibly ugly, move slowly and reluctantly, low resistance to the mind"
+		}
+
+		General
+		{
+			"Clan"				"Inquisitor"
+			//"Clan"				"Nosferatu"
+			"M_Hands"			"models/hands/male/gargoyle/v_gargoyle_male_hands.mdl"
+			"F_Hands"			"models/hands/male/gargoyle/v_gargoyle_male_hands.mdl"	
+			"Gender"			"Male, Female"
+			"ClanEffect"			"Clan (Gargoyle)"
+			"FrenzyEffect"			"Frenzy (Gangrel)"
+			"Kindred"			"1"
+			"ClanIcon"			"cm_clan_symbol_gargoyle"
+
+			"Supernatural"			"1"
+			"Boss"				"0"
+			"DisciplineStrata"		"0"
+			"SoundGroup"			"Gargoyle"
+			"NoBiting"			"1"
+
+			"Disallow_Kindred_Death"	"0"
+			"Has_Burning_Death"		"1"
+
+			"SpawnModel"			"models/character/npc/unique/malkgirl/girl.mdl"
+
+			"KnockbackRangedPlayer"		"1"
+			"Disallow_Knockbacks"		"1"
+			"HasTrueSight"			"1"
+			//"AbsorbsRangedAttacks"		"1"
+			//"Disallow_FirearmsToBashing"	"1"
+			"ReceivesExtraClubDmg"		"1"
+			"DamageFilterBashing"		"0.50"
+			"DamageFilterLethal"		"0.90"
+			"DamageFilterAggravated"	"0.90"
+			"DamageFilterFlame"		"0.1"
+		}
+
+		Attributes
+		{
+			"Strength"			"1"
+			"Dexterity"			"1"
+			"Stamina"			"1"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"1"
+			"Intelligence"			"1"
+			"Wits"				"1"
+
+			"BloodPool"			"15"
+			"Generation"			"10"
+			"FaithPoints"			"5"
+
+			"Starting_Equipment"	"Player_Gargoyle"
+			"Excluded_Equipment"	"Default"
+		}
+
+		Abilities
+		{
+			"Brawl"				"3"
+			"Dodge"				"2"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"0"
+			"Melee"				"0"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"0"
+			"Finance"			"0"
+			"Investigation"			"0"
+			"Academics"			"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+15"
+				"Gangrel"		"+20"
+				"Malkavian"		"+5"
+				"Nosferatu"		"+30"
+				"Toreador"		"-10"
+				"Tremere"		"-15"
+				"Ventrue"		"-10"
+			}
+		}
+
+		LoiterActivities
+		{
+			"ACT_IDLE"			"1.0"
+		}
+	}
+
+// VCLAN 14 = Mercenary (Male)
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"Leopold3_M"
+			"Name"			"shih (Demon hunter)"
+			"Description"		"To pursuit the undead in areas where their brothers are not allowed to enter, the Society of Leopold employs female mercenaries. These tough women are normally of ex-military or law enforcement background and quite used to modern firearms, security technology, and unarmed fighting. Due to their greedy nature they are usually far from understanding the deep religious foundation of the Society, which as a consequence means that their Numina isn't up to the powers of the real believers."	// added by wesp
+
+			"ShortDescription"		"Specialization: Engineering, Demolitions. These skills enable diverse uses, and create variety objects."
+			"ShortPenaltyDescription"	"Does not slow down Tzimisce fatguy, Kuejins cloud, manbat and necromatic shoot attacks, low fire damage
+							+2 strength (artificial limb)"
+		}
+
+		General
+		{
+			"Clan"			"Mercenary"
+			"Body"			"Human"
+			"Gender"		"Male, Female" 
+			"Kindred"		"0"
+			"ClanIcon"		"cm_clan_symbol_GladiusDei"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"10"
+			"special_health_gfx"	"1"
+			"Is_BlueBlood"		"0"
+			"SoundGroup"		"unique/yukie"
+			"SpawnModel"		"models/character/npc/unique/malkgirl/girl.mdl"
+			"M_Hands"		"models/hands/male/hunter/v_hunter_male_hands.mdl"
+			"F_Hands"		"models/hands/female/hunter/v_hunter_female_hands.mdl"
+			"ClanEffect"		"Clan (Demon hunter)"
+			"DisciplineStrata"	"7"
+			"NoBiting"		"1"
+			"KnockbackRangedPlayer"		"1"
+			"Disallow_FirearmsToBashing"	"0"
+		        "HasTrueSight"			"1"
+			"Disallow_Knockbacks"		"1"
+
+			"DamageFilterBashing"		"0.75"
+			"DamageFilterLethal"		"0.80"
+			"DamageFilterAggravated"	"0.80"
+			"DamageFilterFlame"		"0.60"
+
+			"SpecialMoveADamage"		"25.0"
+			"DisallowDiscipineTgt"		"0"
+		}
+
+		Attributes
+		{
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"0"
+			"FaithPoints"		"0"
+			"Starting_Equipment"	"Player_Kindred"
+			"Excluded_Equipment"	"Default"
+			"Max_Health"		"300"
+		}
+
+		Abilities
+		{
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+		}
+
+		Numina
+		{
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"0"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"0"
+			}
+		}
+	}
+
+// VCLAN 15 = ThinBlood
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"CompThinBlood"
+			"ParentTemplateName"		""
+			"Name"				"ThinBlood"
+			"Description"			"ThinBloods are weaker than most vampires but still stronger than ghouls. They possess fewer vampire powers than normal vampires."
+			"ShortDescription"		"Trash: Caitiff of the last generations, clanless bastard"
+			"ShortPenaltyDescription"	"Common passive disciplines with high cost"
+		}
+
+		General
+		{
+			"Clan"				"None"
+			"Body"				"Human"
+			"Gender"			"Male, Female"
+			"ClanEffect"			"Clan (ThinBlood)"
+			"FrenzyEffect"			"Frenzy(Kindred)"
+			"Kindred"			"1"
+			"ClanIcon"			"cm_clan_symbol_mercenary"
+
+			"Supernatural"			"1"
+			"Boss"				"0"
+			"DisciplineStrata"		"0"
+			"SoundGroup"			""
+			"NoBiting"			"1"
+
+			"Disallow_Kindred_Death"	"0"
+			"Has_Burning_Death"		"1"
+
+			"SpawnModel"			"models/character/npc/unique/malkgirl/girl.mdl"	
+		}
+
+		Attributes
+		{
+			"Strength"			"1"
+			"Dexterity"			"1"
+			"Stamina"			"1"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"1"
+			"Intelligence"			"1"
+			"Wits"				"1"
+
+			"BloodPool"			"10"
+			"Generation"			"10"
+			"FaithPoints"			"0"
+
+			"Starting_Equipment"	"Player_Kindred"
+			"Excluded_Equipment"	"Default"
+		}
+
+		Abilities
+		{
+			"Athletics"			"0"
+			"Brawl"				"0"
+			"Dodge"				"0"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"0"
+			"Melee"				"0"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"0"
+			"Finance"			"0"
+			"Investigation"			"0"
+			"Academics"			"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"0"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"-15"
+			}
+		}
+	}
+
+// VCLAN 16 = None
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"PlaceHolder1"
+			"Name"			"None"
+			"Description"		"None"
+			"ShortDescription"		"This will match Template 0"
+			"ShortPenaltyDescription"	"This will match Template 0"
+		}
+
+		General
+		{
+			"Clan"			"None"
+			"M_Body"		"models/character/pc/male/brujah/armor0/brujah_male_armor_0.mdl"
+			"F_Body"		"models/character/pc/female/brujah/armor0/brujah_female_armor_0.mdl"
+			"Gender"		"Male, Female"
+			"Kindred"		"0"
+			"Supernatural"		"0"
+			"Boss"			"0"
+			"ClanIcon"		"cm_clan_symbol_mercenary"
+			"Is_BlueBlood"		"0"
+			"SoundGroup"		""
+			"DeathGib"		"models/gibs/hgibs.mdl"
+		}
+
+		Attributes
+		{
+			"Strength"				"1"
+			"Dexterity"				"1"
+			"Stamina"				"1"
+			"Charisma"				"1"
+			"Manipulation"				"1"
+			"Appearance"				"1"
+			"Perception"				"1"
+			"Intelligence"				"1"
+			"Wits"					"1"
+			"BloodPool"				"10"
+			"FaithPoints"				"15"
+			"Starting_Equipment"			"Default"
+			"Excluded_Equipment"			"Default"
+		}
+
+		Abilities
+		{
+			"Brawl"					"0"
+			"Dodge"					"0"
+			"Intimidation"				"0"
+			"Subterfuge"				"0"
+			"Firearms"				"0"
+			"Melee"					"0"
+			"Security"				"0"
+			"Stealth"				"0"
+			"Computer"				"0"
+			"Finance"				"0"
+			"Investigation"				"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"0"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"0"
+			}
+		}
+	}
+
+
+	//----------------------------------------------------------------------------------------
+	// COMPANION MOD/POSSESSION SUPPORT
+	//----------------------------------------------------------------------------------------
+        //
+        // NOTES: The game determines the name and description displayed in the character stats
+        // Screen based on its relative position to the first 16 clans (0-15)
+        // 
+        // IE: clan 0, 16, 32 ... = None
+        //     clan 1, 17, 33 ... = Human
+        //     clan 2, 18, 34 ... = Brujah
+        // 
+        // If you insert clans before this position, you will break the possession system
+	//----------------------------------------------------------------------------------------
+
+// VCLAN 17 = None (Human)
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"CompHuman"
+			"Name"				"Human"
+			"Description"			"A normal human being."
+			"ShortDescription"		"A normal human being."
+			"ShortPenaltyDescription"	"No vampire powers and disciplines"
+		}
+
+		General
+		{
+			"Clan"				"normal human"
+			"Body"				"Human"
+			"Gender"			"Male, Female"
+			"Kindred"			"0"
+			"ClanIcon"			"cm_clan_symbol_Condontierre"
+			"Is_BlueBlood"			"0"
+			"SoundGroup"			""
+			"SpawnModel"			"models/character/npc/unique/malkgirl/girl.mdl"
+			"M_Hands"			"models/hands/male/hunter/v_hunter_male_hands.mdl"
+			"F_Hands"			"models/hands/female/hunter/v_hunter_female_hands.mdl"
+			"ClanEffect"			"Clan (Human)"
+		}
+
+		Attributes
+		{
+			"Strength"			"1"
+			"Dexterity"			"1"
+			"Stamina"			"1"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"1"
+			"Intelligence"			"1"
+			"Wits"				"1"
+
+			"BloodPool"			""
+			"FaithPoints"			""
+			"Starting_Equipment"	"Player_Kindred"
+			"Excluded_Equipment"	"Default"
+		}
+
+		Abilities
+		{
+			"Brawl"				"0"
+			"Dodge"				"0"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"0"
+			"Melee"				"0"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"0"
+			"Finance"			"0"
+			"Investigation"			"0"
+		}
+
+
+		Numina
+		{
+			"Shield_of_Faith"	"-1"
+			"Divine_Vision"		"-1"
+			"Holy_Light"		"-1"
+			"Mind_Shield"		"-1"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"0"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"0"
+			}
+		}
+
+	}
+
+// VCLAN 18 = Brujah
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"CompBrujah"
+			"Name"				"Brujah"
+			"Description"			"Clan Lasombra consists of social Darwinists, priding themselves on strength, elegance, efficiency and ruthlessness. The Lasombra consider mortals and other Cainites alike to be little more than pawns in the nightly Jyhad. Murder, violence, a lust for blood... Why shun them, ask the Lasombra? Does the lion weep for the lamb? In contrast to the Tzimisce, they do not shun the living, instead tugging at their strings in the hopes of outwitting their hated enemy, the Ventrue."
+			"ShortDescription"		"
+Lasombra aggressive manipulators, rule Darkness"
+			"ShortPenaltyDescription"	"Lasombra cast no reflection. Any reflective surface has a chance of betraying a Lasombra’s nature."
+		}
+
+		General
+		{
+			"Clan"			"None"
+			"M_Body0"		"models/character/pc/male/brujah/armor0/brujah_male_armor_0.mdl"
+			"M_Body1"		"models/character/pc/male/brujah/armor1/brujah_male_armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/brujah/armor2/brujah_male_armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/brujah/armor3/brujah_male_armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/brujah/armor3/brujah_male_armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/brujah/armor3/brujah_male_armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/brujah/armor0/brujah_female_armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/brujah/armor1/brujah_female_armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/brujah/armor2/brujah_female_armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/brujah/armor3/brujah_female_armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/brujah/armor3/brujah_female_armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/brujah/armor3/brujah_female_armor_3.mdl"
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, All-Star Athlete, Black-Hearted, Avid RPG Fan, Academic, Ex-cop, Perv, Deaf"
+			"ClanEffect"		"Clan (lasombra)"
+			"FrenzyEffect"		"Frenzy(Kindred)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_lasombra"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"1"
+			"Is_BlueBlood"	"0"
+			"SoundGroup"	""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"	"Physical_Mental_Social"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Player_Kindred"
+			"Excluded_Equipment"	"Default"
+			"Experience"		"0"
+
+			"CharGen_AutoLevel_Template"	"Brujah_CharGen"
+			"Default_AutoLevel_Template"	"Brujah_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"		"Talents_Skills_Knowledges"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+		}
+
+		Disciplines
+		{
+			"Animalism"		"1"	//Obtenebration
+			"Dominate"		"1"
+			"Potence"		"1"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+20"
+				"Gangrel"		"+10"
+				"Malkavian"		"+15"
+				"Nosferatu"		"+40"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"-15"
+			}
+		}
+	}
+
+// VCLAN 19 = Gangrel
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"CompGangrel"
+			"ParentTemplateName"		""
+			"Name"				"Gangrel"
+			"Description"			"Ravnos - masters of lies and deceit, unexplained link with gypsies. Theft and fraud accompany the existence of Ravnos. Constant travel complicate their apprehension, and gives them a lot of potential victims of their pranks, as well as followers, who help them with their dishonest fishery. Ravnos get tremendous satisfaction when a benefit at the expense of others."
+			"ShortDescription"		"
+master of illusion, nomads and gypsies"
+			"ShortPenaltyDescription"	"constant threat of criminality"
+		}
+
+		General
+		{
+			"Clan"				"None"
+			"Body"				"Human"
+			"Gender"			"Male, Female"
+			"ClanEffect"			"Clan (Ravnos)"
+			"FrenzyEffect"			"Frenzy (Gangrel)"
+			"Kindred"			"1"
+			"ClanIcon"			"cm_clan_symbol_ravnos"
+
+			"Supernatural"			"1"
+			"Boss"				"0"
+			"DisciplineStrata"		"0"
+			"SoundGroup"			""
+			"NoBiting"			"1"
+
+			"Disallow_Kindred_Death"	"0"
+			"Has_Burning_Death"		"1"
+
+			"SpawnModel"			"models/character/npc/unique/malkgirl/girl.mdl"
+			
+		}
+
+		Attributes
+		{
+			"Strength"			"2"
+			"Dexterity"			"1"
+			"Stamina"			"2"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"1"
+			"Intelligence"			"1"
+			"Wits"				"2"
+
+			"BloodPool"			"10"
+			"Generation"			"10"
+			"FaithPoints"			"0"
+
+			"Starting_Equipment"	"Player_Kindred"
+			"Excluded_Equipment"	"Default"
+		}
+
+		Abilities
+		{
+			"Athletics"			"0"
+			"Brawl"				"0"
+			"Dodge"				"0"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"0"
+			"Melee"				"0"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"0"
+			"Finance"			"0"
+			"Investigation"			"0"
+			"Academics"			"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+15"
+				"Gangrel"		"+20"
+				"Malkavian"		"+5"
+				"Nosferatu"		"+30"
+				"Toreador"		"-10"
+				"Tremere"		"-15"
+				"Ventrue"		"-10"
+			}
+		}
+	}
+
+// VCLAN 20 = Malkavian
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"CompMalkavian"
+			"ParentTemplateName"		""
+			"Name"				"Malkavian"
+			"Description"			"They are so ancient that even the oldest legends tell only of their descendants. They are old clan Tzimisce or True Tzimisce, and all the Tzimisce are their apostates. Their children have left the path Tzimisce purchasing vicissitude, which led to the division of the clan. 
+There are very few members of the Old Clan Tzimisce, and they very rarely produce offspring. They all keep the old ways of the clan and want to restore to its former glory. They continue to hope that they would kill all apostates of his clan, who tied his way with the vicissitude.
+Some Old clan Tzimisce - koldunists. These Cainites can learn Koldunic sorcery."
+			"ShortDescription"		"
+terrible, evil, feudalist dominators, warlocks"
+			"ShortPenaltyDescription"	"constant need to surround of cursed ground"
+		}
+
+		General
+		{
+			"Clan"				"None"
+			"Body"				"Human"
+			"Gender"			"Male, Female"
+			"ClanEffect"			"Clan (Old clan tzimisce)"
+			"FrenzyEffect"			"Frenzy(Kindred)"
+			"Kindred"			"1"
+			"ClanIcon"			"cm_clan_symbol_octzimisce"
+
+			"Supernatural"			"1"
+			"Boss"				"0"
+			"DisciplineStrata"		"0"
+			"SoundGroup"			""
+			"NoBiting"			"1"
+
+			"Disallow_Kindred_Death"	"0"
+			"Has_Burning_Death"		"1"
+
+			"SpawnModel"			"models/character/npc/unique/malkgirl/girl.mdl"	
+		}
+
+		Attributes
+		{
+			"Strength"			"1"
+			"Dexterity"			"1"
+			"Stamina"			"1"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"1"
+			"Intelligence"			"1"
+			"Wits"				"2"
+
+			"BloodPool"			"10"
+			"Generation"			"10"
+			"FaithPoints"			"0"
+
+			"Starting_Equipment"	"Player_Kindred"
+			"Excluded_Equipment"	"Default"
+		}
+
+		Abilities
+		{
+			"Athletics"			"0"
+			"Brawl"				"0"
+			"Dodge"				"0"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"0"
+			"Melee"				"0"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"0"
+			"Finance"			"0"
+			"Investigation"			"2"
+			"Academics"			"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"+20"
+				"Malkavian"		"+20"
+				"Nosferatu"		"+28"
+				"Toreador"		"0"
+				"Tremere"		"+5"
+				"Ventrue"		"+5"
+			}
+		}
+	}
+
+// VCLAN 21 = Nosferatu
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"CompNosferatu"
+			"ParentTemplateName"		""
+			"Name"				"Nosferatu"
+			"Description"			"Blood Line Samedi may be a branch of Nosferatu, or possibly the result of Giovanni experiments. None of the clan does not assume responsibility for creating these vampires. Samedi, there are only a few centuries. They appeared in Italy and the Caribbean. Some of them entered the United States. 
+Samedi easily determined from the shreds of decaying flesh that is constantly falling from their bodies. Those who are not aware of their existence, often take them for a zombie. Members of this bloodline occur as the Sabbat, as well as in the Camarilla."
+			"ShortDescription"		"
+Decayed, zombie-like, obsessed with issues of death."	
+			"ShortPenaltyDescription"	"Seduction maximum of 0. Monstrous visage can cause a Masquerade violation."
+		}
+
+		General
+		{
+			"Clan"				"Nosferatu"
+			"Body"				"Human"
+			"Gender"			"Male, Female"
+
+			"M_Hands"			"models/hands/male/samedi/v_samedi_male_hands.mdl"
+			"F_Hands"			"models/hands/female/samedi/v_samedi_female_hands.mdl"
+
+			"ClanEffect"			"Clan (samedi embraced)"
+			"FrenzyEffect"			"Frenzy(Kindred)"
+			"Kindred"			"1"
+			"ClanIcon"			"cm_clan_symbol_samedi"
+
+			"Supernatural"			"1"
+			"Boss"				"0"
+			"DisciplineStrata"		"0"
+			"SoundGroup"			""
+			"NoBiting"			"1"
+
+			"Disallow_Kindred_Death"	"0"
+			"Has_Burning_Death"		"1"
+
+
+			"SpawnModel"			"models/character/npc/unique/malkgirl/girl.mdl"	
+		}
+
+		Attributes
+		{
+			"Strength"			"1"
+			"Dexterity"			"1"
+			"Stamina"			"1"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"0"
+			"Perception"			"1"
+			"Intelligence"			"1"
+			"Wits"				"1"
+
+			"BloodPool"			"10"
+			"Generation"			"10"
+			"FaithPoints"			"0"
+
+			"Starting_Equipment"	"Player_Kindred"
+			"Excluded_Equipment"	"Default"
+		}
+
+		Abilities
+		{
+			"Athletics"			"0"
+			"Brawl"				"0"
+			"Dodge"				"0"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"0"
+			"Melee"				"0"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"0"
+			"Finance"			"0"
+			"Investigation"			"0"
+			"Academics"			"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+8"
+				"Gangrel"		"+27"
+				"Malkavian"		"+10"
+				"Nosferatu"		"+35"
+				"Toreador"		"-27"
+				"Tremere"		"-10"
+				"Ventrue"		"-8"
+			}
+		}
+	}
+
+// VCLAN 22 = Toreador
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"CompToreador"
+			"ParentTemplateName"		""
+			"Name"				"Toreador"
+			"Description"			"Evil twisted devils enjoying the torture and transformations of flesh into very strange things are known in the world of vampires. They love the sound of screams in the night, madly committed within its territory, but very hospitable, and when given permission to visit. They can remake themselves and anyone within reach of the most beautiful or the ugliest creation I've ever seen on this planet."
+			"ShortDescription"		"
+secretive, perverts, sculptors of flesh"
+			"ShortPenaltyDescription"	"
+constant need to surround of cursed ground"
+		}
+
+		General
+		{
+			"Clan"				"Toreador"
+			"Body"				"Human"
+			"Gender"			"Male, Female"
+
+			"ClanEffect"			"Clan (Tzimisce)"
+			"FrenzyEffect"			"Frenzy(Kindred)"
+			"Kindred"			"1"
+			"ClanIcon"			"cm_clan_symbol_tzimisce"
+
+			"Supernatural"			"1"
+			"Boss"				"0"
+			"DisciplineStrata"		"0"
+			"SoundGroup"			""
+			"NoBiting"			"1"
+
+			"Disallow_Kindred_Death"	"0"
+			"Has_Burning_Death"		"1"
+
+
+			"SpawnModel"			"models/character/npc/unique/malkgirl/girl.mdl"	
+		}
+
+		Attributes
+		{
+			"Strength"			"1"
+			"Dexterity"			"1"
+			"Stamina"			"1"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"1"
+			"Intelligence"			"1"
+			"Wits"				"1"
+
+			"BloodPool"			"10"
+			"Generation"			"10"
+			"FaithPoints"			"0"
+
+			"Starting_Equipment"	"Player_Kindred"
+			"Excluded_Equipment"	"Default"
+		}
+
+		Abilities
+		{
+			"Athletics"			"0"
+			"Brawl"				"0"
+			"Dodge"				"0"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"0"
+			"Melee"				"0"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"0"
+			"Finance"			"0"
+			"Investigation"			"0"
+			"Academics"			"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+10"
+				"Gangrel"		"+5"
+				"Malkavian"		"+20"
+				"Nosferatu"		"-15"
+				"Toreador"		"+20"
+				"Tremere"		"+5"
+				"Ventrue"		"+20"
+			}
+		}
+	}
+
+// VCLAN 23 = Tremere
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"CompTremere"
+			"ParentTemplateName"		""
+			"Name"				"Tremere"
+			"Description"			"Blood line of cannibals, Necromancers and faithful servants of the True Black Hand. 
+Nagaraja different from other vampires in that they must eat the flesh of their victims, making them the most condemned and unnatural blood Line. In addition, they have power of Obvilion and Underworlds. They also own Necromancy, having learned it from magicians Evtanatos and mummy Inauhaten."
+			"ShortDescription"		"
+Eaters of flesh, Necromancers, rulers of Obvilion."
+			"ShortPenaltyDescription"	"constant need to eat raw human flesh"
+		}
+
+		General
+		{
+			"Clan"				"Tremere"
+			"Body"				"Human"
+			"Gender"			"Male, Female"
+
+			"ClanEffect"			"Clan (Nagaraja)"
+			"FrenzyEffect"			"Frenzy(Kindred)"
+			"Kindred"			"1"
+			"ClanIcon"			"cm_clan_symbol_nagaraja"
+
+			"Supernatural"			"1"
+			"Boss"				"0"
+			"DisciplineStrata"		"0"
+			"SoundGroup"			""
+			"NoBiting"			"1"
+
+			"Disallow_Kindred_Death"	"0"
+			"Has_Burning_Death"		"1"
+
+
+			"SpawnModel"			"models/character/npc/unique/malkgirl/girl.mdl"	
+		}
+
+		Attributes
+		{
+			"Strength"			"1"
+			"Dexterity"			"1"
+			"Stamina"			"1"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"1"
+			"Intelligence"			"1"
+			"Wits"				"1"
+
+			"BloodPool"			"10"
+			"Generation"			"10"
+			"FaithPoints"			"0"
+
+			"Starting_Equipment"	"Player_Kindred"
+			"Excluded_Equipment"	"Default"
+		}
+
+		Abilities
+		{
+			"Athletics"			"0"
+			"Brawl"				"0"
+			"Dodge"				"0"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"0"
+			"Melee"				"0"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"0"
+			"Finance"			"0"
+			"Investigation"			"0"
+			"Academics"			"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+10"
+				"Gangrel"		"-10"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"-10"
+				"Tremere"		"+20"
+				"Ventrue"		"+5"
+			}
+		}
+	}
+
+// VCLAN 24 = Ventrue
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"CompVentrue"
+			"ParentTemplateName"		""
+			"Name"				"Ventrue"
+			"Description"			"Giovanni is rich merchants, speculators and investors are conducting a large part of the night in manipulating their vast resources of the offices in the skyscrapers. Rest of the night they spend in the crypts and mausoleums, spending his dark and heinous necromantic rites."
+			"ShortDescription"		"
+bankers, manipulators from Venetian Necromancers family"
+			"ShortPenaltyDescription"	"
+Victims of feeding Giovanni, receive twice damage."
+		}
+
+		General
+		{
+			"Clan"				"Ventrue"
+			"Body"				"Human"
+			"Gender"			"Male, Female"
+
+			"ClanEffect"			"Clan (giovanni)"
+			"FrenzyEffect"			"Frenzy(Kindred)"
+			"Kindred"			"1"
+			"ClanIcon"			"cm_clan_symbol_giovanni"
+
+			"Supernatural"			"1"
+			"Boss"				"0"
+			"DisciplineStrata"		"0"
+			"SoundGroup"			""
+			"NoBiting"			"1"
+
+			"Disallow_Kindred_Death"	"0"
+			"Has_Burning_Death"		"1"
+
+
+			"SpawnModel"			"models/character/npc/unique/malkgirl/girl.mdl"
+			
+		}
+
+		Attributes
+		{
+			"Strength"			"1"
+			"Dexterity"			"1"
+			"Stamina"			"1"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"1"
+			"Intelligence"			"1"
+			"Wits"				"1"
+
+			"BloodPool"			"10"
+			"Generation"			"10"
+			"FaithPoints"			"0"
+
+			"Starting_Equipment"	"Player_Kindred"
+			"Excluded_Equipment"	"Default"
+		}
+
+		Abilities
+		{
+			"Athletics"			"0"
+			"Brawl"				"0"
+			"Dodge"				"0"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"0"
+			"Melee"				"0"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"0"
+			"Finance"			"0"
+			"Investigation"			"0"
+			"Academics"			"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"-28"
+				"Gangrel"		"-10"
+				"Malkavian"		"+15"
+				"Nosferatu"		"-10"
+				"Toreador"		"+15"
+				"Tremere"		"+5"
+				"Ventrue"		"+20"
+			}
+		}
+	}
+
+	//----------------------------------------------------------------------------------------
+	// MULTIPLAYER SUPPORT
+	//----------------------------------------------------------------------------------------
+        //
+        // NOTES: It would seem that the game in fact only supports 16 descriptions (Clan Slots 
+        //        0 - 15). After the first 15 clans, the game rotates the descriptions based on 
+        //        it relative position.
+        // 
+        // IE: clan 0, 16, 32 ... = None
+        //     clan 1, 17, 33 ... = Human
+        //     clan 2, 18, 34 ... = Brujah
+        // 
+	//----------------------------------------------------------------------------------------
+
+// all clans added with stats and equipment for multiplayer by wesp
+ 
+// VCLAN 25 = Condotierre (Male)
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"mp-condotierre-male"	
+			"Name"			"Condotierre_Male"
+			"Description"		"Founded in the 15th century, the Condotierri is a quasi-military order created for the sole purpose of safeguarding the Society of Leopold and its Inquisitors. Condotierri tend to be recruited straight from the military or law enforcement agencies, and are well-trained in current firearms techniques, security measures, and unarmed combat. Unfortunately, their secular backgrounds often prevent them from understanding and accepting true faith. As a result, their Numina tends to be significantly underdeveloped."	// changed by wesp
+			"ShortDescription"		""
+			"ShortPenaltyDescription"	""
+		}
+
+		General
+		{
+			"Clan"			"Condotierre"	
+			"M_Body"		"models/character/npc/unique/Society_of_Leopold/Average_vampire_hunter/Average_vampire_hunter.mdl"
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+			"Gender"		"Male"
+			"Kindred"		"0"
+			"ClanIcon"		"cm_clan_symbol_Condontierre"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"8"
+			"Is_BlueBlood"		"0"
+			"SoundGroup"		""
+		}
+
+		Attributes 	
+		{
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"10"
+			"FaithPoints"		"15"
+			"Starting_Equipment"	"Condotierre"	
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"	
+		}
+
+		Abilities	
+		{
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+		}
+
+		Numina
+		{
+			"Shield_of_Faith"	"1"
+			"Divine_Vision"		"1"
+			"Holy_Light"		"1"
+			"Mind_Shield"		"1"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"0"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"0"
+			}
+		}
+	}
+
+// VCLAN 26 = Inquisitor (Male)
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"mp-inquisitor-male"
+			"Name"			"Inquisitor_Male"
+			"Description"		"More than mere hunters of vampires, the Inquisitors are holy crusaders dedicated to the eradication of supernaturals from the earth. Possessing both a fervent religious zeal as well as an unswerving loyalty to the Society of Leopold, Inquisitors are dangerous predators that are feared by the Damned more than any other group of mortals. Their faith affords them high levels of Numina, and they tend to be particularly adept at wielding melee weapons."	// changed by wesp
+			"ShortDescription"		""
+			"ShortPenaltyDescription"	""
+		}
+
+		General
+		{
+			"Clan"			"Inquisitor"	
+			"M_Body"		"models/character/npc/unique/Society_of_Leopold/elite_hunter/elite_hunter.mdl"
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+			"Gender"		"Male"
+			"Kindred"		"0"
+			"ClanIcon"		"cm_clan_symbol_GladiusDei"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"9"
+			"Is_BlueBlood"		"0"
+			"SoundGroup"		""
+		}
+
+		Attributes	
+		{
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"10"
+			"FaithPoints"		"15"
+			"Starting_Equipment"	"Inquisitor"	
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"	
+		}
+
+		Abilities	
+		{
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+		}
+
+		Numina
+		{
+			"Shield_of_Faith"	"1"
+			"Divine_Vision"		"1"
+			"Holy_Light"		"1"
+			"Mind_Shield"		"1"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"0"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"0"
+			}
+		}
+	}
+
+// VCLAN 27 = Mercenary (Female)
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"mp-mercenary-female"
+			"Name"			"Mercenary_Female"
+			"Description"		"To pursuit the undead in areas where their brothers are not allowed to enter, the Society of Leopold employs female mercenaries. These tough women are normally of ex-military or law enforcement background and quite used to modern firearms, security technology, and unarmed fighting. Due to their greedy nature they are usually far from understanding the deep religious foundation of the Society, which as a consequence means that their Numina isn't up to the powers of the real believers."	// added by wesp
+			"ShortDescription"		""
+			"ShortPenaltyDescription"	""
+		}
+
+		General
+		{
+			"Clan"			"Mercenary"
+			"F_Body"		"models/character/npc/unique/Society_of_Leopold/Female_Hunter/Vampire_Hunter_Chick.mdl"
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Female"
+			"Kindred"		"0"
+			"ClanIcon"		"cm_clan_symbol_mercenary"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"10"
+			"special_health_gfx"	"1"
+			"Is_BlueBlood"		"0"
+			"SoundGroup"		""
+		}
+
+		Attributes	
+		{
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"10"
+			"FaithPoints"		"15"
+			"Starting_Equipment"	"Mercenary"
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"
+		}
+
+		Abilities	
+		{
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+		}
+
+		Numina
+		{
+			"Shield_of_Faith"	"1"
+			"Divine_Vision"		"1"
+			"Holy_Light"		"1"
+ 			"Mind_Shield"		"1"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"0"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"0"
+			}
+		}
+	}
+
+// VCLAN 28 = Condotierre (Female)
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"mp-condotierre-female"
+			"Name"			"Condotierre_Female"
+			"Description"		"Founded in the 15th century, the Condotierri is a quasi-military order created for the sole purpose of safeguarding the Society of Leopold and its Inquisitors. Condotierri tend to be recruited straight from the military or law enforcement agencies, and are well-trained in current firearms techniques, security measures, and unarmed combat. Unfortunately, their secular backgrounds often prevent them from understanding and accepting true faith. As a result, their Numina tends to be significantly underdeveloped."	// changed by wesp
+			"ShortDescription"		""
+			"ShortPenaltyDescription"	""
+		}
+
+		General
+		{
+			"Clan"			"Condotierre"
+			"F_Body"		"models/character/npc/unique/Society_of_Leopold/Female_Hunter/Vampire_Hunter_Chick.mdl"
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Female"
+			"Kindred"		"0"
+			"ClanIcon"		"cm_clan_symbol_Condontierre"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"8"
+			"Is_BlueBlood"		"0"
+			"SoundGroup"		""
+		}
+
+		Attributes 	
+		{
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"10"
+			"FaithPoints"		"15"
+			"Starting_Equipment"	"Condotierre"	
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"	
+		}
+
+		Abilities	
+		{
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+		}
+
+		Numina
+		{
+			"Shield_of_Faith"	"1"
+			"Divine_Vision"		"1"
+			"Holy_Light"		"1"
+			"Mind_Shield"		"1"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"0"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"0"
+			}
+		}
+	}
+
+// VCLAN 29 = Inquisitor (Female)
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"mp-inquisitor-female"
+			"Name"			"Inquisitor_Female"
+			"Description"		"More than mere hunters of vampires, the Inquisitors are holy crusaders dedicated to the eradication of supernaturals from the earth. Possessing both a fervent religious zeal as well as an unswerving loyalty to the Society of Leopold, Inquisitors are dangerous predators that are feared by the Damned more than any other group of mortals. Their faith affords them high levels of Numina, and they tend to be particularly adept at wielding melee weapons."	// changed by wesp
+			"ShortDescription"		""
+			"ShortPenaltyDescription"	""
+		}
+
+		General
+		{
+			"Clan"			"Inquisitor"
+			"F_Body"		"models/character/npc/unique/Society_of_Leopold/Female_Hunter/Vampire_Hunter_Chick.mdl"
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Female"
+			"Kindred"		"0"
+			"ClanIcon"		"cm_clan_symbol_GladiusDei"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"9"
+			"Is_BlueBlood"		"0"
+			"SoundGroup"		""
+		}
+
+		Attributes
+		{
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"10"
+			"FaithPoints"		"15"
+			"Starting_Equipment"	"Inquisitor"
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"
+		}
+
+		Abilities
+		{
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+		}
+
+		Numina
+		{
+			"Shield_of_Faith"	"1"
+			"Divine_Vision"		"1"
+			"Holy_Light"		"1"
+			"Mind_Shield"		"1"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"0"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"0"
+			}
+		}
+	}
+
+// VCLAN 30 = Mercenary (Male)
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"mp-mercenary-male"
+			"Name"			"Mercenary_Male"
+			"Description"		"To pursuit the undead in areas where their brothers are not allowed to enter, the Society of Leopold employs female mercenaries. These tough women are normally of ex-military or law enforcement background and quite used to modern firearms, security technology, and unarmed fighting. Due to their greedy nature they are usually far from understanding the deep religious foundation of the Society, which as a consequence means that their Numina isn't up to the powers of the real believers."	// added by wesp
+			"ShortDescription"		""
+			"ShortPenaltyDescription"	""
+		}
+
+		General
+		{
+			"Clan"			"Mercenary"
+			"M_Body"		"models/character/npc/unique/Society_of_Leopold/elite_hunter/elite_hunter.mdl"
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+			"Gender"		"Male"
+			"Kindred"		"0"
+			"ClanIcon"		"cm_clan_symbol_mercenary"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"10"
+			"special_health_gfx"	"1"
+			"Is_BlueBlood"		"0"
+			"SoundGroup"		""
+		}
+
+		Attributes	
+		{
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"10"
+			"FaithPoints"		"15"
+			"Starting_Equipment"	"Mercenary"
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"
+		}
+
+		Abilities	
+		{
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+		}
+
+		Numina
+		{
+			"Shield_of_Faith"	"1"
+			"Divine_Vision"		"1"
+			"Holy_Light"		"1"
+			"Mind_Shield"		"1"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"0"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"0"
+			}
+		}
+	}
+
+// VCLAN 31 = ThinBlood
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"PlaceHolder2"
+			"Name"			"None"
+			"Description"		"None"
+			"ShortDescription"		"This will match Template 15"
+			"ShortPenaltyDescription"	"This will match Template 15"
+		}
+
+		General
+		{
+			"Clan"				"None"
+			"Body"				"Human"
+			"Gender"			"Male, Female"
+			"ClanEffect"			"Clan (Brujah)"
+			"FrenzyEffect"			"Frenzy(Kindred)"
+			"Kindred"			"1"
+			"ClanIcon"			"cm_clan_symbol_brujah"
+
+			"Supernatural"			"1"
+			"Boss"				"0"
+			"DisciplineStrata"		"0"
+			"SoundGroup"			""
+			"NoBiting"			"1"
+
+			"Disallow_Kindred_Death"	"0"
+			"Has_Burning_Death"		"1"
+
+			"SpawnModel"			"models/character/npc/unique/malkgirl/girl.mdl"
+			
+		}
+
+		Attributes
+		{
+			"Strength"			"1"
+			"Dexterity"			"1"
+			"Stamina"			"1"
+			"Charisma"			"1"
+			"Manipulation"			"1"
+			"Appearance"			"1"
+			"Perception"			"1"
+			"Intelligence"			"1"
+			"Wits"				"1"
+
+			"BloodPool"			"10"
+			"Generation"			"10"
+			"FaithPoints"			"0"
+
+			"Starting_Equipment"		"Player_Kindred"
+			"Excluded_Equipment"		"Default"
+		}
+
+		Abilities
+		{
+			"Athletics"			"0"
+			"Brawl"				"1"
+			"Dodge"				"0"
+			"Intimidation"			"0"
+			"Subterfuge"			"0"
+			"Firearms"			"0"
+			"Melee"				"1"
+			"Security"			"0"
+			"Stealth"			"0"
+			"Computer"			"0"
+			"Finance"			"0"
+			"Investigation"			"0"
+			"Academics"			"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"0"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"-15"
+			}
+		}
+	}
+
+// VCLAN 32 = None (Clear)
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"PlaceHolder3"
+			"Name"			"None"
+			"Description"		"None"
+			"ShortDescription"		"This will match Template 0"
+			"ShortPenaltyDescription"	"This will match Template 0"
+		}
+
+		General
+		{
+			"Clan"			"None"
+			"M_Body"		"models/character/pc/male/brujah/armor0/brujah_male_armor_0.mdl"
+			"F_Body"		"models/character/pc/female/brujah/armor0/brujah_female_armor_0.mdl"
+			"Gender"		"Male, Female"
+			"Kindred"		"0"
+			"Supernatural"		"0"
+			"Boss"			"0"
+			"ClanIcon"		"cm_clan_symbol_mercenary"
+			"Is_BlueBlood"		"0"
+			"SoundGroup"		""
+			"DeathGib"		"models/gibs/hgibs.mdl"
+		}
+
+		Attributes
+		{
+			"Strength"				"1"
+			"Dexterity"				"1"
+			"Stamina"				"1"
+			"Charisma"				"1"
+			"Manipulation"				"1"
+			"Appearance"				"1"
+			"Perception"				"1"
+			"Intelligence"				"1"
+			"Wits"					"1"
+			"BloodPool"				"10"
+			"FaithPoints"				"15"
+			"Starting_Equipment"			"Default"
+			"Excluded_Equipment"			"Default"
+		}
+
+		Abilities
+		{
+			"Brawl"					"0"
+			"Dodge"					"0"
+			"Intimidation"				"0"
+			"Subterfuge"				"0"
+			"Firearms"				"0"
+			"Melee"					"0"
+			"Security"				"0"
+			"Stealth"				"0"
+			"Computer"				"0"
+			"Finance"				"0"
+			"Investigation"				"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"0"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"0"
+			}
+		}
+	}
+
+// VCLAN 33 = None (Human)
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"PlaceHolder4"
+			"Name"			"None"
+			"Description"		"None"
+			"ShortDescription"		"This will match Template 0"
+			"ShortPenaltyDescription"	"This will match Template 0"
+		}
+
+		General
+		{
+			"Clan"			"None"
+			"M_Body"		"models/character/pc/male/brujah/armor0/brujah_male_armor_0.mdl"
+			"F_Body"		"models/character/pc/female/brujah/armor0/brujah_female_armor_0.mdl"
+			"Gender"		"Male, Female"
+			"Kindred"		"0"
+			"Supernatural"		"0"
+			"Boss"			"0"
+			"ClanIcon"		"cm_clan_symbol_mercenary"
+			"Is_BlueBlood"		"0"
+			"SoundGroup"		""
+			"DeathGib"		"models/gibs/hgibs.mdl"
+		}
+
+		Attributes
+		{
+			"Strength"				"1"
+			"Dexterity"				"1"
+			"Stamina"				"1"
+			"Charisma"				"1"
+			"Manipulation"				"1"
+			"Appearance"				"1"
+			"Perception"				"1"
+			"Intelligence"				"1"
+			"Wits"					"1"
+			"BloodPool"				"10"
+			"FaithPoints"				"15"
+			"Starting_Equipment"			"Default"
+			"Excluded_Equipment"			"Default"
+		}
+
+		Abilities
+		{
+			"Brawl"					"0"
+			"Dodge"					"0"
+			"Intimidation"				"0"
+			"Subterfuge"				"0"
+			"Firearms"				"0"
+			"Melee"					"0"
+			"Security"				"0"
+			"Stealth"				"0"
+			"Computer"				"0"
+			"Finance"				"0"
+			"Investigation"				"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"0"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"0"
+			}
+		}
+	}
+
+// VCLAN 34 = Brujah
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"mp-brujah"
+			"Name"				"Brujah"
+			"Description"			"Brujah are passionate idealists and rebels, more likely to fight for their rights than write protest songs. In life, most Brujah sought social change, and in undeath, most clan members commonly seek the creation of a vampiric Utopia. As militant radicals, they are renowned for their combat skills, but are also more likely to frenzy due to their hot-bloodedness, so to speak. They receive a +1 to their Unarmed feat but are penalized with a -2 to all frenzy checks, due to their zealous natures."
+			"ShortDescription"		"
+Gains +1 to Unarmed."
+			"ShortPenaltyDescription"	"-2 on all frenzy checks."
+		}
+
+		General
+		{
+			"Clan"			"Brujah"
+			"M_Body0"		"models/character/pc/male/brujah/armor0/brujah_male_armor_0.mdl"
+			"M_Body1"		"models/character/pc/male/brujah/armor1/brujah_male_armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/brujah/armor2/brujah_male_armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/brujah/armor3/brujah_male_armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/brujah/armor3/brujah_male_armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/brujah/armor3/brujah_male_armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/brujah/armor0/brujah_female_armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/brujah/armor1/brujah_female_armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/brujah/armor2/brujah_female_armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/brujah/armor3/brujah_female_armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/brujah/armor3/brujah_female_armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/brujah/armor3/brujah_female_armor_3.mdl"
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, All-Star Athlete, Black-Hearted, Avid RPG Fan, Academic, Ex-cop, Perv, Deaf"
+			"ClanEffect"		"Clan (Brujah)"
+			"FrenzyEffect"		"Frenzy(Kindred)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_brujah"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"1"
+			"Is_BlueBlood"		"0"
+			"SoundGroup"		""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"	"Physical_Mental_Social"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+//			"Max_Health"		"10"
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Brujah"	
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"	
+
+			"CharGen_AutoLevel_Template"	"Brujah_CharGen"
+			"Default_AutoLevel_Template"	"Brujah_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"	"Talents_Skills_Knowledges"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+		}
+
+		Disciplines
+		{
+			"Blood_Healing"		"1"
+			"Corpus_Vampirus"	"1"
+			"Auspex"		"1"
+			"Dominate"		"1"
+			"Shield_of_Faith"	"1"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+20"
+				"Gangrel"		"+10"
+				"Malkavian"		"+15"
+				"Nosferatu"		"+40"
+				"Toreador"		"0"
+				"Tremere"		"0"
+				"Ventrue"		"-15"
+			}
+		}
+	}
+
+// VCLAN 35 = Gangrel
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"mp-gangrel"
+			"Name"				"Gangrel"
+			"Description"			"Gangrel are wild loners that are the most in tune with the Beast Within, allowing them to shapeshift into more beastly forms. Nomadic in nature, Gangrel care little about vampire politics and prefer to dwell and hunt in the outskirts of society. Because of their animalistic nature, they receive a +5 to Strength, Stamina, and Wits during frenzy. However, because of their inherent feral nature, Gangrel receive a -1 on all frenzy checks."
+			"ShortDescription"		"
++5 to Strength, Wits, and Stamina during frenzy."
+			"ShortPenaltyDescription"	"-1 on all frenzy checks."
+		}
+
+		General
+		{
+			"Clan"			"Gangrel"
+			"M_Body0"		"models/character/pc/male/gangrel/armor_0/Gangrel_Male_Armor_0.mdl"
+			"M_Body1"		"models/character/pc/male/gangrel/armor_1/Gangrel_Male_Armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/gangrel/armor_2/Gangrel_Male_Armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/gangrel/armor_3/Gangrel_Male_Armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/gangrel/armor_3/Gangrel_Male_Armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/gangrel/armor_3/Gangrel_Male_Armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/gangrel/armor0/Gangrel_female_Armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/gangrel/armor1/Gangrel_female_Armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/gangrel/armor2/Gangrel_female_Armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/gangrel/armor3/Gangrel_female_Armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/gangrel/armor3/Gangrel_female_Armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/gangrel/armor3/Gangrel_female_Armor_3.mdl"
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, All-Star Athlete, Close to the Beast, Black-Hearted, Avid RPG Fan, Eco-Terrorist Hacker, Ex-cop, Perv, Deaf"
+			"ClanEffect"		"Clan (Gangrel)"
+			"FrenzyEffect"		"Frenzy (Gangrel)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_gangrel"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"2"
+			"Is_BlueBlood"		"0"
+			"SoundGroup"		""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"	"Physical_Mental_Social"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Gangrel"	
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"	
+
+			"CharGen_AutoLevel_Template"	"Gangrel_CharGen"
+			"Default_AutoLevel_Template"	"Gangrel_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"	"Skills_Talents_Knowledges"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+		}
+
+		Disciplines
+		{
+			"Blood_Healing"		"1"	
+			"Corpus_Vampirus"	"1"
+			"Animalism"		"1"
+			"Fortitude"		"1"
+			"Protean"		"1"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+15"
+				"Gangrel"		"+20"
+				"Malkavian"		"+5"
+				"Nosferatu"		"+30"
+				"Toreador"		"-10"
+				"Tremere"		"-15"
+				"Ventrue"		"-10"
+			}
+		}
+	}
+
+// VCLAN 36 = Malkavian
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"mp-malkavian"
+			"Name"				"Malkavian"
+			"Description"			"Malkavians are known as Lunatics because of their ability to hear voices of \"insight\" and subject others to their insanity through their Discipline, Dementation. The world appears much different to the Malkavian than it does to the \"sane\" clans, though the extent of a Malkavian's madness depends on the individual. A blessing and a curse, a Malkavian's insanity will help or hinder them, depending on how much they struggle against their nature. Malkavians start with a +2 bonus to Inspection."
+			"ShortDescription"		"
+Insight, +2 to Inspection."
+			"ShortPenaltyDescription"	"Madness."
+		}
+
+		General
+		{
+			"Clan"			"Malkavian"
+			"M_Body0"		"models/character/pc/male/malkavian/armor0/Malkavian_Male_Armor_0.mdl"
+			"M_Body1"		"models/character/pc/male/malkavian/armor1/Malkavian_Male_Armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/malkavian/armor2/Malkavian_Male_Armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/malkavian/armor3/Malkavian_Male_Armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/malkavian/armor3/Malkavian_Male_Armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/malkavian/armor3/Malkavian_Male_Armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/malkavian/armor0/Malkavian_Female_Armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/malkavian/armor1/Malk_girl_Armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/malkavian/armor2/Malk_girl_Armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/malkavian/armor3/Malk_girl_Armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/malkavian/armor3/Malk_girl_Armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/malkavian/armor3/Malk_girl_Armor_3.mdl"
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, All-Star Athlete, Subtly Insane, Well Educated, Black-Hearted, Avid RPG Fan, Ex-cop, Perv, Pot Head"
+			"ClanEffect"		"Clan (Malkavian)"
+			"FrenzyEffect"		"Frenzy(Kindred)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_malkavian"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"3"
+			"Is_BlueBlood"		"0"
+			"SoundGroup"		""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"	"Mental_Social_Physical"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Malkavian"	
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"	
+
+			"CharGen_AutoLevel_Template"	"Malkavian_CharGen"
+			"Default_AutoLevel_Template"	"Malkavian_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"	"Knowledges_Skills_Talents"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+		}
+
+		Disciplines
+		{
+			"Blood_Healing"		"1"	
+			"Corpus_Vampirus"	"1"
+			"Auspex"		"1"
+			"Dementation"		"1"
+			"Obfuscate"		"1"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"0"
+				"Gangrel"		"+20"
+				"Malkavian"		"+20"
+				"Nosferatu"		"+28"
+				"Toreador"		"0"
+				"Tremere"		"+5"
+				"Ventrue"		"+5"
+			}
+		}
+	}
+
+// VCLAN 37 = Nosferatu
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"mp-nosferatu"
+			"Name"				"Nosferatu"
+			"Description"			"Hideous, skulking, and powerful. Even in a world of monsters the Nosferatu stand out. The Embrace twists and deforms their physical features, forcing them to seek sanctuary underground. Nosferatu are masters of the shadows. Due to their curse, Nosferatu have a Seduction of 0 and can never raise it higher, and they hide their existence from common humans. Having shared the darkness with vermin for so long, vampires of Clan Nosferatu are able to draw extra nourishment from rats."
+			"ShortDescription"		"
+Extra blood when feeding on rats. Rats do not flee."	
+			"ShortPenaltyDescription"	"Seduction maximum of 0. Monstrous visage can cause a Masquerade violation."
+		}
+
+		General
+		{
+			"Clan"			"Nosferatu"
+			"M_Body0"		"models/character/pc/male/nosferatu/armor0/Nosferatu.mdl"
+			"M_Body1"		"models/character/pc/male/nosferatu/armor1/Nosferatu_Male_armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/nosferatu/armor2/Nosferatu_Male_armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/nosferatu/armor3/Nosferatu_Male_armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/nosferatu/armor3/Nosferatu_Male_armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/nosferatu/armor3/Nosferatu_Male_armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/nosferatu/armor0/nosferatu_Female_Armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/nosferatu/armor1/nosferatu_Female_Armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/nosferatu/armor2/nosferatu_Female_Armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/nosferatu/armor3/nosferatu_Female_Armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/nosferatu/armor3/nosferatu_Female_Armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/nosferatu/armor3/nosferatu_Female_Armor_3.mdl"
+			"M_Hands"		"models/hands/male/nosferatu/v_nosferatu_male_hands.mdl"
+			"F_Hands"		"models/hands/female/nosferatu/v_nosferatu_fem_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, All-Star Athlete, Well Educated, Presentable, Black-Hearted, Avid RPG Fan, Ex-cop, Pot Head, Deaf"
+			"ClanEffect"		"Clan (Nosferatu)"
+			"FrenzyEffect"		"Frenzy(Kindred)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_nosferatu"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"4"
+			"Is_BlueBlood"		"0"
+			"SoundGroup"		""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"		"Mental_Physical_Social"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"0"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Nosferatu"	
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"	
+
+			"CharGen_AutoLevel_Template"	"Nosferatu_CharGen"
+			"Default_AutoLevel_Template"	"Nosferatu_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"	"Skills_Knowledges_Talents"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+		}
+
+		Disciplines
+		{
+			//"Blood_Healing"		"1"	
+			//"Corpus_Vampirus"	"1"
+			//"Animalism"		"1"
+			//"Obfuscate"		"1"
+			//"Potence"		"1"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+8"
+				"Gangrel"		"+27"
+				"Malkavian"		"+10"
+				"Nosferatu"		"+35"
+				"Toreador"		"-27"
+				"Tremere"		"-10"
+				"Ventrue"		"-8"
+			}
+		}
+	}
+
+// VCLAN 38 = Toreador
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"mp-toreador"
+			"Name"				"Toreador"
+			"Description"			"Toreador picture themselves as artistes and visionaries, and they value the high society mentality that the Camarilla reinforces. Of all clans, the Toreador are the most connected to the mortal world through arts and entertainment. Toreador are beautiful creatures, svelte and seductive, and move almost effortlessly through the society of the living. The Toreador's empathy is both a gift and a burden. All Humanity shifts are doubled."
+			"ShortDescription"		"
+All Humanity gains are doubled. Cheaper experience cost to raise Humanity."
+			"ShortPenaltyDescription"	"
+All Humanity losses are doubled."
+		}
+
+		General
+		{
+			"Clan"			"Toreador"
+			"M_Body0"		"models/character/pc/male/toreador/armor0/toreador_Male_Armor_0.mdl"
+			"M_Body1"		"models/character/pc/male/toreador/armor1/toreador_Male_Armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/toreador/armor2/toreador_Male_Armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/toreador/armor3/toreador_Male_Armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/toreador/armor3/toreador_Male_Armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/toreador/armor3/toreador_Male_Armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/toreador/armor0/toreador_Female_Armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/toreador/armor1/toreador_Female_Armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/toreador/armor2/toreador_Female_Armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/toreador/armor3/toreador_Female_Armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/toreador/armor3/toreador_Female_Armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/toreador/armor3/toreador_Female_Armor_3.mdl"
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, Well Educated, Starving Artist, Black-Hearted, Avid RPG Fan, Ex-cop, Perv, Pot Head, Deaf"
+			"ClanEffect"		"Clan (Toreador)"
+			"FrenzyEffect"		"Frenzy(Kindred)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_toreador"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"5"
+			"Is_BlueBlood"		"0"
+			"SoundGroup"		""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"	"Social_Mental_Physical"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Toreador"	
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"	
+
+			"CharGen_AutoLevel_Template"	"Toreador_CharGen"
+			"Default_AutoLevel_Template"	"Toreador_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"	"Talents_Knowledges_Skills"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+		}
+
+		Disciplines
+		{
+			"Blood_Healing"		"1"	
+			"Corpus_Vampirus"	"1"
+			"Auspex"		"1"
+			"Celerity"		"1"
+			"Presence"		"1"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+10"
+				"Gangrel"		"+5"
+				"Malkavian"		"+20"
+				"Nosferatu"		"-15"
+				"Toreador"		"+20"
+				"Tremere"		"+5"
+				"Ventrue"		"+20"
+			}
+		}
+	}
+
+// VCLAN 39 = Tremere
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"mp-tremere"
+			"Name"				"Tremere"
+			"Description"			"Blood sorcerers born from mystic rituals and diablerie, the Tremere are the least trusted of the Camarilla clans. The ritual the Tremere used to transform from living mages into undying monsters stripped them of their magic arts. To compensate, the vampires of Clan Tremere developed Thaumaturgy, the powerful Discipline of blood magic. The clan guards its secrets jealously and are the only Kindred to wield this powerful Discipline. The pursuit of arcane knowledge comes before all else, and the reliance upon it has weakened the bloodline. Tremere can raise no Physical Attribute above 4 points."
+			"ShortDescription"		"
+Thaumaturgy."
+			"ShortPenaltyDescription"	"Can raise no Physical Attribute above 4."
+		}
+
+		General
+		{
+			"Clan"			"Tremere"
+			"M_Body0"		"models/character/pc/male/tremere/armor0/tremere_Male_Armor_0.mdl"
+			"M_Body1"		"models/character/pc/male/tremere/armor1/tremere_Male_Armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/tremere/armor2/tremere_Male_Armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/tremere/armor3/tremere_Male_Armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/tremere/armor3/tremere_Male_Armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/tremere/armor3/tremere_Male_Armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/tremere/armor0/tremere_Female_Armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/tremere/armor1/tremere_Female_Armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/tremere/armor2/tremere_Female_Armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/tremere/armor3/tremere_Female_Armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/tremere/armor3/tremere_Female_Armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/tremere/armor3/tremere_Female_Armor_3.mdl"
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, Well Educated, Affinity for Magic, Black-Hearted, Avid RPG Fan, Ex-cop, Perv, Pot Head, Deaf"
+			"ClanEffect"		"Clan (Tremere)"
+			"FrenzyEffect"		"Frenzy(Kindred)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_tremere"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"6"
+			"Is_BlueBlood"		"0"
+			"SoundGroup"		""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"		"Mental_Physical_Social"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Tremere"	
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"	
+
+			"CharGen_AutoLevel_Template"	"Tremere_CharGen"
+			"Default_AutoLevel_Template"	"Tremere_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"		"Knowledges_Talents_Skills"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+		}
+
+		Disciplines
+		{
+			"Blood_Healing"		"1"	
+			"Corpus_Vampirus"	"1"
+			"Auspex"		"1"
+			"Dominate"		"1"
+			"Thaumaturgy"		"1"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"+10"
+				"Gangrel"		"-10"
+				"Malkavian"		"0"
+				"Nosferatu"		"0"
+				"Toreador"		"-10"
+				"Tremere"		"+20"
+				"Ventrue"		"+5"
+			}
+		}
+	}
+
+// VCLAN 40 = Ventrue
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"mp-ventrue"
+			"Name"				"Ventrue"
+			"Description"			"Truly the upper echelons of society, the Ventrue are seen as the honorable and virtuous leaders of the Camarilla. They wholeheartedly support the Masquerade, influencing the mortal and undead worlds to help them maintain the Masquerade as well as garner support for themselves. Clan Ventrue is an exclusive and powerful gathering of immortals, and even the lowliest initiate of Clan Ventrue can expect special treatment in Kindred society. This regal bloodline, however, gains no nourishment from the lowborn and thin-blooded. Ventrue gain no blood from feeding on animals. Feeding on lowlife humans - prostitutes and the homeless - can cause the Ventrue to vomit."
+			"ShortDescription"		"
+Easier acceptance into Camarilla society. Can use Dominate in dialog."
+			"ShortPenaltyDescription"	"
+Gain no blood from feeding on animals. Feeding on lowlife may cause vomiting."
+		}
+
+		General
+		{
+			"Clan"			"Ventrue"
+			"M_Body0"		"models/character/pc/male/ventrue/armor0/ventrue_Male_Armor_0.mdl"
+			"M_Body1"		"models/character/pc/male/ventrue/armor1/ventrue_Male_Armor_1.mdl"
+			"M_Body2"		"models/character/pc/male/ventrue/armor2/ventrue_Male_Armor_2.mdl"
+			"M_Body3"		"models/character/pc/male/ventrue/armor3/ventrue_Male_Armor_3.mdl"
+			"M_Body4"		"models/character/pc/male/ventrue/armor3/ventrue_Male_Armor_3.mdl"
+			"M_Body5"		"models/character/pc/male/ventrue/armor3/ventrue_Male_Armor_3.mdl"
+			"F_Body0"		"models/character/pc/female/ventrue/armor0/ventrue_Female_Armor_0.mdl"
+			"F_Body1"		"models/character/pc/female/ventrue/armor1/ventrue_Female_Armor_1.mdl"
+			"F_Body2"		"models/character/pc/female/ventrue/armor2/ventrue_Female_Armor_2.mdl"
+			"F_Body3"		"models/character/pc/female/ventrue/armor3/ventrue_Female_Armor_3.mdl"
+			"F_Body4"		"models/character/pc/female/ventrue/armor3/ventrue_Female_Armor_3.mdl"
+			"F_Body5"		"models/character/pc/female/ventrue/armor3/ventrue_Female_Armor_3.mdl"
+			"M_Hands"		"models/hands/male/shared/v_shared_male_hands.mdl"
+			"F_Hands"		"models/hands/female/shared/v_shared_female_hands.mdl"
+			"Gender"		"Male, Female"
+//			"History"		"None, Megalomaniac, Well Educated, Black-Hearted, Avid RPG Fan, Generalissimo, Ex-cop, Perv, Pot Head, Deaf"
+			"ClanEffect"		"Clan (Ventrue)"
+			"FrenzyEffect"		"Frenzy(Kindred)"
+			"Kindred"		"1"
+			"ClanIcon"		"cm_clan_symbol_ventrue"
+			"Multiplayer"		"1"
+			"MPEquipPkg"		"7"
+			"Is_BlueBlood"		"1"
+			"SoundGroup"		""
+		}
+
+		Attributes
+		{
+			"Attrib_Order"		"Social_Mental_Physical"
+			"Strength"		"1"
+			"Dexterity"		"1"
+			"Stamina"		"1"
+			"Charisma"		"1"
+			"Manipulation"		"1"
+			"Appearance"		"1"
+			"Perception"		"1"
+			"Intelligence"		"1"
+			"Wits"			"1"
+			"BloodPool"		"8"
+			"FaithPoints"		"0"
+			"Generation"		"10"
+			"Starting_Equipment"	"Ventrue"	
+			"Excluded_Equipment"	"Default"
+			"Experience"		"100"	
+
+			"CharGen_AutoLevel_Template"	"Ventrue_CharGen"
+			"Default_AutoLevel_Template"	"Ventrue_Default"
+		}
+
+		Abilities
+		{
+			"Ability_Order"		"Knowledges_Talents_Skills"
+			"Brawl"			"0"
+			"Dodge"			"0"
+			"Intimidation"		"0"
+			"Subterfuge"		"0"
+			"Firearms"		"0"
+			"Melee"			"0"
+			"Security"		"0"
+			"Stealth"		"0"
+			"Computer"		"0"
+			"Finance"		"0"
+			"Investigation"		"0"
+			"Academics"		"0"
+		}
+
+		Disciplines
+		{
+			"Blood_Healing"		"1"	
+			"Corpus_Vampirus"	"1"
+			"Dominate"		"1"
+			"Fortitude"		"1"
+			"Presence"		"1"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"			"0"
+				"Brujah"		"-28"
+				"Gangrel"		"-10"
+				"Malkavian"		"+15"
+				"Nosferatu"		"-10"
+				"Toreador"		"+15"
+				"Tremere"		"+5"
+				"Ventrue"		"+20"
+			}
+		}
+	}
+}
+// WIP! JLR! Need the other templates (Sabbat, monsters, etc.)!!! (If for nothing other than their reaction tables & starting equipment, etc.)

@@ -1,0 +1,134 @@
+// police Baton
+WeaponData
+{
+	"printname"	"Police baton"
+	"description"	"A truncheon or baton (also called a cosh, Paddy wacker, billystick, billy club, nightstick, sap, blackjack, stick) is essentially a stick of less than arms length—usually made of wood, plastic, or metal. They are carried for less lethal self-defense purposes by law-enforcement officers, correctional staff, security-industry employees and (less often) military personnel. Other uses for truncheons and batons include crowd control or the dispersal of belligerent or non-compliant targets."
+
+	"viewmodel"	"models/weapons/w_null.mdl"
+	"playermodel"	"models/weapons/arsenal_mod/police_baton/ground/g_police_baton.mdl"
+	"wieldmodel_f"	"models/weapons/arsenal_mod/police_baton/wield/w_f_police_baton.mdl"
+	"wieldmodel_m"	"models/weapons/arsenal_mod/police_baton/wield/w_m_police_baton.mdl"
+	"infomodel"	"models/weapons/arsenal_mod/police_baton/info/i_police_baton.mdl"
+
+	"anim_prefix"		"baton"
+	"impact_snd_group"	"wood"
+
+	"bucket"		"0"
+	"bucket_position"	"3"
+
+	"camera_class"		"melee"
+	"weight"		"2"
+	"item_flags"		"0"
+	"item_type"		"weapon_melee"
+	"sound_group"		"baton"
+
+	"knockback_chance"	"0.1"
+	"item_worth"		"44"
+	//"knowledge_min"		"1"
+
+// Sounds...
+	SoundData
+	{
+		"swish"
+		{
+			"sound1"	"Weapons/arsenal_mod/melee/policebaton/policebaton_attack1.wav"
+			"sound2"	"Weapons/arsenal_mod/melee/policebaton/policebaton_attack2.wav"
+			"sound3"	"Weapons/arsenal_mod/melee/policebaton/policebaton_attack3.wav"
+			"sound4"	"Weapons/arsenal_mod/melee/policebaton/policebaton_attack4.wav"
+		}
+
+		"pickup"
+		{
+			"sound1"	"Weapons/arsenal_mod/melee/policebaton/policebaton_select.wav"
+		}
+
+		"stealth_kill_success"
+		{
+			"sound1"	"Weapons/Melee/Tire_Iron/Stealth_Tire_Iron.wav"
+		}
+
+		"stealth_kill_failure"
+		{
+			"sound1"	"Weapons/Melee/Fists/Stealth_Kill_Failure.wav"
+		}
+	}
+
+	Activation
+	{
+		"Tag"			"Primary"
+		"Type"			"Attack"
+		"Ammo_Type"		"None"
+		"Ammo_Cost"		"0"
+
+		"SkillRequirement"	"2"		
+		"BaseLethality"		"10"		
+		"Dmg"			"2 Bashing Close_Combat_Melee DMG_CLUB"
+
+		"Botch_Table"		"Melee_Weapons"
+		"Attack_Rate"		"1.0"
+		"Range"			"0"
+		"CriminalLevel"		"2"
+
+	// Sounds...
+		SoundData
+		{
+			"attack"
+			{
+				"sound1"	"Weapons/arsenal_mod/melee/policebaton/policebaton_attack1.wav"
+				"sound2"	"Weapons/arsenal_mod/melee/policebaton/policebaton_attack2.wav"
+				"sound3"	"Weapons/arsenal_mod/melee/policebaton/policebaton_attack3.wav"
+				"sound4"	"Weapons/arsenal_mod/melee/policebaton/policebaton_attack4.wav"
+			}
+
+			"attack_npc"
+			{
+				"sound1"	"Weapons/arsenal_mod/melee/policebaton/policebaton_attack1.wav"
+				"sound2"	"Weapons/arsenal_mod/melee/policebaton/policebaton_attack2.wav"
+				"sound3"	"Weapons/arsenal_mod/melee/policebaton/policebaton_attack3.wav"
+				"sound4"	"Weapons/arsenal_mod/melee/policebaton/policebaton_attack4.wav"
+			}
+
+			"deploy"
+			{
+				"sound1"	"Weapons/arsenal_mod/melee/policebaton/policebaton_select.wav"
+			}
+
+			"put_away"
+			{
+				"sound1"	"Weapons/arsenal_mod/melee/policebaton/policebaton_deselect.wav"
+			}
+
+			"fidget"
+			{
+				"sound1"	"Weapons/Melee/Fidget.wav"
+			}
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/Weapons_Melee/baton1_sel"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/Weapons_Melee/baton1"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+	}
+}

@@ -1,0 +1,28 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Celerity:
+Celerity is vampiric super speed. Once activated, the world will seem to slow down around the vampire, while his speed remains unaffected. At higher levels of Celerity, the vampire can even dodge bullets with ease.
+Celerity costs 1 blood point to activate.
+To the mortal observer, a vampire with active level one Celerity appears as fleet-footed as an Olympic runner. Higher levels of Celerity are an obvious Masquerade violation, and shouldn't be invoked in safe areas.
+To use Celerity, scroll to it using the ] and [ keys (by default) or with the mouse wheel, then use the Power key (default right-click) to activate it.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

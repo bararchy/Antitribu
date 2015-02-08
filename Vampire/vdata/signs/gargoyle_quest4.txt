@@ -1,0 +1,51 @@
+SignData
+{
+	// NOTE: Labels get text justification
+	//	 TextBlocks get word wrapping	
+	//	 Font sizes per resolution are defined in vampire/resource/TrackerScheme.res
+
+	// if you don't specify X and Y pos for the background image, it will autocenter. 
+	BackgroundImage
+	{
+		"Name"		"hud/signs/monogram"
+		//"Name"		"hud/signs/notepad_yellow"
+		"Tiled"		"0"
+//		"XPos"		"312"
+//		"YPos"		"128"
+		"Wide"		"450"
+		"Tall"		"595"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Copying from Bestiaire d'amour (Bestiary of Love) Richard de Fournival from 1245, Amiens, France. 
+...In order to revive the stone sculpture, nominate the gargoyle:
+-need to man sprinkled stone's body strong blood the most powerful blood, which only can be found
+-farther need lay upon on the stone altar the theurgic manuscript with knowledge about the stone created being
+-beyond obligatorily need to place amulet with same substance that produced creature into theurgic manuscript along incumbent on altar...
+In translation Jeanette Beer (University of California Press, 1986)"
+		//"Font"		"ParagraphText"
+		"Font"		"Trebuchet"
+		"XPos"		"48"
+		"YPos"		"30"
+		"Wide"		"365"
+		"Tall"		"575"
+		"TextRGBA"		"[10,0,0,200]"
+		"BackgroundRGBA"	"[0,0,0,0]"
+	}
+
+	TextBlock
+	{
+		"Text"		"friend"
+		"Font"		"Vamp_Handwriting1"
+		"XPos"		"302"
+		"YPos"		"520"
+		"Wide"		"205"
+		"Tall"		"25"
+		"TextRGBA"		"[0, 0, 0, 200]"
+		"BackgroundRGBA"	"[0, 0, 0, 0]"
+	}
+
+}
+

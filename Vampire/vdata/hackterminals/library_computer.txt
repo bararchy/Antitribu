@@ -1,0 +1,77 @@
+TerminalDefinition
+{
+	"screen saver"		"Reading is fun!"
+	"brackets"		""		
+
+	LogonScreen
+	{
+		"line0"		"LA Public Library"
+		"line1"		"Operating Terminal 6"
+	} 
+
+	SubDir
+	{
+		"name"			"Insert Card"				
+		"description"		"Please insert library card!"
+		"password"		"bibliolater"
+		"difficulty"		"10"
+		"dependency"		"G.Card_Inserted == 0 and G.Computer_Password == 1"
+
+		Function
+		{
+			"name"		"Open sec door"
+			"description"	"Opening secret door"		
+			"runtext"	"Secret door open."
+			"trigger"	"1"
+		}
+	}
+
+	SubDir
+	{
+		"name"			"Insert Card"				
+		"description"		"Please insert library card!"
+		"password"		"bibliophile"
+		"difficulty"		"10"
+		"dependency"		"G.Card_Inserted == 0 and G.Computer_Password == 2"
+
+		Function
+		{
+			"name"		"Open sec door"
+			"description"	"Opening secret door"		
+			"runtext"	"Secret door open."
+			"trigger"	"1"
+		}
+	}
+
+	SubDir
+	{
+		"name"			"Insert Card"				
+		"description"		"Please insert library card!"
+		"password"		"booklover"
+		"difficulty"		"10"
+		"dependency"		"G.Card_Inserted == 0 and G.Computer_Password == 3"
+
+		Function
+		{
+			"name"		"Open sec door"
+			"description"	"Opening secret door"		
+			"runtext"	"Secret door open."
+			"trigger"	"1"
+		}
+	}
+
+	SubDir
+	{
+		"name"			"Insert Card"
+		"description"		"Your ID is successful!"
+		"dependency"		"G.Card_Inserted == 1"
+
+		Function
+		{
+			"name"		"Open sec door"
+			"description"	"Opening secret door"		
+			"runtext"	"Secret door open."
+			"trigger"	"1"
+		}
+	}
+}

@@ -1,0 +1,29 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Melee Weapons:
+Use the Melee Weapons key (default F1) to cycle through your hotlist of weapons.
+Use the mouse wheel or the ] and [ keys (by default) to scroll through the lists.
+Select the tire iron. Selecting a melee weapon will put you into third-person camera mode.
+When attacking an enemy with melee weapons, your Melee feat is compared against your enemy's Defense feat. The higher your Melee feat, the better your chance to hit, and the more damage you will do.
+Use the Attack Mode key (default TAB) to block. Actively blocking will add a bonus to your Defense feat. This bonus is equal to your Dexterity attribute.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

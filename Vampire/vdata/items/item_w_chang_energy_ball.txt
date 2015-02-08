@@ -1,0 +1,249 @@
+//Ming Xiao's Spit  +male hands for cast disciplines not samedi
+
+WeaponData
+{
+	"printname"	"Cobra Spit"
+	"description"	"Cobra Spit"
+	
+	//"viewmodel"	"models/weapons/thaumaturgy/view/v_male.mdl"
+	"viewmodel"	"models/weapons/w_null.mdl"
+	"playermodel"	"models/weapons/w_null.mdl"
+	"wieldmodel_f"	"models/weapons/w_null.mdl"
+	"wieldmodel_m"	"models/weapons/w_null.mdl"
+	"infomodel"	"models/weapons/w_null.mdl"
+
+	"origin_x"	"0"
+	"origin_y"	"0"
+	"origin_z"	"75"
+
+	"anim_prefix"           ""
+	"impact_snd_group"      ""
+
+	"activation0"           "Attack"
+	"activation1"           "Attack"
+	"jammed0"               "Jammed"
+	"jammed1"               "Jammed"
+	"bucket"		"0"
+	"bucket_position"	"1"
+	"camera_class"		"melee"
+	"weight"		"3"
+	"item_flags"		"1"
+	"item_type"		"powerup"
+	"item_worth"            "-1"
+	"sound_group"		""
+
+	"fires_projectile"       	"1"
+	"projectile_velocity"    	"650.0"
+	"projectile_model"       	"models/weapons/disciplines/serpentis/cobra_spit.mdl"
+	"projectile_particles"   	"d_serpentis_cobra_projectile_emitter"
+	"projectile_sticks"      	"0"
+	//"projectile_class"       	"vampireprojectile_mingxiaospit"
+	"projectile_impact_sound" 	"disciplines\serpentis\level3\impact.wav"
+
+	//"uses_accuracycursors"  "1"
+	"equip_mask"		"ClawedForm"
+	"impact_force"		"400"
+	"knockback_chance"	"1.0"
+	"can_stakedmg"		"1"
+
+	"is_visible_in_hud"     "1"
+	"is_droppable"		"0"
+
+//Weapon Ammo
+	Magazine
+	{
+		"ammoprintname"          "cobra's Spit"
+		"ammodescription"        "A goober"
+
+		"Size"			"150"
+		"Default_Size"		"150"
+		//"Type"                  "FlameThrowerRound"
+		"Type"                  "MediumRound"
+		"ReloadTime"            "2.5"
+		"ammo_worth"            "-1"
+
+		SoundData
+		{
+			"reload"
+			{
+//				"sound1"	"weapons/MingXiaoSpit/reload.wav"
+			}
+
+			"reload_npc"
+			{		
+//				"sound1"	"weapons/MingXiaoSpit/reload.wav"
+			}
+		}
+	}
+
+//Primary Attack
+	Activation
+	{
+		"Tag"                    "Primary"
+		"Type"                   "Attack"
+		"Ammo_Type"              "MediumRound"
+		"Ammo_Cost"              "0"
+		"Ammo_Fired"             "0"
+		"Botch_Table"            "grenadelauncher"
+		"Attack_Rate"            "1.05"
+		"Range"                  "145"
+		"KickPitchMin"           "0.00"
+		"KickPitchMax"           "0.00"
+		"KickYawMin"             "0"
+		"KickYawMax"             "0"
+		"KickTime"               "0.00"
+		//"SpreadAngle"            "3.0"
+		"CriminalLevel"          "5"
+		//"Accuracy"               "6"
+
+		"SkillRequirement"	"-1"			
+		"BaseLethality"		"5"				
+		"Dmg"			"5 Aggravated Strength DMG_BUCKSHOT"
+
+		//"MajorKnockbackDist"	"100.0"	
+		//"MinorKnockbackDist"	"75.0"	
+
+		SoundData
+		{
+			"swish"
+			{
+				"sound1"	"Character\Monster\Ming Xiao\spit_ball.wav"
+				"sound2"	"Character\Monster\Ming Xiao\spit_ball.wav"
+				"sound3"	"Character\Monster\Ming Xiao\spit_ball.wav"
+			}
+
+			"stealth_kill_success"
+			{
+				"sound1"	"Weapons/Melee/Fists/Stealth_Kill_Success.wav"
+			}
+
+			"stealth_kill_failure"
+			{
+				"sound1"	"Weapons/Melee/Fists/Stealth_Kill_Failure.wav"
+			}
+
+			"empty"
+			{
+//				"sound1"	"Character\Monster\Ming Xiao\spit_ball.wav"
+			}
+
+			"attack"
+			{
+				"sound1"	"disciplines\serpentis\level3\spit_1.wav"
+				"sound2"	"disciplines\serpentis\level3\spit_2.wav"
+			}
+
+			"attack_npc"
+			{
+				"sound1"	"Character\Monster\Ming Xiao\spit_ball.wav"
+			}
+
+			"botch"
+			{
+//				"sound1"	"Character\Monster\Ming Xiao\spit_ball.wav"
+			}
+
+			"deploy"
+			{
+//				"sound1"	"Character\Monster\Ming Xiao\spit_ball.wav"
+			}
+		}
+
+		Tables
+		{
+			Table
+			{
+				"Name"          "WeaponRanges"
+				"InternalName"  "WeaponRanges"
+
+				"Clamping"      "1"
+
+				"0"             "0"         // 5 (bonus)
+				"1"             "0"         // 4 (bonus)
+				"2"             "0"         // 3 (bonus)
+				"3"             "0"         // 2 (bonus)
+				"4"             "80"        // 1 (bonus)
+				"5"             "30000"     // 0 (neutral)
+				"6"             "30000"     //-1 (penalty)
+				"7"             "30000"     //-2 (penalty)
+				"8"             "30000"     //-3 (penalty)
+				"9"             "30000"     //-4 (penalty)
+			}
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"		"hud/Inventory_Images/Weapons_Melee/Claws_sel"	
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"		"hud/Inventory_Images/Weapons_Melee/Claws"	
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"ammo"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/weapons_ranged/ammo/db_ammo"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"ammo2"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/weapons_ranged/ammo/db_ammo_SEL"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"crosshair"
+		{
+			"640"
+			{
+				"file"		"hud/disipline_targeting_cursor"
+				"x"			"0"
+				"y"			"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"crosshair2"
+		{
+			"640"
+			{
+				"file"		"hud/disipline_targeting_cursor"
+				"x"			"0"
+				"y"			"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+	}
+}

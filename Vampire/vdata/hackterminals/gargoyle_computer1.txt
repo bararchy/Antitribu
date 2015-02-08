@@ -1,0 +1,64 @@
+TerminalDefinition
+{
+	"screen saver"		"Gimble prostheses"		 
+	"brackets"		""
+
+	"email_password"	"stanley"
+	"email_username"	"Stan"
+	"Difficulty"		"5"			
+
+	LogonScreen	
+	{
+		"line0"		"Stan Gimble"  
+		"line1"		"Gimble prostheses"
+	}
+
+	SubDir
+	{
+		"name"			"orders"
+		"password"		"stonehead"
+		"description"		"orders"
+
+		Function
+		{
+			"name"		"statue"
+			"description"	"statue"
+			"runtext"	"As per your request I have intercepted the crate containing the Gargoyle.
+ You were right, there's no doubt about it! This is a Gargoyle created by the hated Tremere, trapped in torpor for whatever reason.
+ I'm hoping some very potent blood will wake it from its slumber. I'm investigating ways to secure the most potent blood I can find."
+			"runscript"	"GargoyleQuest2()"
+		}
+	}
+
+	Email
+	{
+		"subject"	"Stonehenge"
+		"sender"	"Anastasia"	
+		"body"		"The cargo has left France, bound for Club Confession in downtown LA. Stop the create and take its contents before
+ It goes without saying that, if it contains what we think, it is far more valuable than your pitiful life.
+ Treat it as such."
+	}
+
+	Email
+	{
+		"subject"	"New blood"
+		"sender"	"Vandal"
+		"body"		"It's funny you should ask about unusual blood. A tabloid paper just delivered something matching that very description.
+ The only question left is, what is it worth to you?"
+	}
+
+	Email
+	{
+		"subject"	"DANG! It's big you know!!!111"
+		"sender"	"Hung Low"		
+		"body"		"PENIS ENLARGEMENT! Watch the girls cum running! Call today! 1-800-BIG-STICK!"
+		"autodelete"	"1"
+	}
+
+	Email
+	{
+		"subject"	"seeker"
+		"sender"	"a friend"		
+		"body"		"Hey, newcomer. Are you looking for something?"
+	}
+}

@@ -1,0 +1,46 @@
+SignData
+{
+	// NOTE: Labels get text justification
+	//	 TextBlocks get word wrapping	
+	//	 Font sizes per resolution are defined in vampire/resource/TrackerScheme.res
+
+	// if you don't specify X and Y pos for the background image, it will autocenter. 
+	BackgroundImage
+	{
+		"Name"		"hud/signs/notepad_yellow"
+		"Tiled"		"0"
+//		"XPos"		"312"
+//		"YPos"		"128"
+		"Wide"		"450"
+		"Tall"		"595"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Hey, newbie, do you got the 'Thaumaturgical Creatures'? Now, to this book and the blood you need another item, tremere Regent has its, you can get it from him diplomatically or by force.
+Oh yes, you'll need to make ritual. You'll know all at room from backstage in Empire hotel.
+Be careful newbie, not only you looking for knowledge..."
+		"Font"		"Vamp_Handwriting1"
+		"XPos"		"80"
+		"YPos"		"102"
+		"Wide"		"360"
+		"Tall"		"575"
+		"TextRGBA"		"[0,0,0,150]"
+		"BackgroundRGBA"	"[0,0,0,0]"
+	}
+
+	TextBlock
+	{
+		"Text"		"friend"
+		"Font"		"Vamp_Handwriting1"
+		"XPos"		"302"
+		"YPos"		"520"
+		"Wide"		"205"
+		"Tall"		"25"
+		"TextRGBA"		"[0, 0, 0, 220]"
+		"BackgroundRGBA"	"[0, 0, 0, 0]"
+	}
+
+}
+

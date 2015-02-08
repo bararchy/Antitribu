@@ -1,0 +1,22 @@
+SoundSchemeTables
+{
+	SoundScheme
+	{
+		"Name"			"Usable"
+		"InternalName"		"Switches"
+
+		SoundList
+		{
+			Sound
+			{
+				"Name"		"on"
+			}
+
+			Sound
+			{
+				"Name"		"off"
+			}
+		}
+
+	}
+}

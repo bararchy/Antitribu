@@ -1,0 +1,149 @@
+// One-hand magic powerful blade - soul reaver
+
+WeaponData
+{
+	"viewmodel"	"models/weapons/w_null.mdl"
+	"playermodel"	"models/weapons/arsenal_mod/soul_reaver/ground/g_reaver.mdl"
+	"wieldmodel_f"	"models/weapons/arsenal_mod/soul_reaver/wield/w_f_reaver.mdl"	
+	"wieldmodel_m"	"models/weapons/arsenal_mod/soul_reaver/wield/w_m_reaver.mdl"	
+	"infomodel"	"models/weapons/arsenal_mod/soul_reaver/info/i_reaver.mdl"
+
+	"anim_prefix"		"katana"
+	"impact_snd_group"	"blade"
+
+	"printname"		"Soul Reaver"
+	//"description"		"\"Time fades even legend, and the origin of the Soul Reaver has been lost long ago. But its purpose remains – to feed on the souls of any creature it strikes. Kindred, this blade and I.\" 
+	//			It is a flamberge-class sword with a broad, undulating serpentine blade, forged from unknown materials. The Soul Reaver possessed many unique qualities, as soon as your hand touches the hilt, you feel your flesh knit and your strength increase.
+	//			But this sword absorbs the souls, because it reduces your humanity and increases your connection with the beast."
+
+	"description"		"\"Time fades even legend, and the origin of the Soul Reaver has been lost long ago. But its purpose remains – to feed on the souls of any creature it strikes. Kindred, this blade and I.\" 
+				It is a flamberge-class sword with a broad, undulating serpentine blade, forged from unknown materials. Using the Soul Reaver, you can induce kinetic strike (alt attack - 'q' by default) that damages and knockback enemies and physical objects.
+				But also your own body as well suffers damage from this attack."
+
+	"activation0"		"Attack"
+	"activation1"		""
+
+	"bucket"		"0"
+	"bucket_position"	"6"
+
+	"camera_class"		"melee"
+	"weight"		"2"
+	"item_flags"		"0"
+	"item_type"		"weapon_melee"
+
+	"sound_group"		"Katana"
+
+	"knockback_chance"	"10.9"
+
+	//"wield_effect"		"weapon (soul reaver)"
+
+	"is_droppable"		"0"
+	"item_worth"		"-1"
+	//"item_worth"		"410"
+	"knowledge_min"		"10"
+
+// Sounds...
+	SoundData
+	{
+		"swish"
+		{
+			"sound1"	"Weapons/arsenal_mod/melee/reaver/reaver_attack_1.wav"
+			"sound2"	"Weapons/arsenal_mod/melee/reaver/reaver_attack_2.wav"
+			"sound3"	"Weapons/arsenal_mod/melee/reaver/reaver_attack_3.wav"
+		}
+
+		"pickup"
+		{
+			"sound1"	"Weapons/arsenal_mod/melee/reaver/reaver_select.wav"
+		}
+
+		"stealth_kill_success"
+		{
+			"sound1"	"Weapons/arsenal_mod/melee/reaver/reaver_stealth.wav"
+		}
+
+		"stealth_kill_failure"
+		{
+			"sound1"	"Weapons/Melee/Fists/Stealth_Kill_Failure.wav"
+		}		
+	}
+
+	Activation
+	{
+		"Tag"			"Primary"
+		"Type"			"Attack"
+		"Ammo_Type"		"None"
+		"Ammo_Cost"		"0"
+		"Botch_Table"		"Melee_Weapons"
+		"Attack_Rate"		"1.0"
+		"Range"			"0"
+		"CriminalLevel"		"3"
+
+		"SkillRequirement"	"10"		
+		"BaseLethality"		"15"		
+		"Dmg"			"3 Aggravated Close_Combat_Melee DMG_SUPERCLAWBITE"	
+
+		"ImpactForceMin"   	"84.0"
+		"ImpactForceMax"  	"158.0"
+
+	// Sounds...
+		SoundData
+		{
+			"attack"
+			{
+				"sound1"	"Weapons/arsenal_mod/melee/reaver/reaver_attack_1.wav"
+				"sound2"	"Weapons/arsenal_mod/melee/reaver/reaver_attack_2.wav"
+				"sound3"	"Weapons/arsenal_mod/melee/reaver/reaver_attack_3.wav"
+			}
+
+			"attack_npc"
+			{
+				"sound1"	"Weapons/arsenal_mod/melee/reaver/reaver_attack_1.wav"
+				"sound2"	"Weapons/arsenal_mod/melee/reaver/reaver_attack_2.wav"
+				"sound3"	"Weapons/arsenal_mod/melee/reaver/reaver_attack_3.wav"
+			}
+
+			"deploy"
+			{
+				"sound1"	"Weapons/arsenal_mod/melee/reaver/reaver_select.wav"
+			}
+
+			"put_away"
+			{
+				"sound1"	"Weapons/arsenal_mod/melee/reaver/reaver_deselect.wav"
+			}
+
+			"fidget"
+			{
+				"sound1"	"Weapons/Melee/Fidget.wav"
+			}
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/weapons_melee/reaver_sel"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/weapons_melee/reaver"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+	}
+}

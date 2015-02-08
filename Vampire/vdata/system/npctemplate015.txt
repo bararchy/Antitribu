@@ -1,0 +1,332 @@
+//////////////////////////////////////////////////
+// NPC Stat Templates (Packages)
+//
+//	NPCs in worldcraft are assigned one of these which determines their statistics.
+
+ClanDataTables
+{
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"Tpl_standard"
+			"ParentTemplateName"		"NPCGeneric"
+			"Name"				"None"
+			"Description"			"Temple: standard"
+		}
+
+		General
+		{
+			"Clan"				"None"
+//			"ClanEffect"			""
+			"Kindred"			"0"
+			"Supernatural"			"0"
+			"Boss"				"0"
+			"NoBiting"			"0"
+			"SoundGroup"			"Asian"
+
+			"NormalFootfallDist"		"1000"
+			"HeavyFootfallDist"		"800"
+			"NormalFootfallVol"		"0.85"
+			"HeavyFootfallVol"		"0.45"
+			"NpcFakeReloadCountMin"		"20.0" 		// ak47
+		}
+
+		Attributes
+		{
+			"Strength"				"4"
+			"Dexterity"				"2"
+			"Stamina"				"5"
+			"Charisma"				"1"
+			"Manipulation"				"1"
+			"Appearance"				"1"
+			"Perception"				"4"
+			"Intelligence"				"1"
+			"Wits"					"4"
+			"Armor_Rating"				"0"
+			"Max_Health"				"100"	
+			"BloodPool"				"12"
+			"FaithPoints"				"0"
+			"Starting_Equipment"			"Civilian"
+			"Excluded_Equipment"			"Default"
+		}
+
+		Abilities
+		{
+			"Brawl"					"2"
+			"Dodge"					"4"
+			"Intimidation"				"0"
+			"Subterfuge"				"0"
+			"Firearms"				"2"
+			"Melee"					"2"
+			"Security"				"0"
+			"Stealth"				"1"
+			"Computer"				"9"     // Defense vs pc feeding
+			"Finance"				"0"
+			"Investigation"				"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+	}
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"Tpl_star"
+			"ParentTemplateName"		"NPCGeneric"
+			"Name"				"None"
+			"Description"			"Temple: star"
+		}
+
+		General
+		{
+			"Clan"				"None"
+//			"ClanEffect"			""
+			"Kindred"			"0"
+			"Supernatural"			"0"
+			"Boss"				"0"
+			"NoBiting"			"0"
+			"SoundGroup"			"Asian"
+
+			"NormalFootfallDist"		"1000"
+			"HeavyFootfallDist"		"800"
+			"NormalFootfallVol"		"0.85"
+			"HeavyFootfallVol"		"0.45"
+			"NpcFakeReloadCountMin"		"10.0" 		// ak47
+		}
+
+		Attributes
+		{
+			"Strength"				"4"
+			"Dexterity"				"2"
+			"Stamina"				"4"
+			"Charisma"				"1"
+			"Manipulation"				"1"
+			"Appearance"				"1"
+			"Perception"				"4"
+			"Intelligence"				"1"
+			"Wits"					"4"
+			"Armor_Rating"				"1"
+			"Max_Health"				"90"	
+			"BloodPool"				"5"
+			"FaithPoints"				"0"
+			"Starting_Equipment"			"Civilian"
+			"Excluded_Equipment"			"Default"
+		}
+
+		Abilities
+		{
+			"Brawl"					"2"
+			"Dodge"					"4"
+			"Intimidation"				"0"
+			"Subterfuge"				"0"
+			"Firearms"				"2"
+			"Melee"					"2"
+			"Security"				"0"
+			"Stealth"				"1"
+			"Computer"				"9"     // Defense vs pc feeding
+			"Finance"				"0"
+			"Investigation"				"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+	}
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"Tpl_sword"
+			"ParentTemplateName"		"NPCGeneric"
+			"Name"				"None"
+			"Description"			"Temple: sword"
+		}
+
+		General
+		{
+			"Clan"				"None"
+//			"ClanEffect"			""
+			"Kindred"			"0"
+			"Supernatural"			"0"
+			"Boss"				"0"
+			"NoBiting"			"0"
+			"SoundGroup"			"Asian"
+
+			"NormalFootfallDist"		"1000"
+			"HeavyFootfallDist"		"800"
+			"NormalFootfallVol"		"0.85"
+			"HeavyFootfallVol"		"0.45"
+			"NpcFakeReloadCountMin"		"7.0" 		
+		}
+
+		Attributes
+		{
+			"Strength"				"4"
+			"Dexterity"				"2"
+			"Stamina"				"4"
+			"Charisma"				"1"
+			"Manipulation"				"1"
+			"Appearance"				"1"
+			"Perception"				"4"
+			"Intelligence"				"1"
+			"Wits"					"4"
+			"Armor_Rating"				"2"
+			"Max_Health"				"110"	
+			"BloodPool"				"10"
+			"FaithPoints"				"5"
+			"Starting_Equipment"			"Civilian"
+			"Excluded_Equipment"			"Default"
+		}
+
+		Abilities
+		{
+			"Brawl"					"2"
+			"Dodge"					"4"
+			"Intimidation"				"0"
+			"Subterfuge"				"0"
+			"Firearms"				"2"
+			"Melee"					"2"
+			"Security"				"0"
+			"Stealth"				"1"
+			"Computer"				"9"     // Defense vs pc feeding
+			"Finance"				"0"
+			"Investigation"				"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+	}
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"			"Tpl_firebolt"
+			"ParentTemplateName"		"NPCGeneric"
+			"Name"				"None"
+			"Description"			"Temple: firebolt"
+		}
+
+		General
+		{
+			"Clan"				"None"
+//			"ClanEffect"			""
+			"Kindred"			"0"
+			"Supernatural"			"0"
+			"Boss"				"0"
+			"NoBiting"			"0"
+			"SoundGroup"			"Asian"
+
+			"NormalFootfallDist"		"1000"
+			"HeavyFootfallDist"		"800"
+			"NormalFootfallVol"		"0.85"
+			"HeavyFootfallVol"		"0.45"
+
+			"NpcFakeReloadCountMin"		"2.0" 		// "dragon breath"
+		}
+
+		Attributes
+		{
+			"Strength"				"4"
+			"Dexterity"				"2"
+			"Stamina"				"4"
+			"Charisma"				"1"
+			"Manipulation"				"1"
+			"Appearance"				"1"
+			"Perception"				"4"
+			"Intelligence"				"1"
+			"Wits"					"4"
+			"Armor_Rating"				"1"
+			"Max_Health"				"100"	
+			"BloodPool"				"10"
+			"FaithPoints"				"0"
+			"Starting_Equipment"			"Civilian"
+			"Excluded_Equipment"			"Default"
+		}
+
+		Abilities
+		{
+			"Brawl"					"2"
+			"Dodge"					"4"
+			"Intimidation"				"0"
+			"Subterfuge"				"0"
+			"Firearms"				"2"
+			"Melee"					"2"
+			"Security"				"0"
+			"Stealth"				"1"
+			"Computer"				"9"     // Defense vs pc feeding
+			"Finance"				"0"
+			"Investigation"				"0"
+		}
+
+		Reactions
+		{
+			To
+			{
+				"None"				"0"
+				"Brujah"			"0"
+				"Gangrel"			"0"
+				"Malkavian"			"0"
+				"Nosferatu"			"0"
+				"Toreador"			"0"
+				"Tremere"			"0"
+				"Ventrue"			"0"
+			}
+
+			From
+			{
+			}
+		}
+	}
+}

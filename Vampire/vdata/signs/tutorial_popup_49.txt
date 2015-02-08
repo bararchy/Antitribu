@@ -1,0 +1,29 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Physical Objects:
+Many objects in the world can be moved and/or picked up. They can also be thrown.
+Throwing, dropping, and moving objects makes sounds that characters in the world can hear and react to. You can use this to distract enemies, but you must also beware of bumping into noisy garbage cans or other obstacles when sneaking.
+When you are facing an object that can be picked up, you will get a hand icon. Use the Use key (default E) to pick the object up.
+Once you have picked an object up, you may left-click to throw it. You may also press the Use key again to drop the object at your feet. Note that you cannot use weapons while holding an object.
+The greater your Strength attribute, the farther you can throw.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

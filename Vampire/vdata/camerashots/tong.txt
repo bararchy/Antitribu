@@ -1,0 +1,43 @@
+CameraShotTable
+{
+
+	Tong
+	{
+		Start
+		{
+			"Position"		"Named"
+			"AttachPos"		"Center"
+			"AttachType"		"Follow" 
+		}		
+		
+		End
+		{
+			"Position"		"Named"
+			"AttachPos"		"Origin"
+			"AttachType"		"Follow"
+			"OffsetOrigin"		"[100, 0, 45]"	 
+		}
+
+		Target	
+		{
+			Point1
+			{
+				"Position"	"Named"
+				"AttachPos"	"Bone: Bip01 Neck"
+				"AttachType"	"Follow"
+			}
+		}
+
+		CameraConstraints
+		{
+			"MoveAccel"		"250"
+			"TurnAccel"		"90"
+			"MaxTurnRate"		"[90, 90, 90]"	
+			"MoveSpeed"		"500"		
+			"DistanceTolerance"	"5"
+			"AngularTolerance"	"[5, 5, 5]"	
+			"FieldOfView"		"75"
+		}
+	}
+
+}

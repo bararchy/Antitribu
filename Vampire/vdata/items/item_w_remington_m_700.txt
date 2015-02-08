@@ -1,0 +1,288 @@
+// hand grenade launcher 
+WeaponData
+{
+	"printname"	"M79 blooper"
+	"description"	"The M79 (also Thumper, Thump-Gun, Bloop Tube and Blooper) grenade launcher is a single-shot, shoulder-fired, break-action grenade launcher that fires a 40x46mm grenade which used what the US Army called the High-Low Propulsion System to keep recoil forces low, and first appeared during the Vietnam War. The M79 can fire a wide variety of 40 mm rounds, including explosive, anti-personnel, smoke, buckshot, flechette, and illumination."
+	
+	"viewmodel"	"models/weapons/arsenal_mod/m79/view/v_m79.mdl"
+	"playermodel"	"models/weapons/arsenal_mod/m79/ground/g_m79.mdl"
+	"wieldmodel_f"	"models/weapons/arsenal_mod/m79/wield/w_f_m79.mdl"
+	"wieldmodel_m"	"models/weapons/arsenal_mod/m79/wield/w_m_m79.mdl"
+	"infomodel"	"models/weapons/arsenal_mod/m79/info/i_m79.mdl"
+
+	"origin_x"	"0"
+	"origin_y"	"-4"
+	"origin_z"	"70"
+
+	"anim_prefix"		"rem700"
+	"impact_snd_group"	"bullet"
+
+	"activation0"		"Single Pump"
+	"activation1"		"Error"
+	"jammed0"		"Jammed"
+	"jammed1"		"Jammed"
+	"bucket"		"1"
+	"bucket_position"	"4"
+	"camera_class"		"ranged"
+	"weight"		"2"
+	"item_flags"		"0"
+	"item_type"		"weapon_firearm"
+	
+	"impact_force"			"15000"
+	"sound_group"			"Shotgun"
+	"knockback_chance"		"1.0"
+	"uses_accuracycursors"		"1"
+
+	"muzzleflash_particle"		"w_m79_emitter"
+	"muzzlesmoke_particle"		"Blank_emitter"
+	"viewmuzzleflash_particle"	"w_m79_emitter"
+	"viewmuzzlesmoke_particle"	"Blank_emitter"
+
+	"fires_projectile"		"1"
+	"projectile_velocity"		"2000"
+	"projectile_model"		"models/weapons/projectile/bullet01.mdl"
+	"projectile_particles"		"w_grenade_m79_projectile_emitter"
+	"projectile_sticks"		"0"
+	"can_stakedmg"			"1"
+
+	"projectile_impact_sound" 	"Weapons\arsenal_mod\ranged\m79\m79_detonation.wav"
+
+	"item_worth"		"324"
+	//"knowledge_min"		"9"
+
+	SoundData
+	{
+		"pickup"
+		{
+			"sound1"	"Weapons\arsenal_mod\ranged\m79\m79_select.wav"	
+		}
+	}
+
+
+//Weapon Ammo
+	Magazine
+	{
+		"ammoprintname"		"M381, M386 HE"
+		"ammodescription"	"M381, M386 HE - is a High Explosive (HE) military grenade 40th-caliber for grenadelaunchers developed US Army during the Vietnam War."
+		"ammo_worth"		"15" 
+		"ammoinfomodel"		"models/weapons/arsenal_mod/ammo/m79/i_m79_ammo.mdl"
+
+		"Size"			"1"
+		"Default_Size"		"0"
+		"Dropped_Ammo"		"1"
+		"Type"			"Remington_M_700Round"
+		"ReloadTime"		"3.5"
+		
+		SoundData
+		{
+			"reload"
+			{
+				"sound1"	"Weapons\arsenal_mod\ranged\m79\m79_reload.wav"
+			}
+
+			"reload_npc"
+			{
+				"sound1"	"Weapons\arsenal_mod\ranged\m79\m79_reload.wav"
+			}
+		}
+	}
+
+//Primary Attack
+	Activation
+	{
+		"Tag"			"Primary"
+		"Type"			"Attack"
+		"Ammo_Type"		"Remington_M_700Round"
+		"Ammo_Cost"		"1"
+		"Ammo_Fired"		"20"
+		"Botch_Table"		"grenadelauncher"
+
+		"Attack_Rate"			"0.8"
+		"NPC_Attack_Rate_Min"		"15.0"		
+		"NPC_Attack_Rate_Max"		"15.5"		 
+		"NPC_Attack_Rate_Base_Range"	"40"	
+		"Range"				"50"
+		"SkillRequirement"		"1"					
+		"BaseLethality"			"25"			
+		"Dmg"				"20 Aggravated Throwing DMG_BLAST DMG_BURN"
+
+		"ImpactForceMin"   	"100.0"
+		"ImpactForceMax"   	"500.0"
+
+	// SKS_RANGED
+		"KickPitchMin"		"-0.75"
+		"KickPitchMax"		"-10.00"
+		"KickYawMin"		"-0.2"
+		"KickYawMax"		"-1.5"
+		"KickTime"		"0.02"	
+
+		"CrosshairMinSize"	"48"	// smallest crosshair size for this activation [0-99]
+		"CrosshairFireSize"	"92"	// MAXIMUM size (Firearms 1) of the crosshair when the gun is fired [0-99] scales to Min as player's firearms increases
+		"CrosshairFireSizeMin"	"80"	// MIN size (Firearms 10) of the crosshair when the gun is fired [0-99]
+		"CrosshairWalkSizeMin"	"80"	// min size of the crosshair when the player is walking [0-99]
+		"CrosshairWalkSizeMax"	"90"	// max size of the crosshair when the player is walking [0-99]
+		"CrosshairRunSizeMin"	"80"	// min size of the crosshair when the player is running [0-99]
+		"CrosshairRunSizeMax"	"90"	// max size of the crosshair when the player is running [0-99]
+
+		"CrosshairIncSpeedMin"	"50"	//"60"min speed(10 Firearm Feat) at which to increase bloom -low # slower
+		"CrosshairIncSpeedMax"	"50"	//"60"max speed(1 Firearm Feat) at which to increase bloom -high # faster
+		"CrosshairDecSpeedMin"	"25"	//min speed(1 Firearm Feat) at which to decrease bloom -low # slower
+		"CrosshairDecSpeedMax"	"25"	//"40"max speed(10 Firearm Feat) at which to decrease bloom -high # faster
+
+		"CrosshairFirePercent"	"3.9"				
+		
+		"MajorKnockbackDist"	"1000.0"
+		"MinorKnockbackDist"	"1.0"
+
+		"SpreadAngle"		"3.0"
+		"CriminalLevel"		"5"
+		"Accuracy"		"6"
+
+		SoundData
+		{
+			"empty"
+			{
+				"sound1"	"weapons\Ranged\empty.wav"
+			}
+
+			"attack"
+			{
+				"sound1"	"Weapons\arsenal_mod\ranged\m79\m79_attack.wav"
+					
+			}
+
+			"attack_npc"
+			{
+				"sound1"	"Weapons\arsenal_mod\ranged\m79\m79_attack.wav"	
+
+			}
+
+			"botch"
+			{
+				"sound1"	"Weapons\arsenal_mod\ranged\m79\m79_detonation.wav"	
+			}
+
+			"deploy"
+			{
+				"sound1"	"Weapons\arsenal_mod\ranged\m79\m79_select.wav"
+			}
+
+			"put_away"
+			{
+				"sound1"	"Weapons\arsenal_mod\ranged\m79\m79_deselect.wav"
+			}			
+			
+			"fidget"
+			{
+				"sound1"	"Weapons\Ranged\Fidget.wav"
+			}
+		}
+
+		Tables
+		{
+			Table
+			{
+				"Name"          "WeaponRanges"
+				"InternalName"  "WeaponRanges"
+
+				"Clamping"      "1"
+
+				"0"             "1"       // 5 (bonus)
+				"1"             "150"     // 4 (bonus)
+				"2"             "175"     // 3 (bonus)
+				"3"             "200"     // 2 (bonus)
+				"4"             "225"     // 1 (bonus)
+				"5"             "250"     // 0 (neutral)
+				"6"             "288"     //-1 (penalty)
+				"7"             "325"     //-2 (penalty)
+				"8"             "363"     //-3 (penalty)
+				"9"             "400"     //-4 (penalty)
+			}
+
+			Table
+			{
+				"Name"          "GrossPointBlank"
+				"InternalName"  "GrossPointBlank"
+
+				"Clamping"      "1"
+
+			// percentage from 1-12 feet out
+
+				"0"             "100"
+				"1"             "95"
+				"2"             "95"
+				"3"             "95"
+				"4"             "95"
+				"5"             "95"
+				"6"             "95"
+				"7"             "95"
+				"8"             "95"
+				"9"             "95"
+			}
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/Weapons_Ranged/m79_SEL"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/Weapons_Ranged/m79"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"ammo"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/weapons_ranged/ammo/m79_ammo"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"ammo2"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/weapons_ranged/ammo/m79_ammo_SEL"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+	// Accuracy Crosshairs
+		"Acc_Crosshair00"		"hud/Crosshairs/Crosshair_01"
+		"Acc_Crosshair01"		"hud/Crosshairs/Crosshair_02"
+		"Acc_Crosshair02"		"hud/Crosshairs/Crosshair_03"
+		"Acc_Crosshair03"		"hud/Crosshairs/Crosshair_04"
+		"Acc_Crosshair04"		"hud/Crosshairs/Crosshair_05"
+		"Acc_Crosshair05"		"hud/Crosshairs/Crosshair_06"
+		"Acc_Crosshair06"		"hud/Crosshairs/Crosshair_07"
+		"Acc_Crosshair07"		"hud/Crosshairs/Crosshair_08"
+		"Acc_Crosshair08"		"hud/Crosshairs/Crosshair_09"
+		"Acc_Crosshair09"		"hud/Crosshairs/Crosshair_10"
+		"Interactive_Crosshair"		"hud/Crosshairs/Crosshair_Interactive"
+	}
+}

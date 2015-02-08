@@ -1,0 +1,44 @@
+//////////////////////////////////////////////////
+// NPC Stat Templates (Packages)
+//
+//	Igor Mafia members need to be marked as 'NeverInnocent' so they can be killed
+//	in the hub without penalty
+
+ClanDataTables
+{
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"RussianMafia_IgorCronies"
+			"ParentTemplateName"	"RussianMafia"
+		}
+
+		General
+		{
+			"NpcFakeReloadCountMin"		"12.0" 	// beretta
+			"NeverInnocent"			"1"
+		}
+
+		Attributes
+		{
+		}
+	}
+
+	ClanData
+	{
+		Text
+		{
+			"TemplateName"		"RussianMafia_Igor"
+			"ParentTemplateName"	"RussianMafiaElite"
+		}
+
+		General
+		{
+			"NeverInnocent"			"1"
+			"NpcFakeReloadCountMin"		"12.0" // beretta
+		}
+
+	}
+}
+

@@ -1,0 +1,26 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Blood Buff and Combat:
+Although it is a relatively short-lived enhancement, Blood Buff can make all the difference in combat situations. Physical attributes are the foundation of many combat interactions: Strength contributes to Melee and Brawl, and Stamina to soak (damage prevention). A well-timed use of Blood Buff can turn the tide of battle.
+Blood Buff costs 3 blood points to activate.
+To use Blood Buff, scroll to it using the ] and [ keys (by default) or with the mouse wheel, then use the Power key (default right-click) to activate it."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}

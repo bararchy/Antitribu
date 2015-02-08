@@ -1,0 +1,182 @@
+// tzimisce horrid form Claws 
+WeaponData
+{
+	"printname"	"tzimisce claws"
+	"description"	"tzimisce horrid form Claws"
+
+	"viewmodel"	"models/weapons/w_null.mdl"
+	"playermodel"	"models/weapons/w_null.mdl"
+	"wieldmodel_f"	"models/weapons/w_null.mdl"
+	"wieldmodel_m"	"models/weapons/w_null.mdl"
+	"infomodel"	"models/weapons/w_null.mdl"
+
+	"anim_prefix"		"claw"
+	"impact_snd_group"	"fist"
+
+	"activation0"		"Attack"
+	"activation1"		"error"
+	"bucket"		"0"
+	"bucket_position"	"1"
+	"camera_class"		"ranged"
+	"weight"		"10"
+	"item_flags"		"0"
+	"item_type"		"weapon_melee"
+	"sound_group"		"Claws"
+	"equip_mask"		"Normal"
+	"item_worth"	"-1"
+
+	"is_visible_in_hud"	"1"
+	"is_droppable"		"0"
+	"is_wieldable"		"1"
+
+	"knockback_chance"	"1.0"
+
+	"uses_accuracycursors"	"1"
+	"impact_force"		"3000"	
+	
+	"projectile_particles"		"w_sawed_off_projectile_emitter"
+
+	"projectile_model"		"models/weapons/projectile/bullet01.mdl"	
+	"fires_projectile"		"1"
+	"projectile_sticks"		"0"
+	"can_stakedmg"			"0"
+	
+	"muzzleflash_particle" 		"w_sawed_db_emitter"
+	"muzzlesmoke_particle" 		"Blank_emitter"
+	"viewmuzzleflash_particle" 	"w_sawed_db_view_emitter"
+	"viewmuzzlesmoke_particle" 	"w_sawed_db_view_emitter-smoke"
+
+// Sounds...
+	SoundData
+	{
+		"swish"
+		{
+			"sound1"	"Weapons/Melee/Claws/Swish_1.wav"
+			"sound2"	"Weapons/Melee/Claws/Swish_2.wav"
+			"sound3"	"Weapons/Melee/Claws/Swish_3.wav"
+		}
+
+		"pickup"
+		{
+			"sound1"	"Weapons\Melee\Claws\Deploy.wav"
+		}
+
+		"stealth_kill_success"
+		{
+			"sound1"	"Weapons/Melee/Severed_Arm/Stealth_Severed_Arm.wav"
+		}
+
+		"stealth_kill_failure"
+		{
+			"sound1"	"Weapons/Melee/Fists/Stealth_Kill_Failure.wav"
+		}
+	}
+
+	Magazine
+	{
+		"ammoprintname"		"20 Gauge fireball round Dragon's Breath"
+		"ammodescription"	"zirconium-based pyrotechnic shells function as a short-ranged flamethrower, having an incendiary effect on targets for 5 seconds, NOT AVAILABLE IN: CALIFORNIA, IOWA, ILLINOIS, FLORIDA, AND MASSACHUSETTES, SORRY!"
+		"ammo_worth"		"9" 
+		"ammoinfomodel"		"models/weapons/arsenal_mod/ammo/dragon_breath/i_db_ammo.mdl"
+
+		"Size"			"200"
+		"Default_Size"		"200"
+		"Dropped_Ammo"		"200"
+		"Type"			"FlameThrowerRound"
+		"ReloadTime"		"0.05"
+		
+		SoundData
+		{
+			"reload"
+			{
+				"sound1"	"Weapons\arsenal_mod\ranged\dragon_breath\db_reload.wav"
+			}
+
+			"reload_npc"
+			{
+				"sound1"	"Weapons\arsenal_mod\ranged\dragon_breath\db_reload_ai.wav"
+			}
+		}
+	}
+
+	Activation
+	{
+		"Tag"			"Primary"
+		"Type"			"Attack"
+		"Ammo_Type"		"FlameThrowerRound"
+		"Ammo_Cost"		"0"
+		"Ammo_Fired"		"1"
+		"allow_autofire"	"1"
+
+
+		"Botch_Table"		"Fists_Claws_Bite"
+		"Attack_Rate"		"0.5"
+		"Range"			"100"
+		"CriminalLevel"		"5"
+
+		"SkillRequirement"	"5"		
+		"BaseLethality"		"10"		
+		"Dmg"			"7 Aggravated Close_Combat_Brawl DMG_SUPERCLAWBITE"
+
+	// Sounds...
+		SoundData
+		{
+			"attack"
+			{
+				"sound1"	"Weapons/Melee/Fists/Swish_1.wav"
+				"sound2"	"Weapons/Melee/Fists/Swish_2.wav"
+				"sound3"	"Weapons/Melee/Fists/Swish_3.wav"
+			}
+
+			"attack_npc"
+			{
+				"sound1"	"Weapons/Melee/Fists/Swish_1.wav"
+				"sound2"	"Weapons/Melee/Fists/Swish_2.wav"
+				"sound3"	"Weapons/Melee/Fists/Swish_3.wav"
+			}
+
+			"deploy"
+			{
+				"sound1"	"Weapons/Melee/Fists/Deploy.wav"
+			}
+
+			"put_away"
+			{
+				"sound1"	"Weapons/Melee/Fists/Put_Away.wav"
+			}
+
+			"fidget"
+			{
+				"sound1"	"Weapons/Melee/Fists/Fidget.wav"
+			}
+
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/Weapons_Melee/claws"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/Weapons_Melee/claws"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+	}
+}

@@ -1,0 +1,39 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/dialog_feats"
+//		"Tiled"		"0"
+		"XPos"		"1"
+		"YPos"		"1"
+		"Wide"		"1024"
+		"Tall"		"1024"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Combat is not the only solution for sticky situations.
+You can also use your Feats and Disciplines in dialogue. When you are able to do this, your responses will show up in the different colors and fonts that are indicated below."
+		"Font"		"ParagraphText"
+		"XPos"		"332"
+		"YPos"		"53"
+		"Wide"		"375"
+		"Tall"		"375"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+
+	TextBlock
+	{
+		"Text"		"left-click to continue"
+		"XPos"		"407"
+		"YPos"		"439"
+		"Wide"		"205"
+		"Tall"		"25"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+
+		"Font"		"Trebuchet"
+	}
+}

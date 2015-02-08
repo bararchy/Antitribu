@@ -1,0 +1,277 @@
+//  Sub machine gun
+WeaponData
+{
+	"printname"	"M3A1 grease gun"
+	"description"	"The M3A1 (also known as Grease Gun or Cake Decorator) is a submachine gun that was intended to replace the complex and expensive Model 1928 Thompson SMG as the standard U.S. Military submachine gun. The Grease Gun fired .45 ACP rounds, but could easily be converted to fire captured German 9 x 19 mm Parabellum rounds, making it ideal for partisans and resistance fighters, as well as airmen who might need to bail out over front lines."
+
+	"viewmodel"	"models/weapons/arsenal_mod/m3/view/v_m3.mdl"
+	"playermodel"	"models/weapons/arsenal_mod/m3/ground/g_m3.mdl"
+	"wieldmodel_f"	"models/weapons/arsenal_mod/m3/wield/w_f_m3.mdl"
+	"wieldmodel_m"	"models/weapons/arsenal_mod/m3/wield/w_m_m3.mdl"
+	"infomodel"	"models/weapons/arsenal_mod/m3/info/i_m3.mdl"
+
+	"origin_x"	"-1"
+	"origin_y"	"0"
+	"origin_z"	"66"
+
+	"anim_prefix"	"steyr"
+
+	"impact_snd_group"	"bullet"
+
+	"activation0"		"Full Auto"
+	"activation1"		"Error"
+	"jammed0"		"Jammed"
+	"jammed1"		"Jammed"
+	"bucket"		"1"
+	"bucket_position"	"7"
+	"camera_class"		"ranged"
+	"weight"		"3"
+
+	"item_flags"		"0"
+	"item_type"		"weapon_firearm"       
+
+	"sound_group"		"Assault_Rifle"
+	"uses_accuracycursors"	"1"
+
+	"item_worth"		"144"
+	//"knowledge_min"		"4"
+
+	"muzzleflash_particle" 		"w_m3_emitter"
+	"muzzlesmoke_particle" 		"w_m3_emitter-smoke"
+	"viewmuzzleflash_particle" 	"w_m3_view_emitter"
+	"viewmuzzlesmoke_particle" 	"w_m3_view_emitter-smoke"
+
+	SoundData
+	{
+		"pickup"
+		{
+			"sound1"	"Weapons\arsenal_mod\ranged\m3\m3_select.wav"
+		}
+	}
+
+//Weapon Ammo
+	Magazine
+	{
+		"ammoprintname"		".45 ACP (Automatic Colt Pistol)"
+		"ammodescription"	"(Also 11.43x23mm or .45 Auto) .45 caliber unitary pistol cartridge designed by John Browning in 1905. Since then, is a popular cartridge for self-defense (especially in the United States).
+					Used to Colt M1911 and M3A1 'grease gun'
+					Specifications:
+					Bullet weight: 185-230 gr
+					Velocity: 255-350 m/s
+					Energy: 483-738 J"
+
+		"ammo_worth"		"30"
+		"ammoinfomodel"		"models/weapons/arsenal_mod/ammo/m3/i_m3_ammo.mdl"
+
+		"Size"			"30"
+		"Default_Size"		"25"
+		"Dropped_Ammo"		"30"
+		"Type"			"Steyr_AugRound"
+		"ReloadTime"		"3.0"
+		
+		SoundData
+		{
+			"reload"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/m3/m3_reload.wav"
+			}
+
+			"reload_npc"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/m3/m3_reload.wav"
+			}
+		}
+	}
+
+//Primary Attack
+	Activation
+	{
+		"Tag"			"Primary"
+		"Type"			"Attack"
+		"Ammo_Type"		"Steyr_AugRound"
+		"Ammo_Cost"		"1"
+		"Botch_Table"		"Pistols"
+		"Range"			"80"
+		"allow_autofire"	"1"
+
+		"SkillRequirement"	"5"		
+		"BaseLethality"		"10"		
+		"Dmg"			"3 Bashing Ranged_Combat DMG_BULLET" 
+
+		"Attack_Rate"			"0.10"
+		"NPC_Attack_Rate_Min"		"0.75"	
+		"NPC_Attack_Rate_Max"		"2.35"	
+		"NPC_Attack_Rate_Base_Range"	"75"	
+							
+	// SKS_RANGED
+		"KickPitchMin"		"-0.5"
+		"KickPitchMax"		"-3.00"
+		"KickYawMin"		"-0.1"
+		"KickYawMax"		"-2.5"
+		"KickTime"		"0.02"
+
+		"CrosshairMinSize"	"20"	// smallest crosshair size for this activation [0-99]
+		"CrosshairFireSize"	"42"	// size of the crosshair when the gun is fired [0-99]
+		"CrosshairFireSizeMin"	"25"	// MIN size (Firearms 10) of the crosshair when the gun is fired [0-99]
+		"CrosshairWalkSizeMax"	"30"	// max size of the crosshair when the player is walking [0-99]
+		"CrosshairWalkSizeMin"	"20"	// min size of the crosshair when the player is walking [0-99]
+		"CrosshairRunSizeMax"	"45"	// max size of the crosshair when the player is running [0-99]
+		"CrosshairRunSizeMin"	"40"	// min size of the crosshair when the player is running [0-99]
+
+
+		"CrosshairIncSpeedMin"	"15"	// min speed(10 Firearm Feat) at which to increase bloom -low # slower
+		"CrosshairIncSpeedMax"	"15"	// max speed(1 Firearm Feat) at which to increase bloom -high # faster
+		"CrosshairDecSpeedMin"	"30"	// min speed(1 Firearm Feat) at which to decrease bloom -low # slower
+		"CrosshairDecSpeedMax"	"30"	// max speed(10 Firearm Feat) at which to decrease bloom -high # faster
+		"CrosshairFirePercent"	"0.12"		 
+
+		"SpreadAngle"		"3.0"
+		"CriminalLevel"		"4"
+		"Accuracy"		"6"
+		"BurstMin"		"7"
+		"BurstMax"		"12"
+
+		SoundData
+		{
+			"empty"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/m3/m3_empty.wav"
+			}
+
+			"attack"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/m3/m3_attack.wav"
+			}
+
+			"attack_npc"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/m3/m3_attack.wav"	
+			}
+
+			"deploy"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/m3/m3_select.wav"
+			}
+
+			"put_away"
+			{
+				"sound1"	"Weapons/arsenal_mod/ranged/m3/m3_deselect.wav"
+			}			
+			
+			"fidget"
+			{
+				"sound1"	"Weapons/Ranged/Fidget.wav"
+			}
+		}
+
+		Tables
+		{
+			Table
+			{
+				"Name"          "WeaponRanges"
+				"InternalName"  "WeaponRanges"
+
+				"Clamping"      "1"
+
+			// point blank 0-80, close 80-110, short/medium 110-220,
+			// meduim 220-370, long 370-650, great 650+
+
+				"0"             "1"       // 5 (bonus)
+				"1"             "150"     // 4 (bonus)
+				"2"             "175"     // 3 (bonus)
+				"3"             "200"     // 2 (bonus)
+				"4"             "225"     // 1 (bonus)
+				"5"             "250"     // 0 (neutral)
+				"6"             "300"     //-1 (penalty)
+				"7"             "400"     //-2 (penalty)
+				"8"             "500"     //-3 (penalty)
+				"9"             "600"     //-4 (penalty)
+			}
+
+			Table
+			{
+				"Name"          "GrossPointBlank"
+				"InternalName"  "GrossPointBlank"
+
+				"Clamping"      "1"
+
+			// percentage from 1-12 feet out
+
+				"0"             "100"
+				"1"             "90"
+				"2"             "80"
+				"3"             "70"
+				"4"             "60"
+				"5"             "50"
+				"6"             "40"
+				"7"             "30"
+				"8"             "20"
+				"9"             "10"
+			}
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/Weapons_Ranged/m3gg_Sel"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/Weapons_Ranged/m3gg"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"ammo"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/weapons_ranged/ammo/m3_ammo"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+		"ammo2"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/arsenal_mod/weapons_ranged/ammo/m3_ammo_SEL"
+				"x"		"0"
+				"y"		"0"
+				"width"		"100"
+				"height"	"64"
+			}
+		}
+
+	// Accuracy Crosshairs
+		"Acc_Crosshair00"		"hud/Crosshairs/Crosshair_01"
+		"Acc_Crosshair01"		"hud/Crosshairs/Crosshair_02"
+		"Acc_Crosshair02"		"hud/Crosshairs/Crosshair_03"
+		"Acc_Crosshair03"		"hud/Crosshairs/Crosshair_04"
+		"Acc_Crosshair04"		"hud/Crosshairs/Crosshair_05"
+		"Acc_Crosshair05"		"hud/Crosshairs/Crosshair_06"
+		"Acc_Crosshair06"		"hud/Crosshairs/Crosshair_07"
+		"Acc_Crosshair07"		"hud/Crosshairs/Crosshair_08"
+		"Acc_Crosshair08"		"hud/Crosshairs/Crosshair_09"
+		"Acc_Crosshair09"		"hud/Crosshairs/Crosshair_10"
+		"Interactive_Crosshair"		"hud/Crosshairs/Crosshair_Interactive"
+	}
+}

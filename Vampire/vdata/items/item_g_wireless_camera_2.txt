@@ -1,0 +1,63 @@
+//Koldunism helper
+WeaponData
+{
+	"infomodel"	"models/null.mdl"
+	"playermodel"	"models/null.mdl"
+	"viewmodel"	"models/weapons/w_null.mdl"
+	"wieldmodel_f"	"models/weapons/w_null.mdl"
+	"wieldmodel_m"	"models/weapons/w_null.mdl"
+	"anim_prefix"	" "
+
+	"printname"	"Koldunic Sorcery"
+	"description"	"The Way of Fire - The ancient anathema of vampires, the element of fire offers the most powerful and dangerous tool available to a Koldunist. The Way of Fire shares aspects with the Way of Earth in that it focuses more on magma and fiery rock than pure, naked flame.
+Level 1: Shatter - The Koldunist must have a target in his line of sight and this target spontaneously combusts. Cost 1 blood.
+Level 2: Magma Surge - The Koldunist commands magma to bubble up from the earth's core in a radius near koldun. Lasts 10 sec. Cost 2 blood.
+Level 3: Gates of Magma - The Koldunist invokes molten rock to bubble up around the koldunist and move with him for 10 sec. Anyone physically touching the Gates of Magma suffers aggravated damage. Cost 3 blood.
+Level 4: Heat Wave - The Koldunist calls up hydrogen sulfide from the Earth's mantle and blasts a target. Heat Wave itself finds its target. Lasts 30 sec. Cost 4 blood.
+Level 5: Volcanic Blast - The koldunist commands lava to explode from the ground in a huge stream. Magma moves slowly and burns through nearly everyone (even the koldun). Lasts 30 sec. Cost 5 blood."
+
+	"weight"		"3"
+	"item_flags"		"1"
+	"item_type"		"powerup"
+	"item_worth"		"-1"
+
+	"is_droppable"		"0"
+	"is_wieldable"		"1"
+	"item_class_discount" 	"1"
+	"equip_mask"		"Normal"
+
+	SoundData
+	{
+		"pickup"
+		{
+			"sound1"	"items/Book/Pickup.wav"
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"		"hud/Inventory_Images/pc_gear/koldunism_sel"
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"		"hud/Inventory_Images/pc_gear/koldunism"
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+	}
+}

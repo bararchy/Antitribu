@@ -1,0 +1,16 @@
+// Choreo version 1
+actor "partymember3"
+{
+  channel "Anim"
+  {
+    event sequence "lap_dance_04"
+    {
+      time 0.000000 3600
+      param "lap_dance_04"
+    }
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off

@@ -1,0 +1,51 @@
+CameraShotTable
+{
+	// This will center the camera on the middle of the target, and make sure that the whole target is viewable. 
+	CenterFullView
+	{
+		End
+		{
+			"Position"	"Named"
+			"AttachPos"	"Center"
+			"AttachType"	"FollowEntAngles"
+//			"OffsetOrigin"	"[16, 0, 0]"
+			"OffsetOrigin"	"[300, 0, 0]"
+		}
+
+
+		Target	
+		{
+			Point1
+			{
+				"Position"	"Named"
+				"AttachPos"	"AbsMin"
+				"AttachType"	"Follow"
+				"OffsetOrigin"	"[300, 0, 0]"
+			}
+
+
+			Point2
+			{
+				"Position"	"Named"
+				"AttachPos"	"AbsMax"
+				"AttachType"	"Follow"
+				"OffsetOrigin"	"[300, 0, 0]"
+			}
+
+		}
+
+		CameraConstraints
+		{
+			"MoveAccel"		"100.0"
+			"TurnAccel"		"60"
+			"MoveSpeed"		"250"		
+			"MaxTurnRate"		"[90, 90, 90]"	
+			"DistanceTolerance"	"5"
+			"AngularTolerance"	"[5, 5, 5]"	
+			"FieldOfView"		"75"
+			"DialogPOV"		"0"
+			"AutoPositionFromTarget" "1"
+		}
+	}
+
+}

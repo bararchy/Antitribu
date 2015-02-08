@@ -1,0 +1,88 @@
+// Written
+WeaponData
+{
+	"infomodel"	"models/items/Drugs/info/Info_PillBottle.mdl"
+	"playermodel"	"models/items/Drugs/ground/PillBottle.mdl"
+	"anim_prefix"	" "
+
+	"printname"	"Desoxyn"
+	"description"	"DESOXYN tablets contain 5 mg of methamphetamine hydrochloride for oral administration. 
+Methamphetamine constricts peripheral vessels, increases blood pressure, accelerates the heart rate, increases the functional activity of skeletal muscles, especially when fatigued.
+While taking Desoxyn a living being can run 50% faster in short bursts. Also clears blocked noses."
+
+	"bucket"		"1"
+	"bucket_position"	"2"
+
+	"bucket"		"1"
+	"bucket_position"	"2"
+
+	"camera_class"		"noswitch"
+	"weight"		"3"
+	"item_flags"		"1"
+	"item_type"		"powerup"
+	"item_worth"		"30"
+
+	"is_wieldable"		"1"
+	"item_class_discount" 	"1"
+	"equip_mask"		"Normal"
+
+	"is_stackable" 	"1"
+	"stacklimit" 	"100"  
+	"knowledge_min"	"2"
+
+	SoundData
+	{
+		"pickup"
+		{
+			"sound1"	"items/Pill_Bottle/Pickup.wav"
+		}
+	}
+
+	SpriteData
+	{
+		"weapon"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/PillBottle_SEL"
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+		"weapon_s"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/PillBottle"
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+		"ammo"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/PillBottle"
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+		"ammo2"
+		{
+			"640"
+			{
+				"file"	"hud/Inventory_Images/General_Items/PillBottle_SEL"
+				"x"		"0"
+				"y"		"0"
+				"width"	"100"
+				"height"	"64"
+			}
+		}
+	}
+}

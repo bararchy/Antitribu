@@ -1,0 +1,50 @@
+// Gargoyle Melee  + Vicissitude helper
+
+WeaponData
+{
+	"printname"		"Seduction decreased"
+	"description"		""
+
+	"viewmodel"            "models/weapons/w_null.mdl"
+	"playermodel"          "models/weapons/w_null.mdl"
+	"wieldmodel_f"         "models/weapons/w_null.mdl"
+	"wieldmodel_m"         "models/weapons/w_null.mdl"
+	"anim_prefix"          ""
+
+	"impact_snd_group"	"fist"
+
+	"bucket"               	"0"
+	"bucket_position"     	"1"
+
+	"weight"               	"10"
+	"item_flags"           	"0"
+	"item_type"		"powerup"
+	"item_worth"           	"-1"
+
+	"is_visible_in_hud"    	"0"
+	"is_droppable"		"0"
+	"is_wieldable"		"0"
+
+	"equip_effect"		"Discipline (Vicissitude_level1b)"
+
+	"BitFlag_CantBeLast"   	"1"
+
+	Activation
+	{
+		"Tag"              "Primary"
+		"Type"             "Attack"
+		"Ammo_Type"        "None"
+		"Ammo_Cost"        "0"
+		"Botch_Table"      "Fists_Claws_Bite"
+		"Attack_Rate"      "0.5"
+		"Range"            "0"
+
+		"SkillRequirement"	"9"
+		"BaseLethality"		"19"	
+		"Dmg"              	"1 Aggravated Close_Combat_Brawl DMG_SUPERCLAWBITE"
+
+		"ImpactForceMin"   	"64.0"
+		"ImpactForceMax"   	"128.0"
+		"CriminalLevel"		"5"
+	}
+}

@@ -1,0 +1,27 @@
+SignData
+{
+	BackgroundImage
+	{
+		"Name"		"interface/Pop_Ups/tutorial_popup"
+		"Tiled"		"0"
+		"Wide"		"1024"
+		"Tall"		"768"
+	}
+
+
+	TextBlock
+	{
+		"Text"		"Area Types:
+On the left side of the display, atop the health meter, is the area-type indicator. The different areas of the game are divided into three distinct types.
+Combat Area:
+The gun icon indicates that this is a combat area. In combat areas you are free to use the full force of your vampiric Disciplines without incurring any Masquerade violations. Likewise, there are no \"innocents\" in a combat zone. You can never incur a Masquerade violation or lose Humanity in a combat area.
+Left-click to continue."
+		"Font"		"ParagraphText"
+		"XPos"		"287"
+		"YPos"		"109"
+		"Wide"		"450"
+		"Tall"		"550"
+		"TextRGBA"		"[245, 245, 245, 200]"
+		"BackgroundRGBA"		"[0, 0, 0, 100]"
+	}
+}
