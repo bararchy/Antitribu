@@ -1,0 +1,19 @@
+SoundScheme
+{
+	Music
+	{
+		"Filename"	"Music/Creepy_Ambience_Combat.mp3"
+		"Volume"	"30"
+	}
+
+	Combat
+	{
+		"Filename"	"Music/Creepy_Ambience_Combat.mp3"
+		"Volume"	"30"
+	}
+
+	Ambient
+	{
+	}
+
+}

@@ -1,0 +1,14 @@
+SoundScheme
+{
+	Music
+	{
+		"Filename"	"music/Dark_Asia.mp3"
+		"Volume"	"80"
+	}
+
+	Combat
+	{
+		"Filename"	"music/Dark_Asia_Combat.mp3"
+		"Volume"	"70"
+	}
+}

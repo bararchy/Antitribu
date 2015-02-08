@@ -1,0 +1,9 @@
+SoundScheme
+{
+	Music
+	{
+		"Filename"	"Music/music/compmod.mp3"
+		"Volume"	"55"
+	}
+
+}

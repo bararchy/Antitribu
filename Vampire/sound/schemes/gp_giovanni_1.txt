@@ -1,0 +1,20 @@
+SoundScheme
+{
+	Music
+	{
+		"Filename"	"music/Moldy_Old_World.mp3"
+		"Volume"	"60"
+	}
+
+	Combat
+	{
+		"Filename"	"music/Crypts_Combat.mp3"  //placeholder until compressed sound files are available
+		"Volume"	"80"
+	}
+
+	Ambient
+	{
+		"Filename"	"Environmental/Outdoor/Outdoors1.wav"  //placeholder until compressed sound files are available
+		"Volume"	"80"
+	}
+}

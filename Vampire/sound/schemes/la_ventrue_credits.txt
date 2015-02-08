@@ -1,0 +1,9 @@
+SoundScheme
+{
+	Music
+	{
+		"Filename"	"Music/Downtown/Downtown_Theme.mp3"
+		"Volume"	"55"
+	}
+
+}

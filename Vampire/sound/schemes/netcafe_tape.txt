@@ -1,0 +1,21 @@
+SoundScheme
+{
+	SchemeParams
+	{
+		"RandomSoundCount"	"0"
+	}
+
+	Music
+	{
+		"Filename"	"music/Disturbed_and_Twisted.mp3"  
+		"Volume"	"50"
+	}
+
+	Combat
+	{
+		"Filename"	"music/Disturbed_Twisted_Combat.mp3"
+		"Volume"	"50"
+	}
+
+
+}

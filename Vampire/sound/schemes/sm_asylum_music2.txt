@@ -1,0 +1,45 @@
+SoundScheme
+{
+	Music
+	{
+		"Filename"	"new_maps/sm_asylum/music2.wav"  
+		"Volume"	"45"
+	}
+
+	Combat
+	{
+		"Filename"	"music/Default_Combat.mp3"
+		"Volume"	"70"
+		"Dry"		"1"
+		"NoPause"	"1"
+	}
+
+	Alert
+	{
+		"Filename"	"music/music/police_alert.mp3"
+		"Volume"	"100"
+		"Dry"		"1"
+		"NoPause"	"1"
+	}
+
+	Ambient
+	{
+		"Filename"	"environmental/people/crowd1.wav"
+		"Volume"	"20"
+	}
+
+	RandomSound
+	{
+		"Filename"	"environmental/city/glass breaks.wav"
+		"PitchMin"	"95"	
+		"PitchMax"	"110"
+		"Volume"	"80"
+		"Frequency"	"1"
+		
+		"AudibleRadius"		"1600"		// when played, the sound will be attenuated so that it can be heard from this far away
+		"DistMin"		"1000"		// the sound will be played at a point no less than this distance from the player
+		"DistMax"		"1400"		// the sound will be played at a point no farther than this distance from the player
+		"HeightMin"		"20"		// the sound will played no lower than these many units below the sound scheme entity
+		"HeightMax"		"50"		// the sound will be played no higher than these many units above the sound scheme entity
+	}
+}

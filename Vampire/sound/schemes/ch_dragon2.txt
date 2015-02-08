@@ -1,0 +1,15 @@
+SoundScheme
+{
+
+	Music
+	{
+		"Filename"	"music/chinatown/chinatown_theme.mp3"  
+		"Volume"	"50"
+	}
+
+	Combat
+	{
+		"Filename"	"new_maps/ch_dragon/combat.wav"
+		"Volume"	"50"
+	}
+}

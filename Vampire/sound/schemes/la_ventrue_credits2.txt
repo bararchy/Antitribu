@@ -1,0 +1,14 @@
+SoundScheme
+{
+	//Music
+	//{
+	//	"Filename"	"Music/Licenced/Lacuna Coil - Swamped.mp3"
+	//	"Volume"	"55"
+	//}
+
+	Music
+	{
+		"Filename"	"new_maps/ending1.mp3"
+		"Volume"	"55"
+	}
+}

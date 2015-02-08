@@ -1,0 +1,14 @@
+SoundScheme
+{
+	Music
+	{
+		"Filename"	"new_maps/ch_glaze/ninja_glaze.wav" 
+		"Volume"	"60"
+	}
+
+	Combat
+	{
+		"Filename"	"new_maps/ch_glaze/ninja_glaze.wav"
+		"Volume"	"75"
+	}
+)

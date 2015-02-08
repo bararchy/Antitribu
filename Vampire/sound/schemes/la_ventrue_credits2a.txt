@@ -1,0 +1,8 @@
+SoundScheme
+{
+	Music
+	{
+		"Filename"	"new_maps/ending2.mp3"
+		"Volume"	"75"
+	}
+}

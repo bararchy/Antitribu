@@ -1,0 +1,22 @@
+SoundScheme
+{
+	Music
+	{
+		"Filename"	"Music\Stems\Vampire Extra MusicStem10.wav"
+		"Volume"	"45"
+	}
+
+	Combat
+	{
+		"Filename"	"new_maps/sp_soc/combat2.wav" 
+		"Volume"	"40"
+	}
+
+	Ambient
+	{
+		"Filename"	"area/Hollywood/Society_Of_Leopold/Draft.wav"
+		"Volume"	"5"
+	}
+
+
+}

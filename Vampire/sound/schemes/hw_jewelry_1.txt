@@ -1,0 +1,21 @@
+SoundScheme
+{
+	Music
+	{
+		"Filename"	"Music\Stems\Mid_Short cutscene56.mp3"
+		"Volume"	"30"
+	}
+
+	Combat
+	{
+		"Filename"	"area\hollywood\music_fancy3 less distant.wav"
+		"Volume"	"55"
+	}
+
+	Ambient
+	{
+		"Filename"	"area/Hollywood/Abrams_Jewlers/AbramsJewelers.wav"
+		"Volume"	"100"
+	}
+
+}

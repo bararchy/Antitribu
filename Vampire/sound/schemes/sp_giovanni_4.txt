@@ -1,0 +1,14 @@
+SoundScheme
+{
+	Music
+	{
+		"Filename"	"Music\Crypts.mp3"
+		"Volume"	"40"
+	}
+
+	Combat
+	{
+		"Filename"	"Music\Crypts_Combat.mp3"
+		"Volume"	"40"
+	}
+}

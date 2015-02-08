@@ -1,0 +1,14 @@
+SoundScheme
+{
+	Music
+	{
+		"Filename"	"music/stems/vampire extra musicstem10.wav"
+		"Volume"	"75"
+	}
+
+	Combat
+	{
+		"Filename"	"new_maps/ch_ramen/ninja_ramen.wav" 
+		"Volume"	"75"
+	}
+}

@@ -1,0 +1,15 @@
+SoundScheme
+{
+	Music
+	{
+		"Filename"	"music/Dangerous_Places.mp3"  
+		"Volume"	"50"
+	}
+
+	Combat
+	{
+		"Filename"	"music/Dangerous_Places_Combat.mp3" 
+		"Volume"	"50"
+	}
+
+}

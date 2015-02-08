@@ -1,0 +1,8 @@
+SoundScheme
+{
+	Combat
+	{
+		"Filename"	"music/Crypts_Combat.mp3"  //placeholder until compressed sound files are available
+		"Volume"	"80"
+	}
+}

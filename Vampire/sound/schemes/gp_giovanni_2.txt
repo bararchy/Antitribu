@@ -1,0 +1,14 @@
+SoundScheme
+{
+	Music
+	{
+		"Filename"	"music/Creepy_Ambience.wav"
+		"Volume"	"20"
+	}
+
+	Combat
+	{
+		"Filename"	"music/Creepy_Ambience_Combat.wav"  //placeholder until compressed sound files are available
+		"Volume"	"50"
+	}
+}

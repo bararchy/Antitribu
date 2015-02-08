@@ -1,0 +1,25 @@
+SoundScheme	
+{
+	Music
+	{
+		"Filename"	"music/Dark_Asia.mp3"
+		"Volume"	"75"
+	}
+
+	Combat
+	{
+		"Filename"	"new_maps/ch_lotus/ninja_lotus.wav"
+		"Volume"	"75"
+	}
+	Ambient
+	{
+		"Filename"	"environmental/city/city_ambince.wav"
+		"Volume"	"25"
+	}
+}
+
+
+
+
+
+

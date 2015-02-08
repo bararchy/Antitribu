@@ -1,0 +1,20 @@
+SoundScheme
+{
+	Music
+	{
+		"Filename"	"new_maps\la_malkavian\la_malk3_wife_combat.wav"
+		"Volume"	"60"
+	}
+
+	Combat
+	{
+		"Filename"	"new_maps\la_malkavian\la_malk3_wife_combat.wav"
+		"Volume"	"60"
+	}
+
+	Ambient
+	{
+		"Filename"	"Environmental\Interior\Room_Small.wav"
+		"Volume"	"40"
+	}
+}

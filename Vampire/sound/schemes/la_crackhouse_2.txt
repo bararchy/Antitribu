@@ -1,0 +1,72 @@
+SoundScheme
+{
+	Music
+	{
+		"Filename"	"new_maps\la_crackhouse_2\main_theme.wav"
+		"Volume"	"60"
+	}
+
+	Combat
+	{
+		"Filename"	"new_maps\la_crackhouse_2\combat.wav"
+		"Volume"	"60"
+	}
+
+	Ambient
+	{
+		"Filename"	"new_maps\la_crackhouse_2\Ambient.wav"
+		"Volume"	"40"
+	}
+
+	RandomSound
+	{
+		"Filename"	"new_maps\la_crackhouse_2\sound_1.wav"
+		"PitchMin"	"95"	
+		"PitchMax"	"100"
+		"Volume"	"40"
+		"Frequency"	"20"
+		
+		"AudibleRadius"		"3000"		// when played, the sound will be attenuated so that it can be heard from this far away
+		"DistMin"		"500"		// the sound will be played at a point no less than this distance from the player
+		"DistMax"		"700"		// the sound will be played at a point no farther than this distance from the player
+		"HeightMin"		"0"		// the sound will played no lower than these many units below the sound scheme entity
+		"HeightMax"		"0"		// the sound will be played no higher than these many units above the sound scheme entity
+		"AngleMin"		"0"
+		"AngleMax"		"360"
+	}
+
+	RandomSound
+	{
+		"Filename"	"new_maps\la_crackhouse_2\sound_2.wav"
+		"PitchMin"	"95"	
+		"PitchMax"	"100"
+		"Volume"	"40"
+		"Frequency"	"20"
+		
+		"AudibleRadius"		"3000"		// when played, the sound will be attenuated so that it can be heard from this far away
+		"DistMin"		"500"		// the sound will be played at a point no less than this distance from the player
+		"DistMax"		"700"		// the sound will be played at a point no farther than this distance from the player
+		"HeightMin"		"0"		// the sound will played no lower than these many units below the sound scheme entity
+		"HeightMax"		"0"		// the sound will be played no higher than these many units above the sound scheme entity
+		"AngleMin"		"0"
+		"AngleMax"		"360"
+	}
+
+	RandomSound
+	{
+		"Filename"	"new_maps\la_crackhouse_2\sound_3.wav"
+		"PitchMin"	"95"	
+		"PitchMax"	"100"
+		"Volume"	"40"
+		"Frequency"	"20"
+		
+		"AudibleRadius"		"3000"		// when played, the sound will be attenuated so that it can be heard from this far away
+		"DistMin"		"500"		// the sound will be played at a point no less than this distance from the player
+		"DistMax"		"700"		// the sound will be played at a point no farther than this distance from the player
+		"HeightMin"		"0"		// the sound will played no lower than these many units below the sound scheme entity
+		"HeightMax"		"0"		// the sound will be played no higher than these many units above the sound scheme entity
+		"AngleMin"		"0"
+		"AngleMax"		"360"
+	}
+
+}
