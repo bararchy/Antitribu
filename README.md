@@ -38,3 +38,17 @@ Installation:
 Antitribu MOD already contains Companion Mod completely, with all features. All the rest big mods, like Clan Quest Mod, Final Nights, Camarilla Edition also latest Wesp's unofficial patches not compatible with Antitribu MOD. 
 If you install this mods over Antitribu, this will inevitably lead to bugs and crashes. You can install over mod only graphical and textural mods.
 
+
+Virus-Scan
+-----------------------------------------
+```
+ ---------- SCAN SUMMARY -----------
+Known viruses: 3736880
+Engine version: 0.98.6
+Scanned directories: 1986
+Scanned files: 33194
+Infected files: 0
+Data scanned: 2902.57 MB
+Data read: 3501.89 MB (ratio 0.83:1)
+Time: 250.933 sec (4 m 10 s)
+```
