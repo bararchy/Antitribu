@@ -1,0 +1,17 @@
+Hotfix 1.0.5
+
+Fixes the Discipline name issues.
+Fixes ercurio, Carson and Gimble dialog.
+
+Incresed Duration of Tzimisce Clan weakness considerably.
+Increases duration of blood loss intervals.
+
+Updates Dominate and Animalism description texts.
+
+
+
+How to Install?
+Overwrite the vampire folder with the one in your main vampire directory.
+
+having an issue?
+visit: http://forums.ravafx.com/index.php
