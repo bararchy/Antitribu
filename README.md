@@ -9,11 +9,11 @@ Current Version: 1.0.2
 Minimum System Requirements:
 --------------------------------------
 
-Processor: Athlon 64x2 4800+ and higher
-Memory: 2 GB of RAM
-Video card: GeForce 7600GT and higher 
-Sound card: compatible with directX 9.0c
-HDD: ~ 5GB hard disk space for game + 3 GB pagefile
+* Processor: Athlon 64x2 4800+ and higher
+* Memory: 2 GB of RAM
+* Video card: GeForce 7600GT and higher 
+* Sound card: compatible with directX 9.0c
+* HDD: ~ 5GB hard disk space for game + 3 GB pagefile
 
 Note: 
 ```On weaker computers performance will slow down at some locations.
