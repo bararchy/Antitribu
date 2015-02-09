@@ -3,7 +3,7 @@ Vampire - The Masquerade Bloodlines Anitribu
 http://bloodlinesantitribu.com/
 
 Current Version: 1.0.2
-================
+------------------------
 
 
 Minimum System Requirements:
