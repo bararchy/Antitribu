@@ -26,8 +26,8 @@ Installation:
 * Install any version of the game.
 
 * unpack the Antitribu MOD to game folder 
-	(for example: E:\Games\Vampire - The Masquerade Bloodlines) with the replacement of files. 
-	(if use steam D:\Steam\SteamApps\common\Vampire The Masquerade - Bloodlines)
+	* (for example: E:\Games\Vampire - The Masquerade Bloodlines) with the replacement of files. 
+	* (if use steam D:\Steam\SteamApps\common\Vampire The Masquerade - Bloodlines)
 
 * That's All, the mod is installed, run and play!
 
