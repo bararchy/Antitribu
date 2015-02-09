@@ -25,6 +25,8 @@ Installation:
 --------------------------------------
 * Install any version of the game.
 
+* Download the Zip file from here: https://github.com/bararchy/Antitribu/archive/1.0.2.zip
+
 * unpack the Antitribu MOD to game folder 
 	* (for example: E:\Games\Vampire - The Masquerade Bloodlines) with the replacement of files. 
 	* (if use steam D:\Steam\SteamApps\common\Vampire The Masquerade - Bloodlines)
