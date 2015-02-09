@@ -3226,7 +3226,7 @@ def Whisper(soundfile):
 def OnBLEvent():
     pc = __main__.FindPlayer()
 
-    BLOOD_MAX_COUNT = 12 			# 3 minute
+    BLOOD_MAX_COUNT = 30 			# 3 minute old value. 
     __main__.G.BloodCounter = __main__.G.BloodCounter + 1
      
     if(__main__.G.BloodCounter >= BLOOD_MAX_COUNT):
@@ -3263,7 +3263,7 @@ def ClanWeakness():
 def TzimisceWeakness():
 
     if(__main__.G.TzimisceRested == 1):
-        TZIMISCE_MAX_COUNT = 16		# time if Tzimisce  pc already sleep in heaven : Default 5 min
+        TZIMISCE_MAX_COUNT = 160		# time if Tzimisce  pc already sleep in heaven : Default 5 min
         __main__.G.TzimisceCounter = __main__.G.TzimisceCounter + 1
      	
         if(__main__.G.TzimisceCounter >= TZIMISCE_MAX_COUNT):       
@@ -3295,7 +3295,7 @@ def TzimisceWeakness():
 def NagarajaWeakness():
 
     if(__main__.G.NagarajaFeed == 1):
-        NAGARAJA_MAX_COUNT = 16		# time if nagaraja pc already feed : Default 5 min
+        NAGARAJA_MAX_COUNT = 25		# time if nagaraja pc already feed : Default 5 min
         __main__.G.NagarajaCounter = __main__.G.NagarajaCounter + 1
      	
         if(__main__.G.NagarajaCounter >= NAGARAJA_MAX_COUNT):       
